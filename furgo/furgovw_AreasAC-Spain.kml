@@ -1,0 +1,1861 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Spain</description>
+        <Placemark>
+            <name>Corral de los Juncos (Tejeda)  gratuito si, agua:si, wc:si</name>
+            <address>Unnamed Road, 35369 Vega de San Mateo, Las Palmas, Spain</address>
+            <Point>
+                <coordinates>-15.58812,27.97589</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Castellar de la Frontera  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>Calle las Rosas, 2, 11350 Castellar de la Frontera, Cádiz, Spain</address>
+            <Point>
+                <coordinates>-5.42141,36.28332</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac El Puerto de Sta Maria  (Area privada;6eur/noche;Agua:no;Wc:no;Vaciado:Si;Elec:no)</name>
+            <address>Av. de Europa, 11500 El Puerto de Sta María, Cádiz, Spain</address>
+            <Point>
+                <coordinates>-6.22103,36.59877</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Almerimar (El Eljido)  (Precio:8eur/24h;Agua:si;Wc:si;Vaciado:si;Elec:si;Duchas)</name>
+            <address>Calle del Faro, 1, 04711 El Ejido, Almería, Spain</address>
+            <Point>
+                <coordinates>-2.79397,36.69709</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ACs El Bosque  Agua: Si/Vaciado: Si/Gratuita</name>
+            <address>A-372, 11670 El Bosque, Cádiz, Spain</address>
+            <Point>
+                <coordinates>-5.50707,36.7569</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Cabo de Gata Park  (7eur/noche;Agua:si;Wc:si;Vaciado:si;Area privada)</name>
+            <address>AL-3108, 04117 Níjar, Almería, Spain</address>
+            <Point>
+                <coordinates>-2.14961,36.81611</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Olvera (Via verde de la Sierra)  (Gratuito;Agua:si(5eur);Wc:no;Vaciado:si;Elec:si)</name>
+            <address>Calle Estacion, 22, 11690 Olvera, Cádiz, Spain</address>
+            <Point>
+                <coordinates>-5.25306,36.94139</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Sierra Nevada  (5eur/24h;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Urbanizacion Solynieve, 210, 18196 Monachil, Granada, Spain</address>
+            <Point>
+                <coordinates>-3.39364,37.09937</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Abla-Montagon  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elect:no)</name>
+            <address>Calle Montagon, 5, 04510 Abla, Almería, Spain</address>
+            <Point>
+                <coordinates>-2.77737,37.15425</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Huetor-Tajar  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elect:no)</name>
+            <address>Ctra. Granada Sevilla, 1, 18360 Huétor Tájar, Granada, Spain</address>
+            <Point>
+                <coordinates>-4.03972,37.18611</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Venta del Dolar  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:no)</name>
+            <address>Camino de los Terrenos, 18512 Dólar, Granada, Spain</address>
+            <Point>
+                <coordinates>-2.98435,37.1952</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Indalo   (10eur/noche;Agua:si;Wc:si;Vaciado:no;Elec:?)</name>
+            <address>Unnamed Road, Vera, Almería, Spain</address>
+            <Point>
+                <coordinates>-1.85359,37.26221</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Sevilla  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>Av. García Morato, 2C, 41011 Sevilla, Spain</address>
+            <Point>
+                <coordinates>-5.9939,37.3662</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de ACs de Priego  Agua Si/Vaciado Si/WC Si/Gratuita</name>
+            <address>Calle Carrusel, 14800 Priego de Córdoba, Córdoba, Spain</address>
+            <Point>
+                <coordinates>-4.21184,37.44227</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ACs Cabra  Agua: Si/Vaciado: Si/Gratuita</name>
+            <address>Calle Geólogo W. Kilian, 16, 14940 Cabra, Córdoba, Spain</address>
+            <Point>
+                <coordinates>-4.42401,37.46667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Villa Brisa (Calnegre)  (Tarifa:7eur/dia;Agua:si;Wc:no;Vaciado:si;Elect:?)</name>
+            <address>RM-D21, 30876 Lorca, Murcia, Spain</address>
+            <Point>
+                <coordinates>-1.43387,37.52579</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Venta del Peral  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elect:no)</name>
+            <address>Agregado Venta del Peral, 1, 18891 Venta del Peral, Granada, Spain</address>
+            <Point>
+                <coordinates>-2.60706,37.55659</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Valverde del Camino  Gratuito Si, Agua Si, WC No</name>
+            <address>Ctra. Zalamea, 22, 21600 Valverde del Camino, Huelva, Spain</address>
+            <Point>
+                <coordinates>-6.75165,37.58107</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Alcaudete ( Jaen )  gratuito: si, agua: si, wc:no</name>
+            <address>Calle las Torres, 12, 23660 Alcaudete, Jaén, Spain</address>
+            <Point>
+                <coordinates>-4.08879,37.59001</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Cartagena  (Precio:11eur/noche;Agua:si;Wc:si;Vaciado:si;Elec:si)</name>
+            <address>Carr. de Tentegorra, 2W, 30205 Cartagena, Murcia, Spain</address>
+            <Point>
+                <coordinates>-1.00549,37.61503</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camperstop SierraespuÃ±a (Totana)  (7eur/noche;Agua:si;Wc:no;Vaciado:si;Eletr:si)</name>
+            <address>Lugar Costera, 362, 30850, Murcia, Spain</address>
+            <Point>
+                <coordinates>-1.48127,37.78394</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac La Puebla de Don Fadrique  (Gratuito;Agua:si;wc:no;Vaciado:Si;Elec:no)</name>
+            <address>Av. el Jarama, 1, 18820 Puebla de Don Fadrique, Granada, Spain</address>
+            <Point>
+                <coordinates>-2.4313,37.9593</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Baeza  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>Calle Manuel Acero, 6-20, 23440 Baeza, Jaén, Spain</address>
+            <Point>
+                <coordinates>-3.45957,37.99629</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camper park Casablanca (Zeneta)  (Area Ac privada;11eur/24h;Agua,Wc,Sumideros)</name>
+            <address>F-16, 648, 30588 Murcia, Spain</address>
+            <Point>
+                <coordinates>-1.01922,38.002</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Ubeda  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>Travesía Comendador Messias, 5, 23400 Úbeda, Jaén, Spain</address>
+            <Point>
+                <coordinates>-3.37933,38.0065</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camperpark Huerta de Murcia  (Tarifa:12eur/noche;Area privada;Agua,wc,vaciado,electr..)</name>
+            <address>Diseminado Conde Almodovar, 82, 30580 Murcia, Spain</address>
+            <Point>
+                <coordinates>-1.04332,38.00765</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Alameda del Parral (Alanis)  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Paseo Alameda del Parral, 38, 41380 Alanís, Sevilla, Spain</address>
+            <Point>
+                <coordinates>-5.71036,38.03745</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Mula  (Gratuito;Agua:Si;Wc:no;Vaciado:si;Elect:?)</name>
+            <address>Calle de Leon Saavedra, 3, 30170 Mula, Murcia, Spain</address>
+            <Point>
+                <coordinates>-1.48139,38.03972</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Lorqui  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Calle Clara Campoamor, 30564 Lorquí, Murcia, Spain</address>
+            <Point>
+                <coordinates>-1.25806,38.07944</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Ceuti  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>Calle Río Guadalentín, 34, 30562 Ceutí, Murcia, Spain</address>
+            <Point>
+                <coordinates>-1.26612,38.08146</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camper Park San Fulgencio  (Tarifa:10eur/dia;Agua,Wc,vaciado,elect,wifi..)</name>
+            <address>Calle Mar Cantabrico, 03177 San Fulgencio, Alicante, Spain</address>
+            <Point>
+                <coordinates>-0.66,38.12092</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Fregenal de la Sierra  (Gratuito;Agua:si;vaciado:si;WC:si; electric;no)</name>
+            <address>Carretera Jerez de los Caballeros, 1, 06340 Fregenal de la Sierra, Badajoz, Spain</address>
+            <Point>
+                <coordinates>-6.64944,38.16982</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Europa Area (Santa Pola)  Tarifa: 10 eur/noche; Agua: si; Wc: si; Grises: si; wifi</name>
+            <address>Carrer Electricistas, 29, 03130 Pol. Ind., Alicante, Spain</address>
+            <Point>
+                <coordinates>-0.57419,38.20814</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camper Area Campello Beach   (14eur/noche;Agua:si;WC:si;Electr.:si 3eur;Ducha:si)</name>
+            <address>Calle Juan de la Cierva, 223, 03560 El Campello, Alicante, Spain</address>
+            <Point>
+                <coordinates>-0.41007,38.39479</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ACs Zafra  Agua Si/Vaciado Si/WC Si/Gratuito</name>
+            <address>Ctra. Santos, 4, 06300 Zafra, Badajoz, Spain</address>
+            <Point>
+                <coordinates>-6.41077,38.42517</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pista Central Tenis Benidorm  Tarifa: 12 eur/noche; Agua: si; Wc: si; Grises: si; Elec: si</name>
+            <address>Senderò de la Barrina, 2, 03503 l'Alfàs del Pi, Alicante, Spain</address>
+            <Point>
+                <coordinates>-0.08362,38.56002</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Paraiso Camper (Calpe)  (12eur/24h;Agua:si;Wc:si;Vaciado:si;Elec:si 2 eur)</name>
+            <address>Calle Almendros, 11, 03710 Calp, Alicante, Spain</address>
+            <Point>
+                <coordinates>0.06661,38.649</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Badajoz  (Gratuito;Agua:si;WC:si;Vaciado:si;Elect:no)</name>
+            <address>Travesía Camino San Vicente Viejo, 2, 06007 Badajoz, Spain</address>
+            <Point>
+                <coordinates>-6.97873,38.88471</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Camper Park Km Zero LAlqueria de la Comtes  (12 eur/24 h.;Agua:si;vaciado:si;WC:si; Duchas:si; elect:si)</name>
+            <address>Carrer Metge Panella, 4, 46715 L'Alqueria de la Comtessa, Valencia, Spain</address>
+            <Point>
+                <coordinates>-0.1527,38.93856</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Don Benito  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Av. del Deporte, 19, 06400 Don Benito, Badajoz, Spain</address>
+            <Point>
+                <coordinates>-5.86314,38.96264</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Hort de Soriano (Carcaixent)  (Gratuito;Agua:si;vaciado:si;WC:si; electric;no)</name>
+            <address>Partida de l'Ombria de la Timona, 1, 46792 Carcaixent, Valencia, Spain</address>
+            <Point>
+                <coordinates>-0.4098,39.06956</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Bicorp  (5euros/24h Agua:Si WC:Si)</name>
+            <address>Carr. Millares, 9, 46825 Bicorp, Valencia, Spain</address>
+            <Point>
+                <coordinates>-0.79065,39.13286</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Jalance  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Pol. Ind. el Cerro, 46624 Jalance, Valencia, Spain</address>
+            <Point>
+                <coordinates>-1.07611,39.18758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Puerto Lapice  (Gratuito;Agua:si;wc:no;Vaciado:si;Elec:si)</name>
+            <address>Calle Sierrecilla, 15, 13650 Puerto Lápice, Cdad. Real, Spain</address>
+            <Point>
+                <coordinates>-3.48327,39.32651</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Logrosan  Gratuito; Agua: si; Wc: no</name>
+            <address>Calle Palomar, 2, 10120 Logrosán, Cáceres, Spain</address>
+            <Point>
+                <coordinates>-5.47919,39.33305</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Puerto Roque  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>CC-154, 10514 Valencia de Alcántara, Cáceres, Spain</address>
+            <Point>
+                <coordinates>-7.27758,39.34073</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Alcazar de San Juan  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>Av. Constitución, 2, 13600 Alcázar de San Juan, Cdad. Real, Spain</address>
+            <Point>
+                <coordinates>-3.21934,39.38959</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC La Celadilla, San Clemente  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>Ctra. Cementerio, 17, 16600 San Clemente, Cuenca, Spain</address>
+            <Point>
+                <coordinates>-2.43577,39.39714</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de ACs de Caceres  Gratuito: Si, Pernocta: Si Agua: Si WC:si</name>
+            <address>Av. de las Delicias, 20, 10004 Cáceres, Spain</address>
+            <Point>
+                <coordinates>-6.37121,39.47993</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Bétera  (12eu/24h,agua,wc,elec)</name>
+            <address>Calle Universo, 561, 46117 Bétera, Valencia, Spain</address>
+            <Point>
+                <coordinates>-0.44537,39.57951</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Castillo de GarcimuÃ±oz  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>Calle Santiago, 2, 16623 Castillo de Garcimuñoz, Cuenca, Spain</address>
+            <Point>
+                <coordinates>-2.38315,39.66098</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Benageber  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>CV-3930, 46173 Benagéber, Valencia, Spain</address>
+            <Point>
+                <coordinates>-1.10108,39.70905</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Segorbe  (Gratuito;Agua:si;Wc:no;Vaciado:si;Electr:no)</name>
+            <address>Sector Estación, 21, 12400 Segorbe, Castellón, Spain</address>
+            <Point>
+                <coordinates>-0.48167,39.84806</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Recinto ferial (Es Mercadall)  (8 euros;Agua:si;vaciado:si;WC:si; electric;si; duchas:si)</name>
+            <address>Me-1, 30, 07740 Es Mercadal, Islas Baleares, Spain</address>
+            <Point>
+                <coordinates>4.09242,39.98514</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Ucles  (Gratuito;Agua:si;Wc:si;Vaciado:Si;Elect:no)</name>
+            <address>Unnamed Road, 16452 Uclés, Cuenca, Spain</address>
+            <Point>
+                <coordinates>-2.85972,39.98667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Torrebaja  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Calle Cantón, 27, 46143 Torre Baja, Valencia, Spain</address>
+            <Point>
+                <coordinates>-1.25381,40.09388</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Torre de Don Miguel  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Ronda Este, 13, 10864 Torre de Don Miguel, Cáceres, Spain</address>
+            <Point>
+                <coordinates>-6.57148,40.22075</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Pinto  (Gratuito:No.Agua:Si WC:Si)</name>
+            <address>Parque Juan Carlos I, 10, 28320 Pinto, Madrid, Spain</address>
+            <Point>
+                <coordinates>-3.6907,40.2383</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Buendia  (5 eur/24h;Agua:si;vaciado:si;WC:si; electric;no)</name>
+            <address>CM-2000, 16512 Buendía, Cuenca, Spain</address>
+            <Point>
+                <coordinates>-2.76267,40.36809</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC parking Els Daus (PeÃ±iscola)  (6 eur/24 h;Agua:si;vaciado:si;WC:si; electric;no)</name>
+            <address>Plaça Poligono 6B, 372, 12598 Peníscola, Castelló, Spain</address>
+            <Point>
+                <coordinates>0.40647,40.37837</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC La Salzadella  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Av. Tomàs Molins, 32, 12186 La Salzadella, Castelló, Spain</address>
+            <Point>
+                <coordinates>0.1727,40.41604</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac La Alberca  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:no)</name>
+            <address>Av. Batuecas, 18, 37624 La Alberca, Salamanca, Spain</address>
+            <Point>
+                <coordinates>-6.11623,40.48848</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Cantavieja  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:?)</name>
+            <address>Calle las Eras, 53, 44140 Cantavieja, Teruel, Spain</address>
+            <Point>
+                <coordinates>-0.40742,40.52591</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Planes del Reine  (8eur/noche;Agua:si;Wc:si;Vaciado:si;Duchas:si;Elec:si)</name>
+            <address>CV-11, 12320 Sant Jordi, Castellón, Spain</address>
+            <Point>
+                <coordinates>0.39331,40.57582</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Morella  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Diseminado Diseminados, 12, 12300 Morella, Castelló, Spain</address>
+            <Point>
+                <coordinates>-0.09144,40.62407</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac L Encanyissada  Gratuito;Agua: si (3 eur.); Wc: si: Sumidero grises y negras</name>
+            <address>Unnamed Road, 43870 Amposta, Tarragona, Spain</address>
+            <Point>
+                <coordinates>0.67527,40.65913</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Els Muntells  (6eur/noche;Agua: si(3eur);Wc:si;Vaciado:si)</name>
+            <address>Carrer Major, 221, 43879 Els Muntells, Tarragona, Spain</address>
+            <Point>
+                <coordinates>0.75929,40.66869</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Agrobotiga del Delta  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Carrer Girona, 14, 43580 Deltebre, Tarragona, Spain</address>
+            <Point>
+                <coordinates>0.72158,40.72556</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Tortosa  Gratuito; Agua: si; Wc: no; Grises: si; negras: si; Electr: no</name>
+            <address>Carrer del Mig, 34, 43518 Tortosa, Tarragona, Spain</address>
+            <Point>
+                <coordinates>0.51417,40.80278</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Valderrobres  Gratuito: Si  Agua potable: Si WC: No Sumidero de grises: Si Sumidero de negras: Si Electricidad: No</name>
+            <address>Calle Elvira Hidalgo, 3A, 44580 Valderrobres, Teruel, Spain</address>
+            <Point>
+                <coordinates>0.15556,40.87389</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Palazuelos de Eresma  Gratuito: si, Agua: Si, WC: no</name>
+            <address>Calle las Zarzas, 9, 40194 Palazuelos de Eresma, Segovia, Spain</address>
+            <Point>
+                <coordinates>-4.05689,40.92898</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Segovia  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:no)</name>
+            <address>Calle Campo Azalvaro, 40005 Segovia, Spain</address>
+            <Point>
+                <coordinates>-4.10818,40.94103</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Andorra  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:?)</name>
+            <address>Calle Estación de Atocha, 5, 44500 Andorra, Teruel, Spain</address>
+            <Point>
+                <coordinates>-0.44725,40.98399</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Corbera d Ebre  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>Carrer Santa Madrona, 19, 43784 Corbera d'Ebre, Tarragona, Spain</address>
+            <Point>
+                <coordinates>0.47559,41.07458</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Port Aventura  (25eur/noche;Agua:si;Wc:si;Vaciado:si;Elec:si)</name>
+            <address>Camí de la Pedrera, 765, 43480 Vila-seca, Tarragona, Spain</address>
+            <Point>
+                <coordinates>1.15365,41.09357</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Albalate del Arzobispo  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>Ronda del Pintor Gárate, 18-20, 44540 Albalate del Arzobispo, Teruel, Spain</address>
+            <Point>
+                <coordinates>-0.50825,41.12133</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC El Masroig  (Gratuito;Agua:si;WC:si)</name>
+            <address>Passeig de l'Arbre, 1A, 43736 El Masroig, Tarragona, Spain</address>
+            <Point>
+                <coordinates>0.73375,41.12671</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Turegano  Gratuito; Agua: si; Wc: no</name>
+            <address>Calle Segovia, 6A, 40370 Turégano, Segovia, Spain</address>
+            <Point>
+                <coordinates>-4.00859,41.15342</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Medinaceli  Gratuito; Agua: si; Wc: no</name>
+            <address>Calle Campo de San Nicolás, 14, 42240 Medinaceli, Soria, Spain</address>
+            <Point>
+                <coordinates>-2.43203,41.17138</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC El Catllar  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Carr. del Catllar, 43764 El Catllar, Tarragona, Spain</address>
+            <Point>
+                <coordinates>1.32661,41.17643</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Ascó  Gratuito:Si Agua:Si WC:No Electric:No</name>
+            <address>C-12, 43791 Ascó, Tarragona, Spain</address>
+            <Point>
+                <coordinates>0.56835,41.18698</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Bellvei del Penedes  (Gratuito:no(8eur/noche);Agua:si;Wc:si;Vaciado:si;Elec:no)</name>
+            <address>Unnamed Road, 43719 Bellvei, Tarragona, Spain</address>
+            <Point>
+                <coordinates>1.56985,41.24624</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Alcover  (5eur/noche;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Av. Catalunya, 2, 43460 Alcover, Tarragona, Spain</address>
+            <Point>
+                <coordinates>1.1729,41.26326</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area del Penedes  Agua Si/Vaciado Si/WC Si/Gratuito</name>
+            <address>TP-2124, 6, 43711 Banyeres del Penedès, Tarragona, Spain</address>
+            <Point>
+                <coordinates>1.58177,41.28071</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parque tematico del Mudejar (Olmedo)  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>Camino Álamo, 2, 47410 Olmedo, Valladolid, Spain</address>
+            <Point>
+                <coordinates>-4.68193,41.29165</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Cariñena  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:no)</name>
+            <address>Calle del Carmen, 57, 50400 Cariñena, Zaragoza, Spain</address>
+            <Point>
+                <coordinates>-1.23041,41.33796</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Vilafranca del Penedes  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Carrer Eugeni d'Ors, 91, 08720 Vilafranca del Penedès, Barcelona, Spain</address>
+            <Point>
+                <coordinates>1.69125,41.34035</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Calatayud  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Calle Fernández Ardavín, 3D, 50300 Calatayud, Zaragoza, Spain</address>
+            <Point>
+                <coordinates>-1.64679,41.35056</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Colonia Guell  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Barri de Can Julià, 14, 08690 La Colònia Güell, Barcelona, Spain</address>
+            <Point>
+                <coordinates>2.02558,41.36527</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Masia Can Batlle (AvinyÃ³ Nou)  Gratuito; Agua: si; Wc: no; Grises: si; Electr: no</name>
+            <address>Unnamed Road, 08793, Barcelona, Spain</address>
+            <Point>
+                <coordinates>1.77321,41.36806</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Vallirana  (Gratuito.Agua:Si WC:No)</name>
+            <address>Carrer Verge del Roser, 21, 08759 Vallirana, Barcelona, Spain</address>
+            <Point>
+                <coordinates>1.92724,41.38233</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC  de LEspluga de Francoli  (Gratuito;Agua:1eur; Electric:1 eur; vaciado:si; WC:si)</name>
+            <address>Camí dels Horts, 3, 43440 L'Espluga de Francolí, Tarragona, Spain</address>
+            <Point>
+                <coordinates>1.10464,41.39847</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de ac Cuellar  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:no)</name>
+            <address>Calle Vallelado, 2X, 40200 Cuéllar, Segovia, Spain</address>
+            <Point>
+                <coordinates>-4.32033,41.40168</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Forum Barcelona  gratuito: no, agua:si, wc:si</name>
+            <address>Carrer Sant Ramon de Penyafort, 1U, 08019 Barcelona, Spain</address>
+            <Point>
+                <coordinates>2.22206,41.41314</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC La Guardia dels Prats  (10eur/noche;Agua:si;WC:si;Electricidad:si)</name>
+            <address>C-14, 43410 Montblanc, Tarragona, Spain</address>
+            <Point>
+                <coordinates>1.1727,41.41435</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Citystopbcn  (30eur/noche;Agua:si;WC:si;Elect:4eur;Duchas)</name>
+            <address>Rambla de Guipúscoa, 171, 08020 Barcelona, Spain</address>
+            <Point>
+                <coordinates>2.20726,41.42423</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Pineda de Mar  (10eur,WC:no, Elect:no,Wifi, duchas:no)</name>
+            <address>Carrer Tarragona, 27-35, 08397 Pineda de Mar, Barcelona, Spain</address>
+            <Point>
+                <coordinates>2.68943,41.62198</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de Montseny  Agua Si/Vaciado Si/WC Si/Gratuito</name>
+            <address>C-35, 08450 Llinars del Vallès, Barcelona, Spain</address>
+            <Point>
+                <coordinates>2.40798,41.63603</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Valladolid  Gratuito: si; Agua: si; Wc: no</name>
+            <address>Av. Ramón Pradera, 4, 47009 Valladolid, Spain</address>
+            <Point>
+                <coordinates>-4.73697,41.65579</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aranda de Duero  Gratuito; Agua: si; Wc: no</name>
+            <address>Av. Ruperta Baraya, 09400 Aranda de Duero, Burgos, Spain</address>
+            <Point>
+                <coordinates>-3.69556,41.66849</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Cervera  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Av. Francesc Macià, 76, 25200 Cervera, Lleida, Spain</address>
+            <Point>
+                <coordinates>1.28364,41.67803</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Catalana de Calaf   (10eur/noche;Agua:si(3eur);Wc:no;Vaciado:si(3eur);Elec:si)</name>
+            <address>Carrer Thomas Edison, 6, 08280 Calaf, Barcelona, Spain</address>
+            <Point>
+                <coordinates>1.52606,41.72947</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Calaf  Gratuito:Si Agua:Si WC:No Elec:No</name>
+            <address>Carrer Carrilet, 08280 Calaf, Barcelona, Spain</address>
+            <Point>
+                <coordinates>1.51397,41.73494</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Las Postas de La Joyosa  Gratuito;Agua:si; Wc:si;gasolinera con parking vigilado</name>
+            <address>Diseminado, 50692 La Joyosa, Zaragoza, Spain</address>
+            <Point>
+                <coordinates>-1.06557,41.73708</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Navarcles  Gratuito; Agua: si; Wc: no</name>
+            <address>Calle 137, 08270 Navarcles, Barcelona, Spain</address>
+            <Point>
+                <coordinates>1.90929,41.75669</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sant Feliu de Guixols  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Ronda Narcís Massanas, 15, 17220 Sant Feliu de Guíxols, Girona, Spain</address>
+            <Point>
+                <coordinates>3.02288,41.77989</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Bon Area Guissona  (Gratuito;Agua:si;Wc:si)</name>
+            <address>L-313, 25210 Guissona, Lleida, Spain</address>
+            <Point>
+                <coordinates>1.27773,41.78121</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Sils  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Carrer de l'Església, 19, 17410 Sils, Girona, Spain</address>
+            <Point>
+                <coordinates>2.74448,41.80704</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Platja d Aro  (8EUR/24h.Agua:Si WC:No)</name>
+            <address>Carrer Roma, 8, 17250 Platja d'Aro, Girona, Spain</address>
+            <Point>
+                <coordinates>3.05792,41.81022</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Arbucies  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Passeig Palacaguina, 4, 17401 Arbúcies, Girona, Spain</address>
+            <Point>
+                <coordinates>2.52043,41.81417</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Hontoria del Pinar  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:no)</name>
+            <address>Calle Cuesta Herrera, 3, 09660 Hontoria del Pinar, Burgos, Spain</address>
+            <Point>
+                <coordinates>-3.16446,41.8439</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Viladrau  Gratuito:Si Agua:Si Electr:no</name>
+            <address>Avinguda Montseny, 6, 17406 Viladrau, Girona, Spain</address>
+            <Point>
+                <coordinates>2.38737,41.84548</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Agreda   (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:no)</name>
+            <address>Calle Jesus Posada Ca, 9005, 42100 Ágreda, Soria, Spain</address>
+            <Point>
+                <coordinates>-1.93007,41.84743</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Autocaravaning Palamos  (13eur/noche;Agua:si;WC:si;Electr.:s 2eur;Ducha:si 1eur)</name>
+            <address>Vial del Port, 17230 Palamós, Gerona, Spain</address>
+            <Point>
+                <coordinates>3.13588,41.85607</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac EmpordArea (Palamos)  (12eur/noche;Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>Carrer Puig Gorgoll, 24, 17230 Palamós, Girona, Spain</address>
+            <Point>
+                <coordinates>3.11505,41.85776</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Tamarite de Litera  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:no)</name>
+            <address>Camino de Tamarite de Litera a Alfarrás, 22550 Tamarite de Litera, Huesca, Spain</address>
+            <Point>
+                <coordinates>0.428,41.86307</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Sant Hilari Sacalm  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>Ctra. de la Font Picant, 33, 17403 Sant Hilari Sacalm, Girona, Spain</address>
+            <Point>
+                <coordinates>2.50802,41.88429</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac San Esteban de Litera   (Gratuito;Agua:si;Wc:si;Vaciado:si;Elect:?)</name>
+            <address>Ctra. San Esteban a Purroy, 22512 San Esteban de Litera, Huesca, Spain</address>
+            <Point>
+                <coordinates>0.33159,41.90606</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac La Ampudia  (Gratuito;Agua:si;wc:no;Vaciado:si;Elec:?)</name>
+            <address>Camino de Ampudia a Mucientes, 34191 Ampudia, Palencia, Spain</address>
+            <Point>
+                <coordinates>-4.78079,41.91119</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Monzon  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Calle Valle de Ordesa, 7, 22400 Monzón, Huesca, Spain</address>
+            <Point>
+                <coordinates>0.18939,41.91864</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Parc de les set fonts  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Rambla del Castell, 12, 08504 Sant Julià de Vilatorta, Barcelona, Spain</address>
+            <Point>
+                <coordinates>2.32174,41.92158</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Entrimo  Gratuito; Agua: si; Wc: no</name>
+            <address>Lugar a Terrachan, 71, 32860 Entrimo, Ourense, Spain</address>
+            <Point>
+                <coordinates>-8.12141,41.93261</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Vic  (Tarifa:5eur/noche;Agua:si(2eur);Wc:si;Vaciado:si;Elect:si(6eur))</name>
+            <address>Plaça Castell Planes-Zesport, 2, 08503 Vic, Barcelona, Spain</address>
+            <Point>
+                <coordinates>2.24112,41.93452</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Quart d Onyar   (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Avinguda de la Bòbila, 5, 17242 Quart, Girona, Spain</address>
+            <Point>
+                <coordinates>2.83923,41.93956</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Duruelo de la Sierra  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Ctra. Castroviejo, 1, 42158 Duruelo de la Sierra, Soria, Spain</address>
+            <Point>
+                <coordinates>-2.92624,41.9526</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Termoludico Cascante  Gratuito; Agua: si; Wc: no</name>
+            <address>Calle Fundacion Fuentes Dutor, 36, 31520 Cascante, Navarra, Spain</address>
+            <Point>
+                <coordinates>-1.68778,41.99417</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Tavertet  (7eur/24h.;Agua:si;vaciado:si;WC:No; Duchas:No; elect:si)</name>
+            <address>Paseig de Jaume Balmes, 45, 08511 Tavertet, Barcelona, Spain</address>
+            <Point>
+                <coordinates>2.41583,41.99468</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de Ac Isla dos Aguas (Palencia)  Gratuito: Si, Pernocta: Si Agua:  Si WC:No</name>
+            <address>Av. Isla Dos Aguas, 12B, 34005 Palencia, Spain</address>
+            <Point>
+                <coordinates>-4.53493,42.00401</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Torquemada  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:no)</name>
+            <address>Calle Cementerio, 31, 34230 Torquemada, Palencia, Spain</address>
+            <Point>
+                <coordinates>-4.31611,42.03667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tuy  Gratuito: si Pernocta: si WC: no Agua:si</name>
+            <address>Ponte Tripes, 2, 36700 Tui, Pontevedra, Spain</address>
+            <Point>
+                <coordinates>-8.6465,42.04335</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Massis del Montgri  (10eur/noche;Agua:si;WC:si;Electr:si;Duchas:si)</name>
+            <address>Camí Vell d'Ullà, 455, 17141 Ullà, Girona, Spain</address>
+            <Point>
+                <coordinates>3.09813,42.07503</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Tallada d Emporda  (12 eur/24 h.;Agua:si;vaciado:si;WC:no; electric;si)</name>
+            <address>Carrer Sant Joan de Pladecorts, 11, 17134 La Tallada d'Empordà, Gerona, Spain</address>
+            <Point>
+                <coordinates>3.05739,42.08313</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC As Neves  (Gratuito;Agua:si;Vaciado:si;Elect:no;Wc:no)</name>
+            <address>Praza Santo Agostiño, 7, 36440 As Neves, Pontevedra, Spain</address>
+            <Point>
+                <coordinates>-8.41389,42.08722</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac del camping Lava (Santa Pau)  Tarifa: 11 eur/noche; Agua:si; Wc: si; Grises: si; Elec: si</name>
+            <address>Unnamed Road, 17811 Santa Pau, Girona, Spain</address>
+            <Point>
+                <coordinates>2.54679,42.1523</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac de Tremp  Gratuito; agua: si; Wc: no</name>
+            <address>Carrer Acadèmia General Bàsica de Suboficiales, 25620 Tremp, Lleida, Spain</address>
+            <Point>
+                <coordinates>0.89043,42.16312</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Arguedas  (Gratuito;Agua:si(de pago);Wc:no;Vaciado:si;Elec:de pago)</name>
+            <address>Calle Val, 65, 31513 Arguedas, Navarra, Spain</address>
+            <Point>
+                <coordinates>-1.59155,42.17361</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Ripoll  (Gratuito;Agua:si;Wc:no;Vaciado:Si;Electr:no)</name>
+            <address>Ronda de Mas d'en Bosch, 17500 Ripoll, Girona, Spain</address>
+            <Point>
+                <coordinates>2.19365,42.20253</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Arnedillo  Gratuito; Agua: si; Wc: si</name>
+            <address>Calle Miguel del Pozo, 1195, 26589 Arnedillo, La Rioja, Spain</address>
+            <Point>
+                <coordinates>-2.23987,42.21404</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de Cartelle (Ourense)  Gratuito: si, Agua: si, Wc: no</name>
+            <address>OU-0214, 114, 32824 Cartelle, Orense, Spain</address>
+            <Point>
+                <coordinates>-8.03306,42.21444</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Sant Joan de les Abadesses  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Passeig de l'Estació, 5, 17860 Sant Joan de les Abadesses, Girona, Spain</address>
+            <Point>
+                <coordinates>2.28421,42.23567</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac les 5 Fonts  (Gratuito,Agua:si,Wc:no,Vaciado:si)</name>
+            <address>Passeig de l'Estació, 5, 17860 Sant Joan de les Abadesses, Girona, Spain</address>
+            <Point>
+                <coordinates>2.28419,42.23575</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC La Pobla de Segur  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Avinguda del Camp de la Sala, 25500 La Pobla de Segur, Lleida, Spain</address>
+            <Point>
+                <coordinates>0.96624,42.2381</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Fromista  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>Paseo Julio Senador, 20, 34440 Frómista, Palencia, Spain</address>
+            <Point>
+                <coordinates>-4.41215,42.26485</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC O Igrexario  (12 Euros;Agua:si;vaciado:si;WC:si; electric;si 3 eur)</name>
+            <address>Rúa do Igrexario, 36945 O Igrexario, Pontevedra, Spain</address>
+            <Point>
+                <coordinates>-8.83372,42.27555</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Valencia de Don Juan  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Camino los Juncales, 24200 Valencia de Don Juan, León, Spain</address>
+            <Point>
+                <coordinates>-5.5131,42.28755</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Sta Engracia del Jubera  (Acceso dificil;Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Calle el Campanar, 22, 26131 Santa Engracia de Jubera, La Rioja, Spain</address>
+            <Point>
+                <coordinates>-2.30691,42.31606</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Carrion de los Condes  Gratuito: Si Agua: Si WC: No</name>
+            <address>Calle Enrique Fuentes Quintana, 6, 34120 Carrión de los Condes, Palencia, Spain</address>
+            <Point>
+                <coordinates>-4.608,42.33812</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Burgos  (Gratuito;Agua:si;Wc:no;Vaciado:si;Electr:no)</name>
+            <address>Calle Farmacéutico Obdulio Fernández, 09006 Burgos, Spain</address>
+            <Point>
+                <coordinates>-3.68056,42.35139</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac La Seu dUrgell  (Gratuito;Agua;si:Wc:no;Vaciado:si;Electr:si)</name>
+            <address>Partida Sant Ermengol, 25700 La Seu d'Urgell, Lleida, Spain</address>
+            <Point>
+                <coordinates>1.46506,42.35876</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Castro Caldelas  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Travesía da Devesa, 20, 32760 Castro Caldelas, Ourense, Spain</address>
+            <Point>
+                <coordinates>-7.41793,42.37476</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Parada de Sil  Gratuito; Agua: si; Wc: si</name>
+            <address>Travesía Ctra. Castro, 32740 Parada de Sil, Orense, Spain</address>
+            <Point>
+                <coordinates>-7.57146,42.38278</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pontecaldelas  Gratuito; Agua: si; Grises: si; Negras: si; Wc: no; Elect: no</name>
+            <address>Praza Chan da Barcia, 36820 Ponte Caldelas, Pontevedra, Spain</address>
+            <Point>
+                <coordinates>-8.49938,42.38884</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac A Rua  Gratuito; Agua: si; Wc: no; Grises: si; Negras: si; Electr: no</name>
+            <address>Rúa da Noria, 32350 A Rúa, Ourense, Spain</address>
+            <Point>
+                <coordinates>-7.11513,42.38907</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Falces  (Gratuito;Agua:si;Wc:no;Vaciado:si;Electr:no)</name>
+            <address>Calle Mota, 2, 31370 Falces, Navarra, Spain</address>
+            <Point>
+                <coordinates>-1.79573,42.39275</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Luintra  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>Camiño Grupo Escolar, 33, 32160 Luintra, Ourense, Spain</address>
+            <Point>
+                <coordinates>-7.72207,42.40932</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Sanxenxo  (Area privada;10eur/noche;Agua:si;Wc:si;Vaciado:si;Elec:si)</name>
+            <address>PO-308, 159, 36990 Sanxenxo, Pontevedra, Spain</address>
+            <Point>
+                <coordinates>-8.86183,42.40952</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Pontevedra  (Gratuito;Agua:si; Wc:no;Vaciado:si;Elect:?)</name>
+            <address>Paseo Enxeñeiro Rafael Areses, 36005 Pontevedra, Spain</address>
+            <Point>
+                <coordinates>-8.63914,42.43486</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Rialp  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Carrer C, 15, 25594 Rialp, Lleida, Spain</address>
+            <Point>
+                <coordinates>1.13397,42.43908</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac A Peroxa  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Subida Centro Salud, 22, 32150 A Peroxa, Orense, Spain</address>
+            <Point>
+                <coordinates>-7.79195,42.44155</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Astorga  Gratuito: Si, Pernocta: Si Agua: Si WC:No</name>
+            <address>Ctra. Sanabria, 114, 24700 Astorga, León, Spain</address>
+            <Point>
+                <coordinates>-6.06599,42.45136</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Pena da Mula (Quiroga)  Gratuito; Agua; si; Wc: no; Grises: si; Negras: si; Electr: no</name>
+            <address>Lugar San Pedro, 100, 27310, Lugo, Spain</address>
+            <Point>
+                <coordinates>-7.28626,42.46894</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Logroño  Gratuito; Agua: si; Wc: no; Grises: si</name>
+            <address>Terreno Sector la Arena, 25, 26009 Logroño, La Rioja, Spain</address>
+            <Point>
+                <coordinates>-2.45729,42.47809</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Sos del Rey Catolico  (4eur/noche;Agua:si;wc:si;Vaciado:Si;Elec:no)</name>
+            <address>Calle Letra A, 8, 50680 Sos del Rey Católico, Zaragoza, Spain</address>
+            <Point>
+                <coordinates>-1.21393,42.49142</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Pirenarium (SabiÃ±anigo)  (4eur/noche;Agua:si;Wc:si;Vaciado:si;Elect:si)</name>
+            <address>Zona Fase II, 22609 Sabiñánigo, Huesca, Spain</address>
+            <Point>
+                <coordinates>-0.35694,42.50571</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Elciego  (Gratuito;Agua:si;vaciado:si;WC:si; electric;2 euros/12 h.)</name>
+            <address>Barrihuelo Kalea, 3, 01340 Eltziego, Araba, Spain</address>
+            <Point>
+                <coordinates>-2.61568,42.51499</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac de SaldaÃ±a  Gratuito; Agua: si; wc: no</name>
+            <address>Calle Sauces, 2, 34100 Saldaña, Palencia, Spain</address>
+            <Point>
+                <coordinates>-4.74117,42.51855</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac de Tafalla  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Calle el Saso, 6, 31300 Tafalla, Navarra, Spain</address>
+            <Point>
+                <coordinates>-1.68285,42.52634</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Monforte de Lemos  Gratuito: Si , Pernocta: Si</name>
+            <address>Ronda de María Emilia Casas Baamonde, 27400 Monforte de Lemos, Lugo, Spain</address>
+            <Point>
+                <coordinates>-7.51178,42.52787</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Illa de Arousa   (Area privada;10eur/noche;Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>Barrio as Aceñas, 12, 36626 Illa de Arousa, Pontevedra, Spain</address>
+            <Point>
+                <coordinates>-8.8686,42.53564</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Ponferrada  (Gratuito;Agua:si;Vaciado:siWc:no)</name>
+            <address>Av. el Castillo, 47, 24400 Ponferrada, León, Spain</address>
+            <Point>
+                <coordinates>-6.5869,42.54372</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Casalarreina  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>Plaza Santo Domingo de Guzmán, 5, 26230 Casalarreina, La Rioja, Spain</address>
+            <Point>
+                <coordinates>-2.91472,42.54583</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac S.Vicente de la Sonsierra  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:?)</name>
+            <address>LR-210, 26338 San Vicente de la Sonsierra, La Rioja, Spain</address>
+            <Point>
+                <coordinates>-2.75989,42.55933</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Jaca  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>Calle San Indalecio, 38, 22700 Jaca, Huesca, Spain</address>
+            <Point>
+                <coordinates>-0.54552,42.56766</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Pobra do Brollon  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:no)</name>
+            <address>Unnamed Road, 27336 A Pobra do Brollón, Lugo, Spain</address>
+            <Point>
+                <coordinates>-7.39408,42.56932</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Labastida  (Gratuito;Agua:si;Wc:no;Electr:si(2eur/h))</name>
+            <address>Saigoba Kalea, 18, 01330 Labastida, Araba, Spain</address>
+            <Point>
+                <coordinates>-2.79458,42.58719</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Arroniz  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>Carr. Barbarin, 42, 31243 Arróniz, Navarra, Spain</address>
+            <Point>
+                <coordinates>-2.0957,42.58921</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac León  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:no)</name>
+            <address>Av. los Peregrinos, 3, 24008 León, Spain</address>
+            <Point>
+                <coordinates>-5.58494,42.60462</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de AC de Chantada  Gratuito: si, Agua: si, Wc: no</name>
+            <address>Camiño de Sangoñedo, 27500 Chantada, Lugo, Spain</address>
+            <Point>
+                <coordinates>-7.77989,42.60598</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Mañons (Boiro)  Gratuito; Agua: si; Wc: si</name>
+            <address>Aldea Abanqueiro, 140, 15938 Boiro, A Coruña, Spain</address>
+            <Point>
+                <coordinates>-8.85318,42.63352</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de ac playa de Barraña (Boiro)  (Gratuito; Agua:Si:Wc:en verano)</name>
+            <address>Avenida de Barraña, 37, 15930 Vimieiro, A Coruña, Spain</address>
+            <Point>
+                <coordinates>-8.87961,42.64356</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Ayegui  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:?)</name>
+            <address>Plaza San Pelayo, 4, 31240 Ayegui, Navarra, Spain</address>
+            <Point>
+                <coordinates>-2.0455,42.65421</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ACs Miranda de Ebro  Agua Si/Vaciado Si/WC No/Gratuita</name>
+            <address>Camino de los Pinos, 4, 09200 Miranda de Ebro, Burgos, Spain</address>
+            <Point>
+                <coordinates>-2.95483,42.68846</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Estacion de servicio de Legarda (A-12)  Gratuito; Agua: si (de pago); Wc: si; area de descanso en autovia</name>
+            <address>Autovía Camino de Santiago, 31133 Legarda, Navarra, Spain</address>
+            <Point>
+                <coordinates>-1.7773,42.71085</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Agolada  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Camino Ferreiroa, 21, 36520 Agolada, Pontevedra, Spain</address>
+            <Point>
+                <coordinates>-8.02111,42.75889</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Frias  (6eur/noche;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Calle del Crucero, 3807, 09211 Frías, Burgos, Spain</address>
+            <Point>
+                <coordinates>-3.29598,42.76033</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac A Carixa (Vila de Cruces)  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>PO-6502, 36586 Vila de Cruces, Pontevedra, Spain</address>
+            <Point>
+                <coordinates>-8.25611,42.76222</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac hotel Ekai   Area privada junto a restaurante. Gratuito, agua, wc y duchas.</name>
+            <address>Ctra. Lumbier, 35, 31481 Ecay de Lónguida, Navarra, Spain</address>
+            <Point>
+                <coordinates>-1.38536,42.77624</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Aguilar de Campoo  Gratuito; Agua: si; Wc: no; Grises: si; Elec: no</name>
+            <address>Paseo el Soto, 21, 34800 Aguilar de Campoo, Palencia, Spain</address>
+            <Point>
+                <coordinates>-4.25724,42.7863</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Fogar do Santiso (Teo)  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:no)</name>
+            <address>Unnamed Road, 15883 Teo, A Coruña, Spain</address>
+            <Point>
+                <coordinates>-8.58452,42.79736</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC As Nogais  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>Rúa de Uxío Novo Neira, 2, 27677 As Nogais, Lugo, Spain</address>
+            <Point>
+                <coordinates>-7.10733,42.81034</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Berriozar  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Av. Berriozar, 1, 31013 Berriozar, Navarra, Spain</address>
+            <Point>
+                <coordinates>-1.6652,42.84038</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Carnota  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>AC-550, 38, 15295 Carnota, La Coruña, Spain</address>
+            <Point>
+                <coordinates>-9.09585,42.84105</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Milladoiro  Gratuito: Si, Pernocta: Si, WC: No, Agua: Si</name>
+            <address>Travesía do Porto, 15895 Ames, A Coruña, Spain</address>
+            <Point>
+                <coordinates>-8.58099,42.84532</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Becerreá  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>Parque Empresarial, 27640 Becerreá, Lugo, Spain</address>
+            <Point>
+                <coordinates>-7.15322,42.85283</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Salvatierra-Agurain  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:no)</name>
+            <address>Etxabe Kalea, 24, 01200 Agurain, Araba, Spain</address>
+            <Point>
+                <coordinates>-2.38521,42.85337</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bertamirans  Gratuito: Si, Pernocta: Si, WC: No, Agua: Si</name>
+            <address>Rúa das Pesqueiras, 6, 15220 Bertamiráns, A Coruña, Spain</address>
+            <Point>
+                <coordinates>-8.64876,42.85971</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de servicios para autocaravanas de Vitoria-  gratuito: si, agua: si, wc:no</name>
+            <address>Luis Olariaga Kalea, 7, 01010 Vitoria-Gasteiz, Araba, Spain</address>
+            <Point>
+                <coordinates>-2.68501,42.86667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de Ac Cervera de Pisuerga  gratis: si agua: si wc: no</name>
+            <address>Calle Puente de S. Roque, 47, 34840 Cervera de Pisuerga, Palencia, Spain</address>
+            <Point>
+                <coordinates>-4.49976,42.87147</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Boñar  Gratuito; Agua: si; Wc: no; Grises: si; Negras: si; Electr: no</name>
+            <address>Paseo Parque Soto, 1009, 24850 Boñar, León, Spain</address>
+            <Point>
+                <coordinates>-5.32588,42.87276</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking de autocaravanas del cabo de Finisterre  gratuito: si, agua: no, wc: no</name>
+            <address>AC-445, 15155 Fisterra, La Coruña, Spain</address>
+            <Point>
+                <coordinates>-9.27233,42.88651</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Santiago de Compostela  Gratuito: si Agua: No WC: No</name>
+            <address>Rúa Manuel María, 8A, 15703 Santiago de Compostela, A Coruña, Spain</address>
+            <Point>
+                <coordinates>-8.53028,42.89755</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Negreira  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>Rúa Castelao, 17, 15830 Negreira, A Coruña, Spain</address>
+            <Point>
+                <coordinates>-8.73342,42.91201</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Zegama  (Gratuito;Agua:si;vaciado:si;WC:si; electric;si 3 eur/2h)</name>
+            <address>San Bartolome Kalea, 13, 20215 Zegama, Gipuzkoa, Spain</address>
+            <Point>
+                <coordinates>-2.29271,42.97597</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Lugo  Gratuito; Agua: si; Wc: no</name>
+            <address>Ronda República Argentina, 27002 Lugo, Spain</address>
+            <Point>
+                <coordinates>-7.56139,43.00445</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Casa Funsiquin  (Gratuito;Agua:si;vaciado:si;WC:si; Duchas:si; electric;no)</name>
+            <address>CN-9, 32, 33811 Gedrez, Asturias, Spain</address>
+            <Point>
+                <coordinates>-6.60823,43.01334</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC OÃ±ati  (Gratuito;Agua:si;vaciado:si;WC:si; electric;no)</name>
+            <address>San Martin Zuhaiztia Ibilbidea, 1, 20569 Oñati, Gipuzkoa, Spain</address>
+            <Point>
+                <coordinates>-2.40563,43.02792</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ac Mirandaola. Legazpi  Agua: Si, Wc: Si, Gratuito: Si</name>
+            <address>Telleriarte Diseminado Barreiatua, 8, 20220 Legazpi, Gipuzkoa, Spain</address>
+            <Point>
+                <coordinates>-2.33781,43.03665</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Estacion Invernal Alto Campoo  (Gratuito;Agua:si;WC:si;Vaciado:si;Elec:no)</name>
+            <address>Barrio Brañavieja, 39210, Cantabria, Spain</address>
+            <Point>
+                <coordinates>-4.37073,43.03812</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Espinosa de los Monteros  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:no)</name>
+            <address>BU-570, 09569 Espinosa de los Monteros, Burgos, Spain</address>
+            <Point>
+                <coordinates>-3.55759,43.08566</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Bergara   (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>Telleria Kalea, 6Y, 20570 Bergara, Gipuzkoa, Spain</address>
+            <Point>
+                <coordinates>-2.42424,43.1034</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Tolosa  (Precio:2eur/noche;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Lugar Barrio San Esteban, 27, 20400 San Esteban, Gipuzkoa, Spain</address>
+            <Point>
+                <coordinates>-2.08383,43.13389</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Posada de Valdeon  (8eur/noche;Agua:Si;Wc:si;Vaciado:Si;Elect:si)</name>
+            <address>Calle del Gral Mola, 84, 24915 Posada de Valdeón, León, Spain</address>
+            <Point>
+                <coordinates>-4.91753,43.15212</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Barzana de Quiros  Gratuito:SI llenado y vaciado:Gratuito  Agua potable: Si WC: No grises: Si  negras: Si Tomas de elec</name>
+            <address>Poblado Barzana, 95, 33117 Bárzana, Asturias, Spain</address>
+            <Point>
+                <coordinates>-5.97295,43.15595</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC La Plaza (Teverga)  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>AS-265, 251, 33111 La Plaza, Asturias, Spain</address>
+            <Point>
+                <coordinates>-6.10098,43.15947</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Guitiriz  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:si)</name>
+            <address>Avenida do Balneario, 11, 27300 Guitiriz, Lugo, Spain</address>
+            <Point>
+                <coordinates>-7.87941,43.17727</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Ordoki  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>Barrio Ordoki, 31713 Arizcun, Navarra, Spain</address>
+            <Point>
+                <coordinates>-1.48806,43.17861</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Grandas  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>Av. los Tilos, 1A, 33730 Grandas de Salime, Asturias, Spain</address>
+            <Point>
+                <coordinates>-6.87588,43.21565</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Lanestosa  (5eur/noche;Agua:si;Wc:si;Vaciado:si;Duchas:si;Elec:si)</name>
+            <address>Mirabueno Kalea, 6, 48895 Lanestosa, Bizkaia, Spain</address>
+            <Point>
+                <coordinates>-3.43927,43.2176</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Cosio (Valle de Nansa)  (Area privada;gratuito;agua,wc,vaciado)</name>
+            <address>Barrio Cosío, 18, 39559 Cosío, Cantabria, Spain</address>
+            <Point>
+                <coordinates>-4.39832,43.23353</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lagoa de Cospeito  Agua: Si   WC: No    Gratuito: Si</name>
+            <address>Rúa de Rosalía de Castro, 13, 27377 A Feira do Monte, Lugo, Spain</address>
+            <Point>
+                <coordinates>-7.55564,43.2399</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Zestoa  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>Polígono Sorazu Pol., 3, 20740 Zestoa, Gipuzkoa, Spain</address>
+            <Point>
+                <coordinates>-2.26089,43.24086</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hotel Mirador del Angliru  (5eur/noche;Agua:si;Wc:no;Vaciado:si(3eur);Elect:no)</name>
+            <address>Unnamed Road, 33160, Asturias, Spain</address>
+            <Point>
+                <coordinates>-5.90537,43.24798</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Pola de Laviana  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Calle de Tejera Nte., 17, 33988 Pola de Laviana, Asturias, Spain</address>
+            <Point>
+                <coordinates>-5.56842,43.25484</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Santa Eulalia de Oscos  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>Calle Teresa de Francisco, 33776 Santa Eulalia de Oscos, Asturias, Spain</address>
+            <Point>
+                <coordinates>-7.01861,43.25778</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Kobetamendi (Bilbao)  15eur-dia,Agua Si, WC Si</name>
+            <address>Kobeta, 25, 48002 Bilbao, Bizkaia, Spain</address>
+            <Point>
+                <coordinates>-2.96401,43.25968</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Listorreta  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elect:no)</name>
+            <address>Aldura Gunea Aldea, 58, 20100 Errenteria, Gipuzkoa, Spain</address>
+            <Point>
+                <coordinates>-1.90135,43.26799</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Zarautz  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Aiziazpia Kalea, 6, 20800 Zarautz, Gipuzkoa, Spain</address>
+            <Point>
+                <coordinates>-2.17018,43.27792</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac El Cadaviu (Langreo)  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:no)</name>
+            <address>Calle Puente Carbón, 5D, 33909 Langreo, Asturias, Spain</address>
+            <Point>
+                <coordinates>-5.67451,43.27809</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac El Entrego  (Gratuito;Agua:si;wc:no;Vaciado:si;Elec:no)</name>
+            <address>Av. la Vega, 25A, 33940 San Martín del Rey Aurelio, Asturias, Spain</address>
+            <Point>
+                <coordinates>-5.63889,43.28637</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Zumaia  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Kalea Hegokale, 6W, 20750 Zumaia, Gipuzkoa, Spain</address>
+            <Point>
+                <coordinates>-2.24863,43.29286</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Villalba  Gratuito; Agua: si; Wc: si</name>
+            <address>Av. da Terra Cha, 56, 27810 Vilalba, Lugo, Spain</address>
+            <Point>
+                <coordinates>-7.67702,43.29575</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Illunbe (San Sebastian)  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elect: no)</name>
+            <address>Miramon Pasealekua, 8, 20009 Donostia, Gipuzkoa, Spain</address>
+            <Point>
+                <coordinates>-1.97101,43.29782</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC de Donosti  Gratuito: no, Agua: si, Wc: no</name>
+            <address>Bidea Amezketa, 905, 20018 Donostia, Gipuzkoa, Spain</address>
+            <Point>
+                <coordinates>-2.01442,43.30792</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Villanueva de Oscos   (Gratuito;Agua:si;wc:no;Vaciado:si;Elec:no)</name>
+            <address>AS-13, 6, 33776 Villanueva de Oscos, Asturias, Spain</address>
+            <Point>
+                <coordinates>-6.98628,43.31052</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Bastiagueiro (Oleiros)  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>Rúa Marcial del Adalid, 1A, 15179 Muíño do Vento, A Coruña, Spain</address>
+            <Point>
+                <coordinates>-8.35468,43.33976</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Folgueirou (Illano)  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no, piscina, bar)</name>
+            <address>Aldea Cimadevilla, 25A, 33734, Asturias, Spain</address>
+            <Point>
+                <coordinates>-6.8519,43.34309</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ACs Lierganes</name>
+            <address>Calle Lierganes, 32, 39727 Liérganes, Cantabria, Spain</address>
+            <Point>
+                <coordinates>-3.74168,43.34486</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Cangas de Onis  Gratuito: Si, Pernocta: Si, WC: No, Agua: Si</name>
+            <address>Calle Picos de Europa, 33550 Cangas de Onís, Asturias, Spain</address>
+            <Point>
+                <coordinates>-5.12553,43.3526</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Sada  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Avenida do Porto, 2, 15160 Sada, A Coruña, Spain</address>
+            <Point>
+                <coordinates>-8.25381,43.35474</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>A Pontenova  Gratuito; Agua: si; Wc: No</name>
+            <address>Estrada Figueirúa, 3, 27728 A Pontenova, Lugo, Spain</address>
+            <Point>
+                <coordinates>-7.18561,43.35529</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cabarceno</name>
+            <address>Calle Corraliza, 21, 39627 Penagos, Cantabria, Spain</address>
+            <Point>
+                <coordinates>-3.81972,43.35802</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Lekeitio  Gratuito; Agua: si; Grises: si; Electr: no</name>
+            <address>Iñigo Artieta Etorbidea, 4, 48280 Lekeitio, Bizkaia, Spain</address>
+            <Point>
+                <coordinates>-2.5072,43.35839</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Taramundi  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elect:?)</name>
+            <address>Calle Solleiro, 1A, 33775 Taramundi, Asturias, Spain</address>
+            <Point>
+                <coordinates>-7.10734,43.35971</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>A Coruña  Gratuito: Si, Pernocta: Si, WC: Si, Agua: Si</name>
+            <address>Poboado O Portiño, 11, 15011 A Coruña, La Coruña, Spain</address>
+            <Point>
+                <coordinates>-8.44443,43.37179</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Sopela  (Solo de jun a sept;gratuito;Agua:si;Wc:no)</name>
+            <address>Kalea Gatzarrine, 26D, 48600 Sopela, Bizkaia, Spain</address>
+            <Point>
+                <coordinates>-2.98962,43.37371</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Colombres  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no;area privada)</name>
+            <address>N-634, 33590, Asturias, Spain</address>
+            <Point>
+                <coordinates>-4.55387,43.3804</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Oviedo  (Gratuito;Agua:si;Wc:no;Vaciado:Si;Elect:no)</name>
+            <address>Calle Daniel Moyano, 21, 33011 Oviedo, Asturias, Spain</address>
+            <Point>
+                <coordinates>-5.82377,43.38283</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Navelgas  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Calle la Ferreria, 133A, 33873, Asturias, Spain</address>
+            <Point>
+                <coordinates>-6.54168,43.40394</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Lugones  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Avenida Conde St Barbara, 14D, 33420, Asturias, Spain</address>
+            <Point>
+                <coordinates>-5.81086,43.40706</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Bermeo  gratuito: si, agua:si, wc:no</name>
+            <address>Kalea Arene Pelaio Deuna, 4DUP, 48370, Bizkaia, Spain</address>
+            <Point>
+                <coordinates>-2.72611,43.4233</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Mondoñedo  Gratuito; Agua: si; Wc: no</name>
+            <address>Rúa Vicedo, 11, 27740 Mondoñedo, Lugo, Spain</address>
+            <Point>
+                <coordinates>-7.37014,43.42769</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Ribamontan al mar  (9eur/noche;Agua:si;Wc:si)</name>
+            <address>CA-433, 73, 39160, Cantabria, Spain</address>
+            <Point>
+                <coordinates>-3.72811,43.44705</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Colunga   (4 eur/noche;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Av. Asturias, 52, 33328 Colunga, Asturias, Spain</address>
+            <Point>
+                <coordinates>-5.26054,43.48468</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Ferrol  Gratuito; Agua: si; Wc: no</name>
+            <address>Aldea a Malata, 15405 O Ferrol, A Coruña, Spain</address>
+            <Point>
+                <coordinates>-8.24015,43.49342</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC O Carballo (As Somozas)  (Gratuito;Agua:si;vaciado:si;WC:si; electric;no)</name>
+            <address>Igrexa, 62, 15565 As Somozas, A Coruña, Spain</address>
+            <Point>
+                <coordinates>-7.93867,43.53751</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Playa del Arbeyal (Gijon)  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Polígono Puerto Musel, 33212 Gijón, Asturias, Spain</address>
+            <Point>
+                <coordinates>-5.69571,43.5445</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Navia  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Av. del Pardo, 13, 33710 Navia, Asturias, Spain</address>
+            <Point>
+                <coordinates>-6.72217,43.545</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Ortiguera  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>Barrio Nueva Rasa, 901, 33716 Coaña, Asturias, Spain</address>
+            <Point>
+                <coordinates>-6.73389,43.56083</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac de Foz  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>Rua Dos Astilleiros, 8, Foz, Lugo, Spain</address>
+            <Point>
+                <coordinates>-7.25775,43.56322</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Ourol   (Gratuito;Agua:si;Wc:no)</name>
+            <address>Ourol, 1, 27865 Ourol, Lugo, Spain</address>
+            <Point>
+                <coordinates>-7.64381,43.56505</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Tapia de Casariego  (4eur/noche;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Av. San Esteban, 5, 33740 Tapia de Casariego, Asturias, Spain</address>
+            <Point>
+                <coordinates>-6.94606,43.56608</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Candas  (Gratuito;Agua:si;Wc:no;Vaciado;si;Elec:no)</name>
+            <address>Calle Dr. Fleming, 33430, Asturias, Spain</address>
+            <Point>
+                <coordinates>-5.77208,43.58487</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Burela  Gratuito: Si, Pernocta: Si Agua: Si WC:No</name>
+            <address>Rúa Camiño Real, 32, 27880 Burela, Lugo, Spain</address>
+            <Point>
+                <coordinates>-7.35838,43.6532</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Loiba  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:si)</name>
+            <address>Penela, 15339 Ortigueira, La Coruña, Spain</address>
+            <Point>
+                <coordinates>-7.75639,43.73056</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC CariÃ±o  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>Paseo Marítimo, 19E, 15365 Cariño, La Coruña, Spain</address>
+            <Point>
+                <coordinates>-7.87437,43.73358</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

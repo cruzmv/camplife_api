@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Lithuania</description>
+        <Placemark>
+            <name>Camping Kaunas City   (12 euros/noche (2pax+furgo); Wifi; sauna; cocina)</name>
+            <address>Vakarinis aplinkl. &amp; E67, Kaunas 47168, Lithuania</address>
+            <Point>
+                <coordinates>23.83365,54.91554</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

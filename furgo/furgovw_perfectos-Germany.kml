@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Germany</description>
+        <Placemark>
+            <name>Nachtparkplatz Einsiedl Walchensee  (6 eur/dia;Agua:si 1 eur/70l.;WC:si; electric;si 1 eur.)</name>
+            <address>B11, 82432 Jachenau, Germany</address>
+            <Point>
+                <coordinates>11.30353,47.56905</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Oberammergau  Gratuito: si; Agua: si; Wc: si</name>
+            <address>St2060, 82488 Ettal, Germany</address>
+            <Point>
+                <coordinates>11.07532,47.56992</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lindenberg   (Gratuito;Agua:no;Wc:no)</name>
+            <address>Austraße 21, 88161 Lindenberg im Allgäu, Germany</address>
+            <Point>
+                <coordinates>9.87574,47.60084</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking P3 Kehlsteinhaus  (Gratuito;Agua:no;Wc:si)</name>
+            <address>Purtschellerstraße 1, 83471 Berchtesgaden, Germany</address>
+            <Point>
+                <coordinates>13.05404,47.63062</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Peiting  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Ammergauer Str. 22, 86971 Peiting, Germany</address>
+            <Point>
+                <coordinates>10.92297,47.79304</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sipplingen  (Gratuito;Agua:no;Wc:no)</name>
+            <address>B31, 78354 Sipplingen, Germany</address>
+            <Point>
+                <coordinates>9.08728,47.79939</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Stockach  Gratuito; Agua: si; Wc: si; area de descanso en autopista</name>
+            <address>E54, 78359 Orsingen-Nenzingen, Germany</address>
+            <Point>
+                <coordinates>8.95733,47.82978</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kaiserstuhl  (Gratuito;Agua:no;Wc:no)</name>
+            <address>K4922, 79235 Vogtsburg im Kaiserstuhl, Germany</address>
+            <Point>
+                <coordinates>7.65464,48.11025</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Candidplatz (Munich)  (Parking urbano;Gratuito;Agua:no;Wc:no)</name>
+            <address>Schönstraße 9, 81543 München, Germany</address>
+            <Point>
+                <coordinates>11.56917,48.11078</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Nussbach (Triberg)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Alte Str. 2, 78098 Triberg, Germany</address>
+            <Point>
+                <coordinates>8.25335,48.13166</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Schonach   (7eur/noche;Agua:si;Wc:no)</name>
+            <address>Obertalstraße 23, 78136 Schonach im Schwarzwald, Germany</address>
+            <Point>
+                <coordinates>8.18872,48.14596</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Munich (Olympiapark)  (Gratuito:no(15eur/dia);agua:no;wc:no)</name>
+            <address>Toni-Merkens-Weg 4, 80809 München, Germany</address>
+            <Point>
+                <coordinates>11.54064,48.17132</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Schiltach  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Am Hirschen 1, 77761 Schiltach, Germany</address>
+            <Point>
+                <coordinates>8.34347,48.29092</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Augsburg I  Gratutito; agua: no; Wc: si</name>
+            <address>Oberländer Str. 108, 86163 Augsburg, Germany</address>
+            <Point>
+                <coordinates>10.93853,48.34433</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Augsburg II  Gratuito: si, Agua: no, Wc: no</name>
+            <address>Prinz-Karl-Weg 7, 86159 Augsburg, Germany</address>
+            <Point>
+                <coordinates>10.89722,48.35473</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Friedberg  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Seestraße 29, 86316 Friedberg, Germany</address>
+            <Point>
+                <coordinates>10.96511,48.3656</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gengenbach   (Gratuito;Agua:no;WC:no)</name>
+            <address>Einachstraße, 77723 Gengenbach, Germany</address>
+            <Point>
+                <coordinates>8.01884,48.40327</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Oberkirch  (5eur/24h;Agua:si;Wc:no)</name>
+            <address>Renchallee 7, 77704 Oberkirch, Germany</address>
+            <Point>
+                <coordinates>8.07295,48.52891</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Castillo de Harburg  (Gratuito;Agua:no;Wc:si)</name>
+            <address>Heidestraße 2, 86655 Harburg (Schwaben), Germany</address>
+            <Point>
+                <coordinates>10.68657,48.7834</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Harburg I  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>Donauwörther Str. 43, 86655 Harburg (Schwaben), Germany</address>
+            <Point>
+                <coordinates>10.69022,48.78386</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Regensburg  (Ratisbona)  Agua: No, Wc: No, Gratuito: Si</name>
+            <address>Donaumarkt 4-5, 93047 Regensburg, Germany</address>
+            <Point>
+                <coordinates>12.10305,49.02015</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Schwabisch Hall  (Gratuito;Agua:no;WC:no)</name>
+            <address>Spitalmühlenstraße 25, 74523 Schwäbisch Hall, Germany</address>
+            <Point>
+                <coordinates>9.7344,49.12274</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Heidelberg  Agua: No    WC: Si    Gratuito: Si</name>
+            <address>Uferstraße 6, 69120 Heidelberg, Germany</address>
+            <Point>
+                <coordinates>8.69147,49.41335</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Nurenberg  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Sofie-Keeser-Weg, 90471 Nürnberg, Germany</address>
+            <Point>
+                <coordinates>11.10676,49.42298</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Volkspark Marienberg (Nuremberg)  (Gratuito;Agua:no;Wc:si)</name>
+            <address>Kilianstraße 195, 90425 Nürnberg, Germany</address>
+            <Point>
+                <coordinates>11.09433,49.47497</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tauberbischofsheim  (Parking para ac;Gratuito;Agua:no;Wc:no)</name>
+            <address>Vitryallee, 97941 Tauberbischofsheim, Germany</address>
+            <Point>
+                <coordinates>9.66609,49.62274</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac In den Moselauen (Trier)  (Gratuito;Agua:si;Wc:no)</name>
+            <address>In den Moselauen 2, 54293 Trier, Germany</address>
+            <Point>
+                <coordinates>6.62111,49.73987</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ediger  Agua: No, Wc: No, Gratuito: 2eur</name>
+            <address>Moselweinstraße 5-6, 56814 Ediger-Eller, Germany</address>
+            <Point>
+                <coordinates>7.16004,50.09291</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bad Bruckenau  (Gratuito:no(3eur/24h);Agua:no;Wc:no;elec:si)</name>
+            <address>Buchwaldstraße 4, 97769 Bad Brückenau, Germany</address>
+            <Point>
+                <coordinates>9.78586,50.30664</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hirzenhain  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Robert-Eichenauer-Weg 1, 63697 Hirzenhain, Germany</address>
+            <Point>
+                <coordinates>9.1363,50.39259</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Muller mobil GmbH (Hirzenhain)  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>Junkernwiese 2, 63697 Hirzenhain, Germany</address>
+            <Point>
+                <coordinates>9.14673,50.40018</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Koln  Gratuito; Agua: no; Wc: no</name>
+            <address>Konrad-Adenauer-Ufer 23, 50668 Köln, Germany</address>
+            <Point>
+                <coordinates>6.96426,50.94677</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Dresde  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>Pieschener Allee 18, 01067 Dresden, Germany</address>
+            <Point>
+                <coordinates>13.72957,51.06287</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Remscheid  Gratuito; Agua: si; Wc: si; area de descanso en autopista</name>
+            <address>Talsperre 1, 42859 Remscheid, Germany</address>
+            <Point>
+                <coordinates>7.23005,51.15876</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking ac Düselddorf  (Parking para ac;12eur/noche;Agua:no;Wc:no)</name>
+            <address>Cecilienallee 21, 40474 Düsseldorf, Germany</address>
+            <Point>
+                <coordinates>6.76959,51.24343</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Hattingen  (18eur/noche;Agua:si;WC:si;Electricidad:si)</name>
+            <address>Ruhrstraße 6, 45529 Hattingen, Germany</address>
+            <Point>
+                <coordinates>7.17029,51.40613</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking Rudolf von Beninngsen Ufer (Hannover)  Gratuito: si; Agua: no; Wc: no</name>
+            <address>Rudolf-von-Bennigsen-Ufer 22, 30169 Hannover, Germany</address>
+            <Point>
+                <coordinates>9.74257,52.35906</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Autostat (Wolfsburg)  Gratuito: no (3 eur/dia); Agua: no; Wc: no; Electricidad: si</name>
+            <address>VW-Mittelstraße, 38440 Wolfsburg, Germany</address>
+            <Point>
+                <coordinates>10.79676,52.43508</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>In den Zelten  Agua: No, Wc: Si, Luz: No, Gratuito: Si</name>
+            <address>Große Querallee, 10557 Berlin, Germany</address>
+            <Point>
+                <coordinates>13.36649,52.51829</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puerto de Rostock  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>Stadthafen 72, 18057 Rostock, Germany</address>
+            <Point>
+                <coordinates>12.11607,54.09418</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rostock - Graal Muritz   Gratuito No, Agua Si, WC Si</name>
+            <address>Strandpromenade, 18181 Graal-Müritz, Germany</address>
+            <Point>
+                <coordinates>12.25222,54.26154</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sankt Peter-Ording  (3.50eur/noche;Agua:no;Wc:solo de dÃ­a)</name>
+            <address>Norderdeich 26, 25826 St. Peter-Ording, Germany</address>
+            <Point>
+                <coordinates>8.60646,54.34056</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puttgarden  (Gratuito:no(2.40eur/noche);Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 23769 Fehmarn, Germany</address>
+            <Point>
+                <coordinates>11.1928,54.50821</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

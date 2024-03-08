@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Italy</description>
+        <Placemark>
+            <name>Ragusa Ibla  (Gratuito:no;Agua:si;Wc:no)</name>
+            <address>Corso Don Minzoni, 31, 97100 Ragusa RG, Italy</address>
+            <Point>
+                <coordinates>14.73646,36.92567</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Castelbuono  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Via Dante Alighieri, 191, 90013 Castelbuono PA, Italy</address>
+            <Point>
+                <coordinates>14.09441,37.93723</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Erice  (5eur/noche;Agua:no;Wc:no)</name>
+            <address>Viale Porta Spada, 91016 Erice TP, Italy</address>
+            <Point>
+                <coordinates>12.58469,38.04076</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parque Nacional del Aspromonte (Gambarie)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Strada Statale 183, 89057 San Roberto RC, Italy</address>
+            <Point>
+                <coordinates>15.84555,38.17414</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rosarno  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Strada Statale 18, 89025 Rosarno RC, Italy</address>
+            <Point>
+                <coordinates>15.95655,38.47623</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tropea (Calabria)  Gratuito; Agua: no; Wc: no</name>
+            <address>Via Baeumer E., 2, 89861 Tropea VV, Italy</address>
+            <Point>
+                <coordinates>15.9028,38.67727</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pizzo   (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 88022 Curinga CZ, Italy</address>
+            <Point>
+                <coordinates>16.2211,38.83707</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Capo Malfatano    (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 09019 Teulada CA, Italy</address>
+            <Point>
+                <coordinates>8.7986,38.89531</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grotte di Is Zuddas  (Gratuito;Agua:si;WC:si)</name>
+            <address>SP70, 36, 09010 Su Benatzu CI, Italy</address>
+            <Point>
+                <coordinates>8.70537,39.04614</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Spiaggia Grande Calasetta Isola San Antioco  (Gratuito;Agua:no;WC:no)</name>
+            <address>Unnamed Road, 09011 Calasetta CI, Italy</address>
+            <Point>
+                <coordinates>8.35856,39.08766</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Spiaggia di Solanas  (Gratuito;Agua:no;WC:no)</name>
+            <address>Via Al Mare, 55, 09048 Solanas CA, Italy</address>
+            <Point>
+                <coordinates>9.43272,39.13328</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pineta de Dipignano  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Via Tavola, Provincia di Cosenza, Italy</address>
+            <Point>
+                <coordinates>16.23461,39.20837</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parque Nacional de Sila (San Giovanni in Fiore)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Str. delle Vette, San Giovanni in Fiore CS, Italy</address>
+            <Point>
+                <coordinates>16.51859,39.25195</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lago di Cecita  (Gratuito;Agua:no;Wc:si)</name>
+            <address>Strada Statale 177, 87058 Spezzano della Sila CS, Italy</address>
+            <Point>
+                <coordinates>16.5472,39.38549</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Capo Pecora  Gratuito; Agua: no; Wc: no</name>
+            <address>Strada Provinciale 105, 09031 Arbus VS, Italy</address>
+            <Point>
+                <coordinates>8.38117,39.45616</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jerzu  (Gratuito;Agua:no;Wc:no)</name>
+            <address>SP13, 08044 Jerzu OG, Italy</address>
+            <Point>
+                <coordinates>9.52203,39.77822</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa Foxi  (Gratuito;Agua:no;WC:no)</name>
+            <address>Unnamed Road, 08042 Bari sardo OG, Italy</address>
+            <Point>
+                <coordinates>9.67603,39.81888</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ugento  (Gratuito;Agua:no;Wc:no)</name>
+            <address>SP91, 73050 Ugento LE, Italy</address>
+            <Point>
+                <coordinates>18.19756,39.84289</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Laconi  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Strada Statale 128 Centrale Sarda, 69, 08034 Laconi OR, Italy</address>
+            <Point>
+                <coordinates>9.07415,39.87404</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Is Arutas  (Gratuito;Agua:no;WC:no)</name>
+            <address>Is Arutas, 09072 Cabras OR, Italy</address>
+            <Point>
+                <coordinates>8.40321,39.9517</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Castro Marina  Gratuito Si Agua No WC No</name>
+            <address>SP358, 71, 73030 Marina di Marittima LE, Italy</address>
+            <Point>
+                <coordinates>18.41282,39.99149</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parque Nacional del Pollino (San Paolo Albanese)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 85030 San Paolo albanese PZ, Italy</address>
+            <Point>
+                <coordinates>16.36077,40.00242</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bruncu Spina  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 08049 Fonni NU, Italy</address>
+            <Point>
+                <coordinates>9.30405,40.02323</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ruinas de Velia  (Gratuito;Agua:no;Wc:si)</name>
+            <address>Via Porta Rosa, 117, 84046 Marina di Ascea SA, Italy</address>
+            <Point>
+                <coordinates>15.15748,40.15841</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bosa  Gratuito; Agua: no; Wc: no</name>
+            <address>Via Delle Conce, 23, 08013 Bosa OR, Italy</address>
+            <Point>
+                <coordinates>8.49912,40.29464</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Paestum  3 eur/dia - Agua No WC No</name>
+            <address>Via Magna Grecia, 837, 84047 Paestum SA, Italy</address>
+            <Point>
+                <coordinates>15.00708,40.42459</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Santuario San Cosimo (Oria)    (Gratuito;Agua:no;Wc:si)</name>
+            <address>Strada Provinciale 59, 43, 72024 Oria BR, Italy</address>
+            <Point>
+                <coordinates>17.67602,40.46087</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa Berchida  (10eur;Agua:no;WC:no;Electricidad:no)</name>
+            <address>Unnamed Road, 08029 Siniscola NU, Italy</address>
+            <Point>
+                <coordinates>9.80701,40.4802</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Alghero  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>Piazzale della Pace, 07041 Alghero SS, Italy</address>
+            <Point>
+                <coordinates>8.31779,40.56282</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Matera  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Contrada Murgia Timone, 75100 Matera MT, Italy</address>
+            <Point>
+                <coordinates>16.61773,40.66392</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cuma (Bacoli)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Piazzale Servilio Vatia, 11, 80070 Bacoli NA, Italy</address>
+            <Point>
+                <coordinates>14.04637,40.81352</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vesubio   (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 80059 Torre del Greco NA, Italy</address>
+            <Point>
+                <coordinates>14.41406,40.81833</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Porto Torres  (parking urbano;Gratuito;Agua:no;Wc:no)</name>
+            <address>Via Amerigo Vespucci, 407, 07046 Porto Torres SS, Italy</address>
+            <Point>
+                <coordinates>8.37814,40.83527</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Loiri Porto San Paolo  (Gratuito noche;Agua:no;WC:si;Wifi)</name>
+            <address>Via del Corallo, 4, 07020 Loiri Porto San Paolo OT, Italy</address>
+            <Point>
+                <coordinates>9.63373,40.88046</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa Stintino  (Gratuito;Agua:no;WC:no)</name>
+            <address>Unnamed Road, 07040 Stintino SS, Italy</address>
+            <Point>
+                <coordinates>8.24982,40.89019</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de las Salinas (Stintino)  Gratuito; Agua: no; Wc: no</name>
+            <address>SP34, 07040 Stintino SS, Italy</address>
+            <Point>
+                <coordinates>8.23525,40.90403</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Castelsardo  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Via Sedini, 07031 Castelsardo SS, Italy</address>
+            <Point>
+                <coordinates>8.72009,40.91163</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Olbia  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Via Poltu Ezzu, 07026 Olbia OT, Italy</address>
+            <Point>
+                <coordinates>9.50547,40.92196</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Isla de Ponza. Cala Fonte  (Gratuito;Agua:no;WC:no)</name>
+            <address>Via Punta Incenso, 04020 Ponza LT, Italy</address>
+            <Point>
+                <coordinates>12.98064,40.93371</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cala Moresca  Gratuito: si; Agua: no; Wc: no</name>
+            <address>Via Cala Moresca, 4, 07020 Golfo Aranci OT, Italy</address>
+            <Point>
+                <coordinates>9.63483,40.98849</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Terracina  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Strada Provinciale Badino Vecchio, 04019 Terracina LT, Italy</address>
+            <Point>
+                <coordinates>13.19883,41.28464</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Foresta Umbra  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Strada Provinciale 52bis, 71018 Monte Sant'Angelo FG, Italy</address>
+            <Point>
+                <coordinates>16.05748,41.87419</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lago di Scano  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Viale I Lupi, 67030 Villalago AQ, Italy</address>
+            <Point>
+                <coordinates>13.85626,41.92261</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cerveteri  (altura limitada a 2m;Gratuito;Agua:no;Wc:no)</name>
+            <address>Lungomare dei Navigatori Etruschi, 16, 00052 Marina di Cerveteri RM, Italy</address>
+            <Point>
+                <coordinates>12.0381,41.97115</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Marina di Cerveteri    (Gratuito;Agua:no;Wc:no)</name>
+            <address>Via delle Palme, 1, 00052 Cerveteri RM, Italy</address>
+            <Point>
+                <coordinates>12.035,41.9763</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Santa Marinella  Gratuito; Agua: no; Wc: no</name>
+            <address>Via Umberto Nobile, 15, 00058 Pio X RM, Italy</address>
+            <Point>
+                <coordinates>11.92203,42.03525</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lido de Tarquinia  (Gratuito;Agua:no;Wc:si)</name>
+            <address>Via Algi, 38, 01016 Lido di Tarquinia VT, Italy</address>
+            <Point>
+                <coordinates>11.71394,42.2199</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lago del salto (Borgo San Pietro)  (Gratuito;Agua:no;Wc:no;acceso estrecho)</name>
+            <address>Via Silvi Vincenzo, 5, 02025 Petrella salto RI, Italy</address>
+            <Point>
+                <coordinates>13.06072,42.27057</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Promontorio dell Argentario  (Gratuito:No;Agua:Si;WC:No)</name>
+            <address>Unnamed Road, 58019 Monte Argentario GR, Italy</address>
+            <Point>
+                <coordinates>11.15833,42.42472</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bagnoregio  (Gratuito:solo de noche;Agua:no;Wc:no)</name>
+            <address>Via Bonaventura Tecchi, 11, 01022 Bagnoregio VT, Italy</address>
+            <Point>
+                <coordinates>12.11013,42.62626</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saturnia  Gratuito; Agua: si; Wc: no; pozas termales</name>
+            <address>Via della Follonata, 58014 Manciano GR, Italy</address>
+            <Point>
+                <coordinates>11.51191,42.64854</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Piombino  Gratuito: Si, Pernocta: Si Agua: Si WC:si</name>
+            <address>Località Casette Minime, 19, 57025 Piombino LI, Italy</address>
+            <Point>
+                <coordinates>10.5328,42.92222</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bagno Vignoni  Gratuito;Agua:si;Wc:si</name>
+            <address>Str. di Bagno Vignoni, 1B, 53027 Bagno Vignoni SI, Italy</address>
+            <Point>
+                <coordinates>11.62041,43.02899</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gracciano  (Gratuito; Agua:si;Wc:no)</name>
+            <address>Via Veneto, 15, 53045 Montepulciano SI, Italy</address>
+            <Point>
+                <coordinates>11.82761,43.13133</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cortona  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Parcheggio dello Spirito Santo, 52044 Cortona AR, Italy</address>
+            <Point>
+                <coordinates>11.98793,43.27302</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Monteriggioni  (Gratuito;Agua:no;Wc:si)</name>
+            <address>Strada Comunale di Monteriggioni, 1, 53035 Monteriggioni SI, Italy</address>
+            <Point>
+                <coordinates>11.22546,43.3883</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>San Gimignano Italia  Gratuito: No, Pernocta: Si Agua: No WC:No</name>
+            <address>Via Antonio Gramsci, 141, 53037 San Gimignano SI, Italy</address>
+            <Point>
+                <coordinates>11.03471,43.46069</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Panzano in Chianti  (Gratuito;Agua:no;WC:no)</name>
+            <address>Via Belvedere, 9, 50022 Panzano In Chianti FI, Italy</address>
+            <Point>
+                <coordinates>11.31092,43.54642</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cecina Mare  Gratuito: Si, Pernocta: Si Agua: Si WC:No</name>
+            <address>Unnamed Road, 56037 Peccioli PI, Italy</address>
+            <Point>
+                <coordinates>10.78308,43.54855</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Via Paparelli  (Gratuito;Agua:si;WC:no)</name>
+            <address>SS12, 73, 56123 Pisa PI, Italy</address>
+            <Point>
+                <coordinates>10.41085,43.72476</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Prato di Strada  (Gratuito;Agua:si;WC:no)</name>
+            <address>Via di Montemignaio, 27-86, 52018 Prato di Strada AR, Italy</address>
+            <Point>
+                <coordinates>11.69353,43.735</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>San Miniato al Monte (Florencia)  Gratuito;Agua:no; Wc:no; parking urbano</name>
+            <address>Via delle Porte Sante, 34, 50125 Firenze, Italy</address>
+            <Point>
+                <coordinates>11.26323,43.75928</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Badia Prataglia  (Gratuito;Agua:si;Wc:no;parking en pueblo pequeño)</name>
+            <address>Via dei Nipoti, 14, 52010 Badia Prataglia AR, Italy</address>
+            <Point>
+                <coordinates>11.87686,43.79499</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Piazza Cesare Battisti (San Remo)  Gratuito; Agua: no; Wc: no; parking urbano</name>
+            <address>Piazzale Carlo Dapporto, 18038 Sanremo IM, Italy</address>
+            <Point>
+                <coordinates>7.76998,43.81367</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Imperia playa  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>Via Angelo Silvio Novaro, 6, 18100 Imperia IM, Italy</address>
+            <Point>
+                <coordinates>8.05579,43.88784</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Spezia  Gratuito; Agua: si; Wc: no; parking urbano</name>
+            <address>Via Bologna, 70, 19125 La Spezia SP, Italy</address>
+            <Point>
+                <coordinates>9.83827,44.11899</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Monterosso al Mare, Liguria  Agua: No, Wc: No, Gratuito: Si</name>
+            <address>Strada Provinciale 38, 19016 Levanto SP, Italy</address>
+            <Point>
+                <coordinates>9.66445,44.14541</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Finale Ligure  (Gratuito;Agua:no;WC:no)</name>
+            <address>Via Calice, 18, 17024 Finale Ligure SV, Italy</address>
+            <Point>
+                <coordinates>8.32246,44.17564</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pievepelago  (Gratuito;Agua:si;WC:si)</name>
+            <address>Via Luigi Galli, 6, 41027 Pievepelago MO, Italy</address>
+            <Point>
+                <coordinates>10.62004,44.20675</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rapallo  Gratuito: no; Agua: no; Wc: no</name>
+            <address>Piazzale Genova, 8, 16035 Rapallo GE, Italy</address>
+            <Point>
+                <coordinates>9.21022,44.35546</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lido di Dante  Gratuito; Agua: no; Wc: no</name>
+            <address>Via Marabina, 208-212, 48124 Lido di Dante RA, Italy</address>
+            <Point>
+                <coordinates>12.31431,44.38803</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Museo Ferrari (Maranello)  (Gratuito:no;Agua:si;Wc:no)</name>
+            <address>Viale Alfredo Dino Ferrari, 32, 41053 Maranello MO, Italy</address>
+            <Point>
+                <coordinates>10.86195,44.5306</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puente Gobbo (Bobbio)  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Passeggiata SS45 lungo Trebbia, 29022 Bobbio PC, Italy</address>
+            <Point>
+                <coordinates>9.3896,44.76768</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Salbertrand  Gratuito; Agua: si; Wc: no</name>
+            <address>Via Giuseppe Rey, 10050 Salbertrand TO, Italy</address>
+            <Point>
+                <coordinates>6.88617,45.07046</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Superga (Turin)  Gratuito: si; Agua: si; Wc: si</name>
+            <address>Str. della Bas. di Superga, 75, 10132 Torino TO, Italy</address>
+            <Point>
+                <coordinates>7.76698,45.08051</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Monasterio de Certosa di Pavia  Gratuito: no (4 eur/noche); Agua: si; Wc: si</name>
+            <address>Via del Monumento, 12, 27012 Certosa di Pavia PV, Italy</address>
+            <Point>
+                <coordinates>9.14556,45.25726</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lago di Garda  (Gratuito;Agua:no;WC:no)</name>
+            <address>SR249, 14, 37019 Valeggio sul Mincio VR, Italy</address>
+            <Point>
+                <coordinates>10.70164,45.42753</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Oriago  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>Piazza Mercato, 4, 30034 Mira VE, Italy</address>
+            <Point>
+                <coordinates>12.16239,45.44676</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sirmione  (Gratuito;Agua:no;WC:no)</name>
+            <address>Via Verona, 234, 25019 Sirmione BS, Italy</address>
+            <Point>
+                <coordinates>10.62523,45.46161</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>San Giuliano (Mestre-Venecia)  (4eur/noche;Agua:si;WC:si)</name>
+            <address>Via S. Giuliano, 15A, 30173 Venezia, Italy</address>
+            <Point>
+                <coordinates>12.27851,45.46794</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lago di Fimon  (Gratuito;Agua:no;WC:no)</name>
+            <address>Via Boeca, 13, 36057 Arcugnano VI, Italy</address>
+            <Point>
+                <coordinates>11.54453,45.47896</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Viale Miramare (Trieste)  (Parking urbano sin servicios)</name>
+            <address>Piazzale 11 Settembre 2001, 34136 Trieste, Italy</address>
+            <Point>
+                <coordinates>13.75162,45.68198</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Barcola   (parking urbano;Gratuito;Agua:si;Wc:si)</name>
+            <address>Piazzale 11 Settembre 2001, 34136 Trieste, Italy</address>
+            <Point>
+                <coordinates>13.75108,45.68253</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Como  Gratuito: no; Agua: no; Wc: no</name>
+            <address>Via Regina Teodolinda, 49, 22100 Como CO, Italy</address>
+            <Point>
+                <coordinates>9.08394,45.80138</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cernobbio  Gratuito: no; Agua: no; Wc: no</name>
+            <address>Via Aquileia, 19, 22012 Cernobbio CO, Italy</address>
+            <Point>
+                <coordinates>9.07361,45.84</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Via Galas  (Gratuito;Agua:no;WC:no;Limite altura)</name>
+            <address>SS240, 4, 38066 Riva del Garda TN, Italy</address>
+            <Point>
+                <coordinates>10.84642,45.88922</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Colonia Estiva  (Breuil Cervinia)  Gratuito;Agua: Si;WC:No</name>
+            <address>SR46, 22, 11028 Valtournenche AO, Italy</address>
+            <Point>
+                <coordinates>7.61524,45.90944</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Montorfano di Mergozzo  (Gratuito;Agua:no;Wc:no; parking en pueblo pequeño)</name>
+            <address>Via Montorfano, 27, 28802 Mergozzo VB, Italy</address>
+            <Point>
+                <coordinates>8.46555,45.94523</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lago de Levico  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Strada Provinciale 16, 19, 38050 Levico Terme TN, Italy</address>
+            <Point>
+                <coordinates>11.27186,46.01213</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Molveno  Gratuito; Agua: si; Wc: si</name>
+            <address>Strada Statale 421, 1, 38078 San Lorenzo in banale TN, Italy</address>
+            <Point>
+                <coordinates>10.93449,46.09972</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Passo Lavaze  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Unnamed Road, 39040 Aldino BZ, Italy</address>
+            <Point>
+                <coordinates>11.45286,46.34719</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Passo Gavia (Dolomitas)  Gratuito: si Pernocta: si WC: no Agua:no</name>
+            <address>SP29, 23030 Valfurva SO, Italy</address>
+            <Point>
+                <coordinates>10.49023,46.3647</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Passo de La Marmolada  (Gratuito;Agua:no;Wc:no;gran altitud)</name>
+            <address>Unnamed Road, 38032 Canazei TN, Italy</address>
+            <Point>
+                <coordinates>11.86701,46.45751</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Passo della Spluga  Gratuito; Agua: no; Wc: no; cima de puerto alpino</name>
+            <address>SS36, 149, 23024 Madesimo SO, Italy</address>
+            <Point>
+                <coordinates>9.33,46.50166</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Est esqui de Pramp (Tarvisio)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Monte lussari, 33018 Tarvisio UD, Italy</address>
+            <Point>
+                <coordinates>13.53731,46.50714</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Paso Falzarego  Gratuito: si; Agua: no; Wc: no</name>
+            <address>Passo Falzarego, 14, 32020 Cortina d'Ampezzo BL, Italy</address>
+            <Point>
+                <coordinates>12.0083,46.51715</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Tofana  Gratuito; Agua: si; Wc: no</name>
+            <address>Passo Falzarego, 32043 Cortina d'Ampezzo BL, Italy</address>
+            <Point>
+                <coordinates>12.04747,46.5226</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cortina de Ampezzo  (Gratuito;Agua:no;WC:no)</name>
+            <address>SR48, 6, 32043 Cortina d'Ampezzo BL, Italy</address>
+            <Point>
+                <coordinates>12.18959,46.55106</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cortina D Ampezzo - Fiammes  Gratuito: No, Pernocta: Si Agua: Si WC:No</name>
+            <address>Lunga Via delle Dolomiti, 32043 Cortina d'Ampezzo BL, Italy</address>
+            <Point>
+                <coordinates>12.12015,46.57627</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking refugio Auronzo (Tre Cime di Lavaredo)  Gratuito: no (accesos con peaje de 15 eur.); Agua: no; Wc: si</name>
+            <address>Unnamed Road, 32041 Auronzo di Cadore BL, Italy</address>
+            <Point>
+                <coordinates>12.2943,46.6123</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

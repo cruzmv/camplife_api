@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Belgium</description>
+        <Placemark>
+            <name>Barrage de Nisramont  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Bressol, 6983 La Roche-en-Ardenne, Belgium</address>
+            <Point>
+                <coordinates>5.67105,50.14079</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Le Parc a Gibier  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Val du Pierreux, 6980 La Roche-en-Ardenne, Belgium</address>
+            <Point>
+                <coordinates>5.58732,50.18759</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ciudadela de Dinant  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Passage Sainte-Foy, 5500 Dinant, Belgium</address>
+            <Point>
+                <coordinates>4.91496,50.26187</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mons  (Gratuito; Agua: no; Wc: no; aparcamiento urbano)</name>
+            <address>Rue de l'Epargne 37, 7000 Mons, Belgium</address>
+            <Point>
+                <coordinates>3.95625,50.44811</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Spaloumont (Spa)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Spaloumont, 4900 Spa, Belgium</address>
+            <Point>
+                <coordinates>5.86427,50.49731</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Waterloo  Gratuito; Agua: no; Wc:no</name>
+            <address>Rue Fond Vandenbosch 8, 1410 Waterloo, Belgium</address>
+            <Point>
+                <coordinates>4.40141,50.7061</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ypres  Gratuito; Agua: no; wc: no</name>
+            <address>Leopold III-laan 14, 8900 Ieper, Belgium</address>
+            <Point>
+                <coordinates>2.89364,50.84691</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bruselas. Atomium  Agua: No, Wc: No, Gratuito: Si</name>
+            <address>Atomium, 1020 Bruxelles, Belgium</address>
+            <Point>
+                <coordinates>4.34099,50.89492</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grimbergen  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Tommenmolenstraat 23, 1850 Grimbergen, Belgium</address>
+            <Point>
+                <coordinates>4.37837,50.93725</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking Driebeek  Gratuito Si Agua No WC No</name>
+            <address>Braemkasteelstraat 29, 9050 Gent, Belgium</address>
+            <Point>
+                <coordinates>3.7676,51.03737</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kaaiplaats  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Kaaiplaats 2-12, 8630 Veurne, Belgium</address>
+            <Point>
+                <coordinates>2.66647,51.0704</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Brujas  Gratuito: si, Agua: no, Wc: no; parking urbano</name>
+            <address>Ketsbruggestraat 2-8, 8000 Brugge, Belgium</address>
+            <Point>
+                <coordinates>3.22128,51.19791</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Amberes  Gratuito: si; Agua: no; Wc: no</name>
+            <address>Sint-Michielskaai 31-33, 2000 Antwerpen, Belgium</address>
+            <Point>
+                <coordinates>4.39112,51.21452</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Damme  Gratuito; Agua: no; Wc: no</name>
+            <address>Zuidervaartjepad, 8340 Damme, Belgium</address>
+            <Point>
+                <coordinates>3.27675,51.24858</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Ireland</description>
+        <Placemark>
+            <name>Camping Hungry Hill (Adrigole)  Agua: Si, Wc: Si, Luz: Si, Gratuito: No 15eur 2 personas; cierra en invierno</name>
+            <address>R572, Co. Cork, Ireland</address>
+            <Point>
+                <coordinates>-9.72545,51.69329</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jasmine Villa Caravan &amp; camping park (Carrigtwohil  Tarifa: 19 eur.(furgo+ 2 pax); cercano a Cork</name>
+            <address>Marian Ville, Ballyadam, Co. Cork, Ireland</address>
+            <Point>
+                <coordinates>-8.23976,51.91197</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Beech Grove (Killarney)  Agua: Si, WC: Si, Luz: Si, Gratuito: No 21eur 2 personas</name>
+            <address>10-16 Pond Ln, Monearmore, Killarney, Co. Kerry, Ireland</address>
+            <Point>
+                <coordinates>-9.51296,52.05771</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>The Apple Farm (Cahir)  Tarifa: 12eur/dia (furgo+2 pax); granja con zona de camping</name>
+            <address>N24, Derrygrath Upper, Co. Tipperary, Ireland</address>
+            <Point>
+                <coordinates>-7.84295,52.37604</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Adare  Agua: Si, WC: Si, Luz: Si, Gratuito: No 22eur 2 personas</name>
+            <address>Adare Courthouse, Main St, Blackabbey, Adare, Co. Limerick, Ireland</address>
+            <Point>
+                <coordinates>-8.78991,52.56493</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Tree Grove (Kilkenny)  Agua: Si, Wc: Si, Luz: Si, Gratuito: No 15-20eur 2 personas</name>
+            <address>R700, Archersgrove, Kilkenny, Ireland</address>
+            <Point>
+                <coordinates>-7.22991,52.64041</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Redcross Village. Wicklow  Agua: Si, WC: Si, Luz: Si, Gratuito: No 20Libras</name>
+            <address>Saraville, Ballygillaroe, Redcross, Co. Wicklow, Ireland</address>
+            <Point>
+                <coordinates>-6.14465,52.88918</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Clondalkin (Dublin)  Tarifa:22eur(furgo+2pax);Agua:si, Wc: si;Elect:si</name>
+            <address>Naas Rd, Kingswood, Dublin, Ireland</address>
+            <Point>
+                <coordinates>-6.41591,53.30626</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Russia</description>
+        <Placemark>
+            <name>Camping CampTom-Shuvalovka  (2500 rublas/dÃ­as; restaurante; animales; wifi; sauna)</name>
+            <address>ul. Makarova (Znamenka), Petergof, g. Sankt-Peterburg, Russia, 198515</address>
+            <Point>
+                <coordinates>29.97854,59.86823</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Holiday Park Uya  (500 rublas/dÃ­a; restaurante;sauna;luz;barcas)</name>
+            <address>86K-224, Kareliya Republits, Russia, 185510</address>
+            <Point>
+                <coordinates>34.65762,61.60477</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

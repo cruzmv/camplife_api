@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Gibraltar</description>
+        <Placemark>
+            <name>Gibraltar  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>Europa Point, Gibraltar GX11 1AA, Gibraltar</address>
+            <Point>
+                <coordinates>-5.34638,36.10988</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

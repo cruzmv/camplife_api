@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Italy</description>
+        <Placemark>
+            <name>Area AC Marsala  (Gratuito;Agua:si;vaciado:si;WC:si; electric;no)</name>
+            <address>Via Torre Sances, 390, 91025 Marsala TP, Italy</address>
+            <Point>
+                <coordinates>12.47127,37.88929</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Buggerru  (19 euros;Agua:si;vaciado:si;WC:no; electric;si; duchas: si)</name>
+            <address>Via Roma, 13, 09010 Buggerru CI, Italy</address>
+            <Point>
+                <coordinates>8.40184,39.40275</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Baccu e Praidas  (10eur/24h;Agua:si;WC:si;Electricidad:no)</name>
+            <address>Unnamed Road, 08040 Cardedu OG, Italy</address>
+            <Point>
+                <coordinates>9.6713,39.75402</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Torre Grande  (Gratuito:no;Agua:si;WC:si;Electricidad:si)</name>
+            <address>Via Stella Maris, 12, 09170 Torre Grande OR, Italy</address>
+            <Point>
+                <coordinates>8.52041,39.90794</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Su Porteddu  (8eur/noche;Agua:si;WC:si;Electricidad:si)</name>
+            <address>sentiero per Cala Goloritzè, 08040 Baunei OG, Italy</address>
+            <Point>
+                <coordinates>9.67794,40.0834</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Nuoro  (Gratuito;Agua:si;WC:no)</name>
+            <address>Via Simone Weil, 08100 Nuoro NU, Italy</address>
+            <Point>
+                <coordinates>9.32747,40.31462</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Real Sporting Village  (15eur/noche;Agua:si;WC:si)</name>
+            <address>Via Licio Giorgieri, 30, 00165 Roma, Italy</address>
+            <Point>
+                <coordinates>12.38906,41.88505</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Radicofani (Valle de Orcia)  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>SP24, 53040 Radicofani SI, Italy</address>
+            <Point>
+                <coordinates>11.77516,42.89456</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Rosignano Solvay  Gratuito:no(30eur/noche);Agua:si;Wc:no;Vaciado:si</name>
+            <address>Via Aurelia, 699-709, 57016 Rosignano Solvay-Castiglioncello LI, Italy</address>
+            <Point>
+                <coordinates>10.42847,43.3984</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Volterra  Gratuito: si; Agua: si; Wc: no</name>
+            <address>Vicolo del Forno, 18, 56048 Volterra PI, Italy</address>
+            <Point>
+                <coordinates>10.86199,43.40271</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Arezzo  Gratuito: si; Agua: si; Wc: no</name>
+            <address>Via Pier Luigi da Palestrina, 26, 52100 Arezzo AR, Italy</address>
+            <Point>
+                <coordinates>11.8875,43.4717</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Apecchio  Gratuito: si; Agua: si; Wc: no</name>
+            <address>Via Isidoro Pazzaglia, 7, 61042 Apecchio PU, Italy</address>
+            <Point>
+                <coordinates>12.42003,43.5595</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Marina di Pisa  (8eur/noche;Agua:si;Wc:si;Vaciado:si;Elect:si)</name>
+            <address>SS224, 141, 56128 Marina di Pisa-tirrenia-calambr PI, Italy</address>
+            <Point>
+                <coordinates>10.27903,43.67857</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>San Remo  Gratuito: no (10 eur/noche); Agua: si; Wc: no</name>
+            <address>Corso Guglielmo Marconi, 139, 18038 Sanremo IM, Italy</address>
+            <Point>
+                <coordinates>7.74772,43.80279</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Lucca  (16eur/noche;Agua:si;Wc:?)</name>
+            <address>Via Gaetano Luporini, 445-543, 55100 Lucca LU, Italy</address>
+            <Point>
+                <coordinates>10.4886,43.84024</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Chifenti (Bagni di Lucca)  (Gratuito;Agua:si;vaciado:si;WC:no; electric;si)</name>
+            <address>Str. dell'Abetone e del Brennero, 31, 55023 Chifenti LU, Italy</address>
+            <Point>
+                <coordinates>10.56248,44.00462</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Portovenere  Gratuito: no; Agua: si; Wc: no</name>
+            <address>Via Olivo, 491, Italy</address>
+            <Point>
+                <coordinates>9.84879,44.05962</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac La Spezia  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Via delle Casermette, 19126 La Spezia SP, Italy</address>
+            <Point>
+                <coordinates>9.85907,44.10417</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Finale Ligure  Tarifa:9eur/12h; Agua: si; Wc:no;Vaciado:si</name>
+            <address>Via Aurelia, 1, 17024 Finale Ligure SV, Italy</address>
+            <Point>
+                <coordinates>8.33785,44.1654</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Parco Pineta Vezzano  (De pago;Agua:si;vaciado:si;WC:no; electric;si)</name>
+            <address>Via XXV Aprile, 13-52, 42030 Vezzano Sul Crostolo RE, Italy</address>
+            <Point>
+                <coordinates>10.53539,44.58931</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Casaleggio Boiro  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Via Castello, 3B, 15070 Casaleggio Boiro AL, Italy</address>
+            <Point>
+                <coordinates>8.73269,44.63341</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Avigliana  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>Piazzale Grande Torino, 10051 Avigliana TO, Italy</address>
+            <Point>
+                <coordinates>7.39034,45.07324</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Locana-Nusiglie  (5eur/24h;Agua:si;Wc:si;Vaciado:si;Elec:si(3eur))</name>
+            <address>Via Molette, 20, 10080 Locana TO, Italy</address>
+            <Point>
+                <coordinates>7.46294,45.41292</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac de Verona  Gratuito: no (10eur/noche); Agua: si; Wc: no</name>
+            <address>Via Gianattilio dalla Bona, 6, 37138 Verona VR, Italy</address>
+            <Point>
+                <coordinates>10.97838,45.43375</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Lungolago (Ceresole Reale)  (Gratuito:no(8eur/noche);Agua:si;Wc:si;Vaciado:si;Elec:no)</name>
+            <address>Strada Provinciale 50, 10080 Ceresole reale TO, Italy</address>
+            <Point>
+                <coordinates>7.22823,45.43396</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Lugana Marina (Lago di Garda)  Tarifa:20eur/24h;Agua:si;Wc:si;Vaciado:si;Elect:si(3eur)</name>
+            <address>Via Cantarane, 16, 25019 Sirmione BS, Italy</address>
+            <Point>
+                <coordinates>10.63311,45.46066</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Valsavarenche  (5eur/noche;Agua:si;WC:no)</name>
+            <address>SR23, 159, 11010 Degioz AO, Italy</address>
+            <Point>
+                <coordinates>7.20708,45.59389</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Cogne  (10 euros;Agua:si;vaciado:si;electric:si;WC:no)</name>
+            <address>Via Mines De Cogne, 13, 11012 Cogne AO, Italy</address>
+            <Point>
+                <coordinates>7.35834,45.60844</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Valgrisenche  (Gratuito;Agua:si;WC:no)</name>
+            <address>Localita' Mondanges, 1, 11010 Valgrisenche AO, Italy</address>
+            <Point>
+                <coordinates>7.06263,45.6263</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Castillo de Fenis  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>Località Chez Sapin, 36A, 11020 Fénis AO, Italy</address>
+            <Point>
+                <coordinates>7.48541,45.73949</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Orta San Giulio  Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:no</name>
+            <address>Via al Sacro Monte, 28016 Orta San Giulio NO, Italy</address>
+            <Point>
+                <coordinates>8.41193,45.79726</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Mandello de Lario  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Via Giulio Cesare, 3B, 23826 Mandello del Lario LC, Italy</address>
+            <Point>
+                <coordinates>9.31547,45.91843</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Breuil-Cervinia  Tarifa:6eur/noche;Agua:si;Wc:no;Vaciado:si;Elect:no</name>
+            <address>Strada Regionale 46 della Valtournenche, 26, 11028 Valtournenche AO, Italy</address>
+            <Point>
+                <coordinates>7.62047,45.92608</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Belluno  Gratuito:no;Agua:si;Wc:si;Vaciado:si;Elect:no</name>
+            <address>Via Lambioi, 1B, 32100 Belluno BL, Italy</address>
+            <Point>
+                <coordinates>12.2141,46.13766</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Bolzano  (8 euros;Agua:si;vaciado:si;WC:no; electric:no)</name>
+            <address>Via Maso della Pieve, 4, 39100 Bolzano BZ, Italy</address>
+            <Point>
+                <coordinates>11.33717,46.47317</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

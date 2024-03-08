@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Finland</description>
+        <Placemark>
+            <name>Camping Oy Hamina  (22 eur/dia(furgo+2pax); cocina; restaurante)</name>
+            <address>Vilniementie 377, 49400 Hamina, Finland</address>
+            <Point>
+                <coordinates>27.24799,60.52778</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Retki Etappi   (15 eur (2pax+furgo+electr.);restaurante, sauna)</name>
+            <address>Juumantie 131, 93850 Kuusamo, Finland</address>
+            <Point>
+                <coordinates>29.39951,66.27</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Municipal de Rovaniemi (Finlandia)  Gratuito: no Agua: Si WC: si</name>
+            <address>Mäkimiestentie 10, 96200 Rovaniemi, Finland</address>
+            <Point>
+                <coordinates>25.7477,66.49848</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping de Kemijarvi  Gratuito: No, Agua: Si, WC: Si</name>
+            <address>Hietaniemenkatu 4, 98100 Kemijärvi, Finland</address>
+            <Point>
+                <coordinates>27.42439,66.7167</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Lomakyla (Lago Inari)  (25eur/dia;Agua:si;Wc:si)</name>
+            <address>Uruniementie 7-13, 99870 Inari, Finland</address>
+            <Point>
+                <coordinates>27.07237,68.90328</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

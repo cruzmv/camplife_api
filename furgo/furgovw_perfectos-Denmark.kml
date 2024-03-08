@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Denmark</description>
+        <Placemark>
+            <name>Maribo (Isla de Lolland)  (Gratuito;Agua:si;Wc:si;area en autopista)</name>
+            <address>Sydmotorvejen, 4930 Maribo, Denmark</address>
+            <Point>
+                <coordinates>11.46277,54.75734</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Nyborg  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Hjejlevej 107, 5800 Nyborg, Denmark</address>
+            <Point>
+                <coordinates>10.84477,55.29756</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fredericia  (Gratuito;Agua:no;Wc:si)</name>
+            <address>Lyngsoddevej 77, 7000 Fredericia, Denmark</address>
+            <Point>
+                <coordinates>9.74047,55.51912</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aparcamiento del Albergue de Juventud COPENHAGEN A  Gratuito: Si, Pernocta: Si Agua: Si WC:si</name>
+            <address>Ørestads Blvd. 30, 2300 København S, Denmark</address>
+            <Point>
+                <coordinates>12.58497,55.64168</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Legoland  Gratuito; Agua: no; Wc: no; parking urbano</name>
+            <address>Hovedgaden 17D, 7190 Billund, Denmark</address>
+            <Point>
+                <coordinates>9.11326,55.73131</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Lokken  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Ndr Strandvej 17, 9480 Løkken, Denmark</address>
+            <Point>
+                <coordinates>9.70979,57.37412</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Faro de Hirtshals  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Fyret 2, 9850 Hirtshals, Denmark</address>
+            <Point>
+                <coordinates>9.94311,57.58466</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hirtshals  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Esbern Snaresvej 5, 9850 Hirtshals, Denmark</address>
+            <Point>
+                <coordinates>9.98769,57.59064</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Albaek (Skagen)  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Ålbækvej 222, 9982 Ålbæk, Denmark</address>
+            <Point>
+                <coordinates>10.45821,57.63989</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grenen Skagen   Gratuito: si (de 18:00 a 9:00); Agua: no; Wc: si</name>
+            <address>Fyrvej 50, 9990 Skagen, Denmark</address>
+            <Point>
+                <coordinates>10.63345,57.73889</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

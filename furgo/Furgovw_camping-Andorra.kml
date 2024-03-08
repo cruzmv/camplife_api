@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Andorra</description>
+        <Placemark>
+            <name>Camping Valira  24EUR 2 pax+Furgo Wifi Pisicina</name>
+            <address>Càmping Valira, AD500 Andorra la Vella, Andorra</address>
+            <Point>
+                <coordinates>1.51501,42.50223</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Pla (Canillo)  (Tarifa:7eur/dia;bar,duchas...)</name>
+            <address>Camí Càmping Casal, AD100 Canillo, Andorra</address>
+            <Point>
+                <coordinates>1.60262,42.56743</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

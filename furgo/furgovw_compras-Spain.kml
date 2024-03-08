@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Spain</description>
+        <Placemark>
+            <name>Caravanas Ferrero  Tienda de Autocaravanas, caravanas y accesorios</name>
+            <address>N-332, 378, 03016 Alacant, Alicante, Spain</address>
+            <Point>
+                <coordinates>-0.44947,38.38519</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camcar  Tienda de accesorios para camper</name>
+            <address>Plaça Num 18-SECTOR 9, 203, 46410 Sueca, Valencia, Spain</address>
+            <Point>
+                <coordinates>-0.31997,39.20712</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tienda Camper Roulot  Tienda Camper</name>
+            <address>Calle del Gral. Palanca, 9, 28045 Madrid, Spain</address>
+            <Point>
+                <coordinates>-3.69886,40.39964</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Caravaning Cambrills  gratuito: no</name>
+            <address>N-340, 43850 Cambrils, Tarragona, Spain</address>
+            <Point>
+                <coordinates>1.05787,41.07481</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Carvisa  Tienda de accesorios; alquiler ac y cv</name>
+            <address>Autovía del Mediterráneo, 7, 43850 Cambrils, Tarragona, Spain</address>
+            <Point>
+                <coordinates>1.09921,41.09205</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Totcamping Canet  Tienda de accesorios camper</name>
+            <address>Carrer Vall, 61, 08360 Canet de Mar, Barcelona, Spain</address>
+            <Point>
+                <coordinates>2.58601,41.58825</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Talleres Hnos. Ramirez  Taller de automoviles y tienda de accesorios para ac</name>
+            <address>Camino Martillete, 7, 47011 Valladolid, Spain</address>
+            <Point>
+                <coordinates>-4.70149,41.65087</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Orly caravaning  Gratuito: No</name>
+            <address>Diseminado S Gregorio el Cascajo, 9184, 50015 Zaragoza, Spain</address>
+            <Point>
+                <coordinates>-0.86983,41.69051</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tienda Camping-Shop XXL  Tienda productos para camping</name>
+            <address>Avinguda Emporda, 15, 17470 Bon Relax, Girona, Spain</address>
+            <Point>
+                <coordinates>3.09119,42.18399</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gorbea Centro Caravaning S.L.  Gratuito: depende</name>
+            <address>Termino de Santa Engracia Aldea, 19, 01195 Vitoria-Gasteiz, Araba, Spain</address>
+            <Point>
+                <coordinates>-2.77825,42.82059</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Caravanas Tolosa  Venta, taller y tienda</name>
+            <address>Aldaba Auzoa &amp; Carr. de Irún a Vitoria-Gasteiz, 20267, Gipuzkoa, Spain</address>
+            <Point>
+                <coordinates>-2.11461,43.09528</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Caravanas Itsasmendi  Tienda</name>
+            <address>Txistoki Pasealekua Ibilbidea &amp; Carr. de Irún a Vitoria-Gasteiz, 20140 Andoain, Gipuzkoa, Spain</address>
+            <Point>
+                <coordinates>-2.02549,43.21823</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>www.nopares.com  Importador de furgos camper</name>
+            <address>San Nikolas Olabeaga Kalea, 48013 Bilbao, Bizkaia, Spain</address>
+            <Point>
+                <coordinates>-2.95428,43.26483</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ciclos y caravanas Oiartzun  Tienda</name>
+            <address>Olagarai Kalea, 1, 20180, Gipuzkoa, Spain</address>
+            <Point>
+                <coordinates>-1.88232,43.29429</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>www.planetacamper.com  (Venta de campers y autocaravanas)</name>
+            <address>N-634, 14-16, 48550 Muskiz, Bizkaia, Spain</address>
+            <Point>
+                <coordinates>-3.11229,43.32308</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Caravanas Evasion</name>
+            <address>Letxumborro Hiribidea, 79, 20305 Irun, Gipuzkoa, Spain</address>
+            <Point>
+                <coordinates>-1.81701,43.33212</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

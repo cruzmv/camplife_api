@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Luxembourg</description>
+        <Placemark>
+            <name>Luxemburgo  Agua: No, Wc: No, Gratuito: Si</name>
+            <address>25-31 Boulevard Franklin Delano Roosevelt, 2450 Luxembourg, Luxembourg</address>
+            <Point>
+                <coordinates>6.129,49.60935</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lago de Echternach  (Gratuito;Agua:si;Wc:si)</name>
+            <address>CR378, 6412 Echternach, Luxembourg</address>
+            <Point>
+                <coordinates>6.41749,49.79747</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Switzerland</description>
+        <Placemark>
+            <name>Grande Dixence  (Gratuito;Agua:si;WC:si)</name>
+            <address>Le Chargeur, 1987 Hérémence, Switzerland</address>
+            <Point>
+                <coordinates>7.40087,46.08566</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pique-nique de Martigny  Gratuito; Agua: si; Wc:no</name>
+            <address>Avenue du Grand-Saint-Bernard 83, 1920 Martigny, Switzerland</address>
+            <Point>
+                <coordinates>7.05777,46.08659</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Zinal  (Gratuito:si;Agua:no; WC:no)</name>
+            <address>Le Perrec, 3961 Ayer, Switzerland</address>
+            <Point>
+                <coordinates>7.624,46.14019</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grimentz  (4eur/noche:si;Agua:si; WC:si)</name>
+            <address>Route de Moiry 33, 3961 Grimentz, Switzerland</address>
+            <Point>
+                <coordinates>7.56897,46.17039</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Castello de Montebello (Bellinzona)  Gratuito; Agua: si; Wc: si</name>
+            <address>Salita al castello di Montebello, 6500 Bellinzona, Switzerland</address>
+            <Point>
+                <coordinates>9.02763,46.19154</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bellevue (Ginebra)  Gratuito; Agua: si; Wc: si; Duchas: si; tren al centro de Ginebra</name>
+            <address>Route de Lausanne 284, 1292 Chambésy, Switzerland</address>
+            <Point>
+                <coordinates>6.15256,46.24519</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Blatten  Gratuito; Agua: si; Wc: si</name>
+            <address>Rischinu, 3914 Naters, Switzerland</address>
+            <Point>
+                <coordinates>7.99355,46.36518</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Glion Caux-Montreux  Gratuito Si, Agua No, WC No</name>
+            <address>Route de Caux 99, 1823 Glion, Switzerland</address>
+            <Point>
+                <coordinates>6.93149,46.4326</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Haut de Caux  (Gratuito:si;Agua:si; WC:si)</name>
+            <address>Route des Monts 37, 1824 Montreux, Switzerland</address>
+            <Point>
+                <coordinates>6.946,46.43397</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gruyere   (Gratuito;Agua:si;Wc:no)</name>
+            <address>9, 1666 Grandvillard, Switzerland</address>
+            <Point>
+                <coordinates>7.09538,46.54438</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>St Gottardo  (Gratuito;Agua:no;WC:no)</name>
+            <address>Passo del S. Gottardo, 6780 Airolo, Switzerland</address>
+            <Point>
+                <coordinates>8.56664,46.5574</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grimsselpass  Gratuito; Agua: no; Wc: no</name>
+            <address>8, 3999 Obergoms VS, Switzerland</address>
+            <Point>
+                <coordinates>8.34462,46.56087</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Moleson-sur- Gruyeres  (Gratuito;Agua:no;WC:no)</name>
+            <address>Route du Moléson 228, 1663 Moléson-sur-Gruyères, Switzerland</address>
+            <Point>
+                <coordinates>7.03815,46.56129</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Magic Wood  Tarifa: 3.5 eur/dia; Agua: no; Wc: si</name>
+            <address>Hauptstrasse 6, 7444 Ausserferrera, Switzerland</address>
+            <Point>
+                <coordinates>9.43833,46.56833</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Furkapass   (Gratuito;Agua:no;Wc:no)</name>
+            <address>Furkastrasse, 3999 Obergoms VS, Switzerland</address>
+            <Point>
+                <coordinates>8.41537,46.57251</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Maison du Gruyère (Pringy)  Gratuito; Agua: no; Wc: si (en el museo)</name>
+            <address>Place de la Gare 3, 1663 Pringy, Switzerland</address>
+            <Point>
+                <coordinates>7.07228,46.58259</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Oberalppass  Gratuito; Agua: no; Wc: no</name>
+            <address>Gassa, 6490 Andermatt, Switzerland</address>
+            <Point>
+                <coordinates>8.66717,46.66195</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Romainmotier  (Gratuito;Agua:no;WC:no)</name>
+            <address>Chemin du Boléron, 1323 Romainmôtier-Envy, Switzerland</address>
+            <Point>
+                <coordinates>6.46164,46.69148</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Merligen  (Gratuito;Agua:si;WC:si)</name>
+            <address>Beir Säge, 3658 Sigriswil, Switzerland</address>
+            <Point>
+                <coordinates>7.74193,46.6945</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sustenpass  Gratuito; Agua: no; Wc: no; cima de puerto de montaña</name>
+            <address>11, 3863 Gadmen, Switzerland</address>
+            <Point>
+                <coordinates>8.44668,46.72943</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fluelapass  Gratuito; Agua: no; Wc: no; cima de puerto de montaña</name>
+            <address>Flüelapass, 7260 Davos, Switzerland</address>
+            <Point>
+                <coordinates>9.94502,46.75193</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Guarda  (8 francos/24h;Agua:si;WC:si)</name>
+            <address>Chasa 110, 7545 Scuol, Switzerland</address>
+            <Point>
+                <coordinates>10.14534,46.77576</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fribourg (Suiza)  Gratuito: solo de noche; Agua: no; Wc: no; parking urbano</name>
+            <address>Chemin de la Patinoire, 1700 Fribourg, Switzerland</address>
+            <Point>
+                <coordinates>7.16777,46.80464</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Montagny   (Gratuito;Agua:no;Wc:no)</name>
+            <address>Route des Arbognes, 1757 Montagny, Switzerland</address>
+            <Point>
+                <coordinates>7.00581,46.80962</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de servicio de Münsingen  Gratuito; Agua: si; Wc: si; area de descanso en autopista</name>
+            <address>A6, 3110 Münsingen, Switzerland</address>
+            <Point>
+                <coordinates>7.54117,46.87835</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Zona deportiva de Sarnen  Gratuito; Agua: si; Wc: si</name>
+            <address>Rütistrasse 6, 6060 Sarnen, Switzerland</address>
+            <Point>
+                <coordinates>8.24272,46.89252</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Alpanach   (Gratuito;Agua:si;Wc:no)</name>
+            <address>Unnamed Road, 6055 Alpnach, Switzerland</address>
+            <Point>
+                <coordinates>8.1899,46.93362</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Alpnachstad  (Gratuito;Agua:no;WC:no)</name>
+            <address>Brünigstrasse, 6053 Alpnach, Switzerland</address>
+            <Point>
+                <coordinates>8.2942,46.96598</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Maienfeld   (Gratuito;Agua:si;Wc:si)</name>
+            <address>Steigstrasse, 7304 Maienfeld, Switzerland</address>
+            <Point>
+                <coordinates>9.52593,47.01757</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Weggis  (Gratuito:no(4eur/24h);Agua:no;Wc:si)</name>
+            <address>Hertensteinstrasse 88, 6353 Weggis, Switzerland</address>
+            <Point>
+                <coordinates>8.41253,47.02932</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Vue des Alpes  (Gratuito;Agua:si;WC:si)</name>
+            <address>La Vue-des-Alpes, 2052 Fontaines, Switzerland</address>
+            <Point>
+                <coordinates>6.87011,47.07226</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Willerzell  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Satteleggstrasse, 8857 Vorderthal, Switzerland</address>
+            <Point>
+                <coordinates>8.84689,47.12689</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cham  Gratuito; Agua: si; Wc: si</name>
+            <address>Chamer Fussweg, 6300 Zug, Switzerland</address>
+            <Point>
+                <coordinates>8.49651,47.17691</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de servicio Kemptthal  Gratuito; Agua: si; Wc: si; area de servicio de autopista</name>
+            <address>Alte Poststrasse 2, 8310 Kemptthal, Switzerland</address>
+            <Point>
+                <coordinates>8.70035,47.44909</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Stein am Rhein  Gratuito: solo de noche; Agua: no;Wc: no; parking urbano</name>
+            <address>Hemishoferstrasse 7, 8260 Stein am Rhein, Switzerland</address>
+            <Point>
+                <coordinates>8.85445,47.66246</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cascadas del Rhin  Gratuito; Agua: no; Wc: si (solo de dia); parking urbano</name>
+            <address>Gassa, 8447 Laufen-Uhwiesen, Switzerland</address>
+            <Point>
+                <coordinates>8.61467,47.67485</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

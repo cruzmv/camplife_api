@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Andorra</description>
+        <Placemark>
+            <name>Centro comercial River  (Gratuito; Agua: no; Wc: si; parking centro comercial)</name>
+            <address>CG-1, AD600 Sant Julià de Lòria, Andorra</address>
+            <Point>
+                <coordinates>1.48644,42.45352</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sant Julia de Loria  (Gratuito:?;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>Ctra. de la Rabassa, 14, AD600 Sant Julià de Lòria, Andorra</address>
+            <Point>
+                <coordinates>1.49422,42.46602</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Encamp 2  Gratuito: no (15 eur); Agua: si; Wc: si</name>
+            <address>Parc del Prat Gran, AD200 Encamp, Andorra</address>
+            <Point>
+                <coordinates>1.57858,42.53263</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Encamp  Gratuito: no; Agua: si; Wc: no</name>
+            <address>Travessia Encamp Paradís, AD200 Encamp, Andorra</address>
+            <Point>
+                <coordinates>1.58873,42.53544</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking Bullidor (Pas de la Casa)  Gratuito: no (1.10 eur/noche); Agua: si; Wc: no</name>
+            <address>Av. del Consell General, 10, AD200 Pas de la Casa, Andorra</address>
+            <Point>
+                <coordinates>1.73344,42.54538</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

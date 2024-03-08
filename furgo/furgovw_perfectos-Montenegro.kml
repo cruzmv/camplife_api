@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Montenegro</description>
+        <Placemark>
+            <name>Ermita de Blizikuce  (Gratuito;Agua:no;Wc:no)</name>
+            <address>E80, Sveti Stefan, Montenegro</address>
+            <Point>
+                <coordinates>18.90254,42.2447</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Zvrsno  (Parking gasolinera)</name>
+            <address>M2.3, Montenegro</address>
+            <Point>
+                <coordinates>18.9345,42.34914</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Krasici  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Njegoševa, Krašići, Montenegro</address>
+            <Point>
+                <coordinates>18.63268,42.41562</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Manastir Ostrog  (Gratuito;Agua:no;Wc:si)</name>
+            <address>Unnamed Road, Montenegro</address>
+            <Point>
+                <coordinates>19.02866,42.67501</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Biogradsko jezero  (10eur/dia;Agua:si;Wc:si)</name>
+            <address>Top Biking Trail 3, Montenegro</address>
+            <Point>
+                <coordinates>19.59565,42.90057</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Netherlands</description>
+        <Placemark>
+            <name>Maastricht  (Gratuito;parking urbano sin servicios)</name>
+            <address>Stadionplein 2, 6225 XW Maastricht, Netherlands</address>
+            <Point>
+                <coordinates>5.71644,50.85631</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Terneuzen  (Gratuito;Agua:no;WC:no)</name>
+            <address>Binnenvaartweg, 4531 Terneuzen, Netherlands</address>
+            <Point>
+                <coordinates>3.82117,51.33555</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking Ac en Terneuzen  Gratuito; Agua: no; Wc: no</name>
+            <address>Stuvesande 74, 4532 MH Terneuzen, Netherlands</address>
+            <Point>
+                <coordinates>3.83755,51.33595</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Eindhoven   Gratuito: si; Agua: no; Wc: no</name>
+            <address>Pastoor Harkxplein 2, 5614 HX Eindhoven, Netherlands</address>
+            <Point>
+                <coordinates>5.48752,51.42996</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Zona deportiva de Raamsdonk  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Lageweg 8, 4944 AR Raamsdonk, Netherlands</address>
+            <Point>
+                <coordinates>4.91361,51.68528</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Geertruidenberg  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Statenlaan 7, 4931 KB Geertruidenberg, Netherlands</address>
+            <Point>
+                <coordinates>4.86345,51.70358</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kinderdijk  Gratuito: si; Agua: no; Wc: no</name>
+            <address>Veerdam 5, 2961 AX Kinderdijk, Netherlands</address>
+            <Point>
+                <coordinates>4.6302,51.88581</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Otterlo. P. N. De Hoge Veluwe  (Gratuito;Agua:no;WC:no)</name>
+            <address>Arnhemseweg 100-102, 6731 Otterlo, Netherlands</address>
+            <Point>
+                <coordinates>5.77654,52.08629</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Dunas de Den Haag   Gratuito; Agua: no; Wc: no</name>
+            <address>Zuidduinseweg 1, 2225 JS Katwijk, Netherlands</address>
+            <Point>
+                <coordinates>4.39119,52.19438</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vinkeveense plassen  Gratuito: Si, Agua: No , WC: no</name>
+            <address>Baambrugse Zuwe 141D, 3645 AE Vinkeveen, Netherlands</address>
+            <Point>
+                <coordinates>4.9508,52.23482</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Haarlem   (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>Severijnsstraat 8, 2032 PZ Haarlem, Netherlands</address>
+            <Point>
+                <coordinates>4.6478,52.38042</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Durgerdam (Amsterdam)  Gratuito; Agua: no; Wc: no; Altura limitada a 2 m.</name>
+            <address>Durgerdammergouw 49, 1026 CN Amsterdam, Netherlands</address>
+            <Point>
+                <coordinates>5.00279,52.38213</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Amsterdam Meeuwenlaan 201  Gratuito Si, Agua No, WC No</name>
+            <address>Meeuwenlaan 84, 1021 JK Amsterdam, Netherlands</address>
+            <Point>
+                <coordinates>4.91974,52.38561</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Katwoude Waterland  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Achterdichting 6, 1145 PX Katwoude, Netherlands</address>
+            <Point>
+                <coordinates>5.0347,52.4882</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Volendam</name>
+            <address>Julianaweg 135A, 1131 DH Volendam, Netherlands</address>
+            <Point>
+                <coordinates>5.0762,52.50086</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Edam  Gratuito: Agua: no; Wc: no; parking urbano</name>
+            <address>Baandervesting 3-51, 1135 CC Edam, Netherlands</address>
+            <Point>
+                <coordinates>5.052,52.51131</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Klimcentrum Bjoeks (Groningen)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Bieskemaar 10, 9735 Groningen, Netherlands</address>
+            <Point>
+                <coordinates>6.59791,53.2402</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

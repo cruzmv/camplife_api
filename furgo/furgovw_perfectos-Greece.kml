@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Greece</description>
+        <Placemark>
+            <name>Istrio (Creta)  (Gratuito; Agua: si; Wc: si; Duchas: si)</name>
+            <address>EO Agiou Nikolaou Sitias, Istro 721 00, Greece</address>
+            <Point>
+                <coordinates>25.73436,35.12646</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Sougia (Creta)  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Tsouri, Sougia 730 09, Greece</address>
+            <Point>
+                <coordinates>23.8164,35.24846</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kedrodasos (Creta)  Gratuito; Agua: no; Wc: no</name>
+            <address>Unnamed Road, Kandanos Selinos 730 01, Greece</address>
+            <Point>
+                <coordinates>23.56037,35.27202</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa Roja (Santorini)  Gratuito; Agua: no; Wc: no</name>
+            <address>Unnamed Road, Santorini 847 00, Greece</address>
+            <Point>
+                <coordinates>25.3959,36.34749</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Perissa (Santorini)  (Gratuito; Agua: no; Wc: no)</name>
+            <address>Unnamed Road, Perissa 847 03, Greece</address>
+            <Point>
+                <coordinates>25.47548,36.35751</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puerto de Santorini  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>Epar.Od. Ormou Athiniou, Santorini 847 00, Greece</address>
+            <Point>
+                <coordinates>25.43119,36.38707</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fira (Santorini)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Agiou Athanasiou 2, Thira 847 00, Greece</address>
+            <Point>
+                <coordinates>25.43562,36.42087</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Oia (Santorini)   (Gratuito;Agua:no;Wc:no)</name>
+            <address>Nik. Nomikou, Ia 847 02, Greece</address>
+            <Point>
+                <coordinates>25.3734,36.46283</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Monemvasia  Gratuito; Agua: no; Wc: no</name>
+            <address>EO Monemvasias Krokeon, Gefira 230 70, Greece</address>
+            <Point>
+                <coordinates>23.03473,36.69097</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Neo Itylo  Gratuito; Agua: no; Wc: no</name>
+            <address>Epar.Od. Kalamatas - Areopolis, Anatoliki Mani 230 62, Greece</address>
+            <Point>
+                <coordinates>22.38913,36.69342</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Kalotaritisa (isla de Amorgos)  (Gratuito; Agua: no; Wc: no)</name>
+            <address>Unnamed Road, Amorgos 840 08, Greece</address>
+            <Point>
+                <coordinates>25.74316,36.79302</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Methoni  Gratuito; Agua: no; Wc: no; parking urbano</name>
+            <address>Unnamed Road, Methoni 240 06, Greece</address>
+            <Point>
+                <coordinates>21.70531,36.81785</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Agios Andreas (Messinia)   (Gratuito;Agua:no;Wc:no)</name>
+            <address>Epar.Od. Rizomilou-Koronis, Ag. Andreas 240 10, Greece</address>
+            <Point>
+                <coordinates>21.92226,36.8631</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kardamila  Gratuito; Agua: no; Wc: no</name>
+            <address>Epar.Od. Kalamatas - Areopolis, Ditiki Mani 240 22, Greece</address>
+            <Point>
+                <coordinates>22.22835,36.89172</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pylos  Gratuito; agua: si; Wc: si</name>
+            <address>Tsamadou, Pilos Nestor 240 01, Greece</address>
+            <Point>
+                <coordinates>21.69165,36.91366</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Plaka (Isla de Naxos)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, Naxos ke Mikres Kiklades 843 00, Greece</address>
+            <Point>
+                <coordinates>25.3612,37.05679</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Zacharo   (Gratuito;Agua:no;Wc:si)</name>
+            <address>Unnamed Road, Zacharo 270 54, Greece</address>
+            <Point>
+                <coordinates>21.6762,37.3909</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Nauplia  Gratuito; Agua: no; Wc: no</name>
+            <address>Andrea Siggrou 4, Nafplio 211 00, Greece</address>
+            <Point>
+                <coordinates>22.80052,37.56704</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Katakolo  (Gratuito; Agua: no; Wc: no)</name>
+            <address>Epar.Od. Pirgou-Katakolon, Katakolo 270 67, Greece</address>
+            <Point>
+                <coordinates>21.31724,37.64759</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cabo Sounion  (Gratuito; Agua: no; Wc: no)</name>
+            <address>Leof. Athinon Souniou, Lavreotiki 195 00, Greece</address>
+            <Point>
+                <coordinates>23.99778,37.66213</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Acrocorintio  Gratuito; Agua: no; Wc: no</name>
+            <address>Unnamed Road, Korinthos 200 07, Greece</address>
+            <Point>
+                <coordinates>22.86765,37.8899</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Acropolis (Atenas)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Rovertou Galli 39-43, Athina 117 41, Greece</address>
+            <Point>
+                <coordinates>23.72304,37.96934</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Xylokastro   (Gratuito;Agua:no;Wc:no)</name>
+            <address>Kon/nou Karamanli 7, Xilokastro 204 00, Greece</address>
+            <Point>
+                <coordinates>22.63912,38.07742</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kato Achaia  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Unnamed Road, Ditiki Achaia 252 00, Greece</address>
+            <Point>
+                <coordinates>21.55431,38.15464</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Marathias (Golfo de Corinto)   (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, Skaloma 330 56, Greece</address>
+            <Point>
+                <coordinates>21.99743,38.39481</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puerto de Itea  Gratuito; Agua: si; Wc: no</name>
+            <address>28is Oktovriou 7-13, Itea 332 00, Greece</address>
+            <Point>
+                <coordinates>22.42153,38.4315</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mourteri (Isla de Evia)  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Unnamed Road, Kimi Aliveri 340 09, Greece</address>
+            <Point>
+                <coordinates>24.165,38.56331</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Porto Katsiki (Lefkada)  Gratuito; Agua: no; Wc: no</name>
+            <address>μονοπ. Πόρτο Κατσίκι, Lefkada 310 82, Greece</address>
+            <Point>
+                <coordinates>20.54935,38.60292</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Kato Exanthias (Lefkada)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, Lefkada 311 00, Greece</address>
+            <Point>
+                <coordinates>20.66998,38.83163</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lengua de arena de Lefkada  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, Lefkada 311 00, Greece</address>
+            <Point>
+                <coordinates>20.68807,38.85121</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Monasterio Antinitsis   (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, Lamia 351 00, Greece</address>
+            <Point>
+                <coordinates>22.40238,38.99861</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kanali  (Gratuito; Agua: no; Wc: no)</name>
+            <address>EO Prevezas Igoumenitsas, Preveza 481 00, Greece</address>
+            <Point>
+                <coordinates>20.70015,39.05479</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Agias Kyriaky  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Unnamed Road, Ag. Kiriaki 370 09, Greece</address>
+            <Point>
+                <coordinates>23.071,39.0889</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa Kastrosikia  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Unnamed Road, Pidima Kiras 481 00, Greece</address>
+            <Point>
+                <coordinates>20.63739,39.09448</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa Vassilias (Isla de Skiathos)     (Gratuito;Agua:no;Wc:no)</name>
+            <address>Epar.Od. Koukounarion-Skiathou, Skiathos 370 02, Greece</address>
+            <Point>
+                <coordinates>23.4705,39.15506</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa Ligaries (Isla de Skiathos)   (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, Skiathos 370 02, Greece</address>
+            <Point>
+                <coordinates>23.44373,39.18103</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cala Gaiou-Lakka  Gratuito; Agua: no; Wc: no</name>
+            <address>Unnamed Road, Paxi 490 82, Greece</address>
+            <Point>
+                <coordinates>20.181,39.20862</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ammoudia  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Paralias, Ammoudia 480 62, Greece</address>
+            <Point>
+                <coordinates>20.48168,39.24015</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Agios Gionnakis  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, Igoumenitsa 480 60, Greece</address>
+            <Point>
+                <coordinates>20.466,39.27989</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa Lichnos (Parga)   (Gratuito;Agua:no;Wc:no)</name>
+            <address>Epar.Od. Morfis-Anthousas, Parga 480 60, Greece</address>
+            <Point>
+                <coordinates>20.43727,39.28234</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kato-Gatzea  Gratuito; Agua: no;Wc: no</name>
+            <address>EO Volou Neochoriou 3, Kato Gatzea 373 00, Greece</address>
+            <Point>
+                <coordinates>23.09978,39.30887</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Arkoudilas beach (Corfu)   (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, Kerkira 490 80, Greece</address>
+            <Point>
+                <coordinates>20.06143,39.37818</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Plataria  Gratuito; Agua: no; Wc: no</name>
+            <address>Unnamed Road, Plataria 461 00, Greece</address>
+            <Point>
+                <coordinates>20.2715,39.4438</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kalambaka (Meteora)  Gratuito; Agua: no; Wc: no</name>
+            <address>Mai 9, Kalampaka 422 00, Greece</address>
+            <Point>
+                <coordinates>21.62448,39.7081</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Monasterio Varlaam (Meteora)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, Kalampaka 422 00, Greece</address>
+            <Point>
+                <coordinates>21.63076,39.72595</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Agni (Isla de Corfu)  Gratuito; Agua: no; Wc: no</name>
+            <address>Unnamed Road, Kavallerena 490 83, Greece</address>
+            <Point>
+                <coordinates>19.9267,39.73703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Chouchoulio (isla de Corfu)  Gratuito; Agua: no; Wc: no</name>
+            <address>Unnamed Road, Kalami 490 83, Greece</address>
+            <Point>
+                <coordinates>19.93837,39.7461</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Agios Stefanos (isla de Corfu)  Gratuito;Agua: no; Wc: no</name>
+            <address>Unnamed Road, Ag. Stefanos 490 81, Greece</address>
+            <Point>
+                <coordinates>19.64187,39.75492</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Logas beach (Corfu)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Epar.Od. Agrou-Perouladon, Kerkira 490 81, Greece</address>
+            <Point>
+                <coordinates>19.66629,39.78713</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aristi- Papingo   Gratuito; Agua: no; Wc: no</name>
+            <address>Epar.Od. Kalpakiou-Papigkou 126, Aristi 440 04, Greece</address>
+            <Point>
+                <coordinates>20.68807,39.94461</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Monte Olympo   (Gratuito;Agua:no;Wc:no)</name>
+            <address>Πριόνια - Καταφύγιο ΕΟΟΑ "Σπήλιος Αγαπητός", Dion Olimpos 602 00, Greece</address>
+            <Point>
+                <coordinates>22.40695,40.08424</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Litochoro (Monte Olimpo)  Gratuito; Agua: si; Wc: si</name>
+            <address>Iona Dragoumi, Dion Olimpos 602 00, Greece</address>
+            <Point>
+                <coordinates>22.50758,40.10742</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa Karidi  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, Sithonia 630 78, Greece</address>
+            <Point>
+                <coordinates>23.80679,40.19355</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vergina  Gratuito; Agua: si ; Wc: no</name>
+            <address>Unnamed Road, Veria 590 31, Greece</address>
+            <Point>
+                <coordinates>22.32209,40.48474</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

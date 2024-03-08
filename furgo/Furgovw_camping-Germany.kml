@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Germany</description>
+        <Placemark>
+            <name>Camping Bannwaldsee  (28,5eur/Furgo+2pers)</name>
+            <address>Münchener Str. 151, 87645 Schwangau, Germany</address>
+            <Point>
+                <coordinates>10.77184,47.59237</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Brunnen (Schwangau)  Tarifa: 26eur/dia(furgo+2 pax); Supermecado, restaurante, wifi..</name>
+            <address>Brunnen, Seestraße 81, 87645 Schwangau, Germany</address>
+            <Point>
+                <coordinates>10.73852,47.59682</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Hopfensee  (35eur/noche)</name>
+            <address>Hopfen am See, Fischerbichl 17B, 87629 Füssen, Germany</address>
+            <Point>
+                <coordinates>10.68396,47.59973</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Campingplatz Hofbauer  Tarifa:25eur/dia(furgo+2pax);restaurante, wifi, habitaciones,bar</name>
+            <address>Bernauer Str. 83, 83209 Prien am Chiemsee, Germany</address>
+            <Point>
+                <coordinates>12.35134,47.83877</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Bulhof (Titisee)  Gratuito: No, Pernocta: Si Agua: Si WC:si</name>
+            <address>Walter-Wilde-Weg 2, 79822 Hinterzarten, Germany</address>
+            <Point>
+                <coordinates>8.14068,47.896</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Michelhof  20 eur/dia (furgo+2 pax); restaurante; lavadora</name>
+            <address>Linach, 9, 78120 Furtwangen im Schwarzwald, Germany</address>
+            <Point>
+                <coordinates>8.22744,48.02418</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Utting am Ammersee  (20eur/noche)</name>
+            <address>Im Freizeitgelände 5, 86919 Utting am Ammersee, Germany</address>
+            <Point>
+                <coordinates>11.09643,48.02785</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Campingplatz Strandbad Pilsensee (Munich)  (Tarifa: 15 eur (furgo+2 pax); restaurante, lavanderia, wifi</name>
+            <address>St2068, 82229 Seefeld, Germany</address>
+            <Point>
+                <coordinates>11.20063,48.02838</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Thalkirchen (Munich)  (Tarifa:18eur/dia(furgo+2pax);tienda, bar)</name>
+            <address>Thalkirchen-Obersendling-Forstenried-Fürstenried-S, Zentralländstraße 39, 81379 München, Germany</address>
+            <Point>
+                <coordinates>11.54442,48.09095</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Buhl-Oberbruch  Gratuito: No, Pernocta: Si Agua: Si WC:si</name>
+            <address>L76, 77815 Bühl, Germany</address>
+            <Point>
+                <coordinates>8.08454,48.72871</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Saarbrucken  Gratuito: No, Pernocta: Si Agua: Si WC:si</name>
+            <address>Mitte, Saarbrücken - Mannheim, 66117 Saarbrücken, Germany</address>
+            <Point>
+                <coordinates>6.97384,49.21024</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Sagmuhle (Trippstadt)  22 eur/dia (furgo+2 pax); electricidad; restaurante; minigolf</name>
+            <address>K51, 67705 Trippstadt, Germany</address>
+            <Point>
+                <coordinates>7.7807,49.35371</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Kalte Quelle (Wurzburg)  (Tarifa:16eur/dia(furgo+2pax);tienda,bar..)</name>
+            <address>Heidingsfeld, Winterhäuser Str. 160, 97084 Würzburg, Germany</address>
+            <Point>
+                <coordinates>9.98434,49.74463</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Insel (Bamberg)  (Tarifa:19eur/dia(furgo+2pax);bar, restaurante, bus al centro..)</name>
+            <address>Am Campingpl. 1, 96049 Bamberg, Germany</address>
+            <Point>
+                <coordinates>10.91702,49.8615</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping de Altenahr  Agua: Si    WC: Si    Gratuito: 12eur/pers/noche</name>
+            <address>B257, 53505 Altenahr, Germany</address>
+            <Point>
+                <coordinates>6.98868,50.51954</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Stadt Köln (Colonia)  (Tarifa:18eur/dia(furgo+2pax);tienda, bar, wifi)</name>
+            <address>Porz, Weidenweg 51, 51105 Köln, Germany</address>
+            <Point>
+                <coordinates>6.98971,50.90303</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Sunset Marina (Berlin)  (Tarifa:24eur/dia(furgo+2pax);Agua:si;Wc:si;Elec:si)</name>
+            <address>Bezirk Spandau, Siemenswerderweg 45, 13595 Berlin, Germany</address>
+            <Point>
+                <coordinates>13.20581,52.50818</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Sturberg (Bremen)  Tarifa:17eur/dia(furgo+2pax); bar</name>
+            <address>Rotenburger Str. 11, 27367 Hassendorf, Germany</address>
+            <Point>
+                <coordinates>9.27796,53.11981</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

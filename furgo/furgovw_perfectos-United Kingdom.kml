@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>United Kingdom</description>
+        <Placemark>
+            <name>Exeter  (Gratuito solo noche;Agua:si;Wc:si)</name>
+            <address>Newlands, Longfield, Starcross, Exeter, Devon EX6 8PJ, UK</address>
+            <Point>
+                <coordinates>-3.44914,50.63056</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ringstead Bay  (Gratuito;Agua:no;WC:no)</name>
+            <address>Falcon Barn, Dorchester, Dorset DT2, UK</address>
+            <Point>
+                <coordinates>-2.34424,50.64127</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Trebarwith Strand  (Gratuito solo noche;Agua:no;Wc:no)</name>
+            <address>S W Coast Path, Tintagel, Cornwall PL34, UK</address>
+            <Point>
+                <coordinates>-4.75442,50.64536</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Brighton  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>23 Roedean Rd, Brighton, The City of Brighton and Hove BN2, UK</address>
+            <Point>
+                <coordinates>-0.10036,50.81806</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Galley Hill (Bexhill)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>83 De La Warr Parade, Bexhill-on-Sea, East Sussex TN40, UK</address>
+            <Point>
+                <coordinates>0.49788,50.84185</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bosherston (Pembroke)  Gratuito:no(3libras/persona);Agua:si;Wc:si;Ducha caliente:si</name>
+            <address>Windsor Rd, Pembroke, Pembrokeshire SA71 5DW, UK</address>
+            <Point>
+                <coordinates>-4.94221,51.615</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Enfield (Londres)  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>1 Glyn Rd, Enfield, Greater London EN3 4JL, UK</address>
+            <Point>
+                <coordinates>-0.04725,51.64899</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Brecon Beacons  (Gratuito;Agua:no;WC:no)</name>
+            <address>B4560, Crickhowell, Powys NP8 1LN, UK</address>
+            <Point>
+                <coordinates>-3.22605,51.84428</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rugby  (Gratuito solo noche;Agua:si;Wc:si)</name>
+            <address>1995 Chestnut Field, Rugby CV21, UK</address>
+            <Point>
+                <coordinates>-1.26189,52.37431</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area recreativa de St Helens  Gratuito: si Agua: Si WC: si</name>
+            <address>Unnamed Road, Brandon, Norfolk IP27, UK</address>
+            <Point>
+                <coordinates>0.68545,52.45367</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Porth Ceriad Beach  Agua: No, Wc: No, Luz: No, Gratuito: Si</name>
+            <address>Unnamed Road, Pwllheli, Gwynedd LL53 7BY, UK</address>
+            <Point>
+                <coordinates>-4.5066,52.79526</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hells Mouth Beach  Agua: No, Wc: No, Luz: No, Gratuito: Si</name>
+            <address>Unnamed Road, Pwllheli, Gwynedd LL53, UK</address>
+            <Point>
+                <coordinates>-4.57024,52.82133</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Newborough Beach  Agua: No, Wc: No, Luz: No, Gratuito: No 2 Libras</name>
+            <address>Unnamed Road, Llanfairpwllgwyngyll, Isle of Anglesey LL61 6SG, UK</address>
+            <Point>
+                <coordinates>-4.38571,53.14424</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>South Stack  Agua: No, Wc: No, Luz: No, Gratuito: Si</name>
+            <address>S Stack Rd, Holyhead, Isle of Anglesey LL65 1YH, UK</address>
+            <Point>
+                <coordinates>-4.6945,53.30688</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Whitby  Gratuito: no (6 libras); Agua: no; Wc: si</name>
+            <address>Langborne Rd, Whitby, North Yorkshire YO22, UK</address>
+            <Point>
+                <coordinates>-0.6127,54.48281</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lambley (Northumberland)  Gratuito: si Agua: No WC: No</name>
+            <address>8 High Ridley, Coanwood, Haltwhistle, Northumberland NE49 0QU, UK</address>
+            <Point>
+                <coordinates>-2.5016,54.92994</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>HadrianÂ´s Wall  (4 libras de 10-18 h; agua:no; WC:no)</name>
+            <address>Hadrian's Wall Path, Brampton, Cumbria CA8 7DD, UK</address>
+            <Point>
+                <coordinates>-2.60074,54.99153</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Benone Strand  Gratuito; Agua: no; Wc: si (cierran de noche)</name>
+            <address>39 Benone Ave, Limavady, Limavady BT49 0LQ, UK</address>
+            <Point>
+                <coordinates>-6.87581,55.16796</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Factori­a de algodon de Newlanark  Gratuito; Agua: no; Wc: no</name>
+            <address>1 New Lanark Rd, Lanark, South Lanarkshire ML11 9BY, UK</address>
+            <Point>
+                <coordinates>-3.77814,55.66403</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Holy Island  Gratuito; Agua: no; Wc: no</name>
+            <address>Lindisfarne Causeway, Berwick-upon-Tweed, Northumberland TD15, UK</address>
+            <Point>
+                <coordinates>-1.87546,55.67812</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Embalse de Threipmuir (Edimburgo)  Gratuito: Si, Agua: No, WC: No</name>
+            <address>Unnamed Road, Balerno, Edinburgh EH14 7JT, UK</address>
+            <Point>
+                <coordinates>-3.33246,55.86048</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Coldingham Bay  Gratuito; Agua: si; Wc: si</name>
+            <address>4 St Abbs Haven, Coldingham, Eyemouth, Scottish Borders TD14 5NZ, UK</address>
+            <Point>
+                <coordinates>-2.13757,55.89161</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Portobello indoor bowls (Edimburgo)  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>15 Bridge St, Edinburgh, Edinburgh EH15 1DB, UK</address>
+            <Point>
+                <coordinates>-3.11705,55.95657</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cramond  (Gratuito;Agua:no;Wc:no)</name>
+            <address>30 Cramond Village, Edinburgh, Edinburgh EH4 6NU, UK</address>
+            <Point>
+                <coordinates>-3.2988,55.97938</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Falkirk Wheel  (10 libras/furgo; Agua:si; WC:si; Duchas:si;lavadora:si)</name>
+            <address>B816, Falkirk FK1, UK</address>
+            <Point>
+                <coordinates>-3.8391,55.99935</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>North Berwick  Gratuito; Agua: no; Wc: no</name>
+            <address>Haugh Rd, North Berwick, East Lothian EH39 5NL, UK</address>
+            <Point>
+                <coordinates>-2.69627,56.05792</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Loch Lomond  (Gratuito;Agua:si;Wc:si)</name>
+            <address>A82, Arrochar, Argyll and Bute G83 7DE, UK</address>
+            <Point>
+                <coordinates>-4.70978,56.20317</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Loch Acharay  (3 euroa;Agua:no;WC:no)</name>
+            <address>Duke's Pass, Callander, Stirling FK17 8HZ, UK</address>
+            <Point>
+                <coordinates>-4.41128,56.23087</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Crianlarich  (Gratuito;Agua:no;WC:no)</name>
+            <address>2 Meadow Grove, Crianlarich, Stirling FK20 8QU, UK</address>
+            <Point>
+                <coordinates>-4.61611,56.39251</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Loch Lubhair  (Gratuito;Agua:no;Wc:no)</name>
+            <address>A85, Crianlarich, Stirling FK20 8QS, UK</address>
+            <Point>
+                <coordinates>-4.55399,56.4071</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Duart Castle  (Gratuito;Agua:si;WC:si)</name>
+            <address>Unnamed Road, Isle of Mull, Argyll and Bute PA64 6AP, UK</address>
+            <Point>
+                <coordinates>-5.6539,56.4549</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Glen Coe  (Gratuito;Agua:no;WC:no)</name>
+            <address>A82, Ballachulish, Highland PH49 4HX, UK</address>
+            <Point>
+                <coordinates>-5.05515,56.66185</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kinlochleven  (Gratuito;Agua:no;Wc:no)</name>
+            <address>B863, Kinlochleven, Highland PH50 4SE, UK</address>
+            <Point>
+                <coordinates>-5.00479,56.7087</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ardnamurchan Lighthouse  (Gratuito;Agua:si;WC:si)</name>
+            <address>Unnamed Road, Acharacle, Highland PH36 4LN, UK</address>
+            <Point>
+                <coordinates>-6.22497,56.72576</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Smirisary  (Gratuito;Agua:no;WC:no)</name>
+            <address>Unnamed Road, Lochailort, Highland PH38 4NG, UK</address>
+            <Point>
+                <coordinates>-5.84685,56.82829</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Estacion ski Nevis Range  Gratuito; Agua: no; Wc: si</name>
+            <address>Unnamed Road, Highland, UK</address>
+            <Point>
+                <coordinates>-5.00131,56.85127</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mallaig  (Gratuito;Agua:no;Wc:no)</name>
+            <address>A830, Mallaig, Highland PH41, UK</address>
+            <Point>
+                <coordinates>-5.83161,57.00492</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Balmedie  (Gratuito;Agua:si;Wc:si)</name>
+            <address>31 N Beach Rd, Balmedie, Aberdeen AB23, UK</address>
+            <Point>
+                <coordinates>-2.04172,57.25378</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aird a Mhachair (South Uist)  (Gratuito;Agua:no;WC:no)</name>
+            <address>28 Ardivachair, Isle of South Uist, Na h-Eileanan an Iar HS8 5RF, UK</address>
+            <Point>
+                <coordinates>-7.42549,57.38292</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Inverness  Gratuito: si; Agua: no; Wc: si</name>
+            <address>A9, Inverness, Highland IV2 6GG, UK</address>
+            <Point>
+                <coordinates>-4.15053,57.44467</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bin forest (Cairnie)  Gratuito; Agua: no; Wc: no</name>
+            <address>A96, Huntly, Aberdeenshire AB54 4TD, UK</address>
+            <Point>
+                <coordinates>-2.82559,57.46531</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Beinn Eighe  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Beinn Eighe Trails Car Park, Achnasheen, Highland IV22 2PD, UK</address>
+            <Point>
+                <coordinates>-5.34894,57.63078</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Staffin  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, Portree, Highland IV51 9JT, UK</address>
+            <Point>
+                <coordinates>-6.19817,57.63308</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fraserburgh  Gratuito; Agua: no; Wc: no</name>
+            <address>Fraserburgh Harbour, Fraserburgh, Aberdeenshire AB43 9TA, UK</address>
+            <Point>
+                <coordinates>-2.00091,57.6865</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lochside Slattadale  (Gratuito;Agua:si;WC:si)</name>
+            <address>A832, Achnasheen, Highland IV22 2HW, UK</address>
+            <Point>
+                <coordinates>-5.54411,57.68948</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Berneray  (Gratuito;Agua:no;WC:no; wifi:si)</name>
+            <address>1 Church Rd, Isle of North Uist, Na h-Eileanan an Iar HS6 5BF, UK</address>
+            <Point>
+                <coordinates>-7.17003,57.71974</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lael Forest Garden  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Forest Way, Lochbroom, Garve, Highland IV23 2RS, UK</address>
+            <Point>
+                <coordinates>-5.03719,57.78249</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Golspie  (Gratuito;Agua:si;Wc:si)</name>
+            <address>34 Main St, Golspie KW10 6RA, UK</address>
+            <Point>
+                <coordinates>-3.97522,57.97433</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Timsgearraidh (Isla de Lewis)  (Gratuito;Agua:si;vaciado:no;WC:si; duchas;si)</name>
+            <address>Unnamed Road, Isle of Lewis, Na h-Eileanan an Iar HS2 9EU, UK</address>
+            <Point>
+                <coordinates>-7.02588,58.18458</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mirador de Drumbeg   (Gratuito;Agua:no;Wc:si)</name>
+            <address>B869, Lairg, Highland IV27 4NQ, UK</address>
+            <Point>
+                <coordinates>-5.20477,58.24445</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lybster  (Gratuito;Agua:si;WC:si;wifi:si)</name>
+            <address>5 Grey's Pl, Main St, Lybster, Highland KW3 6AE, UK</address>
+            <Point>
+                <coordinates>-3.28541,58.30318</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sinclair Castle (Wick)   Gratuito: si; Agua:no; Wc: no</name>
+            <address>Unnamed Road, Wick, Highland KW1 4QT, UK</address>
+            <Point>
+                <coordinates>-3.05727,58.47586</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>The Unkown  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, Thurso, Highland KW14 7SQ, UK</address>
+            <Point>
+                <coordinates>-4.26476,58.47901</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kyle of Tongue  (Gratuito;Agua:no;WC:no)</name>
+            <address>A838, Lairg IV27 4XH, UK</address>
+            <Point>
+                <coordinates>-4.43612,58.49196</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Duncansby Head  (Gratuito.Agua:No WC:No)</name>
+            <address>Unnamed Road, Wick, Highland KW1 4YS, UK</address>
+            <Point>
+                <coordinates>-3.02728,58.64384</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ring of Brodgar  (Gratuito;Agua:no;Wc:no)</name>
+            <address>B9055, Stromness, Orkney KW16 3JZ, UK</address>
+            <Point>
+                <coordinates>-3.23176,59.00487</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Evie Beach (Orkney)   (Gratuito;Agua:no;Wc:si)</name>
+            <address>Unnamed Road, Orkney, Orkney KW17 2PH, UK</address>
+            <Point>
+                <coordinates>-3.09965,59.11985</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

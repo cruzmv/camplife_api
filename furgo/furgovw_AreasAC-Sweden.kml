@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Sweden</description>
+        <Placemark>
+            <name>Area AC Solversborg autopista E22  (Gratuito;Agua:si;vaciado:si;WC:si; electric;no)</name>
+            <address>KANEHALLSVÄGEN 73, 294 77 Sölvesborg, Sweden</address>
+            <Point>
+                <coordinates>14.5712,56.06374</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Karlskrona  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>Argongatan, Karlskrona, Sweden</address>
+            <Point>
+                <coordinates>15.59416,56.16987</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Kalmar  (Gratuito;Agua:si;vaciado:si;WC:si; electric;no)</name>
+            <address>Ölandsleden, Kalmar, Sweden</address>
+            <Point>
+                <coordinates>16.38084,56.68133</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Norsholm  Tarifa: 20 eur/noche; Agua: si; Wc: si; Ducha: si; Elec: si</name>
+            <address>Slussvägen 5, 610 21 Norsholm, Sweden</address>
+            <Point>
+                <coordinates>15.97696,58.50749</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Langholmens Estocolmo  (300 SEK;Agua:si;vaciado:si;WC:si; electric;si; duchas:si 5 SEK)</name>
+            <address>Skutskepparvägen 2, 117 33 Stockholm, Sweden</address>
+            <Point>
+                <coordinates>18.03195,59.32021</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Javre (E4)  (Gratuito;Agua:si;vaciado:si;WC:si; electric;no)</name>
+            <address>Jävrefyrens väg 26, 944 94 Jävrebyn, Sweden</address>
+            <Point>
+                <coordinates>21.50917,65.14335</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Estonia</description>
+        <Placemark>
+            <name>Toramaal (P. N. de Soomaa)  (Gratuito;Agua:si;WC:si; electric;si)</name>
+            <address>Kõpu-Tõramaa-Jõesuu, 71211 Viljandi maakond, Estonia</address>
+            <Point>
+                <coordinates>25.03042,58.43073</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hupassaare (P. N. de Soomaa)  (Gratuito;Agua:si;WC:si)</name>
+            <address>Unnamed Road, 71408 Viljandi maakond, Estonia</address>
+            <Point>
+                <coordinates>25.27212,58.53069</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Pirineos</description>
+        <Placemark>
+            <name>AC Pineda de Mar  (10eur,WC:no, Elect:no,Wifi, duchas:no)</name>
+            <address>Carrer Tarragona, 27-35, 08397 Pineda de Mar, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+AC+Pineda+de+Mar</description>
+            <Point>
+                <coordinates>2.68943,41.62198</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de Montseny  Agua Si/Vaciado Si/WC Si/Gratuito</name>
+            <address>C-35, 08450 Llinars del Vallès, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+de+Montseny</description>
+            <Point>
+                <coordinates>2.40798,41.63603</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Cervera  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Av. Francesc Macià, 76, 25200 Cervera, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+AC+Cervera</description>
+            <Point>
+                <coordinates>1.28364,41.67803</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Catalana de Calaf   (10eur/noche;Agua:si(3eur);Wc:no;Vaciado:si(3eur);Elec:si)</name>
+            <address>Carrer Thomas Edison, 6, 08280 Calaf, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Catalana+de+Calaf</description>
+            <Point>
+                <coordinates>1.52606,41.72947</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Calaf  Gratuito:Si Agua:Si WC:No Elec:No</name>
+            <address>Carrer Carrilet, 08280 Calaf, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Calaf</description>
+            <Point>
+                <coordinates>1.51397,41.73494</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Las Postas de La Joyosa  Gratuito;Agua:si; Wc:si;gasolinera con parking vigilado</name>
+            <address>Diseminado, 50692 La Joyosa, Zaragoza, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Las+Postas+de+La+Joyosa</description>
+            <Point>
+                <coordinates>-1.06557,41.73708</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Navarcles  Gratuito; Agua: si; Wc: no</name>
+            <address>Calle 137, 08270 Navarcles, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Navarcles</description>
+            <Point>
+                <coordinates>1.90929,41.75669</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sant Feliu de Guixols  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Ronda Narcís Massanas, 15, 17220 Sant Feliu de Guíxols, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Sant+Feliu+de+Guixols</description>
+            <Point>
+                <coordinates>3.02288,41.77989</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Bon Area Guissona  (Gratuito;Agua:si;Wc:si)</name>
+            <address>L-313, 25210 Guissona, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+AC+Bon+Area+Guissona</description>
+            <Point>
+                <coordinates>1.27773,41.78121</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Sils  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Carrer de l'Església, 19, 17410 Sils, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+AC+Sils</description>
+            <Point>
+                <coordinates>2.74448,41.80704</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Platja d Aro  (8EUR/24h.Agua:Si WC:No)</name>
+            <address>Carrer Roma, 8, 17250 Platja d'Aro, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+AC+Platja+d+Aro</description>
+            <Point>
+                <coordinates>3.05792,41.81022</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Arbucies  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Passeig Palacaguina, 4, 17401 Arbúcies, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+AC+Arbucies</description>
+            <Point>
+                <coordinates>2.52043,41.81417</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Viladrau  Gratuito:Si Agua:Si Electr:no</name>
+            <address>Avinguda Montseny, 6, 17406 Viladrau, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Viladrau</description>
+            <Point>
+                <coordinates>2.38737,41.84548</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Agreda   (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:no)</name>
+            <address>Calle Jesus Posada Ca, 9005, 42100 Ágreda, Soria, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Agreda</description>
+            <Point>
+                <coordinates>-1.93007,41.84743</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Autocaravaning Palamos  (13eur/noche;Agua:si;WC:si;Electr.:s 2eur;Ducha:si 1eur)</name>
+            <address>Vial del Port, 17230 Palamós, Gerona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Autocaravaning+Palamos</description>
+            <Point>
+                <coordinates>3.13588,41.85607</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac EmpordArea (Palamos)  (12eur/noche;Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>Carrer Puig Gorgoll, 24, 17230 Palamós, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+EmpordArea+(Palamos)</description>
+            <Point>
+                <coordinates>3.11505,41.85776</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Tamarite de Litera  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:no)</name>
+            <address>Camino de Tamarite de Litera a Alfarrás, 22550 Tamarite de Litera, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+ac+Tamarite+de+Litera</description>
+            <Point>
+                <coordinates>0.428,41.86307</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Sant Hilari Sacalm  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>Ctra. de la Font Picant, 33, 17403 Sant Hilari Sacalm, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Sant+Hilari+Sacalm</description>
+            <Point>
+                <coordinates>2.50802,41.88429</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac San Esteban de Litera   (Gratuito;Agua:si;Wc:si;Vaciado:si;Elect:?)</name>
+            <address>Ctra. San Esteban a Purroy, 22512 San Esteban de Litera, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+San+Esteban+de+Litera</description>
+            <Point>
+                <coordinates>0.33159,41.90606</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Monzon  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Calle Valle de Ordesa, 7, 22400 Monzón, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Monzon</description>
+            <Point>
+                <coordinates>0.18939,41.91864</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Parc de les set fonts  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Rambla del Castell, 12, 08504 Sant Julià de Vilatorta, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+AC+Parc+de+les+set+fonts</description>
+            <Point>
+                <coordinates>2.32174,41.92158</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Vic  (Tarifa:5eur/noche;Agua:si(2eur);Wc:si;Vaciado:si;Elect:si(6eur))</name>
+            <address>Plaça Castell Planes-Zesport, 2, 08503 Vic, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+ac+Vic</description>
+            <Point>
+                <coordinates>2.24112,41.93452</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Quart d Onyar   (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Avinguda de la Bòbila, 5, 17242 Quart, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Quart+d+Onyar</description>
+            <Point>
+                <coordinates>2.83923,41.93956</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Termoludico Cascante  Gratuito; Agua: si; Wc: no</name>
+            <address>Calle Fundacion Fuentes Dutor, 36, 31520 Cascante, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Termoludico+Cascante</description>
+            <Point>
+                <coordinates>-1.68778,41.99417</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Tavertet  (7eur/24h.;Agua:si;vaciado:si;WC:No; Duchas:No; elect:si)</name>
+            <address>Paseig de Jaume Balmes, 45, 08511 Tavertet, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Tavertet</description>
+            <Point>
+                <coordinates>2.41583,41.99468</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Massis del Montgri  (10eur/noche;Agua:si;WC:si;Electr:si;Duchas:si)</name>
+            <address>Camí Vell d'Ullà, 455, 17141 Ullà, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Massis+del+Montgri</description>
+            <Point>
+                <coordinates>3.09813,42.07503</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Tallada d Emporda  (12 eur/24 h.;Agua:si;vaciado:si;WC:no; electric;si)</name>
+            <address>Carrer Sant Joan de Pladecorts, 11, 17134 La Tallada d'Empordà, Gerona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+AC+Tallada+d+Emporda</description>
+            <Point>
+                <coordinates>3.05739,42.08313</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac del camping Lava (Santa Pau)  Tarifa: 11 eur/noche; Agua:si; Wc: si; Grises: si; Elec: si</name>
+            <address>Unnamed Road, 17811 Santa Pau, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+ac+del+camping+Lava+(Santa+Pau)</description>
+            <Point>
+                <coordinates>2.54679,42.1523</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac de Tremp  Gratuito; agua: si; Wc: no</name>
+            <address>Carrer Acadèmia General Bàsica de Suboficiales, 25620 Tremp, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+de+Tremp</description>
+            <Point>
+                <coordinates>0.89043,42.16312</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Arguedas  (Gratuito;Agua:si(de pago);Wc:no;Vaciado:si;Elec:de pago)</name>
+            <address>Calle Val, 65, 31513 Arguedas, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Arguedas</description>
+            <Point>
+                <coordinates>-1.59155,42.17361</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Ripoll  (Gratuito;Agua:si;Wc:no;Vaciado:Si;Electr:no)</name>
+            <address>Ronda de Mas d'en Bosch, 17500 Ripoll, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Ripoll</description>
+            <Point>
+                <coordinates>2.19365,42.20253</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Sant Joan de les Abadesses  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Passeig de l'Estació, 5, 17860 Sant Joan de les Abadesses, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+AC+Sant+Joan+de+les+Abadesses</description>
+            <Point>
+                <coordinates>2.28421,42.23567</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac les 5 Fonts  (Gratuito,Agua:si,Wc:no,Vaciado:si)</name>
+            <address>Passeig de l'Estació, 5, 17860 Sant Joan de les Abadesses, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+les+5+Fonts</description>
+            <Point>
+                <coordinates>2.28419,42.23575</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC La Pobla de Segur  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Avinguda del Camp de la Sala, 25500 La Pobla de Segur, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+AC+La+Pobla+de+Segur</description>
+            <Point>
+                <coordinates>0.96624,42.2381</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac La Seu dUrgell  (Gratuito;Agua;si:Wc:no;Vaciado:si;Electr:si)</name>
+            <address>Partida Sant Ermengol, 25700 La Seu d'Urgell, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+La+Seu+dUrgell</description>
+            <Point>
+                <coordinates>1.46506,42.35876</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Falces  (Gratuito;Agua:si;Wc:no;Vaciado:si;Electr:no)</name>
+            <address>Calle Mota, 2, 31370 Falces, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+ac+Falces</description>
+            <Point>
+                <coordinates>-1.79573,42.39275</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Rialp  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Carrer C, 15, 25594 Rialp, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Rialp</description>
+            <Point>
+                <coordinates>1.13397,42.43908</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Centro comercial River  (Gratuito; Agua: no; Wc: si; parking centro comercial)</name>
+            <address>CG-1, AD600 Sant Julià de Lòria, Andorra</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Centro+comercial+River</description>
+            <Point>
+                <coordinates>1.48644,42.45352</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Saillagouse  Gratuito; Agua: si; Wc: si</name>
+            <address>1 Rue des Sports, 66800 Saillagouse, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Saillagouse</description>
+            <Point>
+                <coordinates>2.0377,42.45764</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sant Julia de Loria  (Gratuito:?;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>Ctra. de la Rabassa, 14, AD600 Sant Julià de Lòria, Andorra</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Sant+Julia+de+Loria</description>
+            <Point>
+                <coordinates>1.49422,42.46602</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Sos del Rey Catolico  (4eur/noche;Agua:si;wc:si;Vaciado:Si;Elec:no)</name>
+            <address>Calle Letra A, 8, 50680 Sos del Rey Católico, Zaragoza, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Sos+del+Rey+Catolico</description>
+            <Point>
+                <coordinates>-1.21393,42.49142</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Pirenarium (SabiÃ±anigo)  (4eur/noche;Agua:si;Wc:si;Vaciado:si;Elect:si)</name>
+            <address>Zona Fase II, 22609 Sabiñánigo, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Pirenarium+(SabiÃ±anigo)</description>
+            <Point>
+                <coordinates>-0.35694,42.50571</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Mont-Louis  (5eur/noche;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Avenue du Général Jean Gilles, 66210 Mont-Louis, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Mont-Louis</description>
+            <Point>
+                <coordinates>2.12249,42.50764</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Port Vendres  (Tarifa:9eur;Agua:si;Wc:si;Vaciado:si;Elect:no)</name>
+            <address>9 Chemin des Tamarins, 66660 Port-Vendres, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+ac+Port+Vendres</description>
+            <Point>
+                <coordinates>3.11373,42.51776</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gorgues de Caranca  (9eur; Agua:si;Vaciado:si;Elect:no;Wc:no)</name>
+            <address>42-45 Vierge de l'Église, 66360 Thuès-Entre-Valls, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Gorgues+de+Caranca</description>
+            <Point>
+                <coordinates>2.22168,42.52303</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Collioure  Gratuito: no; Agua: si; Wc: si</name>
+            <address>1607 Route de Madeloc, 66190 Collioure, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Collioure</description>
+            <Point>
+                <coordinates>3.06844,42.52464</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac de Tafalla  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Calle el Saso, 6, 31300 Tafalla, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+de+Tafalla</description>
+            <Point>
+                <coordinates>-1.68285,42.52634</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Le Boulou  Gratuito; Agua: si; Wc: si</name>
+            <address>4 Allée des Lauriers, 66160 Le Boulou, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Le+Boulou</description>
+            <Point>
+                <coordinates>2.83773,42.52724</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Encamp 2  Gratuito: no (15 eur); Agua: si; Wc: si</name>
+            <address>Parc del Prat Gran, AD200 Encamp, Andorra</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+ac+Encamp+2</description>
+            <Point>
+                <coordinates>1.57858,42.53263</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Encamp  Gratuito: no; Agua: si; Wc: no</name>
+            <address>Travessia Encamp Paradís, AD200 Encamp, Andorra</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Encamp</description>
+            <Point>
+                <coordinates>1.58873,42.53544</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Vernet-les-Bains  (Gratuito;Agua:si:Wc:no;Vaciado:si;Elect:si)</name>
+            <address>373 Chemin de la Laiterie, 66820 Vernet-les-Bains, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Vernet-les-Bains</description>
+            <Point>
+                <coordinates>2.39088,42.54287</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking Bullidor (Pas de la Casa)  Gratuito: no (1.10 eur/noche); Agua: si; Wc: no</name>
+            <address>Av. del Consell General, 10, AD200 Pas de la Casa, Andorra</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Parking+Bullidor+(Pas+de+la+Casa)</description>
+            <Point>
+                <coordinates>1.73344,42.54538</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Les Angles  Gratuito: si; Agua: si; Wc: si</name>
+            <address>27 Route du Pla del Mir, 66210 Les Angles, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Les+Angles</description>
+            <Point>
+                <coordinates>2.06857,42.56351</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Jaca  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>Calle San Indalecio, 38, 22700 Jaca, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Jaca</description>
+            <Point>
+                <coordinates>-0.54552,42.56766</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Estacion de servicio de Legarda (A-12)  Gratuito; Agua: si (de pago); Wc: si; area de descanso en autovia</name>
+            <address>Autovía Camino de Santiago, 31133 Legarda, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Estacion+de+servicio+de+Legarda+(A-12)</description>
+            <Point>
+                <coordinates>-1.7773,42.71085</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gavarnie  (Tarifa:5eur/noche;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>D923, 65120 Gavarnie, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Gavarnie</description>
+            <Point>
+                <coordinates>-0.01932,42.73823</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac hotel Ekai   Area privada junto a restaurante. Gratuito, agua, wc y duchas.</name>
+            <address>Ctra. Lumbier, 35, 31481 Ecay de Lónguida, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+hotel+Ekai</description>
+            <Point>
+                <coordinates>-1.38536,42.77624</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Les Cabannes  Gratuito: no (4 eur/noche); Agua: Si (de pago); Wc: Si; Electricidad: si</name>
+            <address>4 Route de Pech, 09310 Les Cabannes, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Les+Cabannes</description>
+            <Point>
+                <coordinates>1.68838,42.78471</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Piau Engaly  (7.5eur/24h;Agua:si; Wc:si;Vaciado:si;Electr:si)</name>
+            <address>Montagne de Batsegure, 65170 Aragnouet, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Piau+Engaly</description>
+            <Point>
+                <coordinates>0.15718,42.78636</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Estacion esqui Peyragudes (sector Peyresourde)  Gratuito Si, Agua No, WC Si</name>
+            <address>Culas, 65240 Germ, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Estacion+esqui+Peyragudes+(sector+Peyresourde)</description>
+            <Point>
+                <coordinates>0.43926,42.79635</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Loudenvielle-BALNEA (centro termoludico)  3eur dia, Agua Si, WC ?</name>
+            <address>1 Chemin de la Mainette, 65510 Loudenvielle, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Loudenvielle-BALNEA+(centro+termoludico)</description>
+            <Point>
+                <coordinates>0.40844,42.79672</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Les Seguettes (Loudenvielle)  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>35 Chemin du Hourgade, 65510 Loudenvielle, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Les+Seguettes+(Loudenvielle)</description>
+            <Point>
+                <coordinates>0.4109,42.80155</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Saint-Lary-Soulan  (6eur/noche;Agua:si;WC:si)</name>
+            <address>9 Chemin de Vielle Aure, 65170 Saint-Lary-Soulan, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+AC+Saint-Lary-Soulan</description>
+            <Point>
+                <coordinates>0.32309,42.82247</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Berriozar  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Av. Berriozar, 1, 31013 Berriozar, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Berriozar</description>
+            <Point>
+                <coordinates>-1.6652,42.84038</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Duilhac sous Peyrepertuse  (Gratuito;Agua:si;Wc:si)</name>
+            <address>6 Route du château, 11350 Duilhac-sous-Peyrepertuse, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Duilhac+sous+Peyrepertuse</description>
+            <Point>
+                <coordinates>2.5655,42.86144</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Artouste-Fabreges  (Gratuito;Agua:si 5eur; vaciado:si; electric:si 5 eur; WC:no)</name>
+            <address>D431, 64440 Laruns, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+AC+Artouste-Fabreges</description>
+            <Point>
+                <coordinates>-0.39439,42.87507</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac du Biros (Bonac-Irazein)  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Bonac Village, 09800 Bonac-Irazein, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+du+Biros+(Bonac-Irazein)</description>
+            <Point>
+                <coordinates>0.97549,42.87535</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac de Cauterets  Gratuito:no(10eur/dia)Agua:si;Wc:si;Vaciado:si;Electr:si</name>
+            <address>17 D920, 65110 Cauterets, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+de+Cauterets</description>
+            <Point>
+                <coordinates>-0.11256,42.89361</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Leucate plage  (13,80 euros/24h:Vaciado:si.Agua:Si WC:Si)</name>
+            <address>11 Chemin de Mouret, 11370 Leucate, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+AC+Leucate+plage</description>
+            <Point>
+                <coordinates>3.05271,42.90023</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Arreau Ã¡rea AC municipal  (2 euros;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>5 Avenue de la Gare, 65240 Arreau, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Arreau+Ã¡rea+AC+municipal</description>
+            <Point>
+                <coordinates>0.35921,42.90715</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Plateau de Lhers  (Tarifa:7eur;Agua:si;Wc:no;Vaciado:si;Elect:si;duchas:si)</name>
+            <address>D339, 64490 Accous, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Plateau+de+Lhers</description>
+            <Point>
+                <coordinates>-0.61941,42.90977</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Leucate Le Goulet (Lago)  (13,80 eur/24h;Agua:si;vaciado:si;WC:si; electric;no)</name>
+            <address>D327, 11370 Leucate, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+AC+Leucate+Le+Goulet+(Lago)</description>
+            <Point>
+                <coordinates>3.01995,42.91385</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Esperaza  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>18 Prom. François Mitterand, 11260 Espéraza, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Esperaza</description>
+            <Point>
+                <coordinates>2.21584,42.93374</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Soulom  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>14 Avenue des Deux Ponts, 65260 Soulom, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+AC+Soulom</description>
+            <Point>
+                <coordinates>-0.07255,42.95579</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gourette (Estacion de Esqui Alpino)  Gratuito ?, Agua No, WC No</name>
+            <address>Gourette N, 64440 Eaux-Bonnes, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Gourette+(Estacion+de+Esqui+Alpino)</description>
+            <Point>
+                <coordinates>-0.32885,42.95668</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Arrens-Marsous  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:?)</name>
+            <address>40 Route d'Azun, 65400 Arrens-Marsous, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Arrens-Marsous</description>
+            <Point>
+                <coordinates>-0.20743,42.95853</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Pierrefitte-Nestalas  Gratuito: si Agua: Si WC: si</name>
+            <address>Chemin de la Portere, 65260 Pierrefitte-Nestalas, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Pierrefitte-Nestalas</description>
+            <Point>
+                <coordinates>-0.07718,42.96053</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac estacion esqui La Pierre St Martin  Gratuito; Agua: si; Wc: si</name>
+            <address>Braca de Guilhers, 64570 Arette, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+ac+estacion+esqui+La+Pierre+St+Martin</description>
+            <Point>
+                <coordinates>-0.74806,42.97912</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac de Laruns  Gratuito: no; Agua: si (2 eur); Wc: si</name>
+            <address>20 Avenue de la Gare, 64440 Laruns, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+de+Laruns</description>
+            <Point>
+                <coordinates>-0.4224,42.98787</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Castelnau-Durban  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>128-254 Le Village, 09420 Castelnau-Durban, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Castelnau-Durban</description>
+            <Point>
+                <coordinates>1.34027,42.99998</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Port La Nouvelle  (7eur/noche;Agua:si(pagando);Wc:no)</name>
+            <address>Chemin des Vignes, 11210 Port-la-Nouvelle, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Port+La+Nouvelle</description>
+            <Point>
+                <coordinates>3.04088,43.01348</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Campan  Gratuito; Agua: Si; Wc: si</name>
+            <address>1 Place du Castet, 65710 Campan, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+ac+Campan</description>
+            <Point>
+                <coordinates>0.17829,43.01819</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Bagneres de Bigorre  Gratuito; Agua: si; Wc: no</name>
+            <address>8 Rue Jean Sireix, 65200 Bagnères-de-Bigorre, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Bagneres+de+Bigorre</description>
+            <Point>
+                <coordinates>0.15366,43.0733</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Mirepoix  Gratuito;Agua:si;Wc:si;Vaciado:si;Eletr:no</name>
+            <address>2 Allée de Palafrugell, 09500 Mirepoix, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+ac+Mirepoix</description>
+            <Point>
+                <coordinates>1.87394,43.08502</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Lagrasse  Gratuito; Agua: si; Wc: no; parking en pueblo pequeño</name>
+            <address>5 Boulevard de la Promenade, 11220 Lagrasse, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Lagrasse</description>
+            <Point>
+                <coordinates>2.62028,43.09275</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Gruissan plage   (8.50eur/24h;Agua:si;Wc:si;Vaciado:si;Elec:si(3eur);duchas)</name>
+            <address>1 Place Alain Colas, 11430 Gruissan, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Gruissan+plage</description>
+            <Point>
+                <coordinates>3.11004,43.09594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Saint Martory  (3eur/dÃ­a ;Agua:si;vaciado:si;WC:si; electric;no)</name>
+            <address>6 Avenue du Gillon, 31360 Saint-Martory, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+AC+Saint+Martory</description>
+            <Point>
+                <coordinates>0.92877,43.14181</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Rebenacq   (Gratuito;Agua:si;vaciado:si;WC:si; electric;si)</name>
+            <address>28 Chemin de Montés, 64260 Rébénacq, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Rebenacq</description>
+            <Point>
+                <coordinates>-0.39716,43.15689</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Boussens  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>5 Prom. du Lac, 31360 Boussens, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+AC+Boussens</description>
+            <Point>
+                <coordinates>0.97461,43.17786</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Ordoki  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>Barrio Ordoki, 31713 Arizcun, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+AC+Ordoki</description>
+            <Point>
+                <coordinates>-1.48806,43.17861</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Oloron St Marie  (Gratuito;Agua:si(de pago);Wc:no;Vaciado:si;Elec:si(de pago))</name>
+            <address>49-61 N134, 64400 Oloron-Sainte-Marie, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+ac+Oloron+St+Marie</description>
+            <Point>
+                <coordinates>-0.60846,43.18371</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Carcassone  gratuito: no , agua: si, wc: si</name>
+            <address>Rue Gustave Nadaud, 11000 Carcassonne, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Carcassone</description>
+            <Point>
+                <coordinates>2.36641,43.20796</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Listorreta  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elect:no)</name>
+            <address>Aldura Gunea Aldea, 58, 20100 Errenteria, Gipuzkoa, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+ac+Listorreta</description>
+            <Point>
+                <coordinates>-1.90135,43.26799</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Illunbe (San Sebastian)  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elect: no)</name>
+            <address>Miramon Pasealekua, 8, 20009 Donostia, Gipuzkoa, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Illunbe+(San+Sebastian)</description>
+            <Point>
+                <coordinates>-1.97101,43.29782</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac de Sare  (6eur/noche;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Route des Platane, 64310 Sare, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+de+Sare</description>
+            <Point>
+                <coordinates>-1.58398,43.31207</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Caunes Minervois  Agua: No, Wc: No, Luz: Si, Gratuito: Si</name>
+            <address>1 Place de la République, 11160 Caunes-Minervois, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Caunes+Minervois</description>
+            <Point>
+                <coordinates>2.52549,43.32683</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac San Juan de Luz  Gratuito; Agua: si; Wc: si; sitio ruidoso</name>
+            <address>Av. Charles de Gaulle, 64500 Saint-Jean-de-Luz, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+San+Juan+de+Luz</description>
+            <Point>
+                <coordinates>-1.66291,43.38525</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Sauvagnon  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>18 Rue du Béarn, 64230 Sauvagnon, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+AC+Sauvagnon</description>
+            <Point>
+                <coordinates>-0.38763,43.40312</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Mielan  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elect:?)</name>
+            <address>4 La Tourette, 32170 Miélan, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+ac+Mielan</description>
+            <Point>
+                <coordinates>0.30922,43.43304</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Biarritz  (12eur/24h;Agua: si;Wc:no;Vaciado:si;Electr:si)</name>
+            <address>65 Avenue de la Milady, 64200 Biarritz, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Biarritz</description>
+            <Point>
+                <coordinates>-1.57174,43.4659</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Playa des Corsaires (Anglet)  Gratuito: no (6 eur/48h.); Agua: si; wc: no</name>
+            <address>58 Boulevard des Plages, 64600 Anglet, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Playa+des+Corsaires+(Anglet)</description>
+            <Point>
+                <coordinates>-1.5346,43.50672</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Barre (Anglet)  Gratuto: no (6 eur/noche); Agua: si; Wc: si; Grises:si; Negras: si: Elect: no</name>
+            <address>130 Avenue de l'Adour, 64600 Anglet, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+La+Barre+(Anglet)</description>
+            <Point>
+                <coordinates>-1.51697,43.52636</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Puylaurens  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>1 Rue Albert Thorel, 81700 Puylaurens, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Puylaurens</description>
+            <Point>
+                <coordinates>2.01246,43.5687</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Ondres  Gratuito: no; Agua: si; Wc: si</name>
+            <address>2511 Avenue de la Plage, 40440 Ondres, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Playa+de+Ondres</description>
+            <Point>
+                <coordinates>-1.48635,43.57624</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac des Arenes(Labenne)  (8eur/noche;Agua:si; Wc:si;Vaciado:si:Elec:?)</name>
+            <address>D126, 40530 Labenne, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+des+Arenes(Labenne)</description>
+            <Point>
+                <coordinates>-1.45486,43.59621</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Pomarez  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>D7, 40360 Pomarez, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Pomarez</description>
+            <Point>
+                <coordinates>-0.82864,43.62839</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Capbreton  (12eur/noche;Agua:si;WC:si;vaciado:si;Elect:?)</name>
+            <address>1 Allée des Ortolans, 40130 Capbreton, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Capbreton</description>
+            <Point>
+                <coordinates>-1.44719,43.63606</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Auch  4 eur/noche; Agua: si; Wc: si</name>
+            <address>7 Rue du Général de Gaulle, 32000 Auch, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Auch</description>
+            <Point>
+                <coordinates>0.58601,43.63736</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Lac de Salagou  (7eur/noche;Agua:si;Wc:si;Vaciado:si;Elec:no)</name>
+            <address>Camping du Salagou, 34800 Clermont-l'Hérault, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Lac+de+Salagou</description>
+            <Point>
+                <coordinates>3.38939,43.64677</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Seignosse  (Gratuito:no(8eur/noche);Agua:si;Wc:si;Vaciado:si;Electr:?)</name>
+            <address>Avenue des Tucs, 40510 Seignosse, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Seignosse</description>
+            <Point>
+                <coordinates>-1.42621,43.6924</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Lautrec  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>D92, 81440 Lautrec, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Lautrec</description>
+            <Point>
+                <coordinates>2.12998,43.70418</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Dax  Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:?</name>
+            <address>Quai du 28E Btn de Chasseurs, 40100 Dax, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+ac+Dax</description>
+            <Point>
+                <coordinates>-1.04945,43.71435</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Saint Paul les Dax  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:no)</name>
+            <address>17 Avenue Salvador Allende, 40990 Saint-Paul-lès-Dax, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+AC+Saint+Paul+les+Dax</description>
+            <Point>
+                <coordinates>-1.07854,43.73436</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac St Sever  (Gratuito;Agua:Si;Wc:no;Vaciado:si;Elect:no)</name>
+            <address>10 Place Léon Dufour, 40500 Saint-Sever, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+ac+St+Sever</description>
+            <Point>
+                <coordinates>-0.57572,43.7592</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC de Vieux-Boucau  Agua: Si. WC: ?. Gratuito: No (5eur o 10eur depede temporada)</name>
+            <address>Allée des Lamaneurs, 40140 Soustons, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+AC+de+Vieux-Boucau</description>
+            <Point>
+                <coordinates>-1.40689,43.7793</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac La Plage (Vieux-Bocau)  11 eur/noche. Electricidad: si; cercano a la playa</name>
+            <address>934 Boulevard du Marensin, 40480 Vieux-Boucau-les-Bains, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+La+Plage+(Vieux-Bocau)</description>
+            <Point>
+                <coordinates>-1.40511,43.79533</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Lisle sur Tarn  Gratuito; Agua: si; Wc: no</name>
+            <address>2 Rue des Aulnes, 81310 Lisle-sur-Tarn, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+ac+Lisle+sur+Tarn</description>
+            <Point>
+                <coordinates>1.81846,43.86204</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de AC Mont de Marsan  (8,40 eur/dia;Agua:si 1 eur; vaciado:si; electric;1 eur; WC:no)</name>
+            <address>499-525 Avenue de Villeneuve, 40000 Mont-de-Marsan, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+de+AC+Mont+de+Marsan</description>
+            <Point>
+                <coordinates>-0.47566,43.88982</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

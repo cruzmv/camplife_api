@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Slovenia</description>
+        <Placemark>
+            <name>Tourist farm Marko (Pivka)  Gratuito: no (5eur/noche); Agua: si; Wc: si</name>
+            <address>Trnje 1, 6257 Pivka, Slovenia</address>
+            <Point>
+                <coordinates>14.21821,45.68395</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Modrej  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Modrej 1a, 5216 Most na Soči, Slovenia</address>
+            <Point>
+                <coordinates>13.7477,46.15566</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Skofja Loka  (Gratuito;Agua;WC:si;ducha:si)</name>
+            <address>Fužinska ulica 27, 4220 Škofja Loka, Slovenia</address>
+            <Point>
+                <coordinates>14.30874,46.16153</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Petrovo Brdo  (10eur/noche;Agua:si;WC:si;Duchas:si;wifi:si)</name>
+            <address>Petrovo Brdo 2b, 5243 Podbrdo, Slovenia</address>
+            <Point>
+                <coordinates>13.99955,46.2157</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bohinjska Bela  Gratuito: Si, Agua: No , WC: no</name>
+            <address>Nemški Rovt, 4264 Bohinjska Bistrica, Slovenia</address>
+            <Point>
+                <coordinates>14.0623,46.31114</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lago Bled  (Tarifa:10eur/noche;Agua:no;Wc:si)</name>
+            <address>Kolodvorska cesta 45, 4260 Bled, Slovenia</address>
+            <Point>
+                <coordinates>14.08145,46.36246</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lago Jezersko  Gratuito:Si Agua:Si WC:Si</name>
+            <address>Zgornje Jezersko 148a, 4206 Zgornje Jezersko, Slovenia</address>
+            <Point>
+                <coordinates>14.51799,46.40219</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Est.esqui Kranjska Gora  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Borovška cesta 104, 4280 Kranjska Gora, Slovenia</address>
+            <Point>
+                <coordinates>13.77486,46.48741</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

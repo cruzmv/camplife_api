@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Australia</description>
+        <Placemark>
+            <name>Warrnambol  Gratuito; Agua: si; Wc:si</name>
+            <address>50 Pertobe Rd, Warrnambool VIC 3280, Australia</address>
+            <Point>
+                <coordinates>142.48092,-38.3926</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Torquay  Gratuito; Agua: si; Wc: si</name>
+            <address>Anzac Dr, Torquay VIC 3228, Australia</address>
+            <Point>
+                <coordinates>144.32558,-38.33871</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cherry lake (Melbourne)  Gratuito; Agua: si; Wc: si</name>
+            <address>91 Millers Rd, Altona VIC 3018, Australia</address>
+            <Point>
+                <coordinates>144.83906,-37.86253</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jervis Bay (Sydney)  Gratuito; Agua: si; Wc: si</name>
+            <address>Naval College Rd, Jervis Bay Territory NSW 2540, Australia</address>
+            <Point>
+                <coordinates>150.72489,-35.1376</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

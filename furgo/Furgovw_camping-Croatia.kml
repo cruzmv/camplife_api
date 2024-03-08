@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Croatia</description>
+        <Placemark>
+            <name>Autocamp Matkovica (Dubrovnik)  (Tarifa:10eur/dia(furgo+2pax);autobus a Dubrovnik)</name>
+            <address>D8 7, 20207, Srebreno, Croatia</address>
+            <Point>
+                <coordinates>18.19318,42.62451</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Prapratno  (Tarifa:16eur/dia;playa,tienda,lavanderia...)</name>
+            <address>D416, 20230, Ston, Croatia</address>
+            <Point>
+                <coordinates>17.67625,42.81727</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camp Vrbovica (Korcula)  (Tarifa:20eur/dia(furgo+2pax);playa, tienda, wifi)</name>
+            <address>Žrnovska Banja 829, 20275, Žrnovo, Croatia</address>
+            <Point>
+                <coordinates>17.10212,42.96174</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Autocamp Oskorusica  Tarifa:14eur(furgo+2pax);playa, nevera comun</name>
+            <address>Villa Dusa, Račišće, 20274, Pupnat, Croatia</address>
+            <Point>
+                <coordinates>17.0731,42.96772</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Autokamp Vrila (Trpanj)  (Tarifa:17eur/dia(furgo+2pax);playa, wifi)</name>
+            <address>Unnamed Road, Trpanj, Croatia</address>
+            <Point>
+                <coordinates>17.2849,43.00342</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camp Grebisce (Jelsa, isla de Hvar)  (Tarifa:20eur/dia(furgo+2pax);playa, tienda, restaurante)</name>
+            <address>Riva 126, 21465, Jelsa, Croatia</address>
+            <Point>
+                <coordinates>16.70336,43.16164</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AutoKamp Seget  (Tarifa:16eur/dia;playa,lavanderia...)</name>
+            <address>Ul. Hrvatskih žrtava 202, 21218, Seget Donji, Croatia</address>
+            <Point>
+                <coordinates>16.2245,43.51899</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AutoKamp Jasenovo  (Tarifa:15eur/dia;playa,bar,...)</name>
+            <address>D8, 22010, Žaborić, Croatia</address>
+            <Point>
+                <coordinates>15.9517,43.65085</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Autocamp Skorici (Skradin)  (Tarifa:20eur/dia;duchas,lavanderia...)</name>
+            <address>Unnamed Road, 22222, Bićine, Croatia</address>
+            <Point>
+                <coordinates>15.91107,43.82621</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kamp Plantaza (Starigrad - Paklenica)  (Tarifa:20eur/dia(furgo+2pax);playa, wifi, restaurante)</name>
+            <address>Ul. Jose Dokoza 36, 23244, Starigrad, Croatia</address>
+            <Point>
+                <coordinates>15.43192,44.30056</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Borje  (Precio:22eur/dia;bus a Pritvice)</name>
+            <address>D52 10, 53230, Vrelo Koreničko, Croatia</address>
+            <Point>
+                <coordinates>15.68774,44.76475</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kamp Diana (Banjole)  (22eur/dia(furgo+2pax);piscina,wifi,bar)</name>
+            <address>Kaštanjež 8, 52100, Banjole, Croatia</address>
+            <Point>
+                <coordinates>13.85908,44.82515</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Place Cvetkovic (Plitvice)  Tarifa:10eur/persona;baños,cocina comun.</name>
+            <address>D1 23, 53231, Jezerce, Croatia</address>
+            <Point>
+                <coordinates>15.63979,44.86346</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Skrila (Stara Baska)  (32eur/dia;Supermercado,playa)</name>
+            <address>Unnamed Road, 51521, Stara Baška, Croatia</address>
+            <Point>
+                <coordinates>14.67338,44.96601</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Skver camsite  Tarifa:23 eur/dia;playa, restaurante, wifi</name>
+            <address>Ul. Filipa Vukasovića 4, 53270, Senj, Croatia</address>
+            <Point>
+                <coordinates>14.89971,44.99432</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Autocamp Plitvice (Zagreb)  (Tarifa:20eur/dia(furgo+2pax);restaurante, tienda)</name>
+            <address>E70, 10000, Zagreb, Croatia</address>
+            <Point>
+                <coordinates>15.87775,45.77399</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

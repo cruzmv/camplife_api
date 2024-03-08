@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Andorra</description>
+        <Placemark>
+            <name>Font de la Closa  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Camí Font de la Closa, AD700 Escaldes-Engordany, Andorra</address>
+            <Point>
+                <coordinates>1.56455,42.50909</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Les Fonts (Engolasters)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Ctra. d'Engolasters, 4-6, AD700 Escaldes-Engordany, Andorra</address>
+            <Point>
+                <coordinates>1.57095,42.51766</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Llac d´Engolasters  Gratuito;Agua:si;Wc:si</name>
+            <address>Ctra. d'Engolasters, AD200 Encamp, Andorra</address>
+            <Point>
+                <coordinates>1.57199,42.52228</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grau Roig (GrandValira)  (Gratuito;Agua:si;wc:si)</name>
+            <address>Ctra. de Grau Roig, AD200 Encamp, Andorra</address>
+            <Point>
+                <coordinates>1.70092,42.53369</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking de Pal (Vallnord)  Gratuito; Agua: si; Wc: si (solo de dia)</name>
+            <address>Ctra. de la Caubella, AD400 La Massana, Andorra</address>
+            <Point>
+                <coordinates>1.48993,42.5367</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>VallNord Montaña  Gratuito;Agua:no;Wc:no; lugar solitario</name>
+            <address>Ctra. de la Caubella, AD400 La Massana, Andorra</address>
+            <Point>
+                <coordinates>1.49552,42.545</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Coll de la Botella  (Gratuito;Agua:no;Wc:no)</name>
+            <address>CG-4, AD400 La Massana, Andorra</address>
+            <Point>
+                <coordinates>1.4529,42.54711</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camp de la Tenada (Ordino)  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Carrer de Ventura, AD300 Ordino, Andorra</address>
+            <Point>
+                <coordinates>1.53381,42.55525</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Centro Comercial El Tarter  Gratuito; Agua: no; Wc: no; parking exclusivo para Ac</name>
+            <address>CG-2, AD100 Canillo, Andorra</address>
+            <Point>
+                <coordinates>1.64131,42.57932</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Estacion esqui El Tarter  Gratuito: si Pernocta: si WC: no Agua:no</name>
+            <address>CG-2, AD100 Canillo, Andorra</address>
+            <Point>
+                <coordinates>1.64876,42.58006</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vall Nord  Gratuito; Agua: no; Wc: no</name>
+            <address>Ctra. d'Arcalís, AD300 Ordino, Andorra</address>
+            <Point>
+                <coordinates>1.48459,42.63071</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Riu de les Salses  Gratuito:Si Aguae:Si (rio) WC:No</name>
+            <address>Ctra. Vella, AD300 Ordino, Andorra</address>
+            <Point>
+                <coordinates>1.51116,42.63245</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

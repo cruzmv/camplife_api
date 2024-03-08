@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Macedonia (FYROM)</description>
+        <Placemark>
+            <name>Camping Bellevue (Skopje)   (23eur/dia(furgo+2pax);bar,parque infantil..)</name>
+            <address>Street 32, Skopje, Macedonia (FYROM)</address>
+            <Point>
+                <coordinates>21.55052,41.99667</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

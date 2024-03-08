@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Slovenia</description>
+        <Placemark>
+            <name>Cuevas de Postojna    Tarifa: 15 eur/24h; Agua: si; Wc:si; Electricidad: si</name>
+            <address>Jamska cesta 28, 6230 Postojna, Slovenia</address>
+            <Point>
+                <coordinates>14.20557,45.7815</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Campark Aleksander Kovac, LJUBLJANA  (14eur/noche;Agua:si;WC:si;Electr.:si;Ducha:si)</name>
+            <address>Na Produ 2, 1000 Ljubljana, Slovenia</address>
+            <Point>
+                <coordinates>14.51606,46.09956</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Bovec  Gratuito: no; Agua: si;Wc: no; Grises: si; Elec: si</name>
+            <address>Dvor 43, 5230 Bovec, Slovenia</address>
+            <Point>
+                <coordinates>13.53951,46.33312</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

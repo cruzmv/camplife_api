@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Slovenia</description>
+        <Placemark>
+            <name>Ljubljana Resort  (24,80eur/noche-Furgo+2 pers)</name>
+            <address>Dunajska cesta 270, 1000 Ljubljana, Slovenia</address>
+            <Point>
+                <coordinates>14.51882,46.09751</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Kamniska Bistrica  (23eur/2pers elect)</name>
+            <address>Kamniška Bistrica 2a, 1242 Stahovica, Slovenia</address>
+            <Point>
+                <coordinates>14.60819,46.30575</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Bled</name>
+            <address>Kidričeva cesta 10c, 4260 Bled, Slovenia</address>
+            <Point>
+                <coordinates>14.08018,46.36163</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

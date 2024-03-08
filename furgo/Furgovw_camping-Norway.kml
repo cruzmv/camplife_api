@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Norway</description>
+        <Placemark>
+            <name>Feriesenter Dvergsnestangen (Kristiansand)  (Tarifa:330nok/dia(furgo+2pax);piscina,tienda,bar..)</name>
+            <address>Dvergsnesveien 571, 4639 Kristiansand, Norway</address>
+            <Point>
+                <coordinates>8.06584,58.1221</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Brusard  (22eur/noche)</name>
+            <address>Nordsjøvegen 130, 4363 Brusand, Norway</address>
+            <Point>
+                <coordinates>5.7253,58.53968</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Bratland (Bergen)  (Tarifa:180nok/dia(furgo+2pax);ducha,wifi,lavadora..)</name>
+            <address>Brattlandsvegen 6, 5268 Haukeland, Norway</address>
+            <Point>
+                <coordinates>5.43552,60.3523</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ulvikfjord (Ulvik)  (Tarifa:180nok/dia(furgo+2pax);ducha,wifi,lavadora..)</name>
+            <address>Storøyni 46, 5730 Ulvik, Norway</address>
+            <Point>
+                <coordinates>6.90842,60.56506</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Lovik (Loen)  (Tarifa:220nok/dia(furgo+2pax);wifi,lavadora..)</name>
+            <address>Rv60 2260, 6789 Loen, Norway</address>
+            <Point>
+                <coordinates>6.85006,61.86762</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Bud  (Tarifa:220nok/dia(furgo+2pax);wifi,lavadora..)</name>
+            <address>Karlsvikvegen, 6430 Bud, Norway</address>
+            <Point>
+                <coordinates>6.92695,62.90347</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping en Ramberg  Gratuito: no; Agua: si; Wc: si;</name>
+            <address>E10 1900, 8380 Ramberg, Norway</address>
+            <Point>
+                <coordinates>13.24198,68.09747</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Senja  Gratuito: no; Agua: si; Wc: si</name>
+            <address>Unnamed Road, 9303 Silsand, Norway</address>
+            <Point>
+                <coordinates>17.69537,69.22953</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping en Bleik (Andoya)  Gratuito: no; Agua: si; Wc: si</name>
+            <address>Fv976 5480, 8481 Bleik, Norway</address>
+            <Point>
+                <coordinates>15.9698,69.27782</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Svensby  Gratuito: no; Agua: si; Wc: si</name>
+            <address>Fv312 250, 9064 Svensby, Norway</address>
+            <Point>
+                <coordinates>19.8094,69.66804</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

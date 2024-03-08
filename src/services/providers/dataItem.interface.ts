@@ -1,0 +1,91 @@
+export interface DataItem {
+    id?: string | null
+    name: string | null;
+    date_verified?: string | null;
+    description?: string | null;
+    location?: {
+        latitude: number | null;
+        longitude: number | null;
+    };
+    category?: {
+        name: string | null;
+    };
+    address?: string | null;
+    // Additional fields from park4night
+    date_creation?: string | null;
+    description_fr?: string | null;
+    description_en?: string | null;
+    description_de?: string | null;
+    description_es?: string | null;
+    description_it?: string | null;
+    description_nl?: string | null;
+    reseaux?: string | null;
+    date_fermeture?: string | null;
+    borne?: string | null;
+    prix_stationnement?: string | null;
+    prix_services?: string | null;
+    nb_places?: string | null;
+    hauteur_limite?: string | null;
+    route?: string | null;
+    ville?: string | null;
+    code_postal?: string | null;
+    pays?: string | null;
+    pays_iso?: string | null;
+    publique?: number | null;
+    nature_protect?: string | null;
+    contact_visible?: number | null;
+    top_liste?: number | null;
+    site_internet?: string | null;
+    video?: string | null;
+    tel?: string | null;
+    mail?: string | null;
+    note_moyenne?: string | null;
+    nb_commentaires?: string | null;
+    nb_visites?: string | null;
+    nb_photos?: string | null;
+    validation_admin?: string | null;
+    caravaneige?: string | null;
+    animaux?: string | null;
+    point_eau?: string | null;
+    eau_noire?: string | null;
+    eau_usee?: string | null;
+    wc_public?: string | null;
+    poubelle?: string | null;
+    douche?: string | null;
+    boulangerie?: string | null;
+    electricite?: string | null;
+    wifi?: string | null;
+    piscine?: string | null;
+    laverie?: string | null;
+    gaz?: string | null;
+    gpl?: string | null;
+    donnees_mobile?: string | null;
+    lavage?: string | null;
+    visites?: string | null;
+    windsurf?: string | null;
+    vtt?: string | null;
+    rando?: string | null;
+    escalade?: string | null;
+    eaux_vives?: string | null;
+    peche?: string | null;
+    peche_pied?: string | null;
+    moto?: string | null;
+    point_de_vue?: string | null;
+    baignade?: string | null;
+    jeux_enfants?: string | null;
+    distance?: string | null;
+    code?: string | null;
+    utilisateur_creation?: string | null;
+    user_id?: string | null;
+    user_vehicule?: string | null;
+    photos?: Photo[] | null;
+}
+
+export interface Photo {
+    id?: string | null;
+    link_large?: string | null;
+    link_thumb?: string | null;
+    numero?: string | null;
+    p4n_user_id?: string | null;
+    pn_lieu_id?: string | null;
+}

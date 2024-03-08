@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Pirineos</description>
+        <Placemark>
+            <name>Totcamping Canet  Tienda de accesorios camper</name>
+            <address>Carrer Vall, 61, 08360 Canet de Mar, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Totcamping+Canet</description>
+            <Point>
+                <coordinates>2.58601,41.58825</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Orly caravaning  Gratuito: No</name>
+            <address>Diseminado S Gregorio el Cascajo, 9184, 50015 Zaragoza, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Orly+caravaning</description>
+            <Point>
+                <coordinates>-0.86983,41.69051</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tienda Camping-Shop XXL  Tienda productos para camping</name>
+            <address>Avinguda Emporda, 15, 17470 Bon Relax, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Tienda+Camping-Shop+XXL</description>
+            <Point>
+                <coordinates>3.09119,42.18399</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ciclos y caravanas Oiartzun  Tienda</name>
+            <address>Olagarai Kalea, 1, 20180, Gipuzkoa, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ciclos+y+caravanas+Oiartzun</description>
+            <Point>
+                <coordinates>-1.88232,43.29429</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Caravanas Evasion</name>
+            <address>Letxumborro Hiribidea, 79, 20305 Irun, Gipuzkoa, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Caravanas+Evasion</description>
+            <Point>
+                <coordinates>-1.81701,43.33212</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

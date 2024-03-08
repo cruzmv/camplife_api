@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Switzerland</description>
+        <Placemark>
+            <name>Area AC Bellinzona  (20 chf/24h;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>Via Giuseppe Lepori, 6500 Bellinzona, Switzerland</address>
+            <Point>
+                <coordinates>9.01748,46.20135</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Susten  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>Hexenplatzstrasse 3, 3952 Susten, Switzerland</address>
+            <Point>
+                <coordinates>7.63475,46.31086</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

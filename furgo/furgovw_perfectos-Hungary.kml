@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Hungary</description>
+        <Placemark>
+            <name>Budapest. Barazda Utca  Agua: No, Wc: No, Gratuito: Si</name>
+            <address>Budapest, Barázda u. 1, 1116 Hungary</address>
+            <Point>
+                <coordinates>19.04516,47.45747</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Szestendre  Gratuito: solo por la noche; Agua: no; Wc: si</name>
+            <address>Szentendre, Duna korzó 1, 2000 Hungary</address>
+            <Point>
+                <coordinates>19.07998,47.67217</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

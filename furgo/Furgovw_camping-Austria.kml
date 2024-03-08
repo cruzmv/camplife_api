@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Austria</description>
+        <Placemark>
+            <name>Camping Stigger (Insbruck)  Tarifa: 25 eur/dia (furgo+2pax); restaurante; hablan castellano</name>
+            <address>Bahnhofstraße 10, 6176 Völs, Austria</address>
+            <Point>
+                <coordinates>11.32664,47.25306</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Kranebitterhof (Innsbruck)  Tarifa: 25 eur/dia (furgo+2pax), tienda, rte, bus a Innsbruck</name>
+            <address>Kranebitter Allee 214, 6020 Innsbruck, Austria</address>
+            <Point>
+                <coordinates>11.32636,47.2635</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Südufer (Zell am See)  Tarifa: 29 eur (furgo+2pax); tienda, playa</name>
+            <address>Seeuferstraße 198, 5700 Erlberg, Austria</address>
+            <Point>
+                <coordinates>12.81623,47.30137</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Seecamping Wimmer (Achensee)  19.5 eur/noche (furgo+2pax)</name>
+            <address>Buchauerstraße 7, 6212 Maurach, Austria</address>
+            <Point>
+                <coordinates>11.73479,47.43267</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Plansee  Tarifa: 15 eur(furgo+2 pax); guarderia, lavanderia, restaurante.</name>
+            <address>Am Plansee 14, 6600 Breitenwang, Austria</address>
+            <Point>
+                <coordinates>10.84095,47.48647</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Schloss Aigen  (25eur/furgo 2pers electr)</name>
+            <address>Weberbartlweg 11, 5026 Salzburg, Austria</address>
+            <Point>
+                <coordinates>13.08897,47.77928</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Wien Süd (Viena)  25 eur/noche (furgo+2 pax); supermercado; 40 min. al centro</name>
+            <address>Breitenfurter Str. 204, 1230 Wien, Austria</address>
+            <Point>
+                <coordinates>16.29965,48.14879</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Campingplatz kasten  (12eur furgo/2pers/noche)</name>
+            <address>Kasten 100, 4091 Kasten, Austria</address>
+            <Point>
+                <coordinates>13.65128,48.5475</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

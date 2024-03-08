@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Slovakia</description>
+        <Placemark>
+            <name>Area ac Hotel Slenecny Dom   (Precio:10eur/noche;Agua:si;Wc:si;Vaciado:si;Elec:si)</name>
+            <address>Tatranská Lomnica 205, 062 01 Vysoké Tatry, Slovakia</address>
+            <Point>
+                <coordinates>20.29344,49.161</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>United States</description>
+        <Placemark>
+            <name>Monterey  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Mar Vista Dr, Sand City, CA 93955, USA</address>
+            <Point>
+                <coordinates>-121.85241,36.61704</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Moss Landing Beach  (Gratuito;Agua:no;Wc:no)</name>
+            <address>10933 Potrero Rd, Moss Landing, CA 95039, USA</address>
+            <Point>
+                <coordinates>-121.79047,36.79075</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sausalito  (Gratuito:no;Agua:no;Wc:no)</name>
+            <address>33-291 Anchor St, Sausalito, CA 94965, USA</address>
+            <Point>
+                <coordinates>-122.47914,37.85663</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Donner Lake  (Gratuito;Agua:no;Wc:no)</name>
+            <address>15468 Donner Pass Rd, Truckee, CA 96161, USA</address>
+            <Point>
+                <coordinates>-120.2828,39.32486</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

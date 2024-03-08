@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Italy</description>
+        <Placemark>
+            <name>Ciclovia Alpeadria (acceso por Tarvisio)  177 km de via verde asfaltada</name>
+            <address>Via Vittorio Veneto, 33018 Tarvisio UD, Italy</address>
+            <Point>
+                <coordinates>13.5829,46.50324</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

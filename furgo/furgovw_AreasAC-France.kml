@@ -1,0 +1,2043 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>France</description>
+        <Placemark>
+            <name>Area AC Parking de la plage Giuseppe, Plage Palomb  (10eur/noche;Agua:si;Wc:no;Duchas:si; Electr: no)</name>
+            <address>Unnamed Road, 20137 Porto-Vecchio, France</address>
+            <Point>
+                <coordinates>9.33596,41.56393</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Saillagouse  Gratuito; Agua: si; Wc: si</name>
+            <address>1 Rue des Sports, 66800 Saillagouse, France</address>
+            <Point>
+                <coordinates>2.0377,42.45764</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Mont-Louis  (5eur/noche;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Avenue du Général Jean Gilles, 66210 Mont-Louis, France</address>
+            <Point>
+                <coordinates>2.12249,42.50764</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Port Vendres  (Tarifa:9eur;Agua:si;Wc:si;Vaciado:si;Elect:no)</name>
+            <address>9 Chemin des Tamarins, 66660 Port-Vendres, France</address>
+            <Point>
+                <coordinates>3.11373,42.51776</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gorgues de Caranca  (9eur; Agua:si;Vaciado:si;Elect:no;Wc:no)</name>
+            <address>42-45 Vierge de l'Église, 66360 Thuès-Entre-Valls, France</address>
+            <Point>
+                <coordinates>2.22168,42.52303</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Collioure  Gratuito: no; Agua: si; Wc: si</name>
+            <address>1607 Route de Madeloc, 66190 Collioure, France</address>
+            <Point>
+                <coordinates>3.06844,42.52464</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Le Boulou  Gratuito; Agua: si; Wc: si</name>
+            <address>4 Allée des Lauriers, 66160 Le Boulou, France</address>
+            <Point>
+                <coordinates>2.83773,42.52724</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Vernet-les-Bains  (Gratuito;Agua:si:Wc:no;Vaciado:si;Elect:si)</name>
+            <address>373 Chemin de la Laiterie, 66820 Vernet-les-Bains, France</address>
+            <Point>
+                <coordinates>2.39088,42.54287</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Les Angles  Gratuito: si; Agua: si; Wc: si</name>
+            <address>27 Route du Pla del Mir, 66210 Les Angles, France</address>
+            <Point>
+                <coordinates>2.06857,42.56351</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gavarnie  (Tarifa:5eur/noche;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>D923, 65120 Gavarnie, France</address>
+            <Point>
+                <coordinates>-0.01932,42.73823</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Les Cabannes  Gratuito: no (4 eur/noche); Agua: Si (de pago); Wc: Si; Electricidad: si</name>
+            <address>4 Route de Pech, 09310 Les Cabannes, France</address>
+            <Point>
+                <coordinates>1.68838,42.78471</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Piau Engaly  (7.5eur/24h;Agua:si; Wc:si;Vaciado:si;Electr:si)</name>
+            <address>Montagne de Batsegure, 65170 Aragnouet, France</address>
+            <Point>
+                <coordinates>0.15718,42.78636</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Estacion esqui Peyragudes (sector Peyresourde)  Gratuito Si, Agua No, WC Si</name>
+            <address>Culas, 65240 Germ, France</address>
+            <Point>
+                <coordinates>0.43926,42.79635</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Loudenvielle-BALNEA (centro termoludico)  3eur dia, Agua Si, WC ?</name>
+            <address>1 Chemin de la Mainette, 65510 Loudenvielle, France</address>
+            <Point>
+                <coordinates>0.40844,42.79672</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Les Seguettes (Loudenvielle)  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>35 Chemin du Hourgade, 65510 Loudenvielle, France</address>
+            <Point>
+                <coordinates>0.4109,42.80155</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Marine d Albo  Agua: Si, WC: No, Gratuito: Si</name>
+            <address>D80, 20217 Ogliastro, France</address>
+            <Point>
+                <coordinates>9.33364,42.81105</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Saint-Lary-Soulan  (6eur/noche;Agua:si;WC:si)</name>
+            <address>9 Chemin de Vielle Aure, 65170 Saint-Lary-Soulan, France</address>
+            <Point>
+                <coordinates>0.32309,42.82247</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Duilhac sous Peyrepertuse  (Gratuito;Agua:si;Wc:si)</name>
+            <address>6 Route du château, 11350 Duilhac-sous-Peyrepertuse, France</address>
+            <Point>
+                <coordinates>2.5655,42.86144</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Marine de Giotani (Barrittali)  (10eur/noche;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>D133, 20228 Barrettali, France</address>
+            <Point>
+                <coordinates>9.34382,42.86634</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Artouste-Fabreges  (Gratuito;Agua:si 5eur; vaciado:si; electric:si 5 eur; WC:no)</name>
+            <address>D431, 64440 Laruns, France</address>
+            <Point>
+                <coordinates>-0.39439,42.87507</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac du Biros (Bonac-Irazein)  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Bonac Village, 09800 Bonac-Irazein, France</address>
+            <Point>
+                <coordinates>0.97549,42.87535</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac de Cauterets  Gratuito:no(10eur/dia)Agua:si;Wc:si;Vaciado:si;Electr:si</name>
+            <address>17 D920, 65110 Cauterets, France</address>
+            <Point>
+                <coordinates>-0.11256,42.89361</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Leucate plage  (13,80 euros/24h:Vaciado:si.Agua:Si WC:Si)</name>
+            <address>11 Chemin de Mouret, 11370 Leucate, France</address>
+            <Point>
+                <coordinates>3.05271,42.90023</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Arreau Ã¡rea AC municipal  (2 euros;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>5 Avenue de la Gare, 65240 Arreau, France</address>
+            <Point>
+                <coordinates>0.35921,42.90715</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Plateau de Lhers  (Tarifa:7eur;Agua:si;Wc:no;Vaciado:si;Elect:si;duchas:si)</name>
+            <address>D339, 64490 Accous, France</address>
+            <Point>
+                <coordinates>-0.61941,42.90977</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Leucate Le Goulet (Lago)  (13,80 eur/24h;Agua:si;vaciado:si;WC:si; electric;no)</name>
+            <address>D327, 11370 Leucate, France</address>
+            <Point>
+                <coordinates>3.01995,42.91385</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Esperaza  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>18 Prom. François Mitterand, 11260 Espéraza, France</address>
+            <Point>
+                <coordinates>2.21584,42.93374</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Soulom  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>14 Avenue des Deux Ponts, 65260 Soulom, France</address>
+            <Point>
+                <coordinates>-0.07255,42.95579</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gourette (Estacion de Esqui Alpino)  Gratuito ?, Agua No, WC No</name>
+            <address>Gourette N, 64440 Eaux-Bonnes, France</address>
+            <Point>
+                <coordinates>-0.32885,42.95668</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Arrens-Marsous  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:?)</name>
+            <address>40 Route d'Azun, 65400 Arrens-Marsous, France</address>
+            <Point>
+                <coordinates>-0.20743,42.95853</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Pierrefitte-Nestalas  Gratuito: si Agua: Si WC: si</name>
+            <address>Chemin de la Portere, 65260 Pierrefitte-Nestalas, France</address>
+            <Point>
+                <coordinates>-0.07718,42.96053</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac estacion esqui La Pierre St Martin  Gratuito; Agua: si; Wc: si</name>
+            <address>Braca de Guilhers, 64570 Arette, France</address>
+            <Point>
+                <coordinates>-0.74806,42.97912</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac de Laruns  Gratuito: no; Agua: si (2 eur); Wc: si</name>
+            <address>20 Avenue de la Gare, 64440 Laruns, France</address>
+            <Point>
+                <coordinates>-0.4224,42.98787</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Castelnau-Durban  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>128-254 Le Village, 09420 Castelnau-Durban, France</address>
+            <Point>
+                <coordinates>1.34027,42.99998</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Port La Nouvelle  (7eur/noche;Agua:si(pagando);Wc:no)</name>
+            <address>Chemin des Vignes, 11210 Port-la-Nouvelle, France</address>
+            <Point>
+                <coordinates>3.04088,43.01348</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Campan  Gratuito; Agua: Si; Wc: si</name>
+            <address>1 Place du Castet, 65710 Campan, France</address>
+            <Point>
+                <coordinates>0.17829,43.01819</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Bagneres de Bigorre  Gratuito; Agua: si; Wc: no</name>
+            <address>8 Rue Jean Sireix, 65200 Bagnères-de-Bigorre, France</address>
+            <Point>
+                <coordinates>0.15366,43.0733</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Mirepoix  Gratuito;Agua:si;Wc:si;Vaciado:si;Eletr:no</name>
+            <address>2 Allée de Palafrugell, 09500 Mirepoix, France</address>
+            <Point>
+                <coordinates>1.87394,43.08502</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Lagrasse  Gratuito; Agua: si; Wc: no; parking en pueblo pequeño</name>
+            <address>5 Boulevard de la Promenade, 11220 Lagrasse, France</address>
+            <Point>
+                <coordinates>2.62028,43.09275</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Gruissan plage   (8.50eur/24h;Agua:si;Wc:si;Vaciado:si;Elec:si(3eur);duchas)</name>
+            <address>1 Place Alain Colas, 11430 Gruissan, France</address>
+            <Point>
+                <coordinates>3.11004,43.09594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Saint Martory  (3eur/dÃ­a ;Agua:si;vaciado:si;WC:si; electric;no)</name>
+            <address>6 Avenue du Gillon, 31360 Saint-Martory, France</address>
+            <Point>
+                <coordinates>0.92877,43.14181</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Le Lavandou  Tarifa: 15 eur/noche; Agua: Si; wc: si; Grises: si; Elec:no</name>
+            <address>6 Avenue du Cap Nègre, 83980 Le Lavandou, France</address>
+            <Point>
+                <coordinates>6.43199,43.15187</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Rebenacq   (Gratuito;Agua:si;vaciado:si;WC:si; electric;si)</name>
+            <address>28 Chemin de Montés, 64260 Rébénacq, France</address>
+            <Point>
+                <coordinates>-0.39716,43.15689</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Boussens  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>5 Prom. du Lac, 31360 Boussens, France</address>
+            <Point>
+                <coordinates>0.97461,43.17786</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Oloron St Marie  (Gratuito;Agua:si(de pago);Wc:no;Vaciado:si;Elec:si(de pago))</name>
+            <address>49-61 N134, 64400 Oloron-Sainte-Marie, France</address>
+            <Point>
+                <coordinates>-0.60846,43.18371</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Carcassone  gratuito: no , agua: si, wc: si</name>
+            <address>Rue Gustave Nadaud, 11000 Carcassonne, France</address>
+            <Point>
+                <coordinates>2.36641,43.20796</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Saint-Tropez  (Precio:11eur/noche;Agua:si;Wc:?;Vaciado:si;Elec:?)</name>
+            <address>Chemin de la Moutte, 83990 Saint-Tropez, France</address>
+            <Point>
+                <coordinates>6.67275,43.26457</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Le Cap d Agde  (10eur/noche;agua:si;Wc:no)</name>
+            <address>Rue du Gouverneur, 34300 Agde, France</address>
+            <Point>
+                <coordinates>3.51746,43.28591</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac de Sare  (6eur/noche;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Route des Platane, 64310 Sare, France</address>
+            <Point>
+                <coordinates>-1.58398,43.31207</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Caunes Minervois  Agua: No, Wc: No, Luz: Si, Gratuito: Si</name>
+            <address>1 Place de la République, 11160 Caunes-Minervois, France</address>
+            <Point>
+                <coordinates>2.52549,43.32683</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Sete  (10eur/noche;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Unnamed Road, 34200 Sète, France</address>
+            <Point>
+                <coordinates>3.6163,43.36629</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac San Juan de Luz  Gratuito; Agua: si; Wc: si; sitio ruidoso</name>
+            <address>Av. Charles de Gaulle, 64500 Saint-Jean-de-Luz, France</address>
+            <Point>
+                <coordinates>-1.66291,43.38525</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Sauvagnon  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>18 Rue du Béarn, 64230 Sauvagnon, France</address>
+            <Point>
+                <coordinates>-0.38763,43.40312</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Mielan  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elect:?)</name>
+            <address>4 La Tourette, 32170 Miélan, France</address>
+            <Point>
+                <coordinates>0.30922,43.43304</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Biarritz  (12eur/24h;Agua: si;Wc:no;Vaciado:si;Electr:si)</name>
+            <address>65 Avenue de la Milady, 64200 Biarritz, France</address>
+            <Point>
+                <coordinates>-1.57174,43.4659</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Playa des Corsaires (Anglet)  Gratuito: no (6 eur/48h.); Agua: si; wc: no</name>
+            <address>58 Boulevard des Plages, 64600 Anglet, France</address>
+            <Point>
+                <coordinates>-1.5346,43.50672</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Barre (Anglet)  Gratuto: no (6 eur/noche); Agua: si; Wc: si; Grises:si; Negras: si: Elect: no</name>
+            <address>130 Avenue de l'Adour, 64600 Anglet, France</address>
+            <Point>
+                <coordinates>-1.51697,43.52636</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Aigues Mortes  (7e/noche, Agua:si,WC:no)</name>
+            <address>24-25 Quai des Croisades, 30220 Aigues-Mortes, France</address>
+            <Point>
+                <coordinates>4.18631,43.56691</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Puylaurens  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>1 Rue Albert Thorel, 81700 Puylaurens, France</address>
+            <Point>
+                <coordinates>2.01246,43.5687</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Ondres  Gratuito: no; Agua: si; Wc: si</name>
+            <address>2511 Avenue de la Plage, 40440 Ondres, France</address>
+            <Point>
+                <coordinates>-1.48635,43.57624</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac des Arenes(Labenne)  (8eur/noche;Agua:si; Wc:si;Vaciado:si:Elec:?)</name>
+            <address>D126, 40530 Labenne, France</address>
+            <Point>
+                <coordinates>-1.45486,43.59621</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Pomarez  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>D7, 40360 Pomarez, France</address>
+            <Point>
+                <coordinates>-0.82864,43.62839</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Pelissane  (Gratuito;Agua:si:Wc:no;Vaciado:si;Elect:no)</name>
+            <address>2-10 Chemin de la Prouvenque, 13330 Pélissanne, France</address>
+            <Point>
+                <coordinates>5.15376,43.62857</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Capbreton  (12eur/noche;Agua:si;WC:si;vaciado:si;Elect:?)</name>
+            <address>1 Allée des Ortolans, 40130 Capbreton, France</address>
+            <Point>
+                <coordinates>-1.44719,43.63606</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Auch  4 eur/noche; Agua: si; Wc: si</name>
+            <address>7 Rue du Général de Gaulle, 32000 Auch, France</address>
+            <Point>
+                <coordinates>0.58601,43.63736</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Lac de Salagou  (7eur/noche;Agua:si;Wc:si;Vaciado:si;Elec:no)</name>
+            <address>Camping du Salagou, 34800 Clermont-l'Hérault, France</address>
+            <Point>
+                <coordinates>3.38939,43.64677</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Arles  (Gratuito;Agua:si;WC:no)</name>
+            <address>Voie Communale 13 dite Chemin des Segonnaux, 13200 Arles, France</address>
+            <Point>
+                <coordinates>4.63021,43.6837</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Sant Paul Les Durance  Agua: Si, WC: No, Gratuito: Si</name>
+            <address>8 Allée des Platanes, 13115 Saint-Paul-lez-Durance, France</address>
+            <Point>
+                <coordinates>5.7117,43.68666</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Seignosse  (Gratuito:no(8eur/noche);Agua:si;Wc:si;Vaciado:si;Electr:?)</name>
+            <address>Avenue des Tucs, 40510 Seignosse, France</address>
+            <Point>
+                <coordinates>-1.42621,43.6924</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Lautrec  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>D92, 81440 Lautrec, France</address>
+            <Point>
+                <coordinates>2.12998,43.70418</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Comps-sur Artuby  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:si)</name>
+            <address>D955, 83840 Comps-sur-Artuby, France</address>
+            <Point>
+                <coordinates>6.50646,43.70624</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Dax  Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:?</name>
+            <address>Quai du 28E Btn de Chasseurs, 40100 Dax, France</address>
+            <Point>
+                <coordinates>-1.04945,43.71435</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Saint Paul les Dax  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:no)</name>
+            <address>17 Avenue Salvador Allende, 40990 Saint-Paul-lès-Dax, France</address>
+            <Point>
+                <coordinates>-1.07854,43.73436</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac St Sever  (Gratuito;Agua:Si;Wc:no;Vaciado:si;Elect:no)</name>
+            <address>10 Place Léon Dufour, 40500 Saint-Sever, France</address>
+            <Point>
+                <coordinates>-0.57572,43.7592</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Ste Croix du Verdon  (8eur/noche;Agua:si:Wc:si;Vaciado:si;Elect:?)</name>
+            <address>D111A, 04500 Sainte-Croix-du-Verdon, France</address>
+            <Point>
+                <coordinates>6.15109,43.76075</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC de Vieux-Boucau  Agua: Si. WC: ?. Gratuito: No (5eur o 10eur depede temporada)</name>
+            <address>Allée des Lamaneurs, 40140 Soustons, France</address>
+            <Point>
+                <coordinates>-1.40689,43.7793</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Trigance (Provenza) Área ACs  Gratuito: Depende de la época del año Pernocta: si WC: Si Agua:si</name>
+            <address>D955, 83840 Trigance, France</address>
+            <Point>
+                <coordinates>6.44211,43.78299</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac La Plage (Vieux-Bocau)  11 eur/noche. Electricidad: si; cercano a la playa</name>
+            <address>934 Boulevard du Marensin, 40480 Vieux-Boucau-les-Bains, France</address>
+            <Point>
+                <coordinates>-1.40511,43.79533</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Castellane  Gratuito: no (5eur/24 h.) Agua: si; Wc: no</name>
+            <address>Ancienne Route de Grasse, 04120 Castellane, France</address>
+            <Point>
+                <coordinates>6.5165,43.84601</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Lisle sur Tarn  Gratuito; Agua: si; Wc: no</name>
+            <address>2 Rue des Aulnes, 81310 Lisle-sur-Tarn, France</address>
+            <Point>
+                <coordinates>1.81846,43.86204</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de AC Mont de Marsan  (8,40 eur/dia;Agua:si 1 eur; vaciado:si; electric;1 eur; WC:no)</name>
+            <address>499-525 Avenue de Villeneuve, 40000 Mont-de-Marsan, France</address>
+            <Point>
+                <coordinates>-0.47566,43.88982</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Gordes  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>D15, 84220 Gordes, France</address>
+            <Point>
+                <coordinates>5.19763,43.91512</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fontaine de Vaucluse  Gratuito: no; Agua: si; Wc: si</name>
+            <address>12 Avenue Robert Garcin, 84800 Fontaine-de-Vaucluse, France</address>
+            <Point>
+                <coordinates>5.1219,43.92067</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Annot  Gratuito: Si  Agua potable: Si  WC No</name>
+            <address>Pré Martin, 04240 Annot, France</address>
+            <Point>
+                <coordinates>6.66433,43.96318</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Fources  (7eur/noche;Agua:si:Wc:si;Vaciado:si;Elect:si)</name>
+            <address>D114, 32250 Fourcès, France</address>
+            <Point>
+                <coordinates>0.22974,43.99403</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Broquies  (Gratuito;Agua:si;WC:si;Vaciado:si;Elect:si)</name>
+            <address>8 Route de Mazies, 12480 Broquiès, France</address>
+            <Point>
+                <coordinates>2.69351,44.00515</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Cordes sur Ciel  Gratuito: no (5 eur/noche); Agua: si; Wc: no</name>
+            <address>L'Hôpital, 81170 Cordes-sur-Ciel, France</address>
+            <Point>
+                <coordinates>1.95788,44.06432</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Contis Plage  (Tarifa:11eur/24h;Agua:si;Wc:si;Vaciado:si;Elect:si)</name>
+            <address>259 Avenue du Phare, 40170 Saint-Julien-en-Born, France</address>
+            <Point>
+                <coordinates>-1.31921,44.09353</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Millau  (10eur/noche;Agua:si;Wc:si;Elect:si)</name>
+            <address>7 Rue Cantarane, 12100 Millau, France</address>
+            <Point>
+                <coordinates>3.0824,44.09492</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>L´Abattoir Public (Valence d´Agen)    (Gratuito;Agua:si;Wc:si)</name>
+            <address>D953EC, 82400 Valence d'Agen, France</address>
+            <Point>
+                <coordinates>0.88521,44.10563</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Bedoin   Gratuito: si; Agua: si; Wc: no</name>
+            <address>46 Route de la Piscine, 84410 Bédoin, France</address>
+            <Point>
+                <coordinates>5.17341,44.12419</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Saint Antonin Noble Val  (Gratuito;Agua:si;Wc:no)</name>
+            <address>5687A Chemin de Roumégous, 82140 Saint-Antonin-Noble-Val, France</address>
+            <Point>
+                <coordinates>1.75121,44.15179</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Boe  (Gratuito;Agua:si 3 eur;vaciado:si;WC:no; electric;no)</name>
+            <address>1 Avenue de la Résistance, 47550 Boé, France</address>
+            <Point>
+                <coordinates>0.66167,44.17784</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Mimizan Plage I   	(Gratuito:no(12eur/24h);Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>32 Rue des Sables, 40200 Mimizan, France</address>
+            <Point>
+                <coordinates>-1.29813,44.2047</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Mimizan Plage II   	(Gratuito:no(6eur/24h);Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>D626, 40200 Mimizan, France</address>
+            <Point>
+                <coordinates>-1.2821,44.21276</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Sauveterre de Rouergue   (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:si)</name>
+            <address>Le Sardou, 12800 Sauveterre-de-Rouergue, France</address>
+            <Point>
+                <coordinates>2.31694,44.21627</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Castelnau-Montratier  Gratuito; Agua: si (2 eur.); Wc: no; Grises: si; Negras: si; Elect: no</name>
+            <address>Causse du Moulin À Vent, 46170 Castelnau-Montratier, France</address>
+            <Point>
+                <coordinates>1.35239,44.27445</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac St.Eulalie en Born  Tarifa:6.5eur/noche;Agua,Wc,duchas,vaciado</name>
+            <address>1869 Route du Lac, 40200 Sainte-Eulalie-en-Born, France</address>
+            <Point>
+                <coordinates>-1.18127,44.30765</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Casteljaloux</name>
+            <address>503 Impasse de la Forêt, 47700 Casteljaloux, France</address>
+            <Point>
+                <coordinates>0.07896,44.31055</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Florac  (Gratuito;Agua:si(2eur);Wc:si;Vaciado:si;Elec:?)</name>
+            <address>14 Route du Causse, 48400 Florac, France</address>
+            <Point>
+                <coordinates>3.59044,44.32586</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Lac de Gastes  (de 2 a 7eur/noche;Agua:si;Wc:si;Vaciado:si;Elec:no)</name>
+            <address>851 Avenue du Lac, 40160 Gastes, France</address>
+            <Point>
+                <coordinates>-1.15096,44.32886</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Bernos Beaulac   (4 euros/dia;Agua:2 euros; vaciado:si;WC: no; electric;no)</name>
+            <address>23 La Grand Route, 33430 Bernos-Beaulac, France</address>
+            <Point>
+                <coordinates>-0.24272,44.36954</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saint Sylvestre sur Lot  (Gratuito;Agua:si;Wc:si;Vaciado:si;Electr:?))</name>
+            <address>25 Rue de la République, 47140 Saint-Sylvestre-sur-Lot, France</address>
+            <Point>
+                <coordinates>0.80508,44.39669</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Cahors  Gratuito; Agua: si; Wc: no</name>
+            <address>40-136 Chemin de la Chartreuse, 46000 Cahors, France</address>
+            <Point>
+                <coordinates>1.4409,44.44022</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Biscarrosse Plage  (Tarifa:10eur/noche;Agua:si;Wc:no;Elect:no)</name>
+            <address>Unnamed Road, 40600 Biscarrosse, France</address>
+            <Point>
+                <coordinates>-1.24529,44.45887</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac St Cirq La Popie  Tarifa: 7 eur/noche; Agua: si (2 eur); Wc:si; Duchar; si; Electricidad: si (2 eur)</name>
+            <address>1872 Le Port, 46330 Tour-de-Faure, France</address>
+            <Point>
+                <coordinates>1.68069,44.47074</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Bouzies  Gratuito; Agua: si; Wc: si</name>
+            <address>Le Bourg, 46330 Bouzies, France</address>
+            <Point>
+                <coordinates>1.644,44.48413</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Vers  (Gratuito:no(5eur/noche);Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Le Bourg, 46090 Vers, France</address>
+            <Point>
+                <coordinates>1.55517,44.48557</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Lac de Sanguinet  (8eur/noche;Agua:si;Wc:si;Vaciado:si;Elec:no)</name>
+            <address>521-673 Avenue de Losa, 40460 Sanguinet, France</address>
+            <Point>
+                <coordinates>-1.08447,44.48619</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Fumel  Agua: Si, Wc: Si, Gratuito: Si</name>
+            <address>20 Place Saulou, 47500 Fumel, France</address>
+            <Point>
+                <coordinates>0.97209,44.49813</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Langon  (Gratuito:no;Agua:si;Wc:si;Vaciado:si;Elec:?;Area privada)</name>
+            <address>590 D10, 33210 Langon, France</address>
+            <Point>
+                <coordinates>-0.21663,44.52666</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Intermarche de Langon  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>46 Rue Jules Ferry, 33210 Langon, France</address>
+            <Point>
+                <coordinates>-0.25736,44.5446</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Fontet  Gratuito: no (7 eur/noche); Agua: si; Wc: si</name>
+            <address>41 Tartifume N, 33190 Fontet, France</address>
+            <Point>
+                <coordinates>-0.02138,44.56051</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Campuac  (Gratuito;Agua:si;WC:si;Vaciado:si;Elect:no)</name>
+            <address>Campuac, 12580 Campuac, France</address>
+            <Point>
+                <coordinates>2.58947,44.568</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Villereal  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>7 Boulevard Alphonse de Poitiers, 47210 Villeréal, France</address>
+            <Point>
+                <coordinates>0.74033,44.63844</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parque ornitologico de Le Teich  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>14 Rue du Port, 33470 Le Teich, France</address>
+            <Point>
+                <coordinates>-1.01969,44.6403</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac La Teste de Buch  Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no</name>
+            <address>64 Avenue du Général Leclerc, 33120 La Teste-de-Buch, France</address>
+            <Point>
+                <coordinates>-1.1481,44.65154</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Thueyts  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>10 Chemin de la Condamine, 07330 Thueyts, France</address>
+            <Point>
+                <coordinates>4.21924,44.67232</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Montsalvy  Gratuito: si; Agua: si; Wc: si</name>
+            <address>Avenue de l'Oeuvre L. Conlombant, 15120 Montsalvy, France</address>
+            <Point>
+                <coordinates>2.49686,44.70806</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Taussat. Bassin de Arcachon  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>3 Allée Albert Pitres, 33138 Lanton, France</address>
+            <Point>
+                <coordinates>-1.06977,44.7171</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC  Langogne  (Gratuito;Agua:si 3eur;vaciado:si;WC:si; electric;no)</name>
+            <address>1 Chemin de la Côté, 48300 Langogne, France</address>
+            <Point>
+                <coordinates>3.85396,44.72299</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Gourdon  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>608 Le Foirail, 46300 Gourdon, France</address>
+            <Point>
+                <coordinates>1.38481,44.73399</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Creon  (Gratuito;Agua:si(2eur);Wc:no;Vaciado:si;Elec:si)</name>
+            <address>8 Piste Cyclable Roger Lapébie, 33670 Créon, France</address>
+            <Point>
+                <coordinates>-0.34809,44.77655</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC de Belves  (Gratuito;Agua:si;WC:no)</name>
+            <address>D52E, 24170 Belvès, France</address>
+            <Point>
+                <coordinates>1.00682,44.77714</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Leyme  (Gratuito;Agua:si;Wc:no)</name>
+            <address>20 D48, 46120 Leyme, France</address>
+            <Point>
+                <coordinates>1.89973,44.78422</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Domme  Gratuito: no (5 eur/noche); Agua: si (2 eur.); Wc: no</name>
+            <address>26 Le Pradal, 24250 Domme, France</address>
+            <Point>
+                <coordinates>1.22165,44.80049</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac La-Roque-Gageac  (7 eur/noche;Agua:si(2 eur);Wc:no;Vaciado:si;Elec:no)</name>
+            <address>D703, 24250 La Roque-Gageac, France</address>
+            <Point>
+                <coordinates>1.18395,44.82434</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac St Cyprien  Gratuito; Agua: si; Wc: no; Electicidad: si (3eur)</name>
+            <address>24 Rue du Priolat, 24220 Saint-Cyprien, France</address>
+            <Point>
+                <coordinates>1.04382,44.86838</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Bergerac  (Gratuito;Agua:si;Wc:no)</name>
+            <address>45 Rue du Coulobre, 24100 Bergerac, France</address>
+            <Point>
+                <coordinates>0.50389,44.87108</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Lembras  (Gratuito;Agua:si:Wc:no;Vaciado:si;Elect:si)</name>
+            <address>37G Route de Périgueux, 24100 Lembras, France</address>
+            <Point>
+                <coordinates>0.52525,44.88311</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Sarlat La Caneda  Gratuito: no (5 eur/noche); Agua: si; Wc: no</name>
+            <address>Place Flandres Dunkerque 1940, 24200 Sarlat-la-Canéda, France</address>
+            <Point>
+                <coordinates>1.21243,44.89558</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vassieux-en-Vercors  Gratuito; Agua: si;Wc: no; Grises: si; Negras: no; Elec: no</name>
+            <address>D76, 26420 Vassieux-en-Vercors, France</address>
+            <Point>
+                <coordinates>5.36963,44.89777</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Les Marmotes (Montgenevre)  (10eur/24h;Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>Allée de Vidange, 05100 Montgenèvre, France</address>
+            <Point>
+                <coordinates>6.73533,44.93427</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Les-Eyzies-de-Tayac  Gratuito: no(4eur/noche); Agua: si; Wc: si</name>
+            <address>10 Prom. de la Vézère, 24620 Les Eyzies-de-Tayac-Sireuil, France</address>
+            <Point>
+                <coordinates>1.00952,44.93885</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Saint Romain de Virvee  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>95 Rue des Milonis, 33240 Saint-Romain-la-Virvée, France</address>
+            <Point>
+                <coordinates>-0.40186,44.9639</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LACANAU-OCEAN  9eur dia, Agua Si WC No</name>
+            <address>20 Route de l'Atlantique, 33680 Lacanau, France</address>
+            <Point>
+                <coordinates>-1.16871,45.00618</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac St Leon Sur Vezere  (5eur/noche;Agua:si;WC:no;Electricidad:si)</name>
+            <address>D66, 24290 Saint-Léon-sur-Vézère, France</address>
+            <Point>
+                <coordinates>1.08971,45.01234</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Estacion esqui Les Deux Alpes  Gratuito: no (6 eur/noche); Agua: no; Wc: no</name>
+            <address>3 Chemin de la Buissonnière, 38860 Mont-de-Lans, France</address>
+            <Point>
+                <coordinates>6.12393,45.02367</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saint Flour  Gratuito; Agua: si (2 eur); Wc: no</name>
+            <address>3 Rue de Villeneuve, 15100 Saint-Flour, France</address>
+            <Point>
+                <coordinates>3.10014,45.03458</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Auris-en-Oisans  (Gratuito;Agua:si(2eur);Wc:no;Vaciado:si;Elec:?)</name>
+            <address>Résidence la Meije, 38142 Auris, France</address>
+            <Point>
+                <coordinates>6.07838,45.0518</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ac de Turenne  (Gratuito;Agua:si;WC:no)</name>
+            <address>Avenue du Sénateur Labrousse, 19500 Turenne, France</address>
+            <Point>
+                <coordinates>1.58078,45.05397</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Collonges la Rouge  (5eur/noche;Agua:si;WC:si)</name>
+            <address>La Peyrague, 19500 Collonges-la-Rouge, France</address>
+            <Point>
+                <coordinates>1.65895,45.05802</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Tournon-sur-Rhone   Gratuito; Agua: si ;wc: no; Grises: si; Elec: no</name>
+            <address>6 Chemin de la Beaume, 07300 Tournon-sur-Rhône, France</address>
+            <Point>
+                <coordinates>4.82221,45.07314</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ciudadela de Blaye  (Gratuito:no;Agua:si;Wc:no;Vaciado:si;Elect:?)</name>
+            <address>Rue Pierre Semard, 33390 Blaye, France</address>
+            <Point>
+                <coordinates>-0.66527,45.12593</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Saint Paul  (Gratuito.Agua:Si WC:No)</name>
+            <address>77 Le Bourg-Est, 33390 Saint-Paul, France</address>
+            <Point>
+                <coordinates>-0.6049,45.14795</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac St-Laurent-Medoc  (Gratuito;Agua:si;WC:si)</name>
+            <address>1-7 Rue des Fontaines, 33112 Saint-Laurent-Médoc, France</address>
+            <Point>
+                <coordinates>-0.82118,45.14921</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Cartelegue  (Gratuito;Agua:si 3 euros;vaciado:si;WC:no; electric;3 euros)</name>
+            <address>1 Rue du Stade, 33390 Cartelègue, France</address>
+            <Point>
+                <coordinates>-0.5835,45.18262</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Perigueaux  (6eur/24h;Agua:si;Wc:no;Vaciado:si;Elect:?)</name>
+            <address>36 Rue des Prés, 24000 Périgueux, France</address>
+            <Point>
+                <coordinates>0.73078,45.18768</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Brantome  Tarifa: 3.5 eur/noche; Agua: si (2 eur); Wc: no</name>
+            <address>13 Chemin du Vert Galant, 24310 Brantôme, France</address>
+            <Point>
+                <coordinates>0.64791,45.36042</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Planfoy   (Gratuito;Agua:si(2eur);Wc:no;Vaciado:si;Elec:si)</name>
+            <address>274-307 Chemin du Vignolet, 42660 Planfoy, France</address>
+            <Point>
+                <coordinates>4.44875,45.37474</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Brantome</name>
+            <address>D675E2, 24310 Brantôme, France</address>
+            <Point>
+                <coordinates>0.64585,45.3791</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Saint Thomas de Cognac  (Gratuito.Agua:Si WC:No)</name>
+            <address>91 Le Bourg, 17150 Saint-Thomas-de-Conac, France</address>
+            <Point>
+                <coordinates>-0.68986,45.38791</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Bort-les-Orgues   (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>1-167 Rue de la Fontaine Grande, 19110 Bort-les-Orgues, France</address>
+            <Point>
+                <coordinates>2.49721,45.39896</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Égletons  Gratuito: Si  Agua potable: Si (2 euros) WC: No</name>
+            <address>Rue Dr Henri Dignac, 19300 Égletons, France</address>
+            <Point>
+                <coordinates>2.04749,45.40365</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Le Verdon-sur-Mer  Gratuito No(5eur)  Agua:Si(2eur) WC:No</name>
+            <address>8 Rue du Levant, 33123 Le Verdon-sur-Mer, France</address>
+            <Point>
+                <coordinates>-1.05453,45.54596</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Roullet-Saint-Estephe  Gratuito; Agua: si; Wc: no</name>
+            <address>D210, 16440 Roullet-Saint-Estèphe, France</address>
+            <Point>
+                <coordinates>0.04478,45.58037</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC  Champeix  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>16 D996, 63320 Champeix, France</address>
+            <Point>
+                <coordinates>3.11329,45.58797</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Chateneuf sur Charente   (Tarifa:5eur/noche;Agua:si(2eur);Wc:no;Vaciado:si;Elect:?)</name>
+            <address>9 Rue du Prieuré, 16120 Châteauneuf-sur-Charente, France</address>
+            <Point>
+                <coordinates>-0.05668,45.59879</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Saint George de Didonne   (7eur/noche;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>21-23 Rue du Stade, 17110 Saint-Georges-de-Didonne, France</address>
+            <Point>
+                <coordinates>-0.99979,45.60424</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ile aux Cygnes (Le Bourget du Lac)  Gratuito: No, Pernocta: Si Agua: Si WC:si</name>
+            <address>1-81 Boulevard du Lac, 73370 Le Bourget-du-Lac, France</address>
+            <Point>
+                <coordinates>5.86018,45.65341</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Faverges  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>352 Route d'Annecy, 74210 Faverges, France</address>
+            <Point>
+                <coordinates>6.28631,45.74963</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Saintes  Gratuito; Agua: si (5 eur); Wc: no</name>
+            <address>8 Rue de Courbiac, 17100 Saintes, France</address>
+            <Point>
+                <coordinates>-0.62653,45.75475</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Chasseneuil sur Bonnieure  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>Place du Champ de Mars, 16260 Chasseneuil-sur-Bonnieure, France</address>
+            <Point>
+                <coordinates>0.45165,45.82484</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Thiers (iloa)  Agua: Si, Wc: Si, Luz: No, Gratuito: Si</name>
+            <address>Unnamed Road, 63300 Thiers, France</address>
+            <Point>
+                <coordinates>3.48255,45.86873</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Oradour-su-Glane  Gratuito: si; Agua: si; Wc: si</name>
+            <address>8 Rue Jeanne de Gain, 87520 Oradour-sur-Glane, France</address>
+            <Point>
+                <coordinates>1.02518,45.93565</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Rochefort  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:no)</name>
+            <address>Rue de la Vieille Forme, 17300 Rochefort, France</address>
+            <Point>
+                <coordinates>-0.95563,45.94459</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Saint Jean dAngely  (Gratuito;Agua:si;vaciado:si;WC:si; electric;no)</name>
+            <address>23 Avenue de Marennes, 17400 Saint-Jean-d'Angély, France</address>
+            <Point>
+                <coordinates>-0.53689,45.94528</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Port des Barques  (7eur/noche;Agua:si(2eur);Wc:no;Vaciado:si;Elec:?)</name>
+            <address>45 Avenue des Sports, 17730 Port-des-Barques, France</address>
+            <Point>
+                <coordinates>-1.09008,45.94716</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Balme de Sillingy  (5eur/24h; Agua:si; WC:no)</name>
+            <address>Voie Communale N°2, 74330 La Balme-de-Sillingy, France</address>
+            <Point>
+                <coordinates>6.0312,45.97138</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Fouras  (gratuito:no;agua:de pago;wc:no)</name>
+            <address>38 Avenue Philippe Janet, 17450 Fouras, France</address>
+            <Point>
+                <coordinates>-1.087,45.98174</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>St Denis - Ile d oleron  Gratuito: 9e, Agua: pagando, WC: Si</name>
+            <address>374 Route des Huttes, 17650 Saint-Denis-d'Oléron, France</address>
+            <Point>
+                <coordinates>-1.38419,46.02827</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac de Saint Pardoux  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:no)</name>
+            <address>D44A3, 87640 Razès, France</address>
+            <Point>
+                <coordinates>1.29907,46.03356</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bessines-sur-Gartempe  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:si)</name>
+            <address>2 Place du Champ de Foire, 87250 Bessines-sur-Gartempe, France</address>
+            <Point>
+                <coordinates>1.36995,46.10941</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Nantua  (Tarifa:7eur/noche;Agua:si;Wc:si)</name>
+            <address>4 Route de la Cluse, 01130 Nantua, France</address>
+            <Point>
+                <coordinates>5.60363,46.15671</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saint Martin de Re  (Tarifa:10eur/noche;Agua:si;Wc:no;Vaciado:si;Elect:?)</name>
+            <address>31 Rue du Rempart, 17410 Saint-Martin-de-Ré, France</address>
+            <Point>
+                <coordinates>-1.36506,46.19932</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac St Clement des Baleines (Isla de Re)  (Precio:11eur/24h;Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>91 Rue de la Forêt, 17590 Saint-Clément-des-Baleines, France</address>
+            <Point>
+                <coordinates>-1.54642,46.2274</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Les Portes en Re (Isla de Re)  (10eur/noche;Agua:si;Wc:si;Vaciado:no;Elec:?)</name>
+            <address>3 Rue de la Grande Jetée, 17880 Les Portes-en-Ré, France</address>
+            <Point>
+                <coordinates>-1.4834,46.22943</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Semur-en-Brionnais  (Gratuito.Agua:Si WC:Si)</name>
+            <address>La Fay, 71110 Semur-en-Brionnais, France</address>
+            <Point>
+                <coordinates>4.09068,46.26622</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Couhé  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:no)</name>
+            <address>2 Rue de Bel air, 86700 Couhé, France</address>
+            <Point>
+                <coordinates>0.1783,46.29857</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Moulismes  Gratuito; Agua: si (2 eur.); Wc: si</name>
+            <address>L'Étang, 86500 Moulismes, France</address>
+            <Point>
+                <coordinates>0.81055,46.33329</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Stade Municipal (La Tranche sur Mer)  (Precio:7eur/24h;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Avenue du Général de Gaulle, 85360 La Tranche-sur-Mer, France</address>
+            <Point>
+                <coordinates>-1.43666,46.35049</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Museo de los Tumulos (Bougon)  (Gratuito;Agua:si; Electri:si; Vaciado grises:si; negras:no; WC:si)</name>
+            <address>D5E2, 79800 Bougon, France</address>
+            <Point>
+                <coordinates>-0.06916,46.37796</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Villefrance d Allier  (Gratuito;Agua:si;WC:no)</name>
+            <address>21 D16, 03430 Villefranche-d'Allier, France</address>
+            <Point>
+                <coordinates>2.85695,46.39577</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Cuzion   (Gratuito;Agua:si:Wc:no;Vaciado:si;Elect:no)</name>
+            <address>1 Rue des Petites Côtes, 36190 Cuzion, France</address>
+            <Point>
+                <coordinates>1.60571,46.45903</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Talmont Saint Hilaire  Gratuito si; Agua: si; Wc: no</name>
+            <address>1T Rue d'Apremont, 85440 Talmont-Saint-Hilaire, France</address>
+            <Point>
+                <coordinates>-1.61555,46.46716</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Lac de Vouglans  (6eur/24h;Agua:si(2eur);Wc:si;Vaciado:si;Elec:no)</name>
+            <address>D301E2, 39260 Maisod, France</address>
+            <Point>
+                <coordinates>5.69212,46.46733</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Digoin  Gratuito;Agua:si;Wc:si;Vaciado:si;Elect:?</name>
+            <address>D979B, 71160 Digoin, France</address>
+            <Point>
+                <coordinates>3.97131,46.48085</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Moulins  (10eur/noche;Agua:si:Wc:no;Vaciado:si;Elect:si)</name>
+            <address>64-66 Chemin de Halage, 03000 Moulins, France</address>
+            <Point>
+                <coordinates>3.32464,46.55806</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Genelard  Gratuito; Agua: si; Wc: si; Grises: si</name>
+            <address>8 Le Bassin, 71420 Génelard, France</address>
+            <Point>
+                <coordinates>4.23505,46.57769</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Conliege  Gratuito:Si Agua:SI. WC:SI</name>
+            <address>Prom. du Saugeois, 39570 Conliège, France</address>
+            <Point>
+                <coordinates>5.59955,46.65264</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac La Roche Sur Yon  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>10 Chemin des Amoureux, 85000 La Roche-sur-Yon, France</address>
+            <Point>
+                <coordinates>-1.4184,46.6683</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Saint Amand Montrond  (Gratuito;Agua:no;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Chemin de Virlay, 18200 Saint-Amand-Montrond, France</address>
+            <Point>
+                <coordinates>2.48668,46.73438</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Nozeroy  Gratuito: no (5 eur/noche); Agua: si; WC:si; Ducha: si</name>
+            <address>4 Place des Annonciades, 39250 Nozeroy, France</address>
+            <Point>
+                <coordinates>6.03648,46.77252</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aire du Jura  Gratuito; Agua: si, Wc: si; area de servicio autopista</name>
+            <address>L'Autoroute Verte, 39140 Arlay, France</address>
+            <Point>
+                <coordinates>5.52248,46.77409</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Martizay  (Gratuito;Agua:si;WC:si)</name>
+            <address>4 Rue de la Cornillère, 36220 Martizay, France</address>
+            <Point>
+                <coordinates>1.03811,46.8055</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Lago de Saint-Point  (7,50 euros/24h Agua:Si WC:Si)</name>
+            <address>1 Rue du Lac, 25160 Saint-Point-Lac, France</address>
+            <Point>
+                <coordinates>6.30367,46.8125</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Saint-Leger-sur-Dheune  Gratuito:Si Agua:Si WC:Si</name>
+            <address>23 Rue du Port, 71510 Saint-Léger-sur-Dheune, France</address>
+            <Point>
+                <coordinates>4.6331,46.84505</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Le Puy du Fou  gratuito: si , agua: si, wc: si</name>
+            <address>Le Puy du Fou, 85590 Les Epesses, France</address>
+            <Point>
+                <coordinates>-0.9356,46.89082</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Autun  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Pont Saint-Pierre, 71400 Autun, France</address>
+            <Point>
+                <coordinates>4.3163,46.95545</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac La Gueriniere  (12eur/noche;Agua:si:Wc:no;Vaciado:si;Elect:si)</name>
+            <address>4 Rue de la Tresson, 85680 La Guérinière, France</address>
+            <Point>
+                <coordinates>-2.21501,46.96568</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Noirmoutier     (8eur/noche;Agua:si:Wc:no;Vaciado:si;Elect:si)</name>
+            <address>D5, 85330 Noirmoutier-en-l'Île, France</address>
+            <Point>
+                <coordinates>-2.25208,47.0008</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Seurre  (Gratuito.Agua:Si WC:No)</name>
+            <address>12 Rue de la Perche À l'Oiseau, 21250 Seurre, France</address>
+            <Point>
+                <coordinates>5.14326,47.00408</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Beaune  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>28 Rue du Faubourg Saint-Jacques, 21200 Beaune, France</address>
+            <Point>
+                <coordinates>4.83685,47.01776</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Champigny-sur-Veude  (Gratuito;Agua:si;WC:si)</name>
+            <address>12 Rue de la Bonne Dame, 37120 Champigny-sur-Veude, France</address>
+            <Point>
+                <coordinates>0.31783,47.065</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Bourges  Gratuito: si; Agua: si; Wc: si</name>
+            <address>Rue Jean Bouin, 18000 Bourges, France</address>
+            <Point>
+                <coordinates>2.39861,47.07638</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La boutinardiere  Gratuito: 4e, Agua: pagando, WC: Si</name>
+            <address>10 Allée des Mûriers, 44760 La Bernerie-en-Retz, France</address>
+            <Point>
+                <coordinates>-2.04974,47.09514</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Pornic  (Gratuito;Agua:si:Wc:no;Vaciado:si;Elect:no)</name>
+            <address>Le Val Saint-Martin, 44210 Pornic, France</address>
+            <Point>
+                <coordinates>-2.09178,47.12075</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Montresor  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>2 Rue du 8 Mai, 37460 Montrésor, France</address>
+            <Point>
+                <coordinates>1.20173,47.15773</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Avoine  (4uer/24h;Agua:2eur:Wc:no;Vaciado:si;Elect:2eur)</name>
+            <address>39 Avenue de la République, 37420 Avoine, France</address>
+            <Point>
+                <coordinates>0.17715,47.21286</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Turquant  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:no)</name>
+            <address>26 Rue des Ducs d'Anjou, 49730 Turquant, France</address>
+            <Point>
+                <coordinates>0.02328,47.22557</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Dampierre sur Loire  (Gratuito;Agua:si (2eur);Wc:si;Vaciado:si;Elec:no)</name>
+            <address>2 Chemin de Beaumier, 49400 Saumur, France</address>
+            <Point>
+                <coordinates>-0.0226,47.24089</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Le Cellier  Gratuito; Agua: si; Wc: si; Grises: si; negras: si; Electr: no</name>
+            <address>20 Rue de Bel air, 44850 Le Cellier, France</address>
+            <Point>
+                <coordinates>-1.34787,47.31979</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Champtoceaux  (Precio:3eur/noche;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Le Champalud, 49270 Champtoceaux, France</address>
+            <Point>
+                <coordinates>-1.26556,47.33826</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Mesquer - Quimiac  Gratuito: Si, Agua: No, WC: No</name>
+            <address>2 Allée des Barges (VC21), 44420 Mesquer, France</address>
+            <Point>
+                <coordinates>-2.49115,47.40462</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Vouvray  Gratuito: si; Agua: si (2 eur.); Wc: si</name>
+            <address>8-12 Route Nationale 152, 37210 Vouvray, France</address>
+            <Point>
+                <coordinates>0.7975,47.40943</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Lac de Ouchamps  (Gratuito;Agua:si:Wc:si;Vaciado:si;Elect:?)</name>
+            <address>Les Souterrains, 41120 Ouchamps, France</address>
+            <Point>
+                <coordinates>1.31891,47.47935</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Port Kerne (Quiberon)  Gratuito: no (5 eur/noche); Agua: si; Wc: no</name>
+            <address>36 Rue Jean Pierre Calloch, 56170 Quiberon, France</address>
+            <Point>
+                <coordinates>-3.13681,47.48831</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Ferrete  (Gratuito;Agua:2 eur; Electric:2 eur; Vaciado grises:si; negras:si; WC:no)</name>
+            <address>12 Rue de Lucelle, 68480 Ferrette, France</address>
+            <Point>
+                <coordinates>7.31173,47.48877</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Oltingue  (Gratuito;Agua:2 eur; Electric:2 eur; Vaciado grises:si; negras:si; WC:si)</name>
+            <address>16 Place Saint-Martin, 68480 Oltingue, France</address>
+            <Point>
+                <coordinates>7.39047,47.49189</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Montbéliard  Gratuito Si  Agua potable:Si WC:No</name>
+            <address>7-11 Rue du Champ de Foire, 25200 Montbéliard, France</address>
+            <Point>
+                <coordinates>6.79132,47.50663</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Salle Omnisports Saint-Pierre-Quiberon  Gratuito; Agua: si (2 eur); Wc: no; Grises: si; Negras: si; Elect: no</name>
+            <address>27-29 Rue du Stade, 56510 Saint-Pierre-Quiberon, France</address>
+            <Point>
+                <coordinates>-3.13893,47.51153</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Kerver  (Precio:6eur/noche;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>100 Route du Rohu, 56730 Saint-Gildas-de-Rhuys, France</address>
+            <Point>
+                <coordinates>-2.8584,47.52218</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Villedomer  (Gratuito;Agua:2 euros;vaciado:si;WC:si; electric;4 euros)</name>
+            <address>3 Rue du Lavoir, 37110 Villedômer, France</address>
+            <Point>
+                <coordinates>0.88706,47.5447</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Carnac  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>38 D781, 56340 Carnac, France</address>
+            <Point>
+                <coordinates>-3.08237,47.58462</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Jans  Gratuito; Agua:si;Wc:si; Vaciado: si; Elec: no</name>
+            <address>6 Place de l'Église, 44170 Jans, France</address>
+            <Point>
+                <coordinates>-1.61161,47.62161</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de ACs Lac de Vesoul  (Gratuito;Agua:si:Wc:si;Vaciado:si;Elect:?)</name>
+            <address>20 Avenue des Rives du Lac, 70000 Vaivre-et-Montoille, France</address>
+            <Point>
+                <coordinates>6.12669,47.62942</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Cavannes sur Letang  (8eur/noche;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>37 Rue d'Alsace, 68210 Chavannes-sur-l'Étang, France</address>
+            <Point>
+                <coordinates>7.01866,47.6332</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Auray  (Gratuito;Agua:si;Vaciado:si;Wc:no)</name>
+            <address>1-11 Chemin de Bellevue, 56400 Auray, France</address>
+            <Point>
+                <coordinates>-2.97342,47.66396</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Chateaubriant  Gratuito; Agua; si; Wc:no</name>
+            <address>Les Briotais, 44110 Châteaubriant, France</address>
+            <Point>
+                <coordinates>-1.37806,47.70314</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Elven  Gratuito: Si, Pernocta: Si Agua: Si WC: Si</name>
+            <address>6267 Avenue Martyrs de la Résistance, 56250 Elven, France</address>
+            <Point>
+                <coordinates>-2.58073,47.73905</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Sully sur Loire  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:no)</name>
+            <address>Chemin de la Salle Verte, 45600 Sully-sur-Loire, France</address>
+            <Point>
+                <coordinates>2.38452,47.77111</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Beaugency  Gratuito; Agua: si (de pago); Wc: si; Electr: si (de pago)</name>
+            <address>2 Quai Dunois, 45190 Beaugency, France</address>
+            <Point>
+                <coordinates>1.6363,47.77945</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Plage des Sables Blancs  Gratuito; Agua: si; Wc: si</name>
+            <address>3-15 Rue du Beau Rivage, 29750 Loctudy, France</address>
+            <Point>
+                <coordinates>-4.19818,47.79894</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Thann  (Gratuito;Agua:si 4 eur; vaciado:si; WC:no; electric;no)</name>
+            <address>30 Rue du Général de Gaulle, 68800 Thann, France</address>
+            <Point>
+                <coordinates>7.10433,47.80879</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Thann  (Gratuito;Agua:no:Wc:si;Vaciado:si;Elect:no)</name>
+            <address>5 Rue des Pèlerins, 68800 Thann, France</address>
+            <Point>
+                <coordinates>7.10502,47.81144</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pont Aven  Gratuito: Si, Agua: Pagando, WC: No</name>
+            <address>5174F Rue Louis Lomenech, 29930 Pont-Aven, France</address>
+            <Point>
+                <coordinates>-3.74346,47.8539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Concarneu  (Gratuito:no(3eur/noche);Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>109 Avenue de la Gare, 29900 Concarneau, France</address>
+            <Point>
+                <coordinates>-3.92052,47.87897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Rupt sur Moselle  Gratuito:si Agua:si WC:no</name>
+            <address>41 Rue Jean Desbordes, 88360 Rupt-sur-Moselle, France</address>
+            <Point>
+                <coordinates>6.66186,47.92057</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Rouffach  (Gratuito;Agua:si(jeton);Wc:si;Vaciado:si;Elec:no)</name>
+            <address>3 Place des Sports, 68250 Rouffach, France</address>
+            <Point>
+                <coordinates>7.29559,47.95573</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Josselin  Gratuito; Agua: si (2 eur); Wc: si</name>
+            <address>5-6 Place Saint-Martin, 56120 Josselin, France</address>
+            <Point>
+                <coordinates>-2.55029,47.95631</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Paimpont (Area Autocaravanas)  Agua: Si, Wc: No, Gratuito: Si</name>
+            <address>2 Rue du Chevalier L du Lac, 35380 Paimpont, France</address>
+            <Point>
+                <coordinates>-2.17146,48.02292</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Saint Nabord  Gratuito, agua potable, WC:no</name>
+            <address>3 Rue de la Croix Saint-Jacques, 88200 Saint-Nabord, France</address>
+            <Point>
+                <coordinates>6.58173,48.04526</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Locronan  (5eur/noche;Agua:si;Wc:si)</name>
+            <address>6 Rue du Prieuré, 29180 Locronan, France</address>
+            <Point>
+                <coordinates>-4.2124,48.09817</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Cesson-Sevigne  (Gratuito;Agua:si(2eur);Wc:no;Vaciado:si;Elec:si)</name>
+            <address>14 Route de la Valette, 35510 Cesson-Sévigné, France</address>
+            <Point>
+                <coordinates>-1.59108,48.11816</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Saint Aignan  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:no)</name>
+            <address>28 Rue de Guerlédan, 56480 Saint-Aignan, France</address>
+            <Point>
+                <coordinates>-3.01287,48.18293</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Saint Hippolyte  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>3 Allée des Cygnes, 68590 Saint-Hippolyte, France</address>
+            <Point>
+                <coordinates>7.37232,48.23244</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac de Selestat   (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>A35, 67600 Sélestat, France</address>
+            <Point>
+                <coordinates>7.40611,48.23335</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac de Goncourt  Gratuita; Agua: si (2 eur); Wc: no</name>
+            <address>2 Rue de l Église, 52150 Goncourt, France</address>
+            <Point>
+                <coordinates>5.60792,48.24051</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Camaret sur Mer  Gratuito: no (4 eur/noche); Agua: si; Wc: no</name>
+            <address>Rue Georges Ancey, 29570 Camaret-sur-Mer, France</address>
+            <Point>
+                <coordinates>-4.60858,48.2741</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Plougonvelin  (Gratuito:no(6eur/24h)Agua:si;Wc:si;Vaciado:si;Ducha:si)</name>
+            <address>1-81 Rue de Bertheaume, 29217 Plougonvelin, France</address>
+            <Point>
+                <coordinates>-4.70729,48.33771</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Fougeres  Gratuito; Agua: si; Wc: no</name>
+            <address>66 Boulevard Jacques Faucheux, 35133 Fougères, France</address>
+            <Point>
+                <coordinates>-1.21102,48.35518</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac St.Pierre des Nids  Gratuito; Agua: si;Wc: no; Vaciado: si; Elec: no</name>
+            <address>3 Route de l'Étang du Tour, 53370 Saint-Pierre-des-Nids, France</address>
+            <Point>
+                <coordinates>-0.08907,48.40216</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saint Brice en Cogles   Gratuito: si; Agua: si; Wc: si</name>
+            <address>1 Rue de Normandie, 35460 Saint-Brice-en-Coglès, France</address>
+            <Point>
+                <coordinates>-1.36278,48.41111</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Lampaul Plouarzel  (Precio:7eur/24h;Agua:si;Wc:si;Elec:no)</name>
+            <address>513 B Rue de Beg ar Vir, 29810 Lampaul-Plouarzel, France</address>
+            <Point>
+                <coordinates>-4.77684,48.44747</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Puerto de Dinan  (Gratuito;Agua:si;WC:no;Vaciado:si)</name>
+            <address>14-16 D12, 22100 Dinan, France</address>
+            <Point>
+                <coordinates>-2.04778,48.45194</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac de Lanvallay  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Rue du Terrain des Sports, 22100 Lanvallay, France</address>
+            <Point>
+                <coordinates>-2.02963,48.45451</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Lampaul-Guimiliau  (Gratuito;AGua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>6979P Route de Morlaix, 29400 Lampaul-Guimiliau, France</address>
+            <Point>
+                <coordinates>-4.03826,48.49433</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Dol de Bretagne  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Place Jean Hamelin, 35120 Dol-de-Bretagne, France</address>
+            <Point>
+                <coordinates>-1.75498,48.54753</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Strasbourg-Estrasburgo  (Gratuito;Agua:si 2,5;vaciado:si;WC:no ; electric:si 2,5)</name>
+            <address>8 Rue des Cavaliers, 67000 Strasbourg, France</address>
+            <Point>
+                <coordinates>7.79972,48.56643</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Morlaix  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>64 Rue de Brest, 29600 Morlaix, France</address>
+            <Point>
+                <coordinates>-3.83156,48.57417</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Ploubalay  (Gratuito;Agua:si;Wc:si;Vaciado: si;Elec:no)</name>
+            <address>4 Rue des Ormelets, 22650 Ploubalay, France</address>
+            <Point>
+                <coordinates>-2.14482,48.58029</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac a Bidonniere (Ardevon)  Tarifa: 10 eur/noche; Agua: si; Wc; si; duchas, wifi</name>
+            <address>5 Route de la Rive Ardevon, 50170 Pontorson, France</address>
+            <Point>
+                <coordinates>-1.47701,48.60376</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Erquy  Gratuito: 4e, Agua: pagando, WC: No</name>
+            <address>5 Rue des Evettes, 22430 Erquy, France</address>
+            <Point>
+                <coordinates>-2.4727,48.62166</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Saint Malo  (7.5eur/noche;Agua:si;WC:no)</name>
+            <address>Rue Paul Feval, 35400 Saint-Malo, France</address>
+            <Point>
+                <coordinates>-1.99403,48.64347</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Toul  (Gratuito;Agua:si;Wc:no;Vaciado:si;elect:?)</name>
+            <address>480-506 Avenue du Colonel Pechot, 54200 Toul, France</address>
+            <Point>
+                <coordinates>5.88781,48.67925</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Nancy  (10eur/24h;Agua:si;Wc:si;Vaciado:si;Elec:si)</name>
+            <address>10 Boulevard 21E Régiment Aviation, 54000 Nancy, France</address>
+            <Point>
+                <coordinates>6.19342,48.69226</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Plougasnou  Gratuito; Agua: si; Wc:no; Vaciado: si: Elec:si</name>
+            <address>8 Rue Charles de Gaulle, 29630 Plougasnou, France</address>
+            <Point>
+                <coordinates>-3.79212,48.69406</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Le Diben  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:no)</name>
+            <address>21 Rue des Grands Viviers, 29630 Plougasnou, France</address>
+            <Point>
+                <coordinates>-3.82716,48.708</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Paimpol  Gratuito: si; Agua: si; Wc: no</name>
+            <address>3 Rue du Commandant Jean le Deut, 22500 Paimpol, France</address>
+            <Point>
+                <coordinates>-3.04694,48.7825</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Treguier  Gratuito; Agus: si; Wc: no; Vaciado: si; Elec:</name>
+            <address>14 Boulevard Anatole le Braz, 22220 Tréguier, France</address>
+            <Point>
+                <coordinates>-3.23074,48.79041</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Eurodisney (Paris)  (Gratuito:no(30 eur/dia);Agua:si;Wc: si)</name>
+            <address>Boulevard du Parc, 77700 Coupvray, France</address>
+            <Point>
+                <coordinates>2.78579,48.87739</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Pont-a-Mousson     (8eur/24h;Agua:si;Wc:si;Vaciado:si;Elec:si)</name>
+            <address>Prom. Winston Churchill, 54700 Pont-à-Mousson, France</address>
+            <Point>
+                <coordinates>6.06122,48.90235</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Clecy  Gratuito; Agua: si (jeton 2eur);Wc: si; Vaciado: si; Elec: no</name>
+            <address>8 Rue du Stade, 14570 Clécy, France</address>
+            <Point>
+                <coordinates>-0.48117,48.91888</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Lac de Madine  (10eur/24h;Agua:si;Wc:si;Vaciado:si;Elec:no)</name>
+            <address>1 Ctre de Preformation, 55210 Heudicourt-sous-les-Côtes, France</address>
+            <Point>
+                <coordinates>5.71451,48.93806</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Citadelle Bitche  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:si)</name>
+            <address>75B Rue des Tilleuls, 57230 Bitche, France</address>
+            <Point>
+                <coordinates>7.43442,49.05415</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Centre social d´Argonne (Les Islettes)  Gratuito:no(5eur);Agua:si;Wc:si;Vaciado:si;Elec:si</name>
+            <address>D2C, 55120 Clermont-en-Argonne, France</address>
+            <Point>
+                <coordinates>5.03639,49.12089</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Amneville  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>4 Rue de l'Europe, 57300 Hagondange, France</address>
+            <Point>
+                <coordinates>6.13846,49.24773</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ACs CIS de Champagne (REIMS)  Gratuito Si, Agua Si, WC Si</name>
+            <address>3 Chaussée Bocquaine, 51100 Reims, France</address>
+            <Point>
+                <coordinates>4.02116,49.24885</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Bayeux  (Gratuito;Agua:si;Wc:si;Vaciado:si;Electr:si)</name>
+            <address>2 Rue d'Eterville, 14400 Bayeux, France</address>
+            <Point>
+                <coordinates>-0.70711,49.28061</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Arromanches  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>17 Rue François Carpentier, 14117 Arromanches-les-Bains, France</address>
+            <Point>
+                <coordinates>-0.6258,49.33906</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Montebourg  (Gratuito;Agua:si;Wc:no)</name>
+            <address>3 Le Stade, 50310 Saint-Floxel, France</address>
+            <Point>
+                <coordinates>-1.37337,49.4851</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Saint-Jouin-Bruneval  (Gratuito;Agua:si(de pago);Wc:si;Vaciado:no;Elec:?)</name>
+            <address>26 Rue Lord Louis Mountbatten, 76280 Saint-Jouin-Bruneval, France</address>
+            <Point>
+                <coordinates>0.16317,49.65087</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Etretat  (Precio:8eur/24h;Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>90-92 Rue Guy de Maupassant, 76790 Étretat, France</address>
+            <Point>
+                <coordinates>0.21611,49.70039</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Fecamp  (Gratuito;Agua:no;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>90 Chaussée Gayant, 76400 Fécamp, France</address>
+            <Point>
+                <coordinates>0.37427,49.76029</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Dieppe  (7 eur/noche;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>12 Quai de la Marne, 76200 Dieppe, France</address>
+            <Point>
+                <coordinates>1.0866,49.93013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac du Funiculaires (Treport)  (Precio:6eur/24h;Agua:si;Wc:si;Elec:si)</name>
+            <address>D126E, 76470 Le Tréport, France</address>
+            <Point>
+                <coordinates>1.36404,50.05831</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Catillon-sur-Sambre  (Gratuito;Agua:si:Wc:no;Vaciado:si;Elect:si)</name>
+            <address>Le Marais, 59360 Catillon-sur-Sambre, France</address>
+            <Point>
+                <coordinates>3.64633,50.07606</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac St.Valery-sur-Somme  Gratuito: no; Agua: si; Wc: no</name>
+            <address>321-469 Rue de la Croix l'Abbé, 80230 Saint-Valery-sur-Somme, France</address>
+            <Point>
+                <coordinates>1.62888,50.1825</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Arras  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>19 D3E1, 62223 Saint-Laurent-Blangy, France</address>
+            <Point>
+                <coordinates>2.78836,50.29442</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de ac Equihen-Plage  (Gratuito:no(5 eur/noche);agua:si;wc:no;vaciado:si;Elec:no)</name>
+            <address>20 Rue du Beurre Fondu, 62224 Équihen-Plage, France</address>
+            <Point>
+                <coordinates>1.56637,50.67968</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Boulogne Sur Mer  (5,25/48 h;Vaciado:si; Agua:3 eur;WC:no;Electric.:no)</name>
+            <address>536 Boulevard Sainte-Beuve, 62200 Boulogne-sur-Mer, France</address>
+            <Point>
+                <coordinates>1.59751,50.74415</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

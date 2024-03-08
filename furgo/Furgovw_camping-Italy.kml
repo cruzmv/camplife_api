@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Italy</description>
+        <Placemark>
+            <name>Camping Cirucco Village (Milazzo)  (Precio:25eur/dia(furgo+2pax);playa,restaurante..)</name>
+            <address>Via dei Platani, 62, 98057 Milazzo ME, Italy</address>
+            <Point>
+                <coordinates>15.2439,38.2622</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Sosta Silana  (15eur/noche;Agua:si;WC:si;Electricidad:si)</name>
+            <address>Strada Statale 125 Orientale Sarda, 08040 Dorgali NU, Italy</address>
+            <Point>
+                <coordinates>9.51134,40.15313</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Zeus (Pompeya)  (Tarifa:17eur/dia(furgo+2pax);tienda, bar, wifi)</name>
+            <address>Via Villa dei Misteri, 3, 80045 Pompei NA, Italy</address>
+            <Point>
+                <coordinates>14.48084,40.74931</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Solfatara (Pozzuoli)   (Precio:20eur/dia(furgo+2pax))</name>
+            <address>Via Solfatara, 161, 80078 Pozzuoli NA, Italy</address>
+            <Point>
+                <coordinates>14.1355,40.82771</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Village Roma  Tarifa: 26 eur/dia (furgo+2pax); supermercado, piscina; autobus al centro</name>
+            <address>Via Aurelia, 831, 00165 Roma, Italy</address>
+            <Point>
+                <coordinates>12.4046,41.88749</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Flaminio Village (Roma)  32 eur/dia (furgo+2pax); piscina; tren al centro</name>
+            <address>Via dei Due Ponti, 16-30, 00191 Roma, Italy</address>
+            <Point>
+                <coordinates>12.48167,41.95556</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Il Corniolo (Capranica)  (Tarifa:15eur/dia;piscina,restaurante)</name>
+            <address>Unnamed Road, 01012 Capranica VT, Italy</address>
+            <Point>
+                <coordinates>12.14119,42.23375</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Boschetto di Piemma  (Tarifa:27eur/dia(furgo+2pax);autobus a San Gimignano)</name>
+            <address>Strada Comunale Di Santa Lucia, 8, 53037 San Gimignano SI, Italy</address>
+            <Point>
+                <coordinates>11.05377,43.45353</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Fiesole (Florencia)  Gratuito: no; Agua: si; Wc: si</name>
+            <address>Via Peramonda, 50014 Fiesole FI, Italy</address>
+            <Point>
+                <coordinates>11.30608,43.80719</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Fusina  Tarifa: 36 eur/dia(furgo+2 pax); Bar, supermercado, lavanderia. Muy ruidoso; mosquitos</name>
+            <address>Strada Provinciale 23, 88, 30176 Venezia, Italy</address>
+            <Point>
+                <coordinates>12.25614,45.41943</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Serenissima  gratuito: no , agua:si, wc: si</name>
+            <address>Via Padana, 336-344, 30176 Venezia, Italy</address>
+            <Point>
+                <coordinates>12.18333,45.45234</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

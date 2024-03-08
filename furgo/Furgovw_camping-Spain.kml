@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Spain</description>
+        <Placemark>
+            <name>Camping Playa de Tasarte  (12eur/dia(furgo+2pax);agua,baños....)</name>
+            <address>Calle la Playa, 35478, Las Palmas, Spain</address>
+            <Point>
+                <coordinates>-15.80557,27.87129</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Playa de Vargas  (6eur/dia(furgo+2pax);bar, restaurante..)</name>
+            <address>Calle I, 35269 Agüimes, Las Palmas, Spain</address>
+            <Point>
+                <coordinates>-15.3965,27.89258</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping de Temisas  (12eur/dia;bar,piscina..)</name>
+            <address>Lugar Diseminado Lomo la Cruz, 6, 35270 Agüimes, Las Palmas, Spain</address>
+            <Point>
+                <coordinates>-15.48961,27.89797</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Tasartico  Gratuito: no  Agua: Si WC: si</name>
+            <address>Caserio Tasartico, 1, 35479, Las Palmas, Spain</address>
+            <Point>
+                <coordinates>-15.82616,27.90838</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Tarifa  Camping 12EUR furgo peq+2pers+electr</name>
+            <address>N-340, 11380 Tarifa, Cádiz, Spain</address>
+            <Point>
+                <coordinates>-5.6503,36.05488</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Camaleon (Caños de Meca)  Gratuito: No,Agua: Si WC:si</name>
+            <address>Pago los Caños de Meca, 5-45, 11159 Barbate, Cádiz, Spain</address>
+            <Point>
+                <coordinates>-6.01381,36.18809</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Cabo Pino  Tarifa:33eur/dia; restaurante, supermercado, piscina</name>
+            <address>Urb. Jardines del Puerto, 9, 29604 Marbella, Málaga, Spain</address>
+            <Point>
+                <coordinates>-4.74301,36.48876</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Los Jarales  Tarifa: 21 eur/dia (furgo+2pax);restaurante; lavadora; piscina</name>
+            <address>Calle Mérida de Jarales, 12, 29649 Mijas, Málaga, Spain</address>
+            <Point>
+                <coordinates>-4.71789,36.48928</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Monte Parc (Alhaurin de la Torre)  Tarifa: 25 eur (furgo+2pax)</name>
+            <address>Arroyo Hondo, 8, 29130 Alhaurín de la Torre, Málaga, Spain</address>
+            <Point>
+                <coordinates>-4.61342,36.64895</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Playa Aguadulce (Rota)  Tarifa: 15 eur/dia (furgo+2 pax)</name>
+            <address>Agua Dulce, 23, 11520 Rota, Cádiz, Spain</address>
+            <Point>
+                <coordinates>-6.4068,36.67097</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Tropical (Almuñecar)   (18eur/dia(furgo+2pax);bar,wifi..)</name>
+            <address>N-340, 107, 18690 Almuñécar, Granada, Spain</address>
+            <Point>
+                <coordinates>-3.67776,36.73882</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping El Pino  (18eur/di­a;tienda,restaurante,piscina)</name>
+            <address>Calle Carlos Cano, 2, 29770 Torrox, Málaga, Spain</address>
+            <Point>
+                <coordinates>-3.94935,36.73987</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Las Vegas (Adra)  (16eur/dia(furgo+2pax);Wifi,bar..)</name>
+            <address>Conjunto la Habana, 15, 04779, Almería, Spain</address>
+            <Point>
+                <coordinates>-2.96529,36.74334</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping El Abogao (Ronda)  (18eur/dia(furgo+2pax);piscina..)</name>
+            <address>A-367, 77, 29400 Ronda, Málaga, Spain</address>
+            <Point>
+                <coordinates>-5.11247,36.78662</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping rural La Molineta  (15eur,furgo,2pers,elec)</name>
+            <address>Carr. Nacimiento, 04470 Laujar de Andarax, Almería, Spain</address>
+            <Point>
+                <coordinates>-2.88638,36.99902</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Sierrecilla, Laguna de Fuente de Piedra   (16eur/dia(ACSI);Ã®Piscina,tienda,bar..)</name>
+            <address>Av. Ocho de Marzo, 27, 29531 Humilladero, Málaga, Spain</address>
+            <Point>
+                <coordinates>-4.69622,37.10881</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Maria Eugenia (Granada)  23 eur/di­a (furgo+2 pax); cercano al centro</name>
+            <address>Ctra. de Málaga, 198, 18015 Granada, Spain</address>
+            <Point>
+                <coordinates>-3.65417,37.19167</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Valdearenas (Iznajar)   (16eur/dia(furgo+2pax);Restaurante,playa fluvial..)</name>
+            <address>Calle los Garedones, 2, 14979 Iznájar, Córdoba, Spain</address>
+            <Point>
+                <coordinates>-4.32343,37.26291</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping naturista El Portus  Tarifa: 30 eur/dia (furgo + 2 pax); restaurante, supermercado, piscina, wifi.</name>
+            <address>Lugar Camping el Portus, 3, 30393 Cartagena, Murcia, Spain</address>
+            <Point>
+                <coordinates>-1.06827,37.58564</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping La Bolera (Pozo Alcon)  Tarifa: 15 eur/dia (furgo+2 pax); bar; lavanderia; abierto de abril a diciembre</name>
+            <address>A-326, Pozo Alcón, Jaén, Spain</address>
+            <Point>
+                <coordinates>-2.91297,37.76038</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Mar Menor  (Tarifa:12eur/dia(furgo+2pax);tienda, bar)</name>
+            <address>Camino al Camping Mar Menor, 30730 Los Alcázares, Murcia, Spain</address>
+            <Point>
+                <coordinates>-0.81597,37.76965</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping El Madroñal, Fuenteheridos  Luz: Si Agua: Si WC: Si Gratuito: No</name>
+            <address>HU-8114, 21292 Fuenteheridos, Huelva, Spain</address>
+            <Point>
+                <coordinates>-6.67355,37.90469</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping El Batan de las Monjas  Gratuito: no; Agua: si; Wc: si</name>
+            <address>Calle Cantarrana, 6, 41388 San Nicolás del Puerto, Sevilla, Spain</address>
+            <Point>
+                <coordinates>-5.65572,37.9927</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping La Puerta (Moratalla)  Tarifa: 11 eur (furgo+2 pax); piscina, bar, supermercado...</name>
+            <address>Ctra. la Puerta, 1, 30440 Moratalla, Murcia, Spain</address>
+            <Point>
+                <coordinates>-1.92054,38.20666</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Los Llanos  (17 eur/dia(furgo+2pax+elect) piscina)</name>
+            <address>Partida Deveses D, 34, 03779 Dénia, Alicante, Spain</address>
+            <Point>
+                <coordinates>-0.01593,38.86811</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Los Arenales  Gratuito: No, Pernocta: Si Agua: Si WC:si</name>
+            <address>Camino del Moral, 13270 Almagro, Cdad. Real, Spain</address>
+            <Point>
+                <coordinates>-3.69623,38.88064</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Kiko Park (Oliva)  Tarifa: 25 eur/dia(furgo+2pax); Supermercado, restaurante, playa</name>
+            <address>Carrer de l'Assagador de Carro, 3, 46780 Oliva, Valencia, Spain</address>
+            <Point>
+                <coordinates>-0.09778,38.93278</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Los Batanes  (Precio:30eur/dia(furgo+2pax);tienda,piscina,lavanderia)</name>
+            <address>Camino el Canal, 26, 02611 Ossa de Montiel, Albacete, Spain</address>
+            <Point>
+                <coordinates>-2.8475,38.93726</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cala Bassa  (Tarifa:23eur(furgo+2pax))</name>
+            <address>Diseminado Cala Bassa, 174, 07829 Sant Josep de sa Talaia, Illes Balears, Spain</address>
+            <Point>
+                <coordinates>1.24182,38.96354</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Ciudad de Caceres  24 eur/dia(furgo+2pax);electr, agua, wifi..; autobus al centro</name>
+            <address>Carretera de Salamanca, 8, 10005 Cáceres, Spain</address>
+            <Point>
+                <coordinates>-6.41213,39.4893</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Monfragüe  (Tarifa:20eur/dia(furgo+2pax);</name>
+            <address>Camino Venta de Paco, 10680 Malpartida de Plasencia, Cáceres, Spain</address>
+            <Point>
+                <coordinates>-6.08342,39.94406</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping La Mata  Gratuito: no, Agua: si, Wc: si</name>
+            <address>Calle Garganta de Alardos, 31, 10480 Madrigal de la Vera, Cáceres, Spain</address>
+            <Point>
+                <coordinates>-5.36054,40.15303</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Las Majadas   (Precio:15eur/noche;restaurante, piscina..)</name>
+            <address>Calle el Cerrillo, 3, 16142 Las Majadas, Cuenca, Spain</address>
+            <Point>
+                <coordinates>-2.02351,40.2956</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Alpha (Getafe)  Tarifa: 24 eur/dia (furgo+2 pax); supermercado, restarurante, piscina, wifi</name>
+            <address>Calle Calidad, 2, 28906 Getafe, Madrid, Spain</address>
+            <Point>
+                <coordinates>-3.68895,40.31703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Arganda  25 eur/dia ( furgo+2pax); Agua: si; Wc: si</name>
+            <address>Carretera de Campo Real, 44, 28500 Arganda del Rey, Madrid, Spain</address>
+            <Point>
+                <coordinates>-3.45419,40.32003</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Circo de Gredos Camping de Avila  Gratuito: No, Pernocta: Si Agua: Si WC:si</name>
+            <address>Calle Manuel Castell, 2B, 05634 Hoyos del Espino, Ávila, Spain</address>
+            <Point>
+                <coordinates>-5.17353,40.35727</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Stop&amp;Go La Volta (Peñiscola)  (Tarifa:18eur/dia(furgo+2pax);piscina,tienda,bar..)</name>
+            <address>Plaça Poligono 4, 31, 12598, Castelló, Spain</address>
+            <Point>
+                <coordinates>0.40268,40.39782</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Ciudad de Albarracin  (20eur/dia(furgo+2pax);bar,wifi..)</name>
+            <address>Camino de Gea, 18, 44126 Albarracín, Teruel, Spain</address>
+            <Point>
+                <coordinates>-1.42743,40.41207</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Peguerinos - Camping La Nava  Gratuito: No Agua: Si WC: Si Luz: Si</name>
+            <address>Camino de Pinares Bajos, 05239 Peguerinos, Ávila, Spain</address>
+            <Point>
+                <coordinates>-4.20715,40.65471</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Eucaliptus  gratuito: no, agua:si, wc:si</name>
+            <address>TV-3405, 43870 Amposta, Tarragona, Spain</address>
+            <Point>
+                <coordinates>0.77881,40.65692</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Peguerinos  Agua Si -WC Si -Vaciado Si -16 furgo y 2 per/noche</name>
+            <address>Unnamed Road, 05239 Peguerinos, Ávila, Spain</address>
+            <Point>
+                <coordinates>-4.20269,40.65743</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping las Aguas  Tarifa: 14 eur (furgo, 2 adultos y perra) Se cobra por noche, sin prisa por salir... Servicios: Pisc</name>
+            <address>Calle Olivar, 24, 44707 Cañizar del Olivar, Teruel, Spain</address>
+            <Point>
+                <coordinates>-0.64431,40.81614</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Ametlla Village Platja  (20eur/noche)</name>
+            <address>Partida Santes Creus, 2, 43860 L'Ametlla de Mar, Tarragona, Spain</address>
+            <Point>
+                <coordinates>0.77919,40.86475</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Nautic  (30eur/dia(furgo+2pax);piscina,super,bar..)</name>
+            <address>Camí Cementiri, 2, 43860 L'Ametlla de Mar, Tarragona, Spain</address>
+            <Point>
+                <coordinates>0.8039,40.88685</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Terra Alta  (15eur/dia(furgo+2pax);piscina,bar..)</name>
+            <address>TV-3301, 43785 Bot, Tarragona, Spain</address>
+            <Point>
+                <coordinates>0.37873,41.00694</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Riaza  gratis: no agua: si wc: si</name>
+            <address>Av. Madrid, 37, 40500 Riaza, Segovia, Spain</address>
+            <Point>
+                <coordinates>-3.49451,41.27</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping mcpal. ciudad de Zaragoza  Tarifa: 11 eur (furgo+2pax); supermercado, piscina, wifi...</name>
+            <address>Calle San Juan Bautista de la Salle, 21, 50012 Zaragoza, Spain</address>
+            <Point>
+                <coordinates>-0.94301,41.63792</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cala llevadó  Gratuito: No, Pernocta: Si Agua: Si WC:si</name>
+            <address>Urb. Cala Llevadó, 11P, 17320 Tossa de Mar, Girona, Spain</address>
+            <Point>
+                <coordinates>2.90817,41.70997</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Can Martí (Tossa de Mar)  Tarifa:25eur/dia(furgo+2pax);piscina, bar, tienda..</name>
+            <address>Passatge Càmping C Martí, 44, 17320 Tossa de Mar, Girona, Spain</address>
+            <Point>
+                <coordinates>2.92604,41.729</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Fontmartina  Tarifa:10eur/dia(furgo+2pax);parque infantil, tienda, bar..</name>
+            <address>Camí del Càmping, 08479, Barcelona, Spain</address>
+            <Point>
+                <coordinates>2.42847,41.75691</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Cubillas  (Tarifa:15eur/dia;duchas,wifi...)</name>
+            <address>Autovía de Castilla, 47290 Cubillas de Santa Marta, Valladolid, Spain</address>
+            <Point>
+                <coordinates>-4.58688,41.8052</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de acampada Veruela del Moncayo  Gratuito: no Agua: Si WC: si</name>
+            <address>Calle Gil Aznar, 21, 50580 Vera de Moncayo, Zaragoza, Spain</address>
+            <Point>
+                <coordinates>-1.68833,41.82162</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Urbion (embalse Cuerda del Pozo)  (Tarifa:16eur/dia (furgo+2 pax);super, piscina, restaurante)</name>
+            <address>Carr. de la Playa Pita, 42005 Soria, Spain</address>
+            <Point>
+                <coordinates>-2.77908,41.8501</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Covaleda  Agua SI-WC SI- Vaciado SI</name>
+            <address>Carr. de Soria, 31, 42157 Covaleda, Soria, Spain</address>
+            <Point>
+                <coordinates>-2.8794,41.92878</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping El Cobijo (Vinuesa)  17 eur/dia (furgo+2 pax); supermercado, restaurante...</name>
+            <address>Unnamed Road, 42150 Vinuesa, Soria, Spain</address>
+            <Point>
+                <coordinates>-2.75808,41.93204</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pals , Camping  Gratuito: No, Pernocta: Si Agua: Si WC:si</name>
+            <address>Avinguda del Grau, 1, 17256 Pals, Girona, Spain</address>
+            <Point>
+                <coordinates>3.19243,42.00176</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping El Molino (L´Estartit)  (Tarifa:19eur/dia(furgo+2pax);tienda,wifi..)</name>
+            <address>Caminassa, 17258 Torroella de Montgrí, Girona, Spain</address>
+            <Point>
+                <coordinates>3.18919,42.04054</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Los Cameros   Gratuito: no Agua: Si WC: si</name>
+            <address>Diseminado Villoslada Cros, 23, 26125, La Rioja, Spain</address>
+            <Point>
+                <coordinates>-2.67659,42.08131</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Lago Barasona  (23eur/dia;lago,piscina, bar, super..)</name>
+            <address>Calle Juan Soler, 4, 22435 La Puebla de Castro, Huesca, Spain</address>
+            <Point>
+                <coordinates>0.315,42.14194</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping La Fageda  Agua SI-WC SI- Vaciado NO</name>
+            <address>Carretera Olot, 17810 Olot, Girona, Spain</address>
+            <Point>
+                <coordinates>2.51664,42.15765</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Sadernes  Gratuito: no  Agua: Si WC: si</name>
+            <address>GIV-5231, 17853 Sales de Llierca, Gerona, Spain</address>
+            <Point>
+                <coordinates>2.59627,42.27151</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Masia Pardines  Agua: Si Luz: Si WC: Si  Gratuito: No</name>
+            <address>Camí de Vilaró al Pujalt, 17534 Pardines, Girona, Spain</address>
+            <Point>
+                <coordinates>2.21093,42.30695</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Mpal. de Ourense  Tarifa: 9.5eur/dia(furgo+2pax); tren al centro</name>
+            <address>Parroquia Untes, 149, 32990 Ourense, Orense, Spain</address>
+            <Point>
+                <coordinates>-7.95616,42.33783</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Fuentes Blancas   	(Precio:20eur/dia(furgo+2pax);bar,piscina,tienda...)</name>
+            <address>Diseminado Villayuda, 7, 09193, Burgos, Spain</address>
+            <Point>
+                <coordinates>-3.65775,42.34112</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping El Port de la Vall (Port de la Selva.)  Agua: Si, WC: Si, Luz: Si, Gratuito: No</name>
+            <address>Zn Faro, 11, 17489 El Port de la Selva, Girona, Spain</address>
+            <Point>
+                <coordinates>3.18442,42.34247</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping de Agüero  Agua: Si, Wc: Si, Gratuito: Si</name>
+            <address>Calle Iglesia, 9, 22808 Agüero, Huesca, Spain</address>
+            <Point>
+                <coordinates>-0.79516,42.35559</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Mpal. Arenteiro   Tarifa: 9eur/dia(furgo+2pax)</name>
+            <address>Aldea Godas do Rio, 44, 32516, Ourense, Spain</address>
+            <Point>
+                <coordinates>-8.09847,42.42357</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Baliera  Agua SI-WC SI- Vaciado SI</name>
+            <address>N-260, 22486 Montanuy, Huesca, Spain</address>
+            <Point>
+                <coordinates>0.69907,42.43992</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Picon del Conde  (Tarifa:15eur/dia(furgo+2pax);tienda,lavadora,piscina)</name>
+            <address>N-I, 09292 Monasterio de Rodilla, Burgos, Spain</address>
+            <Point>
+                <coordinates>-3.45752,42.46058</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping La Playa  25 eur-dia dos pers, furgo y electr. Cerca centro</name>
+            <address>Camino del Río Ebro, 8, 26009 Logroño, La Rioja, Spain</address>
+            <Point>
+                <coordinates>-2.45458,42.47099</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Oturia  Gratuito: No, Pernocta: Si Agua: Si WC:si</name>
+            <address>N-260, 22610 Yebra de Basa, Huesca, Spain</address>
+            <Point>
+                <coordinates>-0.27994,42.48241</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Taull  25 eur/dia (furgo+2 pax); cierra de 15/10 a 15/11; bar</name>
+            <address>Carrer dels Aiguals, 25528, Lérida, Spain</address>
+            <Point>
+                <coordinates>0.84679,42.519</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Los Vives (Saravillo)  Tarifa: 17 eur/dia (furgo+2pax); piscina, rio, bar, super, tv</name>
+            <address>A-2609, 22366 Plan, Huesca, Spain</address>
+            <Point>
+                <coordinates>0.25154,42.56147</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>camping oto  Gratuito: No, Pernocta: Si Agua: Si WC:si</name>
+            <address>N-260, 22372 Broto, Huesca, Spain</address>
+            <Point>
+                <coordinates>-0.15462,42.56768</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Nou Camping  Agua: Si, Wc: Si, Gratuito: 27eur Furgo+2adultos+1niño+220V</name>
+            <address>Carrer Carretera, 9, 25597 La Guingueta d'Àneu, Lérida, Spain</address>
+            <Point>
+                <coordinates>1.13112,42.59353</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Gavin  Gratuito: no Agua: Si WC: si</name>
+            <address>Camino Oros Alto, 22630 Biescas, Huesca, Spain</address>
+            <Point>
+                <coordinates>-0.30436,42.61706</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Iratxe  Agua: Si Luz: Si WC: Si  Gratuito: No</name>
+            <address>Av. Prado de Irache, 15, 31208 Ayegui, Navarra, Spain</address>
+            <Point>
+                <coordinates>-2.05909,42.6468</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Lizarra (Estella)  Gratuito: no; Agua: si; Wc: si</name>
+            <address>Calle Curtidores, 3, 31200 Estella, Navarra, Spain</address>
+            <Point>
+                <coordinates>-2.01753,42.65716</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Aritzaleku (Lerate)  20 eur/dia (furgo+2pax); piscina, supermercado, embarcadero; cierra en invierno</name>
+            <address>Diseminado Camping Aritzaleku, 49, 31291 Lerate, Navarra, Spain</address>
+            <Point>
+                <coordinates>-1.94011,42.72015</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Rivera del Cua (Vega de Espinareda)  (15eur/dia(furgo+2pax);bar,duchas..)</name>
+            <address>Calle Real, 77A, 24430 Vega de Espinareda, León, Spain</address>
+            <Point>
+                <coordinates>-6.66204,42.72468</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>R.C Ancoradoiro  21eur furgo+2pers+electr</name>
+            <address>Lugar Ancoradoiro, 6, 15291, A Coruña, Spain</address>
+            <Point>
+                <coordinates>-9.11127,42.75699</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>A Vouga   (22eur/dia;playa,restaurante, wifi..)</name>
+            <address>AC-550, 15291 Muros, La Coruña, Spain</address>
+            <Point>
+                <coordinates>-9.06219,42.76062</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Borda Bisaltico  Tarifa aprox: 20 eur/dia (furgo+2 pax)</name>
+            <address>Unnamed Road, 22790, Huesca, Spain</address>
+            <Point>
+                <coordinates>-0.73025,42.78611</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping de Burbia (Ancares)  Gratuito: no, Agua: Si, WC: si</name>
+            <address>Calle Corradas, 20, 24437 Burbia, León, Spain</address>
+            <Point>
+                <coordinates>-6.78153,42.79255</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Espalies (Bossots)  Tarifa: 24 eur/dia (furgo+2pax); Bar, piscina, wifi..</name>
+            <address>N-230, 25550 Bossòst, Lérida, Spain</address>
+            <Point>
+                <coordinates>0.69867,42.79537</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Fuentes Carrionas  (20 eur (2pax+furgo);bar,restaurante, wifi )</name>
+            <address>Calle San Roque, 54B, 34840 Cervera de Pisuerga, Palencia, Spain</address>
+            <Point>
+                <coordinates>-4.50553,42.87263</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Arbizu  (Tarifa:23eur/dia(furgo+2pax);piscina,tienda,bar..)</name>
+            <address>NA-7100, 31839 Arbizu, Navarra, Spain</address>
+            <Point>
+                <coordinates>-2.03414,42.89868</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Osate (Otsagabia)  Gratuito: no; Agua: si; Wc: si</name>
+            <address>NA-140, 31680 Ochagavía, Navarra, Spain</address>
+            <Point>
+                <coordinates>-1.09297,42.90013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Asolaze (Isaba)  26 eur/noche (furgo+2 pax); 2ªcat; tf:948 893034</name>
+            <address>NA-137, 31417 Isaba, Navarra, Spain</address>
+            <Point>
+                <coordinates>-0.8843,42.90161</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Municipal RIAÑO  Gratuito: No, Pernocta: Si Agua: Si WC:si</name>
+            <address>N-625, 24900 Riaño, León, Spain</address>
+            <Point>
+                <coordinates>-4.99837,42.97878</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Las Nieves  Agua Si -WC Si -Vaciado Si -11 furgo y 2 per</name>
+            <address>Calle la Torre, 10, 24855 Puebla de Lillo, León, Spain</address>
+            <Point>
+                <coordinates>-5.27653,43.00735</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping La Viorna  Gratuito: no  Agua: Si WC: si</name>
+            <address>CA-885, 39586 Camaleño, Cantabria, Spain</address>
+            <Point>
+                <coordinates>-4.64483,43.15432</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping La Isla-Picos de Europa  (24eur/dia(furgo+2pax);bar,piscina..)</name>
+            <address>CA-185, 39586 Camaleño, Cantabria, Spain</address>
+            <Point>
+                <coordinates>-4.65623,43.15771</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping La Barquilla (Ramales)  (Precio:24eur/noche(furgo+2pax))</name>
+            <address>Barrio Helguero, 149, 39815 Ramales de la Victoria, Cantabria, Spain</address>
+            <Point>
+                <coordinates>-3.48255,43.25847</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gran Camping de Zarautz  25 eur/dia(furgo+2pax);restaurante; supermercado; lavanderia</name>
+            <address>Talaimendi Auzoa Auzoa, 725, 20800 Zarautz, Gipuzkoa, Spain</address>
+            <Point>
+                <coordinates>-2.14636,43.28989</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Itxaspe (Itziar)  (Precio:30eur/dia(furgo+2pax);piscina,wifi,bar..)</name>
+            <address>Itsaspe Auz., 16, 20829 Deba, Gipuzkoa, Spain</address>
+            <Point>
+                <coordinates>-2.32982,43.29425</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping El Naranjo de Bulnes  22 eur./noche (furgo+2 pax); 2º categoria; tf: 985 84 65 78</name>
+            <address>AS-114, 2, 33554, Asturias, Spain</address>
+            <Point>
+                <coordinates>-4.8024,43.29977</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Santillana  (Tarifa:20eur(furgo+2pax))</name>
+            <address>Barrio Santillana, 9, 39330 Santillana del Mar, Cantabria, Spain</address>
+            <Point>
+                <coordinates>-4.11334,43.39258</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping la Paz  Gratuito: No, Pernocta: Si Agua: Si WC:si</name>
+            <address>Lugar Pendueles, 1, 33598, Asturias, Spain</address>
+            <Point>
+                <coordinates>-4.65187,43.40014</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Amaido (San Tirso de Abres)  19.5 eur/dia (furgo+2pax+2niños); ideal para niños</name>
+            <address>Lugar Grandela, 29, 33774 San Tirso de Abres, Asturias, Spain</address>
+            <Point>
+                <coordinates>-7.14156,43.4147</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping playa de Vega  Gratuito: no, Agua: si, WC:si</name>
+            <address>Lugar Vega, 42C, 33347 Vega, Asturias, Spain</address>
+            <Point>
+                <coordinates>-5.13097,43.47689</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping As Cabazas  Camping con vistas al mar</name>
+            <address>DP-3606, 15593 O Ferrol, La Coruña, Spain</address>
+            <Point>
+                <coordinates>-8.29401,43.54015</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Playa España (Villaviciosa)  Tarifa: 21 eur/dia (furgo+2 pax); Cafeteria, supermercado</name>
+            <address>VV-2, 33314 Villaviciosa, Asturias, Spain</address>
+            <Point>
+                <coordinates>-5.52985,43.54209</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Benquerencia (Barreiros)  Tarifa: 10 eur/dia (furgo+2pax); duchas</name>
+            <address>Lugar Suigrexa, 1, 27792, Lugo, Spain</address>
+            <Point>
+                <coordinates>-7.20004,43.55519</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping los pradones  Camping en la playa de artedo</name>
+            <address>Caserio la Magdalena, 10, 33155 Cudillero, Asturias, Spain</address>
+            <Point>
+                <coordinates>-6.18698,43.56093</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Valdoviño  Tarifa: 27 eur/dia(furgo+2pax);restaurante, wifi</name>
+            <address>Av. del Almte. Pedro Fernández Martín, 6-8, 15552 Valdoviño, La Coruña, Spain</address>
+            <Point>
+                <coordinates>-8.1439,43.6094</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>NotFound</description>
+        <Placemark>
+            <name>Camping Bedouin Camp  (9eur (2pax+furgo);restaurante, actividades desierto)</name>
+            <address>Location not found: (27.46185,-13.05171)</address>
+            <Point>
+                <coordinates>-13.05171,27.46185</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

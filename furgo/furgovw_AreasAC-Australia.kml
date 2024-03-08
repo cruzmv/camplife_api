@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Australia</description>
+        <Placemark>
+            <name>Caravan Park Kingston  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elect:no?)</name>
+            <address>Marine Parade, Kingston SE SA 5275, Australia</address>
+            <Point>
+                <coordinates>139.8505,-36.82772</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

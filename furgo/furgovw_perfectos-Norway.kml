@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Norway</description>
+        <Placemark>
+            <name>Faro de Lindesnes  (Gratuito;Agua:si;WC:si)</name>
+            <address>Spangereidveien 270, 4521 Spangereid, Norway</address>
+            <Point>
+                <coordinates>7.04925,57.98529</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kristiansand  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Solbergveien 14A, 4615 Kristiansand, Norway</address>
+            <Point>
+                <coordinates>7.98285,58.15807</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa Egersund  Gratuito: si; Agua: si; Wc; si</name>
+            <address>Raudstøbakken 1740, 4370 Egersund, Norway</address>
+            <Point>
+                <coordinates>5.98356,58.43649</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Faro de Eigeroy (Egersund)  (Gratuito;Agua:no;Wc:si)</name>
+            <address>Unnamed Road, 4370 Egersund, Norway</address>
+            <Point>
+                <coordinates>5.88647,58.44152</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Egersund  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Jernbaneveien 18-20, 4370 Egersund, Norway</address>
+            <Point>
+                <coordinates>6.00242,58.45433</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cementerio de sandnes  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Sandnesveien 299, 4312 Sandnes, Norway</address>
+            <Point>
+                <coordinates>5.70119,58.86231</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lauvvika, Sandnes  (Gratuito;Agua:no;WC:no)</name>
+            <address>Lauvikveien 286, 4308 Sandnes, Norway</address>
+            <Point>
+                <coordinates>6.05358,58.89453</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jorpeland  (Gratuito;Agua:no;WC:no)</name>
+            <address>Ryfylkevegen, 4100 Jørpeland, Norway</address>
+            <Point>
+                <coordinates>6.07004,59.00553</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Indra Barkaviga  (Gratuito;Agua:no;WC:no)</name>
+            <address>Barkanesvegen 33, 4100 Jørpeland, Norway</address>
+            <Point>
+                <coordinates>5.9965,59.02175</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa Kuvika  (Gratuito;Agua:no;Wc:si)</name>
+            <address>Nagavegen 152, 4120 Tau, Norway</address>
+            <Point>
+                <coordinates>5.95066,59.02584</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tungenes fyr  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Tungenesveien 195, 4070 Randaberg, Norway</address>
+            <Point>
+                <coordinates>5.58694,59.03372</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lysebotn  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Fv500 210, 4127 Lysebotn, Norway</address>
+            <Point>
+                <coordinates>6.66408,59.05847</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vervik  Gratuito: si; Agua: si; Wc: no</name>
+            <address>Fiskåvegen 746-764, 4120 Tau, Norway</address>
+            <Point>
+                <coordinates>5.96317,59.11386</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hälandsosen  (Gratuito; Agua: no; Wc: no)</name>
+            <address>R13(old) 120, 4233 Erfjord, Norway</address>
+            <Point>
+                <coordinates>6.2366,59.34805</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Avaldsnes  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Kong Augvalds veg, 4262 Avaldsnes, Norway</address>
+            <Point>
+                <coordinates>5.28617,59.35244</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sand  (Gratuito;Agua:no;Wc:si)</name>
+            <address>Nordenden 31, 4230 Sand, Norway</address>
+            <Point>
+                <coordinates>6.24728,59.48508</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Holmenkollen (Oslo)  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Kongeveien 40, 0787 Oslo, Norway</address>
+            <Point>
+                <coordinates>10.6666,59.96585</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sognsvann  Gratuito:si Agua potable:No WC:Si</name>
+            <address>Sognsveien 235, 0863 Oslo, Norway</address>
+            <Point>
+                <coordinates>10.73471,59.97009</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hardangerfjord  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Ålvikvegen, 5612 Steinstø, Norway</address>
+            <Point>
+                <coordinates>6.31109,60.39602</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hyllsand  (Gratuito;Agua:si;Wc:si)</name>
+            <address>E16 420, 5747 Gudvangen, Norway</address>
+            <Point>
+                <coordinates>6.84426,60.87936</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AS de Gudvangen  (Gratuito;Agua:no;Wc:si</name>
+            <address>E16 420, 5747 Gudvangen, Norway</address>
+            <Point>
+                <coordinates>6.84361,60.88017</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de servicio Moelv  (Gratuito;Agua:no;Wc:si)</name>
+            <address>Fv330, 2836 Biri, Norway</address>
+            <Point>
+                <coordinates>10.65352,60.93102</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Borgund  (Gratuito;Agua:no;Wc:si)</name>
+            <address>E16 10, 6888 Borgund, Norway</address>
+            <Point>
+                <coordinates>7.8491,61.08049</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sogndal  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Rv5 1510, 6856 Sogndal, Norway</address>
+            <Point>
+                <coordinates>6.92338,61.33404</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Glaciar de Boyabreen   Gratuito; Agua: si; Wc: si</name>
+            <address>Rv5 50, 6848 Fjærland, Norway</address>
+            <Point>
+                <coordinates>6.76569,61.48404</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lago Vassvenda   (Gratuito;Agua:no;Wc:no)</name>
+            <address>Rv258 187, 2695 Grotli, Norway</address>
+            <Point>
+                <coordinates>7.5204,61.97212</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Geiranger  Gratuito; Agua: no; Wc: si</name>
+            <address>Rv63 290, 6216 Geiranger, Norway</address>
+            <Point>
+                <coordinates>7.22332,62.09142</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lago Eidsvatnet  (Gratuito;Agua:no;Wc:si)</name>
+            <address>Rv63 180, 6215 Eidsdal, Norway</address>
+            <Point>
+                <coordinates>7.14415,62.19403</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Valldal  (Gratuito;Agua:no;Wc:si)</name>
+            <address>Rv63 960, 6210 Valldal, Norway</address>
+            <Point>
+                <coordinates>7.26112,62.29781</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gudbrandsjuvet  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Rv63 40, 6210 Valldal, Norway</address>
+            <Point>
+                <coordinates>7.4701,62.33032</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Trollstigen  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Rv63 20, 6210 Valldal, Norway</address>
+            <Point>
+                <coordinates>7.64068,62.41651</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Eikesdal  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Fv191 40, 6470 Eresfjord, Norway</address>
+            <Point>
+                <coordinates>8.16924,62.49997</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area servicio Surnadal  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Rv670, 6650 Surnadal, Norway</address>
+            <Point>
+                <coordinates>8.71655,62.96851</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Trondheim  Gratuito; Agua: no; Wc: no; parking urbano</name>
+            <address>Krogness gate, 7030 Trondheim, Norway</address>
+            <Point>
+                <coordinates>10.38211,63.42604</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bodo  (Gratuito;Agua:no;WC:no)</name>
+            <address>Fjellveien 107A, 8011 Bodø, Norway</address>
+            <Point>
+                <coordinates>14.44339,67.30129</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Nusfjord  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Fv807 320, 8380 Ramberg, Norway</address>
+            <Point>
+                <coordinates>13.34653,68.03464</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de descanso Lafoten  (Gratuito;Agua:si;WC:si)</name>
+            <address>E10 50, 8380 Ramberg, Norway</address>
+            <Point>
+                <coordinates>13.28254,68.1038</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Haukland (islas Lofoten)  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Uttakleivveien 200, 8370 Leknes, Norway</address>
+            <Point>
+                <coordinates>13.52948,68.19933</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Petroglifos de Leiknes (Korsnes)  Gratuito; Agua: no; Wc: no</name>
+            <address>Fv681 210, 8275 Storjord i Tysfjord, Norway</address>
+            <Point>
+                <coordinates>16.06349,68.24429</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Svolvaer  (Gratuito;Agua:no;Wc:no)</name>
+            <address>E10 340, 8300 Svolvær, Norway</address>
+            <Point>
+                <coordinates>14.71619,68.31594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sortland ( Islas Vesteralen )  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Rv85, 8400 Sortland, Norway</address>
+            <Point>
+                <coordinates>15.49941,68.66154</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Olsborg  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Rv854 800, 9321 Moen, Norway</address>
+            <Point>
+                <coordinates>18.59972,69.14083</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa en Bleik  Gratuito; Agua: no; Wc: no</name>
+            <address>Unnamed Road, 8481 Bleik, Norway</address>
+            <Point>
+                <coordinates>15.91189,69.26503</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Russenes  (Gratuito;Agua:si;Wc:si)</name>
+            <address>E69 120, 9713 Russenes, Norway</address>
+            <Point>
+                <coordinates>25.33369,70.62795</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Nordkapp  (52 eur/noche;Agua:no;Wc:si)</name>
+            <address>E69, 9764 Nordkapp, Norway</address>
+            <Point>
+                <coordinates>25.78182,71.16847</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

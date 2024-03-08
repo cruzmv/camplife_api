@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>France</description>
+        <Placemark>
+            <name>Camping municipal de Zonza  (14eur/noche;Agua: Si WC:Si)</name>
+            <address>D368, 20124 Zonza, France</address>
+            <Point>
+                <coordinates>9.1949,41.7499</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Sposata  (Precio:22eur/dia(furgo+2pax);abierto de mayo a sept.)</name>
+            <address>Saint-Antoine, 20151 Vico, France</address>
+            <Point>
+                <coordinates>8.7867,42.16523</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping du Pla de Barres (Bouillouses)  Gratuito en invierno; en verano 15 eur/dia (furgo+2pax)</name>
+            <address>D60, 66210 La Llagonne, France</address>
+            <Point>
+                <coordinates>2.09574,42.51989</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Al Marina (Algajhola)  (23 eur/dia(furgo+2pax);restaurante)</name>
+            <address>Territoriale 30, 20220 Aregno, France</address>
+            <Point>
+                <coordinates>8.87428,42.60858</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bastia-Camping San Damiano  Agua: Si, Wc: Si, Gratuito: No</name>
+            <address>Unnamed Road, 20620 Biguglia, France</address>
+            <Point>
+                <coordinates>9.46987,42.62843</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping U Paraisu (playa de Saleccia)  Tarifa: 16 eur. (furgo+2 pax); junto a la playa</name>
+            <address>Pardinella, 20246 Santo-Pietro-di-Tenda, France</address>
+            <Point>
+                <coordinates>9.2013,42.72076</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Pont du Moudang (Aragnouet)  Tarifa: 12eur (furgo+2pax); la recepcion cierra a las 17:30</name>
+            <address>D929, 65170 Aragnouet, France</address>
+            <Point>
+                <coordinates>0.24691,42.78628</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping mpal. du Peyrat (Biert)  (Tarifa:8eur/dia(furgo+2pax);duchas,agua...)</name>
+            <address>498 Village, 09320 Biert, France</address>
+            <Point>
+                <coordinates>1.31541,42.8979</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping La Roucateille (Montgailhard)  (Tarifa:14eur/dia(furgo+2pax);camping pequeño)</name>
+            <address>13 Rue du Pradal, 09330 Montgailhard, France</address>
+            <Point>
+                <coordinates>1.63866,42.93092</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Mpal de Bedous  Tarifa:10eur/dia(furgo+2pax);abierto de marzo a octubre</name>
+            <address>Avenue de la Gare, 64490 Bedous, France</address>
+            <Point>
+                <coordinates>-0.60403,42.99815</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Bigourdan  (19eur/dia(furgo+2pax+elect.);piscina,wifi)</name>
+            <address>79 Avenue de la Mongie, 65200 Pouzac, France</address>
+            <Point>
+                <coordinates>0.1401,43.08054</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Domaine d´Arnauteille  Tarifa:30eur/dia(furgo+2pax);piscina,restaurante,wifi</name>
+            <address>Arnauteille, 11250 Montclar, France</address>
+            <Point>
+                <coordinates>2.25818,43.12412</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Le Belle Verte (Le Venet)  (Tarifa:10eur/dia(furgo+2pax);camping pequeño)</name>
+            <address>Le Château, 09700 Le Vernet, France</address>
+            <Point>
+                <coordinates>1.60289,43.19053</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Carcassonne  Agua: Si, Wc: Si, Luz: Si, Gratuito: No 21eur</name>
+            <address>D104, 11000 Carcassonne, France</address>
+            <Point>
+                <coordinates>2.35399,43.20014</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping La Pujade (Alzonne)  (18eur/dia(furgo+2pax);tienda,restaurante,wifi)</name>
+            <address>2 D8, 11170 Alzonne, France</address>
+            <Point>
+                <coordinates>2.18761,43.25913</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Le Nice (Roquebrun)  Tarifa: 12 eur/dia (furgo+2 pax)</name>
+            <address>5620F Chemin de la Roque, 34460 Roquebrun, France</address>
+            <Point>
+                <coordinates>3.02736,43.49808</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Bouriette (Toulouse)  (Precio:17eur/dia(furgo+2pax);lavanderia)</name>
+            <address>193 Chemin de Tournefeuille, 31300 Toulouse, France</address>
+            <Point>
+                <coordinates>1.37664,43.60584</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Les Sableres  Camping Municipal Vieux Boucau 12euros noche</name>
+            <address>932 Boulevard du Marensin, 40480 Vieux-Boucau-les-Bains, France</address>
+            <Point>
+                <coordinates>-1.40718,43.79401</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping La Domaine de Ste Madeleine (Sospel)  (26eur/dia;Tienda,lavadora,wifi)</name>
+            <address>6016 Route du Moulinet, 06380 Sospel, France</address>
+            <Point>
+                <coordinates>7.41649,43.89686</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Les Tourterelles Sain Girons Plage  Camping</name>
+            <address>4756 Route de la Plage, 40560 Vielle-Saint-Girons, France</address>
+            <Point>
+                <coordinates>-1.3549,43.95455</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Les Cigales (St Julien en Born)  (12eur/dia(furgo+2pax);lavadora,minigolf..)</name>
+            <address>681 Route du Garat, 40170 Saint-Julien-en-Born, France</address>
+            <Point>
+                <coordinates>-1.22497,44.11384</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Domaine de Peyricat (Sabres)  Tarifa:12eur/dia(furgo+2pax); Bar, wifi</name>
+            <address>D327, 40630 Sabres, France</address>
+            <Point>
+                <coordinates>-0.7416,44.14415</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Panorama du Pyla  17 eur/noche; supermercado, restaurante, piscina</name>
+            <address>Route d'Arcachon À Biscarrosse, 33260 La Teste-de-Buch, France</address>
+            <Point>
+                <coordinates>-1.22062,44.57251</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping de la Dune (Arcachon)  Tarifa: 18eur (furgo+2pax); piscina, lavanderia, wifi..</name>
+            <address>Route d'Arcachon À Biscarrosse, 33260 La Teste-de-Buch, France</address>
+            <Point>
+                <coordinates>-1.2123,44.58117</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Beausoleil (Burdeos)  (Tarifa:19.50eur/dia(furgo+2 pax); Agua: si; Wc: si)</name>
+            <address>371 Cours du Général de Gaulle, 33170 Gradignan, France</address>
+            <Point>
+                <coordinates>-0.62779,44.75537</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Bel-Air (Creon)   (Precio:18eur/dia(furgo+2pax);wifi,piscina,bar..)</name>
+            <address>150 Route Départementale 671, 33670 Sadirac, France</address>
+            <Point>
+                <coordinates>-0.37092,44.78375</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Naturelle Ferme Branche (Rocamadour)  (10eur/dia(furgo+2pax);baños, parque infantil..)</name>
+            <address>Les Campagnes, 46500 Rocamadour, France</address>
+            <Point>
+                <coordinates>1.61619,44.80973</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Le Roc  (Tarifa:16eur/dia(furgo+2pax);abierto de abril a oct.)</name>
+            <address>115 La Gare, 46500 Rocamadour, France</address>
+            <Point>
+                <coordinates>1.65431,44.81928</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Les deux vallees</name>
+            <address>D57, 24220 Vezac, France</address>
+            <Point>
+                <coordinates>1.16397,44.83556</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Le Capeyrou (Beynac-et-Cazenac)   15 eur/noche; restaurante</name>
+            <address>D703, 24220 Beynac-et-Cazenac, France</address>
+            <Point>
+                <coordinates>1.14829,44.83857</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping de la Ferme Fournet (St.Emilion)  Gratuito: no; Agua: si; Wc: si;Duchas: si</name>
+            <address>Trimoulet, 33330 Saint-Émilion, France</address>
+            <Point>
+                <coordinates>-0.14598,44.91572</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping La Barbanne (Saint Emilion)  18-30 eur/noche (furgo+2 pax)</name>
+            <address>2 Les Combes, 33330 Saint-Émilion, France</address>
+            <Point>
+                <coordinates>-0.14187,44.91675</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Au Fil de L´Eau (Antonne-et-Trigonant)  Precio por fugo+2pax: 12.50 eur.</name>
+            <address>6 Allée des Platanes, 24420 Antonne-et-Trigonant, France</address>
+            <Point>
+                <coordinates>0.8376,45.2132</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Municipal Chevanceaux   (10eur/dia(furgo+2pax);electricidad)</name>
+            <address>24 Route de Libourne, 17210 Chevanceaux, France</address>
+            <Point>
+                <coordinates>-0.23156,45.30147</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping L´Estuaire (Saint-Thomas-de-Conac)  (Tarifa:19eur/dia(furgo+2pax);tienda,piscina,wifi..)</name>
+            <address>La Grange Godinet, 17150 Saint-Thomas-de-Conac, France</address>
+            <Point>
+                <coordinates>-0.7219,45.38245</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Mer de Glace (Chamonix)  Tarifa: 17eur (furgo+2pax); Lavanderia, wifi; cierra en invierno</name>
+            <address>274 Chemin de la Bagna, 74400 Chamonix-Mont-Blanc, France</address>
+            <Point>
+                <coordinates>6.89152,45.93851</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Le camping LEsperance (Fouras)  (12eur/dia(furgo+2pax);Tienda,bar..)</name>
+            <address>2 Rue de l'Espérance, 17450 Fouras, France</address>
+            <Point>
+                <coordinates>-1.08295,45.97856</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping La Planche des Dames (Le Dorat)  (8eur/dia(furgo+2pax);Wifi,bar..)</name>
+            <address>5206A Avenue de la Gare, 87210 Le Dorat, France</address>
+            <Point>
+                <coordinates>1.08007,46.21186</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Municipal Ville de Charolles  (10eur,furgo,2pers)</name>
+            <address>6147 Route de Viry, 71120 Charolles, France</address>
+            <Point>
+                <coordinates>4.2804,46.43945</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping du Lac (Palinges)  Tarifa: 18 eur(furgo+2pax); wifi, playa fluvial</name>
+            <address>D128, 71430 Palinges, France</address>
+            <Point>
+                <coordinates>4.22497,46.56108</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping La Grosse Motte(Descartes)   Gratuito: no, Agua: si, Wc: si</name>
+            <address>38 Rue du Commerce, 37160 Descartes, France</address>
+            <Point>
+                <coordinates>0.69648,46.9729</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Municipal de Richelieu  Agua: Si, Wc: Si, Gratuito: no (8 eur/noche)</name>
+            <address>3 Avenue de Schaafheim, 37120 Richelieu, France</address>
+            <Point>
+                <coordinates>0.32101,47.008</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping municipal Chouze-sur-Loire   (9,50 eur/dia(furgo+2pax); lavadora, bicis)</name>
+            <address>10-12 Rue de l'Île Bourdon, 37140 Chouzé-sur-Loire, France</address>
+            <Point>
+                <coordinates>0.11282,47.23008</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping de Le Ecluse (Thouarce)  (12eur/dia(furgo+2pax);parque infantil,piscina..)</name>
+            <address>11 Avenue des Trois Ponts, 49380 Bellevigne-en-Layon, France</address>
+            <Point>
+                <coordinates>-0.50732,47.26514</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Municipal Morvan  (10eur,furgo,2pers)</name>
+            <address>D20, 58230 Saint-Brisson, France</address>
+            <Point>
+                <coordinates>4.09195,47.27429</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Municipal Goviro  (14eur/dia(furgo+2pax);wifi, parque de juegos....)</name>
+            <address>14 Boulevard du Goviro, 56170 Quiberon, France</address>
+            <Point>
+                <coordinates>-3.1051,47.47464</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Municipal Le Tindio (Arzon)  Gratuito: no; Agua: si; Wc: si; Duchas: si</name>
+            <address>7568 Kerners, 56640 Arzon, France</address>
+            <Point>
+                <coordinates>-2.88288,47.55591</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Le moulin de Cadillac (Noyal-Muzillac)  (18eur/dia(ACSI);Piscina cubierta,tienda,bar, wifi..)</name>
+            <address>Moulin de Cadillac, 56190 Noyal-Muzillac, France</address>
+            <Point>
+                <coordinates>-2.50174,47.61447</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping du Haras (Monterblanc)  (Precio:20eur/dia(furgo+2pax))</name>
+            <address>Lann Parcarre, 56250 Monterblanc, France</address>
+            <Point>
+                <coordinates>-2.72811,47.7305</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Mulhouse  (15eur furgo/2pers/noche)</name>
+            <address>2-4 Rue Pierre de Coubertin, 68100 Mulhouse, France</address>
+            <Point>
+                <coordinates>7.32409,47.73477</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping des Dunes (Plobannalec-Lesconil)  Tarifa: 22 eur (furgo+2pax); Lavanderia, playa...</name>
+            <address>67 Rue Paul Langevin, 29740 Plobannalec-Lesconil, France</address>
+            <Point>
+                <coordinates>-4.22855,47.79721</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping municipal de Quimper  (Tarifa:10eur/dia(furgo+2pax);servicios basicos)</name>
+            <address>6 Avenue des Oiseaux, 29000 Quimper, France</address>
+            <Point>
+                <coordinates>-4.12056,47.99034</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping des Gayeulles (Rennes)  (20eur/dia(furgo+2pax);bar,parque infantil..)</name>
+            <address>Rue du Professeur Maurice Audin, 35700 Rennes, France</address>
+            <Point>
+                <coordinates>-1.64586,48.13534</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Municipal Lannic (Camaret-su-Mer)  Agua: Si, WC: Si, Gratuito: No</name>
+            <address>163 Rue du Grouanoc'h, 29570 Camaret-sur-Mer, France</address>
+            <Point>
+                <coordinates>-4.60585,48.27608</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping municipal L´Etang du Boulet (Feins)  Gratuito: no; Agua: si; Wc: si</name>
+            <address>La Bijouterie, 35440 Feins, France</address>
+            <Point>
+                <coordinates>-1.63739,48.33921</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Chateaubriand (Dinan)  Tarifa: 13 eur/dia (furgo+2 pax); Cercano al centro</name>
+            <address>95 D12, 22100 Dinan, France</address>
+            <Point>
+                <coordinates>-2.0462,48.44732</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping La Mountagne Verte (Estrasburgo)   Tarifa: 25 eur/dia (furgo+2 pax); supermercado, parque infantil</name>
+            <address>5 Rue Robert Forrer, 67200 Strasbourg, France</address>
+            <Point>
+                <coordinates>7.71459,48.57552</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping La Ville Huchet (St.Malo)  Tarifa: 25 eur/dia (furgo+2 pax); supermercado, bar, piscina, pizzeria</name>
+            <address>Manque Avenue Atalante, 35400 Saint-Malo, France</address>
+            <Point>
+                <coordinates>-1.98672,48.61496</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping municipal La Selune (Ducey)  (Precio:10eur/dia(furgo+2pax); Agua,wc,duchas)</name>
+            <address>31 Rue Boishue, 50220 Ducey, France</address>
+            <Point>
+                <coordinates>-1.29437,48.61708</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping de la Greve Blanche  Gratuito: no; Agua: si; Wc: si; camping junto al mar</name>
+            <address>6188 La Greve Blanche, 29880 Plouguerneau, France</address>
+            <Point>
+                <coordinates>-4.52383,48.63081</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Longchamp (St.Lunaire)  (25eur/dia(furgo+2pax);lavadora,secadora..)</name>
+            <address>773 Boulevard de Saint-Cast, 35800 Saint-Lunaire, France</address>
+            <Point>
+                <coordinates>-2.12079,48.63386</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Lonchamp (Saint Lunaire)  (Tarifa:22eur/dia(furgo+2pax);tienda,piscina,wifi..)</name>
+            <address>773 Boulevard de Saint-Cast, 35800 Saint-Lunaire, France</address>
+            <Point>
+                <coordinates>-2.12083,48.63402</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Le Beau Village  (26eur/dia(furgo+2pax);tienda,restaurante,wifi)</name>
+            <address>1 Voie des Prés, 91700 Villiers-sur-Orge, France</address>
+            <Point>
+                <coordinates>2.3041,48.65518</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Municipal Greves d'Enbas  Gratuito: no; Agua: si; Wc: si</name>
+            <address>D34, 22240 Fréhel, France</address>
+            <Point>
+                <coordinates>-2.34146,48.66407</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping municipal St.Efflan  Gratuito: no; Agua: si; Wc: si</name>
+            <address>4 Place de Lan Carré, 22310 Plestin-les-Grèves, France</address>
+            <Point>
+                <coordinates>-3.60104,48.66816</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping St Efflam  (12eur/dia(furgo+2pax);lavadora,secadora..)</name>
+            <address>4 Place de Lan Carré, 22310 Plestin-les-Grèves, France</address>
+            <Point>
+                <coordinates>-3.6008,48.66821</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Le Palud (Trelevern)  Tarifa: 21eur/dia(furgo+2pax); Tienda, bar, playa</name>
+            <address>3 Hent ar Palud, 22660 Trélévern, France</address>
+            <Point>
+                <coordinates>-3.38398,48.81444</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Le Parc de la Colline (Torcy)  Gratuito No, Agua Si, WC Si</name>
+            <address>27 Route de Lagny, 77200 Torcy, France</address>
+            <Point>
+                <coordinates>2.65249,48.85892</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Bois de Boulogne  (Paris)  Tarifa: 27.50 eur/dia (furgo+2pax);  Agua: Si;  WC: si</name>
+            <address>2 Allée du Bord de l'Eau, 75016 Paris, France</address>
+            <Point>
+                <coordinates>2.23458,48.86826</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Club le Parc de Paris   (26eur/dia;restaurane, bar, super)</name>
+            <address>22 Rue Adèle Claret, 77410 Villevaudé, France</address>
+            <Point>
+                <coordinates>2.67056,48.91268</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping de les Mouettes (Lauterbourg)   (18eur/dia(furgo+2pax);lavadora,playa fluvial..)</name>
+            <address>1 Plage des Mouettes, 67630 Lauterbourg, France</address>
+            <Point>
+                <coordinates>8.16539,48.9711</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Des Trois Rivieres (Creully)  (Abierto de abril a septiembre)</name>
+            <address>59 Rue de Tierceville, 14480 Creully, France</address>
+            <Point>
+                <coordinates>-0.52949,49.2897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Sainte Mere Eglise  Precio:14eur/dia(furgo+2pax);abierto de mayo a sept.)</name>
+            <address>8 Rue 505E Airborne, 50480 Sainte-Mère-Église, France</address>
+            <Point>
+                <coordinates>-1.31047,49.41027</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Le Phare (Honfleur)  20 eur/noche. Vaciado de grises: si</name>
+            <address>8 Route Adolphe Marais, 14600 Honfleur, France</address>
+            <Point>
+                <coordinates>0.22401,49.42457</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping des Tilleus(Sierck-les-Bains)  (12eur/dia(furgo+2pax)</name>
+            <address>1 Chemin des Tilleuls, 57480 Sierck-les-Bains, France</address>
+            <Point>
+                <coordinates>6.34896,49.44539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Les Cytises (Isques)  (20eur/dia(furgo+2pax);lavadora..)</name>
+            <address>4 Chemin Georges Ducrocq, 62360 Isques, France</address>
+            <Point>
+                <coordinates>1.64346,50.67738</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

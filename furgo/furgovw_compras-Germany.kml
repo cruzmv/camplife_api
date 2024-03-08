@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Germany</description>
+        <Placemark>
+            <name>PIEPER - Accesorios camping</name>
+            <address>Bottroper Str. 32, 45964 Gladbeck, Germany</address>
+            <Point>
+                <coordinates>6.98489,51.57309</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

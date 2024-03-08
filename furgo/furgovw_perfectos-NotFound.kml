@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>NotFound</description>
+        <Placemark>
+            <name>Dakhla  Gratuito; Agua: si; Wc: si</name>
+            <address>Location not found: (23.70615,-15.71396)</address>
+            <Point>
+                <coordinates>-15.71396,23.70615</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

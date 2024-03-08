@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Portugal</description>
+        <Placemark>
+            <name>Camping Turiscampo (Espiche)  Gratuito: no; Agua: si; Wc: si</name>
+            <address>N125, 8600 Luz, Portugal</address>
+            <Point>
+                <coordinates>-8.73249,37.10118</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Serrao  Gratuito: No, Pernocta: Si Agua: Si WC:si</name>
+            <address>Unnamed Road, 8670 Aljezur, Portugal</address>
+            <Point>
+                <coordinates>-8.81334,37.34058</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Serpa (Portugal)  Gratuito: No, Pernocta: Si Agua: Si WC:si</name>
+            <address>Unnamed Road, 7800, Portugal</address>
+            <Point>
+                <coordinates>-7.68768,37.97018</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Beja  (6 eur/noche(furgo+2 pax+electr+wifi)</name>
+            <address>Av. Vasco da Gama 14, 7800 Beja, Portugal</address>
+            <Point>
+                <coordinates>-7.8621,38.00754</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Orbitur Evora  Gratuito: No, Pernocta: Si Agua: Si WC:si</name>
+            <address>E802 7107, 7005 Évora, Portugal</address>
+            <Point>
+                <coordinates>-7.90079,38.56055</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Orbitur (Guincho)  Gratuito: no; Agua: si; Wc: si</name>
+            <address>R. Areia PC1, 2750-642 Cascais, Portugal</address>
+            <Point>
+                <coordinates>-9.46667,38.7217</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping municipal de Lisboa  26euros 2personas+furgo</name>
+            <address>Estr. da Circunvalação 20, 2720 Amadora, Portugal</address>
+            <Point>
+                <coordinates>-9.20753,38.72489</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Alentejo (Evoramonte- Estremoz)  (Tarifa:8eur/noche;piscina,wifi..)</name>
+            <address>N18, 7040 Vimieiro, Portugal</address>
+            <Point>
+                <coordinates>-7.68623,38.79383</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Orbitur Valado  16 eur 2pers+furgo+electr</name>
+            <address>N8-5, 2450 Nazaré, Portugal</address>
+            <Point>
+                <coordinates>-9.05628,39.59801</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vale paraiso, Nazare  23eur 2pers y furgo</name>
+            <address>N242, 2450 Nazaré, Portugal</address>
+            <Point>
+                <coordinates>-9.05639,39.62033</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia da Tocha  10eur/dia 2pers y furgo</name>
+            <address>N335-1, 3060 Tocha, Portugal</address>
+            <Point>
+                <coordinates>-8.84028,40.32742</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parque de campismo do Rossio (Valhelhas)  (Tarifa:7eur/dia(furgo+2pax);tienda,bar,playa fluvial)</name>
+            <address>N232 6, 6300 Valhelhas, Portugal</address>
+            <Point>
+                <coordinates>-7.4059,40.40438</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Skiparque (Sameiro)  (Tarifa:10eur/dia(furgo+2pax);pista de ski aritificial)</name>
+            <address>N232, 6260, Portugal</address>
+            <Point>
+                <coordinates>-7.47019,40.41172</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping municipal de Guarda  10 eur 1furgo+dos pers</name>
+            <address>Av. do Estádio Municipal 28, 6300-035 Guarda, Portugal</address>
+            <Point>
+                <coordinates>-7.27707,40.53605</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Costa Nova (Ilhavo)  15.50 eur/noche (furgo+2pax); acceso a playa; supermercado</name>
+            <address>Av. José Estevão, 3830, Portugal</address>
+            <Point>
+                <coordinates>-8.75196,40.59974</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Praia da Barra  (14eur/dia;barbacoas,minigolf..)</name>
+            <address>R. Diogo Cão 95, 3830-751 Gafanha da Nazaré, Portugal</address>
+            <Point>
+                <coordinates>-8.74483,40.63865</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Municipal Sao Jacinto  7.50 eur/noche(furgo+2 pax+electr)</name>
+            <address>N327 101, 3800, Portugal</address>
+            <Point>
+                <coordinates>-8.72151,40.68116</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parque de Campismo de Merujal  (12eur/dia(furgo+2pax);bar,wiffi..)</name>
+            <address>EM511, 4540, Portugal</address>
+            <Point>
+                <coordinates>-8.29194,40.87333</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Salgueiros  (8,5eur furgo/2pers/noche)</name>
+            <address>R. Campismo 263, 4400-397 Vila Nova de Gaia, Portugal</address>
+            <Point>
+                <coordinates>-8.66058,41.12089</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Penedo (Amarante)  10.30 eur.(furgo+2 pax);  tienda; bar ; piscina; vaciado grises</name>
+            <address>N312 492, 4600 Amarante, Portugal</address>
+            <Point>
+                <coordinates>-8.07031,41.27938</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Clube de Campismo de Vila Real   14 eur/noche; Supermercado; piscinas; tenis</name>
+            <address>R. Dr. Manuel Cardona 15, 5000-557 Vila Real, Portugal</address>
+            <Point>
+                <coordinates>-7.73568,41.30396</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Monte da Penha (Guimaraes)  Gratuito: no, agua: si, wc: si</name>
+            <address>EM579 2, 4810 Guimarães, Portugal</address>
+            <Point>
+                <coordinates>-8.26837,41.42988</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping municipal de Braga  8.70 euros/noche (furgo+2pax+electr); cercano al centro de Braga</name>
+            <address>N101 12, 4715 Braga, Portugal</address>
+            <Point>
+                <coordinates>-8.42228,41.53822</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping do Paço (Vila Praia de Ancora)  (Tarifa:15eur/dia(furgo+2pax);tienda,bar...)</name>
+            <address>R. do Paço 33, 4910-024 Âncora, Portugal</address>
+            <Point>
+                <coordinates>-8.84797,41.80264</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Caminha  Gratuito: no  Agua: Si WC: si</name>
+            <address>Foz do Minho, 4910 Caminha, Portugal</address>
+            <Point>
+                <coordinates>-8.85919,41.86713</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

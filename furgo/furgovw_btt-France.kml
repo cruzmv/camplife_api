@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>France</description>
+        <Placemark>
+            <name>V.v. des Gaves (acceso por Pierrefitte-Nestalas)  27 km acondicionados</name>
+            <address>Giratoire de la Gare, 65260 Pierrefitte-Nestalas, France</address>
+            <Point>
+                <coordinates>-0.06748,42.96247</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>V.v. des Gaves (acceso por Lourdes)  27 km acondicionados</name>
+            <address>Voie Verte des Gaves, 65100 Lourdes, France</address>
+            <Point>
+                <coordinates>-0.04634,43.08921</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Via verde Baiona-Ustaritz (acceso desde Ustaritz)  (13 km asfaltados junto al rio Nive)</name>
+            <address>730 Chemin Leihorrondo, 64480 Ustaritz, France</address>
+            <Point>
+                <coordinates>-1.46331,43.41206</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Via verde Baiona-Ustaritz (acceso desde Baiona)  (13 km asfaltados junto al rio Nive)</name>
+            <address>1 Rue Harry Owen Roë, 64100 Bayonne, France</address>
+            <Point>
+                <coordinates>-1.47548,43.48658</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>VÃ­a verde Passa Pais (Haut-Languedoc)  (75 km asfaltados y grava)</name>
+            <address>1945 D14E20, 34390 Mons, France</address>
+            <Point>
+                <coordinates>2.95953,43.56667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vi­a verde Perrigny-Conliege   (18 km de firme irregular)</name>
+            <address>124 Rue Haute, 39570 Conliège, France</address>
+            <Point>
+                <coordinates>5.6128,46.65487</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Voie Verte des Hautes Vosges  Km:54</name>
+            <address>41 Rue Jean Desbordes, 88360 Rupt-sur-Moselle, France</address>
+            <Point>
+                <coordinates>6.66186,47.92057</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tour du Lac de Bouzey  (7km)</name>
+            <address>71-75 D41, 88390 Sanchey, France</address>
+            <Point>
+                <coordinates>6.36339,48.15928</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Via verde Canal de la Somme  (15 km acondicionados)</name>
+            <address>321-469 Rue de la Croix l'Abbé, 80230 Saint-Valery-sur-Somme, France</address>
+            <Point>
+                <coordinates>1.62874,50.18234</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

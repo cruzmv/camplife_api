@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Sweden</description>
+        <Placemark>
+            <name>Camping Angbyplan (Estocolmo)  (Tarifa:280nok/dia(furgo+2pax);super,wifi,metro al centro)</name>
+            <address>Blackebergsvägen 25, 168 51 Bromma, Sweden</address>
+            <Point>
+                <coordinates>17.90103,59.33751</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sandvikens (Ostersund)  (Tarifa:180nok/dia(furgo+2pax);tienda,cocina..)</name>
+            <address>Sandviken 130, 832 93 Frösön, Sweden</address>
+            <Point>
+                <coordinates>14.58379,63.1519</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

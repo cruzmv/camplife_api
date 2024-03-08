@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Spain</description>
+        <Placemark>
+            <name>V.V. de la Sierra de Cádiz  Distancia de la vía 36 km</name>
+            <address>A-8126, 41780 Algodonales, Cádiz, Spain</address>
+            <Point>
+                <coordinates>-5.42961,36.96493</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cañada real de la Costa  Varias rutas ciclables</name>
+            <address>Partida el Saladar, 1, 03140 Guardamar del Segura, Alicante, Spain</address>
+            <Point>
+                <coordinates>-0.64337,38.11232</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>VÃ­a verde de Alcoy  10 km de via verde</name>
+            <address>Carrer Els Canalons, 56, 03818 Alcoi, Alicante, Spain</address>
+            <Point>
+                <coordinates>-0.49461,38.68681</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>V.v. Ojos Negros II (acceso desde Caudiel)  68 km de via verde</name>
+            <address>Av. Estación, 19, 12440 Caudiel, Castellón, Spain</address>
+            <Point>
+                <coordinates>-0.57197,39.94742</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>V.v. Ojos Negros II (acceso desde Barracas)  68 km de via verde</name>
+            <address>Unnamed Road, 12420 Barracas, Castellón, Spain</address>
+            <Point>
+                <coordinates>-0.72082,40.03005</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Via Verde Oropesa-Benicassim  (5.60 km de via verde)</name>
+            <address>Calle Termalismo, 4, 12560 Benicasim, Castellón, Spain</address>
+            <Point>
+                <coordinates>0.08558,40.05777</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>via verde del Baix Ebre y Terra Alta  Gratuito: Si, Pernocta: Si Agua: Si WC:si</name>
+            <address>Carrer Diego de León, 1, 43520 Roquetes, Tarragona, Spain</address>
+            <Point>
+                <coordinates>0.50005,40.82536</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>V.v. del Tarazonica (acceso desde Cascante)  22 km de via verde</name>
+            <address>Av. la Constitución, 36, 31520 Cascante, Navarra, Spain</address>
+            <Point>
+                <coordinates>-1.67377,41.9944</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>V.V.Sierra de la Demanda (Barbadillo de Herreros)  25 km de via verde acondicionada</name>
+            <address>BU-825, 09615 Barbadillo de Herreros, Burgos, Spain</address>
+            <Point>
+                <coordinates>-3.1714,42.14975</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>V.V. Sierra de la Demanda (Pineda de la Sierra)  30 km de via verde acondicionada</name>
+            <address>BU-820, 09199 Pineda de la Sierra, Burgos, Spain</address>
+            <Point>
+                <coordinates>-3.30437,42.22575</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Via Verde del Cidacos  Agua: Si, WC: No, Gratuito: Si</name>
+            <address>LR-134, 16-18, 26500 Calahorra, La Rioja, Spain</address>
+            <Point>
+                <coordinates>-1.98468,42.30075</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>V.V. Sierra de la Demanda (Arlanzon)  22 km de via verde acondicionada</name>
+            <address>BU-820, 23, 09199 Arlanzón, Burgos, Spain</address>
+            <Point>
+                <coordinates>-3.46163,42.32184</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Via Verde Casalarreina-Ezcaray</name>
+            <address>Plaza Santo Domingo de Guzmán, 13-15, 26230 Casalarreina, La Rioja, Spain</address>
+            <Point>
+                <coordinates>-2.9132,42.54792</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>V. V. del ff.cc. Vasco-Navarro (acceso por Ancin)  (20 km de via verde)</name>
+            <address>Calle la Estación, 23, 31281 Ancín, Navarra, Spain</address>
+            <Point>
+                <coordinates>-2.18979,42.6612</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Via Verde ff.cc. Vasco-Navarro (tramo Gazteiz-Arla  15 km asfaltados</name>
+            <address>Gamarrako Atea, 17, 01013 Vitoria-Gasteiz, Araba, Spain</address>
+            <Point>
+                <coordinates>-2.65989,42.86912</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Embalse Ullbarri Gamboa  Gratuito: Si</name>
+            <address>Nanclares Errepidea, 1, 01520, Araba, Spain</address>
+            <Point>
+                <coordinates>-2.58162,42.91514</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Via verde del Plazaola (acceso por Lekunberri)</name>
+            <address>Plazaola Kalea, 19A, 31870 Lekunberri, Navarra, Spain</address>
+            <Point>
+                <coordinates>-1.88987,43.0018</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Via verde del Plazaola (acceso por Leitza)  12 km de via verde acondicionados</name>
+            <address>Patxi Arrazola Kalea, 31880 Leitza, Navarra, Spain</address>
+            <Point>
+                <coordinates>-1.91817,43.08727</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>V.v. del Bidasoa (acceso desde Santesteban)  40km de via verde</name>
+            <address>Calle de Rosa Seminario, 7A, 31740 Doneztebe, Navarra, Spain</address>
+            <Point>
+                <coordinates>-1.66603,43.13406</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Senda del Oso  28 km de via verde acondicionada</name>
+            <address>Senda del Oso, 3, 33111, Asturias, Spain</address>
+            <Point>
+                <coordinates>-6.09703,43.17052</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Via Verde del Urola (acceso desde Azkoitia)  23 km de via verde</name>
+            <address>Ibai-Ondo Kalea, 2, 20720 Azkoitia, Gipuzkoa, Spain</address>
+            <Point>
+                <coordinates>-2.31446,43.17498</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vi­a verde del Pas (acceso desde Ontaneda)  34 km de via verde</name>
+            <address>Barrio Ontaneda, 53A, 39680 Ontaneda, Cantabria, Spain</address>
+            <Point>
+                <coordinates>-3.91814,43.19944</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Via verde del Valle de Turon</name>
+            <address>Aldea Corral de Ujo, 4, 33613 Urbiés, Asturias, Spain</address>
+            <Point>
+                <coordinates>-5.67032,43.21794</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>via verde galdames (parkeatxuriaga)  Gratuito: Si, Agua: Si, WC: en verano</name>
+            <address>Lugar Barrio Soberron, 9, 48191, Bizkaia, Spain</address>
+            <Point>
+                <coordinates>-3.11221,43.2691</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>V.v. del Bidasoa (acceso desde Bera)  40km de via verde</name>
+            <address>Polígono Ue-26, 31770 Lesaka, Navarra, Spain</address>
+            <Point>
+                <coordinates>-1.69069,43.2755</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>V.v. del Bidasoa (acceso desde Irun)  40km de via verde</name>
+            <address>Comete Sarea Kalea, 7, 20305 Irun, Gipuzkoa, Spain</address>
+            <Point>
+                <coordinates>-1.75301,43.33735</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Suances-Barros  20km</name>
+            <address>Calle Torrelavega, 12, 39340 Suances, Cantabria, Spain</address>
+            <Point>
+                <coordinates>-4.03607,43.42805</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

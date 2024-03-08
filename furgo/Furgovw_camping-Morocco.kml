@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Morocco</description>
+        <Placemark>
+            <name>Camping Granite Rose (Tafraoute)  Tarifa: 30dh/dia (furgo+ 1pax); electricidad, duchas, wifi.</name>
+            <address>R104, Tafraoute, Morocco</address>
+            <Point>
+                <coordinates>-8.98656,29.71539</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Municipal Ouarzazate  50dirham/noche</name>
+            <address>Rue Ait Kdif, Ouarzazate 45000, Morocco</address>
+            <Point>
+                <coordinates>-6.8866,30.92307</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Le Gazelle Bleue (Merzouga)  (Tarifa:5eur/dia;duchas,wifi...)</name>
+            <address>Unnamed Road, Merzouga, Morocco</address>
+            <Point>
+                <coordinates>-4.00473,31.09105</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Tifina (Arfoud)  (8 eur (2pax+furgo);bar,restaurante, piscina, actividades desierto)</name>
+            <address>N13, Morocco</address>
+            <Point>
+                <coordinates>-4.27206,31.38117</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping La Palme (Essaouira)  Tarifa: 70dh/dia (furgo+ 2pax); electricidad, duchas.</name>
+            <address>P2212, Morocco</address>
+            <Point>
+                <coordinates>-9.65823,31.43275</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping municipal Essaouira  60 dh/dia (furgo+2 pax)</name>
+            <address>P2201, Essaouira, Morocco</address>
+            <Point>
+                <coordinates>-9.7629,31.49187</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Atlas (Todra)  70 dh (furgo+2pax/noche); Agua: si; Wc: si</name>
+            <address>R703, Tinghir, Morocco</address>
+            <Point>
+                <coordinates>-5.58479,31.55303</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Les Tamaris (Goulmima)  5 eur (furgo+2pax/noche); Agua: si; Wc: si; Piscina: si</name>
+            <address>Unnamed Road, Goulmima, Morocco</address>
+            <Point>
+                <coordinates>-4.96367,31.68465</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Le Relais (Marrakesh)   Tarifa: 70dh/dia (furgo+ 2pax); electricidad, duchas.</name>
+            <address>Unnamed Road, Morocco</address>
+            <Point>
+                <coordinates>-7.99017,31.70677</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Source Bleu de Meski  Gratuito: No, Pernocta: Si Agua: Si WC:si</name>
+            <address>Unnamed Road, Morocco</address>
+            <Point>
+                <coordinates>-4.28364,31.85773</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Zebra (cataratas Ouzoud)  60 dh/noche; Agua: si; Wc: si</name>
+            <address>P3105, Morocco</address>
+            <Point>
+                <coordinates>-6.71996,32.00529</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cataratas de Ouzoud  Gratuito: No, Pernocta: Si Agua: Si WC:si</name>
+            <address>P3105, Ouzoud, Morocco</address>
+            <Point>
+                <coordinates>-6.71932,32.0151</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Hotel Figuig  (Tarifa:100dh/dia;Agua,wc,duchas,electr,piscina,cafeteria)</name>
+            <address>N17, Figuig, Morocco</address>
+            <Point>
+                <coordinates>-1.22567,32.10637</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Timnay (Midelt)  60dirham, Agua Si, WC Si</name>
+            <address>N13, Ait Ayach, Morocco</address>
+            <Point>
+                <coordinates>-4.91984,32.75233</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Emirates Tourist Center (Azrou)  (Tarifa:60dh/dia(furgo+2pax);Vaciado grises,piscina)</name>
+            <address>N8, Morocco</address>
+            <Point>
+                <coordinates>-5.19166,33.44442</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Amazigh (Azrou)  (Tarifa:5eur/dia;Wc,duchas...)</name>
+            <address>N8, Morocco</address>
+            <Point>
+                <coordinates>-5.17039,33.44911</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Le Ocean Bleu (Mohammedia)  80 dh/dia (furgo+2 pax)</name>
+            <address>R322, Morocco</address>
+            <Point>
+                <coordinates>-7.32294,33.73705</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Diamant Vert (Fez)  (Precio:80dh/dia(furgo+2pax)duchas,piscina..)</name>
+            <address>Route Ain Chqef, Fès, Morocco</address>
+            <Point>
+                <coordinates>-5.01856,33.98698</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Internacional Fez  Camping con piscina</name>
+            <address>Ave Moulay Rachid, Fes, Morocco</address>
+            <Point>
+                <coordinates>-4.96946,34.00012</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Moulay Idriss - Volubiblis  70dirham, Agua Si, WC Si</name>
+            <address>N13, Morocco</address>
+            <Point>
+                <coordinates>-5.56216,34.01495</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Moulay-Bousselham  (Precio:80dh/dia(furgo+2pax);restaurante,wifi..)</name>
+            <address>R406, Moulay-Bousselham, Morocco</address>
+            <Point>
+                <coordinates>-6.28783,34.87514</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping de Chefchaoen  Gratuito: no  Agua: Si WC: si</name>
+            <address>Av. Mohammed Abdou, Chefchaouen, Morocco</address>
+            <Point>
+                <coordinates>-5.27284,35.16991</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping en Martil  Tarifa: 65 dh/dia (furgo+2 pax); Agua; Wc; Duchas</name>
+            <address>Unnamed Road, Martil, Morocco</address>
+            <Point>
+                <coordinates>-5.27772,35.62889</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Achakar (Tanger)   (Precio:95dh/dia(furgo+2pax)duchas,rte,wifi..)</name>
+            <address>Route des Grottes d'Hercule, Tanger, Morocco</address>
+            <Point>
+                <coordinates>-5.93729,35.7594</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Miramonte (Tanger)  (Precio:65dh/dia(furgo+2pax);piscina,electricidad)</name>
+            <address>Route de la Plage Mercala, Tanger, Morocco</address>
+            <Point>
+                <coordinates>-5.83364,35.79204</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

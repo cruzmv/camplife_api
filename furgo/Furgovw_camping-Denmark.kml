@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Denmark</description>
+        <Placemark>
+            <name>Acantilados Isla de Mon  Agua: Si, WC: Si, Luz: Si, Gratuito: No</name>
+            <address>Stengårdsvej 10, 4791 Borre, Denmark</address>
+            <Point>
+                <coordinates>12.5472,54.9662</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bellahoj Camping (Copenhague)  (Tarifa:25eur/dia(furgo+2pax);autobus al centro)</name>
+            <address>Hvidkildevej 66, 2400 København NV, Denmark</address>
+            <Point>
+                <coordinates>12.51186,55.70095</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Nordmalings-Charlottenlund  Gratuito: No Agua: Si WC: Si</name>
+            <address>Charlottenlundfort, 2920 Charlottenlund, Denmark</address>
+            <Point>
+                <coordinates>12.58677,55.7462</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

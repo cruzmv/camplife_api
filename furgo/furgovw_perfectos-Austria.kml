@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Austria</description>
+        <Placemark>
+            <name>Lienz  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Felbertauern Str., 9900 Lienz, Austria</address>
+            <Point>
+                <coordinates>12.75271,46.83255</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vent (Otztal)  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Franz-Senn-Weg 21, 6458 Vent, Austria</address>
+            <Point>
+                <coordinates>10.91463,46.85992</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mandarfen (Valle de Pitztal)  Gratuito:; Agua: no; Wc: no</name>
+            <address>Mandarfen 55, 6481, Austria</address>
+            <Point>
+                <coordinates>10.87109,46.9681</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kaprun  Gratuito; Agua: no; Wc: no</name>
+            <address>Kesselfallstraße 98, 5710 Kaprun, Austria</address>
+            <Point>
+                <coordinates>12.72664,47.21787</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Schoppernau  Gratuito; Agua: no; Wc: si (solo de di­a)</name>
+            <address>Halde 297, 6886 Schoppernau, Austria</address>
+            <Point>
+                <coordinates>10.00771,47.31617</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Goldegg  Gratuito; Agua; no; Wc: no</name>
+            <address>Hofmark 9, 5622 Goldegg, Austria</address>
+            <Point>
+                <coordinates>13.10079,47.31889</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Seefeld in Tirol  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Reitherspitzstraße 128, 6100 Seefeld in Tirol, Austria</address>
+            <Point>
+                <coordinates>11.19041,47.32673</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Schwaz  (Gratuito;Agua:no;Wc:no;lugar solitario)</name>
+            <address>Ried 4-8, 6130 Schwaz, Austria</address>
+            <Point>
+                <coordinates>11.72489,47.3499</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cueva de Eisriesenwelt (Werfen)  Gratuito; Agua; no; Wc: si</name>
+            <address>Eishohlenstr. 31, 5451 Werfen, Austria</address>
+            <Point>
+                <coordinates>13.19015,47.50297</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cuevas de Dachstein (Obertraun-Hallstatt)  Gratuito; Agua: no; Wc:no</name>
+            <address>Dachsteinhöhlenstraße, 4831 Obertraun, Austria</address>
+            <Point>
+                <coordinates>13.70654,47.54825</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Unterpinswang  (Gratuito; Agua: no; Wc: no; Galibo de 2.20m.)</name>
+            <address>Baumkronenweg, 87629 Füssen, Germany</address>
+            <Point>
+                <coordinates>10.68875,47.5577</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Melk  (Parking urbano sin servicios;Gratuito:no)</name>
+            <address>Brauhausgasse 4, 3390 Melk, Austria</address>
+            <Point>
+                <coordinates>15.33667,48.2272</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Au an der Donau  Tarifa: 19.50 eur/dia (furgo+2pax); cercano a Mauthausen</name>
+            <address>Hafenstraße 1, 4332 Au an der Donau, Austria</address>
+            <Point>
+                <coordinates>14.57904,48.22772</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Campo de concentracion de Mauthausen  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Fechter, 4310, Austria</address>
+            <Point>
+                <coordinates>14.5012,48.25528</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

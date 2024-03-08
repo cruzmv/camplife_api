@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Switzerland</description>
+        <Placemark>
+            <name>Camping Aux Vernes (Rolle)  Gratuito: si; Agua: si; Wc: si</name>
+            <address>Chemin des Coccinelles 15, 1185 Rolle, Switzerland</address>
+            <Point>
+                <coordinates>6.34551,46.46479</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Schutzenbach (Lauterbrunen)  Gratuito: no; Agua: si; Wc: si</name>
+            <address>Schützenbach 207E, 3822 Lauterbrunnen, Switzerland</address>
+            <Point>
+                <coordinates>7.91194,46.5907</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Lazy Rancho (Interlaken)  Hablan castellano; Hay supermercado</name>
+            <address>Lehnweg 6, 3800 Unterseen, Switzerland</address>
+            <Point>
+                <coordinates>7.83008,46.68593</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Seeblick Bonigen (Interlaken)  Tarifa: 20 eur/dia (furgo+2pax); tienda, wifi(no gratis), lavanderia, cafeteria</name>
+            <address>Seepromenade 5, 3806 Bönigen, Switzerland</address>
+            <Point>
+                <coordinates>7.89432,46.69136</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Waldhort (Reinach)  Tranvia al centro de Basilea. Supermercado</name>
+            <address>Heideweg 16, 4153 Reinach, Switzerland</address>
+            <Point>
+                <coordinates>7.60239,47.49946</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

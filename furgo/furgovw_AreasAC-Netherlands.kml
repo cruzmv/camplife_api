@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Netherlands</description>
+        <Placemark>
+            <name>Area Ac Tholen  (Precio:8eur/noche;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>Contre Escarpe 15, 4691 Tholen, Netherlands</address>
+            <Point>
+                <coordinates>4.22399,51.53186</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Klein Amerika (Gouda)  Tarifa:7 eur/di­a;Agua:no:Wc:si (de pago)</name>
+            <address>Klein Amerika 5, 2806 CA Gouda, Netherlands</address>
+            <Point>
+                <coordinates>4.71607,52.01281</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Marken  Gratuito: no, Agua: no, Wc: si</name>
+            <address>Kruisbaakweg 2, 1156 DG Marken, Netherlands</address>
+            <Point>
+                <coordinates>5.10465,52.4565</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

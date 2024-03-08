@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Germany</description>
+        <Placemark>
+            <name>Area Ac Oberstdorf  (Gratuito:no(17.2eur);Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Hermann-von-Barth-Straße 9, 87561 Oberstdorf, Germany</address>
+            <Point>
+                <coordinates>10.28578,47.40849</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Garmisch-Partenkirchen  (15eur/noche;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Wankbahnstraße 2, 82467 Garmisch-Partenkirchen, Germany</address>
+            <Point>
+                <coordinates>11.10716,47.50466</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Lindau  (Tarifa:10eur/noche; Agua: si(0.50eur);Vaciado:si; Wc:no)</name>
+            <address>Reutin, Reutiner Str. 45, 88131 Lindau (Bodensee), Germany</address>
+            <Point>
+                <coordinates>9.70041,47.55847</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Döbele Kostanz  (Gratuito:no(15eur);Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Altstadt, Zur Laube 9, 78462 Konstanz, Germany</address>
+            <Point>
+                <coordinates>9.16928,47.65805</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Bayrischzell  (10 eur/dia;Agua:si 0,50/25l.;vaciado:si;WC:si; electric;si 0,50/12 h.)</name>
+            <address>Seebergstraße 15, 83735 Bayrischzell, Germany</address>
+            <Point>
+                <coordinates>12.01018,47.67176</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC kempten  (5eur/n24h;Agua:si;WC:no)</name>
+            <address>Jahnweg 12, 87437 Kempten (Allgäu), Germany</address>
+            <Point>
+                <coordinates>10.31922,47.72945</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bad-Tolz   (8eur/noche;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Königsdorfer Str. 69, 83646 Bad Tölz, Germany</address>
+            <Point>
+                <coordinates>11.55014,47.76311</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Schluchsee   (10eur/noche;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>K4988, 79859 Schluchsee, Germany</address>
+            <Point>
+                <coordinates>8.18096,47.81525</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Friburgo  (Tarifa:8eur/noche;Agua:si;Wc:no;Vaciado:si;Elect:si)</name>
+            <address>West, Bissierstraße 30, 79114 Freiburg im Breisgau, Germany</address>
+            <Point>
+                <coordinates>7.82561,47.99943</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Allianz Arena (Munich)  (Gratuito: no (10 eur/24 h.); Agua: si; Wc: si; tren y autobus al centro)</name>
+            <address>Schwabing-Freimann, Werner-Heisenberg-Allee 61, 80939 München, Germany</address>
+            <Point>
+                <coordinates>11.62534,48.22077</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Ulm  Gratuito: no; Agua: si (de pago); Wc: no</name>
+            <address>Wielandstraße 66, 89073 Ulm, Germany</address>
+            <Point>
+                <coordinates>10.0095,48.40741</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Kehl  (10eur/noche;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>Vogesenallee 1, 77694 Kehl, Germany</address>
+            <Point>
+                <coordinates>7.8165,48.5634</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Bühl  Gratuito: no (5 eur/noche); Agua: si; Wc: no</name>
+            <address>Ludwig-Jahn-Straße 8, 77815 Bühl, Germany</address>
+            <Point>
+                <coordinates>8.1292,48.68872</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Baden Baden  (7eur/noche;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>Oos, Hubertusstraße 11, 76532 Baden-Baden, Germany</address>
+            <Point>
+                <coordinates>8.20428,48.78174</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Nordlingen  Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:si(1eur/8h)</name>
+            <address>Baldingen, Kaiserwiese 4, 86720 Nördlingen, Germany</address>
+            <Point>
+                <coordinates>10.48438,48.85535</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Ettlingen  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>Schöllbronner Str. 60, 76275 Ettlingen, Germany</address>
+            <Point>
+                <coordinates>8.41746,48.93586</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Gaildorf  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>Bleichgärten 7, 74405 Gaildorf, Germany</address>
+            <Point>
+                <coordinates>9.76614,49.00229</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Dinkelsbuhl  (Gratuito:no(10eur);Agua:Si;Wc:si;Vaciado:si;Elect:si)</name>
+            <address>Dürrwanger Str., 91550 Dinkelsbühl, Germany</address>
+            <Point>
+                <coordinates>10.32908,49.07818</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Feuchtwangen  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Zum Schleifweiher 20, 91555 Feuchtwangen, Germany</address>
+            <Point>
+                <coordinates>10.32481,49.16217</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Ohringen   	(Gratuito:no(8eur/24h);Agua:si;Wc:si;Vaciado:si;Elec:si)</name>
+            <address>Am Cappelrain 30, 74613 Öhringen, Germany</address>
+            <Point>
+                <coordinates>9.51126,49.19718</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Rottingen  Gratuito: si, Agua: si, Wc: si</name>
+            <address>Festpl., 97285 Röttingen, Germany</address>
+            <Point>
+                <coordinates>9.97036,49.50721</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Trier/Treveris  (8 eur/noche;Agua:si;Wc:si;Duchas:si;Vaciado:si;Elec:si)</name>
+            <address>In den Moselauen 1, 54293 Trier, Germany</address>
+            <Point>
+                <coordinates>6.62492,49.74087</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Dettelbach  (Gratuito:no(5eur/24h);Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>An der Mainlände 9, 97337 Dettelbach, Germany</address>
+            <Point>
+                <coordinates>10.16844,49.80102</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Bamberg  (Gratuito:no(8eur/noche);Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Weegmannufer, 96047 Bamberg, Germany</address>
+            <Point>
+                <coordinates>10.90295,49.88608</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Bingen  (10eur/noche;Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>Kempten, Mainzer Str. 272, 55411 Bingen am Rhein, Germany</address>
+            <Point>
+                <coordinates>7.94462,49.96882</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Bischofsgrun  (Gratuito;Agua:si;vaciado:si;WC:si; electric;si 1 eur/8h)</name>
+            <address>Rangenweg 8, 95493 Bischofsgrün, Germany</address>
+            <Point>
+                <coordinates>11.7935,50.0537</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Bad Bruckenau  (Gratuito:no(3eur/24h);Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>Ancenis Str., 97769 Bad Brückenau, Germany</address>
+            <Point>
+                <coordinates>9.79737,50.31196</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Steinau an der Strabe  Gratuito;Agua:si;Wc:si;Vaciado:si</name>
+            <address>Am Steines 19A, 36396 Steinau an der Straße, Germany</address>
+            <Point>
+                <coordinates>9.46043,50.31584</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Mayen   (Gratuito;Agua:si;Wc:no;Vaciado:no;Elec:no)</name>
+            <address>Polcher Str. 97, 56727 Mayen, Germany</address>
+            <Point>
+                <coordinates>7.22835,50.32236</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Monschau   (7eur/noche;Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>Biesweg 4, 52156 Monschau, Germany</address>
+            <Point>
+                <coordinates>6.2322,50.554</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Fulda  (Gratuito:no(5eur/24h);Agua:si;Wc:si;Vaciado:si;Elec:si)</name>
+            <address>Justus-Schneider-Weg, 36039 Fulda, Germany</address>
+            <Point>
+                <coordinates>9.66611,50.55692</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Herbstein  Gratuito;Agua:si;Wc:no;Vaciado:si;Elect:si(1eur)</name>
+            <address>Zum Thermalbad, 36358 Herbstein, Germany</address>
+            <Point>
+                <coordinates>9.34615,50.56852</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Alsfeld  (Gratuito:no(5eur/24h);Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>Fulder Weg, 36304 Alsfeld, Germany</address>
+            <Point>
+                <coordinates>9.27856,50.74863</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Neustadt an der Orla   (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>Heinrichsruhe, 07806 Neustadt an der Orla, Germany</address>
+            <Point>
+                <coordinates>11.75636,50.75566</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Aachen-Aquisgran  (Gratuito:no(15eur/24h);Agua:si;Wc:si;Vaciado:si;Elec:si)</name>
+            <address>Mitte, Branderhofer Weg 11, 52066 Aachen, Germany</address>
+            <Point>
+                <coordinates>6.10291,50.76145</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Marburg  (Gratuito:no(8eur);Agua:Si;Wc:si;Vaciado:si;Elect:si)</name>
+            <address>Jahnstraße 7, 35037 Marburg, Germany</address>
+            <Point>
+                <coordinates>8.77528,50.80368</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Ichtershausen  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>Feldstraße 1/3, 99334 Ichtershausen, Germany</address>
+            <Point>
+                <coordinates>10.96335,50.86823</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Homberg  Gratuito;Agua:si(1eur);Wc:si;Vaciado:si;Electr:si(gratis)</name>
+            <address>Dresdener Allee, 34576 Homberg (Efze), Germany</address>
+            <Point>
+                <coordinates>9.41451,51.02763</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Dresden Zentrum  (13eur/dia, Agua:si WC:no)</name>
+            <address>Altstadt, Lingnerallee 3, 01069 Dresden, Germany</address>
+            <Point>
+                <coordinates>13.74581,51.04677</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Wiessentorstrasse (Dresden)   (Gratuito:no(14eur);Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Neustadt, Köpckestraße, 01097 Dresden, Germany</address>
+            <Point>
+                <coordinates>13.74265,51.05696</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Witzenhausen  (5eur/noche;Agua:Si;Wc:no;Vaciado:si;Elect:si)</name>
+            <address>B80, 37213 Witzenhausen, Germany</address>
+            <Point>
+                <coordinates>9.85379,51.34575</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Hannoversch Munden  (Gratuito:no(6eur/24h);Agua:si;Wc:si;Vaciado:si;Elec:si)</name>
+            <address>Tanzwerder 12, 34346 Hann. Münden, Germany</address>
+            <Point>
+                <coordinates>9.64856,51.42018</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Quedlinburg  (8eur/noche;Agua:si;Wc:si;Vaciado:si;Elec:si)</name>
+            <address>Wallstraße 12-13, 06484 Quedlinburg, Germany</address>
+            <Point>
+                <coordinates>11.13946,51.79103</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Hamelin  (Gratuito:no(8eur);Agua:no;Wc:no;Vaciado:?;Elect:si)</name>
+            <address>Ruthenstraße 22, 31785 Hameln, Germany</address>
+            <Point>
+                <coordinates>9.35982,52.09552</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Koepenicker Hof  (10eur/24h, Agua:Si WC:Si)</name>
+            <address>Bezirk Treptow-Köpenick, Stellingdamm 15A, 12555 Berlin, Germany</address>
+            <Point>
+                <coordinates>13.58558,52.45926</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Reisemibilstation Berlin-Mitte  17eur dia Agua Si WC Si</name>
+            <address>Mitte, Chausseestraße 81, 13353 Berlin, Germany</address>
+            <Point>
+                <coordinates>13.37229,52.53819</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Celle  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Hafenstraße 26, 29223 Celle, Germany</address>
+            <Point>
+                <coordinates>10.07243,52.62772</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Weltvogelpark  (Gratuito;Agua:si;vaciado:si;WC:si; electric;si 1 eur/8h)</name>
+            <address>Am Vogelpark, 29664 Bomlitz, Germany</address>
+            <Point>
+                <coordinates>9.59644,52.88354</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Stadtwaldsee (Bremen)  (Tarifa:10eur/noche;Agua:si;Wc:Si;Vaciado:si;Elec:?)</name>
+            <address>Horn-Lehe, Hochschulring 1, 28359 Bremen, Germany</address>
+            <Point>
+                <coordinates>8.83575,53.11381</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Am Langenwall  Agua: No, Wc: Si, Luz: No, Gratuito: No 4eur día</name>
+            <address>Heilgeistkloster 1-4, 18439 Stralsund, Germany</address>
+            <Point>
+                <coordinates>13.09759,54.31272</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

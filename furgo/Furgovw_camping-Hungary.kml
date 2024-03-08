@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Hungary</description>
+        <Placemark>
+            <name>Romai Camping (Budapest)   (25eur/dia(furgo+2pax);lavadora,tienda,parque infantil..)</name>
+            <address>Budapest, Rozgonyi Piroska u. 2, 1031 Hungary</address>
+            <Point>
+                <coordinates>19.05207,47.57412</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Haller (Budapest)  Tarifa: 24 eur/noche; estacion metro a 15 minutos</name>
+            <address>Budapest, Óbester u. 5, 1097 Hungary</address>
+            <Point>
+                <coordinates>19.08289,47.47586</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

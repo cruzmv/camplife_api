@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>United States</description>
+        <Placemark>
+            <name>Pinnacles Campground  (22$/dia(furgo+2pax);piscina)</name>
+            <address>2377-2421 CA-146, Paicines, CA 95043, USA</address>
+            <Point>
+                <coordinates>-121.14693,36.49233</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sempervirens Campground  (40$/dia(furgo+2pax);bar,parque infantil..)</name>
+            <address>Shadowbrook Trail, California 95006, USA</address>
+            <Point>
+                <coordinates>-122.21084,37.16826</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

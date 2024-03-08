@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Croatia</description>
+        <Placemark>
+            <name>Area Ac Seget  (Precio:20eur/noche;Agua:si;Wc:si;Vaciado:si;Elec:no)</name>
+            <address>Obala Mira Barešića 15, 21220, Seget Vranjica, Croatia</address>
+            <Point>
+                <coordinates>16.1796,43.51267</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Senj  (19eur/noche; Agua:si; WC:si; Grises y negras)</name>
+            <address>Ul. Filipa Vukasovića 4, 53270, Senj, Croatia</address>
+            <Point>
+                <coordinates>14.89971,44.99371</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Rovinj  Gratuito: no (25kn/hora); Agua: si; Wc: si</name>
+            <address>Parking Končeta, 52210, Rovinj, Croatia</address>
+            <Point>
+                <coordinates>13.64519,45.08894</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Sweden</description>
+        <Placemark>
+            <name>SkanÃ¶r-Falsterbo  (De pago de dia; agua:no; WC:no)</name>
+            <address>Strandbadsvägen 28, 239 42 Falsterbo, Sweden</address>
+            <Point>
+                <coordinates>12.84631,55.39226</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Stidsvig  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Lisåkravägen 2B, 264 94 Klippan, Sweden</address>
+            <Point>
+                <coordinates>13.10803,56.2067</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Hoganas  (Gratuito;Agua:no;WC:si)</name>
+            <address>Smergelgatan 9, 263 39 Höganäs, Sweden</address>
+            <Point>
+                <coordinates>12.54445,56.21521</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Husqvarna  Gratuito: Si Agua potable: No WC: No</name>
+            <address>Särlavägen 18, 554 66 Jönköping, Sweden</address>
+            <Point>
+                <coordinates>14.2438,57.79289</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mollosund  (Gratuito;Agua:no;WC:no)</name>
+            <address>744, 474 94 Hälleviksstrand, Sweden</address>
+            <Point>
+                <coordinates>11.49065,58.09544</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ratplast Ljungskile  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Rastplats Ljungskile, 459 93 Ljungskile, Sweden</address>
+            <Point>
+                <coordinates>11.91227,58.23021</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vadstena  (Gratuito;Agua:no;WC:no)</name>
+            <address>Unnamed Road, 592 94 Vadstena, Sweden</address>
+            <Point>
+                <coordinates>14.89534,58.4627</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rastplats Dynekilen  Gratuito; Agua: si; Wc: si; area de descanso en autopista</name>
+            <address>E6, 452 92 Strömstad, Sweden</address>
+            <Point>
+                <coordinates>11.23071,59.0041</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de servicio de Soederhamn  (Gratuito;Agua:no;Wc:si;area de servicio autopista)</name>
+            <address>E4, 820 29 Stråtjära, Sweden</address>
+            <Point>
+                <coordinates>16.96669,61.07389</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking sur Parque Nacional Skuleskogen  (Gratuito;Agua:si;WC:si)</name>
+            <address>Unnamed Road, 870 33 Docksta, Sweden</address>
+            <Point>
+                <coordinates>18.47771,63.08358</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Umea  Gratuito: solo durante la noche; Agua: no; Wc: no; parking urbano</name>
+            <address>Västra Strandgatan 9, 903 26 Umeå, Sweden</address>
+            <Point>
+                <coordinates>20.2587,63.82468</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Robertsfors  Gratuito: Si Agua potable: si­ WC: si</name>
+            <address>Unnamed Road, Robertsfors Ö, Sweden</address>
+            <Point>
+                <coordinates>21.04004,64.1778</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lulea  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Repslagargatan 3A, 972 39 Luleå, Sweden</address>
+            <Point>
+                <coordinates>22.12674,65.584</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

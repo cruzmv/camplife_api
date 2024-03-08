@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Finland</description>
+        <Placemark>
+            <name>Helsinki Estadio OlÃ­mpico   (Gratuito;Agua:no;WC:no)</name>
+            <address>Norra Stadionvägen 4, 00250 Helsingfors, Finland</address>
+            <Point>
+                <coordinates>24.92607,60.18759</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parque Nacional Isojarvi  Gratuito; Agua: no; wc: no</name>
+            <address>Kylämäntie 1422, 17950 Kuhmoinen, Finland</address>
+            <Point>
+                <coordinates>24.98661,61.67899</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lago Kauhalampi  Gratuito; Agua: no; Wc: no</name>
+            <address>Salamajärventie 464, 69950 Perho, Finland</address>
+            <Point>
+                <coordinates>24.56583,63.30481</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Casa de Papa Noel (Rovaniemi)  Gratuito: si; Agua: si; Wc: si</name>
+            <address>Pieskanniementie 29, 97520 Rovaniemi, Finland</address>
+            <Point>
+                <coordinates>26.2508,66.75576</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ivalontie  (Gratuito;Agua:?;Wc:si)</name>
+            <address>Ivalontie 3871, 99600 Sodankylä, Finland</address>
+            <Point>
+                <coordinates>26.76084,67.74006</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lago Pallasjarvi  Gratuito; Agua:si; Wc: si</name>
+            <address>9571 537-557, 99330 Muonio, Finland</address>
+            <Point>
+                <coordinates>24.06281,68.0461</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

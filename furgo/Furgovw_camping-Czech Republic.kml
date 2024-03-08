@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Czech Republic</description>
+        <Placemark>
+            <name>Camping Ostende (Plzen)  (Tarifa:14eur/dia(furgo+2pax)</name>
+            <address>Malý Bolevec 1152, Bolevec, 323 00 Plzeň-Plzeň 1, Czech Republic</address>
+            <Point>
+                <coordinates>13.39023,49.77725</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Autocamping Hajek (Praga)  (Tarifa:12 eur/dia (furgo+2 pax); bar, wifi)</name>
+            <address>Trojská 377/149, 171 00 Praha-Praha-Troja, Czech Republic</address>
+            <Point>
+                <coordinates>14.42903,50.11709</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Autocamping Trojska (Praga)  Tarifa:8eur/dia(furgo+2pax);tranvia al centro de Praga</name>
+            <address>Trojská 375/157, 171 00 Praha-Praha-Troja, Czech Republic</address>
+            <Point>
+                <coordinates>14.42773,50.11721</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

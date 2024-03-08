@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Croatia</description>
+        <Placemark>
+            <name>Fortaleza de cabo Ostro  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 20218, Vitaljina, Croatia</address>
+            <Point>
+                <coordinates>18.53281,42.39319</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa Molunat  (Gratuito;Agua:no;WC:no)</name>
+            <address>Unnamed Road, 20219, Molunat, Croatia</address>
+            <Point>
+                <coordinates>18.4357,42.45278</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kupari  (Gratuito:si;Agua:no;Wc:no)</name>
+            <address>D8 7, 20207, Srebreno, Croatia</address>
+            <Point>
+                <coordinates>18.19039,42.62127</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Monte Srd (Dubrovnik)   (Gratuito;Agua:no;Wc:no)</name>
+            <address>Srđ ul., 20207, Bosanka, Croatia</address>
+            <Point>
+                <coordinates>18.1243,42.64416</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Calle Svetog Mihajla (Dubrovnik)   (parking urbano y ruidoso;gratuito;agua:no;Wc:no)</name>
+            <address>Ul. od Svetog Mihajla 21, 20000, Dubrovnik, Croatia</address>
+            <Point>
+                <coordinates>18.08181,42.65315</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Saplunara (Miljet)  Gratuito; Agua: no; wc: no; lugar solitario y apartado</name>
+            <address>Unnamed Road, 20224, Saplunara, Croatia</address>
+            <Point>
+                <coordinates>17.73858,42.68989</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Isla de Mljet  Gratuito; Agua: no; Wc: no; curva en una pista forestal</name>
+            <address>Unnamed Road, 20224, Korita, Croatia</address>
+            <Point>
+                <coordinates>17.72416,42.71278</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Peninsula de Peljesac  (Gratuito;Agua:no;Wc:no)</name>
+            <address>D8 43, 20231, Zaton Doli, Croatia</address>
+            <Point>
+                <coordinates>17.74408,42.83558</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puerto de Mali Ston  Gratuito;Agua:no;Wc:no</name>
+            <address>Unnamed Road, 20230, Mali Ston, Croatia</address>
+            <Point>
+                <coordinates>17.70305,42.84888</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Zavala (isla de Hvar)  Gratuito: si; Agua: no; Wc: no</name>
+            <address>Zavala 136, 21465, Zavala, Croatia</address>
+            <Point>
+                <coordinates>16.69616,43.12277</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Old Podaca   (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 21334, Podaca, Croatia</address>
+            <Point>
+                <coordinates>17.30647,43.1286</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Isla de Brac - Povlja  Gratuito: si; Agua:no; Wc: no</name>
+            <address>Unnamed Road, 21412, Pučišća, Croatia</address>
+            <Point>
+                <coordinates>16.74368,43.36038</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Omis  (Gratuito;Agua:no;Wc:si)</name>
+            <address>Ul. Josipa Pupačića 10, 21310, Omiš, Croatia</address>
+            <Point>
+                <coordinates>16.69467,43.44719</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Marina  (Gratuito;Agua:no;Wc:no)</name>
+            <address>D8 215, 21222, Poljica, Croatia</address>
+            <Point>
+                <coordinates>16.15473,43.50211</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Split   (Gratuito;Agua:no;Wc:no)</name>
+            <address>Šetalište Ivana Meštrovića 68, 21000, Split, Croatia</address>
+            <Point>
+                <coordinates>16.41467,43.50394</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Turanj  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Turanj 388, 23207, Turanj, Croatia</address>
+            <Point>
+                <coordinates>15.40612,43.96802</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Zadar  (parking urbano;Gratuito;Agua:no;Wc:no)</name>
+            <address>Ul. Marka Marulića 4, 23000, Zadar, Croatia</address>
+            <Point>
+                <coordinates>15.23206,44.10936</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vis  Gratuito;Agua:no;Wc:no</name>
+            <address>Unnamed Road, 23233, Privlaka, Croatia</address>
+            <Point>
+                <coordinates>15.15293,44.2688</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Udbina  (Gratuito;Agua:no;Wc:no)</name>
+            <address>D522, 53234, Komić, Croatia</address>
+            <Point>
+                <coordinates>15.71403,44.46731</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Kolan  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, Kolan, Croatia</address>
+            <Point>
+                <coordinates>14.90808,44.51891</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Novalja (Isla de Pag)  (Gratuito:solo de noche;Agua:no;Wc:no)</name>
+            <address>D106, 23251, Kolan, Croatia</address>
+            <Point>
+                <coordinates>14.93909,44.52876</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cabo de Kamenjak  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Premantura 83, 52100, Premantura, Croatia</address>
+            <Point>
+                <coordinates>13.90649,44.79774</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Premantura  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Pomer 109, 52100, Pomer, Croatia</address>
+            <Point>
+                <coordinates>13.89878,44.81635</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Martinscica  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 51556, Martinšćica, Croatia</address>
+            <Point>
+                <coordinates>14.35043,44.82015</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vrhovine  (Gratuito;Agua:si;Wc:si)</name>
+            <address>D52 2, 53223, Zalužnica, Croatia</address>
+            <Point>
+                <coordinates>15.40789,44.84951</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bahia de Cres  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Lungo mare Svetog Mikule, 51557, Cres, Croatia</address>
+            <Point>
+                <coordinates>14.40254,44.95241</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa Pav (isla de Krk)  Gratuito:no(15kn/dia); Agua:si;Wc:si;Duchas:si</name>
+            <address>Senjska ul. 2, 51500, Krk, Croatia</address>
+            <Point>
+                <coordinates>14.56632,45.01796</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vrbnik (Isla de Krk)  (Gratuito:solo de noche;Agua:no;Wc:no)</name>
+            <address>Supec ul. 74, 51516, Vrbnik, Croatia</address>
+            <Point>
+                <coordinates>14.68013,45.07568</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vrbnik  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 51516, Risika, Croatia</address>
+            <Point>
+                <coordinates>14.66727,45.0934</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rastoke  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Zagrebačka ul., 47240, Rastoke, Croatia</address>
+            <Point>
+                <coordinates>15.58882,45.12155</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Limski Zaljev  (Gratuito;Agua:no;Wc:no)</name>
+            <address>D75, 52352, Jural, Croatia</address>
+            <Point>
+                <coordinates>13.74137,45.12885</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vrsar  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Dalmatinska ul. 4, 52450, Vrsar, Croatia</address>
+            <Point>
+                <coordinates>13.60399,45.14726</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de la Laguna (Porec)  Gratuito: si; Agua: no; Wc: no</name>
+            <address>Plava Laguna, 52440, Poreč, Croatia</address>
+            <Point>
+                <coordinates>13.59105,45.21108</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Beram  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 52000, Beram, Croatia</address>
+            <Point>
+                <coordinates>13.90639,45.25586</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kraljevica  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Oštro ul. 10, 51262, Kraljevica, Croatia</address>
+            <Point>
+                <coordinates>14.56502,45.26569</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bijela Vodica, Crni Lug   Gratuito: Si, Agua: No, WC: No</name>
+            <address>Unnamed Road, 51317, Bela Vodica, Croatia</address>
+            <Point>
+                <coordinates>14.6857,45.41791</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Zagreb  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Karlovačka cesta 80, 10000, Zagreb, Croatia</address>
+            <Point>
+                <coordinates>15.91147,45.75893</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

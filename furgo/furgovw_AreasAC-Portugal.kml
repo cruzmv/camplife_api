@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Portugal</description>
+        <Placemark>
+            <name>Area Ac Quarteira  (Precio:2eur/noche;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>EM527-2 621A, 8135, Portugal</address>
+            <Point>
+                <coordinates>-8.07721,37.07342</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Parque de Palmeira (Albufeira)  (7eur/noche;Agua:si;Wc:si;Vaciado:si;Elec:no)</name>
+            <address>R. da Palmeira 29, 8200 Albufeira, Portugal</address>
+            <Point>
+                <coordinates>-8.24369,37.0983</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Lagos  (3eur/noche;Agua:si(1eur);Wc:si;Vaciado:si;Elec:no)</name>
+            <address>N125 20, 8600-302 Lagos, Portugal</address>
+            <Point>
+                <coordinates>-8.67895,37.11581</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac de Manta Rota  (5eur/noche;Agua:si;Wc:no;Vaciado:si;Elec:si(2.5eur))</name>
+            <address>R. da Praia da Manta Rota, 8900 Vila Nova de Cacela, Portugal</address>
+            <Point>
+                <coordinates>-7.51994,37.16536</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Castro Marim  Gratuito; Agua: si; Wc: no</name>
+            <address>R. 25 de Abril 121, 8950-122 Castro Marim, Portugal</address>
+            <Point>
+                <coordinates>-7.44465,37.22004</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Porto Covo  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>Rua Francisco Albino 11, 7520, Portugal</address>
+            <Point>
+                <coordinates>-8.78887,37.85252</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC de Arraiolos   (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>N4 1965, 7040, Portugal</address>
+            <Point>
+                <coordinates>-8.06401,38.7005</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC de Santa Susan (Pobral)  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>Estr. Á-dos-Serrados 53, 2705 São João das Lampas, Portugal</address>
+            <Point>
+                <coordinates>-9.3835,38.91809</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Obidos  Gratuito: no (6 eur/noche); Agua: si (2 eur); Wc: no</name>
+            <address>Estr. da Capeleira 22, 2510 Óbidos, Portugal</address>
+            <Point>
+                <coordinates>-9.15703,39.3564</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Marvao  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>N359-6, 7330 Marvão, Portugal</address>
+            <Point>
+                <coordinates>-7.37375,39.39422</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Foz do Areilho  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Lagoa de Óbidos, 2500 Foz do Arelho, Portugal</address>
+            <Point>
+                <coordinates>-9.2201,39.42841</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Constancia  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:no)</name>
+            <address>N3, 2260 Praia do Ribatejo, Portugal</address>
+            <Point>
+                <coordinates>-8.34332,39.47701</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Embalse Povoa e Meadas  (Gratuito;Agua:si;Wc:si;Duchas:si;Vaciado:si)</name>
+            <address>EM1007, 7320, Portugal</address>
+            <Point>
+                <coordinates>-7.54972,39.48151</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Fatima  Gratuito: Si, Pernocta: Si Agua:  Si WC:Si</name>
+            <address>R. Anjo de Portugal 2, 2495-402 Fátima, Portugal</address>
+            <Point>
+                <coordinates>-8.67272,39.63222</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Autocaravanas Batalha  Gratuito: si; Agua: si; Wc: no</name>
+            <address>R. do Parque Cónego Manuel Simões Inácio, 2440 Batalha, Portugal</address>
+            <Point>
+                <coordinates>-8.8253,39.66134</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC de Condeixa-A-Nova  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>R. do Mercado D, 3150-159 Condeixa-a-Nova, Portugal</address>
+            <Point>
+                <coordinates>-8.49521,40.11313</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Coimbra  (Gratuito;Agua:si;Wc: no;Vaciado:si;Elect:?)</name>
+            <address>Av. Inês de Castro, 3040 Coimbra, Portugal</address>
+            <Point>
+                <coordinates>-8.42958,40.19993</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac praia fluvial O Moinho  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>Unnamed Road, 6090 Benquerença, Portugal</address>
+            <Point>
+                <coordinates>-7.22189,40.22981</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parque acuatico Vaga Splash  (Gratuito;Agua:si(2.5eur);Wc:si;Vaciado:si;Electr:si)</name>
+            <address>Unnamed Road, 3840, Portugal</address>
+            <Point>
+                <coordinates>-8.77067,40.54961</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Estarreja  (Precio:2eur/24h;Agua:si;Wc:no;Vaciado:si;Elec:?)</name>
+            <address>R. Dr. António Madureira, 3860-249 Estarreja, Portugal</address>
+            <Point>
+                <coordinates>-8.56634,40.75409</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Castelo de Paiva  (Gratuito;Agua:si;vaciado:si;WC:no; electric;no)</name>
+            <address>R. Emídio Navarro 91, 4550 Sobrado, Portugal</address>
+            <Point>
+                <coordinates>-8.27381,41.03967</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Freixo de Espada a Cinta  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:no)</name>
+            <address>R. do Samiteiro de Cima 1, 5180-164 Freixo de Espada À Cinta, Portugal</address>
+            <Point>
+                <coordinates>-6.81725,41.08846</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ACs Peso da Regua  (3 euros;Agua:si;vaciado:si;WC:no; electric:si)</name>
+            <address>N2, 5050 Peso da Régua, Portugal</address>
+            <Point>
+                <coordinates>-7.78032,41.15572</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Torre de Moncorvo  Gratuito; Agua: si; Wc: si (cierran por la noche)</name>
+            <address>N220, 5160 Torre de Moncorvo, Portugal</address>
+            <Point>
+                <coordinates>-7.0418,41.18093</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Macedo de Cavaleiros  Gratuito; Agua: si; Wc: no</name>
+            <address>R. das Piscinas 6, 5340-310 Macedo de Cavaleiros, Portugal</address>
+            <Point>
+                <coordinates>-6.95713,41.53762</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Braganza  Gratuito: si; Agua: si; Wc: si</name>
+            <address>R. Fonte da Rainha, 5300 Bragança, Portugal</address>
+            <Point>
+                <coordinates>-6.74825,41.80463</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Vinhais  (Gratuito;Agua:si;Wc:no;Vaciado:si;Elec:si)</name>
+            <address>N103 38, 5320 Vinhais, Portugal</address>
+            <Point>
+                <coordinates>-7.00304,41.83382</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Vila Nova de Cerveira  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Av. dos Pescadores, 4920 Vila Nova de Cerveira, Portugal</address>
+            <Point>
+                <coordinates>-8.74717,41.93786</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

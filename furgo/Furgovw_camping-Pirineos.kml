@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Pirineos</description>
+        <Placemark>
+            <name>Camping mcpal. ciudad de Zaragoza  Tarifa: 11 eur (furgo+2pax); supermercado, piscina, wifi...</name>
+            <address>Calle San Juan Bautista de la Salle, 21, 50012 Zaragoza, Spain</address>
+            <description>http://www.furgovw.org/index.php?topic=209125.0;wap</description>
+            <Point>
+                <coordinates>-0.94301,41.63792</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cala llevadó  Gratuito: No, Pernocta: Si Agua: Si WC:si</name>
+            <address>Urb. Cala Llevadó, 11P, 17320 Tossa de Mar, Girona, Spain</address>
+            <description>http://www.furgovw.org/index.php?topic=11722.0</description>
+            <Point>
+                <coordinates>2.90817,41.70997</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Can Martí (Tossa de Mar)  Tarifa:25eur/dia(furgo+2pax);piscina, bar, tienda..</name>
+            <address>Passatge Càmping C Martí, 44, 17320 Tossa de Mar, Girona, Spain</address>
+            <description>http://www.furgovw.org/index.php?topic=231756.0</description>
+            <Point>
+                <coordinates>2.92604,41.729</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Fontmartina  Tarifa:10eur/dia(furgo+2pax);parque infantil, tienda, bar..</name>
+            <address>Camí del Càmping, 08479, Barcelona, Spain</address>
+            <description>http://www.furgovw.org/index.php?topic=231618.0</description>
+            <Point>
+                <coordinates>2.42847,41.75691</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de acampada Veruela del Moncayo  Gratuito: no Agua: Si WC: si</name>
+            <address>Calle Gil Aznar, 21, 50580 Vera de Moncayo, Zaragoza, Spain</address>
+            <description>http://www.furgovw.org/index.php?topic=18869.0;wap</description>
+            <Point>
+                <coordinates>-1.68833,41.82162</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pals , Camping  Gratuito: No, Pernocta: Si Agua: Si WC:si</name>
+            <address>Avinguda del Grau, 1, 17256 Pals, Girona, Spain</address>
+            <description>http://www.furgovw.org/index.php?topic=11685.0;wap</description>
+            <Point>
+                <coordinates>3.19243,42.00176</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping El Molino (L´Estartit)  (Tarifa:19eur/dia(furgo+2pax);tienda,wifi..)</name>
+            <address>Caminassa, 17258 Torroella de Montgrí, Girona, Spain</address>
+            <description>http://www.furgovw.org/index.php?topic=250683.0</description>
+            <Point>
+                <coordinates>3.18919,42.04054</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Lago Barasona  (23eur/dia;lago,piscina, bar, super..)</name>
+            <address>Calle Juan Soler, 4, 22435 La Puebla de Castro, Huesca, Spain</address>
+            <description>http://www.furgovw.org/index.php?topic=310308.0</description>
+            <Point>
+                <coordinates>0.315,42.14194</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping La Fageda  Agua SI-WC SI- Vaciado NO</name>
+            <address>Carretera Olot, 17810 Olot, Girona, Spain</address>
+            <description>http://www.furgovw.org/index.php?topic=2777.0</description>
+            <Point>
+                <coordinates>2.51664,42.15765</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Sadernes  Gratuito: no  Agua: Si WC: si</name>
+            <address>GIV-5231, 17853 Sales de Llierca, Gerona, Spain</address>
+            <description>http://www.furgovw.org/index.php?topic=24070.0</description>
+            <Point>
+                <coordinates>2.59627,42.27151</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Masia Pardines  Agua: Si Luz: Si WC: Si  Gratuito: No</name>
+            <address>Camí de Vilaró al Pujalt, 17534 Pardines, Girona, Spain</address>
+            <description>http://www.furgovw.org/index.php?topic=26737.0</description>
+            <Point>
+                <coordinates>2.21093,42.30695</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping El Port de la Vall (Port de la Selva.)  Agua: Si, WC: Si, Luz: Si, Gratuito: No</name>
+            <address>Zn Faro, 11, 17489 El Port de la Selva, Girona, Spain</address>
+            <description>http://www.furgovw.org/index.php?topic=142253.0</description>
+            <Point>
+                <coordinates>3.18442,42.34247</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping de Agüero  Agua: Si, Wc: Si, Gratuito: Si</name>
+            <address>Calle Iglesia, 9, 22808 Agüero, Huesca, Spain</address>
+            <description>http://www.furgovw.org/index.php?topic=15632.0;wap</description>
+            <Point>
+                <coordinates>-0.79516,42.35559</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Baliera  Agua SI-WC SI- Vaciado SI</name>
+            <address>N-260, 22486 Montanuy, Huesca, Spain</address>
+            <description>http://www.furgovw.org/index.php?topic=2776.0;wap</description>
+            <Point>
+                <coordinates>0.69907,42.43992</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Oturia  Gratuito: No, Pernocta: Si Agua: Si WC:si</name>
+            <address>N-260, 22610 Yebra de Basa, Huesca, Spain</address>
+            <description>http://www.furgovw.org/index.php?topic=159034.0</description>
+            <Point>
+                <coordinates>-0.27994,42.48241</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Valira  24EUR 2 pax+Furgo Wifi Pisicina</name>
+            <address>Càmping Valira, AD500 Andorra la Vella, Andorra</address>
+            <description>http://www.furgovw.org/index.php?topic=275614.0</description>
+            <Point>
+                <coordinates>1.51501,42.50223</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Taull  25 eur/dia (furgo+2 pax); cierra de 15/10 a 15/11; bar</name>
+            <address>Carrer dels Aiguals, 25528, Lérida, Spain</address>
+            <description>http://www.furgovw.org/index.php?topic=191307.0</description>
+            <Point>
+                <coordinates>0.84679,42.519</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping du Pla de Barres (Bouillouses)  Gratuito en invierno; en verano 15 eur/dia (furgo+2pax)</name>
+            <address>D60, 66210 La Llagonne, France</address>
+            <description>http://www.furgovw.org/index.php?topic=192040.0</description>
+            <Point>
+                <coordinates>2.09574,42.51989</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Los Vives (Saravillo)  Tarifa: 17 eur/dia (furgo+2pax); piscina, rio, bar, super, tv</name>
+            <address>A-2609, 22366 Plan, Huesca, Spain</address>
+            <description>http://www.furgovw.org/index.php?topic=224868.0</description>
+            <Point>
+                <coordinates>0.25154,42.56147</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Pla (Canillo)  (Tarifa:7eur/dia;bar,duchas...)</name>
+            <address>Camí Càmping Casal, AD100 Canillo, Andorra</address>
+            <description>http://www.furgovw.org/index.php?topic=243274.0</description>
+            <Point>
+                <coordinates>1.60262,42.56743</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>camping oto  Gratuito: No, Pernocta: Si Agua: Si WC:si</name>
+            <address>N-260, 22372 Broto, Huesca, Spain</address>
+            <description>http://www.furgovw.org/index.php?topic=23672.0</description>
+            <Point>
+                <coordinates>-0.15462,42.56768</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Nou Camping  Agua: Si, Wc: Si, Gratuito: 27eur Furgo+2adultos+1niño+220V</name>
+            <address>Carrer Carretera, 9, 25597 La Guingueta d'Àneu, Lérida, Spain</address>
+            <description>http://www.furgovw.org/index.php?topic=17142.0</description>
+            <Point>
+                <coordinates>1.13112,42.59353</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Gavin  Gratuito: no Agua: Si WC: si</name>
+            <address>Camino Oros Alto, 22630 Biescas, Huesca, Spain</address>
+            <description>http://www.furgovw.org/index.php?topic=17400.0;wap</description>
+            <Point>
+                <coordinates>-0.30436,42.61706</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Aritzaleku (Lerate)  20 eur/dia (furgo+2pax); piscina, supermercado, embarcadero; cierra en invierno</name>
+            <address>Diseminado Camping Aritzaleku, 49, 31291 Lerate, Navarra, Spain</address>
+            <description>http://www.furgovw.org/index.php?topic=191914.0</description>
+            <Point>
+                <coordinates>-1.94011,42.72015</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Borda Bisaltico  Tarifa aprox: 20 eur/dia (furgo+2 pax)</name>
+            <address>Unnamed Road, 22790, Huesca, Spain</address>
+            <description>http://www.furgovw.org/index.php?topic=212928.15</description>
+            <Point>
+                <coordinates>-0.73025,42.78611</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Pont du Moudang (Aragnouet)  Tarifa: 12eur (furgo+2pax); la recepcion cierra a las 17:30</name>
+            <address>D929, 65170 Aragnouet, France</address>
+            <description>http://www.furgovw.org/index.php?topic=216355.0</description>
+            <Point>
+                <coordinates>0.24691,42.78628</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Espalies (Bossots)  Tarifa: 24 eur/dia (furgo+2pax); Bar, piscina, wifi..</name>
+            <address>N-230, 25550 Bossòst, Lérida, Spain</address>
+            <description>http://www.furgovw.org/index.php?topic=226118.0;wap</description>
+            <Point>
+                <coordinates>0.69867,42.79537</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping mpal. du Peyrat (Biert)  (Tarifa:8eur/dia(furgo+2pax);duchas,agua...)</name>
+            <address>498 Village, 09320 Biert, France</address>
+            <description>http://www.furgovw.org/trastomtom.php</description>
+            <Point>
+                <coordinates>1.31541,42.8979</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Osate (Otsagabia)  Gratuito: no; Agua: si; Wc: si</name>
+            <address>NA-140, 31680 Ochagavía, Navarra, Spain</address>
+            <description>http://www.furgovw.org/index.php?topic=169065.0</description>
+            <Point>
+                <coordinates>-1.09297,42.90013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Asolaze (Isaba)  26 eur/noche (furgo+2 pax); 2ªcat; tf:948 893034</name>
+            <address>NA-137, 31417 Isaba, Navarra, Spain</address>
+            <description>http://www.furgovw.org/index.php?topic=188299.0</description>
+            <Point>
+                <coordinates>-0.8843,42.90161</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping La Roucateille (Montgailhard)  (Tarifa:14eur/dia(furgo+2pax);camping pequeño)</name>
+            <address>13 Rue du Pradal, 09330 Montgailhard, France</address>
+            <description>http://www.furgovw.org/index.php?topic=251007.0</description>
+            <Point>
+                <coordinates>1.63866,42.93092</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Mpal de Bedous  Tarifa:10eur/dia(furgo+2pax);abierto de marzo a octubre</name>
+            <address>Avenue de la Gare, 64490 Bedous, France</address>
+            <description>http://www.furgovw.org/index.php?topic=227463.0</description>
+            <Point>
+                <coordinates>-0.60403,42.99815</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Bigourdan  (19eur/dia(furgo+2pax+elect.);piscina,wifi)</name>
+            <address>79 Avenue de la Mongie, 65200 Pouzac, France</address>
+            <description>http://www.furgovw.org/index.php?topic=309944.0</description>
+            <Point>
+                <coordinates>0.1401,43.08054</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Domaine d´Arnauteille  Tarifa:30eur/dia(furgo+2pax);piscina,restaurante,wifi</name>
+            <address>Arnauteille, 11250 Montclar, France</address>
+            <description>http://www.furgovw.org/index.php?topic=231337.0</description>
+            <Point>
+                <coordinates>2.25818,43.12412</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Le Belle Verte (Le Venet)  (Tarifa:10eur/dia(furgo+2pax);camping pequeño)</name>
+            <address>Le Château, 09700 Le Vernet, France</address>
+            <description>http://www.furgovw.org/trastomtom.php</description>
+            <Point>
+                <coordinates>1.60289,43.19053</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Carcassonne  Agua: Si, Wc: Si, Luz: Si, Gratuito: No 21eur</name>
+            <address>D104, 11000 Carcassonne, France</address>
+            <description>http://www.furgovw.org/index.php?topic=148333.0</description>
+            <Point>
+                <coordinates>2.35399,43.20014</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping La Pujade (Alzonne)  (18eur/dia(furgo+2pax);tienda,restaurante,wifi)</name>
+            <address>2 D8, 11170 Alzonne, France</address>
+            <description>http://www.furgovw.org/index.php?topic=299487.0;wap</description>
+            <Point>
+                <coordinates>2.18761,43.25913</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Le Nice (Roquebrun)  Tarifa: 12 eur/dia (furgo+2 pax)</name>
+            <address>5620F Chemin de la Roque, 34460 Roquebrun, France</address>
+            <description>http://www.furgovw.org/index.php?topic=201343.0</description>
+            <Point>
+                <coordinates>3.02736,43.49808</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Bouriette (Toulouse)  (Precio:17eur/dia(furgo+2pax);lavanderia)</name>
+            <address>193 Chemin de Tournefeuille, 31300 Toulouse, France</address>
+            <description>http://www.furgovw.org/index.php?topic=252386.0</description>
+            <Point>
+                <coordinates>1.37664,43.60584</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Les Sableres  Camping Municipal Vieux Boucau 12euros noche</name>
+            <address>932 Boulevard du Marensin, 40480 Vieux-Boucau-les-Bains, France</address>
+            <description>http://www.furgovw.org/index.php?topic=131334.0</description>
+            <Point>
+                <coordinates>-1.40718,43.79401</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Ireland</description>
+        <Placemark>
+            <name>Cobh  Agua: No, WC: Si, Luz: No, Gratuito: Si</name>
+            <address>9-11 West Beach, Cobh, Co. Cork, Ireland</address>
+            <Point>
+                <coordinates>-8.29353,51.85044</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Youghal  Gratuito:si Agua:no WC:no</name>
+            <address>Front Strand, Co. Cork, Ireland</address>
+            <Point>
+                <coordinates>-7.85542,51.93664</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hook head  Gratuito; Agua: no; Wc: no</name>
+            <address>Unnamed Road, Co. Wexford, Ireland</address>
+            <Point>
+                <coordinates>-6.93048,52.12522</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cliffs of Moher  Gratuito: no (8 eur); Agua: no; Wc: no</name>
+            <address>Ballard Rd, Co. Clare, Ireland</address>
+            <Point>
+                <coordinates>-9.42412,52.97154</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Glendalough  Agua: Si, Wc: Si, Luz: No, Gratuito: Si</name>
+            <address>R757, Co. Wicklow, Ireland</address>
+            <Point>
+                <coordinates>-6.32376,53.01065</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Galway  Agua: Si, Wc: No, Luz: No, Gratuito: Si</name>
+            <address>Galway Retail Park, Headford Rd, Galway, Ireland</address>
+            <Point>
+                <coordinates>-9.05008,53.28017</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lago Ennel  Gratuito; Agua: no; Wc: no</name>
+            <address>Unnamed Road, Co. Westmeath, Ireland</address>
+            <Point>
+                <coordinates>-7.37504,53.46741</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Achill island  Gratuito; Agua: no; Wc: no</name>
+            <address>Dugort Beach Holiday Homes, Co. Mayo, Ireland</address>
+            <Point>
+                <coordinates>-10.02288,54.01564</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Malin Beg  Gratuito; Agua: no; Wc: no</name>
+            <address>R263, Co. Donegal, Ireland</address>
+            <Point>
+                <coordinates>-8.77855,54.66549</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Malin Head  Gratuito:si Agua:no WC:no</name>
+            <address>Unnamed Road, Co. Donegal, Ireland</address>
+            <Point>
+                <coordinates>-7.381,55.36975</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

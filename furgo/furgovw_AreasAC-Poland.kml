@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Poland</description>
+        <Placemark>
+            <name>Auschwitz  Gratuito: no; Agua: no; Wc: si</name>
+            <address>Więźniów Oświęcimia 20, Oświęcim, Poland</address>
+            <Point>
+                <coordinates>19.20162,50.0277</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

@@ -1,0 +1,3501 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Pirineos</description>
+        <Placemark>
+            <name>Cabrera de Mar  Gratuito: Si, Agua: No, WC: No</name>
+            <address>Carrer Font de Cabrera, 08349 Cabrils, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Cabrera+de+Mar</description>
+            <Point>
+                <coordinates>2.38217,41.53652</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Font Vella  Gratuito: si Agua: si WC: no</name>
+            <address>Carrer la Font, 25266 Maldà, Lérida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Font+Vella</description>
+            <Point>
+                <coordinates>1.03449,41.55002</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aerodrom Republica de Alfes  (Gatuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 25001 Lleida, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Aerodrom+Republica+de+Alfes</description>
+            <Point>
+                <coordinates>0.65268,41.55247</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bassa Nova  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Carrer Barcelona, 8, 08317 Òrrius, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Bassa+Nova</description>
+            <Point>
+                <coordinates>2.35616,41.55504</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Tossa de Montbui  Grauito Si, Agua No, WC No</name>
+            <address>BV-2204, 08710 Santa Margarida de Montbui, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+La+Tossa+de+Montbui</description>
+            <Point>
+                <coordinates>1.58079,41.55564</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aeri de Montserrat  (Gratuito;Agua:no;Wc:no)</name>
+            <address>C-55, 15, 08691 Monistrol de Montserrat, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Aeri+de+Montserrat</description>
+            <Point>
+                <coordinates>1.85127,41.59047</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sta. Maria de Montalba  Gratuito; Agua: si; Wc: si</name>
+            <address>Unnamed Road, 25263 Preixana, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Sta.+Maria+de+Montalba</description>
+            <Point>
+                <coordinates>1.04597,41.6045</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cala Roca Grossa (Calella)  Gratuito; Agua: no; Wc: no</name>
+            <address>N-II, 08370 Calella, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Cala+Roca+Grossa+(Calella)</description>
+            <Point>
+                <coordinates>2.63973,41.60558</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Galacho de La Alfranca  gratuito: si, agua: si, wc:si</name>
+            <address>Calle la Alfranca, 7, 50171 Pastriz, Zaragoza, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Galacho+de+La+Alfranca</description>
+            <Point>
+                <coordinates>-0.75682,41.6071</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Montserrat  Gratuito; Agua: no; Wc: no</name>
+            <address>BP-1101, 08294 El Bruc, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Montserrat</description>
+            <Point>
+                <coordinates>1.76802,41.60946</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Canet de mar-La Creu de Pedracastell  Gratuito: Si, Pernocta: Depende de la epoca del año</name>
+            <address>Camí de Pedracastell, 08360 Canet de Mar, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Canet+de+mar-La+Creu+de+Pedracastell</description>
+            <Point>
+                <coordinates>2.57313,41.60995</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ermita de Santa Cecilia (Montserrat)  Gratuito; Agua: no; Wc: no</name>
+            <address>BP-1103, 5, 08298 Marganell, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ermita+de+Santa+Cecilia+(Montserrat)</description>
+            <Point>
+                <coordinates>1.81615,41.61132</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Font de Santa Magdalena  (Gratuito;Agua:si;Wc:si)</name>
+            <address>LV-2101, 45, 25340 Verdú, Lérida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Font+de+Santa+Magdalena</description>
+            <Point>
+                <coordinates>1.14422,41.61393</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parque la Sierra (Ballobar)  (Gratuito;Agua:si;Wc:no)</name>
+            <address>HU-V-8601, 22234 Ballobar, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Parque+la+Sierra+(Ballobar)</description>
+            <Point>
+                <coordinates>0.1837,41.61472</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cremallera de Montserrat  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Carrer de Juliȧ Fuchs, 93, 08691 Monistrol de Montserrat, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Cremallera+de+Montserrat</description>
+            <Point>
+                <coordinates>1.84293,41.61481</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Refugio de Miramon  gratuito: si, agua: no, wc:no</name>
+            <address>Unnamed Road, 50750 Pina de Ebro, Zaragoza, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Refugio+de+Miramon</description>
+            <Point>
+                <coordinates>-0.32397,41.62175</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Caldes de Montbui  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Carrer Torre Roja, 3, 08140 Caldes de Montbui, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Caldes+de+Montbui</description>
+            <Point>
+                <coordinates>2.15809,41.63657</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Les Arenes  (Gratuito;Agua:si;Wc:no)</name>
+            <address>B-124, 12, 08211 Castellar del Vallès, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Les+Arenes</description>
+            <Point>
+                <coordinates>2.05644,41.64233</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Calcena  Gratuito; Agua: Si; WC: No</name>
+            <address>Ctra. Purujosa, 21, 50268 Calcena, Zaragoza, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Calcena</description>
+            <Point>
+                <coordinates>-1.71744,41.65383</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Paseo de la Ribera (Zaragoza)  Gratuito; Agua: no; Wc: no; parking urbano</name>
+            <address>Calle Garcia Arista, 50015 Zaragoza, Zaragoza, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Paseo+de+la+Ribera+(Zaragoza)</description>
+            <Point>
+                <coordinates>-0.87909,41.66004</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parque del Agua (Zaragoza)  (Gratuito;Agua:si;Wc:no;parking urbano)</name>
+            <address>Paseo de los Puentes, 2, 50018 Zaragoza, Zaragoza, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Parque+del+Agua+(Zaragoza)</description>
+            <Point>
+                <coordinates>-0.90959,41.66709</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ermita de Sant Hilari (Cardedeu)  Gratuito; Agua: no; Wc: no</name>
+            <address>Unnamed Road, 08440 Cardedeu, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ermita+de+Sant+Hilari+(Cardedeu)</description>
+            <Point>
+                <coordinates>2.34995,41.66868</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Blanes, Girona, Catalunya  Gratuito: Si, Pernocta: Si Agua: Si WC:Si Duchas: Si</name>
+            <address>Carrer d'Antoni Gaudí, 14, 17300 Blanes, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Blanes,+Girona,+Catalunya</description>
+            <Point>
+                <coordinates>2.78482,41.6689</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Coll de Estenalles  (Gratuito;Agua:si;Wc:si)</name>
+            <address>BV-1221, 08278 Mura, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Coll+de+Estenalles</description>
+            <Point>
+                <coordinates>1.99422,41.66902</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Marquet de les Roques  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 08212 Sant Llorenç Savall, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Marquet+de+les+Roques</description>
+            <Point>
+                <coordinates>2.02132,41.67665</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Castell de Palafolls  Gratuito; Agua: no; Wc: no</name>
+            <address>Carrer Camí del Castell, 90P, 08389 Palafolls, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Castell+de+Palafolls</description>
+            <Point>
+                <coordinates>2.73599,41.67835</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Estany de Ivars  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 25245 Vila-sana, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Estany+de+Ivars</description>
+            <Point>
+                <coordinates>0.93569,41.68157</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Montfalcó murallat  Gratuito; Agua: no; Wc: no</name>
+            <address>Carrer Rodona-ag.montf, 18, 25214 Montfalcó Murallat, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Montfalcó+murallat</description>
+            <Point>
+                <coordinates>1.33911,41.68844</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rajadell LEstacio  gratuito: si, agua:no, wc:no</name>
+            <address>C-25, 12, 08256 Rajadell, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Rajadell+LEstacio</description>
+            <Point>
+                <coordinates>1.69686,41.73412</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parc de l Agulla  (Gratuito;Agua:no;Elec:no)</name>
+            <address>Carrer Manresa, 08272 Sant Fruitós de Bages, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Parc+de+l+Agulla</description>
+            <Point>
+                <coordinates>1.84576,41.74981</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Casa del parque de Montseny  Gratuito; Agua: si; Wc: si</name>
+            <address>BV-5119, 6, 08479, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Casa+del+parque+de+Montseny</description>
+            <Point>
+                <coordinates>2.42613,41.75743</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Montseny  Gratuito; Agua: no; Wc: no; parking en pueblo pequeño</name>
+            <address>BV-5301, 08469 Montseny, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Montseny</description>
+            <Point>
+                <coordinates>2.39504,41.75888</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ermita Sant Grau (Tossa de Mar)  Gratuito: si Agua: No WC: No</name>
+            <address>Spain, Girona, Tossa de Mar, ウルバニッザシオ・サン・グラウ 70</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ermita+Sant+Grau+(Tossa+de+Mar)</description>
+            <Point>
+                <coordinates>2.94795,41.75903</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bosc Illa Parc de la SÃ¨quia  (Gratuito;Agua:no;WC:no)</name>
+            <address>Unnamed Road, 08272 Sant Fruitós de Bages, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Bosc+Illa+Parc+de+la+SÃ¨quia</description>
+            <Point>
+                <coordinates>1.85046,41.76441</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Las Cuevas (AÃ±on de Moncayo)  Gratuito: Si, Pernocta: Si Agua: Si WC: Si</name>
+            <address>Unnamed Road, 50590 Añón de Moncayo, Zaragoza, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Las+Cuevas+(AÃ±on+de+Moncayo)</description>
+            <Point>
+                <coordinates>-1.72861,41.77581</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Sant Pol  Gratuito: Si de noche (de dia zona azul) Agua potable: Si (Duchas de la playa y fuente en parque) WC</name>
+            <address>Urbanitzacio St Pol Platja, 15, 17220 S'Agaró, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Playa+de+Sant+Pol</description>
+            <Point>
+                <coordinates>3.04857,41.79082</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ermita de Santiago (Sariñena)  Gratuito; Agua: si; Wc: no</name>
+            <address>Partida Poligono 09, 9, 22200, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ermita+de+Santiago+(Sariñena)</description>
+            <Point>
+                <coordinates>-0.1464,41.79648</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Centro interpretacion laguna de Sariñena  Gratuito; Agua: si; Wc: solo de dia</name>
+            <address>Ctra. Zaragoza, 23, 22200 Sariñena, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Centro+interpretacion+laguna+de+Sariñena</description>
+            <Point>
+                <coordinates>-0.16912,41.80095</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Moncayo  Gratuito; si; Agua: si; Wc: no</name>
+            <address>Unnamed Road, 50500 Tarazona, Zaragoza, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Moncayo</description>
+            <Point>
+                <coordinates>-1.8142,41.80225</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ermita de la Verge de la Guardiola  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Carrer la Solana, 101, 25617 La Sentiu de Sió, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ermita+de+la+Verge+de+la+Guardiola</description>
+            <Point>
+                <coordinates>0.88348,41.80329</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Monte Irazo-Ruta Orwell (Alcubierre)  (Gratuito;Agua:no;WC:no)</name>
+            <address>A-129, 22251 Alcubierre, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Monte+Irazo-Ruta+Orwell+(Alcubierre)</description>
+            <Point>
+                <coordinates>-0.50915,41.81825</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Las Tres Huegas-San Simon (LeciÃ±ena)  (Gratuito;Agua:no;WC:no)</name>
+            <address>Unnamed Road, 22252 Robres, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Las+Tres+Huegas-San+Simon+(LeciÃ±ena)</description>
+            <Point>
+                <coordinates>-0.51597,41.83067</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Santuario Ntra Sr de la Misericordia (Borja)  Gratuito: si; Agua: si; Wc: no</name>
+            <address>Calle Nº Dos Sant Miser, 13, 50548 Borja, Zaragoza, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Santuario+Ntra+Sr+de+la+Misericordia+(Borja)</description>
+            <Point>
+                <coordinates>-1.57611,41.85721</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parc Roqueta  (Tona)  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Av. Balneari, 1, 08551 Tona, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Parc+Roqueta</description>
+            <Point>
+                <coordinates>2.22954,41.85955</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pantano St.Llorenç de Montgai  (Gratuito.Agua:No WC:No)</name>
+            <address>LV-9047, 8, 25613 Camarasa, Lérida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Pantano+St.Llorenç+de+Montgai</description>
+            <Point>
+                <coordinates>0.83327,41.86018</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Espinelves  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Passeig Guilleries, 17405 Espinelves, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Espinelves</description>
+            <Point>
+                <coordinates>2.41625,41.86892</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Erta la Mare de Deu del Castell  (Acceso dificil por pista de tierra;Gratuito;Agua: si;Wc:no)</name>
+            <address>LV-9049, 25613 Camarasa, Lérida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Erta+la+Mare+de+Deu+del+Castell</description>
+            <Point>
+                <coordinates>0.83074,41.87079</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Castell/Castillo de Balsareny  Gratuito Si, Agua No, WC No</name>
+            <address>BP-4313, 08660 Balsareny, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Castell/Castillo+de+Balsareny</description>
+            <Point>
+                <coordinates>1.88111,41.87083</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Taradell   (Parking urbano;Gratuito;Agua:no;Wc:no)</name>
+            <address>Plaça de Ca l'Iglesies, 08552 Taradell, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Taradell</description>
+            <Point>
+                <coordinates>2.28642,41.8719</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Os de Balaguer   (Gratuito;Agua:no;Wc:no)</name>
+            <address>Avinguda Leandre Cristòfol, 9, 25610 Os de Balaguer, Lérida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Os+de+Balaguer</description>
+            <Point>
+                <coordinates>0.7214,41.87234</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Clot del Roure  (Gratuito;Agua:no;WC:no)</name>
+            <address>LV-9047, 10, 25613 Camarasa, Lérida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Clot+del+Roure</description>
+            <Point>
+                <coordinates>0.84288,41.87283</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camarasa (Lleida)  Gratuito: Si, Pernocta: Si Agua:  Si WC:No</name>
+            <address>C-13, 25613 Camarasa, Lérida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Camarasa+(Lleida)</description>
+            <Point>
+                <coordinates>0.8783,41.88431</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area rec. Soto Blanco (Los Fayos)  (Gratuito;Agua:si;Wc:si)</name>
+            <address>CV-639, 50513 Los Fayos, Zaragoza, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+rec.+Soto+Blanco+(Los+Fayos)</description>
+            <Point>
+                <coordinates>-1.77731,41.88502</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Calella de Palafrugell  Gratuito; Agua: no; Wc: no; parking urbano</name>
+            <address>Carrer de la Gavina, 34, 17210 Palafrugell, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Calella+de+Palafrugell</description>
+            <Point>
+                <coordinates>3.18741,41.89342</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ermita de la Mare de Deu(Montalegre)  (Acceso por pista de tierra;Gratuito;Agua:no;Wc:no)</name>
+            <address>LV-9045, 25613 Camarasa, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ermita+de+la+Mare+de+Deu(Montalegre)</description>
+            <Point>
+                <coordinates>0.82475,41.8938</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Plaza de toros de Tarazona  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Calle la Fuente, 42, 50500 Tarazona, Zaragoza, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Plaza+de+toros+de+Tarazona</description>
+            <Point>
+                <coordinates>-1.72689,41.90152</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de l Espadella (Alos de Balaguer)  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Unnamed Road, 25737 Alòs de Balaguer, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+de+l+Espadella+(Alos+de+Balaguer)</description>
+            <Point>
+                <coordinates>0.94623,41.91293</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Castell de Cardona  Gratuito; Agua: no;Wc: si</name>
+            <address>Lloc Parador Nacional Turisme, 506, 08261 Cardona, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Castell+de+Cardona</description>
+            <Point>
+                <coordinates>1.68523,41.91466</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sant Pere de Ponts  Gratuito; Agua: si; Wc: no</name>
+            <address>Camí de Serradal, 25740 Ponts, Lérida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Sant+Pere+de+Ponts</description>
+            <Point>
+                <coordinates>1.19685,41.91755</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Santa Pellaia  (Gratuito;Agua:no;Wc:no;pueblo abandonado)</name>
+            <address>GI-664, 9, 17244, Gerona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Santa+Pellaia</description>
+            <Point>
+                <coordinates>2.91735,41.92047</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Merendero de Ponts  Gratuito: si; Agua: si; Wc: no</name>
+            <address>Unnamed Road, 25740 Ponts, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Merendero+de+Ponts</description>
+            <Point>
+                <coordinates>1.18228,41.92205</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>El Sucre (Vic)  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>Av. del Mercat, 6, 08500 Vic, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+El+Sucre+(Vic)</description>
+            <Point>
+                <coordinates>2.24594,41.92669</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Font de Arbre  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Av. Sant Francesc, 14, 17100 La Bisbal d'Empordà, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Font+de+Arbre</description>
+            <Point>
+                <coordinates>3.03232,41.9513</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>TavÃ¨rnoles  (Gratuito;Agua:no;WC:no)</name>
+            <address>Carrer Savassona, 4, 08519 Tavèrnoles, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+TavÃ¨rnoles</description>
+            <Point>
+                <coordinates>2.32455,41.95213</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Bisbal de Empordà   (Gratuito;Agua:no;Wc:no)</name>
+            <address>Av. Josep Tarradellas, 17100 La Bisbal d'Empordà, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+La+Bisbal+de+Empordà </description>
+            <Point>
+                <coordinates>3.03339,41.95742</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Peratallada  Gratuito; Agua: si; Wc: Si</name>
+            <address>Carrer de la Roca, 1, 17113 Peratallada, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Peratallada</description>
+            <Point>
+                <coordinates>3.0887,41.97805</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Contrebia Leucade  (Gratuito;Agua:no;Wc:no)</name>
+            <address>LR-284, 26531 Aguilar del Río Alhama, La Rioja, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Contrebia+Leucade</description>
+            <Point>
+                <coordinates>-1.97341,41.97871</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pantano de Sant Pons  Agua: No, Wc: No, Luz: No, Gratuito: Si</name>
+            <address>Unnamed Road, 25290 Clariana de Cardener, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Pantano+de+Sant+Pons</description>
+            <Point>
+                <coordinates>1.59388,41.98055</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ermita de Santa Quiteria (Tardienta)   (Gratuito;Agua:si;WC:no)</name>
+            <address>Unnamed Road, 22240 Tardienta, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ermita+de+Santa+Quiteria+(Tardienta)</description>
+            <Point>
+                <coordinates>-0.57987,41.98142</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Olost  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Avinguda de l'Esport, 08516, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Olost</description>
+            <Point>
+                <coordinates>2.09967,41.98506</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Girona immortal  Gratuito Si, Agua No, WC No</name>
+            <address>Ronda de Pedret, 4, 17007 Girona, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Girona+immortal</description>
+            <Point>
+                <coordinates>2.82288,41.9905</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parc de Domeny  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Carrer Bullidors, 17007 Girona, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Parc+de+Domeny</description>
+            <Point>
+                <coordinates>2.80368,41.99079</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Solsona  Gratuito; Agua: no; Wc: no; parking urbano</name>
+            <address>Carrer dels Tints, 14, 25280 Solsona, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Solsona</description>
+            <Point>
+                <coordinates>1.5207,41.99446</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Finestras (Huesca)  Gratuito: Si, Pernocta: Si Agua:  No WC:No</name>
+            <address>Calle Mayor, 9B, 22589 Estopiñán del Castillo, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Finestras+(Huesca)</description>
+            <Point>
+                <coordinates>0.54314,41.99675</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Manlleu, Osona  Agua: Si, Wc: No, Luz: No, Gratuito: Si</name>
+            <address>Passeig del Ter, 2H, 08560 Manlleu, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Manlleu,+Osona</description>
+            <Point>
+                <coordinates>2.29104,41.99916</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sta Creu de Jutglar (Lluçanes)  Gratuito; Agua: no; Wc: no</name>
+            <address>Carrer Vell, 08515 Olost, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Sta+Creu+de+Jutglar+(Lluçanes)</description>
+            <Point>
+                <coordinates>2.05527,41.99957</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mare de la Font (Solsona)  Gratuito; Agua: si; Wc: no</name>
+            <address>Carretera de Bassella, 25280 Solsona, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Mare+de+la+Font+(Solsona)</description>
+            <Point>
+                <coordinates>1.50206,42.0015</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ermita de la Mare de Deu del Puig de Meia  Gratuito: si; Agua: si; Wc: no</name>
+            <address>Unnamed Road, 25735 Vilanova de Meià, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ermita+de+la+Mare+de+Deu+del+Puig+de+Meia</description>
+            <Point>
+                <coordinates>1.01856,42.00312</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Conjunto arqueologico de Ullastret  (Gratuito; Agua: si; Wc: no)</name>
+            <address>GIV-6442, 17114 Ullastret, Gerona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Conjunto+arqueologico+de+Ullastret</description>
+            <Point>
+                <coordinates>3.07708,42.00748</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sant Bartomeu de Sesgorgues  Gratuito; Agua: no; Wc: no</name>
+            <address>Unnamed Road, 08511 Tavertet, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Sant+Bartomeu+de+Sesgorgues</description>
+            <Point>
+                <coordinates>2.36032,42.01443</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ermita de St. Brigida (Amer)  Solo accesible en 4x4</name>
+            <address>Carrer Costa Santa Brigida, 13, 17170, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ermita+de+St.+Brigida+(Amer)</description>
+            <Point>
+                <coordinates>2.61252,42.02169</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rupit  Gratuito: Si , Pernocta: Si</name>
+            <address>Sant Joan de Fabregues, 10, 08569 Rupit i Pruit, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Rupit</description>
+            <Point>
+                <coordinates>2.46308,42.02494</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Platja de la Pletera  (Gratuito;Agua:no;Wc:no;galibo 2m)</name>
+            <address>Av. Illes Medes, 17258 Torroella de Montgrí, Gerona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Platja+de+la+Pletera</description>
+            <Point>
+                <coordinates>3.19277,42.03197</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Font de les Bagasses (Terradets)  (Gratuito; Agua: si; Wc: no)</name>
+            <address>C-13, 25691 Camarasa, Lérida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Font+de+les+Bagasses+(Terradets)</description>
+            <Point>
+                <coordinates>0.88399,42.03537</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Foixa (Baix Emporda)  Gratuito Si, Agua Si, WC No</name>
+            <address>GIV-6422, 216, 17132 Foixá, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Foixa+(Baix+Emporda)</description>
+            <Point>
+                <coordinates>2.99747,42.03779</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Foradada  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Carrer de Màrius Anglada, 4, 08569 L'Esquirol, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+La+Foradada</description>
+            <Point>
+                <coordinates>2.40195,42.04168</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Torroella de Montgri  (Gratuito;Agua:si;Wc:durante el dia;parking urbano)</name>
+            <address>Carrer d'Enric Morera, 19, 17257 Torroella de Montgrí, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Torroella+de+Montgri</description>
+            <Point>
+                <coordinates>3.12902,42.04212</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ermita de la Pertusa  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 25692 Àger, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ermita+de+la+Pertusa</description>
+            <Point>
+                <coordinates>0.67512,42.04367</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Serra del Montsec  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Camí de Sant Alís, 25691 Àger, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Serra+del+Montsec</description>
+            <Point>
+                <coordinates>0.74545,42.04734</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puente de las Pilas - Enate  Gratuito; Agua: no; Wc: no</name>
+            <address>N-123, 22424 Estada, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Puente+de+las+Pilas+-+Enate</description>
+            <Point>
+                <coordinates>0.21953,42.06417</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Font de les Encies  (Gratuito;Agua:si;Wc:si)</name>
+            <address>GI-531, 17172 Les Planes d'Hostoles, Gerona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+La+Font+de+les+Encies</description>
+            <Point>
+                <coordinates>2.57613,42.06645</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gorgas del Pont del Clop  (Gratuito;Agua:no;Wc:no)</name>
+            <address>LV-4011, 25288 Lladurs, Lérida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Gorgas+del+Pont+del+Clop</description>
+            <Point>
+                <coordinates>1.43547,42.07379</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sant Andreu del Castell d Oliana  (Gratuito;Agua:no;WC:no)</name>
+            <address>C-14, 25790 Oliana, Lérida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Sant+Andreu+del+Castell+d+Oliana</description>
+            <Point>
+                <coordinates>1.30054,42.08645</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ermita de St Cristofol de Borrassers  Gratuito; Agua: no; wc: no</name>
+            <address>BV-4341, 5, 08514 Lluçà, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ermita+de+St+Cristofol+de+Borrassers</description>
+            <Point>
+                <coordinates>2.07999,42.08686</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pla de Bussa  Gratuito: Si, Agua: No, WC: No</name>
+            <address>Camí de Busa, 25286 Navès, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Pla+de+Bussa</description>
+            <Point>
+                <coordinates>1.63439,42.09301</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Congost de Mont-Rebei  Gratuito: no (3eur dia); Agua: si; Wc: si</name>
+            <address>Diseminado Afueras, 10, 22584, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Congost+de+Mont-Rebei</description>
+            <Point>
+                <coordinates>0.69611,42.09734</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Presa de la Sotonera   (Gratuito;Agua:no;Wc:no)</name>
+            <address>Ctra. Camping, 4, 22283 Alcalá de Gurrea, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Presa+de+la+Sotonera</description>
+            <Point>
+                <coordinates>-0.69516,42.10121</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hostalets den Bas  Gratuito Si, Agua No, WC No</name>
+            <address>Carrer de la Teixeda, 37, 17177 Els Hostalets d'en Bas, Gerona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Hostalets+den+Bas</description>
+            <Point>
+                <coordinates>2.45223,42.10344</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>St Maria de Queralt (Berga)  (Gratuito;Agua:si;Wc:si)</name>
+            <address>BV-4242, 10, 08600 Berga, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+St+Maria+de+Queralt+(Berga)</description>
+            <Point>
+                <coordinates>1.82835,42.10793</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cala Montgo  Gratuito; Agua: no; Wc: no; altura limitada a 2.10; parking urbano</name>
+            <address>Carrer Travesser, 20, 17130 L'Escala, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Cala+Montgo</description>
+            <Point>
+                <coordinates>3.1657,42.10816</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Falgons  Gratuito Si  Agua potable:Si WC:No</name>
+            <address>GIV-5246, 17831 Sant Miquel de Campmajor, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Falgons</description>
+            <Point>
+                <coordinates>2.66062,42.10881</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Castell de Montesquiu  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Diseminado Disseminat, 10, 08585, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Castell+de+Montesquiu</description>
+            <Point>
+                <coordinates>2.21269,42.11214</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Posa  (Gratuito;Agua:si;Wc:no)</name>
+            <address>L-511, 25657 Abella de la Conca, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+La+Posa</description>
+            <Point>
+                <coordinates>1.07883,42.12619</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mieres  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Carr. de Finestres, 17830 Mieres, Gerona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Mieres</description>
+            <Point>
+                <coordinates>2.63674,42.12759</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ermita de San Medardo (Benabarre)  (Gratuito;Agua:Si;Wc:si)</name>
+            <address>Diseminado Afueras, 3, 22580, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ermita+de+San+Medardo+(Benabarre)</description>
+            <Point>
+                <coordinates>0.48323,42.12911</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Trincheras de El Saso (Tierz)  (Gratuito;Agua:no;WC:no)</name>
+            <address>Unnamed Road, 22192 Tierz, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Trincheras+de+El+Saso+(Tierz)</description>
+            <Point>
+                <coordinates>-0.33638,42.13083</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sant Marti de Empuries  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Passeig Dr. Pi i Llussà, 2, 17130 L'Escala, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Sant+Marti+de+Empuries</description>
+            <Point>
+                <coordinates>3.12116,42.13179</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Huesca Capital  Agua: Si, Wc: Si, Gratuito: Si</name>
+            <address>Finca C.Enseñanzas Integradas, 3, 22197 Huesca, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Huesca+Capital</description>
+            <Point>
+                <coordinates>-0.4251,42.13192</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saus  Gatuito; Agua: si; Wc: no; parking en pueblo pequeño</name>
+            <address>Carrer Nou, 4, 17467 Saus, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Saus</description>
+            <Point>
+                <coordinates>2.97838,42.13324</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ermita de Salas (Huesca Capital)  Agua: Si, Wc: Si, Gratuito: Si</name>
+            <address>Ronda Salas, 22005 Huesca, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ermita+de+Salas+(Huesca+Capital)</description>
+            <Point>
+                <coordinates>-0.39526,42.13357</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de Codo  Gratuito: si Agua: No WC: si</name>
+            <address>LV-4241, 23, 25282 Guixers, Lérida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+de+Codo</description>
+            <Point>
+                <coordinates>1.54926,42.13475</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Huesca, Paseo Ramon y Cajal  (Gratuito;Agua:no;WC:no)</name>
+            <address>Calle Zona Deportiva, 1, 22006 Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Huesca,+Paseo+Ramon+y+Cajal</description>
+            <Point>
+                <coordinates>-0.39221,42.13975</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pla d´en Xurri  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Lloc Sant Privat d'en Bas, 275, 17178, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Pla+d´en+Xurri</description>
+            <Point>
+                <coordinates>2.39558,42.14576</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Volcán Santa Margarida  Agua: Si, Wc: Si, Gratuito: Si</name>
+            <address>GI-524, 17811 Santa Pau, Gerona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Volcán+Santa+Margarida</description>
+            <Point>
+                <coordinates>2.54399,42.14766</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Embalse de Barasona (Graus)  Gratuito; Agua: no; Wc: no</name>
+            <address>Unnamed Road, 22588 Graus, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Embalse+de+Barasona+(Graus)</description>
+            <Point>
+                <coordinates>0.33725,42.14863</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Llaes  Gratuito; Agua: no; Wc: no; lugar solitario</name>
+            <address>Unnamed Road, 17510 Ripoll, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Llaes</description>
+            <Point>
+                <coordinates>2.25559,42.15112</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Castillo de Motearagón  Agua: No, Wc: No, Gratuito: Si</name>
+            <address>Unnamed Road, 22191 Quicena, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Castillo+de+Motearagón</description>
+            <Point>
+                <coordinates>-0.34391,42.1537</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Fageda d´en Jorda  Gratuito; Agua: no; Wc: si</name>
+            <address>GI-524, 17811 Santa Pau, Gerona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+La+Fageda+d´en+Jorda</description>
+            <Point>
+                <coordinates>2.51691,42.15442</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Font de la Puda - Sant Ll  Gratuito: Si  Agua potable: Si (pero sulfurosa) WC: No</name>
+            <address>C-462, 3, 25284, Lérida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Font+de+la+Puda+-+Sant+Ll</description>
+            <Point>
+                <coordinates>1.59725,42.15865</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parc de pedra tosca  (Gratuito;Agua:si;Wc:no)</name>
+            <address>GIV-5224, 17178 Les Preses, Gerona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Parc+de+pedra+tosca</description>
+            <Point>
+                <coordinates>2.4615,42.1592</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pueblo abandonado Peguera  Agua: Si, WC: No, Luz: No, Gratuito: Si</name>
+            <address>Unnamed Road, 08698 Fígols, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Pueblo+abandonado+Peguera</description>
+            <Point>
+                <coordinates>1.77189,42.15975</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bierge  Gratuito; Agua: no; Wc: no</name>
+            <address>Calle Torno, 1, 22144 Bierge, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Bierge</description>
+            <Point>
+                <coordinates>-0.08137,42.16453</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Coll de Nargo  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Diseminado Afores, 8, 25793, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Coll+de+Nargo</description>
+            <Point>
+                <coordinates>1.32462,42.1674</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Estacion de ski Port del Comte  Gratuito: si; Agua: si; Wc: si</name>
+            <address>Carr. a Pistes, 25284, Lérida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Estacion+de+ski+Port+del+Comte</description>
+            <Point>
+                <coordinates>1.56315,42.1726</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Albergue Los Meleses (Radiquero)  (6eur/noche;Agua:si;Wc:si)</name>
+            <address>Calle Meleses, 41, 22145 Alquézar, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Albergue+Los+Meleses+(Radiquero)</description>
+            <Point>
+                <coordinates>-0.0033,42.17618</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Merendero pista forestal a Sant Roma de la Clusa  Gratuito: si Agua: si WC: No</name>
+            <address>Unnamed Road, 08604 Castell de l'Areny, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Merendero+pista+forestal+a+Sant+Roma+de+la+Clusa</description>
+            <Point>
+                <coordinates>1.927,42.17854</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Volcan de Montsacopa (Olot)  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>Plaça Rodes, 5, 17800 Olot, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Volcan+de+Montsacopa+(Olot)</description>
+            <Point>
+                <coordinates>2.49074,42.18445</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Olot, Parking Volca Montsacopa - Cementiri   (Gratuito;Agua:no;WC:no)</name>
+            <address>Carrer Pintor Domenge, 17, 17800 Olot, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Olot,+Parking+Volca+Montsacopa+-+Cementiri</description>
+            <Point>
+                <coordinates>2.48559,42.18583</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking Ac Sendaviva  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Parque Senda Viva, 31513 Arguedas, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Parking+Ac+Sendaviva</description>
+            <Point>
+                <coordinates>-1.58514,42.18983</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Res.nat. los Sotos de Alfaro  (Gratuto; Agua: si; Wc: no)</name>
+            <address>Av. del Ebro, 26540 Alfaro, La Rioja, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Res.nat.+los+Sotos+de+Alfaro</description>
+            <Point>
+                <coordinates>-1.73961,42.19015</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Besalu  gratuito: si, agua:no, wc:no</name>
+            <address>Carrer del Pont Vell, 2, 17850 Besalú, Gerona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Besalu</description>
+            <Point>
+                <coordinates>2.70232,42.19785</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Font de O. Aramunt  (Gratuito;Agua:si;WC:no)</name>
+            <address>Unnamed Road, 25518, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Font+de+O.+Aramunt</description>
+            <Point>
+                <coordinates>0.98222,42.19939</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Salinas de Naval  Gratuito: si; Agua: si; Wc: no</name>
+            <address>A-2210, 22320 Naval, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Salinas+de+Naval</description>
+            <Point>
+                <coordinates>0.15647,42.20074</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ardisa  (Parking urbano;Gratuito;Agua:no;Wc:no)</name>
+            <address>Pabellón Municipal San Vicente, 50614 Ardisa, Zaragoza, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ardisa</description>
+            <Point>
+                <coordinates>-0.7566,42.20088</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ermita del Viñedo  Agua: Si, Wc: Si, Gratuito: Si</name>
+            <address>HU-330, 22192 Loporzano, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ermita+del+Viñedo</description>
+            <Point>
+                <coordinates>-0.31158,42.20131</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Nuestra SeÃ±ora del Yugo   Gratuito: Si , Pernocta: Si</name>
+            <address>Camino a la Hermita de la Virgen del Yugo, 31513 Arguedas, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Nuestra+SeÃ±ora+del+Yugo</description>
+            <Point>
+                <coordinates>-1.58606,42.2056</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sierra D´Ensija  Agua: Si, Wc: Si, Luz: No, Gratuito: Si</name>
+            <address>Unnamed Road, 08697 Saldes, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Sierra+D´Ensija</description>
+            <Point>
+                <coordinates>1.74944,42.20644</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mipanas  Gratuito; Agua: no; Wc: no;</name>
+            <address>Unnamed Road, 22320 Naval, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Mipanas</description>
+            <Point>
+                <coordinates>0.2128,42.21396</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sant Joan les Fonts  Gratuito; Agua: si; Wc: no</name>
+            <address>Camí de Castellar de la Muntanya, 17857 Sant Joan les Fonts, Gerona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Sant+Joan+les+Fonts</description>
+            <Point>
+                <coordinates>2.50761,42.21397</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Estacion esqui nordico Tuixent-La Vansa  Gratuito; Agua: no; Wc: no</name>
+            <address>Unnamed Road, 25717, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Estacion+esqui+nordico+Tuixent-La+Vansa</description>
+            <Point>
+                <coordinates>1.52864,42.21447</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Santuari de Falgars  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Diseminado Santuari Sta Mare Folgars, 36, 08696, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Santuari+de+Falgars</description>
+            <Point>
+                <coordinates>1.94748,42.22731</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gosol  (Gratuito;Agua:si;WC:no)</name>
+            <address>B-400, 10, 25716 Gósol, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Gosol</description>
+            <Point>
+                <coordinates>1.66275,42.23497</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Templo Budista de Panillo  Agua: No, Wc: No, Gratuito: Si</name>
+            <address>HUV-6441, 22438 Graus, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Templo+Budista+de+Panillo</description>
+            <Point>
+                <coordinates>0.29895,42.23983</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mirador de Gresolet  Gratuito: Si, Agua: No, WC: No</name>
+            <address>Carr. del mirador de Gresolet / Refugi Lluís Estasen, 08697 Saldes, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Mirador+de+Gresolet</description>
+            <Point>
+                <coordinates>1.72272,42.24711</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Santuario Mare de Deu del Mont  Agua: No, Wc: No, Luz: No, Gratuito: Si</name>
+            <address>Carr. de Mare de Deu del Mont, 17734 Beuda, Gerona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Santuario+Mare+de+Deu+del+Mont</description>
+            <Point>
+                <coordinates>2.7078,42.2583</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Castello d Empuries  (Parking urbano;Gratuito;Agua:no;Wc:no)</name>
+            <address>Carrer Rentador, 1, 17486 Castelló d'Empúries, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Castello+d+Empuries</description>
+            <Point>
+                <coordinates>3.0785,42.25852</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Salto del Roldan  Agua: No, Wc: No, Gratuito: Si</name>
+            <address>Calle Baja, 9B, 22150 Santa Eulalia de la Peña, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Salto+del+Roldan</description>
+            <Point>
+                <coordinates>-0.40606,42.26235</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pont de Sant Joan  (Gratuito;Agua:no;WC:no)</name>
+            <address>Unnamed Road, 08695 Bagà, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Pont+de+Sant+Joan</description>
+            <Point>
+                <coordinates>1.83716,42.26269</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ogassa  Gratuito Si, Agua Si, WC No</name>
+            <address>Barri del Taller, 1, 17861 Ogassa, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ogassa</description>
+            <Point>
+                <coordinates>2.27267,42.26755</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Refugio libre de Les Planelles (Montgrony)  Gratuito; Agua: si; Wc: no</name>
+            <address>Carretera de Montgrony, 17531 Gombrèn, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Refugio+libre+de+Les+Planelles+(Montgrony)</description>
+            <Point>
+                <coordinates>2.08522,42.27012</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de descanso Monumento al Raier  (Gratuito; Agua: si; Wc: no)</name>
+            <address>N-260, 25500 La Pobla de Segur, Lérida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+de+descanso+Monumento+al+Raier</description>
+            <Point>
+                <coordinates>1.02787,42.27134</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area rec. El Frago  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Camino B, 9, 50610 El Frago, Zaragoza, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+rec.+El+Frago</description>
+            <Point>
+                <coordinates>-0.9355,42.27273</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Castillo de Sadaba  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>Calle Apóstol Santiago, 51A, 50670 Sádaba, Zaragoza, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Castillo+de+Sadaba</description>
+            <Point>
+                <coordinates>-1.26642,42.28126</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fonts del Llobregat (Castellar de n´Hug)  Gratuito; agua: no; Wc: no</name>
+            <address>Carrer de Barcelona, 1, 08696 Castellar de n'Hug, Barcelona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Fonts+del+Llobregat+(Castellar+de+n´Hug)</description>
+            <Point>
+                <coordinates>2.01601,42.28206</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Embalse Las Navas (Loarre)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Calle Barrio Viejo, 206, 22809 Loarre, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Embalse+Las+Navas+(Loarre)</description>
+            <Point>
+                <coordinates>-0.63779,42.28275</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pico del Águila  Agua: No, Wc: No, Gratuito: Si</name>
+            <address>Unnamed Road, 22150 Arguis, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Pico+del+Águila</description>
+            <Point>
+                <coordinates>-0.40229,42.30012</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Embalse de Santa Maria de Belsue  Agua: Si, WC: No, Gratuito: Si</name>
+            <address>HU-V-3241, 22150 Nueno, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Embalse+de+Santa+Maria+de+Belsue</description>
+            <Point>
+                <coordinates>-0.35272,42.30818</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camprodon  Gratuito: si Agua: si WC: No</name>
+            <address>Camí del Camp de la Vila, 8, 17867 Camprodon, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Camprodon</description>
+            <Point>
+                <coordinates>2.36475,42.30933</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Embalse de Sopeira  Gratuito; Agua: Si; Wc: no</name>
+            <address>Calle la Iglesia, 19A, 22583 Sopeira, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Embalse+de+Sopeira</description>
+            <Point>
+                <coordinates>0.75038,42.31752</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gerri de la Sal    (Gratuito;Agua:si;Wc:no;parking urbano)</name>
+            <address>Carrer Raval del Rosers, 15, 25590 Gerri de la Sal, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Gerri+de+la+Sal</description>
+            <Point>
+                <coordinates>1.06585,42.32471</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Estany de Montcortes, Vall Fosca  Gratuito: si Pernocta: si WC: Si Agua:si</name>
+            <address>Unnamed Road, 25513, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Estany+de+Montcortes,+Vall+Fosca</description>
+            <Point>
+                <coordinates>0.99431,42.32748</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Castillo de Loarre  Gratuito: Si, Pernocta: Si, Agua: No</name>
+            <address>Unnamed Road, 22809 Loarre, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Castillo+de+Loarre</description>
+            <Point>
+                <coordinates>-0.61073,42.32771</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Port de la Selva II  Gratuito; agua: no; wc: no; parking urbano</name>
+            <address>Carrer de la Ribera, 25, 17489 El Port de la Selva, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Port+de+la+Selva+II</description>
+            <Point>
+                <coordinates>3.20233,42.33468</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Murillo de Gallego  (Gratuito;Agua:no;WC:no)</name>
+            <address>Ctra. Tarragona San Sebastián, 1, 22808 Murillo de Gállego, Zaragoza, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Murillo+de+Gallego</description>
+            <Point>
+                <coordinates>-0.74915,42.33592</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Molina  Gratuito: si ; Agua; no; Wc: si</name>
+            <address>GI-400, 17537 Alp, Gerona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+La+Molina</description>
+            <Point>
+                <coordinates>1.94053,42.33691</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Braseria Era del Marxant (La Pobleta de BellveÃ­)  (Gratuito;Agua:si;WC:no)</name>
+            <address>Carrer Carretera Pobleta Bellvei, 30, 25513 La Torre de Cabdella, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Braseria+Era+del+Marxant+(La+Pobleta+de+BellveÃ­)</description>
+            <Point>
+                <coordinates>0.96107,42.34504</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de descanso Tunel del Cadí  Gratuito; Agua: no; Wc: si; area de descanso de autopista</name>
+            <address>C-16, 25721 Riu de Cerdanya, Lérida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+de+descanso+Tunel+del+Cadí</description>
+            <Point>
+                <coordinates>1.83455,42.34584</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ermita de Santiago (Aguero)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>HU-534, 22808 Agüero, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ermita+de+Santiago+(Aguero)</description>
+            <Point>
+                <coordinates>-0.78611,42.34695</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Riglos  Gratuito; Agua: no; Wc: no</name>
+            <address>Calle Carretera, 5, 22808 Riglos, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Riglos</description>
+            <Point>
+                <coordinates>-0.7272,42.34745</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Estacion de esqui Masella  Gratuito; Agua: no; Wc: no</name>
+            <address>Carretera Alp-masella P-3, 8, 17538 Alp, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Estacion+de+esqui+Masella</description>
+            <Point>
+                <coordinates>1.89978,42.35043</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking del cremallera a Nuria (Queralbs)   Gratuito: si; Agua: no; Wc: no</name>
+            <address>GIV-5217, 17534 Queralbs, Gerona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Parking+del+cremallera+a+Nuria+(Queralbs)</description>
+            <Point>
+                <coordinates>2.16652,42.3522</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PeÃ±a Rueba (Murillo de Gallego)  Gratuito; Agua: no; Wc: no; Pista de tierra; acceso dificil si llueve</name>
+            <address>Unnamed Road, 22808 Murillo de Gállego, Zaragoza, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+PeÃ±a+Rueba+(Murillo+de+Gallego)</description>
+            <Point>
+                <coordinates>-0.76801,42.35276</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mallos de Aguero  Agua: No, Wc: No, Gratuito: Si</name>
+            <address>Calle Iglesia, 9, 22808 Agüero, Huesca, Spain</address>
+            <Point>
+                <coordinates>-0.79516,42.35559</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cim de la Coma Morera  Gratuito; Agua: no; Wc: no; lugar apartado y solitario</name>
+            <address>Unnamed Road, 66340 Palau-de-Cerdagne, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Cim+de+la+Coma+Morera</description>
+            <Point>
+                <coordinates>2.02326,42.35605</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vall de La Muga  Agua: Si, Wc: No, Gratuito: Si</name>
+            <address>GI-503, 23, 17733 Albanyà, Gerona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Vall+de+La+Muga</description>
+            <Point>
+                <coordinates>2.67723,42.35956</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Martinet  (Gratuito.Agua:No WC:No)</name>
+            <address>Carrer del Segre, 155, 25724 Martinet, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Martinet</description>
+            <Point>
+                <coordinates>1.69864,42.35957</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fontalba  Gratuito; agua: no; Wc: no; Acceso por pista de tierra</name>
+            <address>Unnamed Road, 17534 Queralbs, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Fontalba</description>
+            <Point>
+                <coordinates>2.15206,42.36665</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bellver de Cerdanya  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Carrer Pujada Joan Alay, 4, 25720 Bellver de Cerdanya, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Bellver+de+Cerdanya</description>
+            <Point>
+                <coordinates>1.77576,42.37087</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Alp  Gratuito: Si, Agua: No, WC: No</name>
+            <address>Avinguda Pirineus, 29, 17538 Alp, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Alp</description>
+            <Point>
+                <coordinates>1.88384,42.37427</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Setcases  (Gratuito;Agua:si;Wc:no)</name>
+            <address>GIV-5264, 17869 Setcases, Gerona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Setcases</description>
+            <Point>
+                <coordinates>2.30183,42.37455</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Javierrelatre  Agua: Si, WC: No, Gratuito: Si</name>
+            <address>Barrio Alto, 43, 22624 Javierrelatre, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Javierrelatre</description>
+            <Point>
+                <coordinates>-0.5356,42.40898</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pistas esqui Puigmal-Err  (Gratuito;Agua:no;Wc:no)</name>
+            <address>D89, 66800 Err, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Pistas+esqui+Puigmal-Err</description>
+            <Point>
+                <coordinates>2.05915,42.40908</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sant Joan de L erm</name>
+            <address>Unnamed Road, 25712, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Sant+Joan+de+L+erm</description>
+            <Point>
+                <coordinates>1.29398,42.41541</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ainsa  Gratuito; Agua: no; Wc: si</name>
+            <address>Calle de Abajo, 22330 Aínsa, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ainsa</description>
+            <Point>
+                <coordinates>0.13433,42.41877</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lasieso   Gratuito; Agua:no; Wc: no; pueblo abandonado</name>
+            <address>Calle Iglesia de San Pedro, 37, 22621 Lasieso, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Lasieso</description>
+            <Point>
+                <coordinates>-0.4376,42.42294</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>VallTer  Gratuito; Agua: no; Wc: no</name>
+            <address>Rue Vallter, 17869 Setcases, Gerona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+VallTer</description>
+            <Point>
+                <coordinates>2.26554,42.42664</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pozo Pigalo (Luesia)  Gratuito: Si, Agua: No , WC: no</name>
+            <address>Unnamed Road, 50619 Luesia, Zaragoza, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Pozo+Pigalo+(Luesia)</description>
+            <Point>
+                <coordinates>-0.99581,42.42837</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Refugi Cap de Rec (Lles de Cerdanya)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 25726 Lles de Cerdanya, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Refugi+Cap+de+Rec+(Lles+de+Cerdanya)</description>
+            <Point>
+                <coordinates>1.6663,42.43029</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Castell de Requesens  Agua: No, WC: No, Luz: No, Gratuito: Si</name>
+            <address>Diseminado Afores, 39, 17708 Requesens, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Castell+de+Requesens</description>
+            <Point>
+                <coordinates>2.93936,42.45057</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Llesui  Gratuito; Agua: no; Wc:no</name>
+            <address>LV-5223, 25567 Sort, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Llesui</description>
+            <Point>
+                <coordinates>1.05631,42.4528</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Baños de Llo  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Voie Communale Carretera de Sallagosa, 66800 Llo, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Baños+de+Llo</description>
+            <Point>
+                <coordinates>2.05931,42.45403</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parc de Sant Guillem  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Sc les Prades del Segre, 14P, 17527, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Parc+de+Sant+Guillem</description>
+            <Point>
+                <coordinates>1.98105,42.45879</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Arles-Sur Tech  (Gratuito;Agua:no;Wc:si)</name>
+            <address>757 N Route nationale, 66150 Arles-sur-Tech, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Arles-Sur+Tech</description>
+            <Point>
+                <coordinates>2.64119,42.46369</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Refugi de Malniu (Meranges)  (Gratuito:no(7eur/noche);Agua:si;Wc:si)</name>
+            <address>Unnamed Road, 17539 Meranges, Girona, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Refugi+de+Malniu+(Meranges)</description>
+            <Point>
+                <coordinates>1.78576,42.46414</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Corsavy  Gratuito; Agua: si;Wc: si; parking en pueblo pequeño</name>
+            <address>34-35 Le Village, 66150 Corsavy, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Corsavy</description>
+            <Point>
+                <coordinates>2.57954,42.46723</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Eyne  Gratuito: si; Agua: si; Wc: si</name>
+            <address>D33, 66800 Eyne, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Eyne</description>
+            <Point>
+                <coordinates>2.08169,42.46957</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Olite  gratuito si, agua:si, wc:si</name>
+            <address>Plaza Carlos III El Noble, 20, 31390 Olite, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Olite</description>
+            <Point>
+                <coordinates>-1.65164,42.48147</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fuenticas (Olite)  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Diseminado Diseminados, 2014, 31390, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Fuenticas+(Olite)</description>
+            <Point>
+                <coordinates>-1.64682,42.48692</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Baños romanos de Dorres  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Carretera de las Escaldes, 66760 Dorres, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Baños+romanos+de+Dorres</description>
+            <Point>
+                <coordinates>1.94485,42.48707</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Estany de Sallente, Vall Fosca  Gratuito: Si, Agua: No, WC: No</name>
+            <address>Unnamed Road, 25515 La Torre de Cabdella, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Estany+de+Sallente,+Vall+Fosca</description>
+            <Point>
+                <coordinates>0.99068,42.48927</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aparcamiento en Ceret  Gratuito: si; Agua: si; Wc: si</name>
+            <address>8 Place du Pont, 66400 Céret, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Aparcamiento+en+Ceret</description>
+            <Point>
+                <coordinates>2.74227,42.49478</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fuente Moliniello (Fiscal)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>N-260, 22373 Fiscal, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Fuente+Moliniello+(Fiscal)</description>
+            <Point>
+                <coordinates>-0.13018,42.49499</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sos del Rey Catolico  (Gratuito; Agua: no; Wc: no; parking urbano)</name>
+            <address>Calle Letra B, 2, 50680 Sos del Rey Católico, Zaragoza, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Sos+del+Rey+Catolico</description>
+            <Point>
+                <coordinates>-1.21721,42.49617</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Font Romeu-Odeillo-Via   (Gratuito;Agua:no;Wc:no)</name>
+            <address>3B Avenue Professeur Félix Trombe, 66120 Font-Romeu-Odeillo-Via, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Font+Romeu-Odeillo-Via</description>
+            <Point>
+                <coordinates>2.03244,42.49656</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Barruera  (Gratuito;Agua:Si;Wc:no)</name>
+            <address>Calle del Riu, 25527, Lérida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Barruera</description>
+            <Point>
+                <coordinates>0.79456,42.50068</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Monasterio nuevo S.Juan de la Peña  (Gratuito;Agua:no;Wc:no)</name>
+            <address>A-1603, 22711 Jaca, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Monasterio+nuevo+S.Juan+de+la+Peña</description>
+            <Point>
+                <coordinates>-0.66429,42.50716</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Font de la Closa  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Camí Font de la Closa, AD700 Escaldes-Engordany, Andorra</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Font+de+la+Closa</description>
+            <Point>
+                <coordinates>1.56455,42.50909</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ermita de San Zoilo (Caseda)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>NA-534, 31490 Cáseda, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ermita+de+San+Zoilo+(Caseda)</description>
+            <Point>
+                <coordinates>-1.34815,42.51126</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puyarruego. Ordesa  Agua: No, Wc: No, Gratuito: Si</name>
+            <address>HU-631, Puértolas, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Puyarruego.+Ordesa</description>
+            <Point>
+                <coordinates>0.11205,42.51431</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ermitage St-Ferreol Ceret  Gratuito Si, Agua No, WC No</name>
+            <address>Sant Ferriol, 66400 Céret, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ermitage+St-Ferreol+Ceret</description>
+            <Point>
+                <coordinates>2.74349,42.51696</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Taul  Agua: Si, Wc: Si, Gratuito: Si</name>
+            <address>L-501, 6, 25528 La Vall de Boí, Lérida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Taul</description>
+            <Point>
+                <coordinates>0.84805,42.51715</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Les Fonts (Engolasters)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Ctra. d'Engolasters, 4-6, AD700 Escaldes-Engordany, Andorra</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Les+Fonts+(Engolasters)</description>
+            <Point>
+                <coordinates>1.57095,42.51766</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Llac d´Engolasters  Gratuito;Agua:si;Wc:si</name>
+            <address>Ctra. d'Engolasters, AD200 Encamp, Andorra</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Llac+d´Engolasters</description>
+            <Point>
+                <coordinates>1.57199,42.52228</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Boi  (Gratuito;Agua:si;WC:si)</name>
+            <address>Cami d'Erill, 12, 25528, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Boi</description>
+            <Point>
+                <coordinates>0.83302,42.5228</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parador de Oroel  Gratis: Si, Agua: Si, C:Si</name>
+            <address>Ctra. Jaca - Santa María de la Peña, 22700 Jaca, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Parador+de+Oroel</description>
+            <Point>
+                <coordinates>-0.555,42.525</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Casteil  (Gratuito;Agua:si;Wc:si)</name>
+            <address>D116, 66820 Casteil, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Casteil</description>
+            <Point>
+                <coordinates>2.39233,42.53334</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grau Roig (GrandValira)  (Gratuito;Agua:si;wc:si)</name>
+            <address>Ctra. de Grau Roig, AD200 Encamp, Andorra</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Grau+Roig+(GrandValira)</description>
+            <Point>
+                <coordinates>1.70092,42.53369</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Llosa-Clavera  (Gratuito.Agua:No.WC:Si)</name>
+            <address>D4C, 66360 Ayguatébia-Talau, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+La+Llosa-Clavera</description>
+            <Point>
+                <coordinates>2.14227,42.53531</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking de Pal (Vallnord)  Gratuito; Agua: si; Wc: si (solo de dia)</name>
+            <address>Ctra. de la Caubella, AD400 La Massana, Andorra</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Parking+de+Pal+(Vallnord)</description>
+            <Point>
+                <coordinates>1.48993,42.5367</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>VallNord Montaña  Gratuito;Agua:no;Wc:no; lugar solitario</name>
+            <address>Ctra. de la Caubella, AD400 La Massana, Andorra</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+VallNord+Montaña</description>
+            <Point>
+                <coordinates>1.49552,42.545</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Coll de la Botella  (Gratuito;Agua:no;Wc:no)</name>
+            <address>CG-4, AD400 La Massana, Andorra</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Coll+de+la+Botella</description>
+            <Point>
+                <coordinates>1.4529,42.54711</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Refugio de Lavasar  Gratuito; Agua: no; Wc: no</name>
+            <address>Calle Fuente la Saravillo, 1, 22366 Saravillo, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Refugio+de+Lavasar</description>
+            <Point>
+                <coordinates>0.25684,42.55454</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camp de la Tenada (Ordino)  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Carrer de Ventura, AD300 Ordino, Andorra</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Camp+de+la+Tenada+(Ordino)</description>
+            <Point>
+                <coordinates>1.53381,42.55525</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Estacion de esqui SUPER ESPOT  Gratuito: Si, Agua: No, WC: Si</name>
+            <address>Super Espot, 4, 25597 Espot, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Estacion+de+esqui+SUPER+ESPOT</description>
+            <Point>
+                <coordinates>1.09138,42.56297</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Polideportivo de Jaca  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>Calle Río Gas, 1, 22700 Jaca, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Polideportivo+de+Jaca</description>
+            <Point>
+                <coordinates>-0.54963,42.56367</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Embalse de llauset  Gratuito: Si, Pernocta: Si Agua:  No WC:No</name>
+            <address>Calle Nte., 22487 Montanuy, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Embalse+de+llauset</description>
+            <Point>
+                <coordinates>0.71866,42.56863</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jaca  Gratuito; Agua: no; Wc: no; parking urbano</name>
+            <address>Calle del Justicia de Aragón, 83, 22700 Jaca, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Jaca</description>
+            <Point>
+                <coordinates>-0.5444,42.57104</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Embalse de Matemale  (Altura limitada 2m;Gratuito;Agua:si;Wc:si)</name>
+            <address>La Matte E, 66210 Les Angles, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Embalse+de+Matemale</description>
+            <Point>
+                <coordinates>2.09695,42.57367</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ciudadela de Jaca  Gratuito; Agua: si; Wc: no; parking urbano</name>
+            <address>Calle Burnao, 18, 22700 Jaca, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ciudadela+de+Jaca</description>
+            <Point>
+                <coordinates>-0.5514,42.57437</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Espot   (Gratuito;Agua:no;Wc:no)</name>
+            <address>LV-5004, 25597 Espot, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Espot</description>
+            <Point>
+                <coordinates>1.09037,42.57487</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Centro Comercial El Tarter  Gratuito; Agua: no; Wc: no; parking exclusivo para Ac</name>
+            <address>CG-2, AD100 Canillo, Andorra</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Centro+Comercial+El+Tarter</description>
+            <Point>
+                <coordinates>1.64131,42.57932</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Estacion esqui El Tarter  Gratuito: si Pernocta: si WC: no Agua:no</name>
+            <address>CG-2, AD100 Canillo, Andorra</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Estacion+esqui+El+Tarter</description>
+            <Point>
+                <coordinates>1.64876,42.58006</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Arguisal  (Gratuito; agua: no; wc: no; sitio solitario junto al rio)</name>
+            <address>N-260, 805, 22666 Sabiñánigo, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Arguisal</description>
+            <Point>
+                <coordinates>-0.32379,42.58015</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Plan ( Valle de Chistau)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Ctra. San Juan de Plan, 12, 22367 Plan, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Plan+(+Valle+de+Chistau)</description>
+            <Point>
+                <coordinates>0.34015,42.58138</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Villefranche de Conflent  (gratuito:no(2eur/dia);agua:no;wc:si)</name>
+            <address>20 Rue Saint-Jean, 66820 Villefranche-de-Conflent, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Villefranche+de+Conflent</description>
+            <Point>
+                <coordinates>2.36607,42.58688</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>L'Hospitalet pres l'Andorre  Gratuito; Agua: si; Wc: si</name>
+            <address>5 N22, 09390 L'Hospitalet-prés-l'Andorre, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+L'Hospitalet+pres+l'Andorre</description>
+            <Point>
+                <coordinates>1.79868,42.58833</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Huesca,Eriste,Cascada Espigantosa  Gratuito: Si, Pernocta: Si Agua: Si WC:No</name>
+            <address>Calle San Antonio, 10, 22469 Eriste, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Huesca,Eriste,Cascada+Espigantosa</description>
+            <Point>
+                <coordinates>0.49007,42.58974</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Oros Bajo  Gratuito: Si, Agua: Si, WC: No</name>
+            <address>Calle Única, 38, 22636 Biescas, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Oros+Bajo</description>
+            <Point>
+                <coordinates>-0.3098,42.59146</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking Castillo de Javier  Gratuito: si; Agua: si; Wc: si</name>
+            <address>Plaza San Francisco Javier, 4, 31411 Javier, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Parking+Castillo+de+Javier</description>
+            <Point>
+                <coordinates>-1.21575,42.59364</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>St Michel de Cuixa  (Gratuito;Agua:no;Wc:si)</name>
+            <address>D27, 66500 Codalet, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+St+Michel+de+Cuixa</description>
+            <Point>
+                <coordinates>2.41584,42.59508</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pla de la Font  Gratuito:Si  Agua potable:No WC:No</name>
+            <address>Carr. d'Espot a Sant Maurici, 25597 Espot, Lérida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Pla+de+la+Font</description>
+            <Point>
+                <coordinates>1.07647,42.6019</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Valle de Broto  Luz: No Agua: no; WC: No Gratuito: Si</name>
+            <address>Ctra. Oto, 22370 Broto, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Valle+de+Broto</description>
+            <Point>
+                <coordinates>-0.12685,42.60554</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Embalse de Yesa  (Acceso por camino en mal estado;Gratuito;Agua:no;Wc:no)</name>
+            <address>N-240, 50682 Sigüés, Zaragoza, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Embalse+de+Yesa</description>
+            <Point>
+                <coordinates>-1.10385,42.61237</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pla de la Farga (Vall Ferrera)  Gratuito; Agua: no; Wc: no; lugar solitario</name>
+            <address>Diseminado Areo, 12, 25575 Alins, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Pla+de+la+Farga+(Vall+Ferrera)</description>
+            <Point>
+                <coordinates>1.32769,42.62048</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Espitau de Vielha  (Gratuito;Agua:no;WC:no)</name>
+            <address>Diseminado Dehores, 81, 25530 Er Espitao de Vielha, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Espitau+de+Vielha</description>
+            <Point>
+                <coordinates>0.76313,42.62723</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vall Nord  Gratuito; Agua: no; Wc: no</name>
+            <address>Ctra. d'Arcalís, AD300 Ordino, Andorra</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Vall+Nord</description>
+            <Point>
+                <coordinates>1.48459,42.63071</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Riu de les Salses  Gratuito:Si Aguae:Si (rio) WC:No</name>
+            <address>Ctra. Vella, AD300 Ordino, Andorra</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Riu+de+les+Salses</description>
+            <Point>
+                <coordinates>1.51116,42.63245</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bosc del Gerdar / Bosque del Gerdar  Gratuito: Si, Agua: No, WC: No</name>
+            <address>Urbanitzacio els Abets, 11, 25587, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Bosc+del+Gerdar+/+Bosque+del+Gerdar</description>
+            <Point>
+                <coordinates>1.04164,42.63558</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac de la Raho (Perpignan)   (Galibo 2m;Gratuito;Agua:no;Wc:no)</name>
+            <address>Les Serres, 66180 Villeneuve-de-la-Raho, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Lac+de+la+Raho+(Perpignan)</description>
+            <Point>
+                <coordinates>2.89704,42.63612</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Monasterio de Leire  Gratuito: Si, Pernocta: Si Agua: Si WC:No</name>
+            <address>NA-2113, 31410 Yesa, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Monasterio+de+Leire</description>
+            <Point>
+                <coordinates>-1.17058,42.63614</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area acampada de Senarta (Benasque)  (13eur/noche (furgo+2 pax);Agua: si;Wc:en verano;duchas:en verano)</name>
+            <address>A-139, 22440 Benasque, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+acampada+de+Senarta+(Benasque)</description>
+            <Point>
+                <coordinates>0.56683,42.64128</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Piscinas de Lumbier  Gratuito; Agua: si; Wc: no</name>
+            <address>Zona Deportiva, 31440 Lumbier, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Piscinas+de+Lumbier</description>
+            <Point>
+                <coordinates>-1.29999,42.65172</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Orris du Carla  Gratuito; Agua: si; Wc: si</name>
+            <address>Unnamed Road, 09220 Auzat, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Orris+du+Carla</description>
+            <Point>
+                <coordinates>1.44831,42.65759</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pònt deth Ressèc  Gratuito; Agua: no; wc: no</name>
+            <address>Camin de Valarties, 25599, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Pònt+deth+Ressèc</description>
+            <Point>
+                <coordinates>0.87004,42.65803</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cercle de Colomers  Agua: Si, WC: No, Gratuito: Si</name>
+            <address>Camin de Valarties, 25599, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Cercle+de+Colomers</description>
+            <Point>
+                <coordinates>0.92697,42.65871</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Dolmen de Santa Elena, Biescas, Huesca  Gratis: Si, Agua: Si, Wc: No</name>
+            <address>Ctra. Huesca a Francia, 22630 Biescas, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Dolmen+de+Santa+Elena,+Biescas,+Huesca</description>
+            <Point>
+                <coordinates>-0.3185,42.65938</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Presa de Montalto  Gratuito; Agua: no; Wc: no</name>
+            <address>Camí de Boavi, 25576 Lladorre, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Presa+de+Montalto</description>
+            <Point>
+                <coordinates>1.313,42.67155</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area rec. de Sta Maria de Eunate  (Gratuito;Agua:si;Wc:no)</name>
+            <address>NA-6063, 31152 Muruzábal, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+rec.+de+Sta+Maria+de+Eunate</description>
+            <Point>
+                <coordinates>-1.76421,42.67223</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area rec. El Cenarron  (Gratuito;Agua:no;Wc:no)</name>
+            <address>A-2605, 22730 Aragüés del Puerto, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+rec.+El+Cenarron</description>
+            <Point>
+                <coordinates>-0.70008,42.67679</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fuente del Paco  gratuito: si, agua: si, wc:no</name>
+            <address>Unnamed Road, 22870 Villanúa, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Fuente+del+Paco</description>
+            <Point>
+                <coordinates>-0.51773,42.68247</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aisa  (Gratuito;Agua:no;Wc:si)</name>
+            <address>A-2605, 22860 Aisa, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Aisa</description>
+            <Point>
+                <coordinates>-0.62124,42.68804</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area rec. de Urdues  (Gratuito;Agua:no;Wc:no)</name>
+            <address>HU-V-2102, 22732, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+rec.+de+Urdues</description>
+            <Point>
+                <coordinates>-0.72581,42.69365</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Valle de Bujaruelo  (8eur/noche;Agua:si;Wc:si)</name>
+            <address>Unnamed Road, 22376 Torla-Ordesa, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Valle+de+Bujaruelo</description>
+            <Point>
+                <coordinates>-0.10761,42.69411</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Millas  Gratuito: si; Agua: si; Wc: no</name>
+            <address>N116, 66170 Millas, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Millas</description>
+            <Point>
+                <coordinates>2.68377,42.69772</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Guell del Jueu, Valld Aran  Gratuito: si, Agua: Si, WC: no</name>
+            <address>Diseminado Gausac, 3, 25537, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Guell+del+Jueu,+Valld+Aran</description>
+            <Point>
+                <coordinates>0.70939,42.69902</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Orlu  Gratuito: Si, Pernocta: Si Agua: Si WC:si</name>
+            <address>D22, 09110 Orlu, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Orlu</description>
+            <Point>
+                <coordinates>1.89538,42.6993</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking Lacuniacha  Gratuito: si, Agua: si, Wc: no</name>
+            <address>Calle Única, 25D, 22665 Biescas, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Parking+Lacuniacha</description>
+            <Point>
+                <coordinates>-0.33216,42.70064</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Salardu  Gratuito; Agua: si; Wc: no</name>
+            <address>Mòla de Salardú, 32, 25598, Lérida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Salardu</description>
+            <Point>
+                <coordinates>0.90324,42.70525</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Dent de Orlu  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 09110 Ascou, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Dent+de+Orlu</description>
+            <Point>
+                <coordinates>1.93073,42.70638</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Muro embalse de Alloz  Gratuito; Agua: no; Wc: no</name>
+            <address>NA-7171, 31291, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Muro+embalse+de+Alloz</description>
+            <Point>
+                <coordinates>-1.9412,42.70645</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Foz de Benasa  Gratuito; Agua: no; Wc: no</name>
+            <address>NA-178, 31450 Navascués, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Foz+de+Benasa</description>
+            <Point>
+                <coordinates>-1.12342,42.7074</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aragues del Puerto  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Carretera, 22730 Aragüés del Puerto, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Aragues+del+Puerto</description>
+            <Point>
+                <coordinates>-0.66867,42.71011</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pantano de Alloz</name>
+            <address>NA-7171, 31291, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Pantano+de+Alloz</description>
+            <Point>
+                <coordinates>-1.94246,42.71645</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>CANFRANC PUEBLO  Gratuito: si Agua: Si WC: No</name>
+            <address>Calle Albareda, 16, 22888 Canfranc, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+CANFRANC+PUEBLO</description>
+            <Point>
+                <coordinates>-0.52464,42.71691</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Burgi  Gratuito; Agua: si; Wc: no</name>
+            <address>NA-137, 31412 Burgui, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Burgi</description>
+            <Point>
+                <coordinates>-1.00395,42.7186</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puente de Arriba (Canfranc)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>N-330, 22888 Canfranc, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Puente+de+Arriba+(Canfranc)</description>
+            <Point>
+                <coordinates>-0.5234,42.71973</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>El Pueyo de Jaca  Gratuito; Agua: si; Wc: no</name>
+            <address>Calle Baja, 1, 22662 El Pueyo de Jaca, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+El+Pueyo+de+Jaca</description>
+            <Point>
+                <coordinates>-0.30039,42.71994</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Valle del Tena</name>
+            <address>Ctra. Huesca a Francia, 22662 Panticosa, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Valle+del+Tena</description>
+            <Point>
+                <coordinates>-0.30418,42.72104</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Panticosa pueblo  Gratuito; Agua: no; Wc: no; parking urbano</name>
+            <address>Acceso Telesilla, 25, 22661, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Panticosa+pueblo</description>
+            <Point>
+                <coordinates>-0.28123,42.72142</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ax les Thermes   (Gratuito;Agua:no;Wc:no)</name>
+            <address>918 En Castel, 09110 Ax-les-Thermes, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ax+les+Thermes</description>
+            <Point>
+                <coordinates>1.83574,42.72201</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Refugi del Fornet  (Gratuito;Agua:si;Wc:no)</name>
+            <address>C-147, 25586, Lérida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Refugi+del+Fornet</description>
+            <Point>
+                <coordinates>1.10686,42.72572</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Força Réal-Millas  Gratuito: si; Agua: no; Wc: no</name>
+            <address>D38, 66720 Montner, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Força+Réal-Millas</description>
+            <Point>
+                <coordinates>2.69727,42.72856</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fuen de Churdana  Gratuito:Si Agua:Si. WC:No</name>
+            <address>A-176, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Fuen+de+Churdana</description>
+            <Point>
+                <coordinates>-0.77499,42.74025</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Valle de Rioumajou  (Gratuito;Agua:no;Wc:si)</name>
+            <address>D19, 65170 Saint-Lary-Soulan, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Valle+de+Rioumajou</description>
+            <Point>
+                <coordinates>0.30726,42.74278</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Heas-Circo de Troumousse  (Gratuito;Agua:si;WC:si)</name>
+            <address>Heas, 65120 Gèdre, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Heas-Circo+de+Troumousse</description>
+            <Point>
+                <coordinates>0.08939,42.74915</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Canfranc Estacion  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Camino A, 1, 22880 Canfranc-Estación, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Canfranc+Estacion</description>
+            <Point>
+                <coordinates>-0.51373,42.75494</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Anso  gratuito: si, agua: si, wc:no</name>
+            <address>A-176, 22728, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Anso</description>
+            <Point>
+                <coordinates>-0.83112,42.7568</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Baños de Panticosa  Gratuito; Agua: no; Wc: no</name>
+            <address>Calle Balneario, 1, 22650 Baños de Panticosa, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Baños+de+Panticosa</description>
+            <Point>
+                <coordinates>-0.23514,42.7611</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Les Granges dAstau  (Gratuito;Agua:no;Wc:no)</name>
+            <address>D76, 31110 Oô, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Les+Granges+dAstau</description>
+            <Point>
+                <coordinates>0.50115,42.76454</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sallent de Gallego  Gratuito: Si, WC: no; Agua: no</name>
+            <address>Calle Puente Romano, 9, 22640 Sallent de Gállego, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Sallent+de+Gallego</description>
+            <Point>
+                <coordinates>-0.33371,42.76951</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking de la iglesia (Formigal)  (Gratuito;Agua:no;WC:no)</name>
+            <address>Calle Sallent, 21, 22640 Sallent de Gállego, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Parking+de+la+iglesia+(Formigal)</description>
+            <Point>
+                <coordinates>-0.361,42.77296</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sauth deth Pish  Gratuito;Agua:no;Wc:no;lugar solitario</name>
+            <address>Diseminado Arros, 37, 25537, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Sauth+deth+Pish</description>
+            <Point>
+                <coordinates>0.83255,42.7768</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pont de Moudang  (Gratuito;Agua:si;Wc:no)</name>
+            <address>D929, 65170 Aragnouet, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Pont+de+Moudang</description>
+            <Point>
+                <coordinates>0.2469,42.78624</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gèdre  (Gratuito;Agua:si;Wc:si;parking en pueblo pequeño)</name>
+            <address>2 Gedre Débat, 65120 Gèdre, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Gèdre</description>
+            <Point>
+                <coordinates>0.01989,42.78824</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Garde  (Gratuito;Agua:Si;Wc:si)</name>
+            <address>NA-176, 31414 Garde, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Garde</description>
+            <Point>
+                <coordinates>-0.92435,42.7884</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Sarra  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Unnamed Road, 22640 Sallent de Gállego, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+La+Sarra</description>
+            <Point>
+                <coordinates>-0.33251,42.79712</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pistas Espelunziecha (Formigal)  Gratuito; Agua: no; Wc: no</name>
+            <address>A-136, 22640 Sallent de Gállego, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Pistas+Espelunziecha+(Formigal)</description>
+            <Point>
+                <coordinates>-0.41534,42.8012</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Etang de Lers  (Gratuito;Agua:no;Wc:no;lugar solitario)</name>
+            <address>D8F, 09140 Le Port, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Etang+de+Lers</description>
+            <Point>
+                <coordinates>1.37463,42.80848</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking de La Retirada (Tautavel)  (Gratuito;Agua:si;Wc:si;parking urbano)</name>
+            <address>28 Rue de la République, 66720 Tautavel, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Parking+de+La+Retirada+(Tautavel)</description>
+            <Point>
+                <coordinates>2.74377,42.81526</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Refugio Honeria (Canejan)  (Gratuito; Agua: no; Wc: no; lugar solitario y apartado)</name>
+            <address>Lloc Pradet, 1, 25548, Lleida, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Refugio+Honeria+(Canejan)</description>
+            <Point>
+                <coordinates>0.80705,42.81836</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac Cap de Long  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Bourdasse, 65170 Aragnouet, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Lac+Cap+de+Long</description>
+            <Point>
+                <coordinates>0.13886,42.81893</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac de LOule  (Gratuito;Agua:no;Wc:no)</name>
+            <address>D929, 65170 Aragnouet, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Lac+de+LOule</description>
+            <Point>
+                <coordinates>0.19005,42.81915</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Les Forges D Abel  Gratuito: si; Agua: no; Wc: no</name>
+            <address>Forges d'Abel, 64490 Urdos, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Les+Forges+D+Abel</description>
+            <Point>
+                <coordinates>-0.56157,42.82052</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pamplona centro  Gratuito; Agua: si; Wc: no</name>
+            <address>Paseo Anelier, 2-783, 31014 Pamplona, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Pamplona+centro</description>
+            <Point>
+                <coordinates>-1.64883,42.82184</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ussat-Tarascon sur Ariege  (Gratuito;Agua:no;Wc:no)</name>
+            <address>D123, 09400 Ussat, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ussat-Tarascon+sur+Ariege</description>
+            <Point>
+                <coordinates>1.61679,42.82927</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ansoain  Gratuito; Agua: si; Wc: no</name>
+            <address>Calle Canteras, 31, 31013 Ansoáin, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ansoain</description>
+            <Point>
+                <coordinates>-1.63609,42.83463</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Salses le Chateau  (2eur/noche;Agua:no;Wc:no)</name>
+            <address>1 Chemin du Rec, 66600 Salses-le-Château, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Salses+le+Chateau</description>
+            <Point>
+                <coordinates>2.91973,42.83799</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Castillo de Queribus  (Gratuito;Agua:no, Wc: hasta las 17:00h)</name>
+            <address>Unnamed Road, 11350 Cucugnan, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Castillo+de+Queribus</description>
+            <Point>
+                <coordinates>2.62402,42.83897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Laruns  (Gratuito;Agua:no;WC:no)</name>
+            <address>D934, 64440 Laruns, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Laruns</description>
+            <Point>
+                <coordinates>-0.38717,42.84502</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Fruitiere  Gratuito; Agua: no; Wc: no</name>
+            <address>Unnamed Road, 65110 Cauterets, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+La+Fruitiere</description>
+            <Point>
+                <coordinates>-0.09832,42.85297</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Col de la Core  (Gratuito;Agua:no;Wc:no)</name>
+            <address>D17, 09800 Bethmale, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Col+de+la+Core</description>
+            <Point>
+                <coordinates>1.1049,42.85917</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tacheras  Gratuito: si, Agua: si, Wc: no</name>
+            <address>Unnamed Road, 22728, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Tacheras</description>
+            <Point>
+                <coordinates>-0.8014,42.86175</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Isaba  (Gratuito;Agua:si;Wc:no)</name>
+            <address>NA-137, 31417 Isaba, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Isaba</description>
+            <Point>
+                <coordinates>-0.92227,42.86284</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking Turon (Luz St.Sauveur)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>5-7 Route de Gavarnie, 65120 Luz-Saint-Sauveur, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Parking+Turon+(Luz+St.Sauveur)</description>
+            <Point>
+                <coordinates>-0.00844,42.8643</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ermita de Santa Maria  Gratuito:Si Agua:No WC:No</name>
+            <address>Calle la Concepción, 8, 31438, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ermita+de+Santa+Maria</description>
+            <Point>
+                <coordinates>-1.3784,42.8647</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Zuriza</name>
+            <address>Unnamed Road, 22728, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Zuriza</description>
+            <Point>
+                <coordinates>-0.81161,42.8654</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Luz Ardiden  (Gratuito;Agua:no;Wc:si)</name>
+            <address>Unnamed Road, 65120 Grust, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Luz+Ardiden</description>
+            <Point>
+                <coordinates>-0.07158,42.86552</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Montsegur  Gratuito; Agua: si; Wc: si</name>
+            <address>130 Cap del Prat, 09300 Montségur, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Montsegur</description>
+            <Point>
+                <coordinates>1.83221,42.86739</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Padern  Gratuito;Agua:si;Wc:si</name>
+            <address>5 Rue de l'Affenage, 11350 Padern, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Padern</description>
+            <Point>
+                <coordinates>2.65836,42.86781</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Erremendia Area de la fuente de Lojanz  gratuito: si, agua:si, wc:no</name>
+            <address>NA-2021, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Erremendia+Area+de+la+fuente+de+Lojanz</description>
+            <Point>
+                <coordinates>-1.187,42.87296</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ezcaroz  Gratuito; Agua: si; Wc: no; parking urbano en pueblo pequeño</name>
+            <address>NA-140, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ezcaroz</description>
+            <Point>
+                <coordinates>-1.09874,42.88751</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cauterets, parking Avd. Dr Domer.  (Gratuito;Agua:no;WC:no)</name>
+            <address>42 Avenue du Dr Domer, 65110 Cauterets, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Cauterets,+parking+Avd.+Dr+Domer.</description>
+            <Point>
+                <coordinates>-0.11058,42.89487</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Linza  Gratuito: Si , Pernocta: Si</name>
+            <address>Unnamed Road, 22728, Huesca, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Linza</description>
+            <Point>
+                <coordinates>-0.80389,42.89628</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Termas de Bareges  Gratuito; Agua: no; Wc: no; parking urbano</name>
+            <address>9 Avenue Louvois, 65120 Barèges, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Termas+de+Bareges</description>
+            <Point>
+                <coordinates>0.06572,42.8973</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Uztarrotz  Gratuito; Agua: si; Wc: no</name>
+            <address>NA-140, 31418 Uztárroz/Uztarroze, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Uztarrotz</description>
+            <Point>
+                <coordinates>-0.95668,42.89928</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac d Estaign  (Gratuito;Agua:si;WC:si)</name>
+            <address>Saut, 65400 Estaing, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Lac+d+Estaign</description>
+            <Point>
+                <coordinates>-0.21157,42.9045</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area recreativa de Zatoya  Agua: No, Wc: No, Gratuito: Si</name>
+            <address>Unnamed Road, 31691 Abaurrea Alta, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+recreativa+de+Zatoya</description>
+            <Point>
+                <coordinates>-1.16858,42.90495</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>aparcamiento en Ochagavia  gratuito: si, agua: no, wc:no</name>
+            <address>Barrio Urrutia, 45, 31680 Ochagavía, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+aparcamiento+en+Ochagavia</description>
+            <Point>
+                <coordinates>-1.08802,42.9055</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Est.esqui Super-Bareges  Gratuito; Agua: no;Wc: si</name>
+            <address>Touët et Labach, 65120 Barèges, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Est.esqui+Super-Bareges</description>
+            <Point>
+                <coordinates>0.1305,42.90557</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac du Tech   (Gratuito;Agua:si;Wc:no)</name>
+            <address>D105, 65400 Arrens-Marsous, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Lac+du+Tech</description>
+            <Point>
+                <coordinates>-0.25912,42.91255</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Mongie ( Estacion de Ski)  Gratuito Si, Agua No, WC No</name>
+            <address>Rue Pêne-Nègre, 65200 Bagnères-de-Bigorre, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+La+Mongie+(+Estacion+de+Ski)</description>
+            <Point>
+                <coordinates>0.17916,42.91255</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Santuario de Nuestra Señora de Muskilda  gratuito: si, agua: si, wc:no</name>
+            <address>NA-2013, 31680 Ochagavía, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Santuario+de+Nuestra+Señora+de+Muskilda</description>
+            <Point>
+                <coordinates>-1.08551,42.91554</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Uharte Arakil  gratuito si, agua:si, wc:no</name>
+            <address>NA-2410, 31840, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Uharte+Arakil</description>
+            <Point>
+                <coordinates>-1.9684,42.92312</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Payolle  Gratuito; Agua: no; Wc: si (solo de dia)</name>
+            <address>D113, 65240 Arreau, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+La+Payolle</description>
+            <Point>
+                <coordinates>0.29292,42.93171</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rincon de Belagua  Gratuito: si Agua: No WC: si</name>
+            <address>NA-137, 31417 Isaba, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Rincon+de+Belagua</description>
+            <Point>
+                <coordinates>-0.83408,42.93322</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Franqui  Gratuito:no(6eur/noche);Agua:si;Wc:no;aparcamiento junto a camping</name>
+            <address>Les Coussoules-Basses, 11370 Leucate, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+La+Franqui</description>
+            <Point>
+                <coordinates>3.03289,42.94193</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking del Refugio de Belagua (Angel Oloron)  gratuito si, agua:no, wc:no</name>
+            <address>NA-137, 31417 Isaba, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Parking+del+Refugio+de+Belagua+(Angel+Oloron)</description>
+            <Point>
+                <coordinates>-0.83784,42.94317</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>San Miguel de Aralar  Gratuito;Agua:no;Wc:no</name>
+            <address>NA-7515, 31840, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+San+Miguel+de+Aralar</description>
+            <Point>
+                <coordinates>-1.96592,42.94681</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Paso de Tapla  (Gratuito;Agua:si;Wc:no)</name>
+            <address>NA-2012, 31680 Ochagavía, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Paso+de+Tapla</description>
+            <Point>
+                <coordinates>-1.13549,42.9571</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Col de Soulor  (Gratuito;Agua:no;Wc:no)</name>
+            <address>D918, 65400 Arrens-Marsous, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Col+de+Soulor</description>
+            <Point>
+                <coordinates>-0.25691,42.9606</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Foix II  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>Parking de la Vigne, 09000 Foix, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Foix+II</description>
+            <Point>
+                <coordinates>1.61053,42.96272</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Contienda (Belagua)  Gratuito; Agua: no; Wc: no</name>
+            <address>NA-137, 31417 Isaba, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+La+Contienda+(Belagua)</description>
+            <Point>
+                <coordinates>-0.77273,42.96343</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Foix I  Gratuito; Agua: no; Wc: no; parking urbano</name>
+            <address>19 Rue des Moulins, 09000 Foix, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Foix+I</description>
+            <Point>
+                <coordinates>1.60354,42.96527</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Robledal de Orgi (Valle de Ultzama)  (Gratuito:no(4eur);Agua:si;Wc:no)</name>
+            <address>NA-411, 31799, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Robledal+de+Orgi+(Valle+de+Ultzama)</description>
+            <Point>
+                <coordinates>-1.67839,42.96549</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Estacion f.f.c.c. Foix  Gratuito; Agua: si; Wc: no</name>
+            <address>15 Rue Pierre Semard, 09000 Foix, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Estacion+f.f.c.c.+Foix</description>
+            <Point>
+                <coordinates>1.60733,42.96964</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Salin de Lapalme  Gratuito; Agua: no; Wc: no</name>
+            <address>Unnamed Road, 11480 La Palme, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Salin+de+Lapalme</description>
+            <Point>
+                <coordinates>3.01897,42.97121</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puerto de Larrau  gratuito:si, agua:no, wc: no; parking junto a carretera</name>
+            <address>NA-2011, 31680 Ochagavía, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Puerto+de+Larrau</description>
+            <Point>
+                <coordinates>-0.9943,42.97402</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Campas de Sorogain  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Camino a Sorogain, 31695 Erro, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Campas+de+Sorogain</description>
+            <Point>
+                <coordinates>-1.40959,42.98252</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Col de Couraduque  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 65400 Aucun, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Col+de+Couraduque</description>
+            <Point>
+                <coordinates>-0.20387,42.99113</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Argeles-Gazost  Gratuito Si, Agua No, WC No</name>
+            <address>D913, 65400 Préchac, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Argeles-Gazost</description>
+            <Point>
+                <coordinates>-0.07669,42.99319</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kakueta  Gratuito Agua:No WC:No</name>
+            <address>Pont d'Enfer, 64560 Sainte-Engrace, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Kakueta</description>
+            <Point>
+                <coordinates>-0.8432,43.00112</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Selva de Irati-Arrazola  Agua SI-WC SI-Vaciado SI-Gratis</name>
+            <address>Unnamed Road, 31670 Orbaizeta, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Selva+de+Irati-Arrazola</description>
+            <Point>
+                <coordinates>-1.20833,43.00139</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bedous  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Rue du Mailh Abor, 64490 Bedous, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Bedous</description>
+            <Point>
+                <coordinates>-0.60276,43.0029</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Embalse de Irabia (lado frances)   (Gratuito;Agua:no;Wc:no;lugar solitario)</name>
+            <address>Unnamed Road, Ochagavía, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Embalse+de+Irabia+(lado+frances)</description>
+            <Point>
+                <coordinates>-1.14172,43.00808</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Orreaga-Roncesvalles  Gratuito; Agua: no; Wc: no</name>
+            <address>Calle Roncesvalles, 31650 Roncesvalles, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Orreaga-Roncesvalles</description>
+            <Point>
+                <coordinates>-1.31891,43.00909</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camon  (Gratuito;Agua:si;Wc:si)</name>
+            <address>3 Place Philippe de Lévis, 09500 Camon, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Camon</description>
+            <Point>
+                <coordinates>1.96853,43.02229</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saint-Bertrand de Comminges  Gratuito; agua: no; wc: no</name>
+            <address>D26, 31510 Saint-Bertrand-de-Comminges, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Saint-Bertrand+de+Comminges</description>
+            <Point>
+                <coordinates>0.57248,43.02918</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Les Salines de Sainte Lucie  Gratuito: si; Agua: no; WC: no</name>
+            <address>1172 Chemin de Sainte-Lucie, 11210 Port-la-Nouvelle, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Les+Salines+de+Sainte+Lucie</description>
+            <Point>
+                <coordinates>3.05287,43.0421</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>IRATY  Gratuito Si, Agua Si, WC Si</name>
+            <address>D18, 64220 Lecumberry, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+IRATY</description>
+            <Point>
+                <coordinates>-1.07389,43.04257</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puerto de Belate  gratuito: si, agua:si, wc:no</name>
+            <address>NA-1210, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Puerto+de+Belate</description>
+            <Point>
+                <coordinates>-1.61452,43.04905</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Limoux  (Gratuito;Agua:no;Wc:no)</name>
+            <address>14 Rue du Palais, 11300 Limoux, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Limoux</description>
+            <Point>
+                <coordinates>2.21782,43.05543</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bagneres de Bigorre</name>
+            <address>6 Place René Escoula, 65200 Bagnères-de-Bigorre, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Bagneres+de+Bigorre</description>
+            <Point>
+                <coordinates>0.15587,43.06136</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Louvie-Juzon  Altura limitada a 2m; Gratuito; Agua: si; Wc: si</name>
+            <address>Village, 64260 Izeste, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Louvie-Juzon</description>
+            <Point>
+                <coordinates>-0.42229,43.08617</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Estacion de Leitza  (Gratuitio;Agua:si;Wc:no)</name>
+            <address>Patxi Arrazola Kalea, 31880 Leitza, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Estacion+de+Leitza</description>
+            <Point>
+                <coordinates>-1.91829,43.08734</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mirepoix  (Gratuito;Agua:no;Wc:no)</name>
+            <address>34 Chemin des Amandes, 09500 Mirepoix, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Mirepoix</description>
+            <Point>
+                <coordinates>1.87767,43.09261</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area recreativa Urtoko-Zubieta  Gratuito; Agua: si; Wc: no</name>
+            <address>Aintzerga Auzoa, 20492 Berastegi, Gipuzkoa, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+recreativa+Urtoko-Zubieta</description>
+            <Point>
+                <coordinates>-1.94877,43.09829</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lourdes  Gratuito; Agua: no; Wc: no; parking urbano</name>
+            <address>1 Rue du Baratchele, 65100 Lourdes, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Lourdes</description>
+            <Point>
+                <coordinates>-0.06517,43.10811</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tardets-Sorholus   Gratuito; Agua: no; Wc: si</name>
+            <address>Foirail, 64470 Tardets-Sorholus, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Tardets-Sorholus</description>
+            <Point>
+                <coordinates>-0.86331,43.11563</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking en Elizondo  Gratuito Si, Agua Si, WC No; parking urbano</name>
+            <address>Calle Giltxaurdi, 38, 31700 Elizondo, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Parking+en+Elizondo</description>
+            <Point>
+                <coordinates>-1.51882,43.14792</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Alto de Larrazu  (Gratuito;Agua:no;Wc:no)</name>
+            <address>NA-4453, 31794, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Alto+de+Larrazu</description>
+            <Point>
+                <coordinates>-1.58224,43.15838</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Nacedero del Biduze  Gratuito; Agua: no; Wc: no</name>
+            <address>Arlacondoua, 64120 Saint-Just-Ibarre, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Nacedero+del+Biduze</description>
+            <Point>
+                <coordinates>-1.02903,43.16422</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Baigorri  Gratuito; Agua: si; Wc: si</name>
+            <address>7 Gaineko Karrika, 64430 Saint-Étienne-de-Baïgorry, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Baigorri</description>
+            <Point>
+                <coordinates>-1.34334,43.17657</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac de la Cavayere  Gratuito: si; Agua: si; Wc: si</name>
+            <address>60 Chemin de Gaja, 11000 Carcassonne, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Lac+de+la+Cavayere</description>
+            <Point>
+                <coordinates>2.41594,43.1836</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Erratzu  (Gratuito;Agua:no;Wc:no)</name>
+            <address>NA-2600, 26, 31714 Erratzu, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Erratzu</description>
+            <Point>
+                <coordinates>-1.4647,43.18361</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>El molino del Infierno (Baztan)</name>
+            <address>NA-4453, 31715, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+El+molino+del+Infierno+(Baztan)</description>
+            <Point>
+                <coordinates>-1.55988,43.20407</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pl.Gaston Jourdanne (Carcasonne)  (Prohibido de junio a sept; parking urbano)</name>
+            <address>1 Place Gaston Jourdanne, 11000 Carcassonne, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Pl.Gaston+Jourdanne+(Carcasonne)</description>
+            <Point>
+                <coordinates>2.36061,43.2106</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puerto de Otsondo  Gratuito: si; Agua: No; WC: si</name>
+            <address>NA-4453, 31715, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Puerto+de+Otsondo</description>
+            <Point>
+                <coordinates>-1.49845,43.23317</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ibos  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>Place du Herran, 65420 Ibos, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ibos</description>
+            <Point>
+                <coordinates>0.0079,43.23441</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Zaria-Aiako Arria  Agua NO-WC NO- Vaciado NO-Gratis</name>
+            <address>GI-3631, 20180, Guipúzcoa, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Zaria-Aiako+Arria</description>
+            <Point>
+                <coordinates>-1.83239,43.24381</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saint-Julien-sur-Garonne  Gratuito; Agua: no; wc: no; parking urbano</name>
+            <address>43-45 Barrère, 31220 Saint-Julien-sur-Garonne, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Saint-Julien-sur-Garonne</description>
+            <Point>
+                <coordinates>1.15271,43.24467</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Oialeku-Aiako Arria  Agua SI(300m)-WC NO- Vaciado NO-Gratis</name>
+            <address>GI-3631, 20180, Guipúzcoa, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Oialeku-Aiako+Arria</description>
+            <Point>
+                <coordinates>-1.82328,43.2474</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Valras plage   (Gratuito;Agua:no;Wc:no)</name>
+            <address>29 Boulevard Jean Dauga, 34350 Valras-Plage, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Valras+plage</description>
+            <Point>
+                <coordinates>3.29801,43.24942</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hernani 1  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>Antsorena Anaien Kalea, 5A, 20120 Hernani, Gipuzkoa, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Hernani+1</description>
+            <Point>
+                <coordinates>-1.97893,43.26213</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hernani 2  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>Madalena Kalea, 8, 20120 Hernani, Gipuzkoa, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Hernani+2</description>
+            <Point>
+                <coordinates>-1.97904,43.26246</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fronton de Urdax  Gratuito;Agua:si;Wc:si</name>
+            <address>Unk Salvatore Lektiu, 6, 31711 Urdax, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Fronton+de+Urdax</description>
+            <Point>
+                <coordinates>-1.50371,43.26484</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puerto fluvial de Le Somail  Gratuito; Agua: si; Wc: si</name>
+            <address>316 Chemin des Patiasses, 11590 Ginestas, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Puerto+fluvial+de+Le+Somail</description>
+            <Point>
+                <coordinates>2.90388,43.26682</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sorondo-Aiako Arria  Agua SI(Ozentzio)-WC NO- Vaciado NO-Gratis</name>
+            <address>Sorondo Bidea, 18, 20180, Gipuzkoa, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Sorondo-Aiako+Arria</description>
+            <Point>
+                <coordinates>-1.85021,43.26798</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puerto fluvial de Homps  (Gratuito;Agua:no;Wc:no)</name>
+            <address>37-39 Quai des Tonneliers, 11200 Homps, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Puerto+fluvial+de+Homps</description>
+            <Point>
+                <coordinates>2.71681,43.26859</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cuevas de Sara  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 64310 Sare, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Cuevas+de+Sara</description>
+            <Point>
+                <coordinates>-1.57113,43.26878</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Zugarramurdi  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Beitikokarrika, 1, 31710 Zugarramurdi, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Zugarramurdi</description>
+            <Point>
+                <coordinates>-1.54119,43.27066</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aritxulegi-Aiako arria  Agua SI-WC NO- Vaciado NO-Gratis</name>
+            <address>Lesakako Bidea, 22, 20180, Gipuzkoa, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Aritxulegi-Aiako+arria</description>
+            <Point>
+                <coordinates>-1.79477,43.2715</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sorotxo-Aiako Arria  Agua NO-WC NO- Vaciado NO-Gratis</name>
+            <address>Lesakako Bidea, 20, 20180, Gipuzkoa, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Sorotxo-Aiako+Arria</description>
+            <Point>
+                <coordinates>-1.80592,43.27361</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac de Jouarres  Gratuito: si; Agua: no; Wc: no</name>
+            <address>Chemin de Jouarres, 34210 Olonzac, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Lac+de+Jouarres</description>
+            <Point>
+                <coordinates>2.70864,43.27533</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bosque de Sare  Gratuito; Agua: no; Wc: no; lugar solitario</name>
+            <address>D306, 64310 Sare, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Bosque+de+Sare</description>
+            <Point>
+                <coordinates>-1.60225,43.27729</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Elurretxe-Aiako Arria  Agua NO-WC NO- Vaciado NO-Gratis</name>
+            <address>Barrio Olaberria, 127, 20303 Irun, Guipúzcoa, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Elurretxe-Aiako+Arria</description>
+            <Point>
+                <coordinates>-1.78659,43.29526</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Plaza de Verdun (Pau)  (parking urbano;Gratuito;Agua:no;Wc:no)</name>
+            <address>Place de Verdun, 64000 Pau, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Plaza+de+Verdun+(Pau)</description>
+            <Point>
+                <coordinates>-0.37542,43.2993</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Landagaita (Bera de Bidasoa)  (Gratuito;Agua:no;Wc:no;lugar solitario)</name>
+            <address>Kaule Auzoa, 15, 31789, Navarra, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Landagaita+(Bera+de+Bidasoa)</description>
+            <Point>
+                <coordinates>-1.65642,43.30027</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sorotxiki-Aiako Arria  Agua NO-WC NO- Vaciado NO-Gratis</name>
+            <address>Barrio Olaberria, 20303 Irun, Guipúzcoa, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Sorotxiki-Aiako+Arria</description>
+            <Point>
+                <coordinates>-1.76299,43.30161</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cintegabelle  Gratuito; Agua: no; Wc: no</name>
+            <address>1 Avenue du Maréchal Clauzel, 31550 Cintegabelle, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Cintegabelle</description>
+            <Point>
+                <coordinates>1.53471,43.31049</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sare</name>
+            <address>1 Lotissement Mendi Bixta, 64310 Sare, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Sare</description>
+            <Point>
+                <coordinates>-1.57953,43.31274</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Castelnaudary   Gratuito: si; Agua: no; Wc: no</name>
+            <address>Quai Labouisse Rochefort, 11400 Castelnaudary, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Castelnaudary</description>
+            <Point>
+                <coordinates>1.94955,43.31584</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cers  (Gratuito;Agua:no;Wc:no;junto al canal du Midi)</name>
+            <address>Route d'Agde, 34420 Cers, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Cers</description>
+            <Point>
+                <coordinates>3.30703,43.31684</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bartaous  (Gratuito;Agua:si;Wc:si)</name>
+            <address>D632, 31350 Péguilhan, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Bartaous</description>
+            <Point>
+                <coordinates>0.68347,43.31737</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pas de Roland (Itxasu-Laxia)  Gratuito Si, Agua No, WC No</name>
+            <address>Route du Pas de Roland, 64250 Itxassou, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Pas+de+Roland+(Itxasu-Laxia)</description>
+            <Point>
+                <coordinates>-1.4046,43.32013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pasai Donibane  Gratuito; Agua: no; Wc: no; parking urbano</name>
+            <address>Ámbito Portuario Kalea, 2F, 20110 Pasai Donibane, Gipuzkoa, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Pasai+Donibane</description>
+            <Point>
+                <coordinates>-1.91408,43.32276</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Monte Ulia  gratuito: si, agua: si, wc:no</name>
+            <address>Ulia Pasealekua, 360, 20013 Donostia, Gipuzkoa, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Monte+Ulia</description>
+            <Point>
+                <coordinates>-1.96011,43.32845</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ermita de San Marcial (Irun)  Gratuito: si; Agua: si; Wc: si</name>
+            <address>GI-3453, 20305 Irun, Guipúzcoa, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Ermita+de+San+Marcial+(Irun)</description>
+            <Point>
+                <coordinates>-1.76473,43.33081</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Monttu Baita(Trabenea)  (Gratuito;Agua:no;WC:no)</name>
+            <address>Chemin de Xurien Borda, 64310 Ascain, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Monttu+Baita(Trabenea)</description>
+            <Point>
+                <coordinates>-1.65958,43.3312</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lastours  Agua: No, Wc: No, Luz: No, Gratuito: Si</name>
+            <address>5 Route du Belvédère, 11600 Lastours, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Lastours</description>
+            <Point>
+                <coordinates>2.38047,43.33183</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lastours  (Gratuito; Agua: si; Wc: si)</name>
+            <address>1 Route des 4 Châteaux, 11600 Lastours, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Lastours</description>
+            <Point>
+                <coordinates>2.38144,43.33234</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Campa de los militares (Monte Jaizkibel)  Gratuito; Agua: si; Wc: no; lugar solitario</name>
+            <address>Jaizkibel Hiribidea, 20110 Pasaia, Gipuzkoa, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Campa+de+los+militares+(Monte+Jaizkibel)</description>
+            <Point>
+                <coordinates>-1.88674,43.33681</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Le Ségala  Gratuito;Agua:si;Wc:si</name>
+            <address>22 Espl. du Canal, 11320 Labastide-d'Anjou, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Le+Ségala</description>
+            <Point>
+                <coordinates>1.83551,43.34085</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Lago Senpere</name>
+            <address>21 Prom. du Parlement de Navarre, 64310 Saint-Pée-sur-Nivelle, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Area+Ac+Lago+Senpere</description>
+            <Point>
+                <coordinates>-1.52157,43.34937</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Longages  (Gratuito;Agua:si;Wc:no)</name>
+            <address>28 Chemin de Muret, 31410 Longages, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Longages</description>
+            <Point>
+                <coordinates>1.24705,43.35745</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Guadalupe (Hondarribia)  Gratuito; Agua: no; Wc: no</name>
+            <address>Barrio Gornutz-Montaña, 27, 20280 Hondarribia, Guipúzcoa, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Guadalupe+(Hondarribia)</description>
+            <Point>
+                <coordinates>-1.82064,43.36862</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hendaye  (Gratuito;Agua:no;Wc:no)</name>
+            <address>9021B Route de la Corniche, 64700 Hendaye, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Hendaye</description>
+            <Point>
+                <coordinates>-1.74428,43.37719</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puerto de Hondarribia  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Paseo Europa, Hondarribia, Guipúzcoa, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Puerto+de+Hondarribia</description>
+            <Point>
+                <coordinates>-1.79654,43.3786</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Faro de Higer (Hondarribia)  (Gratuito; Agua: no; Wc: no)</name>
+            <address>Bidea Higer, 56X, 20280, Gipuzkoa, Spain</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Faro+de+Higer+(Hondarribia)</description>
+            <Point>
+                <coordinates>-1.79204,43.39211</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cruz de Artxiloa  Agua: Si  WC: Si  Gratuito: Si</name>
+            <address>1-3 Square de la Croix d'Archilua, 64500 Saint-Jean-de-Luz, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Cruz+de+Artxiloa</description>
+            <Point>
+                <coordinates>-1.64977,43.40366</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chemin de Lafitenia (Ghethary)  (Gratuito;Agua:no;Wc:no; altura limitada a 2,10 m.))</name>
+            <address>80 Route des Plages, 64500 Saint-Jean-de-Luz, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Chemin+de+Lafitenia+(Ghethary)</description>
+            <Point>
+                <coordinates>-1.62571,43.4133</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Guethary  Gratuito; Agua: no; Wc: no</name>
+            <address>Sentier des Baleines, 64210 Guéthary, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Guethary</description>
+            <Point>
+                <coordinates>-1.60876,43.42618</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bidart  Gratuito; Agua: no; Wc: no; galibo 2 m; parking urbano</name>
+            <address>51 Rue de l'Uhabia, 64210 Bidart, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Bidart</description>
+            <Point>
+                <coordinates>-1.59686,43.43274</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jardineland (Bidart)  (Gratuito;Agua:no;Wc:no; parking urbano)</name>
+            <address>65-99 Avenue Source Royale, 64210 Bidart, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Jardineland+(Bidart)</description>
+            <Point>
+                <coordinates>-1.5761,43.44642</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa La Milady (Biarritz)</name>
+            <address>52 Rue de Madrid, 64200 Biarritz, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Playa+La+Milady+(Biarritz)</description>
+            <Point>
+                <coordinates>-1.57053,43.47042</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gymnase Robert Caillou (Bayonne)  (Gratuito;Agua:no;Wc:no; parking urbano)</name>
+            <address>13 Avenue Raoul Follereau, 64100 Bayonne, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Gymnase+Robert+Caillou+(Bayonne)</description>
+            <Point>
+                <coordinates>-1.47277,43.47879</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa cotes des Basques. Biarritz  Agua: No, Wc: No, Gratuito: Si</name>
+            <address>7 Boulevard du Prince de Galles, 64200 Biarritz, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Playa+cotes+des+Basques.+Biarritz</description>
+            <Point>
+                <coordinates>-1.56633,43.47993</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saint Pons de Thomieres  (Gratuito;Agua:si;Wc:no)</name>
+            <address>285 Avenue de la Gare, 34220 Saint-Pons-de-Thomières, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Saint+Pons+de+Thomieres</description>
+            <Point>
+                <coordinates>2.77502,43.48624</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Champ de Foire (Bayonne)  (Gratuito;Agua:no;Wc:no; parking urbano)</name>
+            <address>22 Allées Paulmy, 64100 Bayonne, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Champ+de+Foire+(Bayonne)</description>
+            <Point>
+                <coordinates>-1.48121,43.49031</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gorges de Heric  (5eur/noche;Agua:si;Wc:si;Vaciado:si;Elec:no)</name>
+            <address>Verdier-Haut, 34390 Mons, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Gorges+de+Heric</description>
+            <Point>
+                <coordinates>2.96758,43.57368</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cité de l´Espace (Toulouse)  (Gratuito; Agua: si; Wc: si)</name>
+            <address>7 Avenue Jean Gonord, 31500 Toulouse, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Cité+de+l´Espace+(Toulouse)</description>
+            <Point>
+                <coordinates>1.49214,43.58716</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parc de Gourjade  Gratuito: si Agua: no WC: no</name>
+            <address>209 Avenue de Roquecourbe, 81100 Castres, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Parc+de+Gourjade</description>
+            <Point>
+                <coordinates>2.25285,43.62032</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac de Salagou  (Gratuito.Agua:Si WC:Si)</name>
+            <address>Route du Lac, 34800 Clermont-l'Hérault, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Lac+de+Salagou</description>
+            <Point>
+                <coordinates>3.389,43.64368</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aubiet  Agua: No, Wc: No, Luz: No, Gratuito: Si</name>
+            <address>Route de Mauvezin, 32270 Aubiet, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Aubiet</description>
+            <Point>
+                <coordinates>0.78065,43.64772</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lago de Le Houga  Gratuito: Si, Pernocta: Si Agua: Si WC:si</name>
+            <address>Unnamed Road, 32460 Le Houga, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Lago+de+Le+Houga</description>
+            <Point>
+                <coordinates>-0.19067,43.76691</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Plaza de toros de Vieux-Boucau  (Gratuito;Agua:no;Wc:si;parking urbano)</name>
+            <address>Avenue de la Liberté, 40480 Vieux-Boucau-les-Bains, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Plaza+de+toros+de+Vieux-Boucau</description>
+            <Point>
+                <coordinates>-1.40195,43.78722</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Messanges Plage  (Gratuito;Agua:no:Wc:si)</name>
+            <address>D82, 40660 Messanges, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Messanges+Plage</description>
+            <Point>
+                <coordinates>-1.40081,43.81613</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac Leon en Las Landas</name>
+            <address>369 Avenue du Lac, 40550 Léon, France</address>
+            <description>[Q] https://www.google.es/search?q=site%3Awww.furgovw.org+Lac+Leon+en+Las+Landas</description>
+            <Point>
+                <coordinates>-1.31707,43.88534</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

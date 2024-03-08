@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Poland</description>
+        <Placemark>
+            <name>Czorsztyn  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Kosibowicza, 34-443 Sromowce Wyżne, Poland</address>
+            <Point>
+                <coordinates>20.3564,49.3995</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jasliska  (Gratuito;Agua:no;Wc:no)</name>
+            <address>DW897, 38-450, Poland</address>
+            <Point>
+                <coordinates>21.76461,49.45783</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Katy  (Gratuito;Agua:no;Wc:no)</name>
+            <address>DW992 63, 38-230, Poland</address>
+            <Point>
+                <coordinates>21.51483,49.57111</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rabka-Zdroj  (Gratuito;Agua:no;Wc:si)</name>
+            <address>DK47, Chabówka, Poland</address>
+            <Point>
+                <coordinates>19.93897,49.57649</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Szczytna  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Sikorskiego 31, 57-320 Polanica-Zdrój, Poland</address>
+            <Point>
+                <coordinates>16.47967,50.42642</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Nisko  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Rzeszowska, 37-400 Nisko, Poland</address>
+            <Point>
+                <coordinates>22.1412,50.48838</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ozimek  (Gratuito;Agua:no;Wc:no)</name>
+            <address>DK46 4, Poland</address>
+            <Point>
+                <coordinates>18.3147,50.71072</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>MontaÃ±as de Karkonosze  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Karkonoska 8d, Karpacz, Poland</address>
+            <Point>
+                <coordinates>15.7345,50.77458</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Czestochowa  (2,5eur/24h;Agua:si;Wc:si)</name>
+            <address>Klasztorna 1, 42-226 Częstochowa, Poland</address>
+            <Point>
+                <coordinates>19.09369,50.812</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mysliborz  (Area en autovia;Agua:si;Wc:si)</name>
+            <address>E65, Poland</address>
+            <Point>
+                <coordinates>14.86423,53.05112</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Olsztyn  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Ryszarda Knosały 3/5, 11-041 Olsztyn, Poland</address>
+            <Point>
+                <coordinates>20.47933,53.77392</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Przewiez   (Gratuito;Agua:si;WC:si)</name>
+            <address>DK16, 16-326, Poland</address>
+            <Point>
+                <coordinates>23.09599,53.86713</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Wolin  (Gratuito;Agua:no;Wc:no)</name>
+            <address>DW102 4, Poland</address>
+            <Point>
+                <coordinates>14.58689,53.96989</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Paslek  (Gratuito;Agua:no;Wc:si)</name>
+            <address>DW526, Poland</address>
+            <Point>
+                <coordinates>19.6142,53.99453</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gizycko  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Niegocińska 7, Wilkasy, Poland</address>
+            <Point>
+                <coordinates>21.73666,54.00636</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lago de Gizycko  (Gratuito;Agua:no;Wc:si)</name>
+            <address>Niegocińska 5, Wilkasy, Poland</address>
+            <Point>
+                <coordinates>21.73608,54.00836</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Castillo de Malbork  (Gratuito;Agua:no;Wc:no)</name>
+            <address>plac Gabriela Narutowicza, Malbork, Poland</address>
+            <Point>
+                <coordinates>19.03306,54.03917</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Abadia de Wigry  (Gratuito;Agua:no;Wc:si, de pago)</name>
+            <address>Wigry 11, 16-412 Wigry, Poland</address>
+            <Point>
+                <coordinates>23.08559,54.06922</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lago de Hancza  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Błaskowizna 35, 16-404 Błaskowizna, Poland</address>
+            <Point>
+                <coordinates>22.81392,54.25222</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Smolniki  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Smolniki 16, 16-405 Smolniki, Poland</address>
+            <Point>
+                <coordinates>22.88631,54.28719</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mielno  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 76-002 Łazy, Poland</address>
+            <Point>
+                <coordinates>16.14857,54.28807</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Dubeninki  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Stańczyki 2, 19-504 Stańczyki, Poland</address>
+            <Point>
+                <coordinates>22.6564,54.29563</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Frombork  (Gratuito;Agua:no;Wc:si)</name>
+            <address>Dworcowa 1, 14-530 Frombork, Poland</address>
+            <Point>
+                <coordinates>19.6765,54.35847</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Wizajny  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Wierzbołowska 52, 16-407 Wiżajny, Poland</address>
+            <Point>
+                <coordinates>22.85925,54.3775</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Krynica Morska  (Gratuito:no(4eur/dia);Agua:no;Wc:si)</name>
+            <address>Bursztynowa, 82-120 Krynica Morska, Poland</address>
+            <Point>
+                <coordinates>19.60253,54.438</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hel  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Dworcowa 4, 84-150 Hel, Poland</address>
+            <Point>
+                <coordinates>18.79822,54.62108</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jastarnia  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Świętopełka 3, 84-141 Jastarnia, Poland</address>
+            <Point>
+                <coordinates>18.71925,54.68303</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Peninsula de Hel  Agua: No, Wc: No, Gratuito: Si</name>
+            <address>Hallera 26, 84-130 Jastarnia, Poland</address>
+            <Point>
+                <coordinates>18.58028,54.73319</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Krokowa  (Gratuito;Agua:no;Wc:no)</name>
+            <address>DW213, 84-110, Poland</address>
+            <Point>
+                <coordinates>18.05357,54.79588</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

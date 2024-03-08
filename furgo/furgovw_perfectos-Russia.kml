@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Russia</description>
+        <Placemark>
+            <name>Complejo turÃ­stico Prichal  (300 rublas/noche;Agua:si; WC:si; electric:si; restaurante;embarcadero)</name>
+            <address>Unnamed Road, Rabocheostrovsk, Kareliya Republits, Russia, 186601</address>
+            <Point>
+                <coordinates>34.78682,64.99082</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hotel Fires of Murmansk  (800 rublas; luz; WC; piscina; sauna)</name>
+            <address>ul. Ogni Murmanska, 1, Murmansk, Murmanskaya oblast', Russia, 183008</address>
+            <Point>
+                <coordinates>33.14303,68.93172</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

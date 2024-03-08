@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Czech Republic</description>
+        <Placemark>
+            <name>Ceske Budejovice  Gratuito; Agua: no; Wc: no</name>
+            <address>Senovážné nám. 166/13, České Budějovice 6, 370 01 České Budějovice, Czech Republic</address>
+            <Point>
+                <coordinates>14.47758,48.97257</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Plzen  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>Štruncovy sady 493/1, Východní Předměstí, 301 00 Plzeň-Plzeň 3, Czech Republic</address>
+            <Point>
+                <coordinates>13.38396,49.75013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>HG Sportcentrum Troja (Praga)  (Gratuito:no(12eur/noche);Agua,wc,duchas)</name>
+            <address>Bubenečský tunel, 171 00 Praha-Troja, Czech Republic</address>
+            <Point>
+                <coordinates>14.42495,50.11375</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Greece</description>
+        <Placemark>
+            <name>Camping Atreus (Micenas)  8.5 eur/noche (furgo+2 pax); electricidad, piscina, sombra, lavanderia.</name>
+            <address>EO Mikinon Fichtion, Argos Mykines 212 00, Greece</address>
+            <Point>
+                <coordinates>22.74092,37.71912</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Athens (Atenas)  Tarifa: 25eur (furgo+2 pax);conexion con el centro.</name>
+            <address>Leof. Athinon 290, Peristeri 121 36, Greece</address>
+            <Point>
+                <coordinates>23.67209,38.00867</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Delphi (Delphos)  Tarifa: 22 eur/dia (furgo+2 pax); piscina; restaurante: wifi</name>
+            <address>Unnamed Road, Delfi 330 54, Greece</address>
+            <Point>
+                <coordinates>22.47511,38.47852</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Kalami Beach (Epiro)  Tarifa aprox: 25 eur/dia (furgo+2 pax)</name>
+            <address>EO Prevezas Igoumenitsas, Igoumenitsa 461 00, Greece</address>
+            <Point>
+                <coordinates>20.24108,39.47346</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Vrachos Kastraki (Meteora)  Gratuito: no; Agua: si; Wc: si; Supermercado; Wifi; Duchas</name>
+            <address>Epar.Od. Kalampakas-Agiou Stefanou 11, Kastraki 422 00, Greece</address>
+            <Point>
+                <coordinates>21.61749,39.71513</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Bosnia and Herzegovina</description>
+        <Placemark>
+            <name>Ravno  (Gratuito;Agua:no;Wc:no)</name>
+            <address>M20, Bosnia and Herzegovina</address>
+            <Point>
+                <coordinates>18.19417,42.65461</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pocitelj  (Gratuito;Agua:no;Wc:no)</name>
+            <address>M17, Bosnia and Herzegovina</address>
+            <Point>
+                <coordinates>17.73069,43.13508</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cascadas de Kravice  (2marcos/h;Agua:no;WC:si)</name>
+            <address>Unnamed Road, Studenci, Bosnia and Herzegovina</address>
+            <Point>
+                <coordinates>17.60855,43.15832</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Blagaj  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, Blagaj, Bosnia and Herzegovina</address>
+            <Point>
+                <coordinates>17.89617,43.25786</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puente Sokolovic (Visegrad)   (Gratuito;Agua:no;Wc:no)</name>
+            <address>Palih boraca, Višegrad, Bosnia and Herzegovina</address>
+            <Point>
+                <coordinates>19.28902,43.78181</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Donja Ljubogosta  (Cantera abandonada y sin servicios)</name>
+            <address>E761, Bosnia and Herzegovina</address>
+            <Point>
+                <coordinates>18.52821,43.85321</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Komar  (Gratuito;Agua:no;Wc:no)</name>
+            <address>M5, Bosnia and Herzegovina</address>
+            <Point>
+                <coordinates>17.48086,44.21181</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lago Plivsko  (Gratuito;Agua:no;WC:no)</name>
+            <address>E761, Bosnia and Herzegovina</address>
+            <Point>
+                <coordinates>17.22252,44.34637</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa fluvial de Kljuc   (Gratuito;Agua:si;Wc:no)</name>
+            <address>E761, Bosnia and Herzegovina</address>
+            <Point>
+                <coordinates>16.7974,44.52416</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bihac  (Gratuito;Agua;si;Wc:no)</name>
+            <address>Put Armije R BiH, Bosnia and Herzegovina</address>
+            <Point>
+                <coordinates>15.91703,44.79753</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

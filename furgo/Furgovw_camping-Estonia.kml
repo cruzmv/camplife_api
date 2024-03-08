@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Estonia</description>
+        <Placemark>
+            <name>Camping de Haapsalu  Gratuito: No, Pernocta: Si Agua: Si WC:si</name>
+            <address>Niine põik 4, Haapsalu, 90507 Lääne maakond, Estonia</address>
+            <Point>
+                <coordinates>23.54267,58.94053</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

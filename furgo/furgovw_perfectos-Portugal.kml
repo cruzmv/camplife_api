@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Portugal</description>
+        <Placemark>
+            <name>Sagres  Agua: No, Wc: No, Gratuito: Si</name>
+            <address>R. da Fortaleza 22, 8650-327 Sagres, Portugal</address>
+            <Point>
+                <coordinates>-8.94449,37.00514</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Mareta (Sagres)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>R. Cmte. Matoso 75, 8650-357 Sagres, Portugal</address>
+            <Point>
+                <coordinates>-8.93971,37.00607</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cabo San Vicente  (Gratuito;Agua:no;WC:no)</name>
+            <address>N268, 8650 Sagres, Portugal</address>
+            <Point>
+                <coordinates>-8.99551,37.02347</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Beliche (Sagres)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>N268, 8650 Sagres, Portugal</address>
+            <Point>
+                <coordinates>-8.96284,37.02677</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia do Barranco  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 8650 Raposeira, Portugal</address>
+            <Point>
+                <coordinates>-8.89589,37.04342</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia Secreta (Raposeira)  Gratuito: Si, Pernocta: Si Agua:  No WC:No</name>
+            <address>EM1257, 8650 Raposeira, Portugal</address>
+            <Point>
+                <coordinates>-8.88275,37.04648</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Ingrina  Agua: No, Wc: No, Gratuito: Si</name>
+            <address>EM1257, 8650 Raposeira, Portugal</address>
+            <Point>
+                <coordinates>-8.87968,37.04733</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia Boca do Rio  Gratuito: si; Agua: si; Wc: no</name>
+            <address>Unnamed Road, 8650 Budens, Portugal</address>
+            <Point>
+                <coordinates>-8.80918,37.06661</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Quarteira  Gratuito; Agua: no; Wc: no</name>
+            <address>Alameda Praia da Marina, 8125-507 Quarteira, Portugal</address>
+            <Point>
+                <coordinates>-8.11248,37.07096</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia dos Arrifes (Albufeira)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>R. dos Corais 117, 8200 Albufeira, Portugal</address>
+            <Point>
+                <coordinates>-8.27791,37.07603</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Galé (Albufeira)  (Gratuito;Agua:no;Wc:si)</name>
+            <address>Estrada da Galé 118, 8200-424 Guia, Portugal</address>
+            <Point>
+                <coordinates>-8.31566,37.08158</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia da Marinha (Lagoa)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 8400 Lagoa, Portugal</address>
+            <Point>
+                <coordinates>-8.41297,37.09073</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area recreativa Cordoama  (Gratuito;Agua:no;Wc:no)</name>
+            <address>EM1265, 8650, Portugal</address>
+            <Point>
+                <coordinates>-8.9322,37.09122</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Albandeira  (Gratuito;Agua:no;Elec:no)</name>
+            <address>Unnamed Road, 8400 Porches, Portugal</address>
+            <Point>
+                <coordinates>-8.40014,37.09151</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pedras d'el Rei  Gratuito; Agua: no; Wc: no</name>
+            <address>R. Padre António Nascimento Patrício 162F, 8800-541 Santa Luzia, Portugal</address>
+            <Point>
+                <coordinates>-7.67766,37.09184</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Cordoama  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 8650, Portugal</address>
+            <Point>
+                <coordinates>-8.93561,37.10874</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking en Lagos  Gratuito: si Agua: No WC: No</name>
+            <address>R. Teixeira da Mota, 8600-315 Lagos, Portugal</address>
+            <Point>
+                <coordinates>-8.67203,37.11072</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Embarcadero de la isla de Tavira  Gratuito; Agua: no; Wc: no</name>
+            <address>Estr. das 4 Águas 101K, 8800 Tavira, Portugal</address>
+            <Point>
+                <coordinates>-7.63202,37.1188</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Portimao  Gratuito:no(2eur/dia);Agua:no;Wc:si)</name>
+            <address>Av. Rio Arade, 8500-802 Portimão, Portugal</address>
+            <Point>
+                <coordinates>-8.53139,37.11925</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia Tres Castelos (Portimao)  Gratuito; agua: no; Wc: no; parking urbano</name>
+            <address>R. dos Três Castelos, 8500-801 Portimão, Portugal</address>
+            <Point>
+                <coordinates>-8.54741,37.1197</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tavira  Gratuito: si Pernocta: si WC: no Agua:no</name>
+            <address>Unnamed Road, 8800 Tavira, Portugal</address>
+            <Point>
+                <coordinates>-7.62069,37.12019</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Alvor  Gratuito;Agua:no;Wc:no</name>
+            <address>R. da Ribeira, 8500 Alvor, Portugal</address>
+            <Point>
+                <coordinates>-8.59574,37.12389</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ferragudo II  Gratuito; Agua: no; Wc: no</name>
+            <address>R. Infante Dom Henrique 44, 8400 Ferragudo, Portugal</address>
+            <Point>
+                <coordinates>-8.52217,37.12606</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tavira  Gratuito Si, Agua No, WC No</name>
+            <address>R. Silva Domingues, 8800-318 Tavira, Portugal</address>
+            <Point>
+                <coordinates>-7.64505,37.12663</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ferragudo I  Gratuito: Si, Pernocta: Si Agua: No WC:No</name>
+            <address>R. Dr. António Sérgio 10-11, 8400 Parchal, Portugal</address>
+            <Point>
+                <coordinates>-8.51741,37.1363</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fabrica  (Gratuito;Agua:si;Wc:si)</name>
+            <address>R. de Fábrica, 8900 Vila Nova de Cacela, Portugal</address>
+            <Point>
+                <coordinates>-7.55509,37.15353</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Moinhos da Rocha  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 8800, Portugal</address>
+            <Point>
+                <coordinates>-7.69814,37.15746</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Manta Rota  (Gratuito;Agua:no;Wc:si)</name>
+            <address>R. da Praia da Manta Rota, 8900 Vila Nova de Cacela, Portugal</address>
+            <Point>
+                <coordinates>-7.51978,37.16515</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Altura (Castro Marim)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Av. 24 de Junho 146, 8950-411 Altura, Portugal</address>
+            <Point>
+                <coordinates>-7.50037,37.17123</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia Verde (Castro Marim)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>R. de Real Village - Praia Verde 155D, 8950-411 Altura, Portugal</address>
+            <Point>
+                <coordinates>-7.48286,37.17724</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Silves  Gratuito; Agua: no; Wc: no</name>
+            <address>Parque Ribeirinho de Silves, 8300 Silves, Portugal</address>
+            <Point>
+                <coordinates>-8.44528,37.18647</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa Bordeira  Gratuito: si Pernocta: si WC: no Agua:no</name>
+            <address>Estrada da Praia, 8670, Portugal</address>
+            <Point>
+                <coordinates>-8.90266,37.19287</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Carrapateira-Acantilados  Gratuito: si Pernocta: si WC: no Agua:no</name>
+            <address>Estrada da Praia, 8670, Portugal</address>
+            <Point>
+                <coordinates>-8.91442,37.19377</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aljezur  Gratuito: si, Agua: no, Wc: no</name>
+            <address>N120, 8670-156 Aljezur, Portugal</address>
+            <Point>
+                <coordinates>-8.80293,37.31637</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa Carriagem  Gratuito: Si, Pernocta: Si Agua:  No WC:No</name>
+            <address>Unnamed Road, 8670, Portugal</address>
+            <Point>
+                <coordinates>-8.84196,37.35783</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Samouqueira  Gratuito: Si , Pernocta: Si</name>
+            <address>Unnamed Road, 8670, Portugal</address>
+            <Point>
+                <coordinates>-8.81471,37.39868</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Esteveira, Rogil  Gratuito: Si, Agua: No, WC: No</name>
+            <address>Unnamed Road, 8670, Portugal</address>
+            <Point>
+                <coordinates>-8.81108,37.40629</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia de Odeceixe  (Gratuito;agua:no;Wc:no)</name>
+            <address>R. Principal, 8670-325 Odeceixe, Portugal</address>
+            <Point>
+                <coordinates>-8.79804,37.43753</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Odeceixe  Gratuito: si Pernocta: si WC: no Agua:si</name>
+            <address>Beco do Posto, 8670-320 Odeceixe, Portugal</address>
+            <Point>
+                <coordinates>-8.79463,37.43928</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Alcoutim  (Gratuito;Agua:no;WC:no)</name>
+            <address>Av. de Espanha 25, 8970-064 Alcoutim, Portugal</address>
+            <Point>
+                <coordinates>-7.4738,37.47294</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pomarao  (Gratuito:si;Agua:no;WC:no)</name>
+            <address>HU-6400, 21594 El Granado, Huelva, Spain</address>
+            <Point>
+                <coordinates>-7.52422,37.55751</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Costa de Almograve  Gratuito;Agua:no;Wc:no;acceso por pista bacheada</name>
+            <address>Unnamed Road, Portugal</address>
+            <Point>
+                <coordinates>-8.80594,37.6449</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Almograve  Agua: Si, WC: No, Gratuito: Si</name>
+            <address>Unnamed Road, 7630-174, Portugal</address>
+            <Point>
+                <coordinates>-8.80533,37.64832</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Minas de Sao Domingos  Gratuito: Si, Pernocta: Si Agua:  Si WC:No</name>
+            <address>R. da Liberdade 39, 7750-172, Portugal</address>
+            <Point>
+                <coordinates>-7.50381,37.67263</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>VilaNova de Milfontes (Portugal)  Gratuito: si Pernocta: si WC: no Agua:no</name>
+            <address>Unnamed Road, 7630-174, Portugal</address>
+            <Point>
+                <coordinates>-8.78395,37.7147</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Falesia do forte  gratuito:si, agua:no, wc:no</name>
+            <address>Unnamed Road, 7520, Portugal</address>
+            <Point>
+                <coordinates>-8.7917,37.8257</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia Sao Torpes  (Gratuito;Agua:si;Wc:si)</name>
+            <address>A26-1, 7520 Sines, Portugal</address>
+            <Point>
+                <coordinates>-8.80497,37.92294</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Beja  Gratuito; Agua: si; Wc: si</name>
+            <address>R. 1º de Maio, 7800-309 Beja, Portugal</address>
+            <Point>
+                <coordinates>-7.8767,38.01676</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Badoca park  Gratuito: si; Agua: si; Wc: si</name>
+            <address>A26, Santiago do Cacém, Portugal</address>
+            <Point>
+                <coordinates>-8.7443,38.041</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia Melides (Portugal)  Gratuito: Si , Pernocta: Si</name>
+            <address>Unnamed Road, 7570 Melides, Portugal</address>
+            <Point>
+                <coordinates>-8.79282,38.12914</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fonthainas-Aberta Nova  Agua: Si, Wc: Si, Gratuito: Si</name>
+            <address>Unnamed Road, 7570 Melides, Portugal</address>
+            <Point>
+                <coordinates>-8.78202,38.17981</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aldeia da Luz  Gratuito: si; Agua: si; Wc: si</name>
+            <address>Unnamed Road, 7240, Portugal</address>
+            <Point>
+                <coordinates>-7.3869,38.3436</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Comporta  Gratuito: si Pernocta: si WC: no Agua:no</name>
+            <address>N253-1, 7570, Portugal</address>
+            <Point>
+                <coordinates>-8.80192,38.38256</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cabo Espichel  Gratuito Si, Agua No, WC Si</name>
+            <address>N379, 2970, Portugal</address>
+            <Point>
+                <coordinates>-9.2144,38.42034</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Monsaraz  (Gratuito;Agua:no;Wc:no)</name>
+            <address>R. das Parreiras 1, 7200-175, Portugal</address>
+            <Point>
+                <coordinates>-7.38071,38.44224</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia das Bicas  Gratuito; Agua: no; Wc: no</name>
+            <address>Unnamed Road, 2970, Portugal</address>
+            <Point>
+                <coordinates>-9.19139,38.46345</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia da Figueirinha (Setubal)  (Gratuito;Agua:si;Wc:si;duchas:si)</name>
+            <address>N379-1, 2900 Setúbal, Portugal</address>
+            <Point>
+                <coordinates>-8.94311,38.48482</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Troia  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>R. do Rosmaninho, 7570-789, Portugal</address>
+            <Point>
+                <coordinates>-8.90617,38.49198</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Comenda (Setubal)  (Gratuito;Agua:si;WC:si; Ducha: si)</name>
+            <address>N10-4, 2900 Setúbal, Portugal</address>
+            <Point>
+                <coordinates>-8.92848,38.50839</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa Albarquel  Gratuito; Agua: no; Wc: no</name>
+            <address>N10-4, 2900 Setúbal, Portugal</address>
+            <Point>
+                <coordinates>-8.91434,38.51112</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puerto de Setubal  (Gratuito;Agua:no;WC:no)</name>
+            <address>Av. José Mourinho 94, 2900 Setúbal, Portugal</address>
+            <Point>
+                <coordinates>-8.90198,38.51881</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Evora  Gratuito; Agua: no; Ec: no</name>
+            <address>Av. Gen. Humberto Delgado, 7000 Évora, Portugal</address>
+            <Point>
+                <coordinates>-7.90668,38.56695</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Escadas do Poco Novo (Palmela)  Gratuito; Agua: si; Wc: no; parking urbano</name>
+            <address>Escada do Poço Novo 12, 2950-279 Palmela, Portugal</address>
+            <Point>
+                <coordinates>-8.90192,38.56787</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Torre de Belem  Gratuito; agua: no; Wc: si (05 eur.)</name>
+            <address>Av. Brasília BP, 1400-038 Lisboa, Portugal</address>
+            <Point>
+                <coordinates>-9.21332,38.69218</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Forte de Sao Teodosio (Estoril)  Gratuito; Agua: no; Wc: no</name>
+            <address>Av. Marques Leal 48, 2765-079 São João do Estoril, Portugal</address>
+            <Point>
+                <coordinates>-9.39078,38.70196</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cabo Raso (Cascais)  Gratuito; Agua: no; Wc: no</name>
+            <address>N247, 2750-642 Cascais, Portugal</address>
+            <Point>
+                <coordinates>-9.47517,38.72754</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia de Guincho (Cascais)  Gratuito: Si, Pernocta: Si Agua:  No WC:No</name>
+            <address>Unnamed Road, 2755 Alcabideche, Portugal</address>
+            <Point>
+                <coordinates>-9.46945,38.73713</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Embalse Rio de Mula  Gratuito Si, Agua No, WC No</name>
+            <address>Barragem do Rio da Mula, 2755 Alcabideche, Portugal</address>
+            <Point>
+                <coordinates>-9.42233,38.76364</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cabo da Roca  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Estrada do Cabo da Roca, 2705 Colares, Portugal</address>
+            <Point>
+                <coordinates>-9.49758,38.78075</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ursa  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 2705 Colares, Portugal</address>
+            <Point>
+                <coordinates>-9.4905,38.78794</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking praça Dom Fernando II (Sintra)  Gratuito: si Agua: No WC: No</name>
+            <address>Praça Dom Fernando II 6, 2710 Sintra, Portugal</address>
+            <Point>
+                <coordinates>-9.37992,38.79024</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Volta do Douche (Sintra)  Gratuito; Agua: no; wc: no</name>
+            <address>R. Guilherme Gomes Fernandes, 2710-631 Sintra, Portugal</address>
+            <Point>
+                <coordinates>-9.3881,38.79695</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia Grande (Sintra)  (parking de restaurante)</name>
+            <address>Av. Alfredo Coelho 11, 2705 Colares, Portugal</address>
+            <Point>
+                <coordinates>-9.47509,38.81777</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Estremoz  (Gratuito;Agua:no;WC:si)</name>
+            <address>Rossio Marquês de Pombal 58, 7100 Estremoz, Portugal</address>
+            <Point>
+                <coordinates>-7.58596,38.84278</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Elvas  Gratuito Si, Agua Si, WC Si</name>
+            <address>Av. da Boa Fé 34, 7350 Elvas, Portugal</address>
+            <Point>
+                <coordinates>-7.15939,38.88389</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Foz do Lizandro  (Gratuito;Agua:no;Wc:no)</name>
+            <address>R. do Brejo 29, 2655 Carvoeira, Portugal</address>
+            <Point>
+                <coordinates>-9.41202,38.93947</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Foz de Lizandro  Gratuito: si; Agua: no; Wc: no</name>
+            <address>N247 6, 2655 Carvoeira, Portugal</address>
+            <Point>
+                <coordinates>-9.41423,38.94411</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fluviario de Mora  Gratuito: si; Agua: si; Wc: si</name>
+            <address>Unnamed Road, 7490 Cabeção, Portugal</address>
+            <Point>
+                <coordinates>-8.107,38.954</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia do Sul (Ericeira)  Gratuito: Si, Pernocta: Si Agua:  Si WC:Si</name>
+            <address>N247 35, 2655-400 Ericeira, Portugal</address>
+            <Point>
+                <coordinates>-9.41548,38.95529</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ericeira (Portugal)  Gratuito: Si , Pernocta: Si</name>
+            <address>A21, 2655 Ericeira, Portugal</address>
+            <Point>
+                <coordinates>-9.40351,38.96079</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parque de meriendas Ericeira  (Gratuito;Agua:si;Wc:si;Duchas:si)</name>
+            <address>R. Ribeira da Baleia 10, 2655 Ericeira, Portugal</address>
+            <Point>
+                <coordinates>-9.41262,38.96333</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Barrio de los Pescadores  (Gratuito;Agua:no;Wc:si)</name>
+            <address>R. São Vicente, 2655-319 Ericeira, Portugal</address>
+            <Point>
+                <coordinates>-9.41867,38.97078</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa Ribera de Ilhas, Ericeira</name>
+            <address>N247, 2655-319 Ericeira, Portugal</address>
+            <Point>
+                <coordinates>-9.41766,38.98877</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia Sao Lourenço  Gratuito: si; Agua: si; Wc: si</name>
+            <address>R. da Falésia, 2640 Encarnação, Portugal</address>
+            <Point>
+                <coordinates>-9.42073,39.01164</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Porto Novo  Gratuito: Si, WC: No, Agua: No</name>
+            <address>Av. Dr. Joaquim Jacinto 41, 2560 A dos Cunhados, Portugal</address>
+            <Point>
+                <coordinates>-9.36211,39.16467</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lourinha, praia Areia branca  Gratuto Si, Agua Si, WC Si</name>
+            <address>Largo da Foz, 2530 Lourinhã, Portugal</address>
+            <Point>
+                <coordinates>-9.33464,39.2635</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia Consolacao  Gratuito Si, Agua No, WC Si</name>
+            <address>R. Pôr do Sol 17, 2525 Atouguia da Baleia, Portugal</address>
+            <Point>
+                <coordinates>-9.35803,39.32225</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia Supertubos  Gratuito Si, Agua No, WC No</name>
+            <address>N114, 2525 Atouguia da Baleia, Portugal</address>
+            <Point>
+                <coordinates>-9.36369,39.34856</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Peniche extramuros  Gratuito Si, Agua No, WC No</name>
+            <address>R. da Ponte Velha, 2520 Peniche, Portugal</address>
+            <Point>
+                <coordinates>-9.37723,39.35755</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Peninsula de Peniche  Gratuito; Agua: no; Wc: no</name>
+            <address>Urbanização da Papoa 3, 2520 Peniche, Portugal</address>
+            <Point>
+                <coordinates>-9.37649,39.37243</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Baleal, Peniche</name>
+            <address>Av. da Praia 18, 2520 Ferrel, Portugal</address>
+            <Point>
+                <coordinates>-9.33673,39.37267</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Piscina fluvial de Portagem  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Estr. do Rio Sever 1113, 7330, Portugal</address>
+            <Point>
+                <coordinates>-7.38482,39.38211</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lagoa de Obidos  Gratuito: si; Agua: no; Wc: no</name>
+            <address>EM573, 2510, Portugal</address>
+            <Point>
+                <coordinates>-9.22652,39.38785</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Marvao  Gratuito; agua: no; Wc: no</name>
+            <address>N359-6, 7330 Marvão, Portugal</address>
+            <Point>
+                <coordinates>-7.37763,39.39554</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ribeira da Venda  (Gratuito;Agua:si;Wc:si;Duchas)</name>
+            <address>Unnamed Road, 6040 Comenda (Castelo Cernado), Portugal</address>
+            <Point>
+                <coordinates>-7.80008,39.4127</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Olhos d Agua  Gratuito: si; Agua: no; Wc: si</name>
+            <address>CM1442, 2380, Portugal</address>
+            <Point>
+                <coordinates>-8.71123,39.44448</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Abrantes  Gratuito; Agua: si; Wc: si</name>
+            <address>Esplanada das Docas, 2200 Abrantes, Portugal</address>
+            <Point>
+                <coordinates>-8.19056,39.45399</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Castelo de Almourol  (Gratuito;Agua:no;Wc:no)</name>
+            <address>EM1191, 2260 Praia do Ribatejo, Portugal</address>
+            <Point>
+                <coordinates>-8.38304,39.46323</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Constancia  Gratuito: si; Agua: si; Wc: si</name>
+            <address>Av. das Forças Armadas, 2250 Constância, Portugal</address>
+            <Point>
+                <coordinates>-8.34176,39.4761</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa fluvial de Belver  Gratuito; Agua: si; Wc: si (solo de di­a)</name>
+            <address>Unnamed Road, 6040 Gavião, Portugal</address>
+            <Point>
+                <coordinates>-7.96823,39.48826</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grutas Santo Antonio  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Unnamed Road, 2480, Portugal</address>
+            <Point>
+                <coordinates>-8.74176,39.53707</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa Nazare  Gratuito: si Agua: No WC: No</name>
+            <address>Av. Manuel Remígio 123, 2450-106 Nazaré, Portugal</address>
+            <Point>
+                <coordinates>-9.07372,39.58884</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Castillo de Tomar  Gratuito; Agua: no; Wc: no</name>
+            <address>Colina do Castelo, 2300 Tomar, Portugal</address>
+            <Point>
+                <coordinates>-8.41735,39.60403</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking en el mirador de Sitio (Nazare)  Gratuito: Si, Agua: No, WC: No</name>
+            <address>Estr. do Farol, 2450 Nazaré, Portugal</address>
+            <Point>
+                <coordinates>-9.07832,39.60456</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia do Norte (Nazare)  (Gratuito;Agua:no;WC:no)</name>
+            <address>Unnamed Road, 2450 Nazaré, Portugal</address>
+            <Point>
+                <coordinates>-9.08312,39.61113</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia Pedras Negras (Marinha Grande)  Gratuito: Si, Agua: Si, WC: No</name>
+            <address>Unnamed Road, 2430 M.nha Grande, Portugal</address>
+            <Point>
+                <coordinates>-8.99878,39.81921</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia de Vieira   (Gratuito;Agua:no;Wc:si)</name>
+            <address>Av. Marginal, 2430 Vieira de Leiria, Portugal</address>
+            <Point>
+                <coordinates>-8.96607,39.87949</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Idanha-A-Velha  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Largo do Espírito Santo 1, 6060-041, Portugal</address>
+            <Point>
+                <coordinates>-7.14355,39.99775</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pozo Corga  Gratuito Si, Agua Si, WC Si</name>
+            <address>EM510-1, 3280 Castanheira de Pêra, Portugal</address>
+            <Point>
+                <coordinates>-8.18972,40.02458</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Penela  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Av. Bombeiros Voluntários de Penela 11, 3230-263 Penela, Portugal</address>
+            <Point>
+                <coordinates>-8.39247,40.02893</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Relva  Gratuito; Agua: si; Wc: si</name>
+            <address>R. da Estrada 21, 6060 Monsanto, Portugal</address>
+            <Point>
+                <coordinates>-7.11611,40.04572</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ruinas romanas de Coninbriga  Gratuito; Agua: si; Wc: si (cierran por la noche)</name>
+            <address>R. das Ruínas 7, 3150 Condeixa-a-Velha, Portugal</address>
+            <Point>
+                <coordinates>-8.49014,40.09871</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia da Cova I  Gratuito: si; Agua: si; Wc: si</name>
+            <address>R. Eng. António Gravato, 3090-751 Figueira da Foz, Portugal</address>
+            <Point>
+                <coordinates>-8.85956,40.12403</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia da Cova II  (Gratuito;Agua:no;Wc:si)</name>
+            <address>R. Mar 6, 3090-687 Figueira da Foz, Portugal</address>
+            <Point>
+                <coordinates>-8.86337,40.1253</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Figueira da Foz  (Gratuito:no;Agua:no;Wc:no)</name>
+            <address>Av. Espanha, 3080 Figueira da Foz, Portugal</address>
+            <Point>
+                <coordinates>-8.86695,40.1477</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Penamacor  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>R. Adelino P. F. Galhardo 2, 6090-529 Penamacor, Portugal</address>
+            <Point>
+                <coordinates>-7.17228,40.16801</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Montemor-o-Velho  (Gratuito;Agua:si;Wc:si)</name>
+            <address>R. de São Sebastião, 3140 Montemor-o-Velho, Portugal</address>
+            <Point>
+                <coordinates>-8.67345,40.17061</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia de Quiaios (Portugal)  Gratuito; Agua: si; Wc: si</name>
+            <address>R. Manuel Bento LC, 3080-515 Praia de Quiaios, Portugal</address>
+            <Point>
+                <coordinates>-8.8927,40.21693</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Torre (Serra da Estrela)  (Gratuito;Agua:no;Wc:no;Altitud=2000m))</name>
+            <address>R. dos Mercadores, 6270 Loriga, Portugal</address>
+            <Point>
+                <coordinates>-7.61338,40.32183</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa fluvial Sabugueiro  (Gratuito;Agua:si;Wc:si)</name>
+            <address>R. da Fonte do Serro, 6270, Portugal</address>
+            <Point>
+                <coordinates>-7.63918,40.40023</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia do Mira II  Gratuito Si, Agua No, WC No</name>
+            <address>R. da Praia 42, 3070-723 Praia de Mira, Portugal</address>
+            <Point>
+                <coordinates>-8.80247,40.45776</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia da Vagueira  (Gratuito;Agua:si;WC:no)</name>
+            <address>R. 4 269, 3840-246, Portugal</address>
+            <Point>
+                <coordinates>-8.76683,40.56516</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Costa Nova do Prado (Aveiro)  Gratuito; Agua: si; Wc: si</name>
+            <address>R. do Banho, 3830 Gafanha da Encarnação, Portugal</address>
+            <Point>
+                <coordinates>-8.75208,40.61438</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aveiro  Gratuito; Agua: si; Wc: no</name>
+            <address>Cais de São Roque 7, 3800-141 Aveiro, Portugal</address>
+            <Point>
+                <coordinates>-8.65617,40.64459</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sao Jacinto</name>
+            <address>Av. Marginal Carlos Cardoso de Oliveira 37, 3800-901 São Jacinto, Portugal</address>
+            <Point>
+                <coordinates>-8.72739,40.66217</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia de Sao Jacinto  Gratuito; Agua; si; Wc: si; Duchas: si</name>
+            <address>Av. Riamar 246, 3800 São Jacinto, Portugal</address>
+            <Point>
+                <coordinates>-8.74301,40.66889</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Almeida  Gratuito; Agua: si; Wc: si ; parking en pueblo pequeño</name>
+            <address>Rua da Muralha 53, 6350-234 Almeida, Portugal</address>
+            <Point>
+                <coordinates>-6.90448,40.72755</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cais do Bico (Murtosa)  (Gratuito;Agua:si;Wc:si)</name>
+            <address>R. Vasco da Gama 90A, 3870-178 Murtosa, Portugal</address>
+            <Point>
+                <coordinates>-8.64935,40.73013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puerto de Torreira  (Gratuito;Agua:no;Wc:no)</name>
+            <address>N327, 3870 Torreira, Portugal</address>
+            <Point>
+                <coordinates>-8.70247,40.75578</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Trancoso  Gratuito; Agua: no; Wc: si</name>
+            <address>N226 14, 6420 Trancoso, Portugal</address>
+            <Point>
+                <coordinates>-7.35304,40.7807</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Furadouro (Portugal)  (Gratuito;Agua:no;Wc;no)</name>
+            <address>R. das Camarinhas, 3880 Ovar, Portugal</address>
+            <Point>
+                <coordinates>-8.67337,40.8765</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Barca de Alba  (Gratuito;Agua:no;Wc:si)</name>
+            <address>N221, 6440, Portugal</address>
+            <Point>
+                <coordinates>-6.94116,41.028</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lamego, Piscinas municipales  (Gratuito;Agua:no;WC:no)</name>
+            <address>R. Dom Marcos de Mendonça 1, 5100 Lamego, Portugal</address>
+            <Point>
+                <coordinates>-7.81369,41.09447</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vila Nova de Gaia   Gratuito; Agua: no; Wc: no</name>
+            <address>R. Dona Leonor de Freitas 167, 4400-123 Vila Nova de Gaia, Portugal</address>
+            <Point>
+                <coordinates>-8.6201,41.13248</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Miradouro da Serra do Pilar  Gratuito: Si, Agua: Si, WC: No</name>
+            <address>R. Pilar 243, 4430-999 Vila Nova de Gaia, Portugal</address>
+            <Point>
+                <coordinates>-8.61025,41.13748</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vila Nova de Gaia  Gratuito: si, Agua: no, Wc: no</name>
+            <address>Cais do Cavaco 2, 4400 Vila Nova de Gaia, Portugal</address>
+            <Point>
+                <coordinates>-8.63231,41.1431</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Oporto  (Gratuito:Agua:no;Wc:no;parking urbano)</name>
+            <address>R. do Ouro 1492, 4150-554 Porto, Portugal</address>
+            <Point>
+                <coordinates>-8.65252,41.14811</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Estadio do Dragao (Oporto)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>R. Maria Adelaide Freitas Concalves, 4350-414 Porto, Portugal</address>
+            <Point>
+                <coordinates>-8.58747,41.16516</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia fluvial Foz do Sabor  (Gratuito;Agua:si;Wc:si;duchas)</name>
+            <address>Unnamed Road, 5160, Portugal</address>
+            <Point>
+                <coordinates>-7.11161,41.17739</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pinhao  Gratuito: si; Agua: si; Wc: no</name>
+            <address>EM590, 5085, Portugal</address>
+            <Point>
+                <coordinates>-7.54805,41.19</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Estacion de Tua  (Gratuito;Agua:no;Wc:no)</name>
+            <address>N212, 5140, Portugal</address>
+            <Point>
+                <coordinates>-7.42097,41.20744</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mercado de Amarante  Gratuito; Agua: si; Wc: si</name>
+            <address>R. do Cap. Augusto Casimiro, 4600-758 Amarante, Portugal</address>
+            <Point>
+                <coordinates>-8.07613,41.27002</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vila do Conde (Oporto)  Gratuito Si, Agua No, WC No</name>
+            <address>R. Joaquim Moreira da Silva 15, 4480 Vila do Conde, Portugal</address>
+            <Point>
+                <coordinates>-8.74573,41.34496</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Castelo de Guimaraes  (Gratuito;Agua:no;Wc:no)</name>
+            <address>R. de Dona Teresa, 4800 Guimarães, Portugal</address>
+            <Point>
+                <coordinates>-8.28901,41.44903</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Miranda do Douro  Gratuito: Si, Pernocta: Si Agua:  Si WC:Si</name>
+            <address>N218, 5210 Miranda do Douro, Portugal</address>
+            <Point>
+                <coordinates>-6.26982,41.49059</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Esposende  (Gratuito;Agua:no;Wc:si)</name>
+            <address>Av. Eng. Eduardo Arantes e Oliveira 32, 4740-204 Esposende, Portugal</address>
+            <Point>
+                <coordinates>-8.78047,41.52782</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Santuario de  Bom Jesus de Monte (Braga)  Gratuito: Si, Agua: Si, WC: no</name>
+            <address>Parque do Bom Jesus, 4715-056 Braga, Portugal</address>
+            <Point>
+                <coordinates>-8.37747,41.5544</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia fluvial da Ribeira (Embalse de Azibo)  Gratuito; Agua: si; Wc: si</name>
+            <address>Azibo, 5340, Portugal</address>
+            <Point>
+                <coordinates>-6.90827,41.58599</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia de Cabedelo  Gratuito: si; Agua: no; Wc: no</name>
+            <address>Av. do Cabedelo 1851, 4935 Darque, Portugal</address>
+            <Point>
+                <coordinates>-8.83278,41.68343</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Viana do Castelo  Gratuito: si, Agua: no, Wc: no</name>
+            <address>Circuíto de Manutenção de Viana do Castelo, 4900 Viana do Castelo, Portugal</address>
+            <Point>
+                <coordinates>-8.81905,41.69486</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Santa Luzia , Viana do Castelo  (Gratuito;Agua:si;WC:si)</name>
+            <address>N13-6 249, 4900 Viana do Castelo, Portugal</address>
+            <Point>
+                <coordinates>-8.83535,41.70268</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vila do Geres  Gratuito; Agua: no; Wc: no</name>
+            <address>R. Eng. José Lagrifa Mendes 12, 4845, Portugal</address>
+            <Point>
+                <coordinates>-8.15962,41.73523</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Carreço</name>
+            <address>R. de Suavila 53, 4900, Portugal</address>
+            <Point>
+                <coordinates>-8.87733,41.74613</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia Afife (Viana do Castelo)  Gratuito: Si, Pernocta: Si Agua:  Si WC: De pago</name>
+            <address>Unnamed Road, 4900, Portugal</address>
+            <Point>
+                <coordinates>-8.87066,41.78077</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ponte de Lima  Gratuito: si Agua: No WC: No</name>
+            <address>EM523, 4990, Portugal</address>
+            <Point>
+                <coordinates>-8.54874,41.7836</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ponte da Barca  Gratuito: si; Agua: si; Wc: si</name>
+            <address>Largo da Feira, 4980-020, Portugal</address>
+            <Point>
+                <coordinates>-8.42394,41.80805</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vila Praia de Ancora  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Camboas, 4910-432 Vila Praia de Âncora, Portugal</address>
+            <Point>
+                <coordinates>-8.86896,41.81608</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Moledo  Gratuito: si; Agua: si; Wc: si; Duchas: si</name>
+            <address>R. de Fontela 324, 4910-249 Moledo, Portugal</address>
+            <Point>
+                <coordinates>-8.86583,41.84968</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Foz da Minho  Gratuito:si; Agua: no; Wc: no</name>
+            <address>Mata do Camarido, 4910, Portugal</address>
+            <Point>
+                <coordinates>-8.85751,41.86561</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lindoso  Gratuito: si; Agua: si; Wc: no</name>
+            <address>N304-1, 4980-020, Portugal</address>
+            <Point>
+                <coordinates>-8.17112,41.87172</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Caminha  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Largo da Feira 10, 4910-130 Caminha, Portugal</address>
+            <Point>
+                <coordinates>-8.84098,41.87475</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Praia fluvial de Lovelhe  Gratuito: Si, Agua: No, WC: Si, con duchas agua fria</name>
+            <address>R. do Forte de Lovelhe, 4920, Portugal</address>
+            <Point>
+                <coordinates>-8.74576,41.9541</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Capilla santa ana, valença  Gratuito: Si, Pernocta: Si Agua:  Si WC:Si</name>
+            <address>N101-1, 4930, Portugal</address>
+            <Point>
+                <coordinates>-8.59513,42.01812</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Monçao  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Av. das Caldas 10, 4950-483 Monção, Portugal</address>
+            <Point>
+                <coordinates>-8.47495,42.07953</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Monaco</description>
+        <Placemark>
+            <name>Principado de Monaco  gratuito: si, agua: no, wc:no</name>
+            <address>13 Avenue de la Quarantaine, 98000 Monaco, Monaco</address>
+            <Point>
+                <coordinates>7.42739,43.73286</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

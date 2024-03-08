@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Netherlands</description>
+        <Placemark>
+            <name>Camping Kreekebos  (15eur/Furgo 2pers)</name>
+            <address>Joossesweg 3, 4361 KB Westkapelle, Netherlands</address>
+            <Point>
+                <coordinates>3.45323,51.51853</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Delflandhoeve (Delft )  17 eur/noche</name>
+            <address>Vlakoverpad, 2627 Delft, Netherlands</address>
+            <Point>
+                <coordinates>4.38093,51.97354</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Enkhuizen. Stadscamping De Vest  Agua: Si, Wc: Si, Gratuito: 14eur</name>
+            <address>Da Costakade 32, 2802 VP Gouda, Netherlands</address>
+            <Point>
+                <coordinates>4.70206,52.00409</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping de Delftse Hout</name>
+            <address>Korftlaan 5, 2616 LJ Delft, Netherlands</address>
+            <Point>
+                <coordinates>4.379,52.01888</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping de Pijnacker</name>
+            <address>Noordeindseweg 70, 2645 BC Delfgauw, Netherlands</address>
+            <Point>
+                <coordinates>4.39058,52.01901</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping de Wapenberg  Agua: Si, Wc: Si, Gratuito: 15eur</name>
+            <address>Hoenderloseweg 187, 7339 GG Ugchelen, Netherlands</address>
+            <Point>
+                <coordinates>5.9152,52.17435</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Edam. Camping Strandbad  Agua: Si, Wc: Si, Gratuito: 17eur</name>
+            <address>Van Golsteinlaan 49, 7339 GT Ugchelen, Netherlands</address>
+            <Point>
+                <coordinates>5.90841,52.17998</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gaasper Camping (Amsterdam)  Tarifa: 20 eur/dia(furgo+2 pax); permitido perros</name>
+            <address>Loosdrechtdreef 7, 1108 AZ Amsterdam-Zuidoost, Netherlands</address>
+            <Point>
+                <coordinates>4.99158,52.31256</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Vliegenbos (Amsterdam)</name>
+            <address>Meeuwenlaan 132, 1022 AM Amsterdam, Netherlands</address>
+            <Point>
+                <coordinates>4.92722,52.38972</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping t uilenstekkie  (12eur furgo/2pers/noche)</name>
+            <address>Termietergouw 1, 1027 AD Amsterdam, Netherlands</address>
+            <Point>
+                <coordinates>4.96081,52.41053</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping de Uitdam</name>
+            <address>Zeedijk 5, 1154 PP Uitdam, Netherlands</address>
+            <Point>
+                <coordinates>5.07894,52.43096</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Norway</description>
+        <Placemark>
+            <name>Area ac Jørpeland  (Tarifa:13eur/24h;Agua:Si;Wc:si;Vaciado:no;Elec:si;Ducha:si)</name>
+            <address>Direktør Sæthersgate 29, 4100 Jørpeland, Norway</address>
+            <Point>
+                <coordinates>6.0439,59.0173</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Larvik  (15eur/noche; Agua:si; WC:si)</name>
+            <address>Strandpromenaden, 3256 Larvik, Norway</address>
+            <Point>
+                <coordinates>10.03346,59.04898</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area ac Oslo  (Tarifa:25eur/24h;Agua:Si;Wc:si;Vaciado:no;Elec:si;Ducha:si)</name>
+            <address>Hengsengveien 9, 0287 Oslo, Norway</address>
+            <Point>
+                <coordinates>10.6759,59.91824</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Alesund  (Precio:18eur;Agua:si;Wc:no;Vaciado:si;Elec:si;duchas,wifi)</name>
+            <address>Sorenskriver Bulls gate 17-29, 6002 Ålesund, Norway</address>
+            <Point>
+                <coordinates>6.15842,62.47643</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Holand  Gratutito; Agua: si; Wc: si; Grises: si; Elec: si</name>
+            <address>Fv17 22, 8178 Halsa, Norway</address>
+            <Point>
+                <coordinates>13.69942,66.72461</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>AC Eggum  (110coronas/noche;Agua:si;Wc:no)</name>
+            <address>Eggumsveien 850, 8360 Bøstad, Norway</address>
+            <Point>
+                <coordinates>13.65136,68.30725</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Melbu - Vesteralen  (11,35 eur.;Agua:si;vaciado:si;WC:no; electric;si)</name>
+            <address>Neptunveien 8, 8445 Melbu, Norway</address>
+            <Point>
+                <coordinates>14.81341,68.4941</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Alta  (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>Rafsbotnveien, 9517 Alta, Norway</address>
+            <Point>
+                <coordinates>23.48611,69.98899</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

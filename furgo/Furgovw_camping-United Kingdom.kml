@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>United Kingdom</description>
+        <Placemark>
+            <name>Camping Hooks House Farm  14 libras/noche(furgo+2 pax); Agua: si; Wc: si</name>
+            <address>Moor View House, Station Rd, Robin Hood's Bay, Whitby, North Yorkshire YO22 4TG, UK</address>
+            <Point>
+                <coordinates>-0.54011,54.43644</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Finne Farm (Mull)  (14 libras/noche (2pax+furgo); lavadora;congelador)</name>
+            <address>Unnamed Road, Isle of Mull, Argyll and Bute PA66 6BH, UK</address>
+            <Point>
+                <coordinates>-6.36496,56.30774</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Free Camping de Shieldaig  (Gratuito;Agua:si;vaciado:si;WC:si; electric;no)</name>
+            <address>Aurora, Shieldaig, Strathcarron, Highland IV54 8XN, UK</address>
+            <Point>
+                <coordinates>-5.64814,57.52542</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

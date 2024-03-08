@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Latvia</description>
+        <Placemark>
+            <name>Camping Apalkalns (Raiskuma)  (19 eur/dia(furgo+2pax+elect); lavadora, bicis, botes)</name>
+            <address>Ozolu iela 17, Raiskums, Raiskuma pagasts, LV-4146, Latvia</address>
+            <Point>
+                <coordinates>25.14779,57.31741</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

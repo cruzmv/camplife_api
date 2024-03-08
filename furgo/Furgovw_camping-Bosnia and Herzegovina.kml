@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Bosnia and Herzegovina</description>
+        <Placemark>
+            <name>Camping River Camp Aganovac (Blagac)  Tarifa: 15 eur/dia(furgo+2pax);bar, restaurante, wifi.</name>
+            <address>Unnamed Road, Bosnia and Herzegovina</address>
+            <Point>
+                <coordinates>17.88817,43.25753</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Mali Wimbledon  (14eu/noche-Furgo+2pers)</name>
+            <address>Unnamed Road, Blagaj, Bosnia and Herzegovina</address>
+            <Point>
+                <coordinates>17.87797,43.26331</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Tjentiste (PN Sutjeska)  (Precio:5eur/dia(furgo+2pax);...)</name>
+            <address>M20, Tjentište, Bosnia and Herzegovina</address>
+            <Point>
+                <coordinates>18.68958,43.35461</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Konjic  Gratuito: No, Pernocta: Si Agua: Si WC:si</name>
+            <address>Donje selo, Konjic, Bosnia and Herzegovina</address>
+            <Point>
+                <coordinates>17.95046,43.6598</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camping Ilidza (Sarajevo)  Agua: Si Luz: Si WC: Si  Gratuito: No</name>
+            <address>Mostarska, Konjic, Bosnia and Herzegovina</address>
+            <Point>
+                <coordinates>17.94411,43.66334</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

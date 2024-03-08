@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Morocco</description>
+        <Placemark>
+            <name>Chebika  Gratuito; Agua: no; Wc: no</name>
+            <address>P41, Morocco</address>
+            <Point>
+                <coordinates>-11.53811,28.29115</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa Mistery (Taghazoute)  Gratuito: si; Agua: no; Wc: no</name>
+            <address>N1, Morocco</address>
+            <Point>
+                <coordinates>-9.70269,30.54411</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Imessouane  Gratuito; Agua: no; Wc: no</name>
+            <address>Unnamed Road, Imsouane, Morocco</address>
+            <Point>
+                <coordinates>-9.82111,30.84308</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Imlil  Gratuito: no (20dh/noche); Agua: no; Wc: no</name>
+            <address>P2005, Morocco</address>
+            <Point>
+                <coordinates>-7.92041,31.13747</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Erg Chebbi   Gratuito Si, Agua No, WC No</name>
+            <address>R702, Morocco</address>
+            <Point>
+                <coordinates>-4.0318,31.16108</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Essaouira  Gratuito: no (20dh/noche); Agua: no; Wc: si (1dh)</name>
+            <address>Avenue Mohammed V, Essaouira, Morocco</address>
+            <Point>
+                <coordinates>-9.76737,31.50915</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Todra  Gratuito: Si, Agua: No , WC: no</name>
+            <address>R703, Tinghir, Morocco</address>
+            <Point>
+                <coordinates>-5.59117,31.58284</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mezquita de Kutubiyya  Gratuito: no; Agua: no; Wc: no</name>
+            <address>Avenue Mohammed V, Marrakech, Morocco</address>
+            <Point>
+                <coordinates>-7.99365,31.62424</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Station Afriquia Cafe Dubai  (parking de gasolinera;gratuito;Agua:no;Wc:no)</name>
+            <address>N8, Morocco</address>
+            <Point>
+                <coordinates>-7.20221,32.15314</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Oualidia  Gratuito: si; agua: si; wc: no; es una playa</name>
+            <address>Unnamed Road, Oualidia, Morocco</address>
+            <Point>
+                <coordinates>-9.04452,32.73543</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Settat  Gratuito; Agua: si; wc: si; area de descanso en autopista</name>
+            <address>A7, Morocco</address>
+            <Point>
+                <coordinates>-7.66891,32.89665</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bosque de Cedros  Gratuito: si; Agua: no; Wc: no</name>
+            <address>P7217, Morocco</address>
+            <Point>
+                <coordinates>-5.23195,33.24743</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bosque de cedros (Azrou)  Gratuito; Agua: no; Wc: no</name>
+            <address>Route Touristique Des Cèdres, Morocco</address>
+            <Point>
+                <coordinates>-5.19769,33.4151</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Catarata de las Virgenes (Ifrane)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>P7048, Morocco</address>
+            <Point>
+                <coordinates>-5.11453,33.55292</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Casablanca. Mezquita Hassan II  (Gratuito;Agua:no;WC:no)</name>
+            <address>Boulevard Sidi Mohamed Ben Abdellah, Casablanca, Morocco</address>
+            <Point>
+                <coordinates>-7.63535,33.60643</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Plaza Lahdim  Gratuito:No (50 Dh/noche) Agua:No WC:No</name>
+            <address>شارع محمد السادس مكناس، Meknès, Morocco</address>
+            <Point>
+                <coordinates>-5.56554,33.89064</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Plaza Baghdadi (Fez)  (Gratuito:no(50dh/noche);parking urbano;Agua:no;Wc:no)</name>
+            <address>6 Derby Mernissi, Fès, Morocco</address>
+            <Point>
+                <coordinates>-4.98544,34.06105</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ashila  Gratuito: no (30 dh/noche); Agua: no; Wc: si (1 dh)</name>
+            <address>Avenue Moulay Hassan Ben Mahdi, Asilah, Morocco</address>
+            <Point>
+                <coordinates>-6.02997,35.47229</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>El Maasem  (Gratuito;Agua:no;WC:no)</name>
+            <address>Unnamed Road, El Maassem, Morocco</address>
+            <Point>
+                <coordinates>-5.25768,35.58394</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de serv Mellousa   (Area en autopista;Gratuito;Agua:si;Wc:si)</name>
+            <address>A4, Morocco</address>
+            <Point>
+                <coordinates>-5.67845,35.68984</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking puerto Tanger  Gratuito No, Agua No, WC No</name>
+            <address>13 Ben Raissuol, Tanger, Morocco</address>
+            <Point>
+                <coordinates>-5.80843,35.78378</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

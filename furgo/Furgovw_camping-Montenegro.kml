@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Montenegro</description>
+        <Placemark>
+            <name>Camping Shasi (Sas-Ulcinj)   (Precio:5eur/dia(furgo+2pax);ducha y baños, nada mas)</name>
+            <address>Unnamed Road, 85360, Montenegro</address>
+            <Point>
+                <coordinates>19.33753,41.98013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mlinski Potok2  (Autocamping;10eur/dia(furgo+2pax)</name>
+            <address>Put za Crno jezero, Pitomine, Montenegro</address>
+            <Point>
+                <coordinates>19.10059,43.15516</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

@@ -1,0 +1,2694 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>France</description>
+        <Placemark>
+            <name>Puerto de Bonifacio  (Altura limitada a 2m;Gratuito;Agua:no;Wc:no;parkig urbano)</name>
+            <address>Quai Sott À Portigliola, 20169 Bonifacio, France</address>
+            <Point>
+                <coordinates>9.1578,41.38806</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Golfo de Santa Amanza  (Gratuito;Agua:no;Wc:no)</name>
+            <address>D58, 20169 Bonifacio, France</address>
+            <Point>
+                <coordinates>9.23812,41.41573</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Canettu   (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 20169 Bonifacio, France</address>
+            <Point>
+                <coordinates>9.22476,41.42306</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Stantari   (Gratuito;Agua:no;Wc:no)</name>
+            <address>D48A, 20100 Sartène, France</address>
+            <Point>
+                <coordinates>8.91594,41.53541</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Propiano  Gratuito; Agua: no ; Wc: no</name>
+            <address>D319, 20110 Propriano, France</address>
+            <Point>
+                <coordinates>8.8828,41.66979</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Piscia di Gallu  (3 eur;Agua:si;Wc:si)</name>
+            <address>D368, 20137 San-Gavino-Di-Carbini, France</address>
+            <Point>
+                <coordinates>9.19911,41.68737</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sainte Lucie de Tallano  Agua: Si, WC: No, Gratuito: Si</name>
+            <address>Jard du Couvent, 20112 Sainte-Lucie-de-Tallano, France</address>
+            <Point>
+                <coordinates>9.06542,41.69486</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Col de Bavella   Gratuito: no; Agua: no; Wc: no</name>
+            <address>D268, 20122 Quenza, France</address>
+            <Point>
+                <coordinates>9.22482,41.796</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ghiatone  Gratuito; Agua: no; Wc: no</name>
+            <address>Allée des Dauphins, 20166 Pietrosella, France</address>
+            <Point>
+                <coordinates>8.75167,41.84333</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Solenzara  (Gratuito;Agua:no;Wc:no)</name>
+            <address>73 Solenzara, 20145 Sari-Solenzara, France</address>
+            <Point>
+                <coordinates>9.4004,41.85725</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Terra Sacree (islas Sanguinaires)  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Route des Sanguinaires, 20000 Ajaccio, France</address>
+            <Point>
+                <coordinates>8.64779,41.91364</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Etang de Palu (Ghisonaccia)   (Gratuito;Agua:no;Wc:no)</name>
+            <address>D745, 20243 Serra-Di-Fiumorbo, France</address>
+            <Point>
+                <coordinates>9.41605,41.95939</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mirador de Tolla  Gratuito;Agua:no;Wc:no</name>
+            <address>D3, 20117 Tolla, France</address>
+            <Point>
+                <coordinates>8.99047,41.97429</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Val d´Ese  Gratuito; Agua: no; Wc: no</name>
+            <address>Unnamed Road, 20119 Bastelica, France</address>
+            <Point>
+                <coordinates>9.12362,41.99861</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Chiuni  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 20130 Cargèse, France</address>
+            <Point>
+                <coordinates>8.58664,42.17196</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hosoda Na Mitince (Soccia)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 20125 Soccia, France</address>
+            <Point>
+                <coordinates>8.91708,42.19595</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Venaco  (Gratuito;Agua:no;Wc:no)</name>
+            <address>D240, 20231 Venaco, France</address>
+            <Point>
+                <coordinates>9.17486,42.2332</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa Ficaghiola  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Unnamed Road, 20115 Piana, France</address>
+            <Point>
+                <coordinates>8.62783,42.24891</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Bussaglia  Gratuito: Si, Pernocta: Si Agua: No WC: Si</name>
+            <address>Bussaja, 20147 Serriera, France</address>
+            <Point>
+                <coordinates>8.68971,42.28336</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Estacion de esqui del Col de Verghio  Gratuito: no (10 eur/noche); agua: si; Wc: si; duchas: si</name>
+            <address>Castellaccie, 20224 Albertacce, France</address>
+            <Point>
+                <coordinates>8.89422,42.28694</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa Gradelle (Osani)  (Gratuito;Agua:no;Wc:si)</name>
+            <address>Costa del Inferno, 20147 Osani, France</address>
+            <Point>
+                <coordinates>8.64745,42.30334</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fortaleza de Corte  Gratuito:no;Agua:no;Wc:no;parking urbano</name>
+            <address>Rue du Donjon, 20250 Corte, France</address>
+            <Point>
+                <coordinates>9.14831,42.30674</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cim de la Coma Morera  Gratuito; Agua: no; Wc: no; lugar apartado y solitario</name>
+            <address>Unnamed Road, 66340 Palau-de-Cerdagne, France</address>
+            <Point>
+                <coordinates>2.02326,42.35605</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Santa Lucia  (Gratuito;Agua:no;Wc:no)</name>
+            <address>19 N198, 20230 Santa-Lucia-di-Moriani, France</address>
+            <Point>
+                <coordinates>9.53097,42.38574</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pistas esqui Puigmal-Err  (Gratuito;Agua:no;Wc:no)</name>
+            <address>D89, 66800 Err, France</address>
+            <Point>
+                <coordinates>2.05915,42.40908</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Galeria   (15eur/noche;Agua:no;Wc:no)</name>
+            <address>D351, 20245 Galéria, France</address>
+            <Point>
+                <coordinates>8.65703,42.41659</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Foret de Bonifatu  5 eur noche, Agua Si, WC Si</name>
+            <address>Forêt de Bonifato, 20214 Calenzana, France</address>
+            <Point>
+                <coordinates>8.85467,42.44262</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Baños de Llo  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Voie Communale Carretera de Sallagosa, 66800 Llo, France</address>
+            <Point>
+                <coordinates>2.05931,42.45403</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Arles-Sur Tech  (Gratuito;Agua:no;Wc:si)</name>
+            <address>757 N Route nationale, 66150 Arles-sur-Tech, France</address>
+            <Point>
+                <coordinates>2.64119,42.46369</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Corsavy  Gratuito; Agua: si;Wc: si; parking en pueblo pequeño</name>
+            <address>34-35 Le Village, 66150 Corsavy, France</address>
+            <Point>
+                <coordinates>2.57954,42.46723</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Eyne  Gratuito: si; Agua: si; Wc: si</name>
+            <address>D33, 66800 Eyne, France</address>
+            <Point>
+                <coordinates>2.08169,42.46957</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Baños romanos de Dorres  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Carretera de las Escaldes, 66760 Dorres, France</address>
+            <Point>
+                <coordinates>1.94485,42.48707</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aparcamiento en Ceret  Gratuito: si; Agua: si; Wc: si</name>
+            <address>8 Place du Pont, 66400 Céret, France</address>
+            <Point>
+                <coordinates>2.74227,42.49478</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Font Romeu-Odeillo-Via   (Gratuito;Agua:no;Wc:no)</name>
+            <address>3B Avenue Professeur Félix Trombe, 66120 Font-Romeu-Odeillo-Via, France</address>
+            <Point>
+                <coordinates>2.03244,42.49656</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cap Sud  (Gratuito;Agua:no;Wc:no)</name>
+            <address>D37, 20215 Venzolasca, France</address>
+            <Point>
+                <coordinates>9.53087,42.51387</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ermitage St-Ferreol Ceret  Gratuito Si, Agua No, WC No</name>
+            <address>Sant Ferriol, 66400 Céret, France</address>
+            <Point>
+                <coordinates>2.74349,42.51696</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Casteil  (Gratuito;Agua:si;Wc:si)</name>
+            <address>D116, 66820 Casteil, France</address>
+            <Point>
+                <coordinates>2.39233,42.53334</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Llosa-Clavera  (Gratuito.Agua:No.WC:Si)</name>
+            <address>D4C, 66360 Ayguatébia-Talau, France</address>
+            <Point>
+                <coordinates>2.14227,42.53531</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Embalse de Matemale  (Altura limitada 2m;Gratuito;Agua:si;Wc:si)</name>
+            <address>La Matte E, 66210 Les Angles, France</address>
+            <Point>
+                <coordinates>2.09695,42.57367</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Villefranche de Conflent  (gratuito:no(2eur/dia);agua:no;wc:si)</name>
+            <address>20 Rue Saint-Jean, 66820 Villefranche-de-Conflent, France</address>
+            <Point>
+                <coordinates>2.36607,42.58688</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>L'Hospitalet pres l'Andorre  Gratuito; Agua: si; Wc: si</name>
+            <address>5 N22, 09390 L'Hospitalet-prés-l'Andorre, France</address>
+            <Point>
+                <coordinates>1.79868,42.58833</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sant Antonino  Gratuito: no (3 eur/24h); Agua: no; Wc: si</name>
+            <address>Annonziata, 20220 Sant'Antonino, France</address>
+            <Point>
+                <coordinates>8.90611,42.58947</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>St Michel de Cuixa  (Gratuito;Agua:no;Wc:si)</name>
+            <address>D27, 66500 Codalet, France</address>
+            <Point>
+                <coordinates>2.41584,42.59508</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Marine de Sant ambrogio  (Gratuito;Agua:no;WC:no)</name>
+            <address>99 Marine de Sant Ambroggio, 20260 Lumio, France</address>
+            <Point>
+                <coordinates>8.82662,42.60453</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac de la Raho (Perpignan)   (Galibo 2m;Gratuito;Agua:no;Wc:no)</name>
+            <address>Les Serres, 66180 Villeneuve-de-la-Raho, France</address>
+            <Point>
+                <coordinates>2.89704,42.63612</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Lozari  (Gratuito;Agua:no;Wc:si)</name>
+            <address>Capicciolo, 20226 Belgodère, France</address>
+            <Point>
+                <coordinates>9.0075,42.64006</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puerto de L ile-Rousse  (Gratuito;Agua:no;Wc:no, galibo)</name>
+            <address>Pietra, 20220 L'Île-Rousse, France</address>
+            <Point>
+                <coordinates>8.93561,42.64307</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Orris du Carla  Gratuito; Agua: si; Wc: si</name>
+            <address>Unnamed Road, 09220 Auzat, France</address>
+            <Point>
+                <coordinates>1.44831,42.65759</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Millas  Gratuito: si; Agua: si; Wc: no</name>
+            <address>N116, 66170 Millas, France</address>
+            <Point>
+                <coordinates>2.68377,42.69772</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Orlu  Gratuito: Si, Pernocta: Si Agua: Si WC:si</name>
+            <address>D22, 09110 Orlu, France</address>
+            <Point>
+                <coordinates>1.89538,42.6993</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Dent de Orlu  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 09110 Ascou, France</address>
+            <Point>
+                <coordinates>1.93073,42.70638</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ax les Thermes   (Gratuito;Agua:no;Wc:no)</name>
+            <address>918 En Castel, 09110 Ax-les-Thermes, France</address>
+            <Point>
+                <coordinates>1.83574,42.72201</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Força Réal-Millas  Gratuito: si; Agua: no; Wc: no</name>
+            <address>D38, 66720 Montner, France</address>
+            <Point>
+                <coordinates>2.69727,42.72856</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Valle de Rioumajou  (Gratuito;Agua:no;Wc:si)</name>
+            <address>D19, 65170 Saint-Lary-Soulan, France</address>
+            <Point>
+                <coordinates>0.30726,42.74278</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Heas-Circo de Troumousse  (Gratuito;Agua:si;WC:si)</name>
+            <address>Heas, 65120 Gèdre, France</address>
+            <Point>
+                <coordinates>0.08939,42.74915</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Les Granges dAstau  (Gratuito;Agua:no;Wc:no)</name>
+            <address>D76, 31110 Oô, France</address>
+            <Point>
+                <coordinates>0.50115,42.76454</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pont de Moudang  (Gratuito;Agua:si;Wc:no)</name>
+            <address>D929, 65170 Aragnouet, France</address>
+            <Point>
+                <coordinates>0.2469,42.78624</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gèdre  (Gratuito;Agua:si;Wc:si;parking en pueblo pequeño)</name>
+            <address>2 Gedre Débat, 65120 Gèdre, France</address>
+            <Point>
+                <coordinates>0.01989,42.78824</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Nonza  (Gratuito;Agua:no;Wc:no)</name>
+            <address>D80, 20217 Nonza, France</address>
+            <Point>
+                <coordinates>9.34106,42.79967</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Etang de Lers  (Gratuito;Agua:no;Wc:no;lugar solitario)</name>
+            <address>D8F, 09140 Le Port, France</address>
+            <Point>
+                <coordinates>1.37463,42.80848</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking de La Retirada (Tautavel)  (Gratuito;Agua:si;Wc:si;parking urbano)</name>
+            <address>28 Rue de la République, 66720 Tautavel, France</address>
+            <Point>
+                <coordinates>2.74377,42.81526</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac Cap de Long  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Bourdasse, 65170 Aragnouet, France</address>
+            <Point>
+                <coordinates>0.13886,42.81893</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac de LOule  (Gratuito;Agua:no;Wc:no)</name>
+            <address>D929, 65170 Aragnouet, France</address>
+            <Point>
+                <coordinates>0.19005,42.81915</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Les Forges D Abel  Gratuito: si; Agua: no; Wc: no</name>
+            <address>Forges d'Abel, 64490 Urdos, France</address>
+            <Point>
+                <coordinates>-0.56157,42.82052</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ussat-Tarascon sur Ariege  (Gratuito;Agua:no;Wc:no)</name>
+            <address>D123, 09400 Ussat, France</address>
+            <Point>
+                <coordinates>1.61679,42.82927</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Salses le Chateau  (2eur/noche;Agua:no;Wc:no)</name>
+            <address>1 Chemin du Rec, 66600 Salses-le-Château, France</address>
+            <Point>
+                <coordinates>2.91973,42.83799</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Castillo de Queribus  (Gratuito;Agua:no, Wc: hasta las 17:00h)</name>
+            <address>Unnamed Road, 11350 Cucugnan, France</address>
+            <Point>
+                <coordinates>2.62402,42.83897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Laruns  (Gratuito;Agua:no;WC:no)</name>
+            <address>D934, 64440 Laruns, France</address>
+            <Point>
+                <coordinates>-0.38717,42.84502</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Fruitiere  Gratuito; Agua: no; Wc: no</name>
+            <address>Unnamed Road, 65110 Cauterets, France</address>
+            <Point>
+                <coordinates>-0.09832,42.85297</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Col de la Core  (Gratuito;Agua:no;Wc:no)</name>
+            <address>D17, 09800 Bethmale, France</address>
+            <Point>
+                <coordinates>1.1049,42.85917</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking Turon (Luz St.Sauveur)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>5-7 Route de Gavarnie, 65120 Luz-Saint-Sauveur, France</address>
+            <Point>
+                <coordinates>-0.00844,42.8643</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Luz Ardiden  (Gratuito;Agua:no;Wc:si)</name>
+            <address>Unnamed Road, 65120 Grust, France</address>
+            <Point>
+                <coordinates>-0.07158,42.86552</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Montsegur  Gratuito; Agua: si; Wc: si</name>
+            <address>130 Cap del Prat, 09300 Montségur, France</address>
+            <Point>
+                <coordinates>1.83221,42.86739</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Padern  Gratuito;Agua:si;Wc:si</name>
+            <address>5 Rue de l'Affenage, 11350 Padern, France</address>
+            <Point>
+                <coordinates>2.65836,42.86781</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cauterets, parking Avd. Dr Domer.  (Gratuito;Agua:no;WC:no)</name>
+            <address>42 Avenue du Dr Domer, 65110 Cauterets, France</address>
+            <Point>
+                <coordinates>-0.11058,42.89487</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Termas de Bareges  Gratuito; Agua: no; Wc: no; parking urbano</name>
+            <address>9 Avenue Louvois, 65120 Barèges, France</address>
+            <Point>
+                <coordinates>0.06572,42.8973</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac d Estaign  (Gratuito;Agua:si;WC:si)</name>
+            <address>Saut, 65400 Estaing, France</address>
+            <Point>
+                <coordinates>-0.21157,42.9045</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Est.esqui Super-Bareges  Gratuito; Agua: no;Wc: si</name>
+            <address>Touët et Labach, 65120 Barèges, France</address>
+            <Point>
+                <coordinates>0.1305,42.90557</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac du Tech   (Gratuito;Agua:si;Wc:no)</name>
+            <address>D105, 65400 Arrens-Marsous, France</address>
+            <Point>
+                <coordinates>-0.25912,42.91255</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Mongie ( Estacion de Ski)  Gratuito Si, Agua No, WC No</name>
+            <address>Rue Pêne-Nègre, 65200 Bagnères-de-Bigorre, France</address>
+            <Point>
+                <coordinates>0.17916,42.91255</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Payolle  Gratuito; Agua: no; Wc: si (solo de dia)</name>
+            <address>D113, 65240 Arreau, France</address>
+            <Point>
+                <coordinates>0.29292,42.93171</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Franqui  Gratuito:no(6eur/noche);Agua:si;Wc:no;aparcamiento junto a camping</name>
+            <address>Les Coussoules-Basses, 11370 Leucate, France</address>
+            <Point>
+                <coordinates>3.03289,42.94193</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tomino  (Gratuito;Agua:si;Wc:no)</name>
+            <address>Valdo al Santo, 20248 Tomino, France</address>
+            <Point>
+                <coordinates>9.44004,42.94628</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Col de Soulor  (Gratuito;Agua:no;Wc:no)</name>
+            <address>D918, 65400 Arrens-Marsous, France</address>
+            <Point>
+                <coordinates>-0.25691,42.9606</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Foix II  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>Parking de la Vigne, 09000 Foix, France</address>
+            <Point>
+                <coordinates>1.61053,42.96272</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Foix I  Gratuito; Agua: no; Wc: no; parking urbano</name>
+            <address>19 Rue des Moulins, 09000 Foix, France</address>
+            <Point>
+                <coordinates>1.60354,42.96527</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Estacion f.f.c.c. Foix  Gratuito; Agua: si; Wc: no</name>
+            <address>15 Rue Pierre Semard, 09000 Foix, France</address>
+            <Point>
+                <coordinates>1.60733,42.96964</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Salin de Lapalme  Gratuito; Agua: no; Wc: no</name>
+            <address>Unnamed Road, 11480 La Palme, France</address>
+            <Point>
+                <coordinates>3.01897,42.97121</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Col de Couraduque  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 65400 Aucun, France</address>
+            <Point>
+                <coordinates>-0.20387,42.99113</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Argeles-Gazost  Gratuito Si, Agua No, WC No</name>
+            <address>D913, 65400 Préchac, France</address>
+            <Point>
+                <coordinates>-0.07669,42.99319</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kakueta  Gratuito Agua:No WC:No</name>
+            <address>Pont d'Enfer, 64560 Sainte-Engrace, France</address>
+            <Point>
+                <coordinates>-0.8432,43.00112</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bedous  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Rue du Mailh Abor, 64490 Bedous, France</address>
+            <Point>
+                <coordinates>-0.60276,43.0029</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Barcaggio  (10eur/24h;Agua:si;Wc:si)</name>
+            <address>Foce, 20275 Ersa, France</address>
+            <Point>
+                <coordinates>9.40464,43.00506</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tollare  Gratuito: No; Agua: si; WC:No</name>
+            <address>1110 Tollare, 20275 Ersa, France</address>
+            <Point>
+                <coordinates>9.38653,43.00796</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Embalse de Irabia (lado frances)   (Gratuito;Agua:no;Wc:no;lugar solitario)</name>
+            <address>Unnamed Road, Ochagavía, Navarra, Spain</address>
+            <Point>
+                <coordinates>-1.14172,43.00808</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Camon  (Gratuito;Agua:si;Wc:si)</name>
+            <address>3 Place Philippe de Lévis, 09500 Camon, France</address>
+            <Point>
+                <coordinates>1.96853,43.02229</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saint-Bertrand de Comminges  Gratuito; agua: no; wc: no</name>
+            <address>D26, 31510 Saint-Bertrand-de-Comminges, France</address>
+            <Point>
+                <coordinates>0.57248,43.02918</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Les Salines de Sainte Lucie  Gratuito: si; Agua: no; WC: no</name>
+            <address>1172 Chemin de Sainte-Lucie, 11210 Port-la-Nouvelle, France</address>
+            <Point>
+                <coordinates>3.05287,43.0421</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>IRATY  Gratuito Si, Agua Si, WC Si</name>
+            <address>D18, 64220 Lecumberry, France</address>
+            <Point>
+                <coordinates>-1.07389,43.04257</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Limoux  (Gratuito;Agua:no;Wc:no)</name>
+            <address>14 Rue du Palais, 11300 Limoux, France</address>
+            <Point>
+                <coordinates>2.21782,43.05543</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bagneres de Bigorre</name>
+            <address>6 Place René Escoula, 65200 Bagnères-de-Bigorre, France</address>
+            <Point>
+                <coordinates>0.15587,43.06136</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Almanarre   (Gratuito;Agua:no;Wc:no)</name>
+            <address>37 Route du Sel, 83400 Hyères, France</address>
+            <Point>
+                <coordinates>6.12647,43.07869</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Louvie-Juzon  Altura limitada a 2m; Gratuito; Agua: si; Wc: si</name>
+            <address>Village, 64260 Izeste, France</address>
+            <Point>
+                <coordinates>-0.42229,43.08617</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mirepoix  (Gratuito;Agua:no;Wc:no)</name>
+            <address>34 Chemin des Amandes, 09500 Mirepoix, France</address>
+            <Point>
+                <coordinates>1.87767,43.09261</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Cabasson  Gratuito:no(10eur/noche);Agua:si;Wc:si</name>
+            <address>1900 Avenue Guy Tezenas, 83230 Bormes-les-Mimosas, France</address>
+            <Point>
+                <coordinates>6.32574,43.09973</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lourdes  Gratuito; Agua: no; Wc: no; parking urbano</name>
+            <address>1 Rue du Baratchele, 65100 Lourdes, France</address>
+            <Point>
+                <coordinates>-0.06517,43.10811</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tardets-Sorholus   Gratuito; Agua: no; Wc: si</name>
+            <address>Foirail, 64470 Tardets-Sorholus, France</address>
+            <Point>
+                <coordinates>-0.86331,43.11563</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mont Faron (Toulon)  (Gratuito;Agua:no;Wc:si)</name>
+            <address>8384 Route du Faron, 83200 Toulon, France</address>
+            <Point>
+                <coordinates>5.93019,43.15132</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Nacedero del Biduze  Gratuito; Agua: no; Wc: no</name>
+            <address>Arlacondoua, 64120 Saint-Just-Ibarre, France</address>
+            <Point>
+                <coordinates>-1.02903,43.16422</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Baigorri  Gratuito; Agua: si; Wc: si</name>
+            <address>7 Gaineko Karrika, 64430 Saint-Étienne-de-Baïgorry, France</address>
+            <Point>
+                <coordinates>-1.34334,43.17657</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac de la Cavayere  Gratuito: si; Agua: si; Wc: si</name>
+            <address>60 Chemin de Gaja, 11000 Carcassonne, France</address>
+            <Point>
+                <coordinates>2.41594,43.1836</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pl.Gaston Jourdanne (Carcasonne)  (Prohibido de junio a sept; parking urbano)</name>
+            <address>1 Place Gaston Jourdanne, 11000 Carcassonne, France</address>
+            <Point>
+                <coordinates>2.36061,43.2106</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parque Regis Vidal (Cassis)  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Avenue de Carnoux, 13260 Cassis, France</address>
+            <Point>
+                <coordinates>5.53831,43.22933</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ibos  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>Place du Herran, 65420 Ibos, France</address>
+            <Point>
+                <coordinates>0.0079,43.23441</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Collobrieres   Gratuito: si; Agua: no; Wc: no</name>
+            <address>171 Chemin de Bouissonne, 83610 Collobrières, France</address>
+            <Point>
+                <coordinates>6.31551,43.23898</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saint-Julien-sur-Garonne  Gratuito; Agua: no; wc: no; parking urbano</name>
+            <address>43-45 Barrère, 31220 Saint-Julien-sur-Garonne, France</address>
+            <Point>
+                <coordinates>1.15271,43.24467</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Valras plage   (Gratuito;Agua:no;Wc:no)</name>
+            <address>29 Boulevard Jean Dauga, 34350 Valras-Plage, France</address>
+            <Point>
+                <coordinates>3.29801,43.24942</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puerto fluvial de Le Somail  Gratuito; Agua: si; Wc: si</name>
+            <address>316 Chemin des Patiasses, 11590 Ginestas, France</address>
+            <Point>
+                <coordinates>2.90388,43.26682</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa Des Canebiers (Saint Tropez)   (Gratuito;Agua:no;Wc:no)</name>
+            <address>50-52 Chemin de l'Estagnet, 83990 Saint-Tropez, France</address>
+            <Point>
+                <coordinates>6.66933,43.26733</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puerto fluvial de Homps  (Gratuito;Agua:no;Wc:no)</name>
+            <address>37-39 Quai des Tonneliers, 11200 Homps, France</address>
+            <Point>
+                <coordinates>2.71681,43.26859</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cuevas de Sara  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Unnamed Road, 64310 Sare, France</address>
+            <Point>
+                <coordinates>-1.57113,43.26878</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac de Jouarres  Gratuito: si; Agua: no; Wc: no</name>
+            <address>Chemin de Jouarres, 34210 Olonzac, France</address>
+            <Point>
+                <coordinates>2.70864,43.27533</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bosque de Sare  Gratuito; Agua: no; Wc: no; lugar solitario</name>
+            <address>D306, 64310 Sare, France</address>
+            <Point>
+                <coordinates>-1.60225,43.27729</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Plaza de Verdun (Pau)  (parking urbano;Gratuito;Agua:no;Wc:no)</name>
+            <address>Place de Verdun, 64000 Pau, France</address>
+            <Point>
+                <coordinates>-0.37542,43.2993</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cintegabelle  Gratuito; Agua: no; Wc: no</name>
+            <address>1 Avenue du Maréchal Clauzel, 31550 Cintegabelle, France</address>
+            <Point>
+                <coordinates>1.53471,43.31049</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sare</name>
+            <address>1 Lotissement Mendi Bixta, 64310 Sare, France</address>
+            <Point>
+                <coordinates>-1.57953,43.31274</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Agde  Agua: Si, Wc: Si, Luz: No, Gratuito: Si</name>
+            <address>1 Avenue du 8 Mai 1945, 34300 Agde, France</address>
+            <Point>
+                <coordinates>3.47198,43.3157</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Castelnaudary   Gratuito: si; Agua: no; Wc: no</name>
+            <address>Quai Labouisse Rochefort, 11400 Castelnaudary, France</address>
+            <Point>
+                <coordinates>1.94955,43.31584</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cers  (Gratuito;Agua:no;Wc:no;junto al canal du Midi)</name>
+            <address>Route d'Agde, 34420 Cers, France</address>
+            <Point>
+                <coordinates>3.30703,43.31684</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bartaous  (Gratuito;Agua:si;Wc:si)</name>
+            <address>D632, 31350 Péguilhan, France</address>
+            <Point>
+                <coordinates>0.68347,43.31737</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pas de Roland (Itxasu-Laxia)  Gratuito Si, Agua No, WC No</name>
+            <address>Route du Pas de Roland, 64250 Itxassou, France</address>
+            <Point>
+                <coordinates>-1.4046,43.32013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Carry-le-Rouet  (Gratuito;Agua:no;Wc:de pago)</name>
+            <address>53-55 Avenue Draio de la Mar, 13620 Carry-le-Rouet, France</address>
+            <Point>
+                <coordinates>5.14102,43.3297</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Monttu Baita(Trabenea)  (Gratuito;Agua:no;WC:no)</name>
+            <address>Chemin de Xurien Borda, 64310 Ascain, France</address>
+            <Point>
+                <coordinates>-1.65958,43.3312</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lastours  Agua: No, Wc: No, Luz: No, Gratuito: Si</name>
+            <address>5 Route du Belvédère, 11600 Lastours, France</address>
+            <Point>
+                <coordinates>2.38047,43.33183</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lastours  (Gratuito; Agua: si; Wc: si)</name>
+            <address>1 Route des 4 Châteaux, 11600 Lastours, France</address>
+            <Point>
+                <coordinates>2.38144,43.33234</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Le Ségala  Gratuito;Agua:si;Wc:si</name>
+            <address>22 Espl. du Canal, 11320 Labastide-d'Anjou, France</address>
+            <Point>
+                <coordinates>1.83551,43.34085</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Lago Senpere</name>
+            <address>21 Prom. du Parlement de Navarre, 64310 Saint-Pée-sur-Nivelle, France</address>
+            <Point>
+                <coordinates>-1.52157,43.34937</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Longages  (Gratuito;Agua:si;Wc:no)</name>
+            <address>28 Chemin de Muret, 31410 Longages, France</address>
+            <Point>
+                <coordinates>1.24705,43.35745</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hendaye  (Gratuito;Agua:no;Wc:no)</name>
+            <address>9021B Route de la Corniche, 64700 Hendaye, France</address>
+            <Point>
+                <coordinates>-1.74428,43.37719</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cruz de Artxiloa  Agua: Si  WC: Si  Gratuito: Si</name>
+            <address>1-3 Square de la Croix d'Archilua, 64500 Saint-Jean-de-Luz, France</address>
+            <Point>
+                <coordinates>-1.64977,43.40366</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chemin de Lafitenia (Ghethary)  (Gratuito;Agua:no;Wc:no; altura limitada a 2,10 m.))</name>
+            <address>80 Route des Plages, 64500 Saint-Jean-de-Luz, France</address>
+            <Point>
+                <coordinates>-1.62571,43.4133</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Port De Santa Lucia  (Gratuito;Agua:no;WC:no)</name>
+            <address>Voie Communale Nouveau Port de Plaisance, 83700 Saint-Raphaël, France</address>
+            <Point>
+                <coordinates>6.77871,43.41511</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Plage du Dramont (St. Rafhael)  (Altura limitada a 1,80m.;Gratuito;Agua:si;Wc:no)</name>
+            <address>1166-1220 D559, 83700 Saint-Raphaël, France</address>
+            <Point>
+                <coordinates>6.8433,43.41745</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Guethary  Gratuito; Agua: no; Wc: no</name>
+            <address>Sentier des Baleines, 64210 Guéthary, France</address>
+            <Point>
+                <coordinates>-1.60876,43.42618</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bidart  Gratuito; Agua: no; Wc: no; galibo 2 m; parking urbano</name>
+            <address>51 Rue de l'Uhabia, 64210 Bidart, France</address>
+            <Point>
+                <coordinates>-1.59686,43.43274</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Route de Saint-Barthelemy  (Gratuito;Agua:no;Wc:no)</name>
+            <address>1416-1442 D559, 83700 Saint-Raphaël, France</address>
+            <Point>
+                <coordinates>6.90336,43.44414</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jardineland (Bidart)  (Gratuito;Agua:no;Wc:no; parking urbano)</name>
+            <address>65-99 Avenue Source Royale, 64210 Bidart, France</address>
+            <Point>
+                <coordinates>-1.5761,43.44642</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pezenas  (Gratuito;Agua:no;WC:si)</name>
+            <address>4 Rue Calquières Basses, 34120 Pézenas, France</address>
+            <Point>
+                <coordinates>3.42773,43.45934</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa La Milady (Biarritz)</name>
+            <address>52 Rue de Madrid, 64200 Biarritz, France</address>
+            <Point>
+                <coordinates>-1.57053,43.47042</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gymnase Robert Caillou (Bayonne)  (Gratuito;Agua:no;Wc:no; parking urbano)</name>
+            <address>13 Avenue Raoul Follereau, 64100 Bayonne, France</address>
+            <Point>
+                <coordinates>-1.47277,43.47879</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa cotes des Basques. Biarritz  Agua: No, Wc: No, Gratuito: Si</name>
+            <address>7 Boulevard du Prince de Galles, 64200 Biarritz, France</address>
+            <Point>
+                <coordinates>-1.56633,43.47993</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saint Pons de Thomieres  (Gratuito;Agua:si;Wc:no)</name>
+            <address>285 Avenue de la Gare, 34220 Saint-Pons-de-Thomières, France</address>
+            <Point>
+                <coordinates>2.77502,43.48624</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Champ de Foire (Bayonne)  (Gratuito;Agua:no;Wc:no; parking urbano)</name>
+            <address>22 Allées Paulmy, 64100 Bayonne, France</address>
+            <Point>
+                <coordinates>-1.48121,43.49031</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Quai Colbert (Le Grau-du-Roi)   (24eur/noche;Agua:si;Wc:no)</name>
+            <address>87 Quai Colbert, 30240 Le Grau-du-Roi, France</address>
+            <Point>
+                <coordinates>4.14101,43.53845</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saint Chamas  Gratuito: si Agua: No  WC: No</name>
+            <address>Place du 8 Mai 1945, 13250 Saint-Chamas, France</address>
+            <Point>
+                <coordinates>5.03119,43.54806</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Carnon Plage  (Gratuito;Agua:si;Wc:si;altura limitada a 2m;parking urbano)</name>
+            <address>Roc de l'Avranche, 34280 Mauguio, France</address>
+            <Point>
+                <coordinates>3.99088,43.54895</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aigues Mortes  (Gratuito;Agua:no;Wc:no)</name>
+            <address>8 Chemin de Trente Ans, 30220 Aigues-Mortes, France</address>
+            <Point>
+                <coordinates>4.18394,43.56808</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aigues Mortes  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>4 Rue du Vieux Bourgidou, 30220 Aigues-Mortes, France</address>
+            <Point>
+                <coordinates>4.19897,43.56853</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gorges de Heric  (5eur/noche;Agua:si;Wc:si;Vaciado:si;Elec:no)</name>
+            <address>Verdier-Haut, 34390 Mons, France</address>
+            <Point>
+                <coordinates>2.96758,43.57368</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac de Saint Cassien  (Gratuito;Agua:no;Wc:no)</name>
+            <address>780 Chemin du Gabinet, 83440 Montauroux, France</address>
+            <Point>
+                <coordinates>6.78133,43.58578</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cité de l´Espace (Toulouse)  (Gratuito; Agua: si; Wc: si)</name>
+            <address>7 Avenue Jean Gonord, 31500 Toulouse, France</address>
+            <Point>
+                <coordinates>1.49214,43.58716</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fort Carre (Antibes)  Gratuito;Agua:no;Wc:no;junto a carretera</name>
+            <address>75 Avenue du 11 Novembre, 06600 Antibes, France</address>
+            <Point>
+                <coordinates>7.12561,43.59312</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parc de Gourjade  Gratuito: si Agua: no WC: no</name>
+            <address>209 Avenue de Roquecourbe, 81100 Castres, France</address>
+            <Point>
+                <coordinates>2.25285,43.62032</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac de Salagou  (Gratuito.Agua:Si WC:Si)</name>
+            <address>Route du Lac, 34800 Clermont-l'Hérault, France</address>
+            <Point>
+                <coordinates>3.389,43.64368</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aubiet  Agua: No, Wc: No, Luz: No, Gratuito: Si</name>
+            <address>Route de Mauvezin, 32270 Aubiet, France</address>
+            <Point>
+                <coordinates>0.78065,43.64772</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Arles  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>1 Rue Jean Charcot, 13200 Arles, France</address>
+            <Point>
+                <coordinates>4.62299,43.67069</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Canal de St. Gilles  (Gratuito;Agua:si;Wc:no)</name>
+            <address>70 Quai du Canal, 30800 Saint-Gilles, France</address>
+            <Point>
+                <coordinates>4.43338,43.67201</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Beaulieu-sur-mer  Gratuito: si; Agua: si; Wc: si</name>
+            <address>4 Boulevard du Maréchal Leclerc, 06310 Beaulieu-sur-Mer, France</address>
+            <Point>
+                <coordinates>7.33572,43.70991</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Villefranche-sur-Mer  (Gratuito;Agua:si;Wc:no)</name>
+            <address>2035-2123 Avenue Olivula, 06230 Villefranche-sur-Mer, France</address>
+            <Point>
+                <coordinates>7.32517,43.71477</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gourdon  (Gratuito;Agua:si;Wc:si)</name>
+            <address>29 Chemin Départemental N 12, 06620 Gourdon, France</address>
+            <Point>
+                <coordinates>6.97762,43.72147</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saint-Guilhem-le-Desert  Gratuito; Agua: no; Wc: no</name>
+            <address>D4, 34150 Saint-Guilhem-le-Désert, France</address>
+            <Point>
+                <coordinates>3.56577,43.74336</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lago de Le Houga  Gratuito: Si, Pernocta: Si Agua: Si WC:si</name>
+            <address>Unnamed Road, 32460 Le Houga, France</address>
+            <Point>
+                <coordinates>-0.19067,43.76691</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Plaza de toros de Vieux-Boucau  (Gratuito;Agua:no;Wc:si;parking urbano)</name>
+            <address>Avenue de la Liberté, 40480 Vieux-Boucau-les-Bains, France</address>
+            <Point>
+                <coordinates>-1.40195,43.78722</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac de St. Croix  (Gratuito;Agua:no;Wc:no)</name>
+            <address>D957, 04360 Moustiers-Sainte-Marie, France</address>
+            <Point>
+                <coordinates>6.2456,43.80352</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Messanges Plage  (Gratuito;Agua:no:Wc:si)</name>
+            <address>D82, 40660 Messanges, France</address>
+            <Point>
+                <coordinates>-1.40081,43.81613</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Comps  (Gratuito;Agua:no;Wc:no)</name>
+            <address>111 Rue Nelson Mandela, 30300 Comps, France</address>
+            <Point>
+                <coordinates>4.60863,43.85402</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saignon  (Gratito;Agua:si;Wc:si)</name>
+            <address>D48, 84400 Saignon, France</address>
+            <Point>
+                <coordinates>5.42955,43.86112</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac Leon en Las Landas</name>
+            <address>369 Avenue du Lac, 40550 Léon, France</address>
+            <Point>
+                <coordinates>-1.31707,43.88534</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cementerio de Albi  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Chemin de Pratgraussals, 81000 Albi, France</address>
+            <Point>
+                <coordinates>2.13601,43.93125</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Remoulins  Gratuito: si; Agua: no; Wc: no</name>
+            <address>7 Rue de l'Ancien Pont, 30210 Remoulins, France</address>
+            <Point>
+                <coordinates>4.55903,43.93805</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Le Verdon - Ravin de Culas  (Gratuito;Agua:no;WC:no)</name>
+            <address>N202, 04170 Saint-André-les-Alpes, France</address>
+            <Point>
+                <coordinates>6.51458,43.94705</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ambialet  Gratuito; Agua: no; Wc:si</name>
+            <address>Ambialet, 81430 Ambialet, France</address>
+            <Point>
+                <coordinates>2.37875,43.9477</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Plan de eau de Vere Gresigne  (Gratuito;Agua:si;Wc:si)</name>
+            <address>D964, 81140 Castelnau-de-Montmiral, France</address>
+            <Point>
+                <coordinates>1.792,43.97215</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Roquefort sur Soulzon   (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:?)</name>
+            <address>D23, 12250 Roquefort-sur-Soulzon, France</address>
+            <Point>
+                <coordinates>2.98091,43.98123</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saorge  Gratuito: si; Agua: si; Wc: si</name>
+            <address>Ciapagne Sottan, 06540 Saorge, France</address>
+            <Point>
+                <coordinates>7.55137,43.98892</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Peyre   (Gratuito;Agua:si;Wc:si)</name>
+            <address>Rue du Trincat, 12100 Comprégnac, France</address>
+            <Point>
+                <coordinates>2.9963,44.09189</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area de descanso de Brocuejouls (Millau)  Gratuito; Agua: si; Wc: si; Area de descanso en autopista</name>
+            <address>La Méridienne, 12100 La Bastide-Pradines, France</address>
+            <Point>
+                <coordinates>3.02446,44.09534</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Paseo Sarcert (Moissac)  Gratuito; Agua: si; Wc: si; parking urbano</name>
+            <address>14 Prom. Sancert, 82200 Moissac, France</address>
+            <Point>
+                <coordinates>1.08542,44.10041</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aigueze  (Gratuito;Agua:no;WC:no)</name>
+            <address>1 Place du Portail Haut, 30760 Aiguèze, France</address>
+            <Point>
+                <coordinates>4.55255,44.3052</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Dominaine St.Vincent (Vinsobres)   (Gratuito;Agua:si;Wc:si)</name>
+            <address>Saint-Vincent, 26110 Vinsobres, France</address>
+            <Point>
+                <coordinates>5.0898,44.33386</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pujols  (Gratuito;Agua:no;WC:no)</name>
+            <address>Allée Palatines, 47300 Pujols, France</address>
+            <Point>
+                <coordinates>0.68614,44.38551</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac de Allos  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Le Village, 04340 Le Lauzet-Ubaye, France</address>
+            <Point>
+                <coordinates>6.43417,44.42848</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chemin de la Chartreuse (Cahors)  Gratuito; Agua: no; Wc: no</name>
+            <address>244-342 Chemin de la Chartreuse, 46000 Cahors, France</address>
+            <Point>
+                <coordinates>1.43883,44.44006</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mirador de St. Cyr (Cahors)  Gratuito: Si, Pernocta: Si Agua: Si WC:si</name>
+            <address>Route du Mont Saint-Cyr, 46000 Cahors, France</address>
+            <Point>
+                <coordinates>1.45054,44.4434</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cajarc  (Gratuito;Agua:si;Wc:no)</name>
+            <address>18 Avenue de la Gare, 46160 Cajarc, France</address>
+            <Point>
+                <coordinates>1.84607,44.48458</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Port de Viviers  (Gratuito;Agua:no;Wc:si)</name>
+            <address>Île des Bornes, 07220 Viviers, France</address>
+            <Point>
+                <coordinates>4.69294,44.48629</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Plage de Laouga CAZAUX  Gratuito Si, Agua Si, WC Si</name>
+            <address>Espl. Jean Labat, 33260 La Teste-de-Buch, France</address>
+            <Point>
+                <coordinates>-1.17378,44.52332</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Crots-Les Eaux Douces  (Gratuito;Agua:si;Wc:si)</name>
+            <address>N94, 05200 Crots, France</address>
+            <Point>
+                <coordinates>6.4294,44.53072</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Villecomtal   (Gratuito;Agua:si;Wc:si;Vaciado:si;Elec:no)</name>
+            <address>11 Le Foirail, 12580 Villecomtal, France</address>
+            <Point>
+                <coordinates>2.56436,44.53585</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bonaguil  Gratuito: Si, Pernocta: Si Agua: No WC: Si</name>
+            <address>D158, 47500 Saint-Front-sur-Lémance, France</address>
+            <Point>
+                <coordinates>1.0131,44.53801</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Estaing  (Gratuito;Agua:no;WC:si)</name>
+            <address>2 D920, 12190 Estaing, France</address>
+            <Point>
+                <coordinates>2.67503,44.55238</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>St-Project-de-Cassaniouze  (Gratuito;Agua:si;Wc:si)</name>
+            <address>237-242 Coursavy, 15340 Cassaniouze, France</address>
+            <Point>
+                <coordinates>2.38395,44.65089</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Boulevard Pierre Loti ( Arcachon)  (Gratuito;Agua:no;Wc:si;parking urbano)</name>
+            <address>36 Boulevard Pierre Loti, 33120 La Teste-de-Buch, France</address>
+            <Point>
+                <coordinates>-1.14283,44.65249</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cap Ferret  Gratuito; Agua: no; Wc: no</name>
+            <address>D106, 33970 Lège-Cap-Ferret, France</address>
+            <Point>
+                <coordinates>-1.24506,44.68657</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aumont-Aubrac  Gratuito; Agua: si; Wc: si</name>
+            <address>2 Place du Foirail, 48130 Aumont-Aubrac, France</address>
+            <Point>
+                <coordinates>3.28477,44.72148</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cestas   (Gratuito;Agua:no;Wc:no)</name>
+            <address>11-15 Chemin du Pont de l'Eau Bourde, 33610 Cestas, France</address>
+            <Point>
+                <coordinates>-0.68726,44.7422</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rocamadour (aparcamiento del rio)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>D32, 46500 Rocamadour, France</address>
+            <Point>
+                <coordinates>1.61902,44.79845</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Castillo de Rocamadour  (Gratuito; Agua:si; Wc: si(0.50 eur.)</name>
+            <address>Derrière le Château, 46500 Rocamadour, France</address>
+            <Point>
+                <coordinates>1.61624,44.79996</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Carsac-Aillac   (Gratuito;Agua:no;Wc:no)</name>
+            <address>D703, 24200 Carsac-Aillac, France</address>
+            <Point>
+                <coordinates>1.27428,44.84037</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Beynac et Cazenac  (Gratuito;agua:no;wc:no)</name>
+            <address>Unnamed Road, 24220 Beynac-et-Cazenac, France</address>
+            <Point>
+                <coordinates>1.14546,44.84477</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lacave  Gratuito: si Agua: No  WC: No</name>
+            <address>D23, 46200 Lacave, France</address>
+            <Point>
+                <coordinates>1.55849,44.84554</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chaudes Aigues  Gratuito; si; Agua: no; Wc: si</name>
+            <address>1 Avenue Pierre Vialard, 15110 Chaudes-Aigues, France</address>
+            <Point>
+                <coordinates>3.00667,44.85555</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saint Emilion  Gratuito; Agua: no; Wc:si (de pago)</name>
+            <address>20 Grand Pontet, 33330 Saint-Émilion, France</address>
+            <Point>
+                <coordinates>-0.15591,44.89689</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Briançon  Gratuito:no; Agua:no; wc: si</name>
+            <address>9 Rue Champ de Mars, 05100 Briançon, France</address>
+            <Point>
+                <coordinates>6.64556,44.90111</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gluges  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Port de Gluges, 46600 Montvalent, France</address>
+            <Point>
+                <coordinates>1.62433,44.90836</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Leoncel  (Gratuito;Agua:si;WC:si)</name>
+            <address>Léoncel, 26190 Léoncel, France</address>
+            <Point>
+                <coordinates>5.19243,44.91049</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa fluvial de Libourne  (Altura limitada a 2.20m;Gratuito;Agua:no;Wc:si;Duchas:si)</name>
+            <address>6 Rue de Schwandorf, 33500 Libourne, France</address>
+            <Point>
+                <coordinates>-0.24407,44.94741</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Venosc  (Gratuito;Agua:no;Wc:no)</name>
+            <address>La Condamine, 38520 Vénosc, France</address>
+            <Point>
+                <coordinates>6.11626,44.9869</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Roche de St.Cristophe  Gratuito; Agua: no; Wc: no</name>
+            <address>D66, 24620 Peyzac-le-Moustier, France</address>
+            <Point>
+                <coordinates>1.07041,44.98804</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vals-pres-le-Puy  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>Rue Saint-Benoît, 43750 Vals-prés-le-Puy, France</address>
+            <Point>
+                <coordinates>3.87706,45.02902</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Arsine  Gratuito Si, Agua No, WC No</name>
+            <address>Lochette, 05480 Villar-d'Arène, France</address>
+            <Point>
+                <coordinates>6.35928,45.02997</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Col du Lautaret  (Gratuito.Agua:Si WC:Si)</name>
+            <address>D1091, 05480 Villar-d'Arène, France</address>
+            <Point>
+                <coordinates>6.40681,45.0332</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Le Puy en Velay (Alto Loira)  Gratuito: Si, Pernocta: Si Agua:  No WC:No</name>
+            <address>10 Avenue de Bonneville, 43000 Aiguilhe, France</address>
+            <Point>
+                <coordinates>3.88338,45.05066</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Langeac  (Gratuito;Agua:si;Wc:no;galibo 2m.)</name>
+            <address>1501 Chemin de la Vigerie, 43300 Langeac, France</address>
+            <Point>
+                <coordinates>3.49909,45.09984</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Terrasson  Gratuito; Agua: si; Wc: si (de pago); parking urbano</name>
+            <address>Quai du 14 Juillet, 24120 Terrasson-Lavilledieu, France</address>
+            <Point>
+                <coordinates>1.30418,45.12942</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grand etang de La Jemaye  (Gratuito;Agua:si;Wc:si)</name>
+            <address>70 Étang de Laroche, 24410 La Jemaye, France</address>
+            <Point>
+                <coordinates>0.2796,45.16138</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Perigueux  Gratuito; Agua: si; Wc: no</name>
+            <address>5 Rue de l'Ancienne Préfecture, 24000 Périgueux, France</address>
+            <Point>
+                <coordinates>0.72326,45.18112</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Bastille (Grenoble)  Gratuito: si; Agua: si; Wc: no</name>
+            <address>5 Chemin de la Bastille, 38000 Grenoble, France</address>
+            <Point>
+                <coordinates>5.72554,45.20037</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fortaleza Redoute Marie-Therese  Gratuito; Agua: si; Wc: no</name>
+            <address>D1006, 73500 Avrieux, France</address>
+            <Point>
+                <coordinates>6.73636,45.20804</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lavaudieu  (Gratuito;Agua:no;WC:si)</name>
+            <address>Le Bourg, 43100 Lavaudieu, France</address>
+            <Point>
+                <coordinates>3.45585,45.26261</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sadroc   (Gratuito;Agua:si;Wc:no;Vaciado:no;Elec:?)</name>
+            <address>1 Route de la Forge, 19270 Sadroc, France</address>
+            <Point>
+                <coordinates>1.54869,45.28343</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Plage sud (Vendays Montalivet)  (Gratuito;Agua:si;Wc:no)</name>
+            <address>4 Boulevard de Lattre de Tassigny, 33930 Vendays-Montalivet, France</address>
+            <Point>
+                <coordinates>-1.15656,45.37591</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Iglesia Saint-Thomas-de-Conac   (parking urbano;Gratuito;Agua:no;Wc:si)</name>
+            <address>4 Place des Anciens Combattants, 17150 Saint-Thomas-de-Conac, France</address>
+            <Point>
+                <coordinates>-0.68765,45.38882</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Le Raffort (Meribel)  Gratuito; Agua: no; Wc: no; parking urbano</name>
+            <address>D90, 73550 Les Allues, France</address>
+            <Point>
+                <coordinates>6.56011,45.40875</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saint-Ciers du Taillon  (Gratuito:si;Agua:si;Wc: si)</name>
+            <address>4 Rue de l'Eglise, 17240 Saint-Ciers-du-Taillon, France</address>
+            <Point>
+                <coordinates>-0.64161,45.42257</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chateau de Val  (Gratuito;Agua:no;WC:si)</name>
+            <address>Les Fontilles, 15270 Lanobre, France</address>
+            <Point>
+                <coordinates>2.50755,45.44296</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saint Pierre de Belleville  (1,70 euros;Agua:si;WC:no)</name>
+            <address>Unnamed Road, 73220 Saint-Alban-d'Hurtières, France</address>
+            <Point>
+                <coordinates>6.28524,45.48006</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saint-Saturnin  (Gratuito;Agua:no;WC:no)</name>
+            <address>7 Place du Huit Mai, 63450 Saint-Saturnin, France</address>
+            <Point>
+                <coordinates>3.08936,45.65985</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Laqueuille  (Gratuito;Agua:si;Wc:si)</name>
+            <address>D2089, 63820 Laqueuille, France</address>
+            <Point>
+                <coordinates>2.72434,45.66643</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Col du Petit Saint Bernard  (Gratuito;Agua:no;WC:no)</name>
+            <address>D1090, 73700 Séez, France</address>
+            <Point>
+                <coordinates>6.88194,45.67726</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Route des Fontaines  (Gratuito;Agua:si;WC:si;Galibo 3m.)</name>
+            <address>1-3 Route des Prés, 16600 Mornac, France</address>
+            <Point>
+                <coordinates>0.27023,45.68063</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac de Roseland  Agua: No WC:No Gratuito: Si</name>
+            <address>Unnamed Road, 73270 Beaufort, France</address>
+            <Point>
+                <coordinates>6.63037,45.6916</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aix-les-Bains  Gratuito; Agua: si; Wc: si</name>
+            <address>250 Avenue du Grand Port, 73100 Aix-les-Bains, France</address>
+            <Point>
+                <coordinates>5.88807,45.7052</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ugine  (Gratuito;Agua:no;WC:no)</name>
+            <address>711 Avenue Ernest Perrier de la Bathie, 73400 Ugine, France</address>
+            <Point>
+                <coordinates>6.40878,45.75505</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Les Contamines-Montjoie  (Gratuito.Agua:Si WC:Si)</name>
+            <address>3347 Route de Notre Dame de la Gorge, 74170 Les Contamines-Montjoie, France</address>
+            <Point>
+                <coordinates>6.71732,45.79529</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lago Annecy  (Gratuito;Agua:no;Wc:no)</name>
+            <address>25 Route des Saintiers, 74320 Sévrier, France</address>
+            <Point>
+                <coordinates>6.15196,45.84507</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking Ac Annecy  (Gratuito;Agua:no;Wc:no)</name>
+            <address>1 Chemin de Colmyr, 74000 Annecy, France</address>
+            <Point>
+                <coordinates>6.13861,45.89056</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chamonix II  Gratuito; Agua: no; Wc: si; parking junto a carretera</name>
+            <address>472 Avenue Cachat le Géant, 74400 Chamonix-Mont-Blanc, France</address>
+            <Point>
+                <coordinates>6.87587,45.92157</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chamonix  Gratuito; Agua: no; Wc: no</name>
+            <address>240 Route du Bouchet, 74400 Chamonix-Mont-Blanc, France</address>
+            <Point>
+                <coordinates>6.87504,45.92699</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chamonix-Route du Bouchet  (Gratuito.Agua:No WC:Si)</name>
+            <address>603 Route du Bouchet, 74400 Chamonix-Mont-Blanc, France</address>
+            <Point>
+                <coordinates>6.87744,45.92872</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chemin de Orthaz (Chamonix)   (Gratuito;Agua:si;Wc:si)</name>
+            <address>2 F Chemin d'Orthaz, 74400 Chamonix-Mont-Blanc, France</address>
+            <Point>
+                <coordinates>6.88961,45.93447</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area Ac Manzat  Gratuito; Agua: si; Wc: no</name>
+            <address>9 Rue de Montarvier, 63410 Manzat, France</address>
+            <Point>
+                <coordinates>2.93786,45.96136</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Argentiére-Les Grands Montets  (Gratuito. WC:No)</name>
+            <address>271 Chemin sous la Grand, 74400 Chamonix-Mont-Blanc, France</address>
+            <Point>
+                <coordinates>6.92583,45.97915</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grands Montets (Chamonix)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>271 Chemin sous la Grand, 74400 Chamonix-Mont-Blanc, France</address>
+            <Point>
+                <coordinates>6.92631,45.98001</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Gour de Tazenat  Gratuito: si; Agua: si; Wc: si</name>
+            <address>19 D19, 63410 Charbonnières-les-Vieilles, France</address>
+            <Point>
+                <coordinates>2.98944,45.985</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Argentiére  Gratuito: Si  Agua potable: No WC: Si</name>
+            <address>29 Route des Montets, 74400 Chamonix-Mont-Blanc, France</address>
+            <Point>
+                <coordinates>6.92782,45.98524</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Le Couteray  Gratuito;Agua:no;Wc:no</name>
+            <address>Voie Communale N°4 Dite du Coûtera, 74660 Vallorcine, France</address>
+            <Point>
+                <coordinates>6.91684,46.02196</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Razes  Gratuito Si Agua No WC No</name>
+            <address>25 Razès Village, 87640 Razès, France</address>
+            <Point>
+                <coordinates>1.34564,46.03381</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playas de Aytré  Gratuito; Agua:si;Wc:no</name>
+            <address>66 Route de la Plage, 17440 Aytré, France</address>
+            <Point>
+                <coordinates>-1.12287,46.11221</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vichy  Gratuito: si; Agua: no; Wc: si</name>
+            <address>30 Quai d'Allier, 03200 Vichy, France</address>
+            <Point>
+                <coordinates>3.41592,46.12857</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Rochelle (II)  Gratuito: si; Agua: si; Wc: no</name>
+            <address>1 Avenue des Minimes, 17000 La Rochelle, France</address>
+            <Point>
+                <coordinates>-1.16061,46.14404</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puerto de la Rochelle  Gratuito; Agua: no; Wc: no</name>
+            <address>3 Allée des Tamaris, 17000 La Rochelle, France</address>
+            <Point>
+                <coordinates>-1.15841,46.1529</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Rochelle  Gratuito: Si, Pernocta: Si Agua: Si WC:si</name>
+            <address>130 Chemin du Rempart, 17000 La Rochelle, France</address>
+            <Point>
+                <coordinates>-1.15524,46.16568</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Le Belvedere (La Rochelle)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>D21, 17000 La Rochelle, France</address>
+            <Point>
+                <coordinates>-1.21813,46.1746</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Le Bois Plage en Re (Isla de Re)  (Gratuito;Agua:si;Wc:si)</name>
+            <address>5981A Chemin des Prairies, 17580 Le Bois-Plage-en-Ré, France</address>
+            <Point>
+                <coordinates>-1.38619,46.17708</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Avenue de la Plage (Isla de RÃ©)  (Gratuito;Agua:si;WC:si)</name>
+            <address>51 Rue Raise Maritaise, 17580 Le Bois-Plage-en-Ré, France</address>
+            <Point>
+                <coordinates>-1.394,46.18181</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Charroux (Auvernia, Allier)  (Gratuito;Agua:no;WC:si)</name>
+            <address>2 Cours Boirot Lacombe, 03140 Charroux, France</address>
+            <Point>
+                <coordinates>3.16347,46.18303</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Embarcadero de Coulon  Gratuito; Agua: no; Wc: no</name>
+            <address>D9, 79460 Magné, France</address>
+            <Point>
+                <coordinates>-0.57577,46.31916</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Baleine (La Tranche sur Mer)  (Gratuito:no(7eur/24h);Agua:no;Wc:no)</name>
+            <address>145 Rue du Phare, 85360 La Tranche-sur-Mer, France</address>
+            <Point>
+                <coordinates>-1.46222,46.34335</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Dune de Paris (La Tranche sur Mer)  (Gratuito;Agua:si;Wc:no)</name>
+            <address>13 Rue du Fond des Rois, 85360 La Tranche-sur-Mer, France</address>
+            <Point>
+                <coordinates>-1.46173,46.34897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Le Donjon  (Gratuito;Agua:si;Wc:si)</name>
+            <address>D994, 03130 Le Donjon, France</address>
+            <Point>
+                <coordinates>3.80893,46.35149</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Anthy-sur-Leman  (Gratuito;Agua:si;Wc:si;duchas:si)</name>
+            <address>33 Rue des Recorts, 74200 Anthy-sur-Léman, France</address>
+            <Point>
+                <coordinates>6.42257,46.35961</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vivonne  (Gratuito;Agua:no;Wc:no)</name>
+            <address>10 Place des Tilleuls, 86370 Vivonne, France</address>
+            <Point>
+                <coordinates>0.26563,46.42843</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cirque de Baume  (Gratuito;Agua:si;Wc:si)</name>
+            <address>4 À Roche, 39570 Baume-les-Messieurs, France</address>
+            <Point>
+                <coordinates>5.63936,46.69097</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa Paree Preneau (Saint Hilaire de Riez)  (Gratuito:no(5eur/noche);Agua:no;Wc:si)</name>
+            <address>Allée de la Plage de la Parée Préneau, 85270 Saint-Hilaire-de-Riez, France</address>
+            <Point>
+                <coordinates>-1.99112,46.72836</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac Saint Point (Montperreux)  (Gratuito;Agua:no;Wc:no)</name>
+            <address>54 Rue du Lac, 25160 Montperreux, France</address>
+            <Point>
+                <coordinates>6.33312,46.83053</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Arbois  (Gratuito;Agua:si;Wc:si;parking urbano)</name>
+            <address>2 Rue Bousson de Mairet, 39600 Arbois, France</address>
+            <Point>
+                <coordinates>5.77528,46.90197</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>St Marie la Blanche  Gratuito; Agua: no; Wc: no</name>
+            <address>4-8 Rue de l'Église, 21200 Sainte-Marie-la-Blanche, France</address>
+            <Point>
+                <coordinates>4.88889,46.98047</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Port de Piles  (Gratuito;Agua:si;Wc:si)</name>
+            <address>D5AB, 86220 Port-de-Piles, France</address>
+            <Point>
+                <coordinates>0.59963,46.99628</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Meunet Sur Vatan  Gratuito; Agua: si; Wc: si; Elect:si</name>
+            <address>D2A, 36150 Meunet-sur-Vatan, France</address>
+            <Point>
+                <coordinates>1.8648,47.08072</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Clisson  Gratuito:si Agua:no WC:si</name>
+            <address>29 Rue des Halles, 44190 Clisson, France</address>
+            <Point>
+                <coordinates>-1.28185,47.08576</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Crissay-sur-Manse  (Gratuito;Agua:si;WC:si)</name>
+            <address>D21, 37220 Crissay-sur-Manse, France</address>
+            <Point>
+                <coordinates>0.48709,47.1497</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Dampierre  (Gratuito;Agua:no;Wc:no)</name>
+            <address>19 Rue de la Source, 39700 Dampierre, France</address>
+            <Point>
+                <coordinates>5.73836,47.15182</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Montsoreau  Gratuito; Agua: no; Wc: no</name>
+            <address>Le Petit Port, 49730 Varennes-sur-Loire, France</address>
+            <Point>
+                <coordinates>0.0586,47.22158</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chateau de Usse  (Gratuito;Agua:no;Wc:si)</name>
+            <address>D7, 37420 Rigny-Ussé, France</address>
+            <Point>
+                <coordinates>0.29264,47.25104</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saumur  (parking urbano;Gratuito;Agua:no;Wc:no)</name>
+            <address>1 Rue Bodin, 49400 Saumur, France</address>
+            <Point>
+                <coordinates>-0.07924,47.25596</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Azay-le-Rideau   (Gratuito;Agua:no;Wc:no)</name>
+            <address>3 Rue du Stade, 37190 Azay-le-Rideau, France</address>
+            <Point>
+                <coordinates>0.46995,47.26021</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bourgueil  (Gratuito;Agua:no;WC:no)</name>
+            <address>6 Rue des Tanneries, 37140 Bourgueil, France</address>
+            <Point>
+                <coordinates>0.17067,47.27977</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking Ac Le Croisic  (6eur/noche;Agua:no;Wc:no)</name>
+            <address>5 Quai Hervé Rielle, 44490 Le Croisic, France</address>
+            <Point>
+                <coordinates>-2.50885,47.29297</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kerhinet  Gratuito: si; Agua: no; Wc: no</name>
+            <address>129 Le Brunet, 44410 Saint-Lyphard, France</address>
+            <Point>
+                <coordinates>-2.33322,47.36313</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Amboise  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>41 Avenue Léonard de Vinci, 37400 Amboise, France</address>
+            <Point>
+                <coordinates>0.99008,47.40822</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Peninsula de Quiberon  Gratuito: Si, Agua: No, WC: No</name>
+            <address>Route Côtière, 56170 Quiberon, France</address>
+            <Point>
+                <coordinates>-3.14447,47.48432</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Castillo de Cheverny  (Gratuito;Agua:no;Wc:no)</name>
+            <address>4 Route du Bûcher, 41700 Cheverny, France</address>
+            <Point>
+                <coordinates>1.46106,47.49747</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kergroix (peninsula de Quiberon)  Gratuito; Agua: si; Wc: si</name>
+            <address>7274 Rue des Embruns, 56510 Saint-Pierre-Quiberon, France</address>
+            <Point>
+                <coordinates>-3.14679,47.52352</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pierres Plates  Gratuito; Agua: no; Wc: no</name>
+            <address>15 Kerere, 56740 Locmariaquer, France</address>
+            <Point>
+                <coordinates>-2.94886,47.5574</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Itsmo de Pentievre (playa en Quiberon)  Gratuito Si, Agua No, WC No</name>
+            <address>Unnamed Road, 56340 Plouharnel, France</address>
+            <Point>
+                <coordinates>-3.12664,47.56503</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Blois  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>43 Quai Henri Chavigny, 41000 Blois, France</address>
+            <Point>
+                <coordinates>1.34688,47.58753</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chateau du Chambord  Gratuito: no (15 eur/noche); Agua: no; Wc: si (0.40 eur)</name>
+            <address>101 Place Saint-Louis, 41250 Chambord, France</address>
+            <Point>
+                <coordinates>1.51092,47.61606</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Barre d´Etel  Gratuito; Agua: no; Wc: no</name>
+            <address>Unnamed Road, 56680 Plouhinec, France</address>
+            <Point>
+                <coordinates>-3.21407,47.64686</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Place de la Libertè(Vannes)  (Gratuito:no;Agua:no;Wc:no;parking urbano)</name>
+            <address>2 Place de la Libération, 56000 Vannes, France</address>
+            <Point>
+                <coordinates>-2.76431,47.6587</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Etang de Malsaucy  (Galibo 2m;Gratuito;Agua:si;Wc:si)</name>
+            <address>51 Rue d'Evette, 90300 Sermamagny, France</address>
+            <Point>
+                <coordinates>6.81395,47.68418</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rochefort-en-Terre  Gratuito; Agua: no; Wc: no; parking urbano</name>
+            <address>4 Rue Vieux Bourg, 56220 Rochefort-en-Terre, France</address>
+            <Point>
+                <coordinates>-2.33407,47.70046</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Port Louis  Gratuito Si, Agua Si, WC Si</name>
+            <address>5 Quai de la Pointe, 56290 Port-Louis, France</address>
+            <Point>
+                <coordinates>-3.35692,47.71122</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Musée du Chemin de Fer (Mulhouse)  Gratuito;Agua:no;Wc: no; parking urbano</name>
+            <address>7 Rue Alfred de Glehn, 68200 Mulhouse, France</address>
+            <Point>
+                <coordinates>7.29418,47.74942</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Le Pouldu  (6eur/noche);Agua:no;Wc:no)</name>
+            <address>75 Rue Anne de Bretagne, 29360 Clohars-Carnoët, France</address>
+            <Point>
+                <coordinates>-3.55252,47.76821</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cementerio de barcos de Lanester  (Gratuito;Agua:no;Wc:no)</name>
+            <address>4 Chemin de la Grande Terre, 56600 Lanester, France</address>
+            <Point>
+                <coordinates>-3.30009,47.7733</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Beaugency  (Gratuito;Agua:no;Wc:no)</name>
+            <address>2 Place Dunois, 45190 Beaugency, France</address>
+            <Point>
+                <coordinates>1.63385,47.77783</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cale de Ranguenez   (Gratuito;Agua:no;Wc:no)</name>
+            <address>43 Rue des Îles, 29920 Névez, France</address>
+            <Point>
+                <coordinates>-3.80142,47.78895</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa Tahiti (Nevez)  (Gratuito;Agua:si;Wc:si)</name>
+            <address>1130 Kerstalen, 29920 Névez, France</address>
+            <Point>
+                <coordinates>-3.78981,47.793</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa de Port Manech  (Gratuito;Agua:si;WC:si)</name>
+            <address>16 Rue de la Plage, 29920 Névez, France</address>
+            <Point>
+                <coordinates>-3.74289,47.80503</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saint-Guenole (Penmarch)  (Gratuito:no(4eur/24h);Agua:no;Wc:no)</name>
+            <address>384 Rue du Musée de la Préhistoire, 29760 Penmarch, France</address>
+            <Point>
+                <coordinates>-4.36146,47.82524</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Foret Fouesnant  (Gratuito;Agua:no;Wc:no)</name>
+            <address>33 Rue du Port, 29940 La Forêt-Fouesnant, France</address>
+            <Point>
+                <coordinates>-3.9792,47.90646</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pours Puoulhan  Gratuito; Agua: no; Wc: no</name>
+            <address>4 Rue de l'Océan, 29710 Plozévet, France</address>
+            <Point>
+                <coordinates>-4.45049,47.98118</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chevilly (Paris)  (Gratuito;Agua:no;Wc:si;parking urbano)</name>
+            <address>Place Lucien Paillet, 45520 Chevilly, France</address>
+            <Point>
+                <coordinates>1.87416,48.02602</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pointe du Raz  Gratuito: no Agua: Si WC: si</name>
+            <address>La Pointe du Raz, 29770 Plogoff, France</address>
+            <Point>
+                <coordinates>-4.71686,48.03697</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Eguisheim  (Gratuito;Agua:no;Wc:no)</name>
+            <address>3 Rue du Malsbach, 68420 Eguisheim, France</address>
+            <Point>
+                <coordinates>7.31288,48.04394</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pointe du Van  Gratuito; Agua; no; Wc: no</name>
+            <address>D7, 29770 Cléden-Cap-Sizun, France</address>
+            <Point>
+                <coordinates>-4.70775,48.06001</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pointe de Brezelec  Gratuito; Agua: no; Wc: no</name>
+            <address>Pointe de Brezellec, 29770 Cléden-Cap-Sizun, France</address>
+            <Point>
+                <coordinates>-4.66461,48.06988</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Colmar  (Gratuito;Agua:no;WC:no)</name>
+            <address>2 Rue Henry Wilhelm, 68000 Colmar, France</address>
+            <Point>
+                <coordinates>7.3553,48.08361</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Estacion de Vitre  Gratuito: solo de noche; Agua: no; Wc: si; parking urbano</name>
+            <address>15B Place du Général de Gaulle, 35500 Vitré, France</address>
+            <Point>
+                <coordinates>-1.21227,48.12282</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Area AC Kayserberg  (8 eur/dia;Agua:si;vaciado:si;WC:si; electric;no)</name>
+            <address>D415, 68240 Kaysersberg, France</address>
+            <Point>
+                <coordinates>7.26188,48.13608</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac de Bouzey  (Gratuito.Agua:Si WC:No)</name>
+            <address>71-75 D41, 88390 Sanchey, France</address>
+            <Point>
+                <coordinates>6.36339,48.15928</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cap de la Chevre  Gratuito;Agua:no;Wc:no</name>
+            <address>D255, 29160 Crozon, France</address>
+            <Point>
+                <coordinates>-4.5512,48.17184</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lac de Guerledan  Gratuito; Agua: si; Wc: si</name>
+            <address>D111, 22530 Caurel, France</address>
+            <Point>
+                <coordinates>-3.04962,48.20611</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Chatillon en Vendelais  Gratuito: si ; Agua: no; Wc: no</name>
+            <address>2 L'Ecoublere, 35210 Châtillon-en-Vendelais, France</address>
+            <Point>
+                <coordinates>-1.18333,48.23055</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pointe des Espagnols  Gratuito: si; Agua: no; Wc: si</name>
+            <address>D355, 29570 Roscanvel, France</address>
+            <Point>
+                <coordinates>-4.53833,48.33917</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Daoulas  Gratuito; Agua: no; Wc: no; parking en pueblo pequeño</name>
+            <address>9 Rue du Valy, 29460 Daoulas, France</address>
+            <Point>
+                <coordinates>-4.26141,48.36102</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lagosse (Fontenebleau)  Gratuito; Agua: no; Wc: no; parking urbano</name>
+            <address>1 Rue Jean Becquerel, 77300 Fontainebleau, France</address>
+            <Point>
+                <coordinates>2.70304,48.41434</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Etampes  Gratuito; Agua: no; Wc; no; parking urbano</name>
+            <address>58-66 Boulevard Berchère, 91150 Étampes, France</address>
+            <Point>
+                <coordinates>2.15842,48.43095</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Taden (La Rance)  Gratuito: si; Agua: si; Wc: si</name>
+            <address>9 Impasse des Marières, 22100 Taden, France</address>
+            <Point>
+                <coordinates>-2.0117,48.47571</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Mountagne Verte (Estrasburgo)  Gratuito: si; Agua: no; Wc: no</name>
+            <address>2 Allée du Sommerhof, 67200 Strasbourg, France</address>
+            <Point>
+                <coordinates>7.71288,48.575</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saint Pabu  Gratuito: si; Agua: no; Wc: no</name>
+            <address>81 Rue de Corn ar Gazel, 29830 Saint-Pabu, France</address>
+            <Point>
+                <coordinates>-4.6267,48.5767</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puerto de Aber-Wrach  Gratuito:si Agua:no WC:no-a 100m</name>
+            <address>41 Ar Palud, 29870 Landéda, France</address>
+            <Point>
+                <coordinates>-4.5594,48.59611</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Aber Wrach  Gratuito: si; Agua: no; Wc: no</name>
+            <address>100 Penn Enez, 29870 Landéda, France</address>
+            <Point>
+                <coordinates>-4.5936,48.6036</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>St.Malo (II)  (Gratuito;Agua:no; Wc:no;altura limitada a 1.90m;parking urbano)</name>
+            <address>2 Allée Gaston Buy, 35400 Saint-Malo, France</address>
+            <Point>
+                <coordinates>-2.02949,48.63726</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Naye (Saint Malo)  (Prohibido de 9 a 19h;Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>Rond-Point du Naye, 35400 Saint-Malo, France</address>
+            <Point>
+                <coordinates>-2.02193,48.64102</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puerto Saint-Cast le Guildo  (Gratuito;Agua:no;Wc:si)</name>
+            <address>7159 Rue du Port Jaquet, 22380 Saint-Cast-le-Guildo, France</address>
+            <Point>
+                <coordinates>-2.24505,48.64231</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puerto de Saint-Quay-Portrieux  (Gratuito;Agua:si;Wc:si)</name>
+            <address>Rue de la Priaute, 22410 Saint-Quay-Portrieux, France</address>
+            <Point>
+                <coordinates>-2.82425,48.64854</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saint Malo  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>8D Avenue de Moka, 35400 Saint-Malo, France</address>
+            <Point>
+                <coordinates>-2.00443,48.65399</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pors Meur (Plouescat)   Gratuito: si; Agua: no; Wc: no</name>
+            <address>56 Rue Pen an Theven, 29430 Plouescat, France</address>
+            <Point>
+                <coordinates>-4.21833,48.65861</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kerlouan  (Gratuito;Agua:no;Wc:no)</name>
+            <address>13 La Digue, 29890 Kerlouan, France</address>
+            <Point>
+                <coordinates>-4.37986,48.66202</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saint Pol de Leon  (Gratuito;Agua:si;Wc:si)</name>
+            <address>96 Rue du Port, 29250 Saint-Pol-de-Léon, France</address>
+            <Point>
+                <coordinates>-3.97073,48.68265</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kermaria an Iskuit  (Gratuito;Agua:no;Wc:no)</name>
+            <address>32 Lieu dit Kermaria an Isquit, 22580 Plouha, France</address>
+            <Point>
+                <coordinates>-2.97604,48.68537</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kersulguen  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Kersulguen, 29680 Roscoff, France</address>
+            <Point>
+                <coordinates>-3.99926,48.71207</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Golf Saint Aubin  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Chemin de la Chasse, 91190 Saint-Aubin, France</address>
+            <Point>
+                <coordinates>2.12982,48.71579</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Locquemeau   Gratuito: si; Agua: no; Wc: no</name>
+            <address>51 Route du Port, 22300 Trédrez-Locquémeau, France</address>
+            <Point>
+                <coordinates>-3.57972,48.7225</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Millery  (Gratuito;Agua:no;Wc:no)</name>
+            <address>37 Avenue de la Moselle, 54670 Millery, France</address>
+            <Point>
+                <coordinates>6.12752,48.81593</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pointe de l Arcouest  Gratuito: no; Agua: si; Wc: si</name>
+            <address>13 Rue Hent ar Ti Gward, Ploubazlanec, France</address>
+            <Point>
+                <coordinates>-3.00828,48.81845</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tregastel  (Gratuito;Agua:no;Wc:no;parking centro comercial)</name>
+            <address>17 Chemin de Roch Uzon, 22730 Trégastel, France</address>
+            <Point>
+                <coordinates>-3.49806,48.82194</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Park Alizès (Paris)  (15eur/12h;parking urbano)</name>
+            <address>Passage Com DC13, 75013 Paris, France</address>
+            <Point>
+                <coordinates>2.34488,48.82739</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Roche d´Oetre  (Gratuito;Agua:si;Wc:no)</name>
+            <address>D301, 61430 Saint-Philbert-sur-Orne, France</address>
+            <Point>
+                <coordinates>-0.38191,48.82957</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Faro de Ploumanac´h  (Gratuito;Agua:no;Wc:no;altura limitada a 2 metros)</name>
+            <address>Rue Aimée Fournier, 22700 Perros-Guirec, France</address>
+            <Point>
+                <coordinates>-3.48033,48.83549</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Petite Pierre (Alsacia)  (Gratuito;Agua:si;WC:si)</name>
+            <address>2 Rue du Château, 67290 La Petite-Pierre, France</address>
+            <Point>
+                <coordinates>7.31963,48.85667</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking junto al Sena (Paris)  (Gratuito;altura limitada a 2,10;parking urbano)</name>
+            <address>2-4 D1, 75016 Paris, France</address>
+            <Point>
+                <coordinates>2.22663,48.85787</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hipodromo de Longchamp (Paris)  (Altura limitada a 1.90;Gratuito;Agua:no;Wc:no)</name>
+            <address>Route des Tribunes, 75016 Paris, France</address>
+            <Point>
+                <coordinates>2.22925,48.85938</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Dhuisy   (parking urbano;Gratuito;Agua:no;Wc:no)</name>
+            <address>1 Grande Rue, 77440 Dhuisy, France</address>
+            <Point>
+                <coordinates>3.15958,49.03986</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ciudadela Subterranea (Verdun)  (Gratuito;Agua:no;Wc:si)</name>
+            <address>3 Avenue du Cinquième Rue À P, 55100 Verdun, France</address>
+            <Point>
+                <coordinates>5.37332,49.15733</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Les Andelys  Gratuito; Agua: no; Wc: no; parking en pueblo pequeño</name>
+            <address>D135, 27700 Les Andelys, France</address>
+            <Point>
+                <coordinates>1.40093,49.23716</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puente Pegaso (Benouville)  Gratuito; Agua: no; Wc: no</name>
+            <address>Impasse Pegasus, 14860 Ranville, France</address>
+            <Point>
+                <coordinates>-0.27201,49.24251</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Le Vaudreuil  (Gratuito;Agua:no;WC:no)</name>
+            <address>2695 Chaussée du Vexin, 27100 Le Vaudreuil, France</address>
+            <Point>
+                <coordinates>1.20067,49.25048</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grand Bosquet  Gratuito:Si Agua potable:No WC: No</name>
+            <address>4 Rue du Grand Bosquet, 02600 Villers-Cotterêts, France</address>
+            <Point>
+                <coordinates>3.09376,49.25575</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Playa Riva-Bella (Ouistreham)  Gratuito; Agua: no; Wc: no; altura limitada a 2 m.</name>
+            <address>15 Boulevard Aristide Briand, 14150 Ouistreham, France</address>
+            <Point>
+                <coordinates>-0.26159,49.29004</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lion Sur Mer  Gratuito; Agua: si; Wc: si; parking urbano</name>
+            <address>Rue Marcotte, 14780 Lion-sur-Mer, France</address>
+            <Point>
+                <coordinates>-0.31312,49.30149</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Juno park  (Gratuito;Agua:no;Wc:no)</name>
+            <address>Voie des Français Libres, 14470 Courseulles-sur-Mer, France</address>
+            <Point>
+                <coordinates>-0.46606,49.33718</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Baterias de Longues sur Mer  Gratuito: Agua: si; Wc: si</name>
+            <address>D104, 14400 Longues-sur-Mer, France</address>
+            <Point>
+                <coordinates>-0.69128,49.34307</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Port en Bessin  Gratuito; Agua: no; Wc: no; lugar solitario con vistas al mar</name>
+            <address>Unnamed Road, 14520 Port-en-Bessin-Huppain, France</address>
+            <Point>
+                <coordinates>-0.78503,49.35209</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Omaha beach. Cementerio americano de Colleville  Gratuito; Agua: no; Wc: no</name>
+            <address>Moulins, 14710 Colleville-sur-Mer, France</address>
+            <Point>
+                <coordinates>-0.85028,49.35807</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Omaha Beach. Le Ruquet  Gratuito; Agua: no; Wc: no</name>
+            <address>113-115 Rue de la 2ème Division Us, 14710 Saint-Laurent-sur-Mer, France</address>
+            <Point>
+                <coordinates>-0.86352,49.36504</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sainte-Mere-Eglise  (2 eur/diurno;Agua:si;WC:si; galibo)</name>
+            <address>13D Impasse Bob Murphy, 50480 Sainte-Mère-Église, France</address>
+            <Point>
+                <coordinates>-1.31417,49.40712</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Rouen  (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>710 Quai Cavelier de la Salle, 76100 Rouen, France</address>
+            <Point>
+                <coordinates>1.08463,49.43807</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking municipal Albert I (Le Havre)  Gratuito: si; Agua: no; Wc: si (en la playa)</name>
+            <address>153 Boulevard Albert 1er, 76600 Le Havre, France</address>
+            <Point>
+                <coordinates>0.09416,49.49453</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Villequier  Gratuito; Agua: no; Wc: si</name>
+            <address>9 Rue Jean le Gaffric, 76490 Villequier, France</address>
+            <Point>
+                <coordinates>0.67789,49.51551</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Estacion de Etretat  Gratuito; Agua: no; Wc: no</name>
+            <address>Place de la Gare, 76790 Étretat, France</address>
+            <Point>
+                <coordinates>0.21577,49.70855</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Acantilados de Etretat  Gratuito; Agua: no; Wc: no</name>
+            <address>Avenue Damilaville, 76790 Étretat, France</address>
+            <Point>
+                <coordinates>0.20633,49.71086</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Goury  Agua: No, Wc: No, Luz: No, Gratuito: No</name>
+            <address>8 Rue du Port, 50440 Auderville, France</address>
+            <Point>
+                <coordinates>-1.94604,49.71557</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Benouville  Gratuito: si; Agua: no; Agua: no</name>
+            <address>Chemin des Falaises, 76111 Vattetot-sur-Mer, France</address>
+            <Point>
+                <coordinates>0.26867,49.72758</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cap Fagnet (Fecamp)  (Gratuito;Agua:si;Wc:si)</name>
+            <address>D79, 76400 Fécamp, France</address>
+            <Point>
+                <coordinates>0.37389,49.76636</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Curlu   (Gratuito;Agua:no;Wc:no;parking urbano)</name>
+            <address>2 Rue de la Place, 80360 Curlu, France</address>
+            <Point>
+                <coordinates>2.81626,49.96488</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Criel-Plage  (Gratuito;Agua:si;Wc:no)</name>
+            <address>D222, 76910 Criel-sur-Mer, France</address>
+            <Point>
+                <coordinates>1.30964,50.03236</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Neufchatel-Hardelot Plage   (Gratuito;Agua:no;Wc:si;parking urbano)</name>
+            <address>1 Boulevard d'Argyll, 62152 Neufchâtel-Hardelot, France</address>
+            <Point>
+                <coordinates>1.57907,50.63725</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Beriot Plage  Gratuito; Agua: no; Wc: no</name>
+            <address>La Digue de Sangatte, 62231 Sangatte, France</address>
+            <Point>
+                <coordinates>1.77067,50.95149</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parking plaza del ayuntamiento (Calais)  Gratuito: si; Agua: no; Wc: no</name>
+            <address>26 Rue Jean Jaurès, 62100 Calais, France</address>
+            <Point>
+                <coordinates>1.85469,50.9524</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puerto de Dunkerque  (Gratuito;Agua:no;Wc:si)</name>
+            <address>5801 Route de la Maison Blanche, 59279 Loon-Plage, France</address>
+            <Point>
+                <coordinates>2.19812,51.01714</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Explanade Georges Caurions (Dunkerque)   (Altura limitada a 2m.;Gratuito;Agua:no;Wc:no)</name>
+            <address>6-8 Rue de la Plage, 59140 Dunkerque, France</address>
+            <Point>
+                <coordinates>2.38242,51.04857</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>

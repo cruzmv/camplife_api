@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <description>Albania</description>
+        <Placemark>
+            <name>Camping Totoreto  (20eur/dia(furgo+2pax);bar, restaurante..)</name>
+            <address>Unnamed Road, Albania</address>
+            <Point>
+                <coordinates>19.63342,40.14661</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Autokamp Univers   (Precio:15eur/dia(furgo+2pax);piscina, restaurante, bar..)</name>
+            <address>E762, Albania</address>
+            <Point>
+                <coordinates>19.67299,41.67102</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</kml>
