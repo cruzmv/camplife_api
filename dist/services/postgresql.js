@@ -12,7 +12,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.insertOrUpdateData = exports.db = void 0;
+exports.insertOrUpdateCruiserList = exports.insertOrUpdatePlaces = exports.db = void 0;
 const uuid_1 = require("uuid");
 const pg_promise_1 = __importDefault(require("pg-promise"));
 // Create a connection to the PostgreSQL database
@@ -26,7 +26,7 @@ const db = pgp({
 });
 exports.db = db;
 // Function to insert or update data in the database
-function insertOrUpdateData(data) {
+function insertOrUpdatePlaces(data) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             for (const dataItem of data) {
@@ -158,5 +158,30 @@ function insertOrUpdateData(data) {
         }
     });
 }
-exports.insertOrUpdateData = insertOrUpdateData;
+exports.insertOrUpdatePlaces = insertOrUpdatePlaces;
+function insertOrUpdateCruiserList(data) {
+    return __awaiter(this, void 0, void 0, function* () {
+        try {
+            console.log(`Recording into database...`);
+            for (const item of data) {
+                const existingRecord = yield db.oneOrNone('SELECT * FROM cruiser_list WHERE lat = $1 AND lng = $2', [item.lat, item.lng]);
+                if (existingRecord) {
+                    // Update the existing record
+                    yield db.none('UPDATE cruiser_list SET title = $1, place = $2, description = $3, more = $4 WHERE lat = $5 AND lng = $6', [item.title, item.place, item.text, item.more, item.lat, item.lng]);
+                }
+                else {
+                    // Insert a new record
+                    yield db.none('INSERT INTO cruiser_list(lat, lng, title, place, description, more) VALUES ($1, $2, $3, $4, $5, $6)', [item.lat, item.lng, item.title, item.place, item.text, item.more]);
+                }
+            }
+        }
+        catch (error) {
+            console.error('Error:', error);
+        }
+        finally {
+            console.log('Finished record into database.');
+        }
+    });
+}
+exports.insertOrUpdateCruiserList = insertOrUpdateCruiserList;
 //# sourceMappingURL=postgresql.js.map

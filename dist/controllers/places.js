@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getPlacesList = void 0;
+exports.getCruiserList = exports.getPlacesList = void 0;
 const postgresql_1 = require("../services/postgresql");
 function getPlacesList(cood) {
     return __awaiter(this, void 0, void 0, function* () {
@@ -51,4 +51,21 @@ function getPlacesList(cood) {
     });
 }
 exports.getPlacesList = getPlacesList;
+function getCruiserList(cood) {
+    return __awaiter(this, void 0, void 0, function* () {
+        try {
+            const result = yield postgresql_1.db.any(`
+          SELECT latitude,longitude,title_place,place_place,description_place,place_distance_km,is_center,more_place
+            FROM get_cruiser_within_radius($1, $2)
+        `, [cood.lat, cood.long]);
+            console.log(`returning ${result.length} cruiser places`);
+            return result;
+        }
+        catch (error) {
+            console.error('Error retrieving cruiser places:', error);
+            throw new Error('Error retrieving cruiser places');
+        }
+    });
+}
+exports.getCruiserList = getCruiserList;
 //# sourceMappingURL=places.js.map

@@ -1,5 +1,5 @@
 import { DataItem } from './providers/dataItem.interface';
-import { insertOrUpdateData } from './postgresql';
+import { insertOrUpdatePlaces, insertOrUpdateCruiserList } from './postgresql';
 import { readDataFolder } from './providers/park4night';
 
 // const modules = [
@@ -207,11 +207,64 @@ async function updatePark4NightCoordinates(lat: number, long: number){
             return processed;
         });
         console.log('Updating Database...')
-        await insertOrUpdateData(processedData)
+        await insertOrUpdatePlaces(processedData)
         console.log('Finish update');
     } catch(error){
         console.error('Error inserting or updating data:', error);
     }
 }
 
-export { updatePark4NightCoordinates };
+async function updateCruiserList(body: any){
+    let url = `https://www.gays-cruising.com/en/${body.country}`;
+    if (body.city !== undefined &&
+        body.country !== undefined &&
+        body.lat !== undefined &&
+        body.long !== undefined){
+        url = `https://www.gays-cruising.com/en/${body.city}/${body.country}#map-zoom=${body.zoom}&map-lat=${body.lat}&map-lng=${body.long}`;
+    } else if (body.city !== undefined){
+        url = `https://www.gays-cruising.com/en/${body.city}/${body.country}`;
+    }
+
+    console.log(`cruiser_list: ${url}`)
+
+    const puppeteer = require('puppeteer');
+    const browser = await puppeteer.launch({ args: ['--no-sandbox'] });
+    const page = await browser.newPage();
+    await page.goto(url);
+    await page.waitForFunction('typeof gcMaps !== "undefined"');
+
+    console.log("Getting places...");
+
+    const result = []
+    for (let mI = 0; mI < 20; mI++) {
+        let markerString = `gcMaps.parametros.markers[${mI}]  !== undefined`;
+        let markerExists = await page.evaluate(markerString);
+        if (markerExists){
+            let cI = 0;
+            while (markerExists){
+                const latlng = await page.evaluate(`gcMaps.parametros.markers[${mI}][${cI}]._latlng`);
+                const title = await page.evaluate(`gcMaps.parametros.markers[${mI}][${cI}]._popup._content.children[0].innerText`);
+                const place = await page.evaluate(`gcMaps.parametros.markers[${mI}][${cI}]._popup._content.children[1].innerText`);
+                const text = await page.evaluate(`gcMaps.parametros.markers[${mI}][${cI}]._popup._content.children[2].innerText`);
+                const more = await page.evaluate(`gcMaps.parametros.markers[${mI}][${cI}]._popup._content.children[3].children[0].href`);
+                result.push({
+                    lat: latlng.lat,
+                    lng: latlng.lng,
+                    title: title,
+                    place: place,
+                    text: text,
+                    more: more
+                })
+                cI++;
+                markerString = `gcMaps.parametros.markers[${mI}][${cI}] !== undefined`;
+                markerExists = await page.evaluate(markerString);
+                //console.log(latlng);
+            }
+        }
+    }
+    await browser.close();
+    console.log(`Got ${result.length} places`);
+    await insertOrUpdateCruiserList(result);
+}
+
+export { updatePark4NightCoordinates, updateCruiserList };

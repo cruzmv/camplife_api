@@ -53,4 +53,25 @@ async function getPlacesList(cood: latlong): Promise<Place[]> {
     }
 }
 
-export { getPlacesList, latlong };
+
+async function getCruiserList(cood: latlong): Promise<Place[]> {
+    try {
+      const result = await db.any<Place>(
+        `
+          SELECT latitude,longitude,title_place,place_place,description_place,place_distance_km,is_center,more_place
+            FROM get_cruiser_within_radius($1, $2)
+        `,
+        [cood.lat, cood.long]
+      );
+      
+      console.log(`returning ${result.length} cruiser places`);
+      return result;
+    } catch (error) {
+      console.error('Error retrieving cruiser places:', error);
+      throw new Error('Error retrieving cruiser places');
+    }
+
+
+}
+
+export { getPlacesList, latlong, getCruiserList };

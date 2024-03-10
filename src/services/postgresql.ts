@@ -13,7 +13,7 @@ const db = pgp({
 });
 
 // Function to insert or update data in the database
-async function insertOrUpdateData(data: DataItem[]): Promise<void> {
+async function insertOrUpdatePlaces(data: DataItem[]): Promise<void> {
     try {
         for (const dataItem of data) {
             await db.tx(async (t: any) => {   
@@ -156,4 +156,26 @@ async function insertOrUpdateData(data: DataItem[]): Promise<void> {
     }
 }
 
-export { db, insertOrUpdateData };
+async function insertOrUpdateCruiserList(data: any) {
+    try {
+        console.log(`Recording into database...`);
+        for (const item of data) {
+            const existingRecord = await db.oneOrNone('SELECT * FROM cruiser_list WHERE lat = $1 AND lng = $2', [item.lat, item.lng]);
+            if (existingRecord) {
+                // Update the existing record
+                await db.none('UPDATE cruiser_list SET title = $1, place = $2, description = $3, more = $4 WHERE lat = $5 AND lng = $6',
+                    [item.title, item.place, item.text, item.more, item.lat, item.lng]);
+            } else {
+                // Insert a new record
+                await db.none('INSERT INTO cruiser_list(lat, lng, title, place, description, more) VALUES ($1, $2, $3, $4, $5, $6)',
+                    [item.lat, item.lng, item.title, item.place, item.text, item.more]);
+            }
+        }
+    } catch (error) {
+        console.error('Error:', error);
+    } finally {
+        console.log('Finished record into database.')
+    }
+}
+
+export { db, insertOrUpdatePlaces, insertOrUpdateCruiserList };

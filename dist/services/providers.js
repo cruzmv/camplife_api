@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.updatePark4NightCoordinates = void 0;
+exports.updateCruiserList = exports.updatePark4NightCoordinates = void 0;
 const postgresql_1 = require("./postgresql");
 const park4night_1 = require("./providers/park4night");
 // const modules = [
@@ -213,7 +213,7 @@ function updatePark4NightCoordinates(lat, long) {
                 return processed;
             });
             console.log('Updating Database...');
-            yield (0, postgresql_1.insertOrUpdateData)(processedData);
+            yield (0, postgresql_1.insertOrUpdatePlaces)(processedData);
             console.log('Finish update');
         }
         catch (error) {
@@ -222,4 +222,56 @@ function updatePark4NightCoordinates(lat, long) {
     });
 }
 exports.updatePark4NightCoordinates = updatePark4NightCoordinates;
+function updateCruiserList(body) {
+    return __awaiter(this, void 0, void 0, function* () {
+        let url = `https://www.gays-cruising.com/en/${body.country}`;
+        if (body.city !== undefined &&
+            body.country !== undefined &&
+            body.lat !== undefined &&
+            body.long !== undefined) {
+            url = `https://www.gays-cruising.com/en/${body.city}/${body.country}#map-zoom=${body.zoom}&map-lat=${body.lat}&map-lng=${body.long}`;
+        }
+        else if (body.city !== undefined) {
+            url = `https://www.gays-cruising.com/en/${body.city}/${body.country}`;
+        }
+        console.log(`cruiser_list: ${url}`);
+        const puppeteer = require('puppeteer');
+        const browser = yield puppeteer.launch({ args: ['--no-sandbox'] });
+        const page = yield browser.newPage();
+        yield page.goto(url);
+        yield page.waitForFunction('typeof gcMaps !== "undefined"');
+        console.log("Getting places...");
+        const result = [];
+        for (let mI = 0; mI < 20; mI++) {
+            let markerString = `gcMaps.parametros.markers[${mI}]  !== undefined`;
+            let markerExists = yield page.evaluate(markerString);
+            if (markerExists) {
+                let cI = 0;
+                while (markerExists) {
+                    const latlng = yield page.evaluate(`gcMaps.parametros.markers[${mI}][${cI}]._latlng`);
+                    const title = yield page.evaluate(`gcMaps.parametros.markers[${mI}][${cI}]._popup._content.children[0].innerText`);
+                    const place = yield page.evaluate(`gcMaps.parametros.markers[${mI}][${cI}]._popup._content.children[1].innerText`);
+                    const text = yield page.evaluate(`gcMaps.parametros.markers[${mI}][${cI}]._popup._content.children[2].innerText`);
+                    const more = yield page.evaluate(`gcMaps.parametros.markers[${mI}][${cI}]._popup._content.children[3].children[0].href`);
+                    result.push({
+                        lat: latlng.lat,
+                        lng: latlng.lng,
+                        title: title,
+                        place: place,
+                        text: text,
+                        more: more
+                    });
+                    cI++;
+                    markerString = `gcMaps.parametros.markers[${mI}][${cI}] !== undefined`;
+                    markerExists = yield page.evaluate(markerString);
+                    //console.log(latlng);
+                }
+            }
+        }
+        yield browser.close();
+        console.log(`Got ${result.length} places`);
+        yield (0, postgresql_1.insertOrUpdateCruiserList)(result);
+    });
+}
+exports.updateCruiserList = updateCruiserList;
 //# sourceMappingURL=providers.js.map
