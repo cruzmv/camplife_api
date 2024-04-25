@@ -16,11 +16,10 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.get('/proxy_park4night', async (req: Request, res: Response) => {
-    console.log(req.query.url);
-    res.json({ message: 'Data retrieved successfully'});
-    //const result = await fetchDataFromPark4Night(req.query.url as string);
-    //res.json({ message: 'Data retrieved successfully', data: result });
-
+    // console.log(req.query.url);
+    // res.json({ message: 'Data retrieved successfully'});
+    const result = await fetchDataFromPark4Night(req.query.url as string);
+    res.json({ message: 'Data retrieved successfully', data: result });
 });
 
 
