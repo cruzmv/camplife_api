@@ -178,4 +178,17 @@ async function insertOrUpdateCruiserList(data: any) {
     }
 }
 
-export { db, insertOrUpdatePlaces, insertOrUpdateCruiserList };
+async function insertGeoData(reqIp: string, geoData: any): Promise<void> {
+    try {
+        await db.none(
+            'INSERT INTO track_geo(ip,geo_data) VALUES ($1,$2)',
+            [reqIp,geoData]
+        );
+        //console.log('Geo data inserted successfully');
+    } catch (error: any) {
+        console.error('Error inserting geo data:', error.message || error);
+        throw error;
+    }
+}
+
+export { db, insertOrUpdatePlaces, insertOrUpdateCruiserList, insertGeoData };

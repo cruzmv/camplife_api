@@ -12,7 +12,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.name = exports.flatData = exports.readDataFolder = void 0;
+exports.name = exports.flatData = exports.fetchDataFromPark4Night = exports.readDataFolder = void 0;
 const axios_1 = __importDefault(require("axios"));
 function readDataFolder(lat, long) {
     return __awaiter(this, void 0, void 0, function* () {
@@ -75,6 +75,7 @@ function fetchDataFromPark4Night(apiUrl) {
         throw new Error(`Failed to fetch data from Park4Night after ${maxRetries} retries`);
     });
 }
+exports.fetchDataFromPark4Night = fetchDataFromPark4Night;
 // Convert Park4Night data to the common DataItem structure
 function flatData(park4NightData) {
     return park4NightData.lieux.map((place) => {

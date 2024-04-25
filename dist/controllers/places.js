@@ -38,6 +38,8 @@ function getPlacesList(cood) {
                  shower,
                  electricity,
                  has_wifi,
+                 gray_water,
+                 laudry,
                  photos
             FROM get_places_within_radius($1, $2)
         `, [cood.lat, cood.long]);

@@ -12,7 +12,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.insertOrUpdateCruiserList = exports.insertOrUpdatePlaces = exports.db = void 0;
+exports.insertGeoData = exports.insertOrUpdateCruiserList = exports.insertOrUpdatePlaces = exports.db = void 0;
 const uuid_1 = require("uuid");
 const pg_promise_1 = __importDefault(require("pg-promise"));
 // Create a connection to the PostgreSQL database
@@ -184,4 +184,17 @@ function insertOrUpdateCruiserList(data) {
     });
 }
 exports.insertOrUpdateCruiserList = insertOrUpdateCruiserList;
+function insertGeoData(reqIp, geoData) {
+    return __awaiter(this, void 0, void 0, function* () {
+        try {
+            yield db.none('INSERT INTO track_geo(ip,geo_data) VALUES ($1,$2)', [reqIp, geoData]);
+            //console.log('Geo data inserted successfully');
+        }
+        catch (error) {
+            console.error('Error inserting geo data:', error.message || error);
+            throw error;
+        }
+    });
+}
+exports.insertGeoData = insertGeoData;
 //# sourceMappingURL=postgresql.js.map

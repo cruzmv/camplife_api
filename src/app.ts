@@ -3,6 +3,8 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 import { getPlacesList, latlong, getCruiserList } from './controllers/places';
 import { updatePark4NightCoordinates, updateCruiserList } from './services/providers';
+import { fetchDataFromPark4Night } from './services/providers/park4night';
+import { insertGeoData } from './services/postgresql';
 
 const app = express();
 const port = 3000;
@@ -12,6 +14,16 @@ app.use(cors());
 
 // Middleware to parse JSON in the request body
 app.use(bodyParser.json());
+
+app.get('/proxy_park4night', async (req: Request, res: Response) => {
+    console.log(req.query.url);
+    res.json({ message: 'Data retrieved successfully'});
+    //const result = await fetchDataFromPark4Night(req.query.url as string);
+    //res.json({ message: 'Data retrieved successfully', data: result });
+
+});
+
+
 
 app.get('/get_place_list', async (req: Request, res: Response) => {
     const cood: latlong = {
@@ -56,12 +68,9 @@ app.post('/update_place_coordinate', async (req: Request, res: Response) => {
 });
 
 
-
 app.post('/log_geo', async (req: Request, res: Response) => {
-
-    console.log(req.body);
+    await insertGeoData(req.ip as string,req.body);
     res.json({ message: 'OK'});
-
 });
 
 app.post('/update_cruiser_list', async (req: Request, res: Response) => {
@@ -72,5 +81,6 @@ app.post('/update_cruiser_list', async (req: Request, res: Response) => {
 // Start the server
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
+    console.log('Version 2');
 });
 

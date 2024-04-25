@@ -32,6 +32,8 @@ export async function readDataFolder(lat: number, long: number): Promise<DataIte
     return dataItems;
 }
 
+
+
 function generateURLsForRegion(centerLat: number, centerLng: number, gridSize: number, zoom: number): string[] {
     const urls: string[] = [];
     const latRange = 1.0;
@@ -51,7 +53,9 @@ function generateURLsForRegion(centerLat: number, centerLng: number, gridSize: n
     return urls;
 }
 
-async function fetchDataFromPark4Night(apiUrl: string): Promise<any> {
+
+
+export async function fetchDataFromPark4Night(apiUrl: string): Promise<any> {
 
     const maxRetries = 3;
     let currentRetry = 0;

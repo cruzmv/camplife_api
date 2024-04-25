@@ -17,12 +17,19 @@ const body_parser_1 = __importDefault(require("body-parser"));
 const cors_1 = __importDefault(require("cors"));
 const places_1 = require("./controllers/places");
 const providers_1 = require("./services/providers");
+const postgresql_1 = require("./services/postgresql");
 const app = (0, express_1.default)();
 const port = 3000;
 // Add this line to enable CORS for all routes
 app.use((0, cors_1.default)());
 // Middleware to parse JSON in the request body
 app.use(body_parser_1.default.json());
+app.get('/proxy_park4night', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    console.log(req.query.url);
+    res.json({ message: 'Data retrieved successfully' });
+    //const result = await fetchDataFromPark4Night(req.query.url as string);
+    //res.json({ message: 'Data retrieved successfully', data: result });
+}));
 app.get('/get_place_list', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const cood = {
         lat: String(req.query.lat),
@@ -60,7 +67,7 @@ app.post('/update_place_coordinate', (req, res) => __awaiter(void 0, void 0, voi
     res.json({ message: 'Data updated successfully' });
 }));
 app.post('/log_geo', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    console.log(req.body);
+    yield (0, postgresql_1.insertGeoData)(req.ip, req.body);
     res.json({ message: 'OK' });
 }));
 app.post('/update_cruiser_list', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
@@ -70,5 +77,6 @@ app.post('/update_cruiser_list', (req, res) => __awaiter(void 0, void 0, void 0,
 // Start the server
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
+    console.log('Version 2');
 });
 //# sourceMappingURL=app.js.map

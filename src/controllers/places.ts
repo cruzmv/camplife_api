@@ -39,6 +39,8 @@ async function getPlacesList(cood: latlong): Promise<Place[]> {
                  shower,
                  electricity,
                  has_wifi,
+                 gray_water,
+                 laudry,
                  photos
             FROM get_places_within_radius($1, $2)
         `,
