@@ -15,7 +15,7 @@ const db = pgp({
 
 async function updatePGPlaces(data: DataItem[]): Promise<void> {
     try {
-        db.none('SELECT insert_camping_from_json_array($1)', [JSON.stringify(data)]);
+        db.none('SELECT insert_camping_from_json_array($1) limit 1', [JSON.stringify(data)]);
     } catch (error: any) {
         console.error('Error inserting or updating data:', error.message || error);
     }
