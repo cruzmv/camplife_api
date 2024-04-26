@@ -18,7 +18,6 @@ async function updatePGPlaces(data: DataItem[]): Promise<void> {
         db.none('SELECT insert_camping_from_json_array($1)', [JSON.stringify(data)]);
     } catch (error: any) {
         console.error('Error inserting or updating data:', error.message || error);
-        throw error;
     }
 }
 
