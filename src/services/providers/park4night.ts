@@ -78,6 +78,7 @@ export async function fetchDataFromPark4Night(apiUrl: string): Promise<any> {
     throw new Error(`Failed to fetch data from Park4Night after ${maxRetries} retries`);
 }
 
+
 // Convert Park4Night data to the common DataItem structure
 export function flatData(park4NightData: Park4NightData): DataItem[] {
     return park4NightData.lieux.map((place:any) => {

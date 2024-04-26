@@ -12,9 +12,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.updatePGPlaces = exports.insertGeoData = exports.insertOrUpdateCruiserList = exports.insertOrUpdatePlaces = exports.db = void 0;
+exports.updateCampings = exports.updatePGPlaces = exports.insertGeoData = exports.insertOrUpdateCruiserList = exports.insertOrUpdatePlaces = exports.db = void 0;
 const uuid_1 = require("uuid");
 const pg_promise_1 = __importDefault(require("pg-promise"));
+const rxjs_1 = require("rxjs");
 // Create a connection to the PostgreSQL database
 const pgp = (0, pg_promise_1.default)();
 const db = pgp({
@@ -25,6 +26,25 @@ const db = pgp({
     password: '142536' // Replace with your database password
 });
 exports.db = db;
+function updateCampings(data) {
+    return new rxjs_1.Observable(observer => {
+        try {
+            db.one('SELECT insert_camping_from_json_array($1)', [JSON.stringify(data)]).then((result) => {
+                observer.next(result);
+                console.log(`then PLSQL: ${JSON.stringify(result)}`);
+            }).catch(error => {
+                console.log(`Error on PLSQL call ${error.message}`);
+            }).finally(() => {
+                observer.complete();
+                console.log(`Finished PLSQL call`);
+            });
+        }
+        catch (error) {
+            console.log(`Error updating PLSQL: ${error.message || error}`);
+        }
+    });
+}
+exports.updateCampings = updateCampings;
 function updatePGPlaces(data) {
     return __awaiter(this, void 0, void 0, function* () {
         try {

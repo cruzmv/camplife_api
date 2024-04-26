@@ -1,6 +1,7 @@
 import { v4 as uuidv4 } from 'uuid';
 import pgPromise from 'pg-promise';
 import { DataItem, Photo } from './providers/dataItem.interface';
+import { Observable } from 'rxjs';
 
 // Create a connection to the PostgreSQL database
 const pgp = pgPromise();
@@ -12,6 +13,28 @@ const db = pgp({
     password: '142536' // Replace with your database password
 });
 
+
+
+
+
+
+function updateCampings(data: DataItem[]): Observable<void> {
+    return new Observable<void>(observer => {
+        try {
+            db.one('SELECT insert_camping_from_json_array($1)', [JSON.stringify(data)]).then( (result) => {
+                observer.next(result);
+                console.log(`Success PG call with ${JSON.stringify(result)}`);
+            }).catch(error => {
+                console.log(`Error on PLSQL call ${error.message}`);
+            }).finally( () =>{
+                observer.complete();
+                console.log(`Finished PLSQL call`);
+            });
+        } catch (error: any) {
+            console.log(`Error updating PLSQL: ${error.message || error}`);
+        }
+    });
+} 
 
 async function updatePGPlaces(data: DataItem[]): Promise<void> {
     try {
@@ -201,4 +224,4 @@ async function insertGeoData(reqIp: string, geoData: any): Promise<void> {
     }
 }
 
-export { db, insertOrUpdatePlaces, insertOrUpdateCruiserList, insertGeoData, updatePGPlaces };
+export { db, insertOrUpdatePlaces, insertOrUpdateCruiserList, insertGeoData, updatePGPlaces, updateCampings };
