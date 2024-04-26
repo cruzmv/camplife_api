@@ -21,13 +21,17 @@ const park4night_1 = require("./services/providers/park4night");
 const postgresql_1 = require("./services/postgresql");
 const app = (0, express_1.default)();
 const port = 3000;
+const historyPark4NightURL = [];
 // Add this line to enable CORS for all routes
 app.use((0, cors_1.default)());
 // Middleware to parse JSON in the request body
 app.use(body_parser_1.default.json());
 app.get('/proxy_park4night', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const result = yield (0, park4night_1.fetchDataFromPark4Night)(req.query.url);
-    (0, providers_1.updatePark4NightDB)(result);
+    if (historyPark4NightURL.filter(x => x == req.query.url).length <= 0) {
+        (0, providers_1.updatePark4NightDB)(result);
+    }
+    historyPark4NightURL.push(req.query.url);
     res.json({ message: 'Data retrieved successfully', data: result });
 }));
 app.get('/get_place_list', (req, res) => __awaiter(void 0, void 0, void 0, function* () {

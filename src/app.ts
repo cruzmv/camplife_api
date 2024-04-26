@@ -9,6 +9,8 @@ import { insertGeoData } from './services/postgresql';
 const app = express();
 const port = 3000;
 
+const historyPark4NightURL: string[] = [];
+
 // Add this line to enable CORS for all routes
 app.use(cors());
 
@@ -17,7 +19,10 @@ app.use(bodyParser.json());
 
 app.get('/proxy_park4night', async (req: Request, res: Response) => {
     const result = await fetchDataFromPark4Night(req.query.url as string);
-    updatePark4NightDB(result)
+    if (historyPark4NightURL.filter(x => x == req.query.url).length <=0 ){
+        updatePark4NightDB(result)
+    }
+    historyPark4NightURL.push(req.query.url as string);
     res.json({ message: 'Data retrieved successfully', data: result });
 });
 
