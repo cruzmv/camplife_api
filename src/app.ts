@@ -2,7 +2,7 @@ import express, { Request, Response, query } from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import { getPlacesList, latlong, getCruiserList } from './controllers/places';
-import { updatePark4NightCoordinates, updateCruiserList } from './services/providers';
+import { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB } from './services/providers';
 import { fetchDataFromPark4Night } from './services/providers/park4night';
 import { insertGeoData } from './services/postgresql';
 
@@ -16,9 +16,8 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.get('/proxy_park4night', async (req: Request, res: Response) => {
-    // console.log(req.query.url);
-    // res.json({ message: 'Data retrieved successfully'});
     const result = await fetchDataFromPark4Night(req.query.url as string);
+    updatePark4NightDB(result)
     res.json({ message: 'Data retrieved successfully', data: result });
 });
 

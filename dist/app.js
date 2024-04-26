@@ -17,6 +17,7 @@ const body_parser_1 = __importDefault(require("body-parser"));
 const cors_1 = __importDefault(require("cors"));
 const places_1 = require("./controllers/places");
 const providers_1 = require("./services/providers");
+const park4night_1 = require("./services/providers/park4night");
 const postgresql_1 = require("./services/postgresql");
 const app = (0, express_1.default)();
 const port = 3000;
@@ -25,10 +26,9 @@ app.use((0, cors_1.default)());
 // Middleware to parse JSON in the request body
 app.use(body_parser_1.default.json());
 app.get('/proxy_park4night', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    console.log(req.query.url);
-    res.json({ message: 'Data retrieved successfully' });
-    //const result = await fetchDataFromPark4Night(req.query.url as string);
-    //res.json({ message: 'Data retrieved successfully', data: result });
+    const result = yield (0, park4night_1.fetchDataFromPark4Night)(req.query.url);
+    (0, providers_1.updatePark4NightDB)(result);
+    res.json({ message: 'Data retrieved successfully', data: result });
 }));
 app.get('/get_place_list', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const cood = {
