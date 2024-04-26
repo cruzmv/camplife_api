@@ -6,6 +6,7 @@ import { Observable } from 'rxjs';
 // Create a connection to the PostgreSQL database
 const pgp = pgPromise();
 const db = pgp({
+    application_name: 'campilife api',
     host: '192.168.1.67',   //'172.31.193.127', // Replace with your database host
     port: 5432,         // Replace with your database port
     database: 'postgres', // Replace with your database name
