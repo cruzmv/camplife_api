@@ -12,6 +12,17 @@ const db = pgp({
     password: '142536' // Replace with your database password
 });
 
+
+async function updatePGPlaces(data: DataItem[]): Promise<void> {
+    try {
+        db.none('SELECT insert_camping_from_json_array($1)', [JSON.stringify(data)]);
+    } catch (error: any) {
+        console.error('Error inserting or updating data:', error.message || error);
+        throw error;
+    }
+}
+
+
 // Function to insert or update data in the database
 async function insertOrUpdatePlaces(data: DataItem[]): Promise<void> {
     try {
@@ -191,4 +202,4 @@ async function insertGeoData(reqIp: string, geoData: any): Promise<void> {
     }
 }
 
-export { db, insertOrUpdatePlaces, insertOrUpdateCruiserList, insertGeoData };
+export { db, insertOrUpdatePlaces, insertOrUpdateCruiserList, insertGeoData, updatePGPlaces };

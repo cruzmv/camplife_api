@@ -12,7 +12,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.insertGeoData = exports.insertOrUpdateCruiserList = exports.insertOrUpdatePlaces = exports.db = void 0;
+exports.updatePGPlaces = exports.insertGeoData = exports.insertOrUpdateCruiserList = exports.insertOrUpdatePlaces = exports.db = void 0;
 const uuid_1 = require("uuid");
 const pg_promise_1 = __importDefault(require("pg-promise"));
 // Create a connection to the PostgreSQL database
@@ -25,6 +25,35 @@ const db = pgp({
     password: '142536' // Replace with your database password
 });
 exports.db = db;
+function updatePGPlaces(data) {
+    return __awaiter(this, void 0, void 0, function* () {
+        try {
+            db.none('SELECT insert_camping_from_json_array($1)', [JSON.stringify(data)]);
+        }
+        catch (error) {
+            console.error('Error inserting or updating data:', error.message || error);
+            throw error;
+        }
+    });
+}
+exports.updatePGPlaces = updatePGPlaces;
+// async function updatePGPlaces(data: DataItem[]): Promise<void> {
+//     try {
+//         await db.none('SELECT insert_camping_from_json_array($1);', JSON.stringify(data));
+//     } catch (error: any) {
+//         console.error('Error inserting or updating data:', error.message || error);
+//         throw error;
+//     }
+// }
+// async function updatePGPlaces(data: DataItem[]): Promise<void> {
+//     try {
+//         // Call the PL/pgSQL function with the data parameter
+//         await db.none('SELECT insert_places_from_json($1)', JSON.stringify(data));
+//     } catch (error: any) {
+//         console.error('Error inserting or updating data:', error.message || error);
+//         throw error;
+//     }
+// }
 // Function to insert or update data in the database
 function insertOrUpdatePlaces(data) {
     return __awaiter(this, void 0, void 0, function* () {

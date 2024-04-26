@@ -1,11 +1,10 @@
 import { DataItem } from './providers/dataItem.interface';
-import { insertOrUpdatePlaces, insertOrUpdateCruiserList } from './postgresql';
+import { insertOrUpdatePlaces, insertOrUpdateCruiserList, updatePGPlaces } from './postgresql';
 import { readDataFolder, flatData } from './providers/park4night';
 
 async function updatePark4NightDB(places: any) {
     try{
         const flatDataItems = flatData(places);
-
         const processedData = flatDataItems.map((data: any) => {
             const processed: DataItem = {
                 id: null,
@@ -91,7 +90,7 @@ async function updatePark4NightDB(places: any) {
             return processed;
         });
         console.log(`Updating Database with ${processedData.length} places`);
-        insertOrUpdatePlaces(processedData).then(()=>{
+        updatePGPlaces(processedData).then(()=>{
             console.log(`Finished update ${processedData.length} places`);
         }).catch(error => {
             console.log(`Error updating places ${error.message}`);

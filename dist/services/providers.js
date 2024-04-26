@@ -102,7 +102,7 @@ function updatePark4NightDB(places) {
                 return processed;
             });
             console.log(`Updating Database with ${processedData.length} places`);
-            (0, postgresql_1.insertOrUpdatePlaces)(processedData).then(() => {
+            (0, postgresql_1.updatePGPlaces)(processedData).then(() => {
                 console.log(`Finished update ${processedData.length} places`);
             }).catch(error => {
                 console.log(`Error updating places ${error.message}`);
