@@ -13,7 +13,7 @@ const port = 3000;
 let historyPark4NightData: any = undefined;
 
 setInterval(()=>{
-    console.log(`5m: ${historyPark4NightData}`);
+    console.log(`Checking campings to record...`);
     if (historyPark4NightData != undefined) {
         if (historyPark4NightData != undefined) {
             feedPark4NightDB(historyPark4NightData).subscribe(() => {
