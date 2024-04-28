@@ -13,6 +13,7 @@ const port = 3000;
 let historyPark4NightData: any = undefined;
 
 setInterval(()=>{
+    console.log(`5m: ${historyPark4NightData}`);
     if (historyPark4NightData != undefined) {
         if (historyPark4NightData != undefined) {
             feedPark4NightDB(historyPark4NightData).subscribe(() => {
@@ -30,7 +31,7 @@ app.use(bodyParser.json());
 
 app.get('/proxy_park4night', async (req: Request, res: Response) => {
     const result: any = await fetchDataFromPark4Night(req.query.url as string);
-    console.log(`Retriving ${result.length} campings`);
+    console.log(`Retriving ${result.lieux.length} campings to ${req.ip}`);
     res.json({ message: 'Campings retrieved successfully', data: result });
 
     if (historyPark4NightData == undefined ) {
