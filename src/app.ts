@@ -13,12 +13,14 @@ const port = 3000;
 let historyPark4NightData: any = undefined;
 
 setInterval(()=>{
-    console.log(`Start DB record for ${historyPark4NightData.lieux.length} campings...`);
     if (historyPark4NightData != undefined) {
-        feedPark4NightDB(historyPark4NightData).subscribe(res => {
-            console.log(res);
-            historyPark4NightData = undefined;
-        })
+        console.log(`Start DB record for ${historyPark4NightData.lieux.length} campings...`);
+        if (historyPark4NightData != undefined) {
+            feedPark4NightDB(historyPark4NightData).subscribe(res => {
+                console.log(res);
+                historyPark4NightData = undefined;
+            })
+        }
     }
 },300000);
 
