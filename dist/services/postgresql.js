@@ -19,6 +19,7 @@ const rxjs_1 = require("rxjs");
 // Create a connection to the PostgreSQL database
 const pgp = (0, pg_promise_1.default)();
 const db = pgp({
+    application_name: 'campilife api',
     host: '192.168.1.67', //'172.31.193.127', // Replace with your database host
     port: 5432, // Replace with your database port
     database: 'postgres', // Replace with your database name
@@ -31,7 +32,7 @@ function updateCampings(data) {
         try {
             db.one('SELECT insert_camping_from_json_array($1)', [JSON.stringify(data)]).then((result) => {
                 observer.next(result);
-                console.log(`then PLSQL: ${JSON.stringify(result)}`);
+                console.log(`Success PG call with ${JSON.stringify(result)}`);
             }).catch(error => {
                 console.log(`Error on PLSQL call ${error.message}`);
             }).finally(() => {

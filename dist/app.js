@@ -21,7 +21,16 @@ const park4night_1 = require("./services/providers/park4night");
 const postgresql_1 = require("./services/postgresql");
 const app = (0, express_1.default)();
 const port = 3000;
-const historyPark4NightURL = [];
+//const historyPark4NightURL: string[] = [];
+let historyPark4NightData = undefined;
+setInterval(() => {
+    if (historyPark4NightData != undefined) {
+        (0, providers_1.feedPark4NightDB)(historyPark4NightData).subscribe(res => {
+            console.log(res);
+            historyPark4NightData = undefined;
+        });
+    }
+}, 300000);
 // Add this line to enable CORS for all routes
 app.use((0, cors_1.default)());
 // Middleware to parse JSON in the request body
@@ -29,13 +38,25 @@ app.use(body_parser_1.default.json());
 app.get('/proxy_park4night', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const result = yield (0, park4night_1.fetchDataFromPark4Night)(req.query.url);
     res.json({ message: 'Data retrieved successfully', data: result });
-    if (historyPark4NightURL.filter(x => x == req.query.url).length <= 0) {
-        (0, providers_1.feedPark4NightDB)(result).subscribe(res => {
-            console.log(res);
-        });
-        //updatePark4NightDB(result)
+    if (historyPark4NightData == undefined) {
+        historyPark4NightData = result;
     }
-    historyPark4NightURL.push(req.query.url);
+    else {
+        //historyPark4NightData.lieux.push(...result.lieux)
+        result.lieux.map((newLocation) => {
+            const exists = historyPark4NightData.lieux.some((x) => x.id === newLocation.id);
+            if (!exists) {
+                historyPark4NightData.lieux.push(newLocation);
+            }
+        });
+    }
+    // if (historyPark4NightURL.filter(x => x == req.query.url).length <=0 ){
+    //     feedPark4NightDB(result).subscribe(res => {
+    //         console.log(res);
+    //     })
+    //     //updatePark4NightDB(result)
+    // }
+    // historyPark4NightURL.push(req.query.url as string);
 }));
 app.get('/get_place_list', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const cood = {
