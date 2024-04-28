@@ -215,7 +215,7 @@ async function insertOrUpdateCruiserList(data: any) {
 async function insertGeoData(reqIp: string, geoData: any): Promise<void> {
     try {
         await db.none(
-            'INSERT INTO track_geo(ip,geo_data) VALUES ($1,$2,now())',
+            'INSERT INTO track_geo(ip,geo_data,date_time) VALUES ($1,$2,now())',
             [reqIp,geoData]
         );
         //console.log('Geo data inserted successfully');
