@@ -24,15 +24,15 @@ function updateCampings(data: DataItem[]): Observable<void> {
         try {
             db.one('SELECT insert_camping_from_json_array($1)', [JSON.stringify(data)]).then( (result) => {
                 observer.next(result);
-                console.log(`Success PG call with ${JSON.stringify(result)}`);
+                console.log(`Success record for ${data.length} campings`);
             }).catch(error => {
-                console.log(`Error on PLSQL call ${error.message}`);
+                console.log(`Error on campings records: ${error.message}`);
             }).finally( () =>{
                 observer.complete();
                 console.log(`Finished PLSQL call`);
             });
         } catch (error: any) {
-            console.log(`Error updating PLSQL: ${error.message || error}`);
+            console.log(`Error updating campings: ${error.message || error}`);
         }
     });
 } 

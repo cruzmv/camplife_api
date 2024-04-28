@@ -14,15 +14,13 @@ let historyPark4NightData: any = undefined;
 
 setInterval(()=>{
     if (historyPark4NightData != undefined) {
-        console.log(`Start DB record for ${historyPark4NightData.lieux.length} campings...`);
         if (historyPark4NightData != undefined) {
-            feedPark4NightDB(historyPark4NightData).subscribe(res => {
-                console.log(res);
+            feedPark4NightDB(historyPark4NightData).subscribe(() => {
                 historyPark4NightData = undefined;
             })
         }
     }
-},300000);
+},300000);  // every 5 minutes
 
 // Add this line to enable CORS for all routes
 app.use(cors());
@@ -32,29 +30,19 @@ app.use(bodyParser.json());
 
 app.get('/proxy_park4night', async (req: Request, res: Response) => {
     const result: any = await fetchDataFromPark4Night(req.query.url as string);
-    res.json({ message: 'Data retrieved successfully', data: result });
+    console.log(`Retriving ${result.length} campings`);
+    res.json({ message: 'Campings retrieved successfully', data: result });
 
     if (historyPark4NightData == undefined ) {
         historyPark4NightData = result;    
     } else {
-        //historyPark4NightData.lieux.push(...result.lieux)
         result.lieux.map((newLocation: any) => {
             const exists = historyPark4NightData.lieux.some((x: any) => x.id === newLocation.id);
             if (!exists) {
                 historyPark4NightData.lieux.push(newLocation);
             }
         });        
-
-
     }
-    
-    // if (historyPark4NightURL.filter(x => x == req.query.url).length <=0 ){
-    //     feedPark4NightDB(result).subscribe(res => {
-    //         console.log(res);
-    //     })
-    //     //updatePark4NightDB(result)
-    // }
-    // historyPark4NightURL.push(req.query.url as string);
 });
 
 
