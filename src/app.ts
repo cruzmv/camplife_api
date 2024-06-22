@@ -37,10 +37,17 @@ setInterval(()=>{
 },300000);  // every 5 minutes
 
 // Add this line to enable CORS for all routes
-app.use(cors());
+//app.use(cors());
 
 // Middleware to parse JSON in the request body
 app.use(bodyParser.json());
+
+
+app.use(cors({
+    origin: 'http://cruzmv.ddns.net', // Allow only this origin
+    methods: ['GET', 'POST'], // Allow only GET and POST requests
+    allowedHeaders: ['Content-Type', 'Authorization'] // Allow only specified headers
+}));
 
 app.get('/proxy_park4night', async (req: Request, res: Response) => {
     const result: any = await fetchDataFromPark4Night(req.query.url as string);
