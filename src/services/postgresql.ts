@@ -13,7 +13,7 @@ import { Observable } from 'rxjs';
 const pgp = pgPromise();
 const db = pgp({
     application_name: 'campilife api',
-    host: '172.31.193.127',   //'192.168.1.67',   //, // Replace with your database host
+    host: 'cruzmv.ddns.net',   //'192.168.1.67',   //, // Replace with your database host
     port: 5432,         // Replace with your database port
     database: 'camplife', // Replace with your database name
     user: 'postgres', // Replace with your database username
