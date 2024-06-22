@@ -4,25 +4,33 @@ import { DataItem, Photo } from './providers/dataItem.interface';
 import { Observable } from 'rxjs';
 
 // Create a connection to the PostgreSQL database
+// const pgp = pgPromise({
+//     query(e) {
+//         console.log('QUERY:', e.query);
+//         console.log('PARAMS:', e.params);  // Optional: log parameters for deeper inspection
+//     }
+// });
 const pgp = pgPromise();
 const db = pgp({
     application_name: 'campilife api',
-    host: '192.168.1.67',   //'172.31.193.127', // Replace with your database host
+    host: '172.31.193.127',   //'192.168.1.67',   //, // Replace with your database host
     port: 5432,         // Replace with your database port
-    database: 'postgres', // Replace with your database name
+    database: 'camplife', // Replace with your database name
     user: 'postgres', // Replace with your database username
     password: '142536' // Replace with your database password
 });
 
-
-
-
-
-
 function updateCampings(data: DataItem[]): Observable<void> {
     return new Observable<void>(observer => {
         try {
-            db.one('SELECT insert_camping_from_json_array($1)', [JSON.stringify(data)]).then( (result) => {
+
+            data.forEach((element: any) => {
+                if (element.id == null) {
+                    element.id = uuidv4();
+                }
+            });
+
+            db.one('SELECT insert_camping_from_json_array($1::text)', [JSON.stringify(data)]).then( (result) => {
                 observer.next(result);
                 console.log(`Success record for ${data.length} campings`);
             }).catch(error => {

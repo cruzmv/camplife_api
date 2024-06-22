@@ -8,7 +8,7 @@ function feedPark4NightDB(campings: any) : Observable<void> {
         const flatDataItems = flatData(campings);
         const processedData = flatDataItems.map((data: any) => {
             const processed: DataItem = {
-                id: null,
+                id: data.id,
                 name: data.name ?? null,
                 date_verified: data.date_verified ?? null,
                 description: data.description ?? null,
