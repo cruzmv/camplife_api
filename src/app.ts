@@ -43,8 +43,24 @@ setInterval(()=>{
 app.use(bodyParser.json());
 
 
+// app.use(cors({
+//     origin: 'http://cruzmv.ddns.net', // Allow only this origin
+//     methods: ['GET', 'POST'], // Allow only GET and POST requests
+//     allowedHeaders: ['Content-Type', 'Authorization'] // Allow only specified headers
+// }));
+
+
+const allowedOrigins = ['http://cruzmv.ddns.net', 'http://localhost'];
+
 app.use(cors({
-    origin: 'http://cruzmv.ddns.net', // Allow only this origin
+    origin: function(origin, callback) {
+        // Check if the origin is in the allowedOrigins array or if it is undefined (not a CORS request)
+        if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+            callback(null, true);
+        } else {
+            callback(new Error('Not allowed by CORS'));
+        }
+    },
     methods: ['GET', 'POST'], // Allow only GET and POST requests
     allowedHeaders: ['Content-Type', 'Authorization'] // Allow only specified headers
 }));
