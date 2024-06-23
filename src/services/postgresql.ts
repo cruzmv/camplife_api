@@ -54,6 +54,16 @@ async function updatePGPlaces(data: DataItem[]): Promise<void> {
 }
 
 
+async function updatePGIntermache(data: DataItem[]): Promise<void> {
+    try {
+        db.one('SELECT update_intermache($1)', JSON.stringify(data));
+    } catch (error: any) {
+        console.error('Error inserting or updating data for intermache:', error.message || error);
+    }
+}
+
+
+
 // Function to insert or update data in the database
 async function insertOrUpdatePlaces(data: DataItem[]): Promise<void> {
     try {
@@ -233,4 +243,4 @@ async function insertGeoData(reqIp: string, geoData: any): Promise<void> {
     }
 }
 
-export { db, insertOrUpdatePlaces, insertOrUpdateCruiserList, insertGeoData, updatePGPlaces, updateCampings };
+export { db, insertOrUpdatePlaces, insertOrUpdateCruiserList, insertGeoData, updatePGPlaces, updateCampings, updatePGIntermache };

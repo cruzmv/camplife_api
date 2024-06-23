@@ -72,8 +72,27 @@ async function getCruiserList(cood: latlong): Promise<Place[]> {
       console.error('Error retrieving cruiser places:', error);
       throw new Error('Error retrieving cruiser places');
     }
+}
+
+
+async function getIntermacheList(cood: latlong): Promise<Place[]> {
+  try {
+    const result = await db.any<Place>(
+      `
+        SELECT latitude,longitude,label,address,title,url,distance_km from get_intermache_within_radius($1, $2)
+      `,
+      [cood.lat, cood.long]
+    );
+    
+    console.log(`returning ${result.length} intermache places`);
+    return result;
+  } catch (error) {
+    console.error('Error retrieving intermache places:', error);
+    throw new Error('Error retrieving intermache places');
+  }
 
 
 }
 
-export { getPlacesList, latlong, getCruiserList };
+
+export { getPlacesList, latlong, getCruiserList, getIntermacheList };

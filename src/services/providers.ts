@@ -1,5 +1,5 @@
 import { DataItem } from './providers/dataItem.interface';
-import { insertOrUpdatePlaces, insertOrUpdateCruiserList, updatePGPlaces, updateCampings } from './postgresql';
+import { insertOrUpdatePlaces, insertOrUpdateCruiserList, updatePGPlaces, updateCampings, updatePGIntermache } from './postgresql';
 import { readDataFolder, flatData } from './providers/park4night';
 import { Observable } from 'rxjs';
 
@@ -448,4 +448,49 @@ async function updateCruiserList(body: any){
     await insertOrUpdateCruiserList(result);
 }
 
-export { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB };
+
+async function updateIntermacheList(){
+    const puppeteer = require('puppeteer');
+    const browser = await puppeteer.launch({ headless: true });
+    const page = await browser.newPage();
+    await page.goto('https://www.intermarche.pt/lojas/', {
+        waitUntil: 'networkidle2',
+    });
+    await page.waitForSelector('#poss-search-results');
+    const poiData = await page.evaluate(() => {
+        // Array to hold the POI data
+        const pois: any = [];
+
+        // Select all elements within the search results
+        const resultElements = document.querySelectorAll('#poss-search-results a[href]');
+        
+        // Loop through each result element
+        resultElements.forEach((element) => {
+            // Check if the element contains motorhome-related data
+            const hasCaravanPark = element.querySelector('span.caravan');
+            const hasDataAv = element.getAttribute('data-av') === 'True';
+
+            if (hasCaravanPark || hasDataAv) {
+                // Extract the required data
+                const data = {
+                    latitude: element.getAttribute('data-latitude'),
+                    longitude: element.getAttribute('data-longitude'),
+                    title: element.getAttribute('data-title'),
+                    url: element.getAttribute('data-url'),
+                    search: element.getAttribute('data-search'),
+                    gaLabel: element.getAttribute('data-ga-label')
+                };
+
+                // Add the data to the POIs array
+                pois.push(data);
+            }
+        });
+
+        return pois;
+    });
+    await browser.close();
+    await updatePGIntermache(poiData)
+}
+
+
+export { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList };

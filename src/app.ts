@@ -1,8 +1,8 @@
 import express, { Request, Response, query } from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
-import { getPlacesList, latlong, getCruiserList } from './controllers/places';
-import { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB } from './services/providers';
+import { getPlacesList, latlong, getCruiserList, getIntermacheList } from './controllers/places';
+import { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList } from './services/providers';
 import { fetchDataFromPark4Night } from './services/providers/park4night';
 import { insertGeoData } from './services/postgresql';
 //import { fetchAndProcessPlaylist, getCategories, getChanelByCategory } from './services/providers/foxIpTv';
@@ -200,6 +200,35 @@ app.get('/play_chanel_by_url', async (req: Request, res: Response) => {
 
 
 // Start the server
+
+app.get('/update_intermache_list', async (req: Request, res: Response) => {
+    try {
+        const result = await updateIntermacheList();
+        res.json({ message: 'Data retrieved successfully', data: {} });
+    } catch (error) {
+        console.error('Error:', error);
+        res.status(500).json({ message: 'Error retrieving data' });
+    }
+});
+
+app.get('/get_intermache_list', async (req: Request, res: Response) => {
+    try {
+        const cood: latlong = {
+            lat: String(req.query.lat),
+            long: String(req.query.long)
+        };
+    
+        const result = await getIntermacheList(cood);
+        res.json({ message: 'Data retrieved successfully', data: result });
+    } catch (error) {
+        console.error('Error:', error);
+        res.status(500).json({ message: 'Error retrieving data' });
+    }
+});
+
+
+
+
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
     console.log('Version 2');
