@@ -44,7 +44,7 @@ app.use(bodyParser.json());
 
 
 app.use(cors({
-    origin: 'http://cruzmv.ddns.net', // Allow only this origin
+    origin: '*', // Allow only this origin
     methods: ['GET', 'POST'], // Allow only GET and POST requests
     allowedHeaders: ['Content-Type', 'Authorization'] // Allow only specified headers
 }));
