@@ -90,9 +90,42 @@ async function getIntermacheList(cood: latlong): Promise<Place[]> {
     console.error('Error retrieving intermache places:', error);
     throw new Error('Error retrieving intermache places');
   }
+}
 
-
+async function getEuroStopslList(cood: latlong): Promise<Place[]> {
+  try {
+    const result = await db.any<Place>(
+      `
+        SELECT eurostop_id,eurostop_name,eurostop_latitude,eurostop_longitude,eurostop_distance_km,is_center,eurostop_address,eurostop_city,eurostop_country,eurostop_description,eurostop_email,eurostop_categories_id,eurostop_link,eurostop_phone,eurostop_postal_code,eurostop_street,eurostop_type,eurostop_website,eurostop_whatsapp,photos from get_eurostops_within_radius($1, $2)
+      `,
+      [cood.lat, cood.long]
+    );
+    
+    console.log(`returning ${result.length} intermache places`);
+    return result;
+  } catch (error) {
+    console.error('Error retrieving intermache places:', error);
+    throw new Error('Error retrieving intermache places');
+  }
 }
 
 
-export { getPlacesList, latlong, getCruiserList, getIntermacheList };
+async function getcampingcarportugalList(cood: latlong): Promise<Place[]> {
+  try {
+    const result = await db.any<Place>(
+      `
+        SELECT latitude,longitude,distritocoordenadas,nomeasmorada,tipologiatarifa,pernoitanlugares,aguatarifa,tarifa220v,despaguascinz,despwcquim,wc,wifipreco,descricaodaarea,distance_km from get_campingcarportugal_within_radius($1, $2)
+      `,
+      [cood.lat, cood.long]
+    );
+    
+    console.log(`returning ${result.length} intermache places`);
+    return result;
+  } catch (error) {
+    console.error('Error retrieving intermache places:', error);
+    throw new Error('Error retrieving intermache places');
+  }
+}
+
+
+export { getPlacesList, latlong, getCruiserList, getIntermacheList, getcampingcarportugalList, getEuroStopslList };

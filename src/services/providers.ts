@@ -1,7 +1,8 @@
 import { DataItem } from './providers/dataItem.interface';
-import { insertOrUpdatePlaces, insertOrUpdateCruiserList, updatePGPlaces, updateCampings, updatePGIntermache } from './postgresql';
+import { insertOrUpdatePlaces, insertOrUpdateCruiserList, updatePGPlaces, updateCampings, updatePGIntermache, updatePGCampingCarPortugal, updatePGEuroStop } from './postgresql';
 import { readDataFolder, flatData } from './providers/park4night';
 import { Observable } from 'rxjs';
+import {setTimeout} from "node:timers/promises";
 
 function feedPark4NightDB(campings: any) : Observable<void> {
     return new Observable<void>((observer: any) =>{
@@ -493,4 +494,185 @@ async function updateIntermacheList(){
 }
 
 
-export { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList };
+
+// async function updateEuroStopsList() {
+//     const puppeteer = require('puppeteer');
+//     const browser = await puppeteer.launch({ headless: true });
+//     const page = await browser.newPage();
+//     // Set up request interception
+//     await page.setRequestInterception(true);
+
+//     page.on('request', (request: any) => {
+//         // Continue all requests
+//         request.continue();
+//     });
+
+
+//     page.on('response', async (response: any) => {
+//         // Check if the response is from the desired AJAX call
+//         if (response.url().includes('ajax/get_markers.php') && response.request().method() === 'POST') {
+//             try {
+//                 // Get the JSON data from the response
+//                 const json = await response.json();
+//                 return json;
+//             } catch (e) {
+//                 console.error('Error parsing JSON:', e);
+//             }
+//         }
+//     });    
+
+//     await page.goto('https://eurostops.pt/mapa-autocaravansimo');
+//     await page.waitForTimeout(5000);
+//     await browser.close();
+// }
+
+
+
+
+
+async function updateEuroStopsList() {
+    const puppeteer = require('puppeteer');
+    const browser = await puppeteer.launch({ headless: true });
+    const page = await browser.newPage();
+    let jsonData: any = null;
+
+    // Set up request interception
+    await page.setRequestInterception(true);
+
+    page.on('request', (request: any) => {
+        request.continue();
+    });
+
+    page.on('response', async (response: any) => {
+        if (response.url().includes('ajax/get_markers.php') && response.request().method() === 'POST') {
+            try {
+                const json = await response.json();
+                jsonData = json;
+            } catch (e) {
+                console.error('Error parsing JSON:', e);
+            }
+        }
+    });
+
+    await page.goto('https://eurostops.pt/mapa-autocaravansimo');
+    await setTimeout(5000);
+    await browser.close();
+
+    const requiredFields = jsonData.markers.map((item: any) => ({
+        lat: item.lat,
+        lon: item.lon,
+        address: item.address,
+        centered: item.centered,
+        city: item.city,
+        country: item.country,
+        description: item.description,
+        email: item.email,
+        id_categories: item.id_categories,
+        link: item.link,
+        name: item.name,
+        phone: item.phone,
+        postal_code: item.postal_code,
+        rating: item.rating,
+        street: item.street,
+        type: item.type,
+        website: item.website,
+        whatsapp: item.whatsapp,
+        images: item.images // Assuming 'images' is the correct field name for photos
+    }));
+
+    updatePGEuroStop(requiredFields).subscribe(result => {
+        // nothing
+    })
+
+    return jsonData;
+}
+
+async function updateASAList() {
+    const puppeteer = require('puppeteer');
+    const browser = await puppeteer.launch({ headless: false }); // Set headless to false to see browser window
+    const page = await browser.newPage();
+
+    try {
+        // Navigate to the page
+        await page.goto('https://www.campingcarportugal.com/areasac/LstAreasnv.php?language=PT&mode=2&distrito=0&concelho=0&nomearea=&tiparea=0&pernoita=-1&elect=-1&intern=-1', {
+            waitUntil: 'networkidle2',
+        });
+
+        // Wait for the element with class "resultados_completos" to appear
+        await page.waitForSelector('.resultados_completos', { timeout: 60000 });
+
+        // Extracting data
+        const areas = await page.evaluate(() => {
+            // Array to hold the area data
+            const data: any = [];
+
+            // Select all rows within ".resultados_completos"
+            const rows = document.querySelectorAll('.resultados_completos');
+
+            // Loop through each row
+            rows.forEach(row => {
+                const trs: any = row.querySelectorAll('tr');
+
+                trs.forEach((tr: any) => {
+                    const tds = tr.querySelectorAll('td');
+                    const cellData: any = [];
+        
+                    // Loop through each 'td' and push its content into cellData
+                    tds.forEach((td: any) => {
+                        cellData.push(td.textContent.trim());
+                    });
+        
+                    if (cellData.length == 11) {
+                        const latitudeLongitudeRegex = /N (\d+\.\d+)\s+W (\d+\.\d+)/; // Regex pattern for latitude and longitude
+
+                        // Extract latitude and longitude from distritoCoordenadas using regex
+                        const match = cellData[0].match(latitudeLongitudeRegex);
+                        let latitude = '';
+                        let longitude = '';
+
+                        if (match) {
+                            latitude = match[1];
+                            longitude = '-'+match[2];
+                        }
+
+                        const asaData = {
+                            latitude: parseFloat(latitude),
+                            longitude: parseFloat(longitude),
+                            distritoCoordenadas: cellData[0],
+                            nomeASMorada: cellData[1],
+                            tipologiaTarifa: cellData[2],
+                            pernoitaNlugares: cellData[3],
+                            aguaTarifa: cellData[4],
+                            Tarifa220V: cellData[5],
+                            despAguasCinz: cellData[6],
+                            despWCQuim: cellData[7],
+                            wc: cellData[8],
+                            wiFiPreco: cellData[9],
+                            descricaodaArea: cellData[10]
+                        }
+                        data.push(asaData);
+                    }
+                });
+
+            });
+
+            return data;
+        });
+
+        const campings = areas.filter((x: any) => x.latitude != null && x.longitude != null );
+        updatePGCampingCarPortugal(campings).then(() => { 
+            //nothing
+        });
+
+        return areas;
+    } catch (error) {
+        console.error('Error scraping data:', error);
+    } finally {
+        await browser.close();
+    }
+}
+
+
+
+
+export { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList };

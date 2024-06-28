@@ -62,6 +62,32 @@ async function updatePGIntermache(data: DataItem[]): Promise<void> {
     }
 }
 
+async function updatePGCampingCarPortugal(data: DataItem[]): Promise<void> {
+    try {
+        db.one('SELECT update_campingcarportugal($1)', JSON.stringify(data));
+    } catch (error: any) {
+        console.error('Error inserting or updating data for campingcarportugal:', error.message || error);
+    }
+}
+
+function updatePGEuroStop(data: DataItem[]): Observable<void> {
+    return new Observable<void>(observer => {
+        try {
+            db.one('SELECT insert_eurostops_from_json_array($1::text)', [JSON.stringify(data)]).then( (result) => {
+                observer.next(result);
+                console.log(`Success record for ${data.length} EuroStops`);
+            }).catch(error => {
+                console.log(`Error on EuroStops records: ${error.message}`);
+            }).finally( () =>{
+                observer.complete();
+                console.log(`Finished PLSQL call - EuroStops`);
+            });
+        } catch (error: any) {
+            console.log(`Error updating EuroStops: ${error.message || error}`);
+        }
+    });
+} 
+
 
 
 // Function to insert or update data in the database
@@ -243,4 +269,4 @@ async function insertGeoData(reqIp: string, geoData: any): Promise<void> {
     }
 }
 
-export { db, insertOrUpdatePlaces, insertOrUpdateCruiserList, insertGeoData, updatePGPlaces, updateCampings, updatePGIntermache };
+export { db, insertOrUpdatePlaces, insertOrUpdateCruiserList, insertGeoData, updatePGPlaces, updateCampings, updatePGIntermache, updatePGCampingCarPortugal, updatePGEuroStop };
