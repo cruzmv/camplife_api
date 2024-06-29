@@ -13,8 +13,9 @@ import { insertGeoData } from './services/postgresql';
 
 
 const app = express();
-const port = 3000;
-const httpPort = 80; // HTTP port for redirection
+//const port = 3000;
+const httpPort = 3000; // HTTP port for redirection
+const httpsPort = 3001; // HTTPS
 
 // Paths to your SSL certificate and key
 const sslKeyPath = path.join(__dirname, 'cert', 'server.key');
@@ -311,7 +312,18 @@ app.get('/get_campingcarportugal_list', async (req: Request, res: Response) => {
     }
 });
 
+// HTTP server
+app.listen(httpPort, () => {
+    console.log(`HTTP server running on port ${httpPort}`);
+});
 
+// HTTPS server
+https.createServer(sslOptions, app).listen(httpsPort, () => {
+    console.log(`HTTPS server running on port ${httpsPort}`);
+});
+
+
+/*
 const httpApp = express();
 httpApp.get('*', (req, res) => {
     res.redirect(`https://${req.hostname}${req.url}`);
@@ -323,6 +335,7 @@ httpApp.listen(httpPort, () => {
 https.createServer(sslOptions, app).listen(port, () => {
     console.log(`HTTPS server running on port ${port}`);
 });
+*/
 
 // app.listen(port, () => {
 //     console.log(`Server is running on http://localhost:${port}`);
