@@ -57,7 +57,6 @@ setInterval(()=>{
 // Middleware to parse JSON in the request body
 app.use(bodyParser.json());
 
-
 app.use(cors({
     origin: '*', // Allow only this origin
     methods: ['GET', 'POST'], // Allow only GET and POST requests
@@ -80,6 +79,8 @@ app.use(cors({
 //     allowedHeaders: ['Content-Type', 'Authorization'] // Allow only specified headers
 // }));
 
+
+// #region Routes
 app.get('/proxy_park4night', async (req: Request, res: Response) => {
     const result: any = await fetchDataFromPark4Night(req.query.url as string);
     console.log(`Retriving ${result.lieux.length} campings to ${req.ip}`);
@@ -96,7 +97,6 @@ app.get('/proxy_park4night', async (req: Request, res: Response) => {
         });
     }
 });
-
 
 app.get('/get_place_list', async (req: Request, res: Response) => {
     const cood: latlong = {
@@ -139,18 +139,15 @@ app.post('/update_place_coordinate', async (req: Request, res: Response) => {
     res.json({ message: 'Data updated successfully'});
 });
 
-
 app.post('/log_geo', async (req: Request, res: Response) => {
     await insertGeoData(req.ip as string,req.body);
     res.json({ message: 'OK'});
 });
 
-
 app.post('/update_cruiser_list', async (req: Request, res: Response) => {
     const result = await updateCruiserList(req.body);
     res.json({ message: 'OK', result: 'Data has been update into database'});
 });
-
 
 // app.get('/get_iptv_categories', async (req: Request, res: Response) => {
 //     try {
@@ -257,8 +254,6 @@ app.get('/get_intermache_list', async (req: Request, res: Response) => {
     }
 });
 
-
-
 app.get('/update_eurostops_list', async (req: Request, res: Response) => {
     try {
         const result = await updateEuroStopsList();
@@ -284,9 +279,6 @@ app.get('/get_eurostops_list', async (req: Request, res: Response) => {
     }
 });
 
-
-
-
 app.get('/update_campingcarportugal_list', async (req: Request, res: Response) => {
     try {
         const result = await updateASAList();
@@ -311,6 +303,8 @@ app.get('/get_campingcarportugal_list', async (req: Request, res: Response) => {
         res.status(500).json({ message: 'Error retrieving data' });
     }
 });
+
+// #endregion
 
 // HTTP server
 app.listen(httpPort, () => {
