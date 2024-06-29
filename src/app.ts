@@ -1,6 +1,9 @@
 import express, { Request, Response, query } from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
+import https from 'https';
+import path from 'path';
+import fs from 'fs';
 import { getPlacesList, latlong, getCruiserList, getIntermacheList, getcampingcarportugalList, getEuroStopslList } from './controllers/places';
 import { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList } from './services/providers';
 import { fetchDataFromPark4Night } from './services/providers/park4night';
@@ -11,6 +14,17 @@ import { insertGeoData } from './services/postgresql';
 
 const app = express();
 const port = 3000;
+const httpPort = 80; // HTTP port for redirection
+
+// Paths to your SSL certificate and key
+const sslKeyPath = path.join(__dirname, 'cert', 'server.key');
+const sslCertPath = path.join(__dirname, 'cert', 'server.cert');
+
+// Load SSL certificate and key
+const sslOptions = {
+    key: fs.readFileSync(sslKeyPath),
+    cert: fs.readFileSync(sslCertPath)
+};
 
 //const historyPark4NightURL: string[] = [];
 let historyPark4NightData: any = undefined;
@@ -298,12 +312,22 @@ app.get('/get_campingcarportugal_list', async (req: Request, res: Response) => {
 });
 
 
-
-
-app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
-    console.log('Version 2');
+const httpApp = express();
+httpApp.get('*', (req, res) => {
+    res.redirect(`https://${req.hostname}${req.url}`);
 });
+httpApp.listen(httpPort, () => {
+    console.log(`HTTP server running on port ${httpPort} and redirecting to HTTPS`);
+});
+// Start the HTTPS server
+https.createServer(sslOptions, app).listen(port, () => {
+    console.log(`HTTPS server running on port ${port}`);
+});
+
+// app.listen(port, () => {
+//     console.log(`Server is running on http://localhost:${port}`);
+//     console.log('Version 2');
+// });
 
 
 // function main() {
