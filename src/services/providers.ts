@@ -1,7 +1,7 @@
 import { DataItem } from './providers/dataItem.interface';
-import { insertOrUpdatePlaces, insertOrUpdateCruiserList, updatePGPlaces, updateCampings, updatePGIntermache, updatePGCampingCarPortugal, updatePGEuroStop } from './postgresql';
+import { insertOrUpdatePlaces, insertOrUpdateCruiserList, updatePGPlaces, updateCampings, updatePGIntermache, updatePGCampingCarPortugal, updatePGEuroStop, updateAREASAC } from './postgresql';
 import { readDataFolder, flatData } from './providers/park4night';
-import { Observable } from 'rxjs';
+import { Observable, timeout } from 'rxjs';
 import {setTimeout} from "node:timers/promises";
 
 function feedPark4NightDB(campings: any) : Observable<void> {
@@ -673,6 +673,78 @@ async function updateASAList() {
 }
 
 
+async function updateAREASACList() {
+    const puppeteer = require('puppeteer');
+    const browser = await puppeteer.launch({ headless: true });
+    const page = await browser.newPage();
+    await page.goto('https://www.areasac.es/areas-servicio-autocaravanas/areasaces/espana_4_1_ap.html?m=1#contenido',  { timeout: 60000 * 5 });
+
+    await setTimeout(5000);
+
+    const scriptContent = await page.evaluate(() => {
+        const scriptTags = document.querySelectorAll('script');
+        return scriptTags[scriptTags.length - 1].innerHTML; // Get the content of the last script tag
+    })
+    
+    console.log(scriptContent);
+
+    const pois = [];
+
+    const latLngRegex = /new google\.maps\.LatLng\(([^,]+),\s*([^)]+)\)/g;
+    let latLngMatch;
+    
+    const infoWindowRegex = /new google\.maps\.InfoWindow\(\{ content: "(.*?)"/g;
+    let infoWindowMatch;
+
+    // Find all lat/lng pairs
+    const latLngs = [];
+    while ((latLngMatch = latLngRegex.exec(scriptContent)) !== null) {
+        const lat = latLngMatch[1].trim();
+        const lng = latLngMatch[2].trim();
+        latLngs.push({ lat, lng });
+    }
+    
+    // Find all infowindow contents
+    const infoWindows = [];
+    while ((infoWindowMatch = infoWindowRegex.exec(scriptContent)) !== null) {
+        const content = infoWindowMatch[1];
+        infoWindows.push(content);
+    }    
+
+    // Extract title and link from InfoWindow content
+    const titleRegex = /<div class='info_bloque_texto'>(.*?)<\\\/div>/s
+    const linkRegex = /<div class='info_bloque_enlace_mapa'><a href='(.*?)'>\+Info<\\\/a><\\\/div>/s;
+    const imgSrcRegex = /<img[^>]*src=['"]([^'"]*\.jpg)[^'"]*['"][^>]*>/g;
+
+        
+    for (let i = 0; i < infoWindows.length; i++) {
+        const content = infoWindows[i];
+        const titleMatch = titleRegex.exec(content);
+        const linkMatch = linkRegex.exec(content);
+        const imgMatch = imgSrcRegex.exec(content);
+
+        const title = titleMatch ? titleMatch[1] : 'None';
+        const link = linkMatch ? linkMatch[1] : 'None';
+        const image: any = imgMatch ? imgMatch[1] : 'None';
+
+        const latLng = latLngs[i] ? latLngs[i] : { lat: 'No Lat', lng: 'No Lng' };
+
+        pois.push({ 
+            title, 
+            link, 
+            lat: latLng.lat, 
+            lng: latLng.lng,
+            type: image.split('/').pop().replace('.jpg', '').replace('imagen.asp?f=','')
+        });
+    }
+
+    updateAREASAC(pois).subscribe(() => { 
+        //nothing
+    });
+
+    await browser.close();    
+}
 
 
-export { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList };
+
+export { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList, updateAREASACList };
