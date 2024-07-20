@@ -90,6 +90,26 @@ function updatePGEuroStop(data: DataItem[]): Observable<void> {
 
 
 
+function updateAREASAC(data: any[]): Observable<void> {
+    return new Observable<void>(observer => {
+        try {
+            db.one('SELECT update_areasac($1::text)', [JSON.stringify(data)]).then( (result) => {
+                observer.next(result);
+                console.log(`Success record for ${data.length} AREASAC`);
+            }).catch(error => {
+                console.log(`Error on AREASAC records: ${error.message}`);
+            }).finally( () =>{
+                observer.complete();
+                console.log(`Finished PLSQL call - AREASAC`);
+            });
+        } catch (error: any) {
+            console.log(`Error updating AREASAC: ${error.message || error}`);
+        }
+    });
+} 
+
+
+
 // Function to insert or update data in the database
 async function insertOrUpdatePlaces(data: DataItem[]): Promise<void> {
     try {
@@ -269,4 +289,4 @@ async function insertGeoData(reqIp: string, geoData: any): Promise<void> {
     }
 }
 
-export { db, insertOrUpdatePlaces, insertOrUpdateCruiserList, insertGeoData, updatePGPlaces, updateCampings, updatePGIntermache, updatePGCampingCarPortugal, updatePGEuroStop };
+export { db, insertOrUpdatePlaces, insertOrUpdateCruiserList, insertGeoData, updatePGPlaces, updateCampings, updatePGIntermache, updatePGCampingCarPortugal, updatePGEuroStop, updateAREASAC };

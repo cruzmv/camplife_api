@@ -127,5 +127,22 @@ async function getcampingcarportugalList(cood: latlong): Promise<Place[]> {
   }
 }
 
+async function getareasacList(cood: latlong): Promise<Place[]> {
+  try {
+    const result = await db.any<Place>(
+      `
+        SELECT latitude,longitude,title,link,"type",distance_km from get_areasac_within_radius($1, $2)
+      `,
+      [cood.lat, cood.long]
+    );
+    
+    console.log(`returning ${result.length} intermache places`);
+    return result;
+  } catch (error) {
+    console.error('Error retrieving intermache places:', error);
+    throw new Error('Error retrieving intermache places');
+  }
+}
 
-export { getPlacesList, latlong, getCruiserList, getIntermacheList, getcampingcarportugalList, getEuroStopslList };
+
+export { getPlacesList, latlong, getCruiserList, getIntermacheList, getcampingcarportugalList, getEuroStopslList, getareasacList };

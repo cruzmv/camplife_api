@@ -4,8 +4,8 @@ import cors from 'cors';
 import https from 'https';
 import path from 'path';
 import fs from 'fs';
-import { getPlacesList, latlong, getCruiserList, getIntermacheList, getcampingcarportugalList, getEuroStopslList } from './controllers/places';
-import { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList } from './services/providers';
+import { getPlacesList, latlong, getCruiserList, getIntermacheList, getcampingcarportugalList, getEuroStopslList, getareasacList } from './controllers/places';
+import { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList, updateAREASACList } from './services/providers';
 import { fetchDataFromPark4Night } from './services/providers/park4night';
 import { insertGeoData } from './services/postgresql';
 //import { fetchAndProcessPlaylist, getCategories, getChanelByCategory } from './services/providers/foxIpTv';
@@ -19,7 +19,7 @@ const httpsPort = 3001; // HTTPS
 
 // Paths to your SSL certificate and key
 const sslKeyPath = path.join(__dirname, 'cert', 'server.key');
-const sslCertPath = path.join(__dirname, 'cert', 'server.crt');
+const sslCertPath = path.join(__dirname, 'cert', 'server.cert');
 
 // Load SSL certificate and key
 const sslOptions = {
@@ -303,6 +303,36 @@ app.get('/get_campingcarportugal_list', async (req: Request, res: Response) => {
         res.status(500).json({ message: 'Error retrieving data' });
     }
 });
+
+
+
+app.get('/update_areasac_list', async (req: Request, res: Response) => {
+    try {
+        const result = await updateAREASACList();
+        res.json({ message: 'Data retrieved successfully', data: result });
+    } catch (error) {
+        console.error('Error:', error);
+        res.status(500).json({ message: 'Error retrieving data' });
+    }
+});
+
+
+app.get('/get_areasac_list', async (req: Request, res: Response) => {
+    try {
+        const cood: latlong = {
+            lat: String(req.query.lat),
+            long: String(req.query.long)
+        };
+    
+        const result = await getareasacList(cood);
+        res.json({ message: 'Data retrieved successfully', data: result });
+    } catch (error) {
+        console.error('Error:', error);
+        res.status(500).json({ message: 'Error retrieving data' });
+    }
+});
+
+
 
 // #endregion
 
