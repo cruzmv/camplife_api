@@ -19,8 +19,8 @@ const httpsPort = 3001; // HTTPS
 
 // Paths to your SSL certificate and key
 const sslKeyPath = path.join(__dirname, 'cert', 'server.key');
-const sslCertPath = path.join(__dirname, 'cert', 'server.cert');
-//const sslCertPath = path.join(__dirname, 'cert', 'server.crt');
+//const sslCertPath = path.join(__dirname, 'cert', 'server.cert');
+const sslCertPath = path.join(__dirname, 'cert', 'server.crt');
 
 // Load SSL certificate and key
 const sslOptions = {
