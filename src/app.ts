@@ -4,8 +4,8 @@ import cors from 'cors';
 import https from 'https';
 import path from 'path';
 import fs from 'fs';
-import { getPlacesList, latlong, getCruiserList, getIntermacheList, getcampingcarportugalList, getEuroStopslList, getareasacList } from './controllers/places';
-import { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList, updateAREASACList } from './services/providers';
+import { getPlacesList, latlong, getCruiserList, getIntermacheList, getcampingcarportugalList, getEuroStopslList, getareasacList, getPark4NightMyDB, getcampingcarparkList } from './controllers/places';
+import { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList, updateAREASACList, updateCAMPINGCARPARKList } from './services/providers';
 import { fetchDataFromPark4Night } from './services/providers/park4night';
 import { insertGeoData } from './services/postgresql';
 //import { fetchAndProcessPlaylist, getCategories, getChanelByCategory } from './services/providers/foxIpTv';
@@ -19,8 +19,8 @@ const httpsPort = 3001; // HTTPS
 
 // Paths to your SSL certificate and key
 const sslKeyPath = path.join(__dirname, 'cert', 'server.key');
-//const sslCertPath = path.join(__dirname, 'cert', 'server.cert');
-const sslCertPath = path.join(__dirname, 'cert', 'server.crt');
+const sslCertPath = path.join(__dirname, 'cert', 'server.cert');
+//const sslCertPath = path.join(__dirname, 'cert', 'server.crt');
 
 // Load SSL certificate and key
 const sslOptions = {
@@ -305,8 +305,6 @@ app.get('/get_campingcarportugal_list', async (req: Request, res: Response) => {
     }
 });
 
-
-
 app.get('/update_areasac_list', async (req: Request, res: Response) => {
     try {
         const result = await updateAREASACList();
@@ -316,7 +314,6 @@ app.get('/update_areasac_list', async (req: Request, res: Response) => {
         res.status(500).json({ message: 'Error retrieving data' });
     }
 });
-
 
 app.get('/get_areasac_list', async (req: Request, res: Response) => {
     try {
@@ -333,6 +330,106 @@ app.get('/get_areasac_list', async (req: Request, res: Response) => {
     }
 });
 
+// to be implemented in FE...
+app.get('/get_park4night_from_db', async (req: Request, res: Response) => {
+    try {
+        const cood: latlong = {
+            lat: String(req.query.lat),
+            long: String(req.query.long)
+        };
+    
+        const result = await getPark4NightMyDB(cood);
+        res.json({ message: 'Data retrieved successfully', data: result });
+    } catch (error) {
+        console.error('Error:', error);
+        res.status(500).json({ message: 'Error retrieving data' });
+    }
+});
+
+app.get('/update_campingcarpark_list', async (req: Request, res: Response) => {
+    try {
+        const result = await updateCAMPINGCARPARKList();
+        res.json({ message: 'Data retrieved successfully', data: result });
+    } catch (error) {
+        console.error('Error:', error);
+        res.status(500).json({ message: 'Error retrieving data' });
+    }
+});
+
+// to be implemented in FE...
+app.get('/get_campingcarpark_list', async (req: Request, res: Response) => {
+    try {
+        const cood: latlong = {
+            lat: String(req.query.lat),
+            long: String(req.query.long)
+        };
+    
+        const result = await getcampingcarparkList(cood);
+        res.json({ message: 'Data retrieved successfully', data: result });
+    } catch (error) {
+        console.error('Error:', error);
+        res.status(500).json({ message: 'Error retrieving data' });
+    }
+});
+
+// to be implemented in FE...
+app.get('/get_AEAE_list', async (req: Request, res: Response) => {
+    try {
+        const fs = require('fs');
+        const path = require('path');
+        const toGeoJSON = require('togeojson');
+        const { DOMParser } = require('xmldom');
+        const xml2js = require('xml2js');
+        
+        // Read the KML file
+        const kmlPath = path.join(__dirname, '../resource/AEAE.kml');
+        const kml = fs.readFileSync(kmlPath, 'utf8');        
+
+        // Convert KML to GeoJSON
+        const kmlDom = new DOMParser().parseFromString(kml);
+        const geojson = toGeoJSON.kml(kmlDom);      
+        
+
+        // Haversine formula to calculate distance between two points
+        const haversineDistance = (coords1: any, coords2: any) => {
+            const toRadians = (deg: any) => deg * (Math.PI / 180);
+            const R = 6371; // Radius of the Earth in km
+
+            const dLat = toRadians(coords2[1] - coords1[1]);
+            const dLon = toRadians(coords2[0] - coords1[0]);
+            const lat1 = toRadians(coords1[1]);
+            const lat2 = toRadians(coords2[1]);
+
+            const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                    Math.sin(dLon / 2) * Math.sin(dLon / 2) * Math.cos(lat1) * Math.cos(lat2);
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+
+            return R * c;
+        };
+
+        // Function to filter GeoJSON features based on proximity
+        const filterFeaturesByProximity = (geojson: any, lat: any, lon: any, radius: any) => {
+            return geojson.features.filter((feature: any) => {
+                const [featureLon, featureLat] = feature.geometry.coordinates;
+                const distance = haversineDistance([lon, lat], [featureLon, featureLat]);
+                return distance <= radius;
+            });
+        };
+
+        // Example coordinates to search around (latitude, longitude)
+        const searchLat = parseFloat((req as any).query.lat);
+        const searchLon = parseFloat((req as any).query.long);
+
+        const nearbyFeatures = filterFeaturesByProximity(geojson, searchLat, searchLon, 300);
+        console.log('Nearby features:', nearbyFeatures);
+        
+        //const result = await getcampingcarparkList(cood);
+        res.json({ message: 'Data retrieved successfully', data: nearbyFeatures });
+    } catch (error) {
+        console.error('Error:', error);
+        res.status(500).json({ message: 'Error retrieving data' });
+    }
+});
 
 
 // #endregion

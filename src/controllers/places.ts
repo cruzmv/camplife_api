@@ -136,13 +136,47 @@ async function getareasacList(cood: latlong): Promise<Place[]> {
       [cood.lat, cood.long]
     );
     
-    console.log(`returning ${result.length} intermache places`);
+    console.log(`returning ${result.length} areasac places`);
     return result;
   } catch (error) {
-    console.error('Error retrieving intermache places:', error);
-    throw new Error('Error retrieving intermache places');
+    console.error('Error retrieving areasac places:', error);
+    throw new Error('Error retrieving areasac places');
+  }
+}
+
+async function getPark4NightMyDB(cood: latlong): Promise<Place[]> {
+  try {
+    const result = await db.any<Place>(
+      `
+        select data from get_campings_with_photos_within_radius($1, $2)
+      `,
+      [cood.lat, cood.long]
+    );
+    
+    console.log(`returning ${result.length} park4night places`);
+    return result;
+  } catch (error) {
+    console.error('Error retrieving park4night places:', error);
+    throw new Error('Error retrieving park4night places');
+  }
+}
+
+async function getcampingcarparkList(cood: latlong): Promise<Place[]> {
+  try {
+    const result = await db.any<Place>(
+      `
+        SELECT latitude,longitude,id,status,"type","data",distance_km FROM get_campingcarpark_within_radius($1, $2)
+      `,
+      [cood.lat, cood.long]
+    );
+    
+    console.log(`returning ${result.length} campingcarpark places`);
+    return result;
+  } catch (error) {
+    console.error('Error retrieving campingcarpark places:', error);
+    throw new Error('Error retrieving campingcarpark places');
   }
 }
 
 
-export { getPlacesList, latlong, getCruiserList, getIntermacheList, getcampingcarportugalList, getEuroStopslList, getareasacList };
+export { getPlacesList, latlong, getCruiserList, getIntermacheList, getcampingcarportugalList, getEuroStopslList, getareasacList, getPark4NightMyDB, getcampingcarparkList };

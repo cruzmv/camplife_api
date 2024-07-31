@@ -1,5 +1,8 @@
+import axios from 'axios';
+import qs from 'qs';
+
 import { DataItem } from './providers/dataItem.interface';
-import { insertOrUpdatePlaces, insertOrUpdateCruiserList, updatePGPlaces, updateCampings, updatePGIntermache, updatePGCampingCarPortugal, updatePGEuroStop, updateAREASAC } from './postgresql';
+import { insertOrUpdatePlaces, insertOrUpdateCruiserList, updatePGPlaces, updateCampings, updatePGIntermache, updatePGCampingCarPortugal, updatePGEuroStop, updateAREASAC, updateCAMPINGCARPARK } from './postgresql';
 import { readDataFolder, flatData } from './providers/park4night';
 import { Observable, timeout } from 'rxjs';
 import {setTimeout} from "node:timers/promises";
@@ -99,10 +102,6 @@ function feedPark4NightDB(campings: any) : Observable<void> {
     })
 }
 
-
-
-
-
     // return new Promise((resolve, reject) => {
     //     const flatDataItems = flatData(places);
     //     const processedData = flatDataItems.map((data: any) => {
@@ -196,9 +195,6 @@ function feedPark4NightDB(campings: any) : Observable<void> {
 
     // });
 // }
-
-
-
 
 async function updatePark4NightDB(places: any) {
     try{
@@ -298,7 +294,6 @@ async function updatePark4NightDB(places: any) {
     }
 
 }
-
 
 async function updatePark4NightCoordinates(lat: number, long: number){
     const locationsData = await readDataFolder(lat,long);
@@ -449,7 +444,6 @@ async function updateCruiserList(body: any){
     await insertOrUpdateCruiserList(result);
 }
 
-
 async function updateIntermacheList(){
     const puppeteer = require('puppeteer');
     const browser = await puppeteer.launch({ headless: true });
@@ -493,8 +487,6 @@ async function updateIntermacheList(){
     await updatePGIntermache(poiData)
 }
 
-
-
 // async function updateEuroStopsList() {
 //     const puppeteer = require('puppeteer');
 //     const browser = await puppeteer.launch({ headless: true });
@@ -525,10 +517,6 @@ async function updateIntermacheList(){
 //     await page.waitForTimeout(5000);
 //     await browser.close();
 // }
-
-
-
-
 
 async function updateEuroStopsList() {
     const puppeteer = require('puppeteer');
@@ -672,79 +660,148 @@ async function updateASAList() {
     }
 }
 
-
 async function updateAREASACList() {
     const puppeteer = require('puppeteer');
     const browser = await puppeteer.launch({ headless: true });
     const page = await browser.newPage();
-    await page.goto('https://www.areasac.es/areas-servicio-autocaravanas/areasaces/espana_4_1_ap.html?m=1#contenido',  { timeout: 60000 * 5 });
+    await page.goto('https://www.areasac.es/areas-servicio-autocaravanas/areasaces/espana_4_1_ap.html?m=1#contenido', { timeout: 60000 * 5 });
 
     await setTimeout(5000);
 
     const scriptContent = await page.evaluate(() => {
         const scriptTags = document.querySelectorAll('script');
         return scriptTags[scriptTags.length - 1].innerHTML; // Get the content of the last script tag
-    })
-    
+    });
+
     console.log(scriptContent);
 
     const pois = [];
 
-    const latLngRegex = /new google\.maps\.LatLng\(([^,]+),\s*([^)]+)\)/g;
-    let latLngMatch;
-    
+    const latLngRegex = /new google\.maps\.LatLng\(([^,]+),\s*([^)]+)\)/;
     const infoWindowRegex = /new google\.maps\.InfoWindow\(\{ content: "(.*?)"/g;
-    let infoWindowMatch;
 
-    // Find all lat/lng pairs
-    const latLngs = [];
-    while ((latLngMatch = latLngRegex.exec(scriptContent)) !== null) {
-        const lat = latLngMatch[1].trim();
-        const lng = latLngMatch[2].trim();
-        latLngs.push({ lat, lng });
-    }
-    
-    // Find all infowindow contents
-    const infoWindows = [];
-    while ((infoWindowMatch = infoWindowRegex.exec(scriptContent)) !== null) {
-        const content = infoWindowMatch[1];
-        infoWindows.push(content);
-    }    
+    const lines = scriptContent.split('\n');
+    let latLngMatch, infoWindowMatch;
 
-    // Extract title and link from InfoWindow content
-    const titleRegex = /<div class='info_bloque_texto'>(.*?)<\\\/div>/s
-    const linkRegex = /<div class='info_bloque_enlace_mapa'><a href='(.*?)'>\+Info<\\\/a><\\\/div>/s;
-    const imgSrcRegex = /<img[^>]*src=['"]([^'"]*\.jpg)[^'"]*['"][^>]*>/g;
+    for (let i = 0; i < lines.length; i++) {
+        const latLngLine = lines[i];
+        latLngMatch = latLngLine.match(latLngRegex);
 
+        if (latLngMatch) {
+            const lat = latLngMatch[1].trim();
+            const lng = latLngMatch[2].trim();
+
+            for (let j = i + 1; j < lines.length; j++) {
+                const infoWindowLine = lines[j];
+
+                if (infoWindowLine.includes('new google.maps.LatLng')) {
+                    // Found another LatLng before finding InfoWindow, break out
+                    break;
+                }
+                                
+                infoWindowMatch = infoWindowLine.match(infoWindowRegex);
+
+                if (infoWindowMatch) {
+                    const content = infoWindowMatch[0];
+
+                    // Extract title, link, and image from InfoWindow content
+                    const titleRegex = /<div class='info_bloque_texto'>(.*?)<\\\/div>/s
+                    const linkRegex = /<div class='info_bloque_enlace_mapa'><a href='(.*?)'>\+Info<\\\/a><\\\/div>/s;
+                    const imgSrcRegex = /<img[^>]*src=['"]([^'"]*\.jpg)[^'"]*['"][^>]*>/g;
         
-    for (let i = 0; i < infoWindows.length; i++) {
-        const content = infoWindows[i];
-        const titleMatch = titleRegex.exec(content);
-        const linkMatch = linkRegex.exec(content);
-        const imgMatch = imgSrcRegex.exec(content);
+                    const titleMatch = content.match(titleRegex);
+                    const linkMatch = content.match(linkRegex);
+                    const imgMatch = content.match(imgSrcRegex);
+                    const srcRegex = /src=['"]([^'"]*)['"]/;
+                    const type = imgMatch[0].match(srcRegex)
 
-        const title = titleMatch ? titleMatch[1] : 'None';
-        const link = linkMatch ? linkMatch[1] : 'None';
-        const image: any = imgMatch ? imgMatch[1] : 'None';
+                    const title = titleMatch ? titleMatch[1] : 'None';
+                    const link = linkMatch ? linkMatch[1] : 'None';
+                    const image: any = type ? type[1] : 'None';
 
-        const latLng = latLngs[i] ? latLngs[i] : { lat: 'No Lat', lng: 'No Lng' };
-
-        pois.push({ 
-            title, 
-            link, 
-            lat: latLng.lat, 
-            lng: latLng.lng,
-            type: image.split('/').pop().replace('.jpg', '').replace('imagen.asp?f=','')
-        });
+                    pois.push({
+                        title,
+                        link,
+                        lat,
+                        lng,
+                        type: image.split('/').pop().replace('.jpg', '').replace('imagen.asp?f=', '').split('&')[0]
+                    });
+        
+                    break; // Move to the next latLng match
+                }
+            }
+        }
     }
 
-    updateAREASAC(pois).subscribe(() => { 
-        //nothing
+    updateAREASAC(pois).subscribe(() => {
+        // nothing
     });
 
-    await browser.close();    
+    await browser.close();
+}
+
+async function updateCAMPINGCARPARKList() {
+    const puppeteer = require('puppeteer');
+    const browser = await puppeteer.launch({ headless: true });
+    const page = await browser.newPage();
+    await page.goto('https://www.campingcarpark.com/en_GB/search/areas/map', { timeout: 60000 * 5 } );
+    await page.waitForSelector('#map');
+
+    const pois = await page.evaluate(() => {
+        const mapDiv: any = document.querySelector('#map');
+        const dataLocations = mapDiv.getAttribute('data-locations');
+        const locations = JSON.parse(dataLocations.replace(/&quot;/g, '"')); // Replace HTML entities and parse JSON
+    
+        return locations.data.features.map((feature: any) => ({
+          id: feature.properties.id,
+          type: feature.properties.type,
+          status: feature.properties.status,
+          latitude: feature.geometry.coordinates[1],
+          longitude: feature.geometry.coordinates[0]
+        }));
+    });    
+
+    console.log(pois);
+
+    for (const poi of pois) {
+        const url = 'https://www.campingcarpark.com/ajax/location/';
+        const headers = {
+            'accept': 'application/json',
+            'accept-encoding': 'gzip, deflate, br, zstd',
+            'accept-language': 'en-US,en;q=0.5',
+            'channel': 'website',
+            'connection': 'keep-alive',
+            'content-type': 'application/x-www-form-urlencoded',
+            'x-requested-with': 'XMLHttpRequest'
+        };
+
+        const body = JSON.stringify({
+          id: poi.id,
+          locale: 'en_GB'
+        });
+
+        try{
+            const response = await axios.post(url, body, { headers });
+            console.log(poi.id);
+            if (response.status === 200) {
+                poi.data = response.data
+            }
+        } catch (error) { 
+            console.log("Error getting data from campingcarpark.com", error);
+        }
+    }
+
+    updateCAMPINGCARPARK(pois).subscribe(() => {
+        // nothing
+    });
+
+    await browser.close();
+    
+
 }
 
 
 
-export { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList, updateAREASACList };
+
+
+export { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList, updateAREASACList, updateCAMPINGCARPARKList };

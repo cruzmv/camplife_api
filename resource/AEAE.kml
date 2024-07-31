@@ -1,0 +1,2587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Áreas Estacionamiento Autocaravanas España</name>
+    <description/>
+    <Style id="icon-1859-0F9D58-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1859-0F9D58-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1859-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1859-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1859-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1859-0F9D58-nodesc-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1859-0F9D58-nodesc-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1859-0F9D58-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1859-0F9D58-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1859-0F9D58-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Andalucía - Áreas Estacionamiento Autocaravanas</name>
+      <Placemark>
+        <name>Estacion de servicio PITA</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.33785699999999,36.875365,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking de autocaravanas Puerto Deportivo de Almerimar (Emplazamiento 2)</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.78831790000004,36.6943646,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parque natural del Cabo de Gata-Níjar</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.19175599999994,36.722192,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping Sopalmo</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.86927200000002,37.065697,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping Los Escullos</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.07873300000006,36.803305,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Puerta Oriental de Andalucía</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.07555160000004,37.6509975,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area de autocaravanas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.94638859999998,37.3980605,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area De Autocaravanas De Mntagon</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.77741739999999,37.1543108,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Canjáyar</name>
+        <description>Área a 300m del núcleo urbano. Carretera A-248 dirección Alcolea.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -2.740016,37.0090985,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Al-Maroc</name>
+        <description>Por carretera A-334 junto a Restaurante. A 550m del núcleo urbano.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -2.42654600000003,37.348293,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camperpark Oasis Al Mar</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.82777929999997,37.2269276,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aparcamiento de Autocaravanas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.35133199999996,36.156198,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Área de autocaravanas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.42373079999993,37.4662163,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Autocaravanas Conil</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.07983749999994,36.306719,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area de Servicio de Autocaravanas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.51025430000004,36.7577429,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Palmar - La Pachamama</name>
+        <description>Área privada. Desde Conil dirección a la playa de El Palmar, después de la Venta de Piñero girar a la derecha, a 700m.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -6.06686579999996,36.2388099,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Puerto de Santa María</name>
+        <description>Centro Comercial Bahía Mar</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -6.22129289999998,36.5929538,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aparcamiento De Autocaravanas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.39102819999994,36.6377665,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pedro Iglesias</name>
+        <description>Al lado de estación de autobuses.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -4.44087400000001,37.47689,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area Autocaravanas Castellar de la Frontera</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.42153630000007,36.2832707,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ÁREA PARA AUTOCARAVANAS</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.39568150000002,36.7618711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Via Verde de la Sierra, Olvera</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.2541847,36.94156,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centro Histórico</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.78831149999996,37.8754243,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Cantina</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.35102840000002,37.5465095,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parque de Autocaravanas de Castro del Río</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.48459649999995,37.6963668,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking de Autocaravanas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.21167200000002,37.4436516,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Bombilla</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.28386649999993,37.6918589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casa Rural El Pantano</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.27745000000004,38.277152,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Benamejí</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.37383610000006,37.3313026,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante Hostal Venta Dolar</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.98432030000004,37.1955784,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Geysepark - Parking Nuevo Los Carmenes</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.59588699999995,37.150961,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ayuntamiento de Puebla de Don Fadrique</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.43482789999996,37.9580051,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Barranco Aserradero</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.98950200000002,37.0039483,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking Los Peñones</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.39334540000004,37.0984724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LUKOIL</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.14943749999998,37.3022849,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cumbres Mayores</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.63155299999994,38.053126,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Posada, 2</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.59030000000007,37.69251,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Servicaravan</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.5533018,37.3868673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Área de Servicio Autocaravanas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.08913159999997,37.5896666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>E.S. Balcón de Andújar</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.08711549999998,38.0336338,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gasolinera Repsol</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.5452957,38.3369786,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Área de Autocaravanas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.37950520000004,38.0065699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CAMPER AREA MH EL RINCON</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.23808159999999,36.7164475,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Autocaravanas Málaga</name>
+        <description><![CDATA[Es un área de venta de autocaravanas y caravanas.<br>www.autocaravanasmalaga.com]]></description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -4.4164194,36.7417696,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Luis Braille, 3</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.38853199999994,37.091804,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cuevas de San Marcos - Junto piscina municipal</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.41423020000002,37.2694846,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area Villanueva de Algaidas. Málaga.</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.44962140000007,37.1781976,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Multiparking La Jabega</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.96358650000002,37.2121155,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area de autocaravanas Gelves</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.02376670000001,37.3413706,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Área de Autocaravanas - Sevilla</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.99442329999999,37.3626834,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Recinto Ferial Marchena</name>
+        <description>Cerca del Recinto Ferial</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -5.42437210000003,37.3304959,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Av. García Morato, 3</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.99394800000005,37.368037,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hertz - Estación de ferrocarril de Santa Justa</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.97494510000001,37.3908869,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Guadalcanal</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.8205772,38.0925184,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Aragón - Áreas Estacionamiento de Autocaravanas</name>
+      <Placemark>
+        <name>Mirador de La Sierra Blanca</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            0.303441000000021,41.9142946,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Valle de Ordesa</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            0.188749099999995,41.9203048,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SIMPLY</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.425367199999982,42.1288079,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CAMPING SOLOPUENT CASTIELLO DE JACA</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.543700199999989,42.6241581,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Membrilleras, 7</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.544472000000042,42.569487,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area Benas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            0.527317000000039,42.6121053,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping La Borda d´Arnaldet</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            0.465115999999966,42.559778,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Av. de Fraga, 42</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.149068400000033,41.7908874,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping San Jorge</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.419642299999964,42.1367686,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ronda del Pintor Gárate</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.50945390000004,41.1230283,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valderrobres</name>
+        <description>Acceso por la Calle Elvira Hidalgo. Parking Ribera rio Matarraña.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            0.1534653,40.8732534,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Av. la Feria, 55</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.406069500000058,40.525967,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Estación de Chamartín</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.449769400000037,40.9884338,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Puebla de Valverde</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.944673999999964,40.213424,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monreal del Campo</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.34692470000005,40.7688305,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ayuntamiento de Calatayud</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.64186749999999,41.3532686,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle del Carmen, 40</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.22934529999998,41.3380672,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping Veruela Moncayo</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.69244000000003,41.8191469,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>E. S. Valcarce La Joyosa</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.06711519999999,41.736914,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cartuja Aula Dei</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.812284999999974,41.731621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Estación de Servicio EL CISNE</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.01008079999997,41.6253186,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area Autocaravanas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.358079299999986,42.5060494,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sos del Rey Católico</name>
+        <description>Zona del Polideportivo.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -1.21530480000001,42.4963545,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Asturias y Cantabria - Áreas Estacionamiento de Autocaravanas</name>
+      <Placemark>
+        <name>Calle Emilio Cotarelo</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.05154879999998,43.4666281,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Recinto Ferial la Imera</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.54098139999996,43.1570231,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area De Autocaravanas de Ortiguera</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.7335587,43.5611374,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AREA CAMPER CUDILLERO CASA FERNANDO</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.17644629999995,43.5599244,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Picos de Europa</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.12596659999997,43.3526773,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Félix María Villa</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.55106899999998,43.180792,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking Entrago</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.09749680000004,43.1698547,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping EL Rinconín - Gijón</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.63797090000003,43.5507638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Arbeyal</name>
+        <description>Situada a la entrada del Musel. Pasada la gasolinera, a la derecha.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -5.7013464,43.5507876,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bárzana</name>
+        <description>Zona del Felgueiru, Bárzana, Quirós.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -5.97297619999995,43.1581552,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Avenida Real Titanico</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.56663119999996,43.25251,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area Autocaravanas Navia</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.71987539999998,43.5451506,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alto Caxiga</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.88290410000002,43.4136742,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Polideportivo municipal Los Llanos</name>
+        <description>Junto a gasolinera. A 500m de la población.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -5.26092560000006,43.4838257,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Llagar Castañón</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.56963799999994,43.514385,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area de Autocaravanas Tapia de Casarego</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.94608500000004,43.566438,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Martín del Rey Aurelio</name>
+        <description>En la ronda al llegar a El Entrego, tomar la primera salida frente al MUMI.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -5.64126390000001,43.2867154,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping las Gaviotas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.00042740000004,43.5723187,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AREA CAMPER COLOMBRES</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.55471690000002,43.3805642,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gasolinera Galp Villanueva de Oscos</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.98626349999995,43.3104111,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Albergue Mirador del Angliru</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.90525200000002,43.248028,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking Gratis Autocaravanas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.10980589999997,43.3607421,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Conde de Sta Barbara, 33</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.81062109999993,43.4051684,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Avenida de Asturias</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.77952740000001,43.251322,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Flórez Estrada</name>
+        <description>Abierta de Marzo a Octubre.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -6.25465880000002,43.0931248,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Área Autocaravanas Parque de Cabarceno</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.81874140000002,43.3584946,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shell</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.98736559999998,43.4080487,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gasolinera Repsol Beranga</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.57858980000003,43.4142173,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Liérganes</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.74212,43.34482,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hostal Sanpatiel Valderredible</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.93762200000003,42.805829,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping Valderredible</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.92949999999996,42.80535,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking De Caravanas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.10232270000006,43.3867551,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Castilla - La Mancha, Madrid y Extremadura Áreas Estacionamiento de Autocaravanas</name>
+      <Placemark>
+        <name>Zona Aparcamiento Auto Caravanas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.35304199999996,38.9473174,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Brazuelo</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.29249879999998,38.9830692,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aparcamiento Autocaravanas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.21934179999994,39.3897941,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Sierrecilla</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.48288930000001,39.326776,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hostal Parador de los Galanes</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.38029830000005,38.9871666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle los Transportistas, 57</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.00608910000005,39.1810721,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paseo del Huécar</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.13036320000003,40.0752348,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monasterio de Uclés</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.86344199999996,39.9803774,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Santiago</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.38303020000001,39.6608539,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area AC La veguilla</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.76273130000004,40.3680741,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Área de Servicio de Autocaravanas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.25760739999998,39.9684107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Ramón y Cajal</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.2006063,39.9084004,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Talavera de la Reina</name>
+        <description>C/ Alfareros junto al Velódromo Municipal</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -4.8144579,39.956226,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking Autocaravanas en Toledo</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.0196657,39.8645325,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Constitución, 2</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.36323479999999,39.4236083,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Las Becerras</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.67312089999996,39.5970572,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pabellón deportivo</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.52414629999998,39.4667342,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camino de Torralba</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.16793269999994,39.925023,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle de Magallanes, 91</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.27716710000004,39.9876463,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ctra. Espinoso, 2</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.64282209999999,39.7192416,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parque Natural Las Quinientas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.82047769999997,38.27602,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Avenida del Deporte</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.86391049999997,38.9625633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking Autocaravanas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.97812899999997,38.8847142,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Alonso de Paz</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.65630340000007,38.1724008,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Codosera</name>
+        <description>Área Pública situada a 2km de la población en plena naturaleza.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -7.2027397,39.2390009,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area Autocaravanas - Merida</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.33647870000004,38.9191305,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zafra</name>
+        <description>En el recinto ferial, junto a la rotonda. Cierra por la noche.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -6.41308300000003,38.429833,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Área de Autocaravanas del Valhondo Cáceres</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.36661270000002,39.4805423,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Palomar</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.47851919999994,39.3317878,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping Monfragüe</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.08500149999998,39.944475,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Cerró Cola Milano</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.66906840000001,40.0507639,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Area de Autocaravanas "Baños de Montemayor"]]></name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.86354710000001,40.3128476,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Piornal</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.84714340000005,40.1164877,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping Las Catalinas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.297552,39.918434,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sierra de Gata</name>
+        <description>Por la carretera EX-205, seguir por la CC-6.3 hasta la Ronda Este.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -6.57094,40.2211822,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Área Autocaravanas - Pinto (ASAP)</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.69076960000007,40.2388561,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Castilla y León - Áreas Estacionamiento de Autocaravanas</name>
+      <Placemark>
+        <name>El Romazal</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.63396560000001,40.2974823,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Fuera de la Villa</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.3277855,40.462659,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Área AC-parking</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.70505530000003,40.6612528,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area Autocaravanas Burgos</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.68041970000002,42.3505862,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaza de Santa Teresa</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.694345,42.3402638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area de autocaravanas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.55763649999994,43.0859962,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area Autocaravanas Frias</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.29609419999997,42.7602028,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.69296029999998,41.6701265,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Piscinas Municipales</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.32694849999996,42.5510946,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area de Autocaravanas de Hontoria del Pinar</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.16417249999995,41.8439509,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Burgos, 2</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.95298969999999,42.6893309,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area de autocaravana Astorga</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.06568979999997,42.4515164,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Área de autocaravanas Posada de Valdeón</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.9174319,43.1529457,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping El Soto</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.32654320000006,42.8703093,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cistierna</name>
+        <description>Junto al Polideportivo.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -5.12846379999996,42.8003146,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Área de servicio y estacionamiento de autocaravanas de León</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.58529369999997,42.6047297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AREA CAMPER POBLADURA DE LAS REGUERAS</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.23081809999996,42.6950506,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking Area de León</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.58828100000005,42.54454,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Moriscal</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.09253100000001,42.956809,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking Albergue Peregrinos</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.58724919999997,42.5438544,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Área De Autocaravanas Valencia De Don Juan</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.51324150000005,42.2875275,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VILLALOBOS TURISMO ACTIVO</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.30948920000003,42.6590539,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area de Autocaravanas Aguilar de Campo</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.25713780000001,42.786341,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Puerta De La Montaña</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.29180769999994,42.7184388,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area de autocaravanas de Herrera de Pisuerga</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.33296619999999,42.5901244,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area de autocaravanas de Saldaña</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.74142740000002,42.51839,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Telmo</name>
+        <description>Paseo Julio Senador s/n. Ctra. Carrión. Situado en el estacionamiento del Polideportivo.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -4.41142919999993,42.2644706,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area De Autocaravanas de Carrion De Los Condes</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.60819000000004,42.3376,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Área de Autocaravanas Isla Dos Aguas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.53454269999997,42.0038134,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AREA CAMPER ASTUDILLO</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.29995329999997,42.1894957,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle San Martin</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.77953920000004,41.9122292,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Los Chopos</name>
+        <description>Via hacia gasolinera Meroil.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -4.35143119999998,42.417102,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante- Camping Fuentes Carrionas, Taxus</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.50525800000003,42.872459,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Estación de servicio Repsol Los Chopos</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.47447680000005,42.3917416,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Área de Servicio y Parking para AUTOCARAVANAS</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.64336189999995,42.1098781,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area Santa Cruz</name>
+        <description>Junto a la Iglesia Románica.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -4.31689940000001,42.0370998,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paseo de la Arboleda</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.84860579999997,42.8238856,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking autocaravanas Zona Sur</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.51825689999998,41.9880131,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking Autocaravanas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.54254430000003,41.8753974,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>camping fuente los caños</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.33249699999999,42.588997,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping Don Quijote</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.60338079999997,40.9750994,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area de Carbajosa</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.65451180000002,40.9388753,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AC Encinar</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.58200220000003,40.8800894,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Buenaventura, 2</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.67663479999999,40.9529074,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Portugalia Global Services</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.41897710000001,40.6946719,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bar-Restaurante Piscina de Villaseco de los Reyes</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.18688759999998,41.15886,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Av. Batuecas, 20</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.11635120000005,40.4877896,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parque de Aventuras Las Batuecas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.11635120000005,40.4877896,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aparcamiento Caravanas Salamanca</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.66779059999999,40.9546637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area Valdeavila Salamanca</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.6141672,41.2201361,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aparcamiento Salas Bajas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.67480430000001,40.9589613,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aparcamiento</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.31908559999999,41.4014392,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking Acueducto Segovia PARKIA</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.12117039999998,40.9447,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking Bus</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.12401739999996,40.9466233,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area Servicio Navatrans</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.26996919999999,41.1867936,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area de Autocaravanas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.05751069999997,40.9280272,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle el Postiguillo, 15</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.74323030000005,41.2995487,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area Autocaravanas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.10809649999999,40.940701,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Turuégano</name>
+        <description>Al lado del Silo.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -4.00801920000004,41.1523207,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parque de la Dehesa</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.9260597,41.8511266,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area de autocaravanas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.92751610000005,41.9530131,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping Refugio de Pescadores</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.87478179999994,41.9251925,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Arboleda</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5382783,41.488654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AREA AUTOCARAVANAS DE MEDINACELI</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.43121329999997,41.1712966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santa María de Huerta</name>
+        <description>En el pueblo, seguir los carteles indicadores.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -2.1784687,41.2620335,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Leonardo de Yagüe</name>
+        <description>Junto a piscinas municipales.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -3.06791079999994,41.8307522,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Burgos De Osma Parking Autos</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.07319359999997,41.585909,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area de servicio Los Nogales</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.21376639999994,41.5181571,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area de Autocaravana</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.73706809999999,41.6557928,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rumbeolas</name>
+        <description>En el parking del merendero Rumbeolas. Dirección estación de tren.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -5.39284640000005,41.514778,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area para Autocaravanas de Bretocino</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.75535969999999,41.8871304,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking Pisones, Zamora</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.75662339999997,41.5032239,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area de Autocaravanas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.53889260000005,41.3911202,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping Sierra de La Culebra</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.41972239999996,41.8647471,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Cataluña y Comunidad Valenciana - Áreas Estacionamiento de Autocaravanas</name>
+      <Placemark>
+        <name>AP-7, km 208 en ambos sentidos</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.54800299999999,41.2691622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aparcament de pagament / Vigilància Autocaravanes Autopista</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.97727150000003,41.4661767,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking no WC</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.89238399999999,42.364907,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ARTCAVA - CELLER CAN BATLLE</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.77301499999999,41.368105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking del Pueblo Español</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.14675510000006,41.3676238,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking Barcelona</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.21456119999993,41.4047227,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking Caravanas RondaBCN</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.08304799999996,41.36684,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking Autocaravanas Barcelona</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.18294209999999,41.4169057,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area de CityStop BARCELONA</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.20776109999997,41.4246804,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking Montcada</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.19325630000003,41.506125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Caravaning Park Valles</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.239687,41.581775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking Caravanas La Roca del Valles</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.3463653,41.593288,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking caravanas valles oriental</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.41626799999995,41.641007,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aparcament de pagament / Vigilància Autocaravanes Autopista</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.97727150000003,41.4661767,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carrer Berlín</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.51365940000005,41.734881,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping Gironella</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.87866499999996,42.013679,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.91201049999995,41.7511041,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camp de Futbol Municipal Eusebi Güell</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.02615779999996,41.3652316,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AREA AUTOCARAVANAS</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.73802799999999,41.229112,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vic Area De Autocaravanas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.23991879999994,41.9351491,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Estació de Servei Repsol.</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.73932769999999,41.225448,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Zona Esportiva d'Avinyó]]></name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.97342049999997,41.8655782,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Carrer de l'Estany, 14]]></name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.74599999999998,41.80741,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping Solmar</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.77860609999993,41.6624723,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carrer de la Creu, 34</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.91308979999997,42.0456008,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AREA CAMPER Camí de la Creu</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.9759123,42.3054515,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurant Can Janot</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.86378660000003,42.2262792,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EmpordArea</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            3.11466399999995,41.857516,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pals</name>
+        <description>Junto a Policía Local.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            3.14730329999998,41.9687913,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Aire CC Platja d'Aro]]></name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            3.05850820000001,41.8104614,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area Ac Quart</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.83944750000001,41.9397393,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping Vall de Ribes</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.17747099999997,42.3112376,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area y servicios para AUTOCARAVANAS</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.19376740000007,42.2027735,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Área Ac De SANT FELIU DE GUIXOL</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            3.02301790000001,41.7801324,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area Autocaravanas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.28419239999994,42.2353361,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Viladrau Area De Pernocta</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.38743090000003,41.8454373,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Àrea d'autocaravanes]]></name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.28381620000005,41.6776627,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[La Seu d'Urgell]]></name>
+        <description><![CDATA[Av. Cami del Ral de Cerdanya<br>Tel. 973 350 010]]></description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            1.4547014,42.3569583,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Àrea descans habilitat per autocaravanes</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            0.965976100000034,42.2382718,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rialp</name>
+        <description>a las afueras del pueblo junto al campo de fútbol.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            1.1358082,42.4466058,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area Autocaravanas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            0.514393700000028,40.8029131,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PAVELLO ESPORTIU JONCAR</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            0.889825500000029,42.1631104,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Asco</name>
+        <description>En caso urbano, c/Alcalde Romás Biarnés Raduas.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            0.568964000000051,41.182479,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Avinguda Catalunya</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.17225589999998,41.2612781,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AREA CAMPER AMPOSTA</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            0.67522299999996,40.6590821,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Càmping l'Aube]]></name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            0.849991999999929,40.7204555,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping Prades Park</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            0.979833299999996,41.3123634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>parking caravaning las ocas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            0.96291999999994,41.073088,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Els Muntells</name>
+        <description>Cercana a la urbanización al lado del colegio.</description>
+        <styleUrl>#icon-1859-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            0.749969999999962,40.6708799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area de autocaravanas</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            0.285019499999976,40.6389593,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping Terra Alta</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            0.37870810000004,41.0069331,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Autocaravanes Sam Venta Y Alquiler</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.17182400000002,41.36932,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camping Serra de Prades</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            0.958620999999994,41.348858,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parking AC CAMBRIL</name>
+        <styleUrl>#icon-1859-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.03007219999995,41.0590052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
