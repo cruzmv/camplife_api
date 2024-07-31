@@ -421,9 +421,6 @@ app.get('/get_AEAE_list', async (req: Request, res: Response) => {
         const searchLon = parseFloat((req as any).query.long);
 
         const nearbyFeatures = filterFeaturesByProximity(geojson, searchLat, searchLon, 300);
-        console.log('Nearby features:', nearbyFeatures);
-        
-        //const result = await getcampingcarparkList(cood);
         res.json({ message: 'Data retrieved successfully', data: nearbyFeatures });
     } catch (error) {
         console.error('Error:', error);
