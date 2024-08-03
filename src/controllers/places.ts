@@ -146,15 +146,20 @@ async function getareasacList(cood: latlong): Promise<Place[]> {
 
 async function getPark4NightMyDB(cood: latlong): Promise<Place[]> {
   try {
-    const result = await db.any<Place>(
+    const result: any = await db.any<Place>(
       `
         select data from get_campings_with_photos_within_radius($1, $2)
       `,
       [cood.lat, cood.long]
     );
+
+    const results: any = {lieux: []}
+    for (let i = 0; i < result.length; i++) {
+      results.lieux.push(result[i].data)
+    } 
     
-    console.log(`returning ${result.length} park4night places`);
-    return result;
+    console.log(`returning ${results.lieux.length} park4night places`);
+    return results;
   } catch (error) {
     console.error('Error retrieving park4night places:', error);
     throw new Error('Error retrieving park4night places');

@@ -17,10 +17,20 @@ const app = express();
 const httpPort = 3000; // HTTP port for redirection
 const httpsPort = 3001; // HTTPS
 
+
+const os = require('os');
+
+
 // Paths to your SSL certificate and key
 const sslKeyPath = path.join(__dirname, 'cert', 'server.key');
-//const sslCertPath = path.join(__dirname, 'cert', 'server.cert');
-const sslCertPath = path.join(__dirname, 'cert', 'server.crt');
+
+let sslCertPath
+if (os.hostname() == 'ITC0499') {
+    sslCertPath = path.join(__dirname, 'cert', 'server.cert');
+} else {
+    sslCertPath = path.join(__dirname, 'cert', 'server.crt');
+}
+
 
 // Load SSL certificate and key
 const sslOptions = {
@@ -330,7 +340,6 @@ app.get('/get_areasac_list', async (req: Request, res: Response) => {
     }
 });
 
-// to be implemented in FE...
 app.get('/get_park4night_from_db', async (req: Request, res: Response) => {
     try {
         const cood: latlong = {
@@ -356,7 +365,6 @@ app.get('/update_campingcarpark_list', async (req: Request, res: Response) => {
     }
 });
 
-// to be implemented in FE...
 app.get('/get_campingcarpark_list', async (req: Request, res: Response) => {
     try {
         const cood: latlong = {
@@ -372,7 +380,7 @@ app.get('/get_campingcarpark_list', async (req: Request, res: Response) => {
     }
 });
 
-// to be implemented in FE...
+
 app.get('/get_AEAE_list', async (req: Request, res: Response) => {
     try {
         const fs = require('fs');
