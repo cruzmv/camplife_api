@@ -2,7 +2,7 @@ import axios from 'axios';
 import qs from 'qs';
 
 import { DataItem } from './providers/dataItem.interface';
-import { insertOrUpdatePlaces, insertOrUpdateCruiserList, updatePGPlaces, updateCampings, updatePGIntermache, updatePGCampingCarPortugal, updatePGEuroStop, updateAREASAC, updateCAMPINGCARPARK } from './postgresql';
+import { insertOrUpdatePlaces, insertOrUpdateCruiserList, updatePGPlaces, updateCampings, updatePGIntermache, updatePGCampingCarPortugal, updatePGEuroStop, updateAREASAC, updateCAMPINGCARPARK, updateLAWASH } from './postgresql';
 import { readDataFolder, flatData } from './providers/park4night';
 import { Observable, timeout } from 'rxjs';
 import {setTimeout} from "node:timers/promises";
@@ -458,7 +458,7 @@ async function updateIntermacheList(){
 
         // Select all elements within the search results
         const resultElements = document.querySelectorAll('#poss-search-results a[href]');
-        
+
         // Loop through each result element
         resultElements.forEach((element) => {
             // Check if the element contains motorhome-related data
@@ -511,7 +511,7 @@ async function updateIntermacheList(){
 //                 console.error('Error parsing JSON:', e);
 //             }
 //         }
-//     });    
+//     });
 
 //     await page.goto('https://eurostops.pt/mapa-autocaravansimo');
 //     await page.waitForTimeout(5000);
@@ -604,12 +604,12 @@ async function updateASAList() {
                 trs.forEach((tr: any) => {
                     const tds = tr.querySelectorAll('td');
                     const cellData: any = [];
-        
+
                     // Loop through each 'td' and push its content into cellData
                     tds.forEach((td: any) => {
                         cellData.push(td.textContent.trim());
                     });
-        
+
                     if (cellData.length == 11) {
                         const latitudeLongitudeRegex = /N (\d+\.\d+)\s+W (\d+\.\d+)/; // Regex pattern for latitude and longitude
 
@@ -648,7 +648,7 @@ async function updateASAList() {
         });
 
         const campings = areas.filter((x: any) => x.latitude != null && x.longitude != null );
-        updatePGCampingCarPortugal(campings).then(() => { 
+        updatePGCampingCarPortugal(campings).then(() => {
             //nothing
         });
 
@@ -698,7 +698,7 @@ async function updateAREASACList() {
                     // Found another LatLng before finding InfoWindow, break out
                     break;
                 }
-                                
+
                 infoWindowMatch = infoWindowLine.match(infoWindowRegex);
 
                 if (infoWindowMatch) {
@@ -708,7 +708,7 @@ async function updateAREASACList() {
                     const titleRegex = /<div class='info_bloque_texto'>(.*?)<\\\/div>/s
                     const linkRegex = /<div class='info_bloque_enlace_mapa'><a href='(.*?)'>\+Info<\\\/a><\\\/div>/s;
                     const imgSrcRegex = /<img[^>]*src=['"]([^'"]*\.jpg)[^'"]*['"][^>]*>/g;
-        
+
                     const titleMatch = content.match(titleRegex);
                     const linkMatch = content.match(linkRegex);
                     const imgMatch = content.match(imgSrcRegex);
@@ -726,7 +726,7 @@ async function updateAREASACList() {
                         lng,
                         type: image.split('/').pop().replace('.jpg', '').replace('imagen.asp?f=', '').split('&')[0]
                     });
-        
+
                     break; // Move to the next latLng match
                 }
             }
@@ -751,7 +751,7 @@ async function updateCAMPINGCARPARKList() {
         const mapDiv: any = document.querySelector('#map');
         const dataLocations = mapDiv.getAttribute('data-locations');
         const locations = JSON.parse(dataLocations.replace(/&quot;/g, '"')); // Replace HTML entities and parse JSON
-    
+
         return locations.data.features.map((feature: any) => ({
           id: feature.properties.id,
           type: feature.properties.type,
@@ -759,7 +759,7 @@ async function updateCAMPINGCARPARKList() {
           latitude: feature.geometry.coordinates[1],
           longitude: feature.geometry.coordinates[0]
         }));
-    });    
+    });
 
     console.log(pois);
 
@@ -786,7 +786,7 @@ async function updateCAMPINGCARPARKList() {
             if (response.status === 200) {
                 poi.data = response.data
             }
-        } catch (error) { 
+        } catch (error) {
             console.log("Error getting data from campingcarpark.com", error);
         }
     }
@@ -796,12 +796,267 @@ async function updateCAMPINGCARPARKList() {
     });
 
     await browser.close();
-    
+
 
 }
 
 
+async function getREVOLUTIONList() {
+    const url = "https://stores.revolution-laundry.com/Ajax/searchByCoordinates";
+    const body = {
+        "location": {
+            "geoCoordinates": {
+                "latitude": 39.13339493770496,
+                "longitude": -5.207167738167442,
+                "geoCircle": 843464
+            }
+        },
+        "company": {
+            "companyId": 65
+        },
+        "machineFamily": {
+            "familyId": 6
+        },
+        "pagination": {
+            "pageNumber": 1,
+            "pageSize": 99999
+        }
+    }
+    const headers = {
+        "Content-Type": "application/json"
+    }
+
+    try{
+        const response = await axios.post(url, body, { headers });
+        return JSON.parse(response.data.data);
+    } catch (error) {
+        console.log("Error getting data from stores.revolution-laundry.com", error);
+        return null;
+    }
+}
 
 
+async function getBLOOMESTLAUNDRYList() {
+    const cheerio = require('cheerio');
+    const url = "https://www.bloomestlaundry.com/?geo_mashup_content=render-map&map_data_key=8ffedb5f1e206e9b2be534e16487945e&lang=en&map_content=global&name=gm-map-1&object_id=8598";
+    try{
+        const response = await axios.get(url);
+        const html = response.data;
+        const $ = cheerio.load(html);
+        const scriptContent = $('script').filter((i: any, el: any) => {
+            return $(el).html().includes('GeoMashup.createMap');
+        }).html();
 
-export { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList, updateAREASACList, updateCAMPINGCARPARKList };
+        const jsonMatch = scriptContent.match(/GeoMashup\.createMap\(.*?, (.*)\);/);
+        if (jsonMatch && jsonMatch[1]) {
+            const jsonData = JSON.parse(jsonMatch[1]);
+
+            // Extract objects from "object_data"
+            const objects = jsonData.object_data;
+            return objects;
+        } else {
+            console.error('JSON data not found in the script content.');
+            return null;
+        }
+    } catch (error) {
+        console.log("Error getting data from stores.revolution-laundry.com", error);
+        return null;
+    }
+
+}
+
+async function updateLAWASHList() {
+    const fs = require('fs');
+    const path = require('path');
+    const cheerio = require('cheerio');
+    const querystring = require('querystring');
+    
+    const filePath = path.join(__dirname, '../resource/lawash.html');
+    const html = fs.readFileSync(filePath, 'utf8');
+    const $ = cheerio.load(html);
+
+    // Extract information from '.vp-portfolio__item-img-wrap'
+    const items: any = [];
+    $('.vp-portfolio__item-img-wrap').each((index: any, element: any) => {
+        const aTag = $(element).find('a');
+        const imgTag = $(element).find('img');
+
+        const item = {
+            url: aTag.attr('href'),
+            imgUrl: imgTag.attr('src'),
+            alt: imgTag.attr('alt')
+        };
+        items.push(item);
+    });
+
+    // Process each item
+    for (const item of items) {
+        try {
+            const response = await axios.get(item.url);
+            const html = response.data;
+            const $ = cheerio.load(html);
+
+            // Extract address and coordinates
+            $('.elementor-custom-embed').each(async (index: any, element: any) => {
+                const url = $(element)[0].children[1].attribs["data-src"];
+                const parsedUrl = querystring.parse(url.split('?')[1]);
+                item.address = parsedUrl.q;
+
+                try {
+                    const latlong = await axios.get('https://api.openrouteservice.org/geocode/search', {
+                        params: {
+                            api_key: "5b3ce3597851110001cf6248822f7a9d64924aa5bb3fb8ace99891d2",
+                            text: item.address
+                        }
+                    });
+
+                    if (latlong.data.features.length > 0) {
+                        item.lat = latlong.data.features[0].geometry.coordinates[1];
+                        item.long = latlong.data.features[0].geometry.coordinates[0];
+                    }
+                } catch (error) {
+                    console.error(`Error fetching coordinates for address "${item.address}":`, error);
+                }
+            });
+
+            // Extract additional details from '.elementor-price-list-item'
+            $('.elementor-price-list-item').each((index: any, element: any) => {
+                const imageSrc = $(element).find('.elementor-price-list-image img').attr('data-src');
+                const headerText = $(element).find('.elementor-price-list-header').text().trim();
+                const priceText = $(element).find('.elementor-price-list-price').text().trim();
+                const descriptionText = $(element).find('.elementor-price-list-description').text().trim();
+
+                item.details = item.details || [];
+                item.details.push({
+                    imageSrc,
+                    headerText,
+                    priceText,
+                    descriptionText
+                });
+            });
+
+        } catch (error) {
+            console.error(`Error processing URL "${item.url}":`, error);
+        }
+    }
+
+    updateLAWASH(items).subscribe(() => {
+        // nothing
+    });
+
+
+    return items;
+}
+
+async function searchOpenRoute(queryString: string,coords: any) {
+    try {
+
+        const bounds = calculateBoundingBox(coords.lat, coords.long, 200);
+        const url = "https://api.openrouteservice.org/geocode/search";
+        const params = {
+            api_key: "5b3ce3597851110001cf6248822f7a9d64924aa5bb3fb8ace99891d2",
+            text: queryString,
+            boundary: JSON.stringify({
+                rect: [[bounds.southwest.lat,bounds.southwest.lon],[bounds.northeast.lat,bounds.northeast.lon]] 
+            })
+        }
+        const response = await axios.get(url, {params: params });
+        return response.data;
+    } catch(error: any) {
+        console.log("Error getting data from open route", error);
+        return null;  
+    }
+  }
+
+
+  function calculateBoundingBox(lat: any, lon: any, radiusKm: any) {
+    const earthRadiusKm = 6371; // Earth radius in kilometers
+    
+    // Convert radius from kilometers to radians
+    const radiusRadians = radiusKm / earthRadiusKm;
+
+    // Convert latitude and longitude to radians
+    const latRad = lat * (Math.PI / 180);
+    const lonRad = lon * (Math.PI / 180);
+
+    // Calculate the bounds in radians
+    const minLatRad = latRad - radiusRadians;
+    const maxLatRad = latRad + radiusRadians;
+    
+    // Calculate the bounds for longitude
+    const minLonRad = lonRad - radiusRadians / Math.cos(latRad);
+    const maxLonRad = lonRad + radiusRadians / Math.cos(latRad);
+
+    // Convert the bounds back to degrees
+    const minLat = minLatRad * (180 / Math.PI);
+    const maxLat = maxLatRad * (180 / Math.PI);
+    const minLon = minLonRad * (180 / Math.PI);
+    const maxLon = maxLonRad * (180 / Math.PI);
+
+    return {
+        southwest: { lat: minLat, lon: minLon },
+        northeast: { lat: maxLat, lon: maxLon }
+    };
+}  
+  
+
+
+/*
+async function getLAWASHList() {
+    const fs = require('fs');
+    const path = require('path');
+    const cheerio = require('cheerio');
+    const querystring = require('querystring');
+
+
+    const filePath = path.join(__dirname, '../resource/lawash.html');
+    const html = fs.readFileSync(filePath, 'utf8');
+    const $ = cheerio.load(html);
+    const items: any = [];
+    $('.vp-portfolio__item-img-wrap').each((index: any, element: any) => {
+        const aTag = $(element).find('a');
+        const imgTag = $(element).find('img');
+
+        const item = {
+            url: aTag.attr('href'),
+            imgUrl: imgTag.attr('src'),
+            alt: imgTag.attr('alt')
+        };
+        items.push(item);
+    });
+
+    for (const item of items) {
+        try{
+            const response = await axios.get(item.url);
+            const html = response.data;
+            const $ = cheerio.load(html);
+
+            const itemsData: any = [];
+            $('.elementor-custom-embed').each(async (index: any, element: any) => {
+                const url = $(element)[0].children[1].attribs["data-src"]
+                const parsedUrl = querystring.parse(url.split('?')[1]);
+                item.address = parsedUrl.q;
+                const latlong = await axios.get('https://api.openrouteservice.org/geocode/search', {
+                    params: {
+                        api_key: "5b3ce3597851110001cf6248822f7a9d64924aa5bb3fb8ace99891d2",
+                        text: item.address
+                    }
+                });
+
+                if (latlong.data.features.length > 0) {
+                    item.lat = latlong.data.features[0].geometry.coordinates[1];
+                    item.long = latlong.data.features[0].geometry.coordinates[0]
+                }
+            });
+        } catch(error: any) {
+            console.log(`Error: ${error}`);
+        }
+    }
+
+    console.log(items);
+
+    return items;
+}
+*/
+
+export { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList, updateAREASACList, updateCAMPINGCARPARKList, getREVOLUTIONList, getBLOOMESTLAUNDRYList, updateLAWASHList, searchOpenRoute };

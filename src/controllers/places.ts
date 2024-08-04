@@ -183,5 +183,22 @@ async function getcampingcarparkList(cood: latlong): Promise<Place[]> {
   }
 }
 
+async function LAWASHList(cood: latlong): Promise<Place[]> {
+  try {
+    const result = await db.any<Place>(
+      `
+        SELECT latitude,longitude,address,description,photo,url,details FROM get_lawash_within_radius($1, $2)
+      `,
+      [cood.lat, cood.long]
+    );
+    
+    console.log(`returning ${result.length} LAWASH places`);
+    return result;
+  } catch (error) {
+    console.error('Error retrieving LAWASH places:', error);
+    throw new Error('Error retrieving LAWASH places');
+  }
+}
 
-export { getPlacesList, latlong, getCruiserList, getIntermacheList, getcampingcarportugalList, getEuroStopslList, getareasacList, getPark4NightMyDB, getcampingcarparkList };
+
+export { getPlacesList, latlong, getCruiserList, getIntermacheList, getcampingcarportugalList, getEuroStopslList, getareasacList, getPark4NightMyDB, getcampingcarparkList, LAWASHList };

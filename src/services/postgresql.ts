@@ -126,6 +126,24 @@ function updateCAMPINGCARPARK(data: any[]): Observable<void> {
     });
 } 
 
+function updateLAWASH(data: any[]): Observable<void> {
+    return new Observable<void>(observer => {
+        try {
+            db.one('SELECT update_lawash($1::text)', [JSON.stringify(data)]).then( (result) => {
+                observer.next(result);
+                console.log(`Success record for ${data.length} LAWASH`);
+            }).catch(error => {
+                console.log(`Error on LAWASH records: ${error.message}`);
+            }).finally( () =>{
+                observer.complete();
+                console.log(`Finished PLSQL call - LAWASH`);
+            });
+        } catch (error: any) {
+            console.log(`Error updating LAWASH: ${error.message || error}`);
+        }
+    });
+} 
+
 
 // Function to insert or update data in the database
 async function insertOrUpdatePlaces(data: DataItem[]): Promise<void> {
@@ -306,4 +324,4 @@ async function insertGeoData(reqIp: string, geoData: any): Promise<void> {
     }
 }
 
-export { db, insertOrUpdatePlaces, insertOrUpdateCruiserList, insertGeoData, updatePGPlaces, updateCampings, updatePGIntermache, updatePGCampingCarPortugal, updatePGEuroStop, updateAREASAC, updateCAMPINGCARPARK };
+export { db, insertOrUpdatePlaces, insertOrUpdateCruiserList, insertGeoData, updatePGPlaces, updateCampings, updatePGIntermache, updatePGCampingCarPortugal, updatePGEuroStop, updateAREASAC, updateCAMPINGCARPARK, updateLAWASH };
