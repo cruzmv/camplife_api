@@ -436,7 +436,6 @@ app.get('/get_AEAE_list', async (req: Request, res: Response) => {
     }
 });
 
-// TO be implemented in FE
 app.get('/get_REVOLUTION_list', async (req: Request, res: Response) => {
     try {
         const result = await getREVOLUTIONList();
@@ -447,7 +446,6 @@ app.get('/get_REVOLUTION_list', async (req: Request, res: Response) => {
     }
 });
 
-// TO be implemented in FE
 app.get('/get_BLOOMESTLAUNDRY_list', async (req: Request, res: Response) => {
     try {
         const result = await getBLOOMESTLAUNDRYList();
@@ -468,7 +466,6 @@ app.get('/update_LAWASH_list', async (req: Request, res: Response) => {
     }
 });
 
-// TO be implemented in FE
 app.get('/get_LAWASH_list', async (req: Request, res: Response) => {
     try {
         const cood: latlong = {
@@ -484,7 +481,6 @@ app.get('/get_LAWASH_list', async (req: Request, res: Response) => {
     }
 });
 
-// TO be implemented in FE
 app.get('/search_openroute', async (req: Request, res: Response) => {
     try {
         const cood: latlong = {

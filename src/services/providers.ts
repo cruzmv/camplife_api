@@ -954,11 +954,12 @@ async function searchOpenRoute(queryString: string,coords: any) {
         const bounds = calculateBoundingBox(coords.lat, coords.long, 200);
         const url = "https://api.openrouteservice.org/geocode/search";
         const params = {
-            api_key: "5b3ce3597851110001cf6248822f7a9d64924aa5bb3fb8ace99891d2",
-            text: queryString,
-            boundary: JSON.stringify({
-                rect: [[bounds.southwest.lat,bounds.southwest.lon],[bounds.northeast.lat,bounds.northeast.lon]] 
-            })
+            "api_key": "5b3ce3597851110001cf6248822f7a9d64924aa5bb3fb8ace99891d2",
+            "text": queryString,
+            "boundary.rect.min_lat": bounds.southwest.lat,
+            "boundary.rect.min_lon": bounds.southwest.lon,
+            "boundary.rect.max_lat": bounds.northeast.lat,
+            "boundary.rect.max_lon": bounds.northeast.lon
         }
         const response = await axios.get(url, {params: params });
         return response.data;
