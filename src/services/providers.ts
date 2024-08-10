@@ -2,7 +2,7 @@ import axios from 'axios';
 import qs from 'qs';
 
 import { DataItem } from './providers/dataItem.interface';
-import { insertOrUpdatePlaces, insertOrUpdateCruiserList, updatePGPlaces, updateCampings, updatePGIntermache, updatePGCampingCarPortugal, updatePGEuroStop, updateAREASAC, updateCAMPINGCARPARK, updateLAWASH } from './postgresql';
+import { insertOrUpdatePlaces, insertOrUpdateCruiserList, updatePGPlaces, updateCampings, updatePGIntermache, updatePGCampingCarPortugal, updatePGEuroStop, updateAREASAC, updateCAMPINGCARPARK, updateLAWASH, updateCAMPERSTOP } from './postgresql';
 import { readDataFolder, flatData } from './providers/park4night';
 import { Observable, timeout } from 'rxjs';
 import {setTimeout} from "node:timers/promises";
@@ -796,10 +796,7 @@ async function updateCAMPINGCARPARKList() {
     });
 
     await browser.close();
-
-
 }
-
 
 async function getREVOLUTIONList() {
     const url = "https://stores.revolution-laundry.com/Ajax/searchByCoordinates";
@@ -834,7 +831,6 @@ async function getREVOLUTIONList() {
         return null;
     }
 }
-
 
 async function getBLOOMESTLAUNDRYList() {
     const cheerio = require('cheerio');
@@ -967,10 +963,9 @@ async function searchOpenRoute(queryString: string,coords: any) {
         console.log("Error getting data from open route", error);
         return null;  
     }
-  }
+}
 
-
-  function calculateBoundingBox(lat: any, lon: any, radiusKm: any) {
+function calculateBoundingBox(lat: any, lon: any, radiusKm: any) {
     const earthRadiusKm = 6371; // Earth radius in kilometers
     
     // Convert radius from kilometers to radians
@@ -1000,6 +995,156 @@ async function searchOpenRoute(queryString: string,coords: any) {
     };
 }  
   
+async function updateCAMPERSTOPList() { 
+    const countries = [
+        {
+            "id": "AL",
+            "name": "Albania",
+        },
+        {
+            "id": "AT",
+            "name": "Austria",
+        },
+        {
+            "id": "BE",
+            "name": "Belgium",
+        },
+        {
+            "id": "BA",
+            "name": "Bosnia and Herzegovina",
+        },
+        {
+            "id": "HR",
+            "name": "Croatia",
+        },
+        {
+            "id": "CZ",
+            "name": "Czech Republic",
+        },
+        {
+            "id": "DK",
+            "name": "Denmark",
+        },
+        {
+            "id": "EE",
+            "name": "Estonia",
+        },
+        {
+            "id": "FI",
+            "name": "Finland",
+        },
+        {
+            "id": "FR",
+            "name": "France",
+        },
+        {
+            "id": "DE",
+            "name": "Germany",
+        },
+        {
+            "id": "GR",
+            "name": "Greece",
+        },
+        {
+            "id": "HU",
+            "name": "Hungary",
+        },
+        {
+            "id": "IE",
+            "name": "Ireland",
+        },
+        {
+            "id": "IT",
+            "name": "Italy",
+        },
+        {
+            "id": "LV",
+            "name": "Latvia",
+        },
+        {
+            "id": "LT",
+            "name": "Lithuania",
+        },
+        {
+            "id": "LU",
+            "name": "Luxembourg",
+        },
+        {
+            "id": "ME",
+            "name": "Montenegro",
+        },
+        {
+            "id": "NL",
+            "name": "Netherlands",
+        },
+        {
+            "id": "NO",
+            "name": "Norway",
+        },
+        {
+            "id": "PL",
+            "name": "Poland",
+        },
+        {
+            "id": "PT",
+            "name": "Portugal",
+        },
+        {
+            "id": "RO",
+            "name": "Romania",
+        },
+        {
+            "id": "SK",
+            "name": "Slovakia",
+        },
+        {
+            "id": "SI",
+            "name": "Slovenia",
+        },
+        {
+            "id": "ES",
+            "name": "Spain",
+        },
+        {
+            "id": "SE",
+            "name": "Sweden",
+        },
+        {
+            "id": "CH",
+            "name": "Switzerland",
+        },
+        {
+            "id": "GB",
+            "name": "United Kingdom",
+        }
+    ]
+    const campings: any = [];
+
+    for (const country of countries) {
+        const cUrl = `https://camperstop.com/index.php?option=com_campersites&view=campersites&format=json&language=en-GB&filter_limit=-1&filter_country=${country.id}`;
+        try {
+            const response: any = await axios.get(cUrl);
+            if (response.status == 200 && response.data._embedded.campersite_list.length > 0) {
+
+                updateCAMPERSTOP(response.data._embedded.campersite_list).subscribe(() => {
+                    // nothing
+                });
+            
+                campings.push(...response.data._embedded.campersite_list);
+            }
+        } catch (error) {   
+            console.log(`Error getting data from camperstop.com for ${country.name}`, error);
+        }
+    }
+    return campings
+
+}
+
+
+
+
+
+
 
 
 /*
@@ -1060,4 +1205,4 @@ async function getLAWASHList() {
 }
 */
 
-export { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList, updateAREASACList, updateCAMPINGCARPARKList, getREVOLUTIONList, getBLOOMESTLAUNDRYList, updateLAWASHList, searchOpenRoute };
+export { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList, updateAREASACList, updateCAMPINGCARPARKList, getREVOLUTIONList, getBLOOMESTLAUNDRYList, updateLAWASHList, searchOpenRoute, updateCAMPERSTOPList };
