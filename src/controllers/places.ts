@@ -217,6 +217,23 @@ async function getcamperstopList(cood: latlong): Promise<Place[]> {
   }
 }
 
+async function getcampercontactList(cood: latlong): Promise<Place[]> {
+  try {
+    const result = await db.any<Place>(
+      `
+        SELECT latitude,longitude,id,title,"data",distance_km FROM public.get_campercontact_within_radius($1, $2)
+      `,
+      [cood.lat, cood.long]
+    );
+    
+    console.log(`returning ${result.length} campercontact places`);
+    return result;
+  } catch (error) {
+    console.error('Error retrieving campercontact places:', error);
+    throw new Error('Error retrieving campercontact places');
+  }
+}
+
 
 export { 
   getPlacesList, 
@@ -229,5 +246,6 @@ export {
   getPark4NightMyDB, 
   getcampingcarparkList, 
   LAWASHList,
-  getcamperstopList
+  getcamperstopList,
+  getcampercontactList
 };

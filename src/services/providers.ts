@@ -2,7 +2,7 @@ import axios from 'axios';
 import qs from 'qs';
 
 import { DataItem } from './providers/dataItem.interface';
-import { insertOrUpdatePlaces, insertOrUpdateCruiserList, updatePGPlaces, updateCampings, updatePGIntermache, updatePGCampingCarPortugal, updatePGEuroStop, updateAREASAC, updateCAMPINGCARPARK, updateLAWASH, updateCAMPERSTOP } from './postgresql';
+import { insertOrUpdatePlaces, insertOrUpdateCruiserList, updatePGPlaces, updateCampings, updatePGIntermache, updatePGCampingCarPortugal, updatePGEuroStop, updateAREASAC, updateCAMPINGCARPARK, updateLAWASH, updateCAMPERSTOP, updateCAMPERCONTACT } from './postgresql';
 import { readDataFolder, flatData } from './providers/park4night';
 import { Observable, timeout } from 'rxjs';
 import {setTimeout} from "node:timers/promises";
@@ -1140,69 +1140,130 @@ async function updateCAMPERSTOPList() {
 
 }
 
+async function updateCAMPERCONTACTList() { 
 
-
-
-
-
-
-
-/*
-async function getLAWASHList() {
-    const fs = require('fs');
-    const path = require('path');
-    const cheerio = require('cheerio');
-    const querystring = require('querystring');
-
-
-    const filePath = path.join(__dirname, '../resource/lawash.html');
-    const html = fs.readFileSync(filePath, 'utf8');
-    const $ = cheerio.load(html);
-    const items: any = [];
-    $('.vp-portfolio__item-img-wrap').each((index: any, element: any) => {
-        const aTag = $(element).find('a');
-        const imgTag = $(element).find('img');
-
-        const item = {
-            url: aTag.attr('href'),
-            imgUrl: imgTag.attr('src'),
-            alt: imgTag.attr('alt')
-        };
-        items.push(item);
-    });
-
-    for (const item of items) {
-        try{
-            const response = await axios.get(item.url);
-            const html = response.data;
-            const $ = cheerio.load(html);
-
-            const itemsData: any = [];
-            $('.elementor-custom-embed').each(async (index: any, element: any) => {
-                const url = $(element)[0].children[1].attribs["data-src"]
-                const parsedUrl = querystring.parse(url.split('?')[1]);
-                item.address = parsedUrl.q;
-                const latlong = await axios.get('https://api.openrouteservice.org/geocode/search', {
-                    params: {
-                        api_key: "5b3ce3597851110001cf6248822f7a9d64924aa5bb3fb8ace99891d2",
-                        text: item.address
-                    }
-                });
-
-                if (latlong.data.features.length > 0) {
-                    item.lat = latlong.data.features[0].geometry.coordinates[1];
-                    item.long = latlong.data.features[0].geometry.coordinates[0]
+    const url = "https://search.campercontact.com/geolocation-nl,auto-suggest/_search";
+    const header = {
+        'accept': 'application/json, text/plain, */*',
+        'accept-language': 'en-US,en;q=0.7',
+        'content-type': 'application/json',
+        'origin': 'https://www.campercontact.com',
+        'priority': 'u=1, i',
+        'referer': 'https://www.campercontact.com/',
+        'sec-ch-ua': '"Not)A;Brand";v="99", "Brave";v="127", "Chromium";v="127"',
+        'sec-ch-ua-platform': '"Windows"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-site',
+        'sec-gpc': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36'
+    }
+    const body = {
+        "_source": [
+            "id",
+            "type",
+            "title",
+            "shortName",
+            "originalName",
+            "names",
+            "subtitle",
+            "location",
+            "boundingBox",
+            "sitecode",
+            "filters.poiType",
+            "permalink",
+            "oldPermalink",
+            "thumbnail",
+            "filters.isClaimed",
+            "filters.rating",
+            "filters.numberOfReviews",
+            "filters.prices",
+            "filters.maxCamperSpots",
+            "filters.isBookable",
+            "translatedPermalinks",
+            "subscriptionLevel"
+        ],
+        "size": 8000,
+        "sort": [
+            {
+                "_score": {
+                    "order": "desc"
                 }
-            });
-        } catch(error: any) {
-            console.log(`Error: ${error}`);
+            },
+            {
+                "level": {
+                    "order": "desc"
+                }
+            },
+            {
+                "filters.relevance": {
+                    "order": "desc"
+                }
+            }
+        ],
+        "query": {
+            "bool": {
+                "filter": {
+                    "bool": {
+                        "must": [
+                            {
+                                "term": {
+                                    "type": "poi"
+                                }
+                            },
+                            {
+                                "geo_bounding_box": {
+                                    "location": {
+                                        "top_left": {
+                                            "lat": 54.450133,
+                                            "lon": 0.737414
+                                        },
+                                        "bottom_right": {
+                                            "lat": 49.801689,
+                                            "lon": 10.291901
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
         }
     }
 
-    console.log(items);
+    try {
+        const response: any = await axios.post(url,body,{headers: header});
+        if (response.status == 200) {
+            updateCAMPERCONTACT(response.data.hits.hits).subscribe(() => {
+                // nothing
+            });
+            return response.data.hits.hits;
+        } else {
+            console.log(`Error getting data from campercontact `, response.status);
+        }
+    } catch (error) {   
+        console.log(`Error getting data from campercontact `, error);
+    }
 
-    return items;
 }
-*/
 
-export { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList, updateAREASACList, updateCAMPINGCARPARKList, getREVOLUTIONList, getBLOOMESTLAUNDRYList, updateLAWASHList, searchOpenRoute, updateCAMPERSTOPList };
+
+export { 
+    updatePark4NightCoordinates, 
+    updateCruiserList, 
+    updatePark4NightDB, 
+    feedPark4NightDB, 
+    updateIntermacheList, 
+    updateEuroStopsList, 
+    updateASAList, 
+    updateAREASACList, 
+    updateCAMPINGCARPARKList, 
+    getREVOLUTIONList, 
+    getBLOOMESTLAUNDRYList, 
+    updateLAWASHList, 
+    searchOpenRoute, 
+    updateCAMPERSTOPList,
+    updateCAMPERCONTACTList 
+};

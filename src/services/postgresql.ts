@@ -163,6 +163,24 @@ function updateCAMPERSTOP(data: any[]): Observable<void> {
     });
 } 
 
+function updateCAMPERCONTACT(data: any[]): Observable<void> {
+    return new Observable<void>(observer => {
+        try {
+            db.one('SELECT update_campercontact($1::text)', [JSON.stringify(data)]).then( (result) => {
+                observer.next(result);
+                console.log(`Success record for ${data.length} CAMPERCONTACT`);
+            }).catch(error => {
+                console.log(`Error on CAMPERCONTACT records: ${error.message}`);
+            }).finally( () =>{
+                observer.complete();
+                console.log(`Finished PLSQL call - CAMPERCONTACT`);
+            });
+        } catch (error: any) {
+            console.log(`Error updating CAMPERCONTACT: ${error.message || error}`);
+        }
+    });
+} 
+
 
 
 
@@ -345,4 +363,19 @@ async function insertGeoData(reqIp: string, geoData: any): Promise<void> {
     }
 }
 
-export { db, insertOrUpdatePlaces, insertOrUpdateCruiserList, insertGeoData, updatePGPlaces, updateCampings, updatePGIntermache, updatePGCampingCarPortugal, updatePGEuroStop, updateAREASAC, updateCAMPINGCARPARK, updateLAWASH, updateCAMPERSTOP };
+export { 
+    db, 
+    insertOrUpdatePlaces, 
+    insertOrUpdateCruiserList, 
+    insertGeoData, 
+    updatePGPlaces, 
+    updateCampings, 
+    updatePGIntermache, 
+    updatePGCampingCarPortugal, 
+    updatePGEuroStop, 
+    updateAREASAC, 
+    updateCAMPINGCARPARK, 
+    updateLAWASH, 
+    updateCAMPERSTOP,
+    updateCAMPERCONTACT 
+};
