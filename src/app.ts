@@ -4,8 +4,8 @@ import cors from 'cors';
 import https from 'https';
 import path from 'path';
 import fs from 'fs';
-import { getPlacesList, latlong, getCruiserList, getIntermacheList, getcampingcarportugalList, getEuroStopslList, getareasacList, getPark4NightMyDB, getcampingcarparkList, LAWASHList, getcamperstopList, getcampercontactList } from './controllers/places';
-import { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList, updateAREASACList, updateCAMPINGCARPARKList, getREVOLUTIONList, getBLOOMESTLAUNDRYList, updateLAWASHList, searchOpenRoute, updateCAMPERSTOPList, updateCAMPERCONTACTList } from './services/providers';
+import { getPlacesList, latlong, getCruiserList, getIntermacheList, getcampingcarportugalList, getEuroStopslList, getareasacList, getPark4NightMyDB, getcampingcarparkList, LAWASHList, getcamperstopList, getcampercontactList, getparkingverde } from './controllers/places';
+import { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList, updateAREASACList, updateCAMPINGCARPARKList, getREVOLUTIONList, getBLOOMESTLAUNDRYList, updateLAWASHList, searchOpenRoute, updateCAMPERSTOPList, updateCAMPERCONTACTList, updateAIRECAMPINGCARList, updateParkingVerde } from './services/providers';
 import { fetchDataFromPark4Night } from './services/providers/park4night';
 import { insertGeoData } from './services/postgresql';
 //import { fetchAndProcessPlaylist, getCategories, getChanelByCategory } from './services/providers/foxIpTv';
@@ -531,7 +531,6 @@ app.get('/update_campercontact_list', async (req: Request, res: Response) => {
     }
 });
 
-// To be implemented in FE
 app.get('/get_campercontact_list', async (req: Request, res: Response) => {
     try {
         const cood: latlong = {
@@ -547,7 +546,42 @@ app.get('/get_campercontact_list', async (req: Request, res: Response) => {
     }
 });
 
+app.get('/update_airecampingcar_list', async (req: Request, res: Response) => {
+    try {
+        const result = await updateAIRECAMPINGCARList();
+        res.json({ message: 'Data retrieved successfully', data: result });
+    } catch (error) {
+        console.error('Error:', error);
+        res.status(500).json({ message: 'Error retrieving data' });
+    }
+});
 
+
+
+app.get('/update_parkingverde', async (req: Request, res: Response) => {
+    try {
+        const result = await updateParkingVerde();
+        res.json({ message: 'Data retrieved successfully', data: result });
+    } catch (error) {
+        console.error('Error:', error);
+        res.status(500).json({ message: 'Error retrieving data' });
+    }
+});
+
+app.get('/get_parkingverde', async (req: Request, res: Response) => {
+    try {
+        const cood: latlong = {
+            lat: String(req.query.lat),
+            long: String(req.query.long)
+        };
+    
+        const result = await getparkingverde(cood);
+        res.json({ message: 'Data retrieved successfully', data: result });
+    } catch (error) {
+        console.error('Error:', error);
+        res.status(500).json({ message: 'Error retrieving data' });
+    }
+});
 
 
 // #endregion

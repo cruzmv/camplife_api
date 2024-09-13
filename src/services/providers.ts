@@ -2,7 +2,7 @@ import axios from 'axios';
 import qs from 'qs';
 
 import { DataItem } from './providers/dataItem.interface';
-import { insertOrUpdatePlaces, insertOrUpdateCruiserList, updatePGPlaces, updateCampings, updatePGIntermache, updatePGCampingCarPortugal, updatePGEuroStop, updateAREASAC, updateCAMPINGCARPARK, updateLAWASH, updateCAMPERSTOP, updateCAMPERCONTACT } from './postgresql';
+import { insertOrUpdatePlaces, insertOrUpdateCruiserList, updatePGPlaces, updateCampings, updatePGIntermache, updatePGCampingCarPortugal, updatePGEuroStop, updateAREASAC, updateCAMPINGCARPARK, updateLAWASH, updateCAMPERSTOP, updateCAMPERCONTACT, updateAIRECAMPINGCAR, updateParkingVerdeList } from './postgresql';
 import { readDataFolder, flatData } from './providers/park4night';
 import { Observable, timeout } from 'rxjs';
 import {setTimeout} from "node:timers/promises";
@@ -866,7 +866,7 @@ async function updateLAWASHList() {
     const path = require('path');
     const cheerio = require('cheerio');
     const querystring = require('querystring');
-    
+
     const filePath = path.join(__dirname, '../resource/lawash.html');
     const html = fs.readFileSync(filePath, 'utf8');
     const $ = cheerio.load(html);
@@ -961,13 +961,13 @@ async function searchOpenRoute(queryString: string,coords: any) {
         return response.data;
     } catch(error: any) {
         console.log("Error getting data from open route", error);
-        return null;  
+        return null;
     }
 }
 
 function calculateBoundingBox(lat: any, lon: any, radiusKm: any) {
     const earthRadiusKm = 6371; // Earth radius in kilometers
-    
+
     // Convert radius from kilometers to radians
     const radiusRadians = radiusKm / earthRadiusKm;
 
@@ -978,7 +978,7 @@ function calculateBoundingBox(lat: any, lon: any, radiusKm: any) {
     // Calculate the bounds in radians
     const minLatRad = latRad - radiusRadians;
     const maxLatRad = latRad + radiusRadians;
-    
+
     // Calculate the bounds for longitude
     const minLonRad = lonRad - radiusRadians / Math.cos(latRad);
     const maxLonRad = lonRad + radiusRadians / Math.cos(latRad);
@@ -993,9 +993,9 @@ function calculateBoundingBox(lat: any, lon: any, radiusKm: any) {
         southwest: { lat: minLat, lon: minLon },
         northeast: { lat: maxLat, lon: maxLon }
     };
-}  
-  
-async function updateCAMPERSTOPList() { 
+}
+
+async function updateCAMPERSTOPList() {
     const countries = [
         {
             "id": "AL",
@@ -1129,10 +1129,10 @@ async function updateCAMPERSTOPList() {
                 updateCAMPERSTOP(response.data._embedded.campersite_list).subscribe(() => {
                     // nothing
                 });
-            
+
                 campings.push(...response.data._embedded.campersite_list);
             }
-        } catch (error) {   
+        } catch (error) {
             console.log(`Error getting data from camperstop.com for ${country.name}`, error);
         }
     }
@@ -1140,7 +1140,7 @@ async function updateCAMPERSTOPList() {
 
 }
 
-async function updateCAMPERCONTACTList() { 
+async function updateCAMPERCONTACTList() {
 
     const url = "https://search.campercontact.com/geolocation-nl,auto-suggest/_search";
     const header = {
@@ -1159,6 +1159,7 @@ async function updateCAMPERCONTACTList() {
         'sec-gpc': '1',
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36'
     }
+
     const body = {
         "_source": [
             "id",
@@ -1184,7 +1185,7 @@ async function updateCAMPERCONTACTList() {
             "translatedPermalinks",
             "subscriptionLevel"
         ],
-        "size": 8000,
+        "size": 10000,
         "sort": [
             {
                 "_score": {
@@ -1216,12 +1217,12 @@ async function updateCAMPERCONTACTList() {
                                 "geo_bounding_box": {
                                     "location": {
                                         "top_left": {
-                                            "lat": 54.450133,
-                                            "lon": 0.737414
+                                            "lat": 50.163277,
+                                            "lon": -20.076871
                                         },
                                         "bottom_right": {
-                                            "lat": 49.801689,
-                                            "lon": 10.291901
+                                            "lat": 32.993027,
+                                            "lon": 8.153289
                                         }
                                     }
                                 }
@@ -1243,27 +1244,202 @@ async function updateCAMPERCONTACTList() {
         } else {
             console.log(`Error getting data from campercontact `, response.status);
         }
-    } catch (error) {   
+    } catch (error) {
         console.log(`Error getting data from campercontact `, error);
     }
 
 }
 
+async function updateAIRECAMPINGCARList() {
+    const puppeteer = require('puppeteer');
+    const browser = await puppeteer.launch({ headless: true });
+    const page = await browser.newPage();
 
-export { 
-    updatePark4NightCoordinates, 
-    updateCruiserList, 
-    updatePark4NightDB, 
-    feedPark4NightDB, 
-    updateIntermacheList, 
-    updateEuroStopsList, 
-    updateASAList, 
-    updateAREASACList, 
-    updateCAMPINGCARPARKList, 
-    getREVOLUTIONList, 
-    getBLOOMESTLAUNDRYList, 
-    updateLAWASHList, 
-    searchOpenRoute, 
+    const baseUrl = 'https://pt.airecampingcar.com/?pays=France&region=0&page=';
+    let currentPage = 1;
+    let allAires: any = [];
+
+    while (true) {
+        const url = `${baseUrl}${currentPage}`;
+        console.log(`Navigating to ${url}...`);
+
+        await page.goto(url);
+
+        // Wait for the elements with the class "liste_aires" to be loaded
+        await page.waitForSelector('.liste_aires', { timeout: 10000 });
+
+        // Extract the data from each <li> element within .liste_aires
+        const airesOnPage = await page.$$eval('.liste_aires li', (lis: any) => {
+            return lis.map((li: any) => {
+                const href = li.querySelector('a')?.getAttribute('href');
+                const title = li.querySelector('.grand')?.innerText.trim();
+                const number = li.querySelector('.petit')?.innerText.trim();
+
+                // Extract all text contents that follow <br> tags
+                const locationInfo = Array.from(li.querySelectorAll('br')).map((br: any) => {
+                    return br.nextSibling?.textContent.trim();
+                }).filter(text => text);
+
+                return {
+                    href,
+                    title,
+                    number,
+                    locationInfo
+                };
+            });
+        });
+
+        // If no more data is found, break the loop
+        if (airesOnPage.length === 0) {
+            break;
+        }
+
+        allAires = allAires.concat(airesOnPage);
+        console.log(`Page ${currentPage} has ${airesOnPage.length} aires.`);
+
+        // Move to the next page
+        currentPage++;
+    }
+
+    // Step 2: Visit each URL and scrape the required details
+    let aires = [];
+    for (let aire of allAires) {
+        const aireUrl = `https://pt.airecampingcar.com${aire.href}`;
+        console.log(`Visiting ${aireUrl}...`);
+
+        try {
+            await page.goto(aireUrl);
+
+            await setTimeout(6000);
+
+            await page.waitForSelector('#grand_block_fiche_camping', { timeout: 1500 });
+
+            // Extract the first h1 text
+            let title = "";
+            try {
+                title = await page.$eval('#grand_block_fiche_camping h1', (h1: any) => h1.innerText.trim());
+            } catch (error) {
+                console.error('Error extracting title:', error);
+            }
+
+            // Extract all the image alt texts from the paragraph
+            let imageAlts = undefined;
+            try {
+                imageAlts = await page.$$eval('#grand_block_fiche_camping p img', (imgs: any) =>
+                    imgs.map((img: any) => img.alt)
+                );
+            } catch (error) {
+                console.error('Error extracting image alts:', error);
+            }
+
+            // Extract the text from <font color="#1421C1">
+            let fontText = undefined;
+            try {
+                fontText = await page.$eval('#grand_block_fiche_camping font[color="#1421C1"]', (font: any) =>
+                    font.innerText.trim()
+                );
+            } catch (error) {
+                console.error('Error extracting font text:', error);
+            }
+
+            // Extract the coordinates by parsing the text following "Coordenadas de GPS"
+            let lat, long;
+            try {
+                const coordinatesText = await page.$eval('#grand_block_fiche_camping', (block: HTMLElement) => {
+                    const coordElement = Array.from(block.querySelectorAll('b')).find(el =>
+                        (el as HTMLElement).innerText.includes('Coordenadas de GPS')
+                    ) as HTMLElement | undefined;
+
+                    // If coordElement is found, get the text content of its next sibling
+                    return (coordElement as any)?.nextSibling?.textContent.trim() || '';
+                });
+
+                if (coordinatesText) {
+                    const longitudeMatch = coordinatesText.match(/Longitude\s*:\s*(-?\d+\.\d+)/);
+                    const latitudeMatch = coordinatesText.match(/Latitude\s*:\s*(-?\d+\.\d+)/);
+                    if (longitudeMatch && latitudeMatch) {
+                        long = longitudeMatch[1];
+                        lat = latitudeMatch[1];
+                    }
+                }
+            } catch (error) {
+                console.error('Error extracting coordinates:', error);
+            }
+
+            // Extract all paragraph texts to the end of this block
+            let additionalInfo = undefined;
+            try {
+                additionalInfo = await page.$$eval('#grand_block_fiche_camping p', (paragraphs: any) =>
+                    paragraphs.map((p: any) => p.innerText.trim()).filter((text: any) => text)
+                );
+            } catch (error) {
+                console.error('Error extracting additional info:', error);
+            }
+
+            // Save all the extracted details back into the aire object
+            aire.details = {
+                title,
+                imageAlts,
+                fontText,
+                coordinates: { lat, long },
+                additionalInfo
+            };
+            aires.push(aire)
+
+            if (aires.length >= 500) {
+                updateAIRECAMPINGCAR(aires.filter((x: any) => x.details)).subscribe(() => {
+                    // nothing
+                });
+                aires = [];
+            }
+            console.log(`Details collected for: ${title}`);
+        } catch (error) {
+            console.error(`Error scraping details for ${aireUrl}:`, error);
+        }
+    }
+
+    updateAIRECAMPINGCAR(aires.filter((x: any) => x.details)).subscribe(() => {
+        // nothing
+    });
+
+    await browser.close();
+    return allAires;
+}
+
+
+async function updateParkingVerde() {
+    const cUrl = "https://es.secure.parkingverde.com/parkings_obtener_lista.php";
+    const header = {
+        "Accept": "*/*"
+    }
+    try{
+        const response: any = await axios.post(cUrl, {}, {headers: header});
+        updateParkingVerdeList(response.data).subscribe(() => {
+            // nothing
+        });
+        return response;
+    } catch (error) {
+        console.log(`Error getting data from parkingverde `, error);
+    }
+
+}
+
+export {
+    updatePark4NightCoordinates,
+    updateCruiserList,
+    updatePark4NightDB,
+    feedPark4NightDB,
+    updateIntermacheList,
+    updateEuroStopsList,
+    updateASAList,
+    updateAREASACList,
+    updateCAMPINGCARPARKList,
+    getREVOLUTIONList,
+    getBLOOMESTLAUNDRYList,
+    updateLAWASHList,
+    searchOpenRoute,
     updateCAMPERSTOPList,
-    updateCAMPERCONTACTList 
+    updateCAMPERCONTACTList,
+    updateAIRECAMPINGCARList,
+    updateParkingVerde
 };

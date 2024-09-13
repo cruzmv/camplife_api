@@ -181,6 +181,43 @@ function updateCAMPERCONTACT(data: any[]): Observable<void> {
     });
 } 
 
+function updateAIRECAMPINGCAR(data: any[]): Observable<void> {
+    return new Observable<void>(observer => {
+        try {
+            db.one('SELECT update_airecampingcar($1::text)', [JSON.stringify(data)]).then( (result) => {
+                observer.next(result);
+                console.log(`Success record for ${data.length} AIRECAMPINGCAR`);
+            }).catch(error => {
+                console.log(`Error on AIRECAMPINGCAR records: ${error.message}`);
+            }).finally( () =>{
+                observer.complete();
+                console.log(`Finished PLSQL call - AIRECAMPINGCAR`);
+            });
+        } catch (error: any) {
+            console.log(`Error updating AIRECAMPINGCAR: ${error.message || error}`);
+        }
+    });
+} 
+
+
+function updateParkingVerdeList(data: any[]): Observable<void> {
+    return new Observable<void>(observer => {
+        try {
+            db.one('SELECT update_parkingverde($1::text)', [JSON.stringify(data)]).then( (result) => {
+                observer.next(result);
+                console.log(`Success record for ${data.length} ParkingVerde`);
+            }).catch(error => {
+                console.log(`Error on ParkingVerde records: ${error.message}`);
+            }).finally( () =>{
+                observer.complete();
+                console.log(`Finished PLSQL call - ParkingVerde`);
+            });
+        } catch (error: any) {
+            console.log(`Error updating ParkingVerde: ${error.message || error}`);
+        }
+    });
+} 
+
 
 
 
@@ -377,5 +414,7 @@ export {
     updateCAMPINGCARPARK, 
     updateLAWASH, 
     updateCAMPERSTOP,
-    updateCAMPERCONTACT 
+    updateCAMPERCONTACT,
+    updateAIRECAMPINGCAR,
+    updateParkingVerdeList
 };

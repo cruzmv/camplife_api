@@ -234,6 +234,23 @@ async function getcampercontactList(cood: latlong): Promise<Place[]> {
   }
 }
 
+async function getparkingverde(cood: latlong): Promise<Place[]> {
+  try {
+    const result = await db.any<Place>(
+      `
+        SELECT lat,long,id,nombre,direccion,plazas_libres,plazas_totales,distance_km FROM get_parkingverde_within_radius($1, $2)
+      `,
+      [cood.lat, cood.long]
+    );
+    
+    console.log(`returning ${result.length} parkingverde places`);
+    return result;
+  } catch (error) {
+    console.error('Error retrieving parkingverde places:', error);
+    throw new Error('Error retrieving parkingverde places');
+  }
+}
+
 
 export { 
   getPlacesList, 
@@ -247,5 +264,6 @@ export {
   getcampingcarparkList, 
   LAWASHList,
   getcamperstopList,
-  getcampercontactList
+  getcampercontactList,
+  getparkingverde
 };
