@@ -15,7 +15,7 @@ import { insertGeoData } from './services/postgresql';
 const app = express();
 //const port = 3000;
 const httpPort = 3000; // HTTP port for redirection
-const httpsPort = 443; // HTTPS
+const httpsPort = 3001; // HTTPS
 
 
 const os = require('os');
