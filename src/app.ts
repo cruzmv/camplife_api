@@ -8,6 +8,8 @@ import { getPlacesList, latlong, getCruiserList, getIntermacheList, getcampingca
 import { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList, updateAREASACList, updateCAMPINGCARPARKList, getREVOLUTIONList, getBLOOMESTLAUNDRYList, updateLAWASHList, searchOpenRoute, updateCAMPERSTOPList, updateCAMPERCONTACTList, updateAIRECAMPINGCARList, updateParkingVerde } from './services/providers';
 import { fetchDataFromPark4Night } from './services/providers/park4night';
 import { insertGeoData } from './services/postgresql';
+//import { startScanning } from './services/bluethoot';
+
 //import { fetchAndProcessPlaylist, getCategories, getChanelByCategory } from './services/providers/foxIpTv';
 //const { exec } = require('child_process');
 
@@ -582,6 +584,26 @@ app.get('/get_parkingverde', async (req: Request, res: Response) => {
         res.status(500).json({ message: 'Error retrieving data' });
     }
 });
+
+
+// app.get('/bluethoot', async (req: Request, res: Response) => {
+//     try {
+
+//         const devices = await startScanning();
+//         const deviceInfo = devices.map(device => ({
+//           id: device.id,
+//           name: device.advertisement.localName || 'Unknown',
+//           address: device.address,
+//           rssi: device.rssi
+//         }));        
+
+//         res.json({ message: 'Data retrieved successfully', data: deviceInfo });
+//     } catch (error) {
+//         console.error('Error:', error);
+//         res.status(500).json({ message: 'Error retrieving data' });
+//     }
+// });
+
 
 
 // #endregion
