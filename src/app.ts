@@ -653,22 +653,16 @@ app.get('/', async (req: Request, res: Response) => {
 
 // #endregion
 
-// // HTTP server
-// app.listen(httpPort, () => {
-//     console.log(`HTTP server running on port ${httpPort}`);
-// });
-
-// // HTTPS server
-// https.createServer(sslOptions, app).listen(httpsPort, () => {
-//     console.log(`HTTPS server running on port ${httpsPort}`);
-// });
-
-
-app.listen(3000, '0.0.0.0', () => {
-  console.log('HTTP server running on port 3000');
+// HTTP server
+app.listen(httpPort, () => {
+    console.log(`HTTP server running on port ${httpPort}`);
 });
 
-https.listen(3001, '0.0.0.0');
+// HTTPS server
+https.createServer(sslOptions, app).listen(httpsPort, () => {
+    console.log(`HTTPS server running on port ${httpsPort}`);
+});
+
 
 /*
 const httpApp = express();
