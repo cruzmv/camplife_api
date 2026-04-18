@@ -25,7 +25,7 @@ const dbloglife = pgp({
     host:'ec2-13-60-30-123.eu-north-1.compute.amazonaws.com',
     port: 5432,         
     database: 'loglife', 
-    user: 'mcruz', 
+    user: 'postgres', 
     password: '142536'
 });
 
