@@ -13,11 +13,20 @@ import { Observable } from 'rxjs';
 const pgp = pgPromise();
 const db = pgp({
     application_name: 'campilife api',
-    host: 'cruzmv.ddns.net',   //'192.168.1.67',   //, // Replace with your database host
-    port: 5432,         // Replace with your database port
-    database: 'camplife', // Replace with your database name
-    user: 'postgres', // Replace with your database username
-    password: '142536' // Replace with your database password
+    host:'172.31.193.127',  //'cruzmv.ddns.net',   //'192.168.1.67', 
+    port: 5432,         
+    database: 'camplife', 
+    user: 'postgres', 
+    password: '142536'
+});
+
+const dbloglife = pgp({
+    application_name: 'loglife api',
+    host:'ec2-51-20-31-196.eu-north-1.compute.amazonaws.com',
+    port: 5432,         
+    database: 'loglife', 
+    user: 'mcruz', 
+    password: '142536'
 });
 
 function updateCampings(data: DataItem[]): Observable<void> {
@@ -402,6 +411,7 @@ async function insertGeoData(reqIp: string, geoData: any): Promise<void> {
 
 export { 
     db, 
+    dbloglife,
     insertOrUpdatePlaces, 
     insertOrUpdateCruiserList, 
     insertGeoData, 

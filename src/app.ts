@@ -4,8 +4,8 @@ import cors from 'cors';
 import https from 'https';
 import path from 'path';
 import fs from 'fs';
-import { getPlacesList, latlong, getCruiserList, getIntermacheList, getcampingcarportugalList, getEuroStopslList, getareasacList, getPark4NightMyDB, getcampingcarparkList, LAWASHList, getcamperstopList, getcampercontactList, getparkingverde } from './controllers/places';
-import { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList, updateAREASACList, updateCAMPINGCARPARKList, getREVOLUTIONList, getBLOOMESTLAUNDRYList, updateLAWASHList, searchOpenRoute, updateCAMPERSTOPList, updateCAMPERCONTACTList, updateAIRECAMPINGCARList, updateParkingVerde } from './services/providers';
+import { getPlacesList, latlong, getCruiserList, getIntermacheList, getcampingcarportugalList, getEuroStopslList, getareasacList, getPark4NightMyDB, getcampingcarparkList, LAWASHList, getcamperstopList, getcampercontactList, getparkingverde, getBalance } from './controllers/places';
+import { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList, updateAREASACList, updateCAMPINGCARPARKList, getREVOLUTIONList, getBLOOMESTLAUNDRYList, updateLAWASHList, searchOpenRoute, updateCAMPERSTOPList, updateCAMPERCONTACTList, updateAIRECAMPINGCARList, updateParkingVerde, addMoviment, editMoviment, deleteMoviment } from './services/providers';
 import { fetchDataFromPark4Night } from './services/providers/park4night';
 import { insertGeoData } from './services/postgresql';
 //import { startScanning } from './services/bluethoot';
@@ -585,6 +585,48 @@ app.get('/get_parkingverde', async (req: Request, res: Response) => {
     }
 });
 
+app.get('/get_balance', async (req: Request, res: Response) => {
+    try {
+        const result = await getBalance();
+        res.json({ message: 'Data retrieved successfully', data: result });
+    } catch (error) {
+        console.error('Error:', error);
+        res.status(500).json({ message: 'Error retrieving data' });
+    }
+});
+
+app.post('/add_moviment', async (req: Request, res: Response) => {
+    try {
+        const result = await addMoviment(req.body);
+        res.json({ message: 'Moviment added successfully', data: result });
+    } catch (error: any) {
+        console.error('Error:', error);
+        const statusCode = error?.message?.includes('Invalid') || error?.message?.includes('Missing') ? 400 : 500;
+        res.status(statusCode).json({ message: error?.message ?? 'Error adding moviment' });
+    }
+});
+
+app.post('/edit_moviment', async (req: Request, res: Response) => {
+    try {
+        const result = await editMoviment(req.body);
+        res.json({ message: 'Moviment updated successfully', data: result });
+    } catch (error: any) {
+        console.error('Error:', error);
+        const statusCode = error?.message === 'Moviment not found' || error?.message?.includes('Invalid') || error?.message?.includes('Missing') ? 400 : 500;
+        res.status(statusCode).json({ message: error?.message ?? 'Error editing moviment' });
+    }
+});
+
+app.post('/delete_moviment', async (req: Request, res: Response) => {
+    try {
+        const result = await deleteMoviment(req.body);
+        res.json({ message: 'Moviment deleted successfully', data: result });
+    } catch (error: any) {
+        console.error('Error:', error);
+        const statusCode = error?.message === 'Moviment not found' || error?.message?.includes('Invalid') || error?.message?.includes('Missing') ? 400 : 500;
+        res.status(statusCode).json({ message: error?.message ?? 'Error deleting moviment' });
+    }
+});
 
 // app.get('/bluethoot', async (req: Request, res: Response) => {
 //     try {
@@ -605,6 +647,9 @@ app.get('/get_parkingverde', async (req: Request, res: Response) => {
 // });
 
 
+app.get('/', async (req: Request, res: Response) => {
+    console.log(`Ping from ${req.ip}`);
+});
 
 // #endregion
 

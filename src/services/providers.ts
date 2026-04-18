@@ -2,10 +2,99 @@ import axios from 'axios';
 import qs from 'qs';
 
 import { DataItem } from './providers/dataItem.interface';
-import { insertOrUpdatePlaces, insertOrUpdateCruiserList, updatePGPlaces, updateCampings, updatePGIntermache, updatePGCampingCarPortugal, updatePGEuroStop, updateAREASAC, updateCAMPINGCARPARK, updateLAWASH, updateCAMPERSTOP, updateCAMPERCONTACT, updateAIRECAMPINGCAR, updateParkingVerdeList } from './postgresql';
+import { dbloglife, insertOrUpdatePlaces, insertOrUpdateCruiserList, updatePGPlaces, updateCampings, updatePGIntermache, updatePGCampingCarPortugal, updatePGEuroStop, updateAREASAC, updateCAMPINGCARPARK, updateLAWASH, updateCAMPERSTOP, updateCAMPERCONTACT, updateAIRECAMPINGCAR, updateParkingVerdeList } from './postgresql';
 import { readDataFolder, flatData } from './providers/park4night';
 import { Observable, timeout } from 'rxjs';
 import {setTimeout} from "node:timers/promises";
+
+interface MovimentPayload {
+    data: string;
+    descricao: string;
+    plano_conta: string;
+    conta: string;
+    status: string;
+    valor: string | number;
+    ordem?: string | number | null;
+}
+
+function normalizeMovimentPayload(body: any): MovimentPayload {
+    if (!body || typeof body !== 'object') {
+        throw new Error('Invalid moviment body');
+    }
+
+    const { data, descricao, plano_conta, conta, status, valor, ordem = null } = body;
+    if (!data || !descricao || !plano_conta || !conta || !status || valor === undefined || valor === null) {
+        throw new Error('Missing required moviment fields');
+    }
+
+    const parsedDate = new Date(data);
+    if (Number.isNaN(parsedDate.getTime())) {
+        throw new Error('Invalid moviment date');
+    }
+
+    return {
+        data: parsedDate.toISOString().slice(0, 10),
+        descricao: String(descricao),
+        plano_conta: String(plano_conta),
+        conta: String(conta),
+        status: String(status),
+        valor,
+        ordem
+    };
+}
+
+function getMovimentTableName(data: string): string {
+    const year = new Date(data).getUTCFullYear();
+    const tableName = `y${year}`;
+
+    if (!/^y\d{4}$/.test(tableName)) {
+        throw new Error('Invalid moviment table name');
+    }
+
+    return tableName;
+}
+
+function getMovimentValues(moviment: MovimentPayload) {
+    return [
+        moviment.data,
+        moviment.descricao,
+        moviment.plano_conta,
+        moviment.conta,
+        moviment.status,
+        moviment.valor,
+        moviment.ordem ?? null
+    ];
+}
+
+async function updateMovimentInTable(tableName: string, updatedMoviment: MovimentPayload, originalMoviment: MovimentPayload) {
+    const result = await dbloglife.result(
+        `UPDATE ${tableName}
+            SET data = $1,
+                descricao = $2,
+                plano_conta = $3,
+                conta = $4,
+                status = $5,
+                valor = $6,
+                ordem = $7
+          WHERE data IS NOT DISTINCT FROM $8
+            AND descricao IS NOT DISTINCT FROM $9
+            AND plano_conta IS NOT DISTINCT FROM $10
+            AND conta IS NOT DISTINCT FROM $11
+            AND status IS NOT DISTINCT FROM $12
+            AND valor IS NOT DISTINCT FROM $13
+            AND ordem IS NOT DISTINCT FROM $14`,
+        [
+            ...getMovimentValues(updatedMoviment),
+            ...getMovimentValues(originalMoviment)
+        ]
+    );
+
+    if (result.rowCount === 0) {
+        throw new Error('Moviment not found');
+    }
+
+    return result.rowCount;
+}
 
 function feedPark4NightDB(campings: any) : Observable<void> {
     return new Observable<void>((observer: any) =>{
@@ -405,43 +494,68 @@ async function updateCruiserList(body: any){
     console.log(`cruiser_list: ${url}`)
 
     const puppeteer = require('puppeteer');
-    const browser = await puppeteer.launch({ args: ['--no-sandbox'] });
+    const browser = await puppeteer.launch({
+        headless: true,
+        args: [
+            '--no-sandbox',
+            '--disable-blink-features=AutomationControlled',
+        ],
+    });
     const page = await browser.newPage();
-    await page.goto(url);
-    await page.waitForFunction('typeof gcMaps !== "undefined"');
+    await page.setUserAgent('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36');
+    await page.setViewport({ width: 1366, height: 768 });
+    await page.evaluateOnNewDocument(() => {
+        Object.defineProperty(navigator, 'webdriver', {
+            get: () => false,
+        });
+    });
 
-    console.log("Getting places...");
+    try {
+        await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
+        await page.waitForFunction(
+            () => typeof (window as any).gcMaps !== 'undefined',
+            { timeout: 60000 }
+        );
+        await setTimeout(2000);
 
-    const result = []
-    for (let mI = 0; mI < 20; mI++) {
-        let markerString = `gcMaps.parametros.markers[${mI}]  !== undefined`;
-        let markerExists = await page.evaluate(markerString);
-        if (markerExists){
-            let cI = 0;
-            while (markerExists){
-                const latlng = await page.evaluate(`gcMaps.parametros.markers[${mI}][${cI}]._latlng`);
-                const title = await page.evaluate(`gcMaps.parametros.markers[${mI}][${cI}]._popup._content.children[0].innerText`);
-                const place = await page.evaluate(`gcMaps.parametros.markers[${mI}][${cI}]._popup._content.children[1].innerText`);
-                const text = await page.evaluate(`gcMaps.parametros.markers[${mI}][${cI}]._popup._content.children[2].innerText`);
-                const more = await page.evaluate(`gcMaps.parametros.markers[${mI}][${cI}]._popup._content.children[3].children[0].href`);
-                result.push({
-                    lat: latlng.lat,
-                    lng: latlng.lng,
-                    title: title,
-                    place: place,
-                    text: text,
-                    more: more
-                })
-                cI++;
-                markerString = `gcMaps.parametros.markers[${mI}][${cI}] !== undefined`;
-                markerExists = await page.evaluate(markerString);
-                //console.log(latlng);
+        console.log("Getting places...");
+
+        const result = await page.evaluate(() => {
+            const gcMaps = (window as any).gcMaps;
+            const markerGroups = gcMaps?.parametros?.markers;
+            if (!Array.isArray(markerGroups)) {
+                const title = document.title || '';
+                const bodyText = document.body?.innerText?.slice(0, 500) || '';
+                throw new Error(`gcMaps markers are unavailable. title="${title}" body="${bodyText}"`);
             }
-        }
+
+            const places: any[] = [];
+            for (const markerGroup of markerGroups) {
+                if (!Array.isArray(markerGroup)) {
+                    continue;
+                }
+
+                for (const marker of markerGroup) {
+                    const popupChildren = marker?._popup?._content?.children;
+                    const link = popupChildren?.[3]?.children?.[0];
+                    places.push({
+                        lat: marker?._latlng?.lat ?? null,
+                        lng: marker?._latlng?.lng ?? null,
+                        title: popupChildren?.[0]?.innerText ?? null,
+                        place: popupChildren?.[1]?.innerText ?? null,
+                        text: popupChildren?.[2]?.innerText ?? null,
+                        more: link?.href ?? null,
+                    });
+                }
+            }
+            return places.filter((place) => place.lat !== null && place.lng !== null);
+        });
+
+        console.log(`Got ${result.length} places`);
+        await insertOrUpdateCruiserList(result);
+    } finally {
+        await browser.close();
     }
-    await browser.close();
-    console.log(`Got ${result.length} places`);
-    await insertOrUpdateCruiserList(result);
 }
 
 async function updateIntermacheList(){
@@ -1424,6 +1538,105 @@ async function updateParkingVerde() {
 
 }
 
+async function addMoviment(body: any) {
+    try{
+        const moviment = normalizeMovimentPayload(body);
+        const tableName = getMovimentTableName(moviment.data);
+
+        await dbloglife.none(
+            `INSERT INTO ${tableName} (data, descricao, plano_conta, conta, status, valor, ordem)
+             VALUES ($1, $2, $3, $4, $5, $6, $7)`,
+            getMovimentValues(moviment)
+        );
+
+        return {
+            success: true,
+            tableName,
+            moviment
+        };
+    } catch (error) {
+        console.log(`Error adding moviment`, error);
+        throw error;
+    }
+}
+
+async function editMoviment(body: any) {
+    try{
+        const updatedMoviment = normalizeMovimentPayload(body?.moviment ?? body?.updatedData ?? body);
+        const originalMoviment = normalizeMovimentPayload(body?.originalData ?? body?.originalMoviment);
+        const currentTableName = getMovimentTableName(originalMoviment.data);
+        const nextTableName = getMovimentTableName(updatedMoviment.data);
+
+        if (currentTableName === nextTableName) {
+            await updateMovimentInTable(currentTableName, updatedMoviment, originalMoviment);
+        } else {
+            await dbloglife.tx(async t => {
+                const deleteResult = await t.result(
+                    `DELETE FROM ${currentTableName}
+                      WHERE data IS NOT DISTINCT FROM $1
+                        AND descricao IS NOT DISTINCT FROM $2
+                        AND plano_conta IS NOT DISTINCT FROM $3
+                        AND conta IS NOT DISTINCT FROM $4
+                        AND status IS NOT DISTINCT FROM $5
+                        AND valor IS NOT DISTINCT FROM $6
+                        AND ordem IS NOT DISTINCT FROM $7`,
+                    getMovimentValues(originalMoviment)
+                );
+
+                if (deleteResult.rowCount === 0) {
+                    throw new Error('Moviment not found');
+                }
+
+                await t.none(
+                    `INSERT INTO ${nextTableName} (data, descricao, plano_conta, conta, status, valor, ordem)
+                     VALUES ($1, $2, $3, $4, $5, $6, $7)`,
+                    getMovimentValues(updatedMoviment)
+                );
+            });
+        }
+
+        return {
+            success: true,
+            tableName: nextTableName,
+            moviment: updatedMoviment
+        };
+    } catch (error) {
+        console.log(`Error editing moviment`, error);
+        throw error;
+    }
+}
+
+async function deleteMoviment(body: any) {
+    try{
+        const moviment = normalizeMovimentPayload(body?.moviment ?? body);
+        const tableName = getMovimentTableName(moviment.data);
+        const result = await dbloglife.result(
+            `DELETE FROM ${tableName}
+              WHERE data IS NOT DISTINCT FROM $1
+                AND descricao IS NOT DISTINCT FROM $2
+                AND plano_conta IS NOT DISTINCT FROM $3
+                AND conta IS NOT DISTINCT FROM $4
+                AND status IS NOT DISTINCT FROM $5
+                AND valor IS NOT DISTINCT FROM $6
+                AND ordem IS NOT DISTINCT FROM $7`,
+            getMovimentValues(moviment)
+        );
+
+        if (result.rowCount === 0) {
+            throw new Error('Moviment not found');
+        }
+
+        return {
+            success: true,
+            tableName,
+            moviment
+        };
+    } catch (error) {
+        console.log(`Error deleting moviment`, error);
+        throw error;
+    }
+}
+
 export {
     updatePark4NightCoordinates,
     updateCruiserList,
@@ -1441,5 +1654,8 @@ export {
     updateCAMPERSTOPList,
     updateCAMPERCONTACTList,
     updateAIRECAMPINGCARList,
-    updateParkingVerde
+    updateParkingVerde,
+    addMoviment,
+    editMoviment,
+    deleteMoviment
 };

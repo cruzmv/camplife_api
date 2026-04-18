@@ -1,4 +1,4 @@
-import { db } from '../services/postgresql'
+import { db, dbloglife } from '../services/postgresql'
 
 interface latlong {
     lat: string;
@@ -251,6 +251,29 @@ async function getparkingverde(cood: latlong): Promise<Place[]> {
   }
 }
 
+async function getBalance(): Promise<any[]> {
+  try {
+    const result = await dbloglife.any<any>(
+      `
+        select id,
+              datetime,
+              description,
+              ledger_account,
+              moviment_account,
+              status,
+              value,
+              balances 
+        from finance.balance()
+      `);
+    
+    console.log(`returning ${result.length} balance`);
+    return result;
+  } catch (error) {
+    console.error('Error retrieving balance:', error);
+    throw new Error('Error retrieving balance');
+  }
+}
+
 
 export { 
   getPlacesList, 
@@ -265,5 +288,6 @@ export {
   LAWASHList,
   getcamperstopList,
   getcampercontactList,
-  getparkingverde
+  getparkingverde,
+  getBalance
 };
