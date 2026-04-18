@@ -27,11 +27,11 @@ const os = require('os');
 const sslKeyPath = path.join(__dirname, 'cert', 'server.key');
 
 let sslCertPath
-if (os.hostname() == 'ITC0499') {
-    sslCertPath = path.join(__dirname, 'cert', 'server.cert');
-} else {
-    sslCertPath = path.join(__dirname, 'cert', 'server.crt');
-}
+//if (os.hostname() == 'ITC0499') {
+sslCertPath = path.join(__dirname, 'cert', 'server.cert');
+// } else {
+//     sslCertPath = path.join(__dirname, 'cert', 'server.crt');
+// }
 
 
 // Load SSL certificate and key
