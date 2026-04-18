@@ -22,7 +22,7 @@ const db = pgp({
 
 const dbloglife = pgp({
     application_name: 'loglife api',
-    host:'ec2-51-20-31-196.eu-north-1.compute.amazonaws.com',
+    host:'ec2-13-60-30-123.eu-north-1.compute.amazonaws.com',
     port: 5432,         
     database: 'loglife', 
     user: 'mcruz', 
