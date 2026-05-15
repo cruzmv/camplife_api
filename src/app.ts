@@ -8,6 +8,7 @@ import { getPlacesList, latlong, getCruiserList, getIntermacheList, getcampingca
 import { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList, updateAREASACList, updateCAMPINGCARPARKList, getREVOLUTIONList, getBLOOMESTLAUNDRYList, updateLAWASHList, searchOpenRoute, updateCAMPERSTOPList, updateCAMPERCONTACTList, updateAIRECAMPINGCARList, updateParkingVerde, addMoviment, editMoviment, deleteMoviment } from './services/providers';
 import { fetchDataFromPark4Night } from './services/providers/park4night';
 import { insertGeoData } from './services/postgresql';
+import { analyzeMovimentReceipt } from './services/receipt';
 //import { startScanning } from './services/bluethoot';
 
 //import { fetchAndProcessPlaylist, getCategories, getChanelByCategory } from './services/providers/foxIpTv';
@@ -68,7 +69,7 @@ setInterval(()=>{
 //app.use(cors());
 
 // Middleware to parse JSON in the request body
-app.use(bodyParser.json());
+app.use(bodyParser.json({ limit: '12mb' }));
 
 app.use(cors({
     origin: '*', // Allow only this origin
@@ -625,6 +626,17 @@ app.post('/delete_moviment', async (req: Request, res: Response) => {
         console.error('Error:', error);
         const statusCode = error?.message === 'Moviment not found' || error?.message?.includes('Invalid') || error?.message?.includes('Missing') ? 400 : 500;
         res.status(statusCode).json({ message: error?.message ?? 'Error deleting moviment' });
+    }
+});
+
+app.post('/analyze_moviment_receipt', async (req: Request, res: Response) => {
+    try {
+        const result = await analyzeMovimentReceipt(req.body);
+        res.json({ message: 'Receipt analyzed successfully', data: result });
+    } catch (error: any) {
+        console.error('Error:', error);
+        const statusCode = error?.message?.includes('Invalid') || error?.message?.includes('Missing') ? 400 : 500;
+        res.status(statusCode).json({ message: error?.message ?? 'Error analyzing receipt' });
     }
 });
 
