@@ -8,13 +8,14 @@ import { Observable, timeout } from 'rxjs';
 import {setTimeout} from "node:timers/promises";
 
 interface MovimentPayload {
-    data: string;
-    descricao: string;
-    plano_conta: string;
-    conta: string;
-    status: string;
-    valor: string | number;
-    ordem?: string | number | null;
+    contract: number | null;
+    user: number | null;
+    datetime: string | null;
+    description: string | null;
+    ledger_account: number | null;
+    moviment_account: number | null;
+    status: number | null;
+    value: string | number | null;
 }
 
 function normalizeMovimentPayload(body: any): MovimentPayload {
@@ -22,78 +23,83 @@ function normalizeMovimentPayload(body: any): MovimentPayload {
         throw new Error('Invalid moviment body');
     }
 
-    const { data, descricao, plano_conta, conta, status, valor, ordem = null } = body;
-    if (!data || !descricao || !plano_conta || !conta || !status || valor === undefined || valor === null) {
+    const {
+        contract,
+        user,
+        datetime,
+        description,
+        ledger_account,
+        moviment_account,
+        status,
+        value
+    } = body;
+
+    if (
+        contract === undefined ||
+        user === undefined ||
+        datetime === undefined ||
+        description === undefined ||
+        ledger_account === undefined ||
+        moviment_account === undefined ||
+        status === undefined ||
+        value === undefined
+    ) {
         throw new Error('Missing required moviment fields');
     }
 
-    const parsedDate = new Date(data);
-    if (Number.isNaN(parsedDate.getTime())) {
-        throw new Error('Invalid moviment date');
+    if (datetime !== null) {
+        const parsedDate = new Date(datetime);
+        if (Number.isNaN(parsedDate.getTime())) {
+            throw new Error('Invalid moviment datetime');
+        }
     }
 
     return {
-        data: parsedDate.toISOString().slice(0, 10),
-        descricao: String(descricao),
-        plano_conta: String(plano_conta),
-        conta: String(conta),
-        status: String(status),
-        valor,
-        ordem
+        contract: normalizeNullableInteger(contract, 'contract'),
+        user: normalizeNullableInteger(user, 'user'),
+        datetime,
+        description: description === null ? null : String(description),
+        ledger_account: normalizeNullableInteger(ledger_account, 'ledger_account'),
+        moviment_account: normalizeNullableInteger(moviment_account, 'moviment_account'),
+        status: normalizeNullableInteger(status, 'status'),
+        value: value === null ? null : value
     };
 }
 
-function getMovimentTableName(data: string): string {
-    const year = new Date(data).getUTCFullYear();
-    const tableName = `y${year}`;
-
-    if (!/^y\d{4}$/.test(tableName)) {
-        throw new Error('Invalid moviment table name');
+function normalizeNullableInteger(value: any, fieldName: string): number | null {
+    if (value === null) {
+        return null;
     }
 
-    return tableName;
+    const parsedValue = Number(value);
+    if (!Number.isInteger(parsedValue)) {
+        throw new Error(`Invalid ${fieldName}`);
+    }
+
+    return parsedValue;
 }
 
 function getMovimentValues(moviment: MovimentPayload) {
     return [
-        moviment.data,
-        moviment.descricao,
-        moviment.plano_conta,
-        moviment.conta,
+        moviment.contract,
+        moviment.user,
+        moviment.datetime,
+        moviment.description,
+        moviment.ledger_account,
+        moviment.moviment_account,
         moviment.status,
-        moviment.valor,
-        moviment.ordem ?? null
+        moviment.value
     ];
 }
 
-async function updateMovimentInTable(tableName: string, updatedMoviment: MovimentPayload, originalMoviment: MovimentPayload) {
-    const result = await dbloglife.result(
-        `UPDATE ${tableName}
-            SET data = $1,
-                descricao = $2,
-                plano_conta = $3,
-                conta = $4,
-                status = $5,
-                valor = $6,
-                ordem = $7
-          WHERE data IS NOT DISTINCT FROM $8
-            AND descricao IS NOT DISTINCT FROM $9
-            AND plano_conta IS NOT DISTINCT FROM $10
-            AND conta IS NOT DISTINCT FROM $11
-            AND status IS NOT DISTINCT FROM $12
-            AND valor IS NOT DISTINCT FROM $13
-            AND ordem IS NOT DISTINCT FROM $14`,
-        [
-            ...getMovimentValues(updatedMoviment),
-            ...getMovimentValues(originalMoviment)
-        ]
-    );
+function normalizeMovimentId(value: any): number {
+    const id = Number(value);
 
-    if (result.rowCount === 0) {
-        throw new Error('Moviment not found');
+    if (!Number.isInteger(id) || id <= 0) {
+        throw new Error('Invalid moviment id');
     }
 
-    return result.rowCount;
+    return id;
 }
 
 function feedPark4NightDB(campings: any) : Observable<void> {
@@ -1540,19 +1546,26 @@ async function updateParkingVerde() {
 
 async function addMoviment(body: any) {
     try{
-        const moviment = normalizeMovimentPayload(body);
-        const tableName = getMovimentTableName(moviment.data);
-
-        await dbloglife.none(
-            `INSERT INTO ${tableName} (data, descricao, plano_conta, conta, status, valor, ordem)
-             VALUES ($1, $2, $3, $4, $5, $6, $7)`,
+        const moviment = normalizeMovimentPayload(body?.moviment ?? body);
+        const insertedMoviment = await dbloglife.one(
+            `INSERT INTO finance.moviments (
+                contract,
+                "user",
+                datetime,
+                description,
+                ledger_account,
+                moviment_account,
+                status,
+                value
+             )
+             VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
+             RETURNING *`,
             getMovimentValues(moviment)
         );
 
         return {
             success: true,
-            tableName,
-            moviment
+            moviment: insertedMoviment
         };
     } catch (error) {
         console.log(`Error adding moviment`, error);
@@ -1562,43 +1575,35 @@ async function addMoviment(body: any) {
 
 async function editMoviment(body: any) {
     try{
-        const updatedMoviment = normalizeMovimentPayload(body?.moviment ?? body?.updatedData ?? body);
-        const originalMoviment = normalizeMovimentPayload(body?.originalData ?? body?.originalMoviment);
-        const currentTableName = getMovimentTableName(originalMoviment.data);
-        const nextTableName = getMovimentTableName(updatedMoviment.data);
+        const movimentBody = body?.moviment ?? body?.updatedData ?? body;
+        const id = normalizeMovimentId(body?.id ?? movimentBody?.id);
+        const updatedMoviment = normalizeMovimentPayload(movimentBody);
 
-        if (currentTableName === nextTableName) {
-            await updateMovimentInTable(currentTableName, updatedMoviment, originalMoviment);
-        } else {
-            await dbloglife.tx(async t => {
-                const deleteResult = await t.result(
-                    `DELETE FROM ${currentTableName}
-                      WHERE data IS NOT DISTINCT FROM $1
-                        AND descricao IS NOT DISTINCT FROM $2
-                        AND plano_conta IS NOT DISTINCT FROM $3
-                        AND conta IS NOT DISTINCT FROM $4
-                        AND status IS NOT DISTINCT FROM $5
-                        AND valor IS NOT DISTINCT FROM $6
-                        AND ordem IS NOT DISTINCT FROM $7`,
-                    getMovimentValues(originalMoviment)
-                );
+        const result = await dbloglife.oneOrNone(
+            `UPDATE finance.moviments
+                SET contract = $1,
+                    "user" = $2,
+                    datetime = $3,
+                    description = $4,
+                    ledger_account = $5,
+                    moviment_account = $6,
+                    status = $7,
+                    value = $8
+              WHERE id = $9
+              RETURNING *`,
+            [
+                ...getMovimentValues(updatedMoviment),
+                id
+            ]
+        );
 
-                if (deleteResult.rowCount === 0) {
-                    throw new Error('Moviment not found');
-                }
-
-                await t.none(
-                    `INSERT INTO ${nextTableName} (data, descricao, plano_conta, conta, status, valor, ordem)
-                     VALUES ($1, $2, $3, $4, $5, $6, $7)`,
-                    getMovimentValues(updatedMoviment)
-                );
-            });
+        if (!result) {
+            throw new Error('Moviment not found');
         }
 
         return {
             success: true,
-            tableName: nextTableName,
-            moviment: updatedMoviment
+            moviment: result
         };
     } catch (error) {
         console.log(`Error editing moviment`, error);
@@ -1608,28 +1613,21 @@ async function editMoviment(body: any) {
 
 async function deleteMoviment(body: any) {
     try{
-        const moviment = normalizeMovimentPayload(body?.moviment ?? body);
-        const tableName = getMovimentTableName(moviment.data);
-        const result = await dbloglife.result(
-            `DELETE FROM ${tableName}
-              WHERE data IS NOT DISTINCT FROM $1
-                AND descricao IS NOT DISTINCT FROM $2
-                AND plano_conta IS NOT DISTINCT FROM $3
-                AND conta IS NOT DISTINCT FROM $4
-                AND status IS NOT DISTINCT FROM $5
-                AND valor IS NOT DISTINCT FROM $6
-                AND ordem IS NOT DISTINCT FROM $7`,
-            getMovimentValues(moviment)
+        const id = normalizeMovimentId(body?.id ?? body?.moviment?.id);
+        const result = await dbloglife.oneOrNone(
+            `DELETE FROM finance.moviments
+              WHERE id = $1
+              RETURNING *`,
+            [id]
         );
 
-        if (result.rowCount === 0) {
+        if (!result) {
             throw new Error('Moviment not found');
         }
 
         return {
             success: true,
-            tableName,
-            moviment
+            moviment: result
         };
     } catch (error) {
         console.log(`Error deleting moviment`, error);

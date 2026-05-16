@@ -258,8 +258,11 @@ async function getBalance(): Promise<any[]> {
         select id,
               datetime,
               description,
+              ledger_account_id,
               ledger_account,
+              moviment_account_id,
               moviment_account,
+              status_id,
               status,
               value,
               balances 
