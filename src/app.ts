@@ -5,7 +5,7 @@ import https from 'https';
 import path from 'path';
 import fs from 'fs';
 import { getPlacesList, latlong, getCruiserList, getIntermacheList, getcampingcarportugalList, getEuroStopslList, getareasacList, getPark4NightMyDB, getcampingcarparkList, LAWASHList, getcamperstopList, getcampercontactList, getparkingverde, getBalance } from './controllers/places';
-import { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList, updateAREASACList, updateCAMPINGCARPARKList, getREVOLUTIONList, getBLOOMESTLAUNDRYList, updateLAWASHList, searchOpenRoute, updateCAMPERSTOPList, updateCAMPERCONTACTList, updateAIRECAMPINGCARList, updateParkingVerde, addMoviment, editMoviment, deleteMoviment } from './services/providers';
+import { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList, updateAREASACList, updateCAMPINGCARPARKList, getREVOLUTIONList, getBLOOMESTLAUNDRYList, updateLAWASHList, searchOpenRoute, updateCAMPERSTOPList, updateCAMPERCONTACTList, updateAIRECAMPINGCARList, updateParkingVerde, getFinanceSettings, addMoviment, editMoviment, deleteMoviment, toggleMovimentCreditStatus, addMovimentAccount, editMovimentAccount, deleteMovimentAccount, addLedgerAccount, editLedgerAccount, deleteLedgerAccount, addStatus, editStatus, deleteStatus } from './services/providers';
 import { fetchDataFromPark4Night } from './services/providers/park4night';
 import { insertGeoData } from './services/postgresql';
 import { analyzeMovimentReceipt } from './services/receipt';
@@ -626,6 +626,127 @@ app.post('/delete_moviment', async (req: Request, res: Response) => {
         console.error('Error:', error);
         const statusCode = error?.message === 'Moviment not found' || error?.message?.includes('Invalid') || error?.message?.includes('Missing') ? 400 : 500;
         res.status(statusCode).json({ message: error?.message ?? 'Error deleting moviment' });
+    }
+});
+
+app.post('/toggle_moviment_credit_status', async (req: Request, res: Response) => {
+    try {
+        const result = await toggleMovimentCreditStatus(req.body);
+        res.json({ message: 'Moviment credit status updated successfully', data: result });
+    } catch (error: any) {
+        console.error('Error:', error);
+        const statusCode = error?.message === 'Moviment not found' || error?.message?.includes('Invalid') || error?.message?.includes('Missing') ? 400 : 500;
+        res.status(statusCode).json({ message: error?.message ?? 'Error updating moviment credit status' });
+    }
+});
+
+app.get('/get_finance_settings', async (req: Request, res: Response) => {
+    try {
+        const result = await getFinanceSettings(req.query.contract);
+        res.json({ message: 'Finance settings retrieved successfully', data: result });
+    } catch (error: any) {
+        console.error('Error:', error);
+        const statusCode = error?.message?.includes('Invalid') ? 400 : 500;
+        res.status(statusCode).json({ message: error?.message ?? 'Error retrieving finance settings' });
+    }
+});
+
+app.post('/add_moviment_account', async (req: Request, res: Response) => {
+    try {
+        const result = await addMovimentAccount(req.body);
+        res.json({ message: 'Account added successfully', data: result });
+    } catch (error: any) {
+        console.error('Error:', error);
+        const statusCode = error?.message?.includes('Invalid') || error?.message?.includes('Missing') ? 400 : 500;
+        res.status(statusCode).json({ message: error?.message ?? 'Error adding account' });
+    }
+});
+
+app.post('/edit_moviment_account', async (req: Request, res: Response) => {
+    try {
+        const result = await editMovimentAccount(req.body);
+        res.json({ message: 'Account updated successfully', data: result });
+    } catch (error: any) {
+        console.error('Error:', error);
+        const statusCode = error?.message === 'Account not found' || error?.message?.includes('Invalid') || error?.message?.includes('Missing') ? 400 : 500;
+        res.status(statusCode).json({ message: error?.message ?? 'Error editing account' });
+    }
+});
+
+app.post('/delete_moviment_account', async (req: Request, res: Response) => {
+    try {
+        const result = await deleteMovimentAccount(req.body);
+        res.json({ message: 'Account deleted successfully', data: result });
+    } catch (error: any) {
+        console.error('Error:', error);
+        const statusCode = error?.message === 'Account not found' || error?.message?.includes('Invalid') ? 400 : 500;
+        res.status(statusCode).json({ message: error?.message ?? 'Error deleting account' });
+    }
+});
+
+app.post('/add_ledger_account', async (req: Request, res: Response) => {
+    try {
+        const result = await addLedgerAccount(req.body);
+        res.json({ message: 'Ledger account added successfully', data: result });
+    } catch (error: any) {
+        console.error('Error:', error);
+        const statusCode = error?.message?.includes('Invalid') || error?.message?.includes('Missing') ? 400 : 500;
+        res.status(statusCode).json({ message: error?.message ?? 'Error adding ledger account' });
+    }
+});
+
+app.post('/edit_ledger_account', async (req: Request, res: Response) => {
+    try {
+        const result = await editLedgerAccount(req.body);
+        res.json({ message: 'Ledger account updated successfully', data: result });
+    } catch (error: any) {
+        console.error('Error:', error);
+        const statusCode = error?.message?.includes('not found') || error?.message?.includes('Invalid') || error?.message?.includes('Missing') ? 400 : 500;
+        res.status(statusCode).json({ message: error?.message ?? 'Error editing ledger account' });
+    }
+});
+
+app.post('/delete_ledger_account', async (req: Request, res: Response) => {
+    try {
+        const result = await deleteLedgerAccount(req.body);
+        res.json({ message: 'Ledger account deleted successfully', data: result });
+    } catch (error: any) {
+        console.error('Error:', error);
+        const statusCode = error?.message?.includes('not found') || error?.message?.includes('Invalid') ? 400 : 500;
+        res.status(statusCode).json({ message: error?.message ?? 'Error deleting ledger account' });
+    }
+});
+
+app.post('/add_status', async (req: Request, res: Response) => {
+    try {
+        const result = await addStatus(req.body);
+        res.json({ message: 'Status added successfully', data: result });
+    } catch (error: any) {
+        console.error('Error:', error);
+        const statusCode = error?.message?.includes('Invalid') || error?.message?.includes('Missing') ? 400 : 500;
+        res.status(statusCode).json({ message: error?.message ?? 'Error adding status' });
+    }
+});
+
+app.post('/edit_status', async (req: Request, res: Response) => {
+    try {
+        const result = await editStatus(req.body);
+        res.json({ message: 'Status updated successfully', data: result });
+    } catch (error: any) {
+        console.error('Error:', error);
+        const statusCode = error?.message?.includes('not found') || error?.message?.includes('Invalid') || error?.message?.includes('Missing') ? 400 : 500;
+        res.status(statusCode).json({ message: error?.message ?? 'Error editing status' });
+    }
+});
+
+app.post('/delete_status', async (req: Request, res: Response) => {
+    try {
+        const result = await deleteStatus(req.body);
+        res.json({ message: 'Status deleted successfully', data: result });
+    } catch (error: any) {
+        console.error('Error:', error);
+        const statusCode = error?.message?.includes('not found') || error?.message?.includes('Invalid') ? 400 : 500;
+        res.status(statusCode).json({ message: error?.message ?? 'Error deleting status' });
     }
 });
 

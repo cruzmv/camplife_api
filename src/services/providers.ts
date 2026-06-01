@@ -18,6 +18,20 @@ interface MovimentPayload {
     value: string | number | null;
 }
 
+interface MovimentAccountPayload {
+    description: string | null;
+    contract: number | null;
+    start_date: string | null;
+    start_value: string | number | null;
+    closing_day: number | null;
+    account_type: number | null;
+}
+
+interface BasicSettingsPayload {
+    description: string | null;
+    contract: number | null;
+}
+
 function normalizeMovimentPayload(body: any): MovimentPayload {
     if (!body || typeof body !== 'object') {
         throw new Error('Invalid moviment body');
@@ -100,6 +114,86 @@ function normalizeMovimentId(value: any): number {
     }
 
     return id;
+}
+
+function normalizeSettingsId(value: any, entityName: string): number {
+    const id = Number(value);
+
+    if (!Number.isInteger(id) || id <= 0) {
+        throw new Error(`Invalid ${entityName} id`);
+    }
+
+    return id;
+}
+
+function normalizeOptionalDescription(value: any): string | null {
+    if (value === null || value === undefined) {
+        return null;
+    }
+
+    const description = String(value).trim();
+    return description || null;
+}
+
+function normalizeMovimentAccountPayload(body: any): MovimentAccountPayload {
+    if (!body || typeof body !== 'object') {
+        throw new Error('Invalid account body');
+    }
+
+    if (body.description === undefined || body.contract === undefined || body.account_type === undefined) {
+        throw new Error('Missing required account fields');
+    }
+
+    const accountType = normalizeNullableInteger(body.account_type, 'account_type');
+    if (accountType !== 0 && accountType !== 1) {
+        throw new Error('Invalid account_type');
+    }
+
+    if (body.start_date !== null && body.start_date !== undefined && Number.isNaN(new Date(body.start_date).getTime())) {
+        throw new Error('Invalid start_date');
+    }
+
+    return {
+        description: normalizeOptionalDescription(body.description),
+        contract: normalizeNullableInteger(body.contract, 'contract'),
+        start_date: body.start_date || null,
+        start_value: body.start_value ?? null,
+        closing_day: body.closing_day === undefined ? null : normalizeNullableInteger(body.closing_day, 'closing_day'),
+        account_type: accountType
+    };
+}
+
+function normalizeBasicSettingsPayload(body: any, entityName: string): BasicSettingsPayload {
+    if (!body || typeof body !== 'object') {
+        throw new Error(`Invalid ${entityName} body`);
+    }
+
+    if (body.description === undefined || body.contract === undefined) {
+        throw new Error(`Missing required ${entityName} fields`);
+    }
+
+    return {
+        description: normalizeOptionalDescription(body.description),
+        contract: normalizeNullableInteger(body.contract, 'contract')
+    };
+}
+
+function getMovimentAccountValues(account: MovimentAccountPayload) {
+    return [
+        account.description,
+        account.contract,
+        account.start_date,
+        account.start_value,
+        account.closing_day,
+        account.account_type
+    ];
+}
+
+function getBasicSettingsValues(settings: BasicSettingsPayload) {
+    return [
+        settings.description,
+        settings.contract
+    ];
 }
 
 function feedPark4NightDB(campings: any) : Observable<void> {
@@ -1635,6 +1729,248 @@ async function deleteMoviment(body: any) {
     }
 }
 
+async function toggleMovimentCreditStatus(body: any) {
+    try {
+        const id = normalizeMovimentId(body?.id ?? body?.moviment?.id);
+        const confirmed = body?.confirmed;
+
+        if (typeof confirmed !== 'boolean') {
+            throw new Error('Invalid credit status');
+        }
+
+        const result = await dbloglife.oneOrNone(
+            `UPDATE finance.moviments
+                SET credit_status = CASE
+                    WHEN $2 = true THEN CURRENT_TIMESTAMP
+                    ELSE NULL
+                END
+              WHERE id = $1
+              RETURNING id, credit_status`,
+            [id, confirmed]
+        );
+
+        if (!result) {
+            throw new Error('Moviment not found');
+        }
+
+        return {
+            success: true,
+            moviment: result
+        };
+    } catch (error) {
+        console.log(`Error toggling moviment credit status`, error);
+        throw error;
+    }
+}
+
+async function getFinanceSettings(contract: any) {
+    try {
+        const contractId = contract === undefined || contract === null || contract === ''
+            ? null
+            : normalizeNullableInteger(contract, 'contract');
+        const params = contractId === null ? [] : [contractId];
+        const contractFilter = contractId === null ? '' : 'WHERE contract = $1 OR contract IS NULL';
+
+        const accounts = await dbloglife.any(
+            `SELECT id, description, contract, start_date, start_value, closing_day, account_type
+               FROM finance.moviment_accounts
+               ${contractFilter}
+              ORDER BY description NULLS LAST, id`,
+            params
+        );
+        const ledgerAccounts = await dbloglife.any(
+            `SELECT id, description, contract
+               FROM finance.ledger_accounts
+               ${contractFilter}
+              ORDER BY description NULLS LAST, id`,
+            params
+        );
+        const statuses = await dbloglife.any(
+            `SELECT id, description, contract
+               FROM finance.status
+               ${contractFilter}
+              ORDER BY description NULLS LAST, id`,
+            params
+        );
+
+        return {
+            accounts,
+            ledgerAccounts,
+            statuses
+        };
+    } catch (error) {
+        console.log(`Error getting finance settings`, error);
+        throw error;
+    }
+}
+
+async function addMovimentAccount(body: any) {
+    try {
+        const account = normalizeMovimentAccountPayload(body?.account ?? body);
+        const result = await dbloglife.one(
+            `INSERT INTO finance.moviment_accounts (
+                description,
+                contract,
+                start_date,
+                start_value,
+                closing_day,
+                account_type
+             )
+             VALUES ($1, $2, $3, $4, $5, $6)
+             RETURNING *`,
+            getMovimentAccountValues(account)
+        );
+
+        return { success: true, account: result };
+    } catch (error) {
+        console.log(`Error adding moviment account`, error);
+        throw error;
+    }
+}
+
+async function editMovimentAccount(body: any) {
+    try {
+        const accountBody = body?.account ?? body?.updatedData ?? body;
+        const id = normalizeSettingsId(body?.id ?? accountBody?.id, 'account');
+        const account = normalizeMovimentAccountPayload(accountBody);
+        const result = await dbloglife.oneOrNone(
+            `UPDATE finance.moviment_accounts
+                SET description = $1,
+                    contract = $2,
+                    start_date = $3,
+                    start_value = $4,
+                    closing_day = $5,
+                    account_type = $6
+              WHERE id = $7
+              RETURNING *`,
+            [
+                ...getMovimentAccountValues(account),
+                id
+            ]
+        );
+
+        if (!result) {
+            throw new Error('Account not found');
+        }
+
+        return { success: true, account: result };
+    } catch (error) {
+        console.log(`Error editing moviment account`, error);
+        throw error;
+    }
+}
+
+async function deleteMovimentAccount(body: any) {
+    try {
+        const id = normalizeSettingsId(body?.id ?? body?.account?.id, 'account');
+        const result = await dbloglife.oneOrNone(
+            `DELETE FROM finance.moviment_accounts
+              WHERE id = $1
+              RETURNING *`,
+            [id]
+        );
+
+        if (!result) {
+            throw new Error('Account not found');
+        }
+
+        return { success: true, account: result };
+    } catch (error) {
+        console.log(`Error deleting moviment account`, error);
+        throw error;
+    }
+}
+
+async function addLedgerAccount(body: any) {
+    return addBasicSettingsRecord(body, 'ledgerAccount', 'ledger account', 'finance.ledger_accounts');
+}
+
+async function editLedgerAccount(body: any) {
+    return editBasicSettingsRecord(body, 'ledgerAccount', 'ledger account', 'finance.ledger_accounts');
+}
+
+async function deleteLedgerAccount(body: any) {
+    return deleteBasicSettingsRecord(body, 'ledgerAccount', 'ledger account', 'finance.ledger_accounts');
+}
+
+async function addStatus(body: any) {
+    return addBasicSettingsRecord(body, 'status', 'status', 'finance.status');
+}
+
+async function editStatus(body: any) {
+    return editBasicSettingsRecord(body, 'status', 'status', 'finance.status');
+}
+
+async function deleteStatus(body: any) {
+    return deleteBasicSettingsRecord(body, 'status', 'status', 'finance.status');
+}
+
+async function addBasicSettingsRecord(body: any, bodyKey: string, entityName: string, tableName: string) {
+    try {
+        const settings = normalizeBasicSettingsPayload(body?.[bodyKey] ?? body, entityName);
+        const result = await dbloglife.one(
+            `INSERT INTO ${tableName} (description, contract)
+             VALUES ($1, $2)
+             RETURNING *`,
+            getBasicSettingsValues(settings)
+        );
+
+        return { success: true, [bodyKey]: result };
+    } catch (error) {
+        console.log(`Error adding ${entityName}`, error);
+        throw error;
+    }
+}
+
+async function editBasicSettingsRecord(body: any, bodyKey: string, entityName: string, tableName: string) {
+    try {
+        const settingsBody = body?.[bodyKey] ?? body?.updatedData ?? body;
+        const id = normalizeSettingsId(body?.id ?? settingsBody?.id, entityName);
+        const settings = normalizeBasicSettingsPayload(settingsBody, entityName);
+        const result = await dbloglife.oneOrNone(
+            `UPDATE ${tableName}
+                SET description = $1,
+                    contract = $2
+              WHERE id = $3
+              RETURNING *`,
+            [
+                ...getBasicSettingsValues(settings),
+                id
+            ]
+        );
+
+        if (!result) {
+            throw new Error(`${entityName.charAt(0).toUpperCase()}${entityName.slice(1)} not found`);
+        }
+
+        return { success: true, [bodyKey]: result };
+    } catch (error) {
+        console.log(`Error editing ${entityName}`, error);
+        throw error;
+    }
+}
+
+async function deleteBasicSettingsRecord(body: any, bodyKey: string, entityName: string, tableName: string) {
+    try {
+        const id = normalizeSettingsId(body?.id ?? body?.[bodyKey]?.id, entityName);
+        const result = await dbloglife.oneOrNone(
+            `DELETE FROM ${tableName}
+              WHERE id = $1
+              RETURNING *`,
+            [id]
+        );
+
+        if (!result) {
+            throw new Error(`${entityName.charAt(0).toUpperCase()}${entityName.slice(1)} not found`);
+        }
+
+        return { success: true, [bodyKey]: result };
+    } catch (error) {
+        console.log(`Error deleting ${entityName}`, error);
+        throw error;
+    }
+}
+
 export {
     updatePark4NightCoordinates,
     updateCruiserList,
@@ -1653,7 +1989,18 @@ export {
     updateCAMPERCONTACTList,
     updateAIRECAMPINGCARList,
     updateParkingVerde,
+    getFinanceSettings,
     addMoviment,
     editMoviment,
-    deleteMoviment
+    deleteMoviment,
+    toggleMovimentCreditStatus,
+    addMovimentAccount,
+    editMovimentAccount,
+    deleteMovimentAccount,
+    addLedgerAccount,
+    editLedgerAccount,
+    deleteLedgerAccount,
+    addStatus,
+    editStatus,
+    deleteStatus
 };

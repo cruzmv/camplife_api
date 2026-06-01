@@ -255,18 +255,24 @@ async function getBalance(): Promise<any[]> {
   try {
     const result = await dbloglife.any<any>(
       `
-        select id,
-              datetime,
-              description,
-              ledger_account_id,
-              ledger_account,
-              moviment_account_id,
-              moviment_account,
-              status_id,
-              status,
-              value,
-              balances 
-        from finance.balance()
+        select balance.id,
+              balance.datetime,
+              balance.description,
+              balance.ledger_account_id,
+              balance.ledger_account,
+              balance.moviment_account_id,
+              balance.moviment_account,
+              balance.status_id,
+              balance.status,
+              balance.value,
+              balance.balances,
+              moviments.credit_status,
+              moviment_accounts.account_type
+        from finance.balance() balance
+        left join finance.moviments moviments
+          on moviments.id = balance.id
+        left join finance.moviment_accounts moviment_accounts
+          on moviment_accounts.id = moviments.moviment_account
       `);
     
     console.log(`returning ${result.length} balance`);
