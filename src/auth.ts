@@ -59,12 +59,51 @@ function generateJoinCode(): string {
 }
 
 async function createContract(transaction: any, name: string) {
-    return transaction.one(
+    const contract = await transaction.one(
         `INSERT INTO finance.contracts (name, join_code)
          VALUES ($1, $2)
          RETURNING id`,
         [name, generateJoinCode()]
-    ) as Promise<{ id: number }>;
+    ) as { id: number };
+
+    await initializeContractDefaults(transaction, contract.id);
+
+    return contract;
+}
+
+async function initializeContractDefaults(transaction: any, contractId: number) {
+    await transaction.none(
+        `INSERT INTO finance.ledger_accounts (description, contract)
+         SELECT description, $1
+           FROM finance.ledger_accounts_default`,
+        [contractId]
+    );
+
+    await transaction.none(
+        `INSERT INTO finance.moviment_accounts (
+            description,
+            contract,
+            start_date,
+            start_value,
+            closing_day,
+            account_type
+         )
+         SELECT description,
+                $1,
+                start_date,
+                start_value,
+                closing_day,
+                account_type
+           FROM finance.moviment_accounts_default`,
+        [contractId]
+    );
+
+    await transaction.none(
+        `INSERT INTO finance.status (description, contract)
+         SELECT description, $1
+           FROM finance.status_default`,
+        [contractId]
+    );
 }
 
 async function resolveJoinCode(transaction: any, joinCode: unknown) {
