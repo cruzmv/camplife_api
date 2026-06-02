@@ -9,6 +9,7 @@ import { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, fee
 import { fetchDataFromPark4Night } from './services/providers/park4night';
 import { insertGeoData } from './services/postgresql';
 import { analyzeMovimentReceipt } from './services/receipt';
+import { getContractJoinCode, registerWithPassword, requireFinanceAuth, signInWithGoogle, signInWithPassword, withFinanceIdentity } from './auth';
 //import { startScanning } from './services/bluethoot';
 
 //import { fetchAndProcessPlaylist, getCategories, getChanelByCategory } from './services/providers/foxIpTv';
@@ -586,9 +587,81 @@ app.get('/get_parkingverde', async (req: Request, res: Response) => {
     }
 });
 
+app.post('/auth/login', async (req: Request, res: Response) => {
+    try {
+        const session = await signInWithPassword(req.body?.username, req.body?.password);
+        if (!session) {
+            res.status(401).json({ message: 'Invalid username or password' });
+            return;
+        }
+        res.json({ message: 'Signed in successfully', data: session });
+    } catch (error: any) {
+        console.error('Error:', error);
+        res.status(500).json({ message: error?.message ?? 'Error signing in' });
+    }
+});
+
+app.post('/auth/register', async (req: Request, res: Response) => {
+    try {
+        const session = await registerWithPassword(
+            req.body?.email,
+            req.body?.username,
+            req.body?.password,
+            req.body?.joinCode
+        );
+        res.status(201).json({ message: 'Registered successfully', data: session });
+    } catch (error: any) {
+        console.error('Error:', error);
+        res.status(400).json({ message: error?.message ?? 'Error registering user' });
+    }
+});
+
+app.post('/auth/google', async (req: Request, res: Response) => {
+    try {
+        const session = await signInWithGoogle(req.body?.credential);
+        if (!session) {
+            res.status(401).json({ message: 'Invalid Google sign-in' });
+            return;
+        }
+        res.json({ message: 'Signed in successfully', data: session });
+    } catch (error: any) {
+        console.error('Error:', error);
+        res.status(401).json({ message: 'Invalid Google sign-in' });
+    }
+});
+
+app.get('/auth/contract', requireFinanceAuth, async (req: Request, res: Response) => {
+    try {
+        const contract = await getContractJoinCode(req.auth!.contractId);
+        res.json({ message: 'Contract retrieved successfully', data: contract });
+    } catch (error: any) {
+        console.error('Error:', error);
+        res.status(500).json({ message: 'Error retrieving contract' });
+    }
+});
+
+app.use([
+    '/get_balance',
+    '/add_moviment',
+    '/edit_moviment',
+    '/delete_moviment',
+    '/toggle_moviment_credit_status',
+    '/get_finance_settings',
+    '/add_moviment_account',
+    '/edit_moviment_account',
+    '/delete_moviment_account',
+    '/add_ledger_account',
+    '/edit_ledger_account',
+    '/delete_ledger_account',
+    '/add_status',
+    '/edit_status',
+    '/delete_status',
+    '/analyze_moviment_receipt'
+], requireFinanceAuth);
+
 app.get('/get_balance', async (req: Request, res: Response) => {
     try {
-        const result = await getBalance();
+        const result = await getBalance(req.auth!.contractId);
         res.json({ message: 'Data retrieved successfully', data: result });
     } catch (error) {
         console.error('Error:', error);
@@ -598,7 +671,7 @@ app.get('/get_balance', async (req: Request, res: Response) => {
 
 app.post('/add_moviment', async (req: Request, res: Response) => {
     try {
-        const result = await addMoviment(req.body);
+        const result = await addMoviment(withFinanceIdentity(req.body, req));
         res.json({ message: 'Moviment added successfully', data: result });
     } catch (error: any) {
         console.error('Error:', error);
@@ -609,7 +682,7 @@ app.post('/add_moviment', async (req: Request, res: Response) => {
 
 app.post('/edit_moviment', async (req: Request, res: Response) => {
     try {
-        const result = await editMoviment(req.body);
+        const result = await editMoviment(withFinanceIdentity(req.body, req));
         res.json({ message: 'Moviment updated successfully', data: result });
     } catch (error: any) {
         console.error('Error:', error);
@@ -620,7 +693,7 @@ app.post('/edit_moviment', async (req: Request, res: Response) => {
 
 app.post('/delete_moviment', async (req: Request, res: Response) => {
     try {
-        const result = await deleteMoviment(req.body);
+        const result = await deleteMoviment(withFinanceIdentity(req.body, req));
         res.json({ message: 'Moviment deleted successfully', data: result });
     } catch (error: any) {
         console.error('Error:', error);
@@ -631,7 +704,7 @@ app.post('/delete_moviment', async (req: Request, res: Response) => {
 
 app.post('/toggle_moviment_credit_status', async (req: Request, res: Response) => {
     try {
-        const result = await toggleMovimentCreditStatus(req.body);
+        const result = await toggleMovimentCreditStatus(withFinanceIdentity(req.body, req));
         res.json({ message: 'Moviment credit status updated successfully', data: result });
     } catch (error: any) {
         console.error('Error:', error);
@@ -642,7 +715,7 @@ app.post('/toggle_moviment_credit_status', async (req: Request, res: Response) =
 
 app.get('/get_finance_settings', async (req: Request, res: Response) => {
     try {
-        const result = await getFinanceSettings(req.query.contract);
+        const result = await getFinanceSettings(req.auth!.contractId);
         res.json({ message: 'Finance settings retrieved successfully', data: result });
     } catch (error: any) {
         console.error('Error:', error);
@@ -653,7 +726,7 @@ app.get('/get_finance_settings', async (req: Request, res: Response) => {
 
 app.post('/add_moviment_account', async (req: Request, res: Response) => {
     try {
-        const result = await addMovimentAccount(req.body);
+        const result = await addMovimentAccount(withFinanceIdentity(req.body, req));
         res.json({ message: 'Account added successfully', data: result });
     } catch (error: any) {
         console.error('Error:', error);
@@ -664,7 +737,7 @@ app.post('/add_moviment_account', async (req: Request, res: Response) => {
 
 app.post('/edit_moviment_account', async (req: Request, res: Response) => {
     try {
-        const result = await editMovimentAccount(req.body);
+        const result = await editMovimentAccount(withFinanceIdentity(req.body, req));
         res.json({ message: 'Account updated successfully', data: result });
     } catch (error: any) {
         console.error('Error:', error);
@@ -675,7 +748,7 @@ app.post('/edit_moviment_account', async (req: Request, res: Response) => {
 
 app.post('/delete_moviment_account', async (req: Request, res: Response) => {
     try {
-        const result = await deleteMovimentAccount(req.body);
+        const result = await deleteMovimentAccount(withFinanceIdentity(req.body, req));
         res.json({ message: 'Account deleted successfully', data: result });
     } catch (error: any) {
         console.error('Error:', error);
@@ -686,7 +759,7 @@ app.post('/delete_moviment_account', async (req: Request, res: Response) => {
 
 app.post('/add_ledger_account', async (req: Request, res: Response) => {
     try {
-        const result = await addLedgerAccount(req.body);
+        const result = await addLedgerAccount(withFinanceIdentity(req.body, req));
         res.json({ message: 'Ledger account added successfully', data: result });
     } catch (error: any) {
         console.error('Error:', error);
@@ -697,7 +770,7 @@ app.post('/add_ledger_account', async (req: Request, res: Response) => {
 
 app.post('/edit_ledger_account', async (req: Request, res: Response) => {
     try {
-        const result = await editLedgerAccount(req.body);
+        const result = await editLedgerAccount(withFinanceIdentity(req.body, req));
         res.json({ message: 'Ledger account updated successfully', data: result });
     } catch (error: any) {
         console.error('Error:', error);
@@ -708,7 +781,7 @@ app.post('/edit_ledger_account', async (req: Request, res: Response) => {
 
 app.post('/delete_ledger_account', async (req: Request, res: Response) => {
     try {
-        const result = await deleteLedgerAccount(req.body);
+        const result = await deleteLedgerAccount(withFinanceIdentity(req.body, req));
         res.json({ message: 'Ledger account deleted successfully', data: result });
     } catch (error: any) {
         console.error('Error:', error);
@@ -719,7 +792,7 @@ app.post('/delete_ledger_account', async (req: Request, res: Response) => {
 
 app.post('/add_status', async (req: Request, res: Response) => {
     try {
-        const result = await addStatus(req.body);
+        const result = await addStatus(withFinanceIdentity(req.body, req));
         res.json({ message: 'Status added successfully', data: result });
     } catch (error: any) {
         console.error('Error:', error);
@@ -730,7 +803,7 @@ app.post('/add_status', async (req: Request, res: Response) => {
 
 app.post('/edit_status', async (req: Request, res: Response) => {
     try {
-        const result = await editStatus(req.body);
+        const result = await editStatus(withFinanceIdentity(req.body, req));
         res.json({ message: 'Status updated successfully', data: result });
     } catch (error: any) {
         console.error('Error:', error);
@@ -741,7 +814,7 @@ app.post('/edit_status', async (req: Request, res: Response) => {
 
 app.post('/delete_status', async (req: Request, res: Response) => {
     try {
-        const result = await deleteStatus(req.body);
+        const result = await deleteStatus(withFinanceIdentity(req.body, req));
         res.json({ message: 'Status deleted successfully', data: result });
     } catch (error: any) {
         console.error('Error:', error);

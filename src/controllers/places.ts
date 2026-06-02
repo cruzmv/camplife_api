@@ -251,7 +251,7 @@ async function getparkingverde(cood: latlong): Promise<Place[]> {
   }
 }
 
-async function getBalance(): Promise<any[]> {
+async function getBalance(contractId: number): Promise<any[]> {
   try {
     const result = await dbloglife.any<any>(
       `
@@ -268,12 +268,13 @@ async function getBalance(): Promise<any[]> {
               balance.balances,
               moviments.credit_status,
               moviment_accounts.account_type
-        from finance.balance() balance
+        from finance.balance($1) balance
         left join finance.moviments moviments
           on moviments.id = balance.id
         left join finance.moviment_accounts moviment_accounts
           on moviment_accounts.id = moviments.moviment_account
-      `);
+      `,
+      [contractId]);
     
     console.log(`returning ${result.length} balance`);
     return result;

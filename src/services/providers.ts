@@ -196,6 +196,34 @@ function getBasicSettingsValues(settings: BasicSettingsPayload) {
     ];
 }
 
+async function assertMovimentSettingsAccess(moviment: MovimentPayload): Promise<void> {
+    const hasAccess = await dbloglife.oneOrNone(
+        `SELECT 1
+           WHERE EXISTS (
+                    SELECT 1 FROM finance.ledger_accounts
+                     WHERE id = $2 AND (contract = $1 OR contract IS NULL)
+                 )
+             AND EXISTS (
+                    SELECT 1 FROM finance.moviment_accounts
+                     WHERE id = $3 AND (contract = $1 OR contract IS NULL)
+                 )
+             AND EXISTS (
+                    SELECT 1 FROM finance.status
+                     WHERE id = $4 AND (contract = $1 OR contract IS NULL)
+                 )`,
+        [
+            moviment.contract,
+            moviment.ledger_account,
+            moviment.moviment_account,
+            moviment.status
+        ]
+    );
+
+    if (!hasAccess) {
+        throw new Error('Invalid moviment settings for contract');
+    }
+}
+
 function feedPark4NightDB(campings: any) : Observable<void> {
     return new Observable<void>((observer: any) =>{
         const flatDataItems = flatData(campings);
@@ -1641,6 +1669,7 @@ async function updateParkingVerde() {
 async function addMoviment(body: any) {
     try{
         const moviment = normalizeMovimentPayload(body?.moviment ?? body);
+        await assertMovimentSettingsAccess(moviment);
         const insertedMoviment = await dbloglife.one(
             `INSERT INTO finance.moviments (
                 contract,
@@ -1672,6 +1701,7 @@ async function editMoviment(body: any) {
         const movimentBody = body?.moviment ?? body?.updatedData ?? body;
         const id = normalizeMovimentId(body?.id ?? movimentBody?.id);
         const updatedMoviment = normalizeMovimentPayload(movimentBody);
+        await assertMovimentSettingsAccess(updatedMoviment);
 
         const result = await dbloglife.oneOrNone(
             `UPDATE finance.moviments
@@ -1683,7 +1713,7 @@ async function editMoviment(body: any) {
                     moviment_account = $6,
                     status = $7,
                     value = $8
-              WHERE id = $9
+              WHERE id = $9 AND contract = $1
               RETURNING *`,
             [
                 ...getMovimentValues(updatedMoviment),
@@ -1710,9 +1740,9 @@ async function deleteMoviment(body: any) {
         const id = normalizeMovimentId(body?.id ?? body?.moviment?.id);
         const result = await dbloglife.oneOrNone(
             `DELETE FROM finance.moviments
-              WHERE id = $1
+              WHERE id = $1 AND contract = $2
               RETURNING *`,
-            [id]
+            [id, normalizeNullableInteger(body?.contract, 'contract')]
         );
 
         if (!result) {
@@ -1744,9 +1774,9 @@ async function toggleMovimentCreditStatus(body: any) {
                     WHEN $2 = true THEN CURRENT_TIMESTAMP
                     ELSE NULL
                 END
-              WHERE id = $1
+              WHERE id = $1 AND contract = $3
               RETURNING id, credit_status`,
-            [id, confirmed]
+            [id, confirmed, normalizeNullableInteger(body?.contract, 'contract')]
         );
 
         if (!result) {
@@ -1765,11 +1795,9 @@ async function toggleMovimentCreditStatus(body: any) {
 
 async function getFinanceSettings(contract: any) {
     try {
-        const contractId = contract === undefined || contract === null || contract === ''
-            ? null
-            : normalizeNullableInteger(contract, 'contract');
-        const params = contractId === null ? [] : [contractId];
-        const contractFilter = contractId === null ? '' : 'WHERE contract = $1 OR contract IS NULL';
+        const contractId = normalizeNullableInteger(contract, 'contract');
+        const params = [contractId];
+        const contractFilter = 'WHERE contract = $1 OR contract IS NULL';
 
         const accounts = await dbloglife.any(
             `SELECT id, description, contract, start_date, start_value, closing_day, account_type
@@ -1841,7 +1869,7 @@ async function editMovimentAccount(body: any) {
                     start_value = $4,
                     closing_day = $5,
                     account_type = $6
-              WHERE id = $7
+              WHERE id = $7 AND contract = $2
               RETURNING *`,
             [
                 ...getMovimentAccountValues(account),
@@ -1865,9 +1893,9 @@ async function deleteMovimentAccount(body: any) {
         const id = normalizeSettingsId(body?.id ?? body?.account?.id, 'account');
         const result = await dbloglife.oneOrNone(
             `DELETE FROM finance.moviment_accounts
-              WHERE id = $1
+              WHERE id = $1 AND contract = $2
               RETURNING *`,
-            [id]
+            [id, normalizeNullableInteger(body?.contract, 'contract')]
         );
 
         if (!result) {
@@ -1931,7 +1959,7 @@ async function editBasicSettingsRecord(body: any, bodyKey: string, entityName: s
             `UPDATE ${tableName}
                 SET description = $1,
                     contract = $2
-              WHERE id = $3
+              WHERE id = $3 AND contract = $2
               RETURNING *`,
             [
                 ...getBasicSettingsValues(settings),
@@ -1955,9 +1983,9 @@ async function deleteBasicSettingsRecord(body: any, bodyKey: string, entityName:
         const id = normalizeSettingsId(body?.id ?? body?.[bodyKey]?.id, entityName);
         const result = await dbloglife.oneOrNone(
             `DELETE FROM ${tableName}
-              WHERE id = $1
+              WHERE id = $1 AND contract = $2
               RETURNING *`,
-            [id]
+            [id, normalizeNullableInteger(body?.contract, 'contract')]
         );
 
         if (!result) {
