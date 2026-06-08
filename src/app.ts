@@ -1,4 +1,4 @@
-import express, { Request, Response, query } from 'express';
+import express, { NextFunction, Request, Response, query } from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import https from 'https';
@@ -71,6 +71,24 @@ setInterval(()=>{
 
 // Middleware to parse JSON in the request body
 app.use(bodyParser.json({ limit: '12mb' }));
+app.use((error: any, req: Request, res: Response, next: NextFunction) => {
+    if (error?.type !== 'entity.too.large' && error?.type !== 'entity.parse.failed') {
+        next(error);
+        return;
+    }
+
+    console.error('[http/body-parser] Request rejected', {
+        path: req.originalUrl,
+        ip: req.ip,
+        userAgent: req.get('user-agent'),
+        contentLength: req.get('content-length'),
+        type: error.type,
+        limit: error.limit,
+        length: error.length,
+        message: error.message,
+    });
+    res.status(error.status ?? 400).json({ message: error.message });
+});
 
 app.use(cors({
     origin: '*', // Allow only this origin
@@ -824,11 +842,31 @@ app.post('/delete_status', async (req: Request, res: Response) => {
 });
 
 app.post('/analyze_moviment_receipt', async (req: Request, res: Response) => {
+    const requestId = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
+    const startedAt = Date.now();
+
+    console.log('[receipt/http] Request received', {
+        requestId,
+        ip: req.ip,
+        userAgent: req.get('user-agent'),
+        contentLength: req.get('content-length'),
+        contractId: req.auth!.contractId,
+    });
+
     try {
-        const result = await analyzeMovimentReceipt(req.body);
+        const result = await analyzeMovimentReceipt({ ...req.body, requestId });
+        console.log('[receipt/http] Request completed', {
+            requestId,
+            durationMs: Date.now() - startedAt,
+        });
         res.json({ message: 'Receipt analyzed successfully', data: result });
     } catch (error: any) {
-        console.error('Error:', error);
+        console.error('[receipt/http] Request failed', {
+            requestId,
+            durationMs: Date.now() - startedAt,
+            message: error?.message,
+            stack: error?.stack,
+        });
         const statusCode = error?.message?.includes('Invalid') || error?.message?.includes('Missing') ? 400 : 500;
         res.status(statusCode).json({ message: error?.message ?? 'Error analyzing receipt' });
     }
