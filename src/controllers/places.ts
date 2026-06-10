@@ -267,6 +267,7 @@ async function getBalance(contractId: number): Promise<any[]> {
               balance.value,
               balance.balances,
               moviments.credit_status,
+              moviments.planning,
               moviment_accounts.account_type
         from finance.balance($1) balance
         left join finance.moviments moviments

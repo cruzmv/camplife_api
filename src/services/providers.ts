@@ -18,6 +18,18 @@ interface MovimentPayload {
     value: string | number | null;
 }
 
+interface PlanningPayload {
+    contract: number | null;
+    user: number | null;
+    start_datetime: string;
+    end_date: string;
+    day_of_month: number;
+    description: string;
+    ledger_account: number | null;
+    moviment_account: number | null;
+    value: string | number | null;
+}
+
 interface MovimentAccountPayload {
     description: string | null;
     contract: number | null;
@@ -114,6 +126,157 @@ function normalizeMovimentId(value: any): number {
     }
 
     return id;
+}
+
+function normalizePlanningId(value: any): number {
+    const id = Number(value);
+
+    if (!Number.isInteger(id) || id <= 0) {
+        throw new Error('Invalid planning id');
+    }
+
+    return id;
+}
+
+function normalizePlanningPayload(body: any): PlanningPayload {
+    if (!body || typeof body !== 'object') {
+        throw new Error('Invalid planning body');
+    }
+
+    const startDatetime = String(body.start_datetime ?? '');
+    const endDate = String(body.end_date ?? '');
+    const dayOfMonth = Number(body.day_of_month);
+    const startTimestamp = new Date(startDatetime);
+
+    if (
+        !/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})(?::(\d{2}))?/.test(startDatetime) ||
+        Number.isNaN(startTimestamp.getTime())
+    ) {
+        throw new Error('Invalid planning start_datetime');
+    }
+
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(endDate) || Number.isNaN(new Date(`${endDate}T00:00:00Z`).getTime())) {
+        throw new Error('Invalid planning end_date');
+    }
+
+    if (!Number.isInteger(dayOfMonth) || dayOfMonth < 1 || dayOfMonth > 31) {
+        throw new Error('Invalid planning day_of_month');
+    }
+
+    if (endDate < startDatetime.slice(0, 10)) {
+        throw new Error('Planning end_date must be after start_datetime');
+    }
+
+    const description = normalizeOptionalDescription(body.description);
+    if (!description) {
+        throw new Error('Missing planning description');
+    }
+
+    if (body.value === undefined || body.value === null || !Number.isFinite(Number(body.value))) {
+        throw new Error('Invalid planning value');
+    }
+
+    return {
+        contract: normalizeNullableInteger(body.contract, 'contract'),
+        user: normalizeNullableInteger(body.user, 'user'),
+        start_datetime: startDatetime,
+        end_date: endDate,
+        day_of_month: dayOfMonth,
+        description,
+        ledger_account: normalizeNullableInteger(body.ledger_account, 'ledger_account'),
+        moviment_account: normalizeNullableInteger(body.moviment_account, 'moviment_account'),
+        value: body.value
+    };
+}
+
+function buildMonthlyPlanningDates(planning: PlanningPayload): string[] {
+    const match = planning.start_datetime.match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})(?::(\d{2}))?/)!;
+    const startDate = planning.start_datetime.slice(0, 10);
+    const time = `${match[4]}:${match[5]}:${match[6] ?? '00'}`;
+    let year = Number(match[1]);
+    let month = Number(match[2]);
+    const dates: string[] = [];
+
+    while (`${year}-${String(month).padStart(2, '0')}-01` <= planning.end_date) {
+        const lastDay = new Date(Date.UTC(year, month, 0)).getUTCDate();
+        const day = Math.min(planning.day_of_month, lastDay);
+        const date = `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+
+        if (date >= startDate && date <= planning.end_date) {
+            dates.push(`${date}T${time}`);
+        }
+
+        month += 1;
+        if (month > 12) {
+            month = 1;
+            year += 1;
+        }
+    }
+
+    if (dates.length === 0) {
+        throw new Error('Planning does not generate any moviment');
+    }
+
+    return dates;
+}
+
+async function getProvisionedStatus(contract: number | null): Promise<any> {
+    const status = await dbloglife.oneOrNone(
+        `SELECT id
+           FROM finance.status
+          WHERE lower(trim(description)) = lower('Provisionado')
+            AND (contract = $1 OR contract IS NULL)
+          ORDER BY CASE WHEN contract = $1 THEN 0 ELSE 1 END
+          LIMIT 1`,
+        [contract]
+    );
+
+    if (!status) {
+        throw new Error('Provisionado status not found');
+    }
+
+    return status;
+}
+
+async function assertPlanningSettingsAccess(planning: PlanningPayload, statusId: number): Promise<void> {
+    await assertMovimentSettingsAccess({
+        contract: planning.contract,
+        user: planning.user,
+        datetime: planning.start_datetime,
+        description: planning.description,
+        ledger_account: planning.ledger_account,
+        moviment_account: planning.moviment_account,
+        status: statusId,
+        value: planning.value
+    });
+}
+
+async function insertPlanningMoviments(
+    transaction: any,
+    planning: PlanningPayload,
+    planningId: number,
+    statusId: number
+): Promise<any[]> {
+    const dates = buildMonthlyPlanningDates(planning);
+    const inserted = [];
+
+    for (const datetime of dates) {
+        inserted.push(await transaction.one(
+            `INSERT INTO finance.moviments (
+                contract, "user", datetime, description, ledger_account,
+                moviment_account, status, value, planning
+             )
+             VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+             RETURNING *`,
+            [
+                planning.contract, planning.user, datetime, planning.description,
+                planning.ledger_account, planning.moviment_account, statusId,
+                planning.value, planningId
+            ]
+        ));
+    }
+
+    return inserted;
 }
 
 function normalizeSettingsId(value: any, entityName: string): number {
@@ -1666,6 +1829,94 @@ async function updateParkingVerde() {
 
 }
 
+async function getPlannings(contract: any) {
+    const contractId = normalizeNullableInteger(contract, 'contract');
+
+    return dbloglife.any(
+        `SELECT DISTINCT ON (moviments.planning)
+                moviments.planning,
+                min(moviments.datetime) OVER planning_group AS start_datetime,
+                max(moviments.datetime) OVER planning_group AS end_date,
+                (max(extract(day FROM moviments.datetime)) OVER planning_group)::int AS day_of_month,
+                moviments.description,
+                moviments.ledger_account AS ledger_account_id,
+                ledger_accounts.description AS ledger_account,
+                moviments.moviment_account AS moviment_account_id,
+                moviment_accounts.description AS moviment_account,
+                moviments.status AS status_id,
+                status.description AS status,
+                moviments.value,
+                (count(*) OVER planning_group)::int AS occurrence_count
+           FROM finance.moviments moviments
+           LEFT JOIN finance.ledger_accounts ledger_accounts ON ledger_accounts.id = moviments.ledger_account
+           LEFT JOIN finance.moviment_accounts moviment_accounts ON moviment_accounts.id = moviments.moviment_account
+           LEFT JOIN finance.status status ON status.id = moviments.status
+          WHERE moviments.contract = $1
+            AND moviments.planning IS NOT NULL
+          WINDOW planning_group AS (PARTITION BY moviments.planning)
+          ORDER BY moviments.planning, moviments.datetime`,
+        [contractId]
+    );
+}
+
+async function addPlanning(body: any) {
+    const planning = normalizePlanningPayload(body?.planningData ?? body);
+    const status = await getProvisionedStatus(planning.contract);
+    await assertPlanningSettingsAccess(planning, status.id);
+
+    return dbloglife.tx(async transaction => {
+        await transaction.none(`SELECT pg_advisory_xact_lock(hashtext('finance.moviments.planning'))`);
+        const nextPlanning = await transaction.one(
+            `SELECT coalesce(max(planning), 0) + 1 AS planning FROM finance.moviments`
+        );
+        const planningId = Number(nextPlanning.planning);
+        const moviments = await insertPlanningMoviments(transaction, planning, planningId, status.id);
+
+        return { success: true, planning: planningId, moviments };
+    });
+}
+
+async function editPlanning(body: any) {
+    const planningId = normalizePlanningId(body?.planning);
+    const planning = normalizePlanningPayload(body?.planningData ?? body);
+    const status = await getProvisionedStatus(planning.contract);
+    await assertPlanningSettingsAccess(planning, status.id);
+
+    return dbloglife.tx(async transaction => {
+        const existing = await transaction.oneOrNone(
+            `SELECT 1 FROM finance.moviments WHERE planning = $1 AND contract = $2 LIMIT 1`,
+            [planningId, planning.contract]
+        );
+
+        if (!existing) {
+            throw new Error('Planning not found');
+        }
+
+        await transaction.none(
+            `DELETE FROM finance.moviments WHERE planning = $1 AND contract = $2`,
+            [planningId, planning.contract]
+        );
+        const moviments = await insertPlanningMoviments(transaction, planning, planningId, status.id);
+
+        return { success: true, planning: planningId, moviments };
+    });
+}
+
+async function deletePlanning(body: any) {
+    const planningId = normalizePlanningId(body?.planning);
+    const contract = normalizeNullableInteger(body?.contract, 'contract');
+    const result = await dbloglife.result(
+        `DELETE FROM finance.moviments WHERE planning = $1 AND contract = $2`,
+        [planningId, contract]
+    );
+
+    if (result.rowCount === 0) {
+        throw new Error('Planning not found');
+    }
+
+    return { success: true, planning: planningId, deleted: result.rowCount };
+}
+
 async function addMoviment(body: any) {
     try{
         const moviment = normalizeMovimentPayload(body?.moviment ?? body);
@@ -2017,6 +2268,10 @@ export {
     updateCAMPERCONTACTList,
     updateAIRECAMPINGCARList,
     updateParkingVerde,
+    getPlannings,
+    addPlanning,
+    editPlanning,
+    deletePlanning,
     getFinanceSettings,
     addMoviment,
     editMoviment,
