@@ -1865,7 +1865,7 @@ async function addPlanning(body: any) {
     await assertPlanningSettingsAccess(planning, status.id);
 
     return dbloglife.tx(async transaction => {
-        await transaction.none(`SELECT pg_advisory_xact_lock(hashtext('finance.moviments.planning'))`);
+        await transaction.one(`SELECT pg_advisory_xact_lock(hashtext('finance.moviments.planning'))`);
         const nextPlanning = await transaction.one(
             `SELECT coalesce(max(planning), 0) + 1 AS planning FROM finance.moviments`
         );
