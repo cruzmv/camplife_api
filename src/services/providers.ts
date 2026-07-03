@@ -32,6 +32,7 @@ interface PlanningPayload {
 
 interface MovimentAccountPayload {
     description: string | null;
+    icon: string | null;
     contract: number | null;
     start_date: string | null;
     start_value: string | number | null;
@@ -41,6 +42,7 @@ interface MovimentAccountPayload {
 
 interface BasicSettingsPayload {
     description: string | null;
+    icon: string | null;
     contract: number | null;
 }
 
@@ -298,6 +300,15 @@ function normalizeOptionalDescription(value: any): string | null {
     return description || null;
 }
 
+function normalizeOptionalIcon(value: any): string | null {
+    if (value === null || value === undefined) {
+        return null;
+    }
+
+    const icon = String(value).trim();
+    return icon || null;
+}
+
 function normalizeMovimentAccountPayload(body: any): MovimentAccountPayload {
     if (!body || typeof body !== 'object') {
         throw new Error('Invalid account body');
@@ -318,6 +329,7 @@ function normalizeMovimentAccountPayload(body: any): MovimentAccountPayload {
 
     return {
         description: normalizeOptionalDescription(body.description),
+        icon: normalizeOptionalIcon(body.icon),
         contract: normalizeNullableInteger(body.contract, 'contract'),
         start_date: body.start_date || null,
         start_value: body.start_value ?? null,
@@ -337,6 +349,7 @@ function normalizeBasicSettingsPayload(body: any, entityName: string): BasicSett
 
     return {
         description: normalizeOptionalDescription(body.description),
+        icon: normalizeOptionalIcon(body.icon),
         contract: normalizeNullableInteger(body.contract, 'contract')
     };
 }
@@ -344,6 +357,7 @@ function normalizeBasicSettingsPayload(body: any, entityName: string): BasicSett
 function getMovimentAccountValues(account: MovimentAccountPayload) {
     return [
         account.description,
+        account.icon,
         account.contract,
         account.start_date,
         account.start_value,
@@ -355,6 +369,7 @@ function getMovimentAccountValues(account: MovimentAccountPayload) {
 function getBasicSettingsValues(settings: BasicSettingsPayload) {
     return [
         settings.description,
+        settings.icon,
         settings.contract
     ];
 }
@@ -2051,21 +2066,21 @@ async function getFinanceSettings(contract: any) {
         const contractFilter = 'WHERE contract = $1 OR contract IS NULL';
 
         const accounts = await dbloglife.any(
-            `SELECT id, description, contract, start_date, start_value, closing_day, account_type
+            `SELECT id, description, icon, contract, start_date, start_value, closing_day, account_type
                FROM finance.moviment_accounts
                ${contractFilter}
               ORDER BY description NULLS LAST, id`,
             params
         );
         const ledgerAccounts = await dbloglife.any(
-            `SELECT id, description, contract
+            `SELECT id, description, icon, contract
                FROM finance.ledger_accounts
                ${contractFilter}
               ORDER BY description NULLS LAST, id`,
             params
         );
         const statuses = await dbloglife.any(
-            `SELECT id, description, contract
+            `SELECT id, description, icon, contract
                FROM finance.status
                ${contractFilter}
               ORDER BY description NULLS LAST, id`,
@@ -2089,13 +2104,14 @@ async function addMovimentAccount(body: any) {
         const result = await dbloglife.one(
             `INSERT INTO finance.moviment_accounts (
                 description,
+                icon,
                 contract,
                 start_date,
                 start_value,
                 closing_day,
                 account_type
              )
-             VALUES ($1, $2, $3, $4, $5, $6)
+             VALUES ($1, $2, $3, $4, $5, $6, $7)
              RETURNING *`,
             getMovimentAccountValues(account)
         );
@@ -2115,12 +2131,13 @@ async function editMovimentAccount(body: any) {
         const result = await dbloglife.oneOrNone(
             `UPDATE finance.moviment_accounts
                 SET description = $1,
-                    contract = $2,
-                    start_date = $3,
-                    start_value = $4,
-                    closing_day = $5,
-                    account_type = $6
-              WHERE id = $7 AND contract = $2
+                    icon = $2,
+                    contract = $3,
+                    start_date = $4,
+                    start_value = $5,
+                    closing_day = $6,
+                    account_type = $7
+              WHERE id = $8 AND contract = $3
               RETURNING *`,
             [
                 ...getMovimentAccountValues(account),
@@ -2188,8 +2205,8 @@ async function addBasicSettingsRecord(body: any, bodyKey: string, entityName: st
     try {
         const settings = normalizeBasicSettingsPayload(body?.[bodyKey] ?? body, entityName);
         const result = await dbloglife.one(
-            `INSERT INTO ${tableName} (description, contract)
-             VALUES ($1, $2)
+            `INSERT INTO ${tableName} (description, icon, contract)
+             VALUES ($1, $2, $3)
              RETURNING *`,
             getBasicSettingsValues(settings)
         );
@@ -2209,8 +2226,9 @@ async function editBasicSettingsRecord(body: any, bodyKey: string, entityName: s
         const result = await dbloglife.oneOrNone(
             `UPDATE ${tableName}
                 SET description = $1,
-                    contract = $2
-              WHERE id = $3 AND contract = $2
+                    icon = $2,
+                    contract = $3
+              WHERE id = $4 AND contract = $3
               RETURNING *`,
             [
                 ...getBasicSettingsValues(settings),
