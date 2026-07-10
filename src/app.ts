@@ -5,7 +5,7 @@ import https from 'https';
 import path from 'path';
 import fs from 'fs';
 import { getPlacesList, latlong, getCruiserList, getIntermacheList, getcampingcarportugalList, getEuroStopslList, getareasacList, getPark4NightMyDB, getcampingcarparkList, LAWASHList, getcamperstopList, getcampercontactList, getparkingverde, getBalance } from './controllers/places';
-import { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList, updateAREASACList, updateCAMPINGCARPARKList, getREVOLUTIONList, getBLOOMESTLAUNDRYList, updateLAWASHList, searchOpenRoute, updateCAMPERSTOPList, updateCAMPERCONTACTList, updateAIRECAMPINGCARList, updateParkingVerde, getPlannings, addPlanning, editPlanning, deletePlanning, getFinanceSettings, addMoviment, editMoviment, deleteMoviment, toggleMovimentCreditStatus, addMovimentAccount, editMovimentAccount, deleteMovimentAccount, addLedgerAccount, editLedgerAccount, deleteLedgerAccount, addStatus, editStatus, deleteStatus } from './services/providers';
+import { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList, updateAREASACList, updateCAMPINGCARPARKList, getREVOLUTIONList, getBLOOMESTLAUNDRYList, updateLAWASHList, searchOpenRoute, updateCAMPERSTOPList, updateCAMPERCONTACTList, updateAIRECAMPINGCARList, updateParkingVerde, getPlannings, addPlanning, editPlanning, deletePlanning, getFinanceSettings, addMoviment, editMoviment, deleteMoviment, toggleMovimentCreditStatus, syncCreditBills, addMovimentAccount, editMovimentAccount, deleteMovimentAccount, addLedgerAccount, editLedgerAccount, deleteLedgerAccount, addStatus, editStatus, deleteStatus } from './services/providers';
 import { fetchDataFromPark4Night } from './services/providers/park4night';
 import { insertGeoData } from './services/postgresql';
 import { analyzeMovimentReceipt } from './services/receipt';
@@ -664,6 +664,7 @@ app.use([
     '/edit_moviment',
     '/delete_moviment',
     '/toggle_moviment_credit_status',
+    '/sync_credit_bills',
     '/get_plannings',
     '/add_planning',
     '/edit_planning',
@@ -775,6 +776,17 @@ app.post('/toggle_moviment_credit_status', async (req: Request, res: Response) =
         console.error('Error:', error);
         const statusCode = error?.message === 'Moviment not found' || error?.message?.includes('Invalid') || error?.message?.includes('Missing') ? 400 : 500;
         res.status(statusCode).json({ message: error?.message ?? 'Error updating moviment credit status' });
+    }
+});
+
+app.post('/sync_credit_bills', async (req: Request, res: Response) => {
+    try {
+        const result = await syncCreditBills(withFinanceIdentity(req.body, req));
+        res.json({ message: 'Credit bills synchronized successfully', data: result });
+    } catch (error: any) {
+        console.error('Error:', error);
+        const statusCode = error?.message?.includes('Invalid') || error?.message?.includes('Missing') || error?.message?.includes('not found') ? 400 : 500;
+        res.status(statusCode).json({ message: error?.message ?? 'Error synchronizing credit bills' });
     }
 });
 

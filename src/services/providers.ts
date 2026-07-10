@@ -16,6 +16,7 @@ interface MovimentPayload {
     moviment_account: number | null;
     status: number | null;
     value: string | number | null;
+    credit_bill?: boolean | null;
 }
 
 interface PlanningPayload {
@@ -37,6 +38,8 @@ interface MovimentAccountPayload {
     start_date: string | null;
     start_value: string | number | null;
     closing_day: number | null;
+    pay_day: number | null;
+    debit_account: number | null;
     account_type: number | null;
 }
 
@@ -327,13 +330,31 @@ function normalizeMovimentAccountPayload(body: any): MovimentAccountPayload {
         throw new Error('Invalid start_date');
     }
 
+    const closingDay = body.closing_day === undefined ? null : normalizeNullableInteger(body.closing_day, 'closing_day');
+    const payDay = body.pay_day === undefined ? null : normalizeNullableInteger(body.pay_day, 'pay_day');
+    const debitAccount = body.debit_account === undefined ? null : normalizeNullableInteger(body.debit_account, 'debit_account');
+
+    if (closingDay !== null && (closingDay < 1 || closingDay > 31)) {
+        throw new Error('Invalid closing_day');
+    }
+
+    if (payDay !== null && (payDay < 1 || payDay > 31)) {
+        throw new Error('Invalid pay_day');
+    }
+
+    if (accountType === 1 && (!payDay || !debitAccount)) {
+        throw new Error('Missing credit account billing fields');
+    }
+
     return {
         description: normalizeOptionalDescription(body.description),
         icon: normalizeOptionalIcon(body.icon),
         contract: normalizeNullableInteger(body.contract, 'contract'),
         start_date: body.start_date || null,
         start_value: body.start_value ?? null,
-        closing_day: body.closing_day === undefined ? null : normalizeNullableInteger(body.closing_day, 'closing_day'),
+        closing_day: closingDay,
+        pay_day: accountType === 1 ? payDay : null,
+        debit_account: accountType === 1 ? debitAccount : null,
         account_type: accountType
     };
 }
@@ -362,6 +383,8 @@ function getMovimentAccountValues(account: MovimentAccountPayload) {
         account.start_date,
         account.start_value,
         account.closing_day,
+        account.pay_day,
+        account.debit_account,
         account.account_type
     ];
 }
@@ -399,6 +422,26 @@ async function assertMovimentSettingsAccess(moviment: MovimentPayload): Promise<
 
     if (!hasAccess) {
         throw new Error('Invalid moviment settings for contract');
+    }
+}
+
+async function assertMovimentAccountBillingAccess(account: MovimentAccountPayload): Promise<void> {
+    if (account.account_type !== 1 || !account.debit_account) {
+        return;
+    }
+
+    const debitAccount = await dbloglife.oneOrNone(
+        `SELECT 1
+           FROM finance.moviment_accounts
+          WHERE id = $1
+            AND account_type = 0
+            AND (contract = $2 OR contract IS NULL)
+          LIMIT 1`,
+        [account.debit_account, account.contract]
+    );
+
+    if (!debitAccount) {
+        throw new Error('Invalid debit_account');
     }
 }
 
@@ -2059,6 +2102,252 @@ async function toggleMovimentCreditStatus(body: any) {
     }
 }
 
+function getDateParts(date: Date): { year: number; month: number; day: number } {
+    return {
+        year: date.getFullYear(),
+        month: date.getMonth(),
+        day: date.getDate()
+    };
+}
+
+function getSafeMonthDay(year: number, month: number, day: number): number {
+    const lastDay = new Date(year, month + 1, 0).getDate();
+    return Math.min(Math.max(day, 1), lastDay);
+}
+
+function toSqlDatetime(date: Date): string {
+    return [
+        date.getFullYear(),
+        String(date.getMonth() + 1).padStart(2, '0'),
+        String(date.getDate()).padStart(2, '0')
+    ].join('-') + 'T12:00:00';
+}
+
+function getCycleClosingDate(datetime: string, closingDayValue: number | null): Date {
+    const date = new Date(datetime);
+    const { year, month, day } = getDateParts(date);
+    const closingDay = getSafeMonthDay(year, month, closingDayValue ?? 31);
+
+    if (day <= closingDay) {
+        return new Date(year, month, closingDay, 23, 59, 59, 999);
+    }
+
+    const nextMonth = new Date(year, month + 1, 1);
+    return new Date(
+        nextMonth.getFullYear(),
+        nextMonth.getMonth(),
+        getSafeMonthDay(nextMonth.getFullYear(), nextMonth.getMonth(), closingDayValue ?? 31),
+        23,
+        59,
+        59,
+        999
+    );
+}
+
+function getCycleKey(closingDate: Date): string {
+    return [
+        closingDate.getFullYear(),
+        String(closingDate.getMonth() + 1).padStart(2, '0'),
+        String(closingDate.getDate()).padStart(2, '0')
+    ].join('-');
+}
+
+function getDueDate(closingDate: Date, payDayValue: number | null): Date {
+    const dueReference = new Date(closingDate.getFullYear(), closingDate.getMonth() + 1, 1);
+    const payDay = getSafeMonthDay(dueReference.getFullYear(), dueReference.getMonth(), payDayValue ?? 31);
+    return new Date(dueReference.getFullYear(), dueReference.getMonth(), payDay, 12, 0, 0, 0);
+}
+
+function isFutureOrToday(date: Date): boolean {
+    const today = new Date();
+    const startOfToday = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+    return date.getTime() >= startOfToday.getTime();
+}
+
+async function syncCreditBills(body: any) {
+    try {
+        const contract = normalizeNullableInteger(body?.contract, 'contract');
+        const user = normalizeNullableInteger(body?.user, 'user');
+        const createMissing = body?.create_missing === true;
+        const provisionedStatus = await getProvisionedStatus(contract);
+
+        return await dbloglife.tx(async transaction => {
+            const accounts = await transaction.any(
+                `SELECT id, description, closing_day, pay_day, debit_account
+                   FROM finance.moviment_accounts
+                  WHERE contract = $1
+                    AND account_type = 1
+                    AND pay_day IS NOT NULL
+                    AND debit_account IS NOT NULL
+                  ORDER BY id`,
+                [contract]
+            );
+            const missingBills: any[] = [];
+            const createdBills: any[] = [];
+            const updatedBills: any[] = [];
+            const markedBills: any[] = [];
+
+            for (const account of accounts) {
+                const expenses = await transaction.any(
+                    `SELECT id, datetime, ledger_account, value
+                       FROM finance.moviments
+                      WHERE contract = $1
+                        AND moviment_account = $2
+                        AND value < 0
+                      ORDER BY datetime, id`,
+                    [contract, account.id]
+                );
+                const cycles = new Map<string, any>();
+
+                for (const expense of expenses) {
+                    const closingDate = getCycleClosingDate(expense.datetime, account.closing_day);
+                    const cycleKey = getCycleKey(closingDate);
+                    const cycle = cycles.get(cycleKey) ?? {
+                        account,
+                        cycle_key: cycleKey,
+                        closingDate,
+                        dueDate: getDueDate(closingDate, account.pay_day),
+                        value: 0,
+                        movement_count: 0,
+                        ledger_account: expense.ledger_account
+                    };
+
+                    cycle.value += Math.abs(Number(expense.value) || 0);
+                    cycle.movement_count += 1;
+                    cycles.set(cycleKey, cycle);
+                }
+
+                for (const cycle of cycles.values()) {
+                    const dueDatetime = toSqlDatetime(cycle.dueDate);
+                    const roundedValue = Number(cycle.value.toFixed(2));
+                    const description = `Fatura ${account.description}`;
+
+                    const marked = await transaction.any(
+                        `UPDATE finance.moviments
+                            SET credit_bill = true,
+                                description = CASE
+                                    WHEN description IS NULL OR trim(description) = '' THEN $5
+                                    ELSE description
+                                END
+                          WHERE contract = $1
+                            AND credit_bill IS NULL
+                            AND moviment_account = $2
+                            AND value < 0
+                            AND date(datetime) = date($3::timestamp)
+                            AND round(abs(value)::numeric, 2) = round($4::numeric, 2)
+                          RETURNING *`,
+                        [contract, account.debit_account, dueDatetime, roundedValue, description]
+                    );
+                    markedBills.push(...marked);
+
+                    const existingBill = await transaction.oneOrNone(
+                        `SELECT moviments.*, status.description AS status_description
+                           FROM finance.moviments moviments
+                           LEFT JOIN finance.status status ON status.id = moviments.status
+                          WHERE moviments.contract = $1
+                            AND moviments.credit_bill = true
+                            AND moviments.moviment_account = $2
+                            AND date_trunc('month', moviments.datetime) = date_trunc('month', $3::timestamp)
+                            AND (
+                                moviments.description = $4
+                                OR round(abs(moviments.value)::numeric, 2) = round($5::numeric, 2)
+                            )
+                          ORDER BY moviments.id
+                          LIMIT 1`,
+                        [contract, account.debit_account, dueDatetime, description, roundedValue]
+                    );
+
+                    if (existingBill) {
+                        const isConsumed = String(existingBill.status_description ?? '').trim().toLowerCase() === 'consumado';
+
+                        if (!isConsumed && isFutureOrToday(cycle.dueDate)) {
+                            const updated = await transaction.one(
+                                `UPDATE finance.moviments
+                                    SET datetime = $2,
+                                        description = $3,
+                                        ledger_account = $4,
+                                        moviment_account = $5,
+                                        status = $6,
+                                        value = $7,
+                                        credit_bill = true
+                                  WHERE id = $1
+                                  RETURNING *`,
+                                [
+                                    existingBill.id,
+                                    dueDatetime,
+                                    description,
+                                    cycle.ledger_account,
+                                    account.debit_account,
+                                    provisionedStatus.id,
+                                    -roundedValue
+                                ]
+                            );
+                            updatedBills.push(updated);
+                        }
+
+                        continue;
+                    }
+
+                    if (!isFutureOrToday(cycle.dueDate)) {
+                        continue;
+                    }
+
+                    const missingBill = {
+                        account_id: account.id,
+                        account_description: account.description,
+                        cycle_key: cycle.cycle_key,
+                        due_datetime: dueDatetime,
+                        value: roundedValue,
+                        movement_count: cycle.movement_count
+                    };
+
+                    if (!createMissing) {
+                        missingBills.push(missingBill);
+                        continue;
+                    }
+
+                    const created = await transaction.one(
+                        `INSERT INTO finance.moviments (
+                            contract,
+                            "user",
+                            datetime,
+                            description,
+                            ledger_account,
+                            moviment_account,
+                            status,
+                            value,
+                            credit_bill
+                         )
+                         VALUES ($1, $2, $3, $4, $5, $6, $7, $8, true)
+                         RETURNING *`,
+                        [
+                            contract,
+                            user,
+                            dueDatetime,
+                            description,
+                            cycle.ledger_account,
+                            account.debit_account,
+                            provisionedStatus.id,
+                            -roundedValue
+                        ]
+                    );
+                    createdBills.push(created);
+                }
+            }
+
+            return {
+                missingBills,
+                createdBills,
+                updatedBills,
+                markedBills
+            };
+        });
+    } catch (error) {
+        console.log(`Error syncing credit bills`, error);
+        throw error;
+    }
+}
+
 async function getFinanceSettings(contract: any) {
     try {
         const contractId = normalizeNullableInteger(contract, 'contract');
@@ -2066,7 +2355,7 @@ async function getFinanceSettings(contract: any) {
         const contractFilter = 'WHERE contract = $1 OR contract IS NULL';
 
         const accounts = await dbloglife.any(
-            `SELECT id, description, icon, contract, start_date, start_value, closing_day, account_type
+            `SELECT id, description, icon, contract, start_date, start_value, closing_day, pay_day, debit_account, account_type
                FROM finance.moviment_accounts
                ${contractFilter}
               ORDER BY description NULLS LAST, id`,
@@ -2101,6 +2390,7 @@ async function getFinanceSettings(contract: any) {
 async function addMovimentAccount(body: any) {
     try {
         const account = normalizeMovimentAccountPayload(body?.account ?? body);
+        await assertMovimentAccountBillingAccess(account);
         const result = await dbloglife.one(
             `INSERT INTO finance.moviment_accounts (
                 description,
@@ -2109,9 +2399,11 @@ async function addMovimentAccount(body: any) {
                 start_date,
                 start_value,
                 closing_day,
+                pay_day,
+                debit_account,
                 account_type
              )
-             VALUES ($1, $2, $3, $4, $5, $6, $7)
+             VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
              RETURNING *`,
             getMovimentAccountValues(account)
         );
@@ -2128,6 +2420,7 @@ async function editMovimentAccount(body: any) {
         const accountBody = body?.account ?? body?.updatedData ?? body;
         const id = normalizeSettingsId(body?.id ?? accountBody?.id, 'account');
         const account = normalizeMovimentAccountPayload(accountBody);
+        await assertMovimentAccountBillingAccess(account);
         const result = await dbloglife.oneOrNone(
             `UPDATE finance.moviment_accounts
                 SET description = $1,
@@ -2136,8 +2429,10 @@ async function editMovimentAccount(body: any) {
                     start_date = $4,
                     start_value = $5,
                     closing_day = $6,
-                    account_type = $7
-              WHERE id = $8 AND contract = $3
+                    pay_day = $7,
+                    debit_account = $8,
+                    account_type = $9
+              WHERE id = $10 AND contract = $3
               RETURNING *`,
             [
                 ...getMovimentAccountValues(account),
@@ -2295,6 +2590,7 @@ export {
     editMoviment,
     deleteMoviment,
     toggleMovimentCreditStatus,
+    syncCreditBills,
     addMovimentAccount,
     editMovimentAccount,
     deleteMovimentAccount,
