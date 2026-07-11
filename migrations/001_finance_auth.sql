@@ -40,7 +40,13 @@ DECLARE
     last_cycle jsonb := '{}'::jsonb;
     cycle_start date;
 BEGIN
-    SELECT jsonb_object_agg(x.description, 0::numeric)
+    SELECT jsonb_object_agg(
+               x.description,
+               CASE
+                   WHEN x.account_type = 0 THEN COALESCE(NULLIF(x.start_value::text, '')::numeric, 0)
+                   ELSE 0::numeric
+               END
+           )
       INTO balance
       FROM finance.moviment_accounts x
      WHERE x.contract = p_contract;
@@ -64,7 +70,13 @@ BEGIN
          ORDER BY a.datetime
     LOOP
         FOR account IN
-            SELECT x.description, x.closing_day
+            SELECT x.description,
+                   x.closing_day,
+                   x.account_type,
+                   CASE
+                       WHEN x.account_type = 0 THEN COALESCE(NULLIF(x.start_value::text, '')::numeric, 0)
+                       ELSE 0::numeric
+                   END AS start_value
               FROM finance.moviment_accounts x
              WHERE x.contract = p_contract
         LOOP
@@ -81,7 +93,7 @@ BEGIN
 
             IF account.closing_day > 0 AND cycle_start IS NOT NULL THEN
                 IF (last_cycle ->> account.description) IS DISTINCT FROM cycle_start::text THEN
-                    balance := balance || jsonb_build_object(account.description, 0);
+                    balance := balance || jsonb_build_object(account.description, account.start_value);
                     last_cycle := last_cycle || jsonb_build_object(account.description, cycle_start);
                 END IF;
             END IF;
