@@ -9,7 +9,7 @@ import { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, fee
 import { fetchDataFromPark4Night } from './services/providers/park4night';
 import { insertGeoData } from './services/postgresql';
 import { analyzeMovimentReceipt } from './services/receipt';
-import { getContractJoinCode, registerWithPassword, requireFinanceAuth, signInWithGoogle, signInWithPassword, withFinanceIdentity } from './auth';
+import { getContractJoinCode, getContractOnboardingSetup, registerWithPassword, requireFinanceAuth, saveContractOnboardingSetup, signInWithGoogle, signInWithPassword, withFinanceIdentity } from './auth';
 //import { startScanning } from './services/bluethoot';
 
 //import { fetchAndProcessPlaylist, getCategories, getChanelByCategory } from './services/providers/foxIpTv';
@@ -655,6 +655,26 @@ app.get('/auth/contract', requireFinanceAuth, async (req: Request, res: Response
     } catch (error: any) {
         console.error('Error:', error);
         res.status(500).json({ message: 'Error retrieving contract' });
+    }
+});
+
+app.get('/auth/contract/onboarding', requireFinanceAuth, async (req: Request, res: Response) => {
+    try {
+        const setup = await getContractOnboardingSetup(req.auth!.contractId);
+        res.json({ message: 'Contract onboarding retrieved successfully', data: setup });
+    } catch (error: any) {
+        console.error('Error:', error);
+        res.status(500).json({ message: 'Error retrieving contract onboarding' });
+    }
+});
+
+app.post('/auth/contract/onboarding', requireFinanceAuth, async (req: Request, res: Response) => {
+    try {
+        const setup = await saveContractOnboardingSetup(req.auth!.contractId, req.body?.onboardingSetup);
+        res.json({ message: 'Contract onboarding saved successfully', data: setup });
+    } catch (error: any) {
+        console.error('Error:', error);
+        res.status(500).json({ message: 'Error saving contract onboarding' });
     }
 });
 

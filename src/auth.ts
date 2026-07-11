@@ -275,6 +275,25 @@ export async function getContractJoinCode(contractId: number) {
     );
 }
 
+export async function getContractOnboardingSetup(contractId: number) {
+    return dbloglife.one<{ onboardingSetup: any | null }>(
+        `SELECT onboarding_setup AS "onboardingSetup"
+           FROM finance.contracts
+          WHERE id = $1`,
+        [contractId]
+    );
+}
+
+export async function saveContractOnboardingSetup(contractId: number, onboardingSetup: unknown) {
+    return dbloglife.one<{ onboardingSetup: any }>(
+        `UPDATE finance.contracts
+            SET onboarding_setup = $2::jsonb
+          WHERE id = $1
+          RETURNING onboarding_setup AS "onboardingSetup"`,
+        [contractId, JSON.stringify(onboardingSetup ?? {})]
+    );
+}
+
 export function requireFinanceAuth(req: Request, res: Response, next: NextFunction): void {
     const authorization = req.header('Authorization') ?? '';
     const token = authorization.startsWith('Bearer ') ? authorization.slice(7) : '';
