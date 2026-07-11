@@ -10,6 +10,8 @@ export interface AuthSession {
     userId: number;
     contractId: number;
     username: string;
+    name: string | null;
+    email: string | null;
 }
 
 declare global {
@@ -24,6 +26,7 @@ interface UserRecord {
     id: number;
     contrato: number;
     username: string;
+    name: string | null;
     password: string | null;
     google_sub: string | null;
     email: string | null;
@@ -41,7 +44,9 @@ function issueSession(user: UserRecord) {
     const session: AuthSession = {
         userId: user.id,
         contractId: user.contrato,
-        username: user.username
+        username: user.username,
+        name: user.name,
+        email: user.email
     };
 
     return {
@@ -152,7 +157,7 @@ export async function signInWithPassword(username: unknown, password: unknown) {
     }
 
     const user = await dbloglife.oneOrNone<UserRecord>(
-        `SELECT id, contrato, username, password, google_sub, email
+        `SELECT id, contrato, username, name, password, google_sub, email
            FROM finance.users
           WHERE lower(username) = lower($1)
           LIMIT 1`,
@@ -198,10 +203,10 @@ export async function registerWithPassword(
         const contract = requestedContract ?? await createContract(transaction, normalizedUsername);
         const passwordHash = await bcrypt.hash(normalizedPassword, 12);
         const user = await transaction.one<UserRecord>(
-            `INSERT INTO finance.users (contrato, username, password, email)
-             VALUES ($1, $2, $3, $4)
-             RETURNING id, contrato, username, password, google_sub, email`,
-            [contract.id, normalizedUsername, passwordHash, normalizedEmail]
+            `INSERT INTO finance.users (contrato, username, name, password, email)
+             VALUES ($1, $2, $3, $4, $5)
+             RETURNING id, contrato, username, name, password, google_sub, email`,
+            [contract.id, normalizedUsername, normalizedUsername, passwordHash, normalizedEmail]
         );
 
         return issueSession(user);
@@ -216,7 +221,7 @@ export async function signInWithGoogle(credential: unknown) {
 
     return dbloglife.tx(async (transaction) => {
         const existingUser = await transaction.oneOrNone<UserRecord>(
-            `SELECT id, contrato, username, password, google_sub, email
+            `SELECT id, contrato, username, name, password, google_sub, email
                FROM finance.users
               WHERE google_sub = $1
               LIMIT 1`,
@@ -237,14 +242,99 @@ export async function signInWithGoogle(credential: unknown) {
         const contract = await createContract(transaction, profile.name);
         const username = await buildUniqueGoogleUsername(transaction, profile.email);
         const user = await transaction.one<UserRecord>(
-            `INSERT INTO finance.users (contrato, username, email, google_sub)
-             VALUES ($1, $2, $3, $4)
-             RETURNING id, contrato, username, password, google_sub, email`,
-            [contract.id, username, profile.email, profile.sub]
+            `INSERT INTO finance.users (contrato, username, name, email, google_sub)
+             VALUES ($1, $2, $3, $4, $5)
+             RETURNING id, contrato, username, name, password, google_sub, email`,
+            [contract.id, username, profile.name, profile.email, profile.sub]
         );
 
         return issueSession(user);
     });
+}
+
+export async function getUserProfile(userId: number) {
+    const user = await dbloglife.one<UserRecord>(
+        `SELECT id, contrato, username, name, password, google_sub, email
+           FROM finance.users
+          WHERE id = $1`,
+        [userId]
+    );
+
+    return toProfile(user);
+}
+
+export async function saveUserProfile(userId: number, payload: unknown) {
+    const data = payload as { name?: unknown; username?: unknown; email?: unknown };
+    const name = normalizeRequired(data?.name);
+    const username = normalizeRequired(data?.username);
+    const email = normalizeRequired(data?.email).toLowerCase();
+
+    if (!name || !username || !email || !email.includes('@')) {
+        throw new Error('Invalid profile fields');
+    }
+
+    const duplicate = await dbloglife.oneOrNone(
+        `SELECT 1
+           FROM finance.users
+          WHERE id <> $1
+            AND (lower(username) = lower($2) OR lower(email) = lower($3))
+          LIMIT 1`,
+        [userId, username, email]
+    );
+    if (duplicate) {
+        throw new Error('Username or email already registered');
+    }
+
+    const user = await dbloglife.one<UserRecord>(
+        `UPDATE finance.users
+            SET name = $2,
+                username = $3,
+                email = $4
+          WHERE id = $1
+          RETURNING id, contrato, username, name, password, google_sub, email`,
+        [userId, name, username, email]
+    );
+
+    return toProfile(user);
+}
+
+export async function changeUserPassword(userId: number, currentPassword: unknown, newPassword: unknown) {
+    const normalizedCurrentPassword = String(currentPassword ?? '');
+    const normalizedNewPassword = String(newPassword ?? '');
+
+    if (normalizedNewPassword.length < 8) {
+        throw new Error('Password must contain at least 8 characters');
+    }
+
+    const user = await dbloglife.one<UserRecord>(
+        `SELECT id, contrato, username, name, password, google_sub, email
+           FROM finance.users
+          WHERE id = $1`,
+        [userId]
+    );
+
+    if (user.password && !(await bcrypt.compare(normalizedCurrentPassword, user.password))) {
+        throw new Error('Current password is invalid');
+    }
+
+    const passwordHash = await bcrypt.hash(normalizedNewPassword, 12);
+    await dbloglife.none(
+        `UPDATE finance.users
+            SET password = $2
+          WHERE id = $1`,
+        [userId, passwordHash]
+    );
+}
+
+function toProfile(user: UserRecord) {
+    return {
+        id: user.id,
+        contractId: user.contrato,
+        username: user.username,
+        name: user.name,
+        email: user.email,
+        hasPassword: Boolean(user.password)
+    };
 }
 
 export async function getContractJoinCode(contractId: number) {

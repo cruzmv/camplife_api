@@ -9,7 +9,7 @@ import { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, fee
 import { fetchDataFromPark4Night } from './services/providers/park4night';
 import { insertGeoData } from './services/postgresql';
 import { analyzeMovimentReceipt } from './services/receipt';
-import { getContractJoinCode, getContractOnboardingSetup, registerWithPassword, requireFinanceAuth, saveContractOnboardingSetup, signInWithGoogle, signInWithPassword, withFinanceIdentity } from './auth';
+import { changeUserPassword, getContractJoinCode, getContractOnboardingSetup, getUserProfile, registerWithPassword, requireFinanceAuth, saveContractOnboardingSetup, saveUserProfile, signInWithGoogle, signInWithPassword, withFinanceIdentity } from './auth';
 //import { startScanning } from './services/bluethoot';
 
 //import { fetchAndProcessPlaylist, getCategories, getChanelByCategory } from './services/providers/foxIpTv';
@@ -645,6 +645,36 @@ app.post('/auth/google', async (req: Request, res: Response) => {
     } catch (error: any) {
         console.error('Error:', error);
         res.status(401).json({ message: 'Invalid Google sign-in' });
+    }
+});
+
+app.get('/auth/me', requireFinanceAuth, async (req: Request, res: Response) => {
+    try {
+        const user = await getUserProfile(req.auth!.userId);
+        res.json({ message: 'User retrieved successfully', data: { user } });
+    } catch (error: any) {
+        console.error('Error:', error);
+        res.status(500).json({ message: 'Error retrieving user' });
+    }
+});
+
+app.post('/auth/me', requireFinanceAuth, async (req: Request, res: Response) => {
+    try {
+        const user = await saveUserProfile(req.auth!.userId, req.body);
+        res.json({ message: 'User saved successfully', data: { user } });
+    } catch (error: any) {
+        console.error('Error:', error);
+        res.status(400).json({ message: error?.message ?? 'Error saving user' });
+    }
+});
+
+app.post('/auth/password', requireFinanceAuth, async (req: Request, res: Response) => {
+    try {
+        await changeUserPassword(req.auth!.userId, req.body?.currentPassword, req.body?.newPassword);
+        res.json({ message: 'Password changed successfully' });
+    } catch (error: any) {
+        console.error('Error:', error);
+        res.status(400).json({ message: error?.message ?? 'Error changing password' });
     }
 });
 
