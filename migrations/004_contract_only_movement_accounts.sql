@@ -1,22 +1,3 @@
-ALTER TABLE finance.users
-    ADD COLUMN IF NOT EXISTS email varchar(320),
-    ADD COLUMN IF NOT EXISTS google_sub varchar(255);
-
-CREATE UNIQUE INDEX IF NOT EXISTS users_google_sub_uidx
-    ON finance.users (google_sub)
-    WHERE google_sub IS NOT NULL;
-
-CREATE UNIQUE INDEX IF NOT EXISTS users_contract_username_uidx
-    ON finance.users (contrato, lower(username));
-
-CREATE UNIQUE INDEX IF NOT EXISTS users_contract_email_uidx
-    ON finance.users (contrato, lower(email))
-    WHERE email IS NOT NULL;
-
-CREATE UNIQUE INDEX IF NOT EXISTS contracts_name_uidx
-    ON finance.contracts (lower(name))
-    WHERE name IS NOT NULL;
-
 CREATE OR REPLACE FUNCTION finance.balance(p_contract integer)
 RETURNS TABLE(
     id integer,
@@ -109,8 +90,3 @@ BEGIN
     END LOOP;
 END
 $function$;
-
--- Set a password using bcrypt before enabling password login for an existing user.
--- Example Node command:
--- node -e "console.log(require('bcryptjs').hashSync('replace-me', 12))"
--- UPDATE finance.users SET password = '<bcrypt hash>', email = 'name@example.com' WHERE id = 1;

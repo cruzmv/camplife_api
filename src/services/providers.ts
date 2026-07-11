@@ -406,7 +406,7 @@ async function assertMovimentSettingsAccess(moviment: MovimentPayload): Promise<
                  )
              AND EXISTS (
                     SELECT 1 FROM finance.moviment_accounts
-                     WHERE id = $3 AND (contract = $1 OR contract IS NULL)
+                     WHERE id = $3 AND contract = $1
                  )
              AND EXISTS (
                     SELECT 1 FROM finance.status
@@ -432,10 +432,10 @@ async function assertMovimentAccountBillingAccess(account: MovimentAccountPayloa
 
     const debitAccount = await dbloglife.oneOrNone(
         `SELECT 1
-           FROM finance.moviment_accounts
+          FROM finance.moviment_accounts
           WHERE id = $1
             AND account_type = 0
-            AND (contract = $2 OR contract IS NULL)
+            AND contract = $2
           LIMIT 1`,
         [account.debit_account, account.contract]
     );
@@ -2353,11 +2353,12 @@ async function getFinanceSettings(contract: any) {
         const contractId = normalizeNullableInteger(contract, 'contract');
         const params = [contractId];
         const contractFilter = 'WHERE contract = $1 OR contract IS NULL';
+        const contractOnlyFilter = 'WHERE contract = $1';
 
         const accounts = await dbloglife.any(
             `SELECT id, description, icon, contract, start_date, start_value, closing_day, pay_day, debit_account, account_type
                FROM finance.moviment_accounts
-               ${contractFilter}
+               ${contractOnlyFilter}
               ORDER BY description NULLS LAST, id`,
             params
         );

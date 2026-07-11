@@ -80,25 +80,6 @@ async function initializeContractDefaults(transaction: any, contractId: number) 
     );
 
     await transaction.none(
-        `INSERT INTO finance.moviment_accounts (
-            description,
-            contract,
-            start_date,
-            start_value,
-            closing_day,
-            account_type
-         )
-         SELECT description,
-                $1,
-                start_date,
-                start_value,
-                closing_day,
-                account_type
-           FROM finance.moviment_accounts_default`,
-        [contractId]
-    );
-
-    await transaction.none(
         `INSERT INTO finance.status (description, contract)
          SELECT description, $1
            FROM finance.status_default`,
