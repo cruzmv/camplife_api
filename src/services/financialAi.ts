@@ -312,6 +312,7 @@ async function analyzeFinancialSnapshot(body: {
         return fallback;
     }
 
+    const model = process.env.OPENAI_MODEL?.trim() || 'gpt-4.1-mini';
 
     console.log('[financial-ai] Calling OpenAI model', model);
 
