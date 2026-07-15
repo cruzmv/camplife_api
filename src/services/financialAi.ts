@@ -305,10 +305,13 @@ async function analyzeFinancialSnapshot(body: {
     rows: BalanceRow[];
     settings: FinanceSettings;
 }): Promise<FinancialAiAnalysis> {
+    console.log('MVC1');
     const fallback = buildAnalysis(body);
+    console.log('MVC2');
     const apiKey = process.env.OPENAI_API_KEY?.trim();
-
+    console.log('MVC3');
     if (!apiKey) {
+        console.log('MVC4');
         return fallback;
     }
 
