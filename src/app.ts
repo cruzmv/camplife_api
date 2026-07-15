@@ -8,6 +8,7 @@ import { getPlacesList, latlong, getCruiserList, getIntermacheList, getcampingca
 import { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList, updateAREASACList, updateCAMPINGCARPARKList, getREVOLUTIONList, getBLOOMESTLAUNDRYList, updateLAWASHList, searchOpenRoute, updateCAMPERSTOPList, updateCAMPERCONTACTList, updateAIRECAMPINGCARList, updateParkingVerde, getPlannings, addPlanning, editPlanning, deletePlanning, getFinanceSettings, addMoviment, editMoviment, deleteMoviment, toggleMovimentCreditStatus, syncCreditBills, addMovimentAccount, editMovimentAccount, deleteMovimentAccount, addLedgerAccount, editLedgerAccount, deleteLedgerAccount, addStatus, editStatus, deleteStatus } from './services/providers';
 import { fetchDataFromPark4Night } from './services/providers/park4night';
 import { insertGeoData } from './services/postgresql';
+import { analyzeFinancialSnapshot } from './services/financialAi';
 import { analyzeMovimentReceipt } from './services/receipt';
 import { changeUserPassword, getContractJoinCode, getContractOnboardingSetup, getUserProfile, registerWithPassword, requireFinanceAuth, saveContractOnboardingSetup, saveUserProfile, signInWithGoogle, signInWithPassword, withFinanceIdentity } from './auth';
 //import { startScanning } from './services/bluethoot';
@@ -729,6 +730,7 @@ app.use([
     '/add_status',
     '/edit_status',
     '/delete_status',
+    '/financial_ai_analysis',
     '/analyze_moviment_receipt'
 ], requireFinanceAuth);
 
@@ -848,6 +850,26 @@ app.get('/get_finance_settings', async (req: Request, res: Response) => {
         console.error('Error:', error);
         const statusCode = error?.message?.includes('Invalid') ? 400 : 500;
         res.status(statusCode).json({ message: error?.message ?? 'Error retrieving finance settings' });
+    }
+});
+
+app.post('/financial_ai_analysis', async (req: Request, res: Response) => {
+    try {
+        const [rows, settings] = await Promise.all([
+            getBalance(req.auth!.contractId),
+            getFinanceSettings(req.auth!.contractId),
+        ]);
+        const result = await analyzeFinancialSnapshot({
+            period: req.body?.period,
+            rows,
+            settings,
+        });
+
+        res.json({ message: 'Financial analysis generated successfully', data: result });
+    } catch (error: any) {
+        console.error('Error:', error);
+        const statusCode = error?.message?.includes('Invalid') ? 400 : 500;
+        res.status(statusCode).json({ message: error?.message ?? 'Error generating financial analysis' });
     }
 });
 
