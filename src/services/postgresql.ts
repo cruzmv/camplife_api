@@ -427,8 +427,8 @@ interface AppAccessData {
 }
 
 async function insertAppAccess(reqIp: string, data: AppAccessData): Promise<void> {
-    await db.none(
-        `INSERT INTO app_access_log (
+    await dbloglife.none(
+        `INSERT INTO admin.app_access_log (
             event_id, event_type, installation_id, session_id, client_timestamp, ip,
             platform, app_version, app_build, app_id, language, timezone,
             screen, user_agent, origin
