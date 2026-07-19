@@ -7,7 +7,7 @@ import fs from 'fs';
 import { getPlacesList, latlong, getCruiserList, getIntermacheList, getcampingcarportugalList, getEuroStopslList, getareasacList, getPark4NightMyDB, getcampingcarparkList, LAWASHList, getcamperstopList, getcampercontactList, getparkingverde, getBalance } from './controllers/places';
 import { updatePark4NightCoordinates, updateCruiserList, updatePark4NightDB, feedPark4NightDB, updateIntermacheList, updateEuroStopsList, updateASAList, updateAREASACList, updateCAMPINGCARPARKList, getREVOLUTIONList, getBLOOMESTLAUNDRYList, updateLAWASHList, searchOpenRoute, updateCAMPERSTOPList, updateCAMPERCONTACTList, updateAIRECAMPINGCARList, updateParkingVerde, getPlannings, addPlanning, editPlanning, deletePlanning, getFinanceSettings, addMoviment, editMoviment, deleteMoviment, toggleMovimentCreditStatus, syncCreditBills, addMovimentAccount, editMovimentAccount, deleteMovimentAccount, addLedgerAccount, editLedgerAccount, deleteLedgerAccount, addStatus, editStatus, deleteStatus } from './services/providers';
 import { fetchDataFromPark4Night } from './services/providers/park4night';
-import { insertGeoData } from './services/postgresql';
+import { insertAppAccess, insertGeoData } from './services/postgresql';
 import { analyzeFinancialSnapshot } from './services/financialAi';
 import { analyzeMovimentReceipt } from './services/receipt';
 import { changeUserPassword, getContractJoinCode, getContractOnboardingSetup, getUserProfile, registerWithPassword, requireFinanceAuth, saveContractOnboardingSetup, saveUserProfile, signInWithGoogle, signInWithPassword, withFinanceIdentity } from './auth';
@@ -18,6 +18,8 @@ import { changeUserPassword, getContractJoinCode, getContractOnboardingSetup, ge
 
 
 const app = express();
+// Set TRUST_PROXY=1 only when the API is deployed behind one trusted reverse proxy.
+app.set('trust proxy', process.env.TRUST_PROXY === '1' ? 1 : false);
 //const port = 3000;
 const httpPort = 3000; // HTTP port for redirection
 const httpsPort = 3001; // HTTPS
@@ -617,6 +619,54 @@ app.post('/auth/login', async (req: Request, res: Response) => {
     } catch (error: any) {
         console.error('Error:', error);
         res.status(500).json({ message: error?.message ?? 'Error signing in' });
+    }
+});
+
+app.post('/app-access', async (req: Request, res: Response) => {
+    const value = (name: string, maxLength: number): string | undefined => {
+        const field = req.body?.[name];
+        return typeof field === 'string' && field.length > 0
+            ? field.slice(0, maxLength)
+            : undefined;
+    };
+
+    const eventType = value('eventType', 32);
+    const eventId = value('eventId', 100);
+    const installationId = value('installationId', 100);
+    const sessionId = value('sessionId', 100);
+    const clientTimestamp = value('clientTimestamp', 40);
+
+    if (!eventId || !eventType || !['app_open', 'app_resume'].includes(eventType) || !installationId || !sessionId) {
+        res.status(400).json({ message: 'Invalid access event' });
+        return;
+    }
+    if (clientTimestamp && Number.isNaN(Date.parse(clientTimestamp))) {
+        res.status(400).json({ message: 'Invalid client timestamp' });
+        return;
+    }
+
+    try {
+        const requestIp = req.ip || req.socket.remoteAddress || '0.0.0.0';
+        await insertAppAccess(requestIp, {
+            eventId,
+            eventType,
+            installationId,
+            sessionId,
+            clientTimestamp,
+            platform: value('platform', 32),
+            appVersion: value('appVersion', 32),
+            appBuild: value('appBuild', 32),
+            appId: value('appId', 150),
+            language: value('language', 32),
+            timezone: value('timezone', 100),
+            screen: value('screen', 32),
+            userAgent: req.get('user-agent')?.slice(0, 1000),
+            origin: req.get('origin')?.slice(0, 500),
+        });
+        res.status(201).json({ message: 'Access recorded' });
+    } catch (error: any) {
+        console.error('[app-access] Unable to record access', error?.message || error);
+        res.status(500).json({ message: 'Unable to record access' });
     }
 });
 

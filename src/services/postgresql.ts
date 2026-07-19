@@ -409,12 +409,59 @@ async function insertGeoData(reqIp: string, geoData: any): Promise<void> {
     }
 }
 
+interface AppAccessData {
+    eventId: string;
+    eventType: string;
+    installationId: string;
+    sessionId: string;
+    clientTimestamp?: string;
+    platform?: string;
+    appVersion?: string;
+    appBuild?: string;
+    appId?: string;
+    language?: string;
+    timezone?: string;
+    screen?: string;
+    userAgent?: string;
+    origin?: string;
+}
+
+async function insertAppAccess(reqIp: string, data: AppAccessData): Promise<void> {
+    await db.none(
+        `INSERT INTO app_access_log (
+            event_id, event_type, installation_id, session_id, client_timestamp, ip,
+            platform, app_version, app_build, app_id, language, timezone,
+            screen, user_agent, origin
+        ) VALUES (
+            $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15
+        ) ON CONFLICT (event_id) DO NOTHING`,
+        [
+            data.eventId,
+            data.eventType,
+            data.installationId,
+            data.sessionId,
+            data.clientTimestamp || null,
+            reqIp,
+            data.platform || null,
+            data.appVersion || null,
+            data.appBuild || null,
+            data.appId || null,
+            data.language || null,
+            data.timezone || null,
+            data.screen || null,
+            data.userAgent || null,
+            data.origin || null,
+        ]
+    );
+}
+
 export { 
     db, 
     dbloglife,
     insertOrUpdatePlaces, 
     insertOrUpdateCruiserList, 
-    insertGeoData, 
+    insertGeoData,
+    insertAppAccess,
     updatePGPlaces, 
     updateCampings, 
     updatePGIntermache, 
