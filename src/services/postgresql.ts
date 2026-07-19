@@ -411,6 +411,7 @@ async function insertGeoData(reqIp: string, geoData: any): Promise<void> {
 
 interface AppAccessData {
     eventId: string;
+    applicationName: string;
     eventType: string;
     installationId: string;
     sessionId: string;
@@ -429,14 +430,15 @@ interface AppAccessData {
 async function insertAppAccess(reqIp: string, data: AppAccessData): Promise<void> {
     await dbloglife.none(
         `INSERT INTO admin.app_access_log (
-            event_id, event_type, installation_id, session_id, client_timestamp, ip,
+            event_id, application_name, event_type, installation_id, session_id, client_timestamp, ip,
             platform, app_version, app_build, app_id, language, timezone,
             screen, user_agent, origin
         ) VALUES (
-            $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15
+            $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16
         ) ON CONFLICT (event_id) DO NOTHING`,
         [
             data.eventId,
+            data.applicationName,
             data.eventType,
             data.installationId,
             data.sessionId,

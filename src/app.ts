@@ -632,11 +632,12 @@ app.post('/app-access', async (req: Request, res: Response) => {
 
     const eventType = value('eventType', 32);
     const eventId = value('eventId', 100);
+    const applicationName = value('applicationName', 100);
     const installationId = value('installationId', 100);
     const sessionId = value('sessionId', 100);
     const clientTimestamp = value('clientTimestamp', 40);
 
-    if (!eventId || !eventType || !['app_open', 'app_resume'].includes(eventType) || !installationId || !sessionId) {
+    if (!eventId || !applicationName || !eventType || !['app_open', 'app_resume'].includes(eventType) || !installationId || !sessionId) {
         res.status(400).json({ message: 'Invalid access event' });
         return;
     }
@@ -649,6 +650,7 @@ app.post('/app-access', async (req: Request, res: Response) => {
         const requestIp = req.ip || req.socket.remoteAddress || '0.0.0.0';
         await insertAppAccess(requestIp, {
             eventId,
+            applicationName,
             eventType,
             installationId,
             sessionId,
