@@ -269,12 +269,27 @@ async function getBalance(contractId: number): Promise<any[]> {
               moviments.credit_status,
               moviments.credit_bill,
               moviments.planning,
+              transfers.id AS transfer_id,
+              CASE
+                WHEN transfers.source_moviment_id = moviments.id THEN 'source'
+                WHEN transfers.destination_moviment_id = moviments.id THEN 'destination'
+                ELSE NULL
+              END AS transfer_side,
+              counterpart.moviment_account AS transfer_counterpart_account_id,
               moviment_accounts.account_type
         from finance.balance($1) balance
         left join finance.moviments moviments
           on moviments.id = balance.id
         left join finance.moviment_accounts moviment_accounts
           on moviment_accounts.id = moviments.moviment_account
+        left join finance.moviment_transfers transfers
+          on transfers.source_moviment_id = moviments.id
+          or transfers.destination_moviment_id = moviments.id
+        left join finance.moviments counterpart
+          on counterpart.id = case
+            when transfers.source_moviment_id = moviments.id then transfers.destination_moviment_id
+            else transfers.source_moviment_id
+          end
       `,
       [contractId]);
     

@@ -31,6 +31,22 @@ interface PlanningPayload {
     value: string | number | null;
 }
 
+interface TransferPayload {
+    contract: number;
+    user: number;
+    datetime: string;
+    description: string;
+    ledger_account: number;
+    source_account: number;
+    destination_account: number;
+    status: number;
+    value: number;
+    recurrence: {
+        day_of_month: number;
+        end_date: string;
+    } | null;
+}
+
 interface MovimentAccountPayload {
     description: string | null;
     icon: string | null;
@@ -131,6 +147,125 @@ function normalizeMovimentId(value: any): number {
     }
 
     return id;
+}
+
+async function setMovimentAuditContext(
+    transaction: any,
+    actorUserId: number | null,
+    requestId: unknown
+): Promise<void> {
+    const normalizedRequestId = typeof requestId === 'string' &&
+        /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(requestId)
+        ? requestId
+        : '';
+
+    await transaction.one(
+        `SELECT set_config('app.user_id', $1, true) AS user_context,
+                set_config('app.request_id', $2, true) AS request_context`,
+        [actorUserId ? String(actorUserId) : '', normalizedRequestId]
+    );
+}
+
+function normalizeTransferPayload(body: any): TransferPayload {
+    if (!body || typeof body !== 'object') {
+        throw new Error('Invalid transfer body');
+    }
+
+    const contract = normalizeNullableInteger(body.contract, 'contract');
+    const user = normalizeNullableInteger(body.user, 'user');
+    const ledgerAccount = normalizeNullableInteger(body.ledger_account, 'ledger_account');
+    const sourceAccount = normalizeNullableInteger(body.source_account, 'source_account');
+    const destinationAccount = normalizeNullableInteger(body.destination_account, 'destination_account');
+    const status = normalizeNullableInteger(body.status, 'status');
+    const datetime = String(body.datetime ?? '');
+    const description = normalizeOptionalDescription(body.description);
+    const value = Number(body.value);
+
+    if (!contract || !user || !ledgerAccount || !sourceAccount || !destinationAccount || !status) {
+        throw new Error('Missing required transfer fields');
+    }
+
+    if (sourceAccount === destinationAccount) {
+        throw new Error('Invalid transfer accounts');
+    }
+
+    if (!description) {
+        throw new Error('Missing transfer description');
+    }
+
+    if (!datetime || Number.isNaN(new Date(datetime).getTime())) {
+        throw new Error('Invalid transfer datetime');
+    }
+
+    if (!Number.isFinite(value) || value <= 0) {
+        throw new Error('Invalid transfer value');
+    }
+
+    let recurrence: TransferPayload['recurrence'] = null;
+
+    if (body.recurrence) {
+        const dayOfMonth = Number(body.recurrence.day_of_month);
+        const endDate = String(body.recurrence.end_date ?? '');
+
+        if (!Number.isInteger(dayOfMonth) || dayOfMonth < 1 || dayOfMonth > 31) {
+            throw new Error('Invalid transfer recurrence day');
+        }
+
+        if (!/^\d{4}-\d{2}-\d{2}$/.test(endDate) || endDate < datetime.slice(0, 10)) {
+            throw new Error('Invalid transfer recurrence end date');
+        }
+
+        recurrence = { day_of_month: dayOfMonth, end_date: endDate };
+    }
+
+    return {
+        contract,
+        user,
+        datetime,
+        description,
+        ledger_account: ledgerAccount,
+        source_account: sourceAccount,
+        destination_account: destinationAccount,
+        status,
+        value,
+        recurrence
+    };
+}
+
+function buildMonthlyTransferDates(transfer: TransferPayload): string[] {
+    if (!transfer.recurrence) {
+        return [transfer.datetime];
+    }
+
+    const match = transfer.datetime.match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})(?::(\d{2}))?/);
+
+    if (!match) {
+        throw new Error('Invalid transfer datetime');
+    }
+
+    const startDate = transfer.datetime.slice(0, 10);
+    const time = `${match[4]}:${match[5]}:${match[6] ?? '00'}`;
+    let year = Number(match[1]);
+    let month = Number(match[2]);
+    const dates: string[] = [];
+
+    while (`${year}-${String(month).padStart(2, '0')}-01` <= transfer.recurrence.end_date) {
+        const lastDay = new Date(Date.UTC(year, month, 0)).getUTCDate();
+        const day = Math.min(transfer.recurrence.day_of_month, lastDay);
+        const date = `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+
+        if (date >= startDate && date <= transfer.recurrence.end_date) {
+            dates.push(`${date}T${time}`);
+        }
+
+        month += 1;
+        if (month > 12) {
+            month = 1;
+            year += 1;
+        }
+    }
+
+    return dates;
 }
 
 function normalizePlanningId(value: any): number {
@@ -1923,6 +2058,7 @@ async function addPlanning(body: any) {
     await assertPlanningSettingsAccess(planning, status.id);
 
     return dbloglife.tx(async transaction => {
+        await setMovimentAuditContext(transaction, planning.user, body?.request_id);
         await transaction.one(`SELECT pg_advisory_xact_lock(hashtext('finance.moviments.planning'))`);
         const nextPlanning = await transaction.one(
             `SELECT coalesce(max(planning), 0) + 1 AS planning FROM finance.moviments`
@@ -1941,6 +2077,7 @@ async function editPlanning(body: any) {
     await assertPlanningSettingsAccess(planning, status.id);
 
     return dbloglife.tx(async transaction => {
+        await setMovimentAuditContext(transaction, planning.user, body?.request_id);
         const existing = await transaction.oneOrNone(
             `SELECT 1 FROM finance.moviments WHERE planning = $1 AND contract = $2 LIMIT 1`,
             [planningId, planning.contract]
@@ -1963,46 +2100,220 @@ async function editPlanning(body: any) {
 async function deletePlanning(body: any) {
     const planningId = normalizePlanningId(body?.planning);
     const contract = normalizeNullableInteger(body?.contract, 'contract');
-    const result = await dbloglife.result(
-        `DELETE FROM finance.moviments WHERE planning = $1 AND contract = $2`,
-        [planningId, contract]
-    );
+    const user = normalizeNullableInteger(body?.user, 'user');
 
-    if (result.rowCount === 0) {
-        throw new Error('Planning not found');
-    }
+    return dbloglife.tx(async transaction => {
+        await setMovimentAuditContext(transaction, user, body?.request_id);
+        const result = await transaction.result(
+            `DELETE FROM finance.moviments WHERE planning = $1 AND contract = $2`,
+            [planningId, contract]
+        );
 
-    return { success: true, planning: planningId, deleted: result.rowCount };
+        if (result.rowCount === 0) {
+            throw new Error('Planning not found');
+        }
+
+        return { success: true, planning: planningId, deleted: result.rowCount };
+    });
 }
 
 async function addMoviment(body: any) {
     try{
         const moviment = normalizeMovimentPayload(body?.moviment ?? body);
         await assertMovimentSettingsAccess(moviment);
-        const insertedMoviment = await dbloglife.one(
-            `INSERT INTO finance.moviments (
-                contract,
-                "user",
-                datetime,
-                description,
-                ledger_account,
-                moviment_account,
-                status,
-                value
-             )
-             VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
-             RETURNING *`,
-            getMovimentValues(moviment)
-        );
+        return dbloglife.tx(async transaction => {
+            await setMovimentAuditContext(transaction, moviment.user, body?.request_id);
+            const insertedMoviment = await transaction.one(
+                `INSERT INTO finance.moviments (
+                    contract,
+                    "user",
+                    datetime,
+                    description,
+                    ledger_account,
+                    moviment_account,
+                    status,
+                    value
+                 )
+                 VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
+                 RETURNING *`,
+                getMovimentValues(moviment)
+            );
 
-        return {
-            success: true,
-            moviment: insertedMoviment
-        };
+            return {
+                success: true,
+                moviment: insertedMoviment
+            };
+        });
     } catch (error) {
         console.log(`Error adding moviment`, error);
         throw error;
     }
+}
+
+async function assertTransferAccess(transfer: TransferPayload, status: number): Promise<void> {
+    const common = {
+        contract: transfer.contract,
+        user: transfer.user,
+        datetime: transfer.datetime,
+        description: transfer.description,
+        ledger_account: transfer.ledger_account,
+        status
+    };
+
+    await Promise.all([
+        assertMovimentSettingsAccess({
+            ...common,
+            moviment_account: transfer.source_account,
+            value: -transfer.value
+        }),
+        assertMovimentSettingsAccess({
+            ...common,
+            moviment_account: transfer.destination_account,
+            value: transfer.value
+        })
+    ]);
+}
+
+async function insertTransferPair(
+    transaction: any,
+    transfer: TransferPayload,
+    datetime: string,
+    status: number,
+    seriesId: number | null
+) {
+    const sourceMoviment = await transaction.one(
+        `INSERT INTO finance.moviments (
+            contract, "user", datetime, description, ledger_account, moviment_account, status, value
+         ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
+         RETURNING *`,
+        [
+            transfer.contract,
+            transfer.user,
+            datetime,
+            transfer.description,
+            transfer.ledger_account,
+            transfer.source_account,
+            status,
+            -Math.abs(transfer.value)
+        ]
+    );
+    const destinationMoviment = await transaction.one(
+        `INSERT INTO finance.moviments (
+            contract, "user", datetime, description, ledger_account, moviment_account, status, value
+         ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
+         RETURNING *`,
+        [
+            transfer.contract,
+            transfer.user,
+            datetime,
+            transfer.description,
+            transfer.ledger_account,
+            transfer.destination_account,
+            status,
+            Math.abs(transfer.value)
+        ]
+    );
+    const relation = await transaction.one(
+        `INSERT INTO finance.moviment_transfers (
+            contract, series_id, source_moviment_id, destination_moviment_id
+         ) VALUES ($1, $2, $3, $4)
+         RETURNING *`,
+        [transfer.contract, seriesId, sourceMoviment.id, destinationMoviment.id]
+    );
+
+    return { relation, sourceMoviment, destinationMoviment };
+}
+
+async function addTransfer(body: any) {
+    const transfer = normalizeTransferPayload(body?.transfer ?? body);
+    const provisionedStatus = transfer.recurrence ? await getProvisionedStatus(transfer.contract) : null;
+    const status = provisionedStatus?.id ?? transfer.status;
+    await assertTransferAccess(transfer, status);
+    const dates = buildMonthlyTransferDates(transfer);
+
+    if (dates.length === 0) {
+        throw new Error('Invalid transfer recurrence dates');
+    }
+
+    return dbloglife.tx(async transaction => {
+        await setMovimentAuditContext(transaction, transfer.user, body?.request_id);
+        let seriesId: number | null = null;
+
+        if (transfer.recurrence) {
+            await transaction.one(`SELECT pg_advisory_xact_lock(hashtext('finance.moviment_transfers.series'))`);
+            const nextSeries = await transaction.one(
+                `SELECT coalesce(max(series_id), 0) + 1 AS series_id FROM finance.moviment_transfers`
+            );
+            seriesId = Number(nextSeries.series_id);
+        }
+
+        const pairs = [];
+        for (const datetime of dates) {
+            pairs.push(await insertTransferPair(transaction, transfer, datetime, status, seriesId));
+        }
+
+        return {
+            success: true,
+            transfer: pairs[0].relation,
+            moviment: pairs[0].sourceMoviment,
+            moviments: pairs.flatMap(pair => [pair.sourceMoviment, pair.destinationMoviment]),
+            series_id: seriesId
+        };
+    });
+}
+
+async function editTransfer(body: any) {
+    const transferId = normalizeMovimentId(body?.transfer_id);
+    const transfer = normalizeTransferPayload(body?.transfer ?? body);
+
+    if (transfer.recurrence) {
+        throw new Error('Invalid recurrence when editing transfer');
+    }
+
+    await assertTransferAccess(transfer, transfer.status);
+
+    return dbloglife.tx(async transaction => {
+        await setMovimentAuditContext(transaction, transfer.user, body?.request_id);
+        const relation = await transaction.oneOrNone(
+            `SELECT * FROM finance.moviment_transfers WHERE id = $1 AND contract = $2 FOR UPDATE`,
+            [transferId, transfer.contract]
+        );
+
+        if (!relation) {
+            throw new Error('Transfer not found');
+        }
+
+        const commonValues = [
+            transfer.user,
+            transfer.datetime,
+            transfer.description,
+            transfer.ledger_account,
+            transfer.status
+        ];
+        const sourceMoviment = await transaction.one(
+            `UPDATE finance.moviments
+                SET "user" = $1, datetime = $2, description = $3, ledger_account = $4,
+                    status = $5, moviment_account = $6, value = $7
+              WHERE id = $8 AND contract = $9
+              RETURNING *`,
+            [...commonValues, transfer.source_account, -Math.abs(transfer.value), relation.source_moviment_id, transfer.contract]
+        );
+        const destinationMoviment = await transaction.one(
+            `UPDATE finance.moviments
+                SET "user" = $1, datetime = $2, description = $3, ledger_account = $4,
+                    status = $5, moviment_account = $6, value = $7
+              WHERE id = $8 AND contract = $9
+              RETURNING *`,
+            [...commonValues, transfer.destination_account, Math.abs(transfer.value), relation.destination_moviment_id, transfer.contract]
+        );
+
+        return {
+            success: true,
+            transfer: relation,
+            moviment: sourceMoviment,
+            moviments: [sourceMoviment, destinationMoviment]
+        };
+    });
 }
 
 async function editMoviment(body: any) {
@@ -2012,32 +2323,56 @@ async function editMoviment(body: any) {
         const updatedMoviment = normalizeMovimentPayload(movimentBody);
         await assertMovimentSettingsAccess(updatedMoviment);
 
-        const result = await dbloglife.oneOrNone(
-            `UPDATE finance.moviments
-                SET contract = $1,
-                    "user" = $2,
-                    datetime = $3,
-                    description = $4,
-                    ledger_account = $5,
-                    moviment_account = $6,
-                    status = $7,
-                    value = $8
-              WHERE id = $9 AND contract = $1
-              RETURNING *`,
-            [
-                ...getMovimentValues(updatedMoviment),
-                id
-            ]
-        );
+        return dbloglife.tx(async transaction => {
+            await setMovimentAuditContext(transaction, updatedMoviment.user, body?.request_id);
+            const result = await transaction.oneOrNone(
+                `UPDATE finance.moviments
+                    SET contract = $1,
+                        "user" = $2,
+                        datetime = $3,
+                        description = $4,
+                        ledger_account = $5,
+                        moviment_account = $6,
+                        status = $7,
+                        value = $8
+                  WHERE id = $9 AND contract = $1
+                  RETURNING *`,
+                [...getMovimentValues(updatedMoviment), id]
+            );
 
-        if (!result) {
-            throw new Error('Moviment not found');
-        }
+            if (!result) {
+                throw new Error('Moviment not found');
+            }
 
-        return {
-            success: true,
-            moviment: result
-        };
+            const relation = await transaction.oneOrNone(
+                `SELECT * FROM finance.moviment_transfers
+                  WHERE contract = $1 AND (source_moviment_id = $2 OR destination_moviment_id = $2)
+                  FOR UPDATE`,
+                [updatedMoviment.contract, id]
+            );
+
+            if (relation) {
+                const counterpartId = relation.source_moviment_id === id
+                    ? relation.destination_moviment_id
+                    : relation.source_moviment_id;
+                await transaction.none(
+                    `UPDATE finance.moviments
+                        SET datetime = $1, description = $2, ledger_account = $3, status = $4, value = $5
+                      WHERE id = $6 AND contract = $7`,
+                    [
+                        updatedMoviment.datetime,
+                        updatedMoviment.description,
+                        updatedMoviment.ledger_account,
+                        updatedMoviment.status,
+                        -(Number(updatedMoviment.value) || 0),
+                        counterpartId,
+                        updatedMoviment.contract
+                    ]
+                );
+            }
+
+            return { success: true, moviment: result };
+        });
     } catch (error) {
         console.log(`Error editing moviment`, error);
         throw error;
@@ -2047,21 +2382,42 @@ async function editMoviment(body: any) {
 async function deleteMoviment(body: any) {
     try{
         const id = normalizeMovimentId(body?.id ?? body?.moviment?.id);
-        const result = await dbloglife.oneOrNone(
-            `DELETE FROM finance.moviments
-              WHERE id = $1 AND contract = $2
-              RETURNING *`,
-            [id, normalizeNullableInteger(body?.contract, 'contract')]
-        );
+        const contract = normalizeNullableInteger(body?.contract, 'contract');
+        const user = normalizeNullableInteger(body?.user, 'user');
 
-        if (!result) {
-            throw new Error('Moviment not found');
-        }
+        return dbloglife.tx(async transaction => {
+            await setMovimentAuditContext(transaction, user, body?.request_id);
+            const relation = await transaction.oneOrNone(
+                `SELECT * FROM finance.moviment_transfers
+                  WHERE contract = $1 AND (source_moviment_id = $2 OR destination_moviment_id = $2)
+                  FOR UPDATE`,
+                [contract, id]
+            );
+            const ids = relation
+                ? [relation.source_moviment_id, relation.destination_moviment_id]
+                : [id];
 
-        return {
-            success: true,
-            moviment: result
-        };
+            if (relation) {
+                await transaction.none(`DELETE FROM finance.moviment_transfers WHERE id = $1`, [relation.id]);
+            }
+
+            const result = await transaction.any(
+                `DELETE FROM finance.moviments
+                  WHERE id IN ($1:csv) AND contract = $2
+                  RETURNING *`,
+                [ids, contract]
+            );
+
+            if (result.length === 0) {
+                throw new Error('Moviment not found');
+            }
+
+            return {
+                success: true,
+                moviment: result.find((moviment: any) => moviment.id === id) ?? result[0],
+                moviments: result
+            };
+        });
     } catch (error) {
         console.log(`Error deleting moviment`, error);
         throw error;
@@ -2077,25 +2433,31 @@ async function toggleMovimentCreditStatus(body: any) {
             throw new Error('Invalid credit status');
         }
 
-        const result = await dbloglife.oneOrNone(
-            `UPDATE finance.moviments
-                SET credit_status = CASE
-                    WHEN $2 = true THEN CURRENT_TIMESTAMP
-                    ELSE NULL
-                END
-              WHERE id = $1 AND contract = $3
-              RETURNING id, credit_status`,
-            [id, confirmed, normalizeNullableInteger(body?.contract, 'contract')]
-        );
+        const contract = normalizeNullableInteger(body?.contract, 'contract');
+        const user = normalizeNullableInteger(body?.user, 'user');
 
-        if (!result) {
-            throw new Error('Moviment not found');
-        }
+        return dbloglife.tx(async transaction => {
+            await setMovimentAuditContext(transaction, user, body?.request_id);
+            const result = await transaction.oneOrNone(
+                `UPDATE finance.moviments
+                    SET credit_status = CASE
+                        WHEN $2 = true THEN CURRENT_TIMESTAMP
+                        ELSE NULL
+                    END
+                  WHERE id = $1 AND contract = $3
+                  RETURNING id, credit_status`,
+                [id, confirmed, contract]
+            );
 
-        return {
-            success: true,
-            moviment: result
-        };
+            if (!result) {
+                throw new Error('Moviment not found');
+            }
+
+            return {
+                success: true,
+                moviment: result
+            };
+        });
     } catch (error) {
         console.log(`Error toggling moviment credit status`, error);
         throw error;
@@ -2172,6 +2534,7 @@ async function syncCreditBills(body: any) {
         const provisionedStatus = await getProvisionedStatus(contract);
 
         return await dbloglife.tx(async transaction => {
+            await setMovimentAuditContext(transaction, user, body?.request_id);
             const accounts = await transaction.any(
                 `SELECT id, description, closing_day, pay_day, debit_account
                    FROM finance.moviment_accounts
@@ -2392,24 +2755,19 @@ async function addMovimentAccount(body: any) {
     try {
         const account = normalizeMovimentAccountPayload(body?.account ?? body);
         await assertMovimentAccountBillingAccess(account);
-        const result = await dbloglife.one(
-            `INSERT INTO finance.moviment_accounts (
-                description,
-                icon,
-                contract,
-                start_date,
-                start_value,
-                closing_day,
-                pay_day,
-                debit_account,
-                account_type
-             )
-             VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
-             RETURNING *`,
-            getMovimentAccountValues(account)
-        );
+        return dbloglife.tx(async transaction => {
+            await setMovimentAuditContext(transaction, normalizeNullableInteger(body?.user, 'user'), body?.request_id);
+            const result = await transaction.one(
+                `INSERT INTO finance.moviment_accounts (
+                    description, icon, contract, start_date, start_value,
+                    closing_day, pay_day, debit_account, account_type
+                 ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+                 RETURNING *`,
+                getMovimentAccountValues(account)
+            );
 
-        return { success: true, account: result };
+            return { success: true, account: result };
+        });
     } catch (error) {
         console.log(`Error adding moviment account`, error);
         throw error;
@@ -2422,30 +2780,24 @@ async function editMovimentAccount(body: any) {
         const id = normalizeSettingsId(body?.id ?? accountBody?.id, 'account');
         const account = normalizeMovimentAccountPayload(accountBody);
         await assertMovimentAccountBillingAccess(account);
-        const result = await dbloglife.oneOrNone(
-            `UPDATE finance.moviment_accounts
-                SET description = $1,
-                    icon = $2,
-                    contract = $3,
-                    start_date = $4,
-                    start_value = $5,
-                    closing_day = $6,
-                    pay_day = $7,
-                    debit_account = $8,
-                    account_type = $9
-              WHERE id = $10 AND contract = $3
-              RETURNING *`,
-            [
-                ...getMovimentAccountValues(account),
-                id
-            ]
-        );
+        return dbloglife.tx(async transaction => {
+            await setMovimentAuditContext(transaction, normalizeNullableInteger(body?.user, 'user'), body?.request_id);
+            const result = await transaction.oneOrNone(
+                `UPDATE finance.moviment_accounts
+                    SET description = $1, icon = $2, contract = $3, start_date = $4,
+                        start_value = $5, closing_day = $6, pay_day = $7,
+                        debit_account = $8, account_type = $9
+                  WHERE id = $10 AND contract = $3
+                  RETURNING *`,
+                [...getMovimentAccountValues(account), id]
+            );
 
-        if (!result) {
-            throw new Error('Account not found');
-        }
+            if (!result) {
+                throw new Error('Account not found');
+            }
 
-        return { success: true, account: result };
+            return { success: true, account: result };
+        });
     } catch (error) {
         console.log(`Error editing moviment account`, error);
         throw error;
@@ -2455,18 +2807,21 @@ async function editMovimentAccount(body: any) {
 async function deleteMovimentAccount(body: any) {
     try {
         const id = normalizeSettingsId(body?.id ?? body?.account?.id, 'account');
-        const result = await dbloglife.oneOrNone(
-            `DELETE FROM finance.moviment_accounts
-              WHERE id = $1 AND contract = $2
-              RETURNING *`,
-            [id, normalizeNullableInteger(body?.contract, 'contract')]
-        );
+        return dbloglife.tx(async transaction => {
+            await setMovimentAuditContext(transaction, normalizeNullableInteger(body?.user, 'user'), body?.request_id);
+            const result = await transaction.oneOrNone(
+                `DELETE FROM finance.moviment_accounts
+                  WHERE id = $1 AND contract = $2
+                  RETURNING *`,
+                [id, normalizeNullableInteger(body?.contract, 'contract')]
+            );
 
-        if (!result) {
-            throw new Error('Account not found');
-        }
+            if (!result) {
+                throw new Error('Account not found');
+            }
 
-        return { success: true, account: result };
+            return { success: true, account: result };
+        });
     } catch (error) {
         console.log(`Error deleting moviment account`, error);
         throw error;
@@ -2500,14 +2855,17 @@ async function deleteStatus(body: any) {
 async function addBasicSettingsRecord(body: any, bodyKey: string, entityName: string, tableName: string) {
     try {
         const settings = normalizeBasicSettingsPayload(body?.[bodyKey] ?? body, entityName);
-        const result = await dbloglife.one(
-            `INSERT INTO ${tableName} (description, icon, contract)
-             VALUES ($1, $2, $3)
-             RETURNING *`,
-            getBasicSettingsValues(settings)
-        );
+        return dbloglife.tx(async transaction => {
+            await setMovimentAuditContext(transaction, normalizeNullableInteger(body?.user, 'user'), body?.request_id);
+            const result = await transaction.one(
+                `INSERT INTO ${tableName} (description, icon, contract)
+                 VALUES ($1, $2, $3)
+                 RETURNING *`,
+                getBasicSettingsValues(settings)
+            );
 
-        return { success: true, [bodyKey]: result };
+            return { success: true, [bodyKey]: result };
+        });
     } catch (error) {
         console.log(`Error adding ${entityName}`, error);
         throw error;
@@ -2519,24 +2877,22 @@ async function editBasicSettingsRecord(body: any, bodyKey: string, entityName: s
         const settingsBody = body?.[bodyKey] ?? body?.updatedData ?? body;
         const id = normalizeSettingsId(body?.id ?? settingsBody?.id, entityName);
         const settings = normalizeBasicSettingsPayload(settingsBody, entityName);
-        const result = await dbloglife.oneOrNone(
-            `UPDATE ${tableName}
-                SET description = $1,
-                    icon = $2,
-                    contract = $3
-              WHERE id = $4 AND contract = $3
-              RETURNING *`,
-            [
-                ...getBasicSettingsValues(settings),
-                id
-            ]
-        );
+        return dbloglife.tx(async transaction => {
+            await setMovimentAuditContext(transaction, normalizeNullableInteger(body?.user, 'user'), body?.request_id);
+            const result = await transaction.oneOrNone(
+                `UPDATE ${tableName}
+                    SET description = $1, icon = $2, contract = $3
+                  WHERE id = $4 AND contract = $3
+                  RETURNING *`,
+                [...getBasicSettingsValues(settings), id]
+            );
 
-        if (!result) {
-            throw new Error(`${entityName.charAt(0).toUpperCase()}${entityName.slice(1)} not found`);
-        }
+            if (!result) {
+                throw new Error(`${entityName.charAt(0).toUpperCase()}${entityName.slice(1)} not found`);
+            }
 
-        return { success: true, [bodyKey]: result };
+            return { success: true, [bodyKey]: result };
+        });
     } catch (error) {
         console.log(`Error editing ${entityName}`, error);
         throw error;
@@ -2546,18 +2902,21 @@ async function editBasicSettingsRecord(body: any, bodyKey: string, entityName: s
 async function deleteBasicSettingsRecord(body: any, bodyKey: string, entityName: string, tableName: string) {
     try {
         const id = normalizeSettingsId(body?.id ?? body?.[bodyKey]?.id, entityName);
-        const result = await dbloglife.oneOrNone(
-            `DELETE FROM ${tableName}
-              WHERE id = $1 AND contract = $2
-              RETURNING *`,
-            [id, normalizeNullableInteger(body?.contract, 'contract')]
-        );
+        return dbloglife.tx(async transaction => {
+            await setMovimentAuditContext(transaction, normalizeNullableInteger(body?.user, 'user'), body?.request_id);
+            const result = await transaction.oneOrNone(
+                `DELETE FROM ${tableName}
+                  WHERE id = $1 AND contract = $2
+                  RETURNING *`,
+                [id, normalizeNullableInteger(body?.contract, 'contract')]
+            );
 
-        if (!result) {
-            throw new Error(`${entityName.charAt(0).toUpperCase()}${entityName.slice(1)} not found`);
-        }
+            if (!result) {
+                throw new Error(`${entityName.charAt(0).toUpperCase()}${entityName.slice(1)} not found`);
+            }
 
-        return { success: true, [bodyKey]: result };
+            return { success: true, [bodyKey]: result };
+        });
     } catch (error) {
         console.log(`Error deleting ${entityName}`, error);
         throw error;
@@ -2590,6 +2949,8 @@ export {
     addMoviment,
     editMoviment,
     deleteMoviment,
+    addTransfer,
+    editTransfer,
     toggleMovimentCreditStatus,
     syncCreditBills,
     addMovimentAccount,

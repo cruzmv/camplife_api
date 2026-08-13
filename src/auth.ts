@@ -1,4 +1,4 @@
-import { randomBytes } from 'crypto';
+import { randomBytes, randomUUID } from 'crypto';
 import { NextFunction, Request, Response } from 'express';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
@@ -355,14 +355,27 @@ export async function getContractOnboardingSetup(contractId: number) {
     );
 }
 
-export async function saveContractOnboardingSetup(contractId: number, onboardingSetup: unknown) {
-    return dbloglife.one<{ onboardingSetup: any }>(
-        `UPDATE finance.contracts
-            SET onboarding_setup = $2::jsonb
-          WHERE id = $1
-          RETURNING onboarding_setup AS "onboardingSetup"`,
-        [contractId, JSON.stringify(onboardingSetup ?? {})]
-    );
+export async function saveContractOnboardingSetup(
+    contractId: number,
+    onboardingSetup: unknown,
+    actorUserId: number,
+    requestId: string
+) {
+    return dbloglife.tx(async transaction => {
+        await transaction.one(
+            `SELECT set_config('app.user_id', $1, true) AS user_context,
+                    set_config('app.request_id', $2, true) AS request_context`,
+            [String(actorUserId), requestId]
+        );
+
+        return transaction.one<{ onboardingSetup: any }>(
+            `UPDATE finance.contracts
+                SET onboarding_setup = $2::jsonb
+              WHERE id = $1
+              RETURNING onboarding_setup AS "onboardingSetup"`,
+            [contractId, JSON.stringify(onboardingSetup ?? {})]
+        );
+    });
 }
 
 export function requireFinanceAuth(req: Request, res: Response, next: NextFunction): void {
@@ -385,7 +398,8 @@ export function requireFinanceAuth(req: Request, res: Response, next: NextFuncti
 export function withFinanceIdentity(body: any, req: Request) {
     const identity = {
         contract: req.auth!.contractId,
-        user: req.auth!.userId
+        user: req.auth!.userId,
+        request_id: randomUUID()
     };
     const securedBody = {
         ...(body ?? {}),
@@ -394,7 +408,7 @@ export function withFinanceIdentity(body: any, req: Request) {
 
     Object.keys(securedBody).forEach((key) => {
         const value = securedBody[key];
-        if (value && typeof value === 'object' && !Array.isArray(value)) {
+        if (key !== 'onboardingSetup' && value && typeof value === 'object' && !Array.isArray(value)) {
             securedBody[key] = { ...value, ...identity };
         }
     });
